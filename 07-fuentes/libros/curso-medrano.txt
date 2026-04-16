@@ -1,0 +1,2427 @@
+CURSO INTEGRAL DE COMPOSICIÓN MUSICAL
+
+INTRODUCCIÓN
+
+ELEMENTOS DE LA MÚSICA
+
+1.- Nota: Llamamos nota a cada uno de los sonidos bien definidos (con una frecuencia determinada) de un sistema musical. 
+
+2.- Armónicos naturales: En la naturaleza, cuando se produce un sonido, no sólo se escucha la frecuencia fundamental que nos da el tono, sino también una serie de frecuencias adicionales llamadas armónicos naturales. Estos armónicos son múltiplos enteros de la frecuencia fundamental, y según que armónicos genera un instrumento musical o una voz percibimos su timbre característico. Por ejemplo, la riqueza de armónicos de un violín contribuye a su sonido brillante, mientras que la flauta tiene menos armónicos prominentes, lo que resulta en un sonido más "puro". 
+
+           	
+
+
+
+
+
+
+
+
+
+
+
+
+
+Frecuencias presentes en C5 en piano.                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Frecuencias presentes en C5 en el cello.
+3.- Tabla completa de armónicos naturales:
+
+
+
+
+4.- Escala: Llamamos escala al ordenamiento sucesivo, conjunto, ascendente o descendente de un número determinado de sonidos diferentes. En la cultura occidental, estas escalas surgen de una sucesión de quintas justas, teorizado por primera vez por Pitágoras, quien descubrió las relaciones matemáticas de los armónicos naturales. Existen diferentes tipos de escalas, como la mayor, menor, y varios modos, cada una con su propia disposición de tonos y semitonos. 
+
+
+
+
+
+5.- Quintas justas y coma pitagórica: Pitágoras, estudiando el comportamiento de las cuerdas, encontró que la octava tiene una relación 2:1 y la quinta justa una relación 3:2. Siendo la quinta justa la primera nota consonante después de la octava, los antiguos griegos experimentaron con la sucesión de quintas para obtener escalas. 
+
+Sin embargo, se descubrió un fenómeno interesante: teóricamente, doce quintas sucesivas deberían llegar a la misma nota en la que comenzamos, pero en realidad esto no sucede exactamente. Esta pequeña diferencia se llama coma pitagórica. 
+
+6.- Cálculo de la coma pitagórica: 
+
+Doce quintas justas: 
+
+
+
+Siete octavas: 
+
+
+
+
+La diferencia entre estos valores representa la coma pitagórica, y fue una constante preocupación de los teóricos de la música y de la acústica por siglos. 
+
+7.- Temperamento igual: El sistema musical que usamos actualmente en occidente es el de “Temperamento Igual”  (Equal Tempered) el cual finalmente resolvió el dilema de la coma pitagórica al dividir la octava en doce semitonos exactamente iguales. Algunos de los nombres más asociados con el desarrollo del temperamento igual y la afinación en la música son:
+
+    1. Andreas Werckmeister: Un teórico alemán del siglo XVII que propuso varios sistemas de afinación y temperamento. El temperamento igual finalmente se convirtió en el estándar debido a su trabajo y el de otros.
+    2. Johann Sebastian Bach: Aunque no inventó el temperamento igual, Bach lo popularizó con su obra "El clave bien temperado", que muestra las posibilidades musicales de un sistema de afinación más flexible.
+    3. Hermann von Helmholtz: Un científico del siglo XIX que investigó profundamente la teoría de la música y la acústica, y ayudó a explicar cómo funcionan diferentes sistemas de temperamento.
+El temperamento igual fue revolucionario porque permitió a los músicos tocar en todas las tonalidades sin necesidad de reafinar sus instrumentos. Esto facilitó la modulación entre tonalidades distantes y expandió las posibilidades armónicas y compositivas en la música occidental. 
+8.- Cálculo de frecuencias en el sistema temperado: En el sistema musical temperado, la relación entre las frecuencias de las notas es constante y se basa en la doceava raíz de 2. Esto significa que cada semitono tiene una relación de frecuencia de aproximadamente 1.05946. Esta constante se usa para calcular las frecuencias de las notas sucesivas en una escala.
+
+Para ilustrar esto, tomemos el ejemplo de la escala de do mayor (C) en el sistema temperado igual. Supongamos que la nota A4 tiene una frecuencia de 440 Hz (lo cual es estándar en la música occidental). Aquí está cómo se calculan las frecuencias de las demás notas de la escala de do mayor a partir de esta:
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9.- Escalas heptáfonas: Las escalas que estudiaremos se denominan heptáfonas, o sea de siete notas. Sin embargo, es importante mencionar que existen escalas con diferente número de notas en otras tradiciones musicales. Por ejemplo, la escala pentáfona china de cinco notas, o las escalas de cuartos de tono en algunas músicas de Oriente Medio. 
+
+
+
+
+
+
+
+
+10.- Origen de las escalas diatónicas: El paso de las 12 notas cromáticas a las 7 notas diatónicas en la música occidental tiene sus raíces en la teoría musical de la antigua Grecia. Los griegos organizaban las notas en grupos de cuatro llamados tetracordios, que consistían en dos intervalos de un tono entero y un intervalo de un semitono dentro de una cuarta justa y sin semitonos consecutivos. 
+
+Al unir dos tetracordios separados por un tono entero, se obtenía una escala de 7 notas, conocida como el sistema de "especies de octava". Estas escalas de 7 notas, derivadas de los tetracordios griegos, sentaron las bases para los modos eclesiásticos medievales y, posteriormente, para las escalas y modos utilizados en la música occidental. Los teóricos musicales y los compositores reconocieron que estas combinaciones de 7 notas, con su distribución específica de tonos y semitonos, eran más consonantes y musicalmente satisfactorias que otras posibles combinaciones de las 12 notas cromáticas. 
+
+Además, la selección de 7 notas proporcionó un marco más simple y accesible para la memorización y la ejecución musical. Con el tiempo, estas escalas y modos de 7 notas se convirtieron en la base del sistema tonal occidental, y su uso se generalizó en la composición y la interpretación musical. 
+
+11.- Grados de la escala: Cada uno de los sonidos pertenecientes a una escala recibe el nombre de grado, clasificándose con numerales romanos (I, II, III, IV, V, VI, VII). Estos grados forman la base de muchas progresiones armónicas en la música tonal. 
+
+
+
+
+
+
+
+
+
+
+
+12.- Modos de la escala: Modo es cada una de las presentaciones de una escala a partir de cada uno de sus grados, o sea que existen siete modos.
+
+
+
+INTERVALOS
+
+1.- Llamamos intervalo a la distancia entre dos notas. Si ambas notas se escuchan al mismo tiempo tenemos un intervalo armónico. Si por el contrario se escuchan consecutivamente tenemos un intervalo melódico.
+
+
+
+
+
+
+
+
+2.- La teoría de los intervalos ha evolucionado desde los descubrimientos de Pitágoras sobre las proporciones matemáticas de los intervalos consonantes hasta la clasificación moderna en justos, mayores y menores. Esta evolución reflejó cambios en la percepción de la consonancia y la disonancia, adaptándose a las necesidades musicales de cada periodo. Durante el Renacimiento, las terceras y sextas fueron aceptadas como consonantes imperfectas, y en el Barroco, se formalizó la clasificación que utilizamos hoy en día, permitiendo una mayor precisión en la teoría y práctica musical. 
+
+2.- Clasificación moderna de los intervalos. Los intervalos tienen dos nombres, el general y el específico. Ambos se combinan cuando decimos "tercera mayor" o "quinta justa". El nombre general de los intervalos se calcula contando el número de espacios y líneas que incluyen a las dos notas, sin importar si lo hacemos hacia arriba o hacia abajo.
+
+
+
+3.- Sólo los unísonos, cuartas, quintas y octavas pueden ser justos. Los demás pueden ser mayores o menores. Cualquier justo o mayor que se agranda en un semitono se llamará aumentado. Cualquier menor o justo que se reduce en un semitono será disminuido. La distancia entre un mayor y un menor  con el mismo nombre general es de medio tono; el grande es el mayor y el pequeño es el menor.
+
+4.- De cualquier modo jonio, por ejemplo el de F se pueden calcular los siguientes intervalos:
+
+
+
+
+
+
+
+
+5.- De la ilustración anterior se deducen por ejemplo los siguientes intervalos:
+
+
+
+
+
+
+
+
+
+
+6.- Intervalos compuestos. Los intervalos mayores a la octava reciben el nombre de compuestos. La manera de nombrarlos es sucesivamente novena, décima, onceava, doceava, etc... y el nombre específico continúa siendo el mismo que el de su posición dentro de la octava.
+
+7.- Inversión de intervalos. La inversión de los intervalos se refiere a que la nota superior de un intervalo no mayor a una octava es movida una octava hacia abajo, o la nota inferior es movida una octava hacia arriba. El intervalo que resulta siempre guarda una relación con el intervalo que le dio origen, como se muestra en la siguiente lista.
+
+a)  la inversión de un   unísono   resulta en una octava    y viceversa;
+b)   "        "        "   una segunda       "      "    "   séptima  "    "       "   ;
+c)   "        "        "     "    tercera        "      "    "   sexta      "    "       "   ;
+d)   "        "        "     "    cuarta         "      "    "   quinta     "    "       "   ;       
+e)   "        "        "   un intervalo justo permanece justo;
+f)   "        "        "    "      "         mayor se convierte en menor y viceversa;
+g)   "        "        "    "      "         aumentado se convierte en disminuido y viceversa.
+
+
+
+
+
+
+
+
+
+
+
+ESCALAS BÁSICAS
+
+1.- De los modos ancestrales sobrevivieron dos: el jonio que devino en el mayor natural, y el eolio, que se transformó en el menor natural.
+
+2.- Para darle carácter conclusivo al modo menor natural, los antiguos maestros confirieron a ambas escalas un VII grado común (sensible) a distancia de semitono diatónico del primer grado (tónica), surgiendo de tal manera la escala menor armónica. 
+nota: diatónico viene del griego dia que significa a través. Diatónico significa a través de los tonos.
+
+3.- El intervalo de 2a. aumentada conformado por los grados VI y VII de la escala menor armónica (de carácter islámico) fue evitado alterando ascendentemente el VI grado, surgiendo así la escala menor melódica, que desciende como el modo menor natural para recuperar el carácter modal.
+
+
+
+
+
+4.- Llamamos tetracorde (tetracordio) a cada uno de los módulos en que desglosamos a las escalas heptáfonas para su estudio, y los dividimos en superior e inferior.                            
+
+5.- De las escalas básicas obtenemos cuatro tipos de tetracordes, con diferente disposición de tonos y semitonos:
+
+
+
+
+
+
+
+
+
+
+
+
+
+CURSO DE ARMONÍA
+
+
+FUNCIONES DE LOS GRADOS DE LA ESCALA DENTRO DE LA TONALIDAD
+
+1.- Los grados de la escala poseen nombres específicos:
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+2.- Funciones de los grados:
+
+a) grados tonales o principales: I, IV y V
+b) grados modales: III y VI
+c) grados atractivos: VII sensible y los grados IV y VI cuando coexisten en el mismo acorde con el VII sensible.
+d) grados secundarios: los que no son principales.
+e) también se consideran atractivos los grados II frygio, IV lydio y VII mixolydio.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nota: en términos generales llamamos nota “atractiva a aquella” que requiere de una resolución especial según su tendencia armónica.
+
+
+
+
+
+
+
+ACORDES
+
+1.- Llamamos acorde a toda simultaneidad de sonidos diferentes.
+
+
+
+
+
+
+
+2.- Construimos los acordes a partir de un sonido generador llamado fundamental, por intervalos superpuestos de tercera. Según cuantas terceras se superpongan, el acorde se llamará de las siguientes maneras:
+
+ 
+
+
+
+
+3.- Llamamos armonía a aquella parte de la tecnología musical que estudia tanto la estructura interválica como las leyes de enlace de los acordes.
+
+
+
+
+
+
+4.- Sin embargo nos interesa el estudio de "las armonías" conforme a las circunstancias de época, género, corriente estilística, individuo etc., para lo cual la tabla de los armónicos nos revela datos muy importantes.
+
+
+Considerando a cada uno de los grados de las escalas básicas como fundamental para generar acordes de 5a, obtenemos sólo cuatro tipos de acordes que clasificamos de la siguiente forma:
+
+a) mayor				c) disminuído
+
+
+
+b) menor				d) aumentado
+
+
+
+
+
+nota: un acorde es mayor o menor por su tercera y aumentado o disminuido por su quinta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.- Los acordes pertenecientes a una misma escala pueden agruparse en tres regiones tonales:
+
+
+
+
+
+
+
+
+
+
+
+a) Cada región está representada por un acorde principal que le da su nombre, y dos secundarios a la 3a superior e inferior de aquel.
+b) Los acordes modales III y VI pueden pertenecer a dos regiones tonales.
+c) Los acordes pertenecientes a una misma región pueden sustituirse entre si sin que se altere el sentido armónico de un pasaje musical.
+
+
+TONALIDAD
+
+1.- Llamamos tonalidad al conjunto de relaciones, funciones, jerarquías, etc., que adoptan todos los sonidos de nuestro sistema musical en torno a uno de ellos elegido de antemano como centro tonal y al cual denominamos tónica.
+
+
+
+
+
+
+
+
+
+2.- Modular, tonular y toni-modular es sustituir un centro tonal por otro.
+
+3.- Las notas alteradas (o no alteradas) de un pasaje musical indican su tonalidad. Si ordenamos las tonalidades en el orden en que aparecen las nuevas alteraciones, podemos observar una relación fija de 5as justas, tanto entre las tonalidades como entre las alteraciones.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CUARTETO VOCAL ARMÓNICO
+
+1.- Utilizaremos en el cuarteto vocal dos voces femeninas, soprano y contralto, escritas siempre en clave de sol y con plicas opuestas.
+Así mismo utilizaremos dos voces masculinas, tenor y bajo, siempre escritas en clave de fa e igualmente con plicas opuestas.
+
+2.- Las tesituras correspondientes son:
+
+
+
+
+
+
+
+
+
+
+
+3.- Las máximas extensiones entre las tres voces superiores por lo general no rebasan la octava, siendo la más estricta la de contralto y tenor; entre tenor y bajo puede haber hasta una doble octava.
+
+
+
+
+
+
+
+
+
+
+DUPLICACIONES TRIPLICACIONES Y SUPRESIONES
+
+1.- Para emplear los acordes de 5a en la armonía a cuatro partes en preciso duplicar alguno de sus elementos. Podremos duplicar cualquier sonido excepto la sensible.
+
+
+
+
+
+
+
+2.- En los acordes mayores y menores podremos, si se quiere, suprimir la 5a. En este caso podemos duplicar el fundamental o la tercera e incluso triplicar la fundamental y menos frecuentemente la 3a.
+
+3.- Los acordes disminuidos y aumentados siempre se presentan completos.
+
+
+
+ESTADOS, POSICIÓN MELÓDICA Y DISPOSICIÓN INTERNA DE LOS ACORDES DE 5a
+
+1.- El estado de un acorde depende del elemento ubicado en la voz inferior o bajo armónico. Si el fundamental está en el bajo, se le llama estado fundamental. Si al tercera es la que se encuentra en el bajo, se le llama primera inversión. Estando la 5a en la voz inferior, se encuentra en segunda inversión.
+
+
+
+
+
+
+
+
+2.- La posición melódica depende del elemento ubicado en la voz superior. Si es la fundamental, tiene posición melódica de 8a; si es la tercera, de tercera; si por el contrario es la 5a, se dice: posición melódica de 5a.
+
+3.- La disposición interna de un acorde puede ser:
+a) Cerrada: si entre las tres voces superiores no podemos intercalar notas del mismo acorde.
+b) Abierta: en caso contrario.
+
+
+
+
+
+
+
+
+
+
+MOVIMIENTOS MELÓDICOS
+
+1.- Al enlazar un acorde con otro, cada voz podrá realizar los siguientes intervalos melódicos:
+                2a m, 2a M, 3a m, 3a M, 4a J, 5a J, 6a m, 6a M, 8a J. 
+
+nota: en ésta tabla no hay aumentados ni disminuidos, así como tampoco séptimas ni intervalos mayores a la octava.
+
+2.- Los intervalos anteriores se clasifican de la siguiente manera:
+	Grado conjunto:  2a m y 2a M.
+	Camino corto:     3a m y 3a M.
+	Salto corto:         4a J.
+	Saltos largos:       5a J, 6a m, 6a M y 8a J.
+
+3.- No se practica el salto melódico de 8a con la sensible.
+
+4.- Además se permiten los siguientes intervalos disminuidos si a continuación cambiamos de dirección, compensando melódicamente en sentido opuesto:
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.- No se practican dos saltos melódicos sucesivos en la misma dirección, excepto si el primero produce cuarta y el segundo quinta o viceversa.
+
+MOVIMIENTOS ARMÓNICOS
+
+1.- No se practican 5as ni 8as paralelas o contrarias en lo general.
+
+2.- Permitidas 5as paralelas cuando una de las dos o las dos no sean justas.
+
+
+
+
+
+
+3.- Permitidas 5as contrarias (no paralelas) en voces no extremas.
+
+
+
+
+
+
+
+
+
+
+
+4.- Evitamos dos saltos simultáneos en la misma dirección, excepto si ambos son de 4a justa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+MATERIAL ARMÓNICO
+
+
+1.- El material armónico Bachiano relacionado con los acordes de 5a es:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hay varias cuestiones que apuntar de la tabla anterior:
+
+a) Los acordes en segunda inversión no son de empleo libre, por que se genera disonancia de 4a con el bajo, y se verán mas adelante.
+b) Los acordes III y VI se usan en estado fundamental, por pertenecer a dos regiones tonales y por ser  modales.
+c) Los acordes disminuidos ( II del modo menor y VII en ambos modos ) se usan sólo en 6/3 para que no se produzca la 5a disminuida con el bajo.
+d) Los acordes V y VII son iguales en ambos modos.    
+e) El único acorde aumentado es el III del modo menor.
+
+
+
+
+
+
+
+TABLA DE ENLACES
+
+1.- Existe, al menos en el periodo clásico, un sentido general de enlace que se resume en la siguiente tabla:
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.- Los acordes en segunda inversión (6/4) no se emplean libremente y se utilizarán en casos específicos.
+
+3.- Al repetir acorde no existe técnica de enlace.
+
+
+
+
+
+
+
+
+
+
+4.- Para realizar un coral principiamos y concluimos con I fundamental. Si lo deseamos podemos iniciar con anacrusa de V, en cuyo caso el I puede estar en fundamental o en 6/3. 
+
+5.- Habiendo decido el compás que utilizaremos (2/4, 3/4 o 4/4) construimos un cifrado de acuerdo a la tabla general de enlaces.
+6.- Procedemos a construir uno por uno los acordes respetando todas las reglas armónicas y melódicas anteriores.
+
+7.- Si la sensible se encuentra en la soprano y el acorde que sigue contiene la tónica, la sensible siempre ascenderá a tónica menos en el enlace III-IV.
+
+
+Resumen técnico:
+
+a) Respetar las tesituras.
+b) Respetar las máximas extensiones entre las voces.
+c) Utilizar sólo las notas del acorde cifrado.
+d) Evitar duplicar la sensible en los acordes III, V y VII.
+e) Presentar completos los acordes II y III del modo menor y el VII de ambos modos.
+f) Siempre presentar la 3a de todos los acordes.
+g) Evitar los intervalos melódicos de 7a y aumentados.
+h) Compensar debidamente los intervalos melódicos disminuidos.
+i) Evitar saltos melódicos sucesivos.
+j) Ascender la sensible a tónica en soprano, excepto en el enlace III-IV.
+k) Evitar dos saltos simultáneos.
+l) Checar armónicamente los seis pares de voces para evitar los paralelismos.
+
+
+CASOS ESPECIALES PARA EL MODO MENOR
+
+1.- Cuando en modo menor:
+
+a) Enlazamos un III con un VI, la sensible asciende a tónica donde quiera que ésta se encuentre.
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+b) Enlazamos un III con un V o VII 6/3, la sensible permanece inmóvil, percutida o ligada:
+
+                       
+
+
+
+
+
+
+
+
+
+
+
+c) Enlazamos un III con un IV, el tercero presentará subtónica (En cualquier voz) . La subtónica no es nota atractiva, se puede duplicar y no asciende a tónica si está en soprano.
+
+ 
+
+
+
+
+
+
+
+
+
+d) Enlazamos un IV 6/3 con un V 6/3, podemos alterar ascendentemente los dos bajos, produciendo un IV melódico, o bien producir un salto melódico de 7a disminuida si a continuación compensamos en sentido opuesto.
+
+
+
+
+
+
+
+
+
+
+            
+                                                               IV6/3mel  V6/3         IV6/3 V6/3 
+
+e) Concluimos en algunas ocasiones un coral sorpresivamente con un IH (homónimo). Este estilo de composición pertenece a la región de Picardie en los siglos XVI y XVII, por lo que se le llamaba la tercera de Picardie. El término homónimo se refiere al acorde que tiene el mismo nombre en el modo relativo.
+
+
+
+
+
+
+
+ACORDES DE PASO
+
+1.- Los acordes de paso se usan para pasar de un estado a otro de un mismo acorde. El bajo y  otra voz marchan por movimiento contrario y grados conjuntos. Sin embargo se pueden usar perfectamente utilizando los grados conjuntos sólo en el bajo y moviendo con libertad las demás voces, como en el último ejemplo. También se utilizan en ambos modos sin problema alguno y pueden ubicarse en cualquier parte del compás.
+
+
+2.- Acorde de paso V 6/4:
+
+
+
+
+
+
+
+
+3.- Acorde de paso VII 6/3:
+     
+
+
+
+
+
+
+
+
+
+4.- Acorde de paso I 6/4:
+
+
+
+
+
+
+ 
+
+
+
+CADENCIAS
+
+1.- Llamamos cadencia a aquella sucesión de acordes que posee una intención conclusiva.
+
+2.- El sentido natural de las cadencias nos lleva hacia regiones tonales cada vez más importantes.
+
+3.- Al menos los dos últimos acordes de una cadencia se encuentran en estado fundamental.
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+
+4.- El I 6/4 de la cadencia ampliada se utiliza, salvo una sola excepción, en pulso fuerte.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SEMICADENCIAS
+
+1.- Llamamos semicadencia a cualquier reposo parcial efectuado en el transcurso de un coral. Estas pausas son tan importantes como lo es el respirar para el coro. Normalmente coinciden con el final de alguna frase, pues recordemos que el coral armoniza a un texto de carácter casi siempre religioso.
+
+2.- Después de un reposo semicadencial no aplicamos técnica de enlace.
+
+
+3.- Posibles semicadencias a la dominante:
+
+               
+
+
+
+
+
+
+
+4.- Posibles semicadencias a la subdominante:
+
+   
+
+
+
+5.- Semicadencia al VI. (Esta semicadencia suele ser mal llamada cadencia rota, lo cual no es un término totalmente apropiado. Mucho más preciso es decir: semicadencia al VI grado.)
+
+
+
+
+
+ 
+
+
+
+6.- Excepcionalmente Bach presenta alguna semicadencia al I grado.
+
+
+ARMONIZACIÓN DE TETRACORDES
+
+2.- Armonización del tetracorde superior ascendente para el modo mayor
+
+a) Fórmula general:
+
+
+
+
+
+
+
+
+
+
+b) Este tetracorde no se usa en el bajo, pues alteraría el estado de los acordes.
+
+c) Otra característica es que puede relevarse con voces contiguas.
+
+
+d) Algunos ejemplos:
+
+
+
+
+
+
+
+
+
+
+
+2.- Armonización del tetracorde superior descendente para el modo mayor
+
+a) Fórmula general:
+
+
+
+
+
+
+b) Igualmente no utilizamos éste tetracorde en el bajo.
+
+c) Este tetracorde no se releva entre pares de voces.
+
+d) Algunos ejemplos:
+
+
+
+
+
+
+
+
+
+
+nota: al enlazar III-IV en modo mayor, aún cuando la sensible aparezca en la soprano no la ascenderemos a tónica.
+
+
+
+
+
+
+
+
+
+
+3.- Armonización del tetracorde superior descendente para el modo menor
+
+a) Fórmula general:
+
+
+
+
+
+
+
+
+b) Para no alterar el estado de los acordes, tampoco lo utilizamos en el bajo con ésta armonía, aunque más adelante se presenta el caso.
+
+c) Se agrega a las posibilidades un magnífico VII 6/3 subtónica.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.- Dos casos especiales del tetracorde superior descendente para el modo menor en el bajo.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+nota: suele llamarse "cadencias frygias" a aquellos tetracordes superiores descendentes que en el modo menor concluyen con V.
+
+       
+       
+       
+       SÍNTESIS DE LOS ACORDE DE 5a
+
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+ACORDES CON SÉPTIMA
+
+       ACORDE V7
+
+1.- La estructura del acorde V7 es muy simple: tercera mayor, quinta justa y séptima menor. En la armonía a cuatro partes cada voz puede cantar cualquiera de las notas del acorde, pero también se puede presentar sin 5a duplicando únicamente la fundamental.
+
+
+
+
+
+
+
+2.- La séptima del acorde resuelve descendiendo por grado conjunto o permanece inmóvil. Este comportamiento se debe a que ésta nota corresponde al armónico 7, que es calante.
+
+3.- Casos de enlace del V7:
+
+
+
+
+
+
+
+
+
+
+
+
+4.- Donde quiera que haya un V, puede haber V7, excepto en la semicadencia a la dominante.
+       INVERSIONES DEL V7
+
+1.- Cifrado:
+
+
+
+
+
+
+
+
+2.- La séptima del acorde continúa resolviendo normalmente.
+
+3.- Casos de enlace de las inversiones del V7.
+
+
+
+
+
+
+
+
+
+
+
+4.- Al igual que el V7, donde quiera que hay un V o V6/3 puede haber cualquiera de las inversiones del acorde con séptima.
+
+5.- Acorde de paso II 6/4 para usarse entre V7 y V6/5 o viceversa. Al emplearlo en modo menor es preciso alterar ascendentemente la 5a del acorde.
+
+
+
+
+
+
+
+
+
+
+
+
+6.- Al emplear el acorde de paso II6/4 en modo menor es preciso alterar ascendentemente la 5a del acorde:
+
+
+
+
+
+
+6.- Acorde de paso III entre V4/3 y V2 y viceversa.
+
+
+
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       ACORDE VII 7 E INVERSIONES
+
+
+1.- Cifrado:
+
+
+
+
+
+
+
+
+
+
+2.- Sin embargo éste acorde no es idéntico en ambos modos, porque en el modo menor tiene séptima disminuida. Sin constituir una regla, Bach utiliza en el modo mayor el VII7 e inversiones del homónimo (con séptima disminuida “prestada del modo menor”).
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.- Se trata de un acorde disminuido, por lo que no debería presentarse en fundamental. Pero la sonoridad del VII7 es mucho más elegante que la del VII normal, por lo que se puede presentar en fundamental y en sus tres inversiones, teniendo cuidado de presentarlo siempre completo.
+
+4.- La séptima del acorde resuelve normalmente o permanece inmóvil.
+
+
+5.- Casos de enlace del VII 7 y sus inversiones.
+
+
+
+6.- Acordes de paso IV6/4 y V:
+
+
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       ACORDE II7 E INVERSIONES
+
+1.- Como todo acorde de séptima se cifra de la misma  manera:
+
+
+
+
+
+
+
+
+
+
+
+
+2.- La séptima del acorde resuelve normalmente o permanece inmóvil.
+
+3.- Si en el modo mayor enlazamos el II7 o sus inversiones con el VII7H o sus inversiones se produce un cromatismo (de la escala cromática) en el que hay que observar ciertas reglas:
+
+a) debe presentarlo la misma voz.
+
+b) siempre es descendente y resuelve por grado conjunto también descendente.
+
+4.- Casos de enlace del acorde II7 e inversiones:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.- Acorde de paso VI6/4 entre II7 y II6/5 en ambos modos.
+
+
+
+
+
+
+
+       
+       
+       
+       
+       
+       
+       ACORDE V 9
+
+
+1.- Estructura:
+
+
+
+
+
+
+
+
+2.- Sin embargo en la armonía a cuatro partes nos vemos forzados a suprimir una de las notas que, por importancia, suele ser la quinta del acorde.
+
+3.- Al igual que el VII 7 y sus inversiones se puede presentar con novena del homónimo ( 9a menor ).
+
+4.- La novena está obligada a resolver al igual que la séptima. Si no resuelven permanecen inmóviles.
+
+5.- Casos de enlace del acorde V 9:
+
+
+
+
+
+
+
+
+
+
+
+
+
+nota: al enlazar un V9 H con VI o IV 6/3 se produciría un cromatismo ascendente con la novena del V por lo que por ahora evitamos el H. El V9 normal puede ir sin problemas a estos dos acordes. En los demás casos puede o no presentar el H.
+
+6.- Acorde de paso III 6/3 entre V9 y V7 en ambos modos, 
+
+
+
+
+
+
+
+
+
+
+7.- Dos casos de armonización del tetracorde superior ascendente para el modo mayor en el bajo.
+
+
+
+
+
+
+
+
+
+nota: en ambos tetracorde no es posible usar el V9 H.
+
+
+       INVERSIONES DEL V 9
+
+1.- Cifrado:
+
+
+
+
+
+
+
+2.- Sin embargo, los clásicos utilizaron sólo la 3a inversión (3/2) y en una sola posición.
+
+
+
+
+
+
+
+
+
+
+3.- Casos de enlace del V 3/2, y acorde de paso III entre V 3/2 y V 4/3.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ACORDES IV 7 Y VI 7 E INVERSIONES
+
+1.- Aparecen excepcionalmente en Bach.
+
+2.- Armonización del tetracorde superior ascendente en el modo menor, para soprano, contralto o tenor, o fraccionado entre voces contiguas.
+
+
+
+
+
+
+       
+       
+       SÍNTESIS DEL MATERIAL ARMÓNICO DIATÓNICO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TÉCNICA INTEGRAL DE LA MODULACIÓN
+
+1.- Llamamos modulación a la sustitución de un centro tonal por otro dentro de una misma composición.
+
+2.- Llamamos antecedente a la tonalidad en la cual nos encontramos, y consecuente a la cual vamos a modular.
+
+3.- Tonos vecinos, o en primer grado de parentesco tonal son aquellos cuyas armaduras difieren en una o ninguna alteración respecto a la armadura de su antecedente común.
+
+                                   
+
+
+
+
+
+
+
+
+
+
+4.- Llamamos modulación diatónica a aquella que se efectúa a través de un acorde común tanto al antecedente como al consecuente.
+
+5.- Sin embargo, la mayoría de los planteos modulantes pueden sintetizarse en cuatro enunciados:
+
+
+
+
+
+
+
+
+
+
+
+nota: Armonía diatónica es aquella integrada por acordes emanados de las escalas básicas dadas (mayor natural, armónica y menores natural, armónica y melódica).
+
+
+CASOS MODULANTES
+
+Caso # 1.- Modulando de un antecedente mayor a la dominante:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+La composición se desarrolla hasta llegar al acorde que es común a ambas tonalidades. En este momento reinterpretamos el acorde en la nueva tonalidad y presentamos una breve cadencia a la nueva tónica que incluya la nota o nota diferencial (la que no coincide en sus armaduras).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 2.- Modulando de un antecedente mayor a la subdominante:
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 3.- Modulando de un antecedente mayor al relativo de la dominante:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 4.- Modulando de un antecedente menor al relativo de la subdominante:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 5.- Modulando de un antecedente mayor al relativo:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 6.- Modulando de un antecedente menor al relativo:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 7.- Modulando de un antecedente menor a la dominante:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 8.- Modulando de un antecedente menor a la subdominante:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 9.- Modulando de un antecedente mayor al relativo de la subdominante:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 10.- Modulando de un antecedente menor al relativo de la dominante:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 11.- Modulando de un antecedente mayor a la subdominante menor:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso # 12.- Modulando de un antecedente menor a la dominante mayor:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MODULANDO A TRAVÉS DE UN GIRO MELÓDICO CROMÁTICO
+
+1.- Modulando por cromatismo ascendente a través del nuevo VII grado.
+
+a) Buscamos en el antecedente un acorde que contenga aquella nota que pueda cromatizar ascendentemente hacia la nueva sensible.
+
+b) Tal nueva sensible se armoniza sólo con V o VII.
+
+c) Culminamos el giro cromático ascendiendo posteriormente por grado conjunto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.- Modulando por cromatismo descendente a través del nuevo VI grado.
+
+a) Buscamos en el antecedente un acorde que contenga aquella nota que pueda cromatizar descendentemente hacia el nuevo VI grado. Cuando el consecuente es mayor podemos utilizar el VI grado armónico u homónimo.
+
+b) El nuevo VI se armoniza sólo con V o VII.
+
+c) Culminamos el giro cromático descendiendo posteriormente por grado conjunto.
+
+
+
+
+
+
+
+
+
+
+
+3.- Modulando por cromatismo descendente a través del nuevo IV grado.
+
+a) Buscamos en el antecedente un acorde que contenga aquella nota que pueda cromatizar descendentemente hacia el nuevo IV grado. 
+
+b) El nuevo IV se armoniza sólo con V o VII.
+
+c) Culminamos el giro cromático descendiendo posteriormente por grado conjunto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MODULANDO EN SEGUNDO GRADO DE PARENTESCO TONAL
+
+1.- Son aquellas tonalidades que difieren en 2, 3, 4 o 5 alteraciones respecto a la armadura de su antecedente común
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso #1.- Modulando de mayor a mayor por 2a mayor ascendente.
+
+Pasamos a través del relativo de la dominante:
+
+
+
+
+
+
+
+nota: tratamos de obtener una tonalidad de paso que sea tono vecino tanto al antecedente como al consecuente y que no produzca un circuito de 5as o 4as.
+La tonalidad de paso no se satura.
+
+Caso #2.- Modulando de mayor a mayor por 2a mayor descendente.
+
+Pasamos a través del relativo de la subdominante:
+
+
+
+
+
+
+
+Caso #3.- Modulando de mayor a mayor por 3a menor descendente.
+
+Pasamos a través del relativo de la subdominante:
+
+
+
+
+
+
+nota: si la tonalidad de paso no funciona para modular al relativo menor bajamos la tonalidad inmediata anterior de la fórmula para mayores.
+
+Caso #4.- Modulando de mayor a mayor por 3a menor ascendente.
+
+Pasamos a través de la subdominante menor:
+
+
+
+
+
+
+Caso #5.- Modulando de mayor a mayor por 3a mayor ascendente.
+
+Pasamos a través del relativo:
+
+
+
+
+
+
+Caso #6.- Modulando de mayor a mayor por 3a mayor descendente.
+
+Pasamos a través de la subdominante menor:
+
+
+Caso #7.- Modulando de mayor a mayor por 2a menor descendente.
+
+Pasamos a través del relativo de la dominante:
+
+
+
+
+
+
+
+Caso #8.- Modulando de mayor a mayor por 2a menor ascendente.
+
+Pasamos a través de la subdominante menor:
+
+
+
+
+
+
+
+MODULANDO EN SEGUNDO GRADO DE PARENTESCO TONAL A PARTIR DE UN ANTECEDENTE MENOR
+
+
+
+
+
+
+
+
+
+Caso #1.- Modulando de menor a menor por 2a mayor ascendente.
+
+Pasamos a través del relativo de la dominante:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caso #2.- Modulando de menor a menor por 2a mayor descendente.
+
+Pasamos a través del relativo de la subdominante:
+
+
+
+
+
+
+
+Caso #3.- Modulando de menor a menor por 3a menor descendente.
+
+Pasamos a través de la dominante mayor:
+
+
+
+
+
+
+Caso #4.- Modulando de menor a menor por 3a menor ascendente.
+
+Pasamos a través del relativo de la dominante:
+
+
+
+
+
+
+
+Caso #5.- Modulando de menor a menor por 3a mayor ascendente.
+
+Pasamos a través de la dominante mayor:
+
+
+
+
+
+
+Caso #6.- Modulando de menor a menor por 3a mayor descendente.
+
+Pasamos a través del relativo:
+
+
+
+
+
+
+
+Caso #7.- Modulando de menor a menor por 2a menor descendente.
+
+Pasamos a través de la dominante mayor:
+
+
+
+
+
+
+
+Caso #8.- Modulando de menor a menor por 2a menor ascendente.
+
+Pasamos a través del relativo de la subdominante:
+
+
+
+
+
+
+
+MODULANDO EN TERCER GRADO DE PARENTESCO TONAL.
+
+1.- Son aquellas tonalidades cuya armadura difiere en 6 o 7 alteraciones respecto a la armadura de su antecedente común.
+
+
+
+
+
+
+
+
+
+
+
+
+Caso #1.- Modulando de mayor a mayor por 4a aumentada ascendente.
+
+Pasamos sucesivamente a través de la dominante y luego a través del relativo de la dominante:
+
+
+
+
+
+
+
+Caso #2.- Modulando de mayor a mayor por 4a aumentada descendente.
+
+Pasamos sucesivamente a través de la subdominante menor y luego a través del relativo de la subdominante:
+
+
+
+
+
+
+
+
+Caso #3.- Modulando de mayor a mayor por 1a aumentada ascendente.
+
+Pasamos tres veces consecutivas a través del relativo de la dominante:
+
+
+
+
+
+
+
+Caso #4.- Modulando de mayor a mayor por 1a aumentada descendente.
+
+Pasamos a través de la subdominante menor y dos veces consecutivas a través del relativo de la subdominante:
+
+
+
+
+
+
+
+
+
+
+
+MODULANDO EN TERCER GRADO DE PARENTESCO TONAL A PARTIR DE UN ANTECEDENTE MENOR.
+
+
+
+
+
+
+
+
+Caso #1.- Modulando de menor a menor por 4a aumentada ascendente.
+
+Pasamos consecutivamente a través de la dominante mayor y el relativo de la dominante:
+
+
+
+
+
+
+Caso #2.- Modulando de menor a menor por 4a aumentada descendente.
+
+Pasamos a través de la subdominante y el relativo de la subdominante:
+
+
+
+
+
+
+Caso #3.- Modulando de menor a menor por 1a aumentada ascendente.
+
+Pasamos sucesivamente a través de la dominante mayor y dos veces consecutivas a través del relativo de la dominante:
+
+
+
+
+
+Caso #4.- Modulando de menor a menor por 1a aumentada descendente.
+
+Pasamos sucesivamente tres veces a través del relativo de la subdominante:
+
+
+
+
+
+
+nota: Salvo excepción cuando ganamos sostenidos utilizamos tonalidades de paso relacionadas con la dominante, el relativo de la dominante o la dominante mayor. Cuando ganamos bemoles, lo relacionado con la subdominante, el relativo de la subdominante o la subdominante menor. En contados casos y en ambas direcciones puede surgir el relativo.
+
+
+
+
+
+
+MODULANDO EN SEGUNDO Y TERCER GRADO DE PARENTESCO TONAL SIN TONALIDADES DE PASO.
+
+1.- Casos posibles a través del nuevo 7o grado:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.- Casos posibles a través del nuevo 6o grado:
+
+
+
+
+
+
+
+
+
+
+
+
+2.- Casos posibles a través del nuevo 4o grado:
+
+
+
+
+
+
+
+
+
+
+OTROS CASOS MODULANTES MENOS FRECUENTES.
+
+1.- Existe la llamada modulación por enarmonía, en la que enarmonizamos uno o más elementos de cualquier acorde del antecedente para transformarlo en otro del consecuente.
+
+2.- El acorde debe conservar su naturaleza:
+
+mayor=mayor
+menor=menor
+disminuido=disminuido
+aumentado=aumentado
+
+3.- El caso realmente frecuente en Bach corresponde al VII7 e inversiones:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nota: el acorde enarmonizado del antecedente no se escribe. Salvo excepción, esta técnica no aparece en el periodo barroco o en la música de Bach.
+
+MODULACIÓN POR CORTE LIBRE.
+
+1.- Carece de técnica específica.
+
+
+
+
+
+
+
+
+
+
+FIGURACIÓN MELÓDICA.
+
+Definición
+La figuración melódica está integrada por aquellas notas extrañas a los acordes que poseen una intención específicamente melódica y ornamental.
+Clasificación según su papel rítmico
+Podemos distribuir estas notas en tres grupos conforme a su papel rítmico:
+    1. Antes del acorde:
+        ◦ Anticipos
+          
+    2. Con el acorde:
+        ◦ Apoyaturas
+        ◦ Retardos
+          
+    3. Después del acorde:
+        ◦ Notas bordadas
+        ◦ Escapadas
+        ◦ Pasos
+Notas de Paso (después del acorde)
+1.- Son aquellas que, ubicadas en pulso débil de tiempo y restando la mitad de su valor a la nota de la cual vienen, conectan intervalos melódicos de 3ª o 4ª.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.- Sin embargo, ninguna nota de paso debe producir defectos técnicos por lo menos por la duración de un tiempo completo, incluso en libre cambio de un mismo acorde.
+
+
+
+
+
+
+
+
+
+Bordados (después del acorde)
+1.- Llamamos bordado a aquel sonido que ornamenta a una misma nota por grado conjunto superior o inferior. Los bordados teóricos posibles son los siguientes:
+          
+
+
+
+
+2.- Sin embargo en la práctica no se aplican indistintamente todos los bordados posibles
+
+a) El fundamental y la 5a de un acorde mayor bordan por tono o semitono superiores y semitono inferior:
+
+
+
+
+
+b) La tercera de un acorde mayor borda por semitono superior y tono o semitono inferiores.
+
+
+
+
+c) Tanto el fundamental como la tercera de un acorde menor bordan por semitono inferior y tono superior.
+
+
+
+
+
+d) La 5a de un acorde menor borda usualmente por semitono superior o inferior; excepcionalmente y sobre todo en la música española borda también por tono inferior.
+
+
+
+
+
+
+
+e) Toda 7ª y 9ª bordan por tono superior o semitono inferior.
+
+
+
+
+
+
+
+
+
+
+
+f) Considerando que Schöenberg establece que un acorde disminuido no es autónomo, sino que deriva de un acorde mayor cuyo verdadero fundamental se encuentra ubicado una 3a mayor por abajo del aparente fundamental, las notas de dicho disminuido bordarán como sus correspondientes del acorde mayor con generador omitido del cual se deriva.
+
+
+
+
+
+
+g) Llamamos nota de vuelta a un bordado que nos conduce a de un acorde a otro diferente bordando una nota común.
+
+
+
+
+
+
+
+
+
+
+
+Apoyaturas (con el acorde)
+
+1.- Llamamos apoyatura a aquel ornamento que percutido junto con el acorde, desplaza a pulso débil la nota apoyada por grado conjunto superior o inferior.
+
+2.- Observa las mismas relaciones interválicas que los bordados.
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+3.- Una apoyatura si puede venir de un intervalo aumentado.
+
+
+
+
+
+
+
+Escapadas (después del acorde)
+
+1.- Llamamos escapada a aquel ornamento que ubicado en pulso débil abandona la primera nota por grado conjunto para abordar la siguiente por grado disjunto o viceversa, en la misma dirección o por medio de un giro melódico envolvente.
+
+
+
+
+
+2.- No confundir un libre cambio de posición melódica con octavos en cualesquiera de las voces con una auténtica escapada extraña al acorde del cual procede.
+
+
+
+
+
+
+Anticipos (antes del acorde)
+
+1.- Llamamos anticipo a aquel ornamento que ubicado en pulso débil anticipa por grado conjunto superior o inferior la nota correspondiente del siguiente acorde.
+2.- Salvo excepción, se utiliza en soprano cuando en cualquier enlace marcha esta por grado conjunto ascendente o descendente.
+
+
+
+
+
+
+
+Retardos (con del acorde)
+
+1.- Cuando cualesquiera de las 3 voces superiores marchen por grado conjunto descendente podremos prolongar la duración de la primera nota hasta la percusión del siguiente acorde, al cual no pertenece y con cuyo bajo debe producir disonancia armónica de 7a, 4a, o 9a.
+
+
+
+
+
+
+
+2.- Por sonoridad no recomendamos resolver cualquier retardo a 3a o 5a duplicadas.
+
+
+
+
+
+
+
+
+3.- El único retardo que podemos aplicar en el bajo es aquel que produce intervalo disonante de 2a o 9a con cualesquiera de las voces superiores.
+
+
+
+
+
+
+
+4.- En cualquier enlace donde la sensible asciende a tónica en alguna de las tres voces superiores podemos aplicar un retardo de sensible con resolución ascendente.
+
+
+
+
+
+
+
+5.- Eventualmente Bach resuelve por grado conjunto ascendente un retardo de 9a o 7a mayores.
+
+
+
+
+
+
+
+Ornamentación doble de la misma naturaleza.
+
+1.- Para producir doble ornamentación de igual naturaleza es preciso que los dos ornamentos marchen por:
+a) 3as paralelas
+b) 6as paralelas
+c) movimiento contrario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nota: para producir retardos dobles que generen 3as o 6as paralelas habremos de combinar tan solo los retardos descendentes de 4a y 9a o viceversa; en cuanto al movimiento contrario combinaremos los descendentes de 7a, 4a y 9a con el ascendente de sensible.
+
+
+
+
+
+
+
+
+Ornamentación triple y cuádruple
+
+1.- Para producir ornamentación triple:
+a) dos de los ornamentos producen 3as o 6as paralelas
+b) el otro se opone a aquellas por movimiento contrario
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.- Para producir retardos triples es factible combinar los descendentes de 4a y 9a con el ascendente de sensible.
+
+
+
+
+
+
+
+3.- No se practican con frecuencia escapadas y anticipos triples.
+4.- El único caso de ornamentación cuádruple frecuente es aquel que opone dos parejas de 3as paralelas en atención a notas de paso clásicas.
+
+
+
+
+
+
+
+Combinación de ornamentos de diferente naturaleza.
+
+1.- Para combinar ornamentos de diferente naturaleza solo hay que evitar los paralelismos disonantes de 7as, 9as y 4as (u oncenas)
+
+
+
+
+
+
+
+Armonía cromática
+
+1.- Es aquella integrada por acordes provenientes de la escala cromática y sus alteraciones.
+2.- Escritura tonal de la escala cromática:
+a) Escribimos previamente una escala mayor
+b) Respetamos semitonos naturales
+c) Al ascender alteramos ascendentemente cromatizando excepto el 6o grado. Al descender cromatizamos todo descendentemente excepto el 6o grado.
+
+
+
+
+
+
+
+Acordes V-5 y VII-3
+
+1.- La nota alterada de los acordes se resuelve descendiendo por grado conjuto o permaneciendo inmóvil.
+2.- A fin de lograr sonoridades clásicas no ubicaremos en voces contiguas la nota alterada y la sensible.
+
+
+
+
+Acordes de 6a napolitana
+
+1.- Se trata en realidad de un II6/3 con el fundamental descendido cromáticamente en ambos modods, así como también la 5a en el modo menor.
+
+
+
+
+
+2.- El fundamental alterado del acorde resuelve por grado conjunto descendente, y además puede resolver descendiendo por tercera disminuida si a continuación compensamos ascendiendo a tónica.
+
+
+
+
+3.- La 5a alterada resuelve descendiendo por grado conjunto o permanece inmóvil.
+
+
+
+4.- En el II6/3Np duplicamos solo la 3a.
+
+
+
+
+
+
+
+
+
+5.- Casos de enlace:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nota: permitidas 5as paralelas (no obligatorias) si cualesquiera de ellas se halla totalmente alterada, cuando aparecen como nota real.
+6.- Este acorde proviene de la llamada escala napolitana.
+
+
+
+
+
+
+
+
+Acordes provenientes del homónimo
+
+1.- Acordes del modo menor injertados en el modo mayor.
+a) acordes afectados por el 6° hoimónimo:
+
+
+
+
+
+
+nota: estos acordes se enlazan con sus correspondientes ya mencionados, incluso en los casos especiales que lo permitan, resolviendo normalmente la nota atractiva (alterada).
+
+
+
