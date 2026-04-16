@@ -1,0 +1,9 @@
+# Normalizar line endings: LF en el repo, conversión automática en Windows
+* text=auto eol=lf
+
+# Archivos binarios — sin conversión
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
