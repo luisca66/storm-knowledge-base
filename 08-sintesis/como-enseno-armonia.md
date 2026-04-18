@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo Enseño Armonía"
 tipo: sintesis
-ultima_actualizacion: 2026-04-16
+ultima_actualizacion: 2026-04-17
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -203,5 +203,37 @@ Un alumno que tiene estas cuatro capacidades no necesita escribir un coral para 
 
 ---
 
+## La visión: escucha directa sin mediación
+
+La meta del método, en su forma más destilada, es que el alumno escuche una pieza y la entienda directamente — sin nombrar los acordes, sin seguir la partitura, sin que el análisis medie entre él y la música.
+
+Esto implica tres liberaciones simultáneas:
+- **Sin partitura** — no necesita ver las notas escritas para entender lo que suena
+- **Sin nomenclatura** — no necesita nombrar "esto es un V7" para percibir su tensión y resolución
+- **Sin análisis consciente** — la comprensión es directa, como entender una conversación sin traducir palabra por palabra
+
+Esto no excluye el conocimiento teórico — al contrario. Un músico que además de escuchar directamente domina la escritura, la armonía y el análisis es un músico más completo. El oído es la base; el resto multiplica. Pero la base tiene que estar.
+
+### El problema: la neurología tarda
+
+El obstáculo real de esta visión es biológico: sin la neurología de un prodigio — que llega de nacimiento — desarrollar esa escucha directa toma muchos años de entrenamiento deliberado. No es una cuestión de talento ni de dedicación superficial. Es construcción de arquitectura neural, y la arquitectura tarda.
+
+Por eso el método no promete resultados rápidos. No puede. Lo que promete es el camino correcto — el único que lleva ahí.
+
+### La filosofía del maestro: no motivar a nadie
+
+Con los años — y particularmente a través de las enseñanzas de Sadhguru (libro: *Inner Engineering*) — Luis llegó a una postura pedagógica que parece contraintuitiva pero es estructuralmente coherente con el método:
+
+**No trata de motivar a nadie.**
+
+El alumno que de verdad lo quiere va a recorrer el camino. El que no, ni se va a molestar en empezar. Es análogo al yogui de la India: no sale a buscar discípulos ni a convencer a nadie de la importancia del yoga. Los que llegan, llegan porque algo interno los trajo.
+
+Esta postura no es frialdad ni elitismo — es respeto profundo por el proceso. Intentar motivar artificialmente a alguien que no tiene la llamada interna produce exactamente lo contrario: un alumno que avanza por inercia externa, sin construir los circuitos que solo se mielinizan cuando hay intención genuina.
+
+**El método filtra por sí solo.** Su exigencia — el coral perfecto como puerta, el tiempo largo, la transformación neurológica real — es en sí misma el filtro. No hace falta añadir presión externa.
+
+---
+
 ## Historial de Cambios
 - **2026-04-16** — Archivo llenado sustancialmente a partir del Curso Integral de Composición Musical (Medrano). Sección de voz de Luis pendiente de entrevista.
+- **2026-04-17** — Entrevista a Luis: visión de escucha directa sin mediación, el problema neurológico del tiempo, filosofía de no motivar (influencia Sadhguru / Inner Engineering).

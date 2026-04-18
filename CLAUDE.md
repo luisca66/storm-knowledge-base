@@ -232,7 +232,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-04-16
+**Última actualización:** 2026-04-17
 
 **Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md
 
@@ -240,7 +240,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 **Páginas de síntesis activas (08-sintesis/):**
 - `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto
-- `como-enseno-armonia.md` ← en progreso, entrevista activa con Luis
+- `como-enseno-armonia.md` ← en progreso — visión de escucha directa + filosofía de no motivar archivadas hoy
 - `modelos-mentales-aprendizaje-musical.md` ← borrador
 - `el-musico-como-atleta.md` ← borrador
 - `tecnologia-al-servicio-del-metodo.md` ← borrador
@@ -250,20 +250,14 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 **Repo GitHub:** https://github.com/luisca66/storm-knowledge-base
 
-**Insights del día 2026-04-16 (capturados en sesión, pendientes de archivar en insights.md):**
-- Luis modula redes neuronales — la música es el vehículo, no el destino
-- El coral perfecto como criterio de avance (mastery-based learning)
-- Secuenciador online = entrega de tareas; Cubase = exploración creativa
-- Las apps de entrenamiento auditivo son el corazón del proyecto, no un complemento
-- La visión civilizatoria: una sociedad que entiende música sin necesitar partituras
-
 **Pendiente prioritario:**
+- Leer `Inner Engineering` (Sadhguru) → extraer conexiones con pedagogía de Luis → actualizar `como-enseno-armonia.md` y `filosofia-ensenanza.md`
 - `filosofia-ensenanza.md` → conexión matemática mental / Elefantito Matemático
 - `00-contexto/ritmos-y-decisiones.md` → archivo nuevo (ritmos operativos de Luis)
-- Continuar entrevista de `como-enseno-armonia.md`
+- Continuar entrevista de `como-enseno-armonia.md` — visión civilizatoria pendiente de desarrollar
 - Archivos en `borrador` en `02-plataforma-web/`, `04-contenido-musical/`, `05-operaciones/`
 - Hacer `git push` después de cada sesión de trabajo
 
 ---
 
-*Este archivo es mantenido por Claude. Última revisión: 2026-04-16.*
+*Este archivo es mantenido por Claude. Última revisión: 2026-04-17.*

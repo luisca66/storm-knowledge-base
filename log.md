@@ -8,6 +8,41 @@
 
 ---
 
+## [2026-04-17] sesion | Entrevista — cómo enseño armonía + archivo de insights
+
+**Trabajo realizado:**
+- 5 insights del 2026-04-16 archivados en `00-contexto/insights.md`
+- Entrevista a Luis para `08-sintesis/como-enseno-armonia.md`
+
+**Archivos modificados:**
+- `00-contexto/insights.md` — 5 insights archivados
+- `08-sintesis/como-enseno-armonia.md` — nueva sección: visión de escucha directa, problema neurológico del tiempo, filosofía de no motivar (influencia Sadhguru / Inner Engineering)
+- `CLAUDE.md` — estado actualizado
+- `log.md` — esta entrada
+
+**Conocimiento capturado hoy:**
+- La meta final del método: escucha directa sin mediación (sin partitura, sin nomenclatura, sin análisis consciente)
+- El obstáculo real es biológico: sin neurología de prodigio, toma muchos años
+- Luis no trata de motivar a nadie — postura llegada con los años y las enseñanzas de Sadhguru
+- El método filtra por sí solo: su exigencia es el filtro natural
+- Conexión identificada: Inner Engineering (Sadhguru) → pedagogía de Luis → pendiente de ingestar
+
+**Pendiente para próxima sesión:**
+- Leer Inner Engineering para extraer conexiones con la pedagogía de Luis
+- Continuar entrevista: más sobre la visión civilizatoria
+- `filosofia-ensenanza.md` → conexión matemática mental / Elefantito Matemático
+- `00-contexto/ritmos-y-decisiones.md` → archivo nuevo (ritmos operativos de Luis)
+- Hacer git push
+
+---
+
+## [2026-04-17] actualización | insights.md — 5 insights del 2026-04-16 archivados
+
+**Archivos modificados:** `00-contexto/insights.md`
+**Cambio:** 5 insights capturados en sesión del 16/04 e integrados al archivo. Temas: redes neuronales / música como vehículo, mastery-based learning (coral perfecto), secuenciador vs Cubase, apps auditivas como núcleo del proyecto, visión civilizatoria.
+
+---
+
 ## [2026-04-16] git push | Sesión completa subida a GitHub
 
 **Commit:** `9a46b51` — 8 archivos, 785 KB

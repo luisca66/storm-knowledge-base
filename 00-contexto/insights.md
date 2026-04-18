@@ -1,7 +1,7 @@
 ---
 titulo: "Insights y Ideas"
 tipo: contexto
-ultima_actualizacion: 2026-04-09
+ultima_actualizacion: 2026-04-17
 relacionado_con:
   - 06-diario-proyecto/2026-04.md
 estado: en_progreso
@@ -17,6 +17,14 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - Cuando un insight se procesa y se integra a otro archivo, se marca con ✅ y se anota a dónde fue
 
 ## Insights Pendientes
+
+### 2026-04-16
+
+- [filosofía] [método] Luis modula redes neuronales — la música es el vehículo, no el destino
+- [método] El coral perfecto como criterio de avance (mastery-based learning)
+- [técnico] [método] Secuenciador online = entrega de tareas; Cubase = exploración creativa
+- [app] [método] Las apps de entrenamiento auditivo son el corazón del proyecto, no un complemento
+- [filosofía] [negocio] La visión civilizatoria: una sociedad que entiende música sin necesitar partituras
 
 ### 2026-04-09
 
@@ -86,3 +94,4 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 ## Historial de Cambios
 - 2026-04-09: Creación inicial
 - 2026-04-09: Primera tanda de insights cargada — 56 entradas del 2026-04-09, mayoría en áreas [método] y [oído]
+- 2026-04-17: 5 insights del 2026-04-16 archivados desde CLAUDE.md
