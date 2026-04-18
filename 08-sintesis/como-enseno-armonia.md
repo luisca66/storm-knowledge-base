@@ -143,12 +143,63 @@ No le enseño a hacer corales. Le construyo el cerebro.
 
 ---
 
-## Preguntas pendientes de entrevista
+## Los errores más comunes del alumno principiante
 
-- ¿Cómo decides cuándo pasar de un nivel al siguiente? ¿Hay un criterio específico o es intuitivo?
-- ¿Qué errores comete siempre el alumno principiante que el texto no puede predecir?
-- ¿En qué punto del curso aparece el Storm Sequencer como herramienta de exploración armónica (no solo de escritura)?
-- ¿Cómo se relaciona el entrenamiento auditivo (apps) con la escritura armónica en SATB?
+Independientemente del nivel previo, los errores que aparecen sistemáticamente al escribir el primer SATB son tres:
+
+**1. Escritura fuera de tesituras.** El alumno no ha internalizado los rangos de cada voz como restricción automática — los conoce intelectualmente pero no los tiene como filtro activo mientras escribe. Es el primer síntoma de que la regla vive en la corteza consciente, no en la arquitectura que opera en background.
+
+**2. Duplicación de la sensible.** El texto lo prohíbe explícitamente en acordes III, V y VII, pero el alumno la duplica de todas formas. La razón neural: cuando se está resolviendo el problema de "cómo completar las 4 voces con las notas del acorde", el cerebro toma el camino de menor resistencia — y la sensible está ahí, disponible. El filtro que la elimina como opción requiere un circuito que aún no existe.
+
+**3. Quintas y octavas paralelas o contrarias.** Este es el más revelador. Para detectar paralelismos hay que monitorear 6 pares de voces simultáneamente (S-A, S-T, S-B, A-T, A-B, T-B) mientras se construye el acorde y se conecta con el siguiente. El alumno principiante puede revisar un par a la vez — pero no los 6 en paralelo. No es falta de atención: es que el circuito de monitoreo polifónico no se ha construido todavía.
+
+**La interpretación neurológica:** Estos tres errores no son errores de comprensión — el alumno sabe las reglas. Son errores de arquitectura: el cerebro todavía no tiene los circuitos automáticos que aplican las reglas sin esfuerzo consciente. La solución no es repetir la explicación de la regla — es diseñar ejercicios que fuercen la activación del circuito correcto hasta que se mielinice.
+
+---
+
+## El criterio de avance: el coral perfecto como puerta
+
+Nadie avanza al siguiente tema hasta tener un coral perfecto en el tema actual. Sin excepción.
+
+El orden de avance está determinado por el curso — la secuencia es fija. Lo que no es fijo es el tiempo: cada alumno avanza cuando domina, no cuando pasa el tiempo.
+
+**La justificación neurológica:** Avanzar con el material mal asimilado es construir sobre una base defectuosa. Si los circuitos de acordes de 5ª no están mielinizados — si el alumno todavía comete errores de tesituras o paralelismos — agregar séptimas encima no construye sobre esa base: la derrumba. El cerebro intentará resolver el problema más complejo con los circuitos incompletos del nivel anterior, y mielinizará las conexiones incorrectas.
+
+El coral perfecto no es un estándar arbitrariamente alto. Es la evidencia observable de que el circuito está construido y opera de forma automática — que las reglas ya no requieren esfuerzo consciente para aplicarse.
+
+**Implicación para la plataforma:** El Maestro Virtual es el guardián de esta puerta a escala. En el curso presencial, Luis valida personalmente el coral de cada alumno. En el curso en línea, el Maestro Virtual valida cada ejercicio MIDI en tiempo real — sin retroalimentación inmediata, sin avance.
+
+---
+
+## El rol del secuenciador: escritura vs. exploración
+
+Hay una distinción importante entre los dos contextos del curso:
+
+**Storm Sequencer (curso en línea):** Su función es principalmente la entrega de tareas — el alumno escribe el ejercicio requerido por la lección y lo valida con el Maestro Virtual. No es una herramienta de exploración creativa en este contexto.
+
+**Cubase (clases presenciales):** El rol es radicalmente más amplio. Desde etapas tempranas Luis puede asignar tareas como programar el tempo de una canción conocida o guiar al alumno hacia sus propias composiciones. La exploración creativa puede comenzar desde el principio, dependiendo del alumno.
+
+**El principio detrás:** No hay un punto fijo en el curso donde empiece la composición libre — depende del alumno específico. Cada uno tiene su propio paso. Luis lee al alumno y decide cuándo está listo para explorar, independientemente de en qué lección esté.
+
+Esto refuerza el modelo de mastery-based learning: el curso tiene una secuencia fija de contenido, pero la velocidad y los ejercicios complementarios se adaptan a cada persona.
+
+---
+
+## El entrenamiento auditivo: no es paralelo, es el destino
+
+Las apps de entrenamiento auditivo van en paralelo con el curso escrito — pero eso no captura su importancia real.
+
+La escritura armónica (SATB, corales, modulación) construye la arquitectura neural que sostiene la comprensión armónica. Pero el **destino** del método no es que el alumno escriba bien: es que el alumno ya no necesite escribir. El sueño de Luis es enseñar armonía con el oído, no con la partitura.
+
+Las apps desarrollan las cuatro percepciones básicas que permiten eso:
+1. **Reconocimiento de notas individuales** — oído absoluto: percibir la frecuencia como identidad, no como relación
+2. **Reconocimiento de grados de la escala** — oído relativo: percibir la función tonal de cada nota
+3. **Reconocimiento de acordes e intervalos** — percibir las relaciones entre notas simultáneas y sucesivas
+4. **Desglose de notas simultáneas** — percepción polifónica: escuchar 4 voces y distinguirlas individualmente
+
+Un alumno que tiene estas cuatro capacidades no necesita escribir un coral para entender la armonía — la escucha directamente. Así funcionan los prodigios. El método sostiene que eso no es talento innato: son circuitos que se pueden construir deliberadamente.
+
+**La partitura como andamiaje:** El curso escrito no es el fin — es el medio más riguroso para construir los circuitos que después operan en el oído. Una vez construidos, el papel se vuelve opcional.
 
 ---
 

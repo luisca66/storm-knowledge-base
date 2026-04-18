@@ -8,6 +8,28 @@
 
 ---
 
+## [2026-04-16] sesion | GitHub setup + .gitattributes
+
+**Repo:** https://github.com/luisca66/storm-knowledge-base
+**Branch:** main
+**Commit inicial:** 70 archivos, 7.05 MB
+**Acción:** Creado `.gitattributes` para normalizar line endings (LF en repo, automático en Windows)
+**Pendiente:** Hacer commit y push del .gitattributes desde la máquina de Luis
+
+**Workflow para otras máquinas:**
+```bash
+git clone https://github.com/luisca66/storm-knowledge-base.git
+```
+**Workflow para sincronizar cambios:**
+```bash
+git pull          # bajar cambios
+git add .
+git commit -m "descripción"
+git push          # subir cambios
+```
+
+---
+
 ## [2026-04-16] ingest | Curso Integral de Composición Musical (Hernández Medrano)
 
 **Fuente:** `07-fuentes/libros/curso-medrano.txt` + `curso-medrano.pdf` (62 pp.)

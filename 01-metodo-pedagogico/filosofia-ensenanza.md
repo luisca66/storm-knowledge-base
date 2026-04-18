@@ -17,6 +17,26 @@ El método de Luis no es una colección de técnicas: es una filosofía de cómo
 
 ---
 
+## La visión civilizatoria: Los Seres Musicales
+
+El nombre del método y del libro no es metáfora — es un manifiesto.
+
+**La tesis:** Una sociedad de Seres Musicales no necesita escribir música porque la entiende de manera nativa. Así funcionan los prodigios: no leen la música, la habitan. El oído no es una habilidad auxiliar — es el destino.
+
+La partitura, el solfeo, la escritura a 4 voces: son herramientas de transición. Son el andamiaje que se usa mientras se construye el edificio real. El edificio real es la capacidad de percibir, entender y crear música directamente a través del oído, sin mediación escrita — de la misma forma en que todos los humanos habitamos nuestro idioma nativo sin necesitar transcribirlo.
+
+Luis sostiene que los prodigios no son genéticamente diferentes: tienen ese oído porque algo en su desarrollo temprano construyó esos circuitos. El método existe para construirlos deliberadamente en cualquier persona, a cualquier edad.
+
+**Las cuatro percepciones básicas que desarrollan las apps de entrenamiento auditivo:**
+1. Reconocimiento de notas individuales (oído absoluto)
+2. Reconocimiento de grados de la escala (oído relativo)
+3. Reconocimiento de acordes e intervalos
+4. Capacidad de desglosar notas simultáneas (percepción polifónica)
+
+Estas cuatro capacidades no son complementos del curso — son el corazón del proyecto. El curso escrito (SATB, corales, modulación) construye la arquitectura neural que sostiene estas percepciones. Pero el objetivo final es que el alumno ya no necesite el papel.
+
+---
+
 ## La Premisa Fundamental (lo que Luis realmente hace)
 
 **Luis no enseña música. Luis modula redes neuronales.**

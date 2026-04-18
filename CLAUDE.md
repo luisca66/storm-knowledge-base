@@ -234,17 +234,35 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 **Última actualización:** 2026-04-16
 
-**Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, filosofia-ensenanza.md (en_progreso), estructura-curso.md (en_progreso), indice-apps.md (en_progreso), indice-fuentes.md
+**Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md
 
-**Fuentes ingresadas:** 22 libros + 1 video transcript (The Real Problem With AI Agents)
+**Archivos en progreso:** filosofia-ensenanza.md, estructura-curso.md, indice-apps.md, secuenciador.md
+
+**Páginas de síntesis activas (08-sintesis/):**
+- `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto
+- `como-enseno-armonia.md` ← en progreso, entrevista activa con Luis
+- `modelos-mentales-aprendizaje-musical.md` ← borrador
+- `el-musico-como-atleta.md` ← borrador
+- `tecnologia-al-servicio-del-metodo.md` ← borrador
+- `estrategia-freemium-musical.md` ← borrador
+
+**Fuentes ingresadas:** 22 libros + Curso Medrano (PDF+TXT) + 1 video + LLM Wiki Karpathy
+
+**Repo GitHub:** https://github.com/luisca66/storm-knowledge-base
+
+**Insights del día 2026-04-16 (capturados en sesión, pendientes de archivar en insights.md):**
+- Luis modula redes neuronales — la música es el vehículo, no el destino
+- El coral perfecto como criterio de avance (mastery-based learning)
+- Secuenciador online = entrega de tareas; Cubase = exploración creativa
+- Las apps de entrenamiento auditivo son el corazón del proyecto, no un complemento
+- La visión civilizatoria: una sociedad que entiende música sin necesitar partituras
 
 **Pendiente prioritario:**
-- `filosofia-ensenanza.md` → falta conexión matemática mental / Elefantito Matemático
-- `estructura-curso.md` → títulos/temas de lecciones 3-5 del propedéutico
-- `00-contexto/ritmos-y-decisiones.md` → archivo nuevo por crear (conocimiento tácito operativo)
-- Todos los archivos en `borrador` en `02-plataforma-web/`, `04-contenido-musical/`, `05-operaciones/`
-
-**Insights pendientes de procesar:** revisar `insights.md` para marcar ✅ los ya archivados
+- `filosofia-ensenanza.md` → conexión matemática mental / Elefantito Matemático
+- `00-contexto/ritmos-y-decisiones.md` → archivo nuevo (ritmos operativos de Luis)
+- Continuar entrevista de `como-enseno-armonia.md`
+- Archivos en `borrador` en `02-plataforma-web/`, `04-contenido-musical/`, `05-operaciones/`
+- Hacer `git push` después de cada sesión de trabajo
 
 ---
 

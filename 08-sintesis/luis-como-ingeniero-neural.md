@@ -90,6 +90,24 @@ Esta premisa tiene consecuencias directas en cómo está diseñado el curso:
 
 ---
 
+## El destino final: una sociedad que no necesita partituras
+
+El nombre "Los Seres Musicales" no es metáfora. Es el horizonte del proyecto.
+
+Luis sostiene que los prodigios musicales no son genéticamente distintos — tienen oído absoluto y comprensión musical nativa porque sus circuitos se construyeron temprano, de forma no deliberada. El método existe para construir esos mismos circuitos en cualquier persona, deliberadamente, a cualquier edad.
+
+La visión civilizatoria: una sociedad donde la música se entiende de manera nativa, sin necesidad de escritura. Como el lenguaje oral — nadie necesita transcribir lo que escucha para entenderlo. El destino del alumno de Storm Studios Learning no es que escriba mejor música: es que ya no necesite escribirla para entenderla y crearla.
+
+Las cuatro percepciones que las apps de entrenamiento auditivo desarrollan son exactamente los circuitos que un prodigio tiene de forma natural:
+- Oído absoluto (identidad de frecuencias)
+- Oído relativo (función tonal)
+- Reconocimiento de acordes e intervalos
+- Percepción polifónica (desglose de notas simultáneas)
+
+Cuando esos cuatro circuitos están construidos y mielinizados, la partitura se vuelve opcional. El músico habita la música, no la lee.
+
+---
+
 ## Conexión con las fuentes del KB
 
 - **Barrett (cerebro predictivo):** El cerebro no reacciona — predice. Construir redes neurales correctas significa construir mejores modelos predictivos. La armonía es predictibilidad sonora internalizada.
