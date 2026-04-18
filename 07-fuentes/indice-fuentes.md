@@ -40,6 +40,8 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 | The New China Playbook | [verificar autor] | otro | libros/The New China Playbook.md |
 | The Little Book of Common Sense Investing | John C. Bogle | otro / negocio | libros/Little Book Of Common Sense Investing_Complete.md |
 | **Curso Integral de Composición Musical** | **Humberto Hernández Medrano** | **método — FUENTE PRIMARIA** | libros/curso-medrano.txt + libros/curso-medrano.pdf |
+| Thinking Fast and Slow | Daniel Kahneman | neurociencia / método — Sistema 1 vs. Sistema 2 | libros/Thinking Fast and Slow - Complete.md |
+| What is Intelligence | [verificar autor] | neurociencia / método | libros/What is Intelligence - Complete.md |
 | LLM Wiki | Andrej Karpathy | arquitectura del KB | llm-wiki-karpathy.md |
 
 ## Videos

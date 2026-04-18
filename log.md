@@ -8,6 +8,18 @@
 
 ---
 
+## [2026-04-16] git push | Sesión completa subida a GitHub
+
+**Commit:** `9a46b51` — 8 archivos, 785 KB
+**Repo:** https://github.com/luisca66/storm-knowledge-base
+**Nuevas fuentes detectadas en el push:**
+- `Thinking Fast and Slow` (Kahneman) — Sistema 1 vs. Sistema 2, conexión directa con mielinización y método
+- `What is Intelligence` — pendiente de identificar autor y procesar
+
+**Acción:** Ambos registrados en `indice-fuentes.md`. Pendiente de ingestar al wiki.
+
+---
+
 ## [2026-04-16] sesion | GitHub setup + .gitattributes
 
 **Repo:** https://github.com/luisca66/storm-knowledge-base
