@@ -253,7 +253,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 **Pendiente prioritario:**
 - Leer `Inner Engineering` (Sadhguru) → extraer conexiones con pedagogía de Luis → actualizar `como-enseno-armonia.md` y `filosofia-ensenanza.md`
 - `filosofia-ensenanza.md` → conexión matemática mental / Elefantito Matemático
-- `00-contexto/ritmos-y-decisiones.md` → archivo nuevo (ritmos operativos de Luis)
+- `00-contexto/ritmos-y-decisiones.md` → creado ✓ — pendiente completar con más detalle si surge
 - Continuar entrevista de `como-enseno-armonia.md` — visión civilizatoria pendiente de desarrollar
 - Archivos en `borrador` en `02-plataforma-web/`, `04-contenido-musical/`, `05-operaciones/`
 - Hacer `git push` después de cada sesión de trabajo

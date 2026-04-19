@@ -8,6 +8,14 @@
 
 ---
 
+## [2026-04-17] entrevista | ritmos-y-decisiones.md — creado
+
+**Archivos modificados:** `00-contexto/ritmos-y-decisiones.md` (nuevo)
+**Método:** Entrevista a Luis
+**Contenido capturado:** Bloques fijos (Esteban Coppel diario, Adriana+Alejandra lunes/jueves, Jonás viernes, Bruno domingos, asesoría IA martes), sistema de IA en background (Openclaw + tarea Cowork → resumen 55 min para escuchar en bici), rutinas de guitarra y gym, contexto: campeón Musclemania Las Vegas a los 52 años.
+
+---
+
 ## [2026-04-17] sesion | Entrevista — cómo enseño armonía + archivo de insights
 
 **Trabajo realizado:**
