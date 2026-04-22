@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo Enseño Armonía"
 tipo: sintesis
-ultima_actualizacion: 2026-04-17
+ultima_actualizacion: 2026-04-22
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -13,6 +13,7 @@ estado: en_progreso
 fuentes_utilizadas:
   - Curso Integral de Composición Musical (Hernández Medrano)
   - Los Seres Musicales
+  - Inner Engineering (Sadhguru)
   - Entrevista a Luis (en progreso)
 ---
 
@@ -234,6 +235,49 @@ Esta postura no es frialdad ni elitismo — es respeto profundo por el proceso. 
 
 ---
 
+## El método como sadhana: tecnología, no doctrina
+
+Una de las conexiones más profundas entre la pedagogía de Luis y la filosofía de Sadhguru está en la naturaleza del método mismo.
+
+Sadhguru define **sadhana** en sánscrito como "un dispositivo o herramienta" — no una doctrina, no un credo, no una serie de creencias que hay que adoptar. Una tecnología que se usa para producir una transformación interna. Su libro *Inner Engineering* lo dice explícitamente: *"not a sermon, but a science; not a teaching, but a technology; not a precept, but a path."*
+
+Eso es exactamente lo que son Los Seres Musicales. No es "la verdad sobre la música". No es un sistema de creencias pedagógicas que el alumno tiene que aceptar. Es un dispositivo: el coral perfecto, la escritura a 4 voces, las reglas de duplicación y movimiento — todo eso es la herramienta. El resultado no es que el alumno "sepa armonía". El resultado es que su sistema neural ha sido reorganizado de tal forma que la armonía emerge de adentro.
+
+La diferencia entre un método-doctrina y un método-tecnología es enorme: una doctrina le pide al alumno que crea. Una tecnología simplemente produce resultados si la aplicas correctamente, independientemente de lo que creas.
+
+---
+
+## El filtro natural: hacer esperar como pedagogía
+
+Sadhguru describe una tradición antigua en la transmisión de kriya yoga:
+
+> *"When students went to a guru to learn kriya yoga, they might well have been told to sweep the floor for a year, and then wash the dishes for another! If their trust still did not waver, then the guru might consider initiating them into the kriyas."*
+
+Esto no es crueldad ni elitismo. Es un filtro de **willingness** — voluntad interna genuina. El guru no filtra por inteligencia, ni por talento, ni por tiempo libre. Filtra por disposición real a atravesar un proceso largo y exigente.
+
+En el método de Luis, el filtro no es explícito ni declarado: es la exigencia misma del proceso. El coral perfecto como puerta. La duración. La ausencia de atajos. El alumno que llega con "willingness" real atraviesa ese filtro de forma natural. El que llega buscando resultados rápidos o motivación externa descubre que el método no lo ofrece — y se va.
+
+Esto no es un fallo del método. Es su diseño más profundo.
+
+---
+
+## Transmisión viva vs. información muerta
+
+Sadhguru hace una distinción crítica sobre el yoga cuando se reduce a su componente físico:
+
+> *"Just teaching the physical aspect of yoga is like having a stillborn baby. It is not only inefficient; it is a tragedy. If you want a live process, it needs to be transmitted in a manner that is inclusive of other dimensions of yoga."*
+
+Y sobre la transmisión de kriya:
+
+> *"If I wanted to teach you kriyas just as practices, it would be simple to put them in a book from which you could learn and memorize them. But for the kriya to be a live process, to be imprinted in your system in a certain way, it needs a certain discipline, dedication, and receptivity."*
+
+El equivalente en la enseñanza de Luis: un alumno no puede aprender el método de Los Seres Musicales leyendo el libro. Ni siguiendo un tutorial. El proceso requiere presencia, escucha, disciplina, y la retroalimentación inmediata de alguien (o algo — el Maestro Virtual) que valide en tiempo real si la respuesta viene del circuito correcto. Sin eso, el alumno puede estar mielinizando el error con una eficiencia perfecta.
+
+La información sobre el método existe. La transmisión viva del método es otra cosa.
+
+---
+
 ## Historial de Cambios
 - **2026-04-16** — Archivo llenado sustancialmente a partir del Curso Integral de Composición Musical (Medrano). Sección de voz de Luis pendiente de entrevista.
 - **2026-04-17** — Entrevista a Luis: visión de escucha directa sin mediación, el problema neurológico del tiempo, filosofía de no motivar (influencia Sadhguru / Inner Engineering).
+- **2026-04-22** — Ingesta de Inner Engineering (Sadhguru): tres nuevas secciones integradas — el método como sadhana/tecnología, el filtro natural (hacer esperar), y transmisión viva vs. información muerta.

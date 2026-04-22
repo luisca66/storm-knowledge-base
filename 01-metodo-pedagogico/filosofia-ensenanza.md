@@ -159,6 +159,31 @@ El **secuenciador** integrado en la plataforma permite al alumno trabajar los ej
 
 ---
 
+## La Filosofía del Maestro: No Motivar a Nadie
+
+Con los años de enseñanza — y particularmente a través de la lectura de *Inner Engineering* de Sadhguru — Luis llegó a una postura que parece contraintuitiva pero es estructuralmente coherente con todo el método:
+
+**No trata de motivar a nadie.**
+
+La raíz filosófica viene directamente de Sadhguru. La función del guru, según él, no es enseñar, adoctrinar ni convertir. Es *dispel darkness* — abrir una puerta. No busca discípulos. No convence. No motiva. Los que llegan, llegan porque algo interno los trajo.
+
+> *"The function of the guru, contrary to popular belief, is not to teach, indoctrinate, or convert. The guru is here to throw light on dimensions beyond your sensory perceptions."*
+> — Sadhguru, *Inner Engineering*
+
+Y el único filtro que reconoce Sadhguru es la **willingness** — voluntad interna genuina, no entusiasmo externo:
+
+> *"It is a living reality for those who are willing. It is the birthright of every human being."*
+
+En la tradición yóguica que Sadhguru describe, los maestros hacían esperar a sus discípulos durante meses o años antes de iniciarlos en la práctica. No era crueldad: era asegurarse de que quien llegara tuviera esa voluntad genuina, y no la ilusión de urgencia que produce la motivación externa.
+
+**La traducción al método de Luis es exacta:** el coral perfecto como puerta, la duración del proceso, la ausencia de atajos — todo eso es el equivalente de "barre el piso un año y luego veremos". El alumno que tiene la llamada interna lo atraviesa. El que no, se va antes. Ninguno de los dos resultados es un fallo del método.
+
+Esta postura tiene una consecuencia pedagógica importante: intentar motivar artificialmente a alguien que no tiene la disposición interna no solo es inútil — produce exactamente el resultado opuesto. Un alumno que avanza por inercia externa, sin intención genuina, mieliniza patrones incorrectos. El esfuerzo sin dirección interna construye la arquitectura equivocada.
+
+**El método filtra por sí solo.** Su exigencia es el filtro. El maestro no necesita añadir presión externa porque la estructura del proceso ya hace esa selección de forma natural.
+
+---
+
 ## El Rol de la Matemática Mental
 
 [PENDIENTE — verificar con Luis la conexión específica entre matemática mental, Arthur Benjamin y Elefantito Matemático en relación al método musical. La hipótesis es que los mismos mecanismos de concentración, anticipación y cálculo mental que se entrenan en la matemática mental son análogos a los que se entrenan en el oído y la armonía. Confirmar y ampliar.]
@@ -170,7 +195,7 @@ El **secuenciador** integrado en la plataforma permite al alumno trabajar los ej
 El método no nace del vacío. Sus raíces intelectuales son explícitas y están documentadas en el libro:
 
 - **Lisa Feldman Barrett** (*How Emotions Are Made*, *Seven and a Half Lessons About the Brain*): el cerebro como máquina predictiva. La anticipación musical como caso específico de predicción neurológica.
-- **Sadhguru** (*Inner Engineering*): la mente en paz como requisito previo, no como meta. La meditación como tecnología de concentración. La respiración como regulador del sistema nervioso.
+- **Sadhguru** (*Inner Engineering*): el maestro como "dispeller of darkness", no como motivador ni conversor. La *willingness* interna como único filtro real del aprendiz. El método como sadhana — tecnología, no doctrina. La transformación interna como cambio dimensional, no incremental. Fuente directa de la postura de Luis de no motivar a nadie.
 - **Pavel Tsatsouline**: la propiocepción como "sexto sentido" entrenable. La fuerza como señal neurológica correcta, no como músculo. El peso muerto como rey de los ejercicios.
 - **David Lucas Burge**: el método de oído absoluto que Luis estudió durante un año completo y que sembró la convicción de que el AP es entrenable, aunque con un enfoque diferente al que Luis terminó desarrollando.
 - **Yogananda**: la intención como fuerza que precede a la acción física. Marco espiritual complementario a la neurociencia.
@@ -178,6 +203,9 @@ El método no nace del vacío. Sus raíces intelectuales son explícitas y está
 
 ---
 
+---
+
 ## Historial de Cambios
 - 2026-04-07: Creación inicial (borrador)
 - 2026-04-09: Llenado sustancial a partir del libro *Los Seres Musicales* (capítulos 1-7 y segunda parte) e insights de Luis. Pendiente: sección de matemática mental. Estado: `en_progreso`.
+- 2026-04-22: Ingesta de *Inner Engineering* (Sadhguru): nueva sección "La Filosofía del Maestro: No Motivar a Nadie" con raíces filosóficas completas. Entrada de Sadhguru en Influencias Intelectuales expandida.

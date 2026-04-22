@@ -8,6 +8,34 @@
 
 ---
 
+## [2026-04-22] ingest | Inner Engineering (Sadhguru)
+
+**Fuente:** `07-fuentes/libros/Inner Engineering - Complete.md`
+**Autor:** Sadhguru
+**Relevancia:** Alta — fuente filosófica directa de la postura pedagógica central de Luis (no motivar, filtro natural, el método como tecnología)
+
+**Archivos wiki afectados (4):**
+- `08-sintesis/como-enseno-armonia.md` → tres nuevas secciones: el método como sadhana/tecnología, el filtro natural (hacer esperar), transmisión viva vs. información muerta
+- `01-metodo-pedagogico/filosofia-ensenanza.md` → nueva sección "La Filosofía del Maestro: No Motivar a Nadie" con raíces filosóficas completas en Sadhguru. Entrada en Influencias Intelectuales expandida.
+- `08-sintesis/luis-como-ingeniero-neural.md` → conexión Sadhguru expandida: "reordenamiento del sistema" y transformación dimensional
+- `07-fuentes/indice-fuentes.md` → Inner Engineering marcado como INGESTED
+
+**Conocimiento capturado hoy:**
+- El guru como "dispeller of darkness", no como maestro/motivador — raíz directa del no-motivar de Luis
+- La *willingness* como único filtro real del aprendiz (Sadhguru) = el coral perfecto como puerta (Luis)
+- El método como sadhana (tecnología/dispositivo) vs. doctrina — distinción crítica para entender Los Seres Musicales
+- Transmisión viva: el proceso no puede aprenderse de un libro, requiere retroalimentación en tiempo real
+- Reorganización del sistema: Sadhguru provee el marco conceptual para "ingeniero neural"
+
+**Pendiente para próxima sesión:**
+- Ingestar *Thinking Fast and Slow* (Kahneman) — Sistema 1 vs. 2 conecta directamente con mielinización y método
+- Ingestar *What is Intelligence* — identificar autor y procesar
+- Continuar entrevista: visión civilizatoria (pendiente desde sesión 2026-04-17)
+- `filosofia-ensenanza.md` → conexión matemática mental / Elefantito Matemático
+- Hacer git push
+
+---
+
 ## [2026-04-17] entrevista | ritmos-y-decisiones.md — creado
 
 **Archivos modificados:** `00-contexto/ritmos-y-decisiones.md` (nuevo)
@@ -232,21 +260,4 @@ git push          # subir cambios
 - Lectura del capítulo "Interludio: ¿quién soy?" del libro Los Seres Musicales
 - Entrevista a Luis para completar quien-soy.md
 - Creación de insights.md
-- Estructura base del KB creada (carpetas, archivos borrador)
-
-**Archivos creados:**
-- `00-contexto/quien-soy.md` — completo
-- `00-contexto/insights.md` — creado
-- Estructura de carpetas completa
-
----
-
-## [2026-04-07] ingest | Los Seres Musicales (libro de Luis)
-
-**Fuente:** `07-fuentes/libros/Los_Seres_Musicales.md`
-**Archivos wiki afectados:** `quien-soy.md`, `filosofia-ensenanza.md`
-**Relevancia:** Máxima — es el libro que contiene el método pedagógico completo de Luis
-
----
-
-*Log mantenido por Claude. No eliminar entradas anteriores — solo agregar al inicio.*
+- Estructura base del KB cre

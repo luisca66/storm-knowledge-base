@@ -25,7 +25,7 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 | Super Joints | [verificar autor] | fitness / método (cuerpo) | libros/Super Joints - Complete.md |
 | How Emotions Are Made | Lisa Feldman Barrett | neurociencia / método | libros/How Emotions are made - Complete.md |
 | Seven and a Half Lessons About the Brain | Lisa Feldman Barrett | neurociencia / método | libros/Seven and a half lessons about the brain - Complete.md |
-| Inner Engineering | Sadhguru | filosofía / método | libros/Inner Engineering - Complete.md |
+| Inner Engineering | Sadhguru | filosofía / método — **INGESTED 2026-04-22** | libros/Inner Engineering - Complete.md |
 | This Is Your Brain on Music | Daniel J. Levitin | neurociencia / método / oído | libros/This is your Brain on Music - Complete.md |
 | Your Brain at Work | David Rock | neurociencia / método | libros/Your Brain at Work_Complete.md |
 | Essentials of Strength Training and Conditioning | NSCA | fitness / método (cuerpo) | libros/ESSENTIALS_of_STRENGTH_TRAINING_and_CONDITIONING_Complete.md |
@@ -62,3 +62,4 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 - 2026-04-10: Agregados Speed y Speed Training. Total: 21 libros.
 - 2026-04-10: Agregado Super Joints. Total: 22 libros.
 - 2026-04-16: Agregado Curso Medrano (PDF + TXT) — fuente primaria del método. Agregado LLM Wiki (Karpathy). Agregada sección Videos. Total: 24 fuentes + 1 video.
+- 2026-04-22: Inner Engineering (Sadhguru) — marcado como INGESTED. Archivos afectados: como-enseno-armonia.md, filosofia-ensenanza.md, luis-como-ingeniero-neural.md.

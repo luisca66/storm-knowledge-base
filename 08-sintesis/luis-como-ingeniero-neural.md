@@ -1,7 +1,7 @@
 ---
 titulo: "Luis Como Ingeniero Neural"
 tipo: sintesis
-ultima_actualizacion: 2026-04-16
+ultima_actualizacion: 2026-04-22
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 08-sintesis/modelos-mentales-aprendizaje-musical.md
@@ -113,9 +113,10 @@ Cuando esos cuatro circuitos están construidos y mielinizados, la partitura se 
 - **Barrett (cerebro predictivo):** El cerebro no reacciona — predice. Construir redes neurales correctas significa construir mejores modelos predictivos. La armonía es predictibilidad sonora internalizada.
 - **Outliers / Ericsson (práctica deliberada):** Las 10,000 horas solo funcionan si cada repetición tiene retroalimentación. Sin eso, se mieliniza el error.
 - **Tsatsouline (señal neural > músculo):** La fuerza es una habilidad neural antes que física. Aplicado a la música: la técnica es una habilidad neural antes que motora.
-- **Sadhguru (intención como fuerza):** La intención precede a la acción. En términos neurológicos: la corteza prefrontal activa la corteza motora, no al revés.
+- **Sadhguru (reordenamiento del sistema):** Sadhguru describe explícitamente la ingeniería del ser humano desde adentro: *"There is a whole technology for transforming the human into the divine. It just depends on how you reorganize your system."* Y define al cuerpo humano como "the most sophisticated physical form on the planet" — pero agrega que nadie sabe dónde está el teclado. El guru enseña a encontrarlo. Luis hace exactamente eso: no enseña música, enseña a encontrar el teclado del sistema neural musical. La transformación que describe Sadhguru — *"a dimensional shift in the way you perceive and experience life"* — es exactamente lo que ocurre cuando un alumno desarrolla las cuatro percepciones auditivas básicas. Ya no escucha la misma música que escuchaba antes. El mundo sonoro cambia dimensionalmente.
 
 ---
 
 ## Historial de Cambios
 - **2026-04-16** — Archivo creado a partir de declaración directa de Luis en entrevista. Es la página más importante del KB para entender el proyecto.
+- **2026-04-22** — Ingesta de *Inner Engineering* (Sadhguru): conexión expandida con la idea de "reordenamiento del sistema" y el concepto de transformación dimensional.
