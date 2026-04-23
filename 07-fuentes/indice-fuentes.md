@@ -50,6 +50,18 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 |-------|-------------|-----------------|---------|
 | The Real Problem With AI Agents Nobody's Talking About | [verificar canal] | IA / estrategia KB | videos/The Real Problem With AI Agents Nobody's Talking About.md |
 
+## Cursos en video (transcripts)
+
+| Curso | Autor/Canal | Área de impacto | Archivo |
+|-------|-------------|-----------------|---------|
+| A Little Bit of Philosophy — PHI 101 (4 unidades, 17 lecciones) | [verificar canal] | filosofía / método / epistemología / ética | libros/a-little-bit-of-philosophy/ |
+
+**Estructura del curso:**
+- U01: Introducción, historia de la filosofía occidental, primeros filósofos, Sócrates/Atenas
+- U02: Epistemología (2 lecciones)
+- U03: Metafísica, filosofía de la religión, filosofía de la mente (7 lecciones)
+- U04: Ética — metaética, Aristóteles/virtud, utilitarismo, Kant (6 lecciones)
+
 ## Notas
 - Los autores marcados como [verificar autor] deben confirmarse.
 - Las áreas de impacto son una clasificación inicial — revisar y ajustar conforme se procesen los libros.
@@ -63,3 +75,4 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 - 2026-04-10: Agregado Super Joints. Total: 22 libros.
 - 2026-04-16: Agregado Curso Medrano (PDF + TXT) — fuente primaria del método. Agregado LLM Wiki (Karpathy). Agregada sección Videos. Total: 24 fuentes + 1 video.
 - 2026-04-22: Inner Engineering (Sadhguru) — marcado como INGESTED. Archivos afectados: como-enseno-armonia.md, filosofia-ensenanza.md, luis-como-ingeniero-neural.md.
+- 2026-04-22: A Little Bit of Philosophy (PHI 101) copiado a libros/a-little-bit-of-philosophy/ — 4 unidades, 17 lecciones. Pendiente de ingestar.

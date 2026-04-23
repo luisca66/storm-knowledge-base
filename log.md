@@ -8,6 +8,15 @@
 
 ---
 
+## [2026-04-22] actualización | A Little Bit of Philosophy copiado a fuentes
+
+**Acción:** Curso PHI 101 copiado a `07-fuentes/libros/a-little-bit-of-philosophy/`
+**Estructura:** 4 unidades, 17 lecciones — U01 historia/griegos, U02 epistemología, U03 metafísica/mente, U04 ética
+**Registrado en:** `07-fuentes/indice-fuentes.md`
+**Pendiente:** Ingestar al wiki — prioridad: U03 L04 (filosofía de la mente) y U04 L04 (Aristóteles y virtud)
+
+---
+
 ## [2026-04-22] ingest | Seven and a Half Lessons + How Emotions Are Made (Barrett)
 
 **Fuentes:**
