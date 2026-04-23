@@ -154,7 +154,7 @@ Independientemente del nivel previo, los errores que aparecen sistemáticamente 
 
 **3. Quintas y octavas paralelas o contrarias.** Este es el más revelador. Para detectar paralelismos hay que monitorear 6 pares de voces simultáneamente (S-A, S-T, S-B, A-T, A-B, T-B) mientras se construye el acorde y se conecta con el siguiente. El alumno principiante puede revisar un par a la vez — pero no los 6 en paralelo. No es falta de atención: es que el circuito de monitoreo polifónico no se ha construido todavía.
 
-**La interpretación neurológica:** Estos tres errores no son errores de comprensión — el alumno sabe las reglas. Son errores de arquitectura: el cerebro todavía no tiene los circuitos automáticos que aplican las reglas sin esfuerzo consciente. La solución no es repetir la explicación de la regla — es diseñar ejercicios que fuercen la activación del circuito correcto hasta que se mielinice.
+**La interpretación neurológica (Kahneman):** Estos tres errores no son errores de comprensión — el alumno sabe las reglas. Son errores de **Sistema 1**: ante la demanda cognitiva de sostener 4 voces simultáneamente, el cerebro toma el camino de menor resistencia — la heurística disponible, el atajo que cuesta menos energía. La solución no es repetir la explicación de la regla — es diseñar ejercicios que fuercen la activación del circuito correcto (Sistema 2) hasta que se mielinice y migre al Sistema 1 como filtro automático.
 
 ---
 
@@ -214,6 +214,12 @@ Esto implica tres liberaciones simultáneas:
 - **Sin análisis consciente** — la comprensión es directa, como entender una conversación sin traducir palabra por palabra
 
 Esto no excluye el conocimiento teórico — al contrario. Un músico que además de escuchar directamente domina la escritura, la armonía y el análisis es un músico más completo. El oído es la base; el resto multiplica. Pero la base tiene que estar.
+
+### Por qué el camino es largo: aversión al esfuerzo (Barrett)
+
+Hay una razón evolutiva por la que el dominio musical es difícil de mantener: el cerebro está diseñado para maximizar eficiencia energética. Si una actividad no produce recompensa inmediata, el cerebro la trata como un gasto injustificado del presupuesto corporal. El dominio musical requiere años de inversión sin recompensa proporcional — va en contra del diseño evolutivo del cerebro.
+
+Por eso *"tocar por tocar"* es contraproducente: el cerebro toma el camino de menor resistencia (Sistema 1 de Kahneman) en lugar de construir los circuitos correctos. La metodología de Luis resuelve esto con intención consciente como herramienta para activar el Sistema 2 deliberadamente a pesar de la resistencia evolutiva.
 
 ### El problema: la neurología tarda
 

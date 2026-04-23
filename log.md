@@ -8,6 +8,54 @@
 
 ---
 
+## [2026-04-22] ingest | Seven and a Half Lessons + How Emotions Are Made (Barrett)
+
+**Fuentes:**
+- `07-fuentes/libros/Seven and a half lessons about the brain - Complete.md`
+- `07-fuentes/libros/How Emotions are made - Complete.md`
+**Autora:** Lisa Feldman Barrett
+**Relevancia:** Máxima — Barrett es la base científica principal del método. Luis la cita directamente en Los Seres Musicales y la usa en el taller.
+
+**Archivos wiki afectados (3):**
+- `08-sintesis/modelos-mentales-aprendizaje-musical.md` → dos secciones Barrett escritas: (1) cerebro para sobrevivir / allostasis / aversión al esfuerzo / un cerebro no tres; (2) cerebro construye la realidad / emoción construida / aprender = actualizar modelos predictivos. Conexión Barrett+Kahneman documentada.
+- `08-sintesis/como-enseno-armonia.md` → nueva sección: por qué el camino es largo (aversión al esfuerzo evolutiva, Barrett)
+- `07-fuentes/indice-fuentes.md` → ambos libros marcados INGESTED
+
+**Conocimiento capturado:**
+- El cerebro no evolucionó para pensar — evolucionó para gestionar el cuerpo (allostasis)
+- Anticipación ganó a reacción en la evolución del Cámbrico — base del principio de anticipación de Luis
+- Un cerebro integrado, no tres en guerra — desmonta el mito reptiliano/límbico/racional
+- La aversión al esfuerzo es evolutiva: el cerebro maximiza eficiencia energética → explica por qué "tocar por tocar" destruye el aprendizaje
+- El cerebro construye la realidad desde predicciones (How Emotions Are Made) → aprender = actualizar modelos predictivos
+- El ejercicio de visualización antes de ejecutar = construir el modelo predictivo correcto antes de gastar energía ejecutando
+- Barrett + Kahneman = pareja conceptual central del método (mencionados juntos en Los Seres Musicales)
+
+---
+
+## [2026-04-22] ingest | Thinking Fast and Slow (Kahneman)
+
+**Fuente:** `07-fuentes/libros/Thinking Fast and Slow - Complete.md`
+**Autor:** Daniel Kahneman
+**Relevancia:** Alta — Sistema 1/Sistema 2 es el modelo cognitivo central del método. Luis lo usa directamente en el taller y es lectura obligatoria asignada. Los Seres Musicales lo cita explícitamente.
+
+**Archivos wiki afectados (3):**
+- `08-sintesis/modelos-mentales-aprendizaje-musical.md` → sección principal de Kahneman escrita: S1/S2, migración de aprendizaje, anticipación vs. reacción, metacognición, "el yogui y el automático". Estado cambiado a en_progreso.
+- `08-sintesis/como-enseno-armonia.md` → los tres errores del coral reinterpretados en clave Kahneman (errores de Sistema 1)
+- `07-fuentes/indice-fuentes.md` → Kahneman marcado como INGESTED
+
+**Conocimiento capturado:**
+- S1 = automático, heurísticas, camino de menor energía → origen de los errores del alumno
+- S2 = deliberado, consciente, se agota → herramienta de corrección y construcción
+- La mielinización = migración de S2 a S1 (esto conecta Kahneman con la neurobiología del método)
+- Anticipación = S2 activo 150ms antes del error (cita directa de Luis en Los Seres Musicales)
+- "El yogui y el automático" = nomenclatura propia de Luis para S2/S1
+
+**Pendiente:**
+- Ingestar *What is Intelligence* — identificar autor y procesar
+- Conectar Kahneman con Barrett (cerebro predictivo) en modelos-mentales.md
+
+---
+
 ## [2026-04-22] ingest | Inner Engineering (Sadhguru)
 
 **Fuente:** `07-fuentes/libros/Inner Engineering - Complete.md`
