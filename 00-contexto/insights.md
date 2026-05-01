@@ -24,7 +24,7 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - [método] El coral perfecto como criterio de avance (mastery-based learning)
 - [técnico] [método] Secuenciador online = entrega de tareas; Cubase = exploración creativa
 - [app] [método] Las apps de entrenamiento auditivo son el corazón del proyecto, no un complemento
-- [filosofía] [negocio] La visión civilizatoria: una sociedad que entiende música sin necesitar partituras
+- ✅ [filosofía] [negocio] La visión civilizatoria: una sociedad que entiende música sin necesitar partituras → capturado en `08-sintesis/como-enseno-armonia.md` (2026-05-01)
 
 ### 2026-04-09
 
@@ -87,6 +87,16 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - [filosofía] [negocio] Las universidades del futuro van a ser las mismas empresas con IA.
 - [método] El curso de armonía para los Seres Musicales tiene que ser cantado — armonía activa, no reactiva.
 
+### 2026-05-01
+
+- [método] [filosofía] La meta real del método: enseñar cómo funciona el cosmos, el cuerpo y la mente. La música es el vehículo más completo — posiblemente el único camino completo. La IA es otro vehículo hacia el mismo destino. → capturado en `08-sintesis/como-enseno-armonia.md` y `00-contexto/quien-soy.md` ✅
+
+- [app] [método] **Elefantito Matemático = gym del cerebro**. Dos módulos: matemáticas mentales + memoria. Ambos con app en la plataforma. Matemáticas mentales: inspirada en investigación Dr. Kawashima sobre activación del córtex prefrontal; 8 niveles (incluyendo modo 💀 Imposible); tiempo ajustable por pregunta; sirve de niños aprendiendo sumas hasta adultos al límite. Conexión con el método: mismo principio que el músico como atleta — entrenamiento deliberado del sustrato neural, no del contenido. Córtex prefrontal = sede del S2 (Kahneman), de la intención consciente, de la capacidad de sostener 4 voces simultáneas. → pendiente de integrar en `01-metodo-pedagogico/filosofia-ensenanza.md`
+
+- [app] [método] Memoria como módulo separado del Elefantito. Conecta con el Camino de la Señal (Memoria = paso 3) y con el insight de 2026-04-09: "Memoria es primero y es todo." La memoria entrenada deliberadamente es el puente entre intención y ejecución. → pendiente de integrar en `01-metodo-pedagogico/filosofia-ensenanza.md`
+
+- [negocio] Asesorías de IA: nueva línea activa, abierta a cualquier cliente. Formato: objetivo concreto (ensayo, automatización, proceso) + enseñanza en el camino (qué usar, cómo pagar, cómo optimizar tokens). Meta: moldear el cerebro para interactuar menos con las IAs. → capturado en `00-contexto/vision-proyecto.md` y `00-contexto/quien-soy.md` ✅
+
 ## Insights Procesados
 
 (aquí se mueven los insights ya integrados a otros archivos del KB)
@@ -95,3 +105,4 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - 2026-04-09: Creación inicial
 - 2026-04-09: Primera tanda de insights cargada — 56 entradas del 2026-04-09, mayoría en áreas [método] y [oído]
 - 2026-04-17: 5 insights del 2026-04-16 archivados desde CLAUDE.md
+- 2026-05-01: 4 insights nuevos — visión civilizatoria ✅, Elefantito Matemático (pendiente filosofia-ensenanza.md), asesorías de IA ✅
