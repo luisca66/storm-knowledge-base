@@ -18,15 +18,15 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 | Libro | Autor | Área de impacto | Archivo |
 |-------|-------|-----------------|---------|
 | Los Seres Musicales | Luis (Storm Studios) | método | libros/Los_Seres_Musicales.md |
-| A Guide to Amino Acid and Protein Nutrition | [verificar autor] | fitness / método (cuerpo) | libros/A Guide to Amino Acid and Protein Nutrition - Complete.md |
-| Full Body Flexibility | [verificar autor] | fitness / método (cuerpo) | libros/Full body flexibility - Complete.md |
-| Speed | [verificar autor] | fitness / método (cuerpo) | libros/Speed - Complete.md |
-| Speed Training | [verificar autor] | fitness / método (cuerpo) | libros/Speed Training - Complete.md |
-| Super Joints | [verificar autor] | fitness / método (cuerpo) | libros/Super Joints - Complete.md |
+| A Guide to Amino Acid and Protein Nutrition | [verificar autor] | fitness / método (cuerpo) — síntesis neural, longevidad — **INGESTED 2026-05-01** | libros/A Guide to Amino Acid and Protein Nutrition - Complete.md |
+| Full Body Flexibility | [verificar autor] | fitness / método (cuerpo) — flexibilidad activa vs. pasiva — **INGESTED 2026-05-01** | libros/Full body flexibility - Complete.md |
+| Speed | J. Barnes | fitness / método (cuerpo) — velocidad neuromotora, Speed Loop — **INGESTED 2026-05-01** | libros/Speed - Complete.md |
+| Speed Training | Loren W. Christensen | fitness / método (cuerpo) — velocidad como eficiencia neural, visualización — **INGESTED 2026-05-01** | libros/Speed Training - Complete.md |
+| Super Joints | Pavel Tsatsouline | fitness / método (cuerpo) — movilidad articular, efecto ideomotor — **INGESTED 2026-05-01** | libros/Super Joints - Complete.md |
 | How Emotions Are Made | Lisa Feldman Barrett | neurociencia / método — emoción construida, cerebro predictivo — **INGESTED 2026-04-22** | libros/How Emotions are made - Complete.md |
 | Seven and a Half Lessons About the Brain | Lisa Feldman Barrett | neurociencia / método — cerebro no es para pensar, allostasis, body budget — **INGESTED 2026-04-22** | libros/Seven and a half lessons about the brain - Complete.md |
 | Inner Engineering | Sadhguru | filosofía / método — **INGESTED 2026-04-22** | libros/Inner Engineering - Complete.md |
-| This Is Your Brain on Music | Daniel J. Levitin | neurociencia / método / oído | libros/This is your Brain on Music - Complete.md |
+| This Is Your Brain on Music | Daniel J. Levitin | neurociencia / método / oído — anticipación, schemas, neuroplasticidad — **INGESTED 2026-05-01** | libros/This is your Brain on Music - Complete.md |
 | Your Brain at Work | David Rock | neurociencia / método | libros/Your Brain at Work_Complete.md |
 | Essentials of Strength Training and Conditioning | NSCA | fitness / método (cuerpo) | libros/ESSENTIALS_of_STRENGTH_TRAINING_and_CONDITIONING_Complete.md |
 | Mental Math | [verificar autor] | otro | libros/Mental Math - Complete.md |
@@ -41,7 +41,7 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 | The Little Book of Common Sense Investing | John C. Bogle | otro / negocio | libros/Little Book Of Common Sense Investing_Complete.md |
 | **Curso Integral de Composición Musical** | **Humberto Hernández Medrano** | **método — FUENTE PRIMARIA** | libros/curso-medrano.txt + libros/curso-medrano.pdf |
 | Thinking Fast and Slow | Daniel Kahneman | neurociencia / método — Sistema 1 vs. Sistema 2 — **INGESTED 2026-04-22** | libros/Thinking Fast and Slow - Complete.md |
-| What is Intelligence | [verificar autor] | neurociencia / método | libros/What is Intelligence - Complete.md |
+| What Is Intelligence? | Blaise Agüera y Arcas (Google Research, 2025) | neurociencia / IA / método — inteligencia como predicción, transfer learning, períodos críticos — **INGESTED 2026-05-01** | libros/What is Intelligence - Complete.md |
 | LLM Wiki | Andrej Karpathy | arquitectura del KB | llm-wiki-karpathy.md |
 
 ## Videos
@@ -75,4 +75,5 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 - 2026-04-10: Agregado Super Joints. Total: 22 libros.
 - 2026-04-16: Agregado Curso Medrano (PDF + TXT) — fuente primaria del método. Agregado LLM Wiki (Karpathy). Agregada sección Videos. Total: 24 fuentes + 1 video.
 - 2026-04-22: Inner Engineering (Sadhguru) — marcado como INGESTED. Archivos afectados: como-enseno-armonia.md, filosofia-ensenanza.md, luis-como-ingeniero-neural.md.
-- 2026-04-22: A Little Bit of Philosophy (PHI 101) copiado a libros/a-little-bit-of-philosophy/ — 4 unidades, 17 lecciones. Pendiente de ingestar.
+- 2026-04-22: A Little Bit of Philosophy (PHI 101) copiado a libros/a-little-bit-of-philosophy/ — 4 unidades, 17 lecciones.
+- 2026-05-01: A Little Bit of Philosophy — U03 L04 (Filosofía de la Mente) y U04 L04 (Aristóteles y la Virtud) INGESTED. Archivos afectados: filosofia-ensenanza.md. What Is Intelligence (Agüera y Arcas) INGESTED. This Is Your Brain on Music (Levitin) INGESTED. 6 libros de fitness INGESTED → el-musico-como-atleta.md.

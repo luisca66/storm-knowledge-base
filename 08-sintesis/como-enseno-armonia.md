@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo Enseño Armonía"
 tipo: sintesis
-ultima_actualizacion: 2026-04-22
+ultima_actualizacion: 2026-05-01
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -283,7 +283,22 @@ La información sobre el método existe. La transmisión viva del método es otr
 
 ---
 
+## El oído como destino: lo que confirma la neurociencia (Levitin)
+
+La visión de Luis — escucha directa sin mediación como meta del método — no es una aspiración filosófica. Es una descripción de cómo funciona el cerebro musical entrenado.
+
+Levitin demuestra que los schemas musicales se forman desde el nacimiento. A los 5 años, un niño que ha escuchado música occidental ya ha internalizado las progresiones armónicas de su cultura — sin instrucción, sin partitura, sin nomenclatura. Sabe que un acorde de dominante quiere resolver, aunque jamás haya escuchado la palabra "dominante". El oído no aprende reglas — construye modelos predictivos.
+
+La diferencia entre ese niño y un Ser Musical no es el tipo de proceso — es la profundidad y la precisión de los schemas. El Ser Musical tiene schemas lo suficientemente ricos para anticipar 4 voces simultáneas, reconocer una modulación en tiempo real y escuchar la diferencia entre una quinta paralela y una quinta contraria. El niño tiene schemas rudimentarios que le permiten saber si una canción "suena bien" o no.
+
+El entrenamiento de Luis es, en términos de Levitin, un programa intensivo de construcción de schemas. La escritura SATB construye el schema bachiano desde adentro — desde la producción activa, no desde la escucha pasiva. El entrenamiento auditivo refina la resolución de los schemas existentes (distinguir grados, no solo notas). El coral perfecto es la evidencia de que el schema se instaló con la precisión suficiente para operar sin error bajo demanda cognitiva máxima.
+
+**Por qué el método funciona sin memorizar reglas:** Porque los schemas no son reglas almacenadas — son modelos predictivos activos. El alumno que ha escrito cien corales perfectos no ha memorizado la tabla de duplicaciones — su cerebro ha aprendido a predecir cuándo una duplicación va a sonar mal antes de escribirla. La regla se ha vuelto percepción.
+
+---
+
 ## Historial de Cambios
 - **2026-04-16** — Archivo llenado sustancialmente a partir del Curso Integral de Composición Musical (Medrano). Sección de voz de Luis pendiente de entrevista.
 - **2026-04-17** — Entrevista a Luis: visión de escucha directa sin mediación, el problema neurológico del tiempo, filosofía de no motivar (influencia Sadhguru / Inner Engineering).
 - **2026-04-22** — Ingesta de Inner Engineering (Sadhguru): tres nuevas secciones integradas — el método como sadhana/tecnología, el filtro natural (hacer esperar), y transmisión viva vs. información muerta.
+- **2026-05-01** — Ingesta de This Is Your Brain on Music (Levitin): nueva sección sobre schemas musicales como modelos predictivos — confirma neurológicamente la visión de escucha directa de Luis.

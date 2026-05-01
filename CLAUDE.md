@@ -232,7 +232,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-04-17
+**Última actualización:** 2026-05-01
 
 **Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md
 
@@ -240,24 +240,29 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 **Páginas de síntesis activas (08-sintesis/):**
 - `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto
-- `como-enseno-armonia.md` ← en progreso — visión de escucha directa + filosofía de no motivar archivadas hoy
-- `modelos-mentales-aprendizaje-musical.md` ← borrador
-- `el-musico-como-atleta.md` ← borrador
+- `como-enseno-armonia.md` ← **en progreso** — muy sustancial: Medrano + Sadhguru + Levitin + entrevista
+- `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin
+- `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness (2026-05-01)
 - `tecnologia-al-servicio-del-metodo.md` ← borrador
 - `estrategia-freemium-musical.md` ← borrador
 
-**Fuentes ingresadas:** 22 libros + Curso Medrano (PDF+TXT) + 1 video + LLM Wiki Karpathy
+**Fuentes ingresadas:** 31 fuentes total:
+- 22 libros originales + Curso Medrano + LLM Wiki + 1 video
+- Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
+- Sesión 2026-05-01: What Is Intelligence (Agüera y Arcas), This Is Your Brain on Music (Levitin), 6 libros de fitness, A Little Bit of Philosophy U03L04 + U04L04
+
+**Fuentes no ingresadas aún:** Your Brain at Work (Rock), Outliers (Gladwell), libros filosóficos generales, libros económicos
 
 **Repo GitHub:** https://github.com/luisca66/storm-knowledge-base
 
 **Pendiente prioritario:**
-- Leer `Inner Engineering` (Sadhguru) → extraer conexiones con pedagogía de Luis → actualizar `como-enseno-armonia.md` y `filosofia-ensenanza.md`
-- `filosofia-ensenanza.md` → conexión matemática mental / Elefantito Matemático
-- `00-contexto/ritmos-y-decisiones.md` → creado ✓ — pendiente completar con más detalle si surge
+- `filosofia-ensenanza.md` → conexión matemática mental / Elefantito Matemático (requiere entrevista)
 - Continuar entrevista de `como-enseno-armonia.md` — visión civilizatoria pendiente de desarrollar
+- `modelos-mentales-aprendizaje-musical.md` → sección Sadhguru (silencio interior) aún pendiente
 - Archivos en `borrador` en `02-plataforma-web/`, `04-contenido-musical/`, `05-operaciones/`
+- Ingestar `Your Brain at Work` (Rock) → conectar con modelos-mentales
 - Hacer `git push` después de cada sesión de trabajo
 
 ---
 
-*Este archivo es mantenido por Claude. Última revisión: 2026-04-17.*
+*Este archivo es mantenido por Claude. Última revisión: 2026-05-01.*

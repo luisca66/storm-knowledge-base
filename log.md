@@ -8,6 +8,58 @@
 
 ---
 
+## [2026-05-01] ingest | 9 fuentes ingresadas (lote)
+
+**Fuentes procesadas:**
+1. `What Is Intelligence?` (Blaise Agüera y Arcas, Google Research, 2025)
+2. `This Is Your Brain on Music` (Daniel J. Levitin)
+3. `Speed` (J. Barnes) — velocidad neuromotora para combate
+4. `Speed Training` (Loren Christensen) — velocidad como eficiencia neural
+5. `Super Joints` (Pavel Tsatsouline) — movilidad articular rusa
+6. `Full Body Flexibility` — flexibilidad activa vs. pasiva
+7. `Essentials of Strength Training and Conditioning` (NSCA, 4a ed.)
+8. `A Guide to Amino Acid and Protein Nutrition` — síntesis neural
+9. `A Little Bit of Philosophy` — U03 L04 (Filosofía de la Mente) + U04 L04 (Aristóteles y la Virtud)
+
+**Archivos wiki afectados (4):**
+- `08-sintesis/modelos-mentales-aprendizaje-musical.md` → dos nuevas secciones principales: (1) Agüera y Arcas: inteligencia como predicción, transfer learning, períodos críticos, convergencia Barrett+predicción; (2) Levitin: schemas musicales, anticipación, multidimensionalidad del oído, neuroplasticidad, dopamina y memoria. Secciones huérfanas de Levitin completadas.
+- `08-sintesis/el-musico-como-atleta.md` → archivo llenado de borrador a en_progreso: 7 secciones sustanciales (sistema neuromuscular, velocidad neuromotora, flexibilidad articular, fuerza y resistencia, nutrición, dimensiones integradas, Luis como caso de estudio).
+- `08-sintesis/como-enseno-armonia.md` → nueva sección: "El oído como destino: lo que confirma la neurociencia (Levitin)" — schemas como modelos predictivos, por qué el método funciona sin memorizar reglas.
+- `01-metodo-pedagogico/filosofia-ensenanza.md` → nueva sección "Aristóteles y la virtud como hábito" — validación filosófica más antigua del principio de mielinización. Aristóteles agregado a Influencias Intelectuales.
+
+**Conocimiento capturado:**
+
+*Agüera y Arcas:*
+- Inteligencia = capacidad de modelar, predecir e influir en el futuro propio (def. funcional de Helmholtz, 1860s)
+- Aprendizaje = aprender a representar (construir embeddings internos del mundo)
+- Transfer learning: el dominio profundo en un área construye andamiaje para áreas adyacentes → valida la apuesta por SATB como cimiento neural
+- Períodos críticos: los fonemas/sonidos se aprenden en ventanas sensibles tempranas; el adulto puede aprenderlos pero a mayor costo → explica por qué el método es largo e intensivo
+- Convergencia con Barrett: ambos dicen lo mismo desde ángulos distintos (neurobiología vs. computación)
+
+*Levitin:*
+- La anticipación es el corazón de la música: el compositor controla las expectativas del oyente
+- Schemas musicales se forman desde el vientre materno; a los 5 años el niño reconoce progresiones armónicas de su cultura
+- El cerebro construye una realidad musical multidimensional desde una señal 1D (frecuencia)
+- Incluso pequeña exposición a lecciones musicales crea estructuras neurales duraderas
+- Dopamina y memoria: cuando te importa el material, recuerdas mejor → el coral perfecto como requisito garantiza el involucramiento genuino
+- Neuroplasticidad confirmada: la región cerebral del movimiento de la mano izquierda en violinistas crece con la práctica
+
+*Fitness (6 libros):*
+- Adaptaciones neurales ocurren ANTES que las musculares (primeras 8 semanas = aprendizaje motor)
+- Velocidad = eficiencia neuromotora, no fuerza bruta
+- Relajación entre movimientos = precondición fisiológica para la velocidad siguiente
+- Efecto ideomotor: la visualización activa prepara los circuitos motores (= ejercicio de visualización del método)
+- Movilidad activa vs. pasiva: la pasiva sin activa genera lesiones; la active flexibility desarrolla el rango controlado
+- Aminoácidos esenciales para síntesis de neurotransmisores (dopamina, serotonina) — nutrición del sistema nervioso
+
+*Aristóteles (Ética Nicomáquea):*
+- Virtudes del carácter solo se adquieren mediante práctica — el conocimiento intelectual de la regla no basta
+- El violinista virtuoso como ejemplo propio de Aristóteles: teoría ≠ habilidad
+- Eudaimonia = florecimiento = alcanzar el máximo potencial de la naturaleza humana
+- Validación filosófica de 2,400 años del principio de mielinización como construcción de disposiciones habituales
+
+---
+
 ## [2026-04-22] actualización | A Little Bit of Philosophy copiado a fuentes
 
 **Acción:** Curso PHI 101 copiado a `07-fuentes/libros/a-little-bit-of-philosophy/`
