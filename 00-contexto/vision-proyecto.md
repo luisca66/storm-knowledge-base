@@ -1,7 +1,7 @@
 ---
 titulo: "Visión del Proyecto"
 tipo: contexto
-ultima_actualizacion: 2026-04-09
+ultima_actualizacion: 2026-05-01
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -12,7 +12,7 @@ estado: completo
 # Visión del Proyecto — Storm Studios Learning
 
 ## Resumen
-Storm Studios Learning es una plataforma educativa musical de acceso libre que implementa el método "Los Seres Musicales" de Luis en formato digital. El modelo es freemium: el curso completo de armonía, las apps y el Maestro Virtual son gratuitos. Los ingresos vienen de Kindle, YouTube y clases presenciales avanzadas. El objetivo final es que los ingresos de la plataforma reemplacen el trabajo actual de Luis y le permitan dedicarse de tiempo completo a seguir construyendo.
+Storm Studios Learning opera hoy en dos líneas paralelas: la plataforma educativa musical (freemium, curso de armonía gratuito, Maestro Virtual, apps) y asesorías de IA (pagadas, para cualquier cliente). Las dos líneas están conectadas por la misma filosofía: construir la arquitectura neural correcta, no sustituirla. El objetivo final es que los ingresos combinados reemplacen el trabajo actual de Luis y le permitan dedicarse de tiempo completo a seguir construyendo.
 
 ---
 
@@ -75,6 +75,7 @@ Los ingresos generados por la plataforma — Kindle, YouTube, clases presenciale
 | Manuales de apps | Kindle (~$2.50 USD c/u) | En desarrollo |
 | Videos del curso | Monetización YouTube | En grabación |
 | Clases presenciales avanzadas | Precio directo con Luis | Activo |
+| **Asesorías de IA** | **Precio directo con Luis** | **Activo** |
 | Contrapunto / Análisis / Film Scoring | Precio directo con Luis | Futuro |
 
 ---
@@ -90,6 +91,27 @@ Las métricas específicas se definirán cuando Luis esté trabajando de tiempo 
 
 ---
 
+## La nueva línea — Asesorías de IA
+
+En 2026, todos los alumnos de Luis llevan IA integrada a su trabajo. Esto derivó en una segunda línea de negocio independiente: asesorías de IA pagadas, abiertas a cualquier cliente — no solo alumnos de música.
+
+**Formato:** Sesiones individuales centradas en un objetivo concreto. El cliente llega con un problema real: un ensayo para la escuela, una automatización para un proceso interno o personal, una tarea específica de empresa. Luis lo resuelve *con* el cliente, no *por* el cliente, enseñando en el camino todo lo que hace falta: qué IA usar, cómo pagarla, cómo estructurar los prompts, cómo optimizar tokens en una suscripción.
+
+**El cliente ideal:** Cualquier persona u organización que siente que las IAs son una caja negra o que no está aprovechando lo que ya pagó. No requiere conocimiento técnico previo.
+
+**Lo que se enseña en una sesión:**
+- Qué herramienta usar para qué tarea (no todas las IAs son iguales para todos los problemas)
+- Cómo estructurar la interacción para obtener resultados útiles
+- Cómo pagar la herramienta correctamente (suscripciones, tokens, APIs)
+- Cómo optimizar el uso para no desperdiciar dinero ni tiempo
+- El marco de fondo: cuándo usar la IA y cuándo no — qué delegar y qué no
+
+**La filosofía que lo une con el método musical:** El objetivo de las asesorías no es que el cliente use más IA — es que use mejor IA y con menos dependencia. La misma distinción que aplica al músico aplica aquí: IA como amplificador (tú sigues siendo el creador, tus capacidades crecen) vs. IA como sustituto (delegas el trabajo cognitivo, pierdes conexiones). Luis enseña a identificar esa línea y a no cruzarla.
+
+**Relación con la plataforma:** Por ahora las asesorías son presenciales/directas — no hay producto digital de IA en la plataforma. Es una línea de ingresos activa que opera en paralelo con Storm Studios Learning.
+
+---
+
 ## El Rol de este Knowledge Base
 
 Este KB no es solo documentación técnica — es la memoria que le permite a cualquier IA futura (y a Claude ahora mismo) colaborar en el proyecto sin que Luis tenga que explicar todo desde cero. "Lo que necesito es tener toda mi historia lista para que una IA del futuro me ayude a seguir puliendo todos mis materiales." Cada archivo que se llena aquí es una inversión directa en la velocidad y calidad de ese trabajo futuro.
@@ -99,3 +121,4 @@ Este KB no es solo documentación técnica — es la memoria que le permite a cu
 ## Historial de Cambios
 - 2026-04-07: Creación inicial (borrador)
 - 2026-04-09: Llenado completo con dictado directo de Luis. Estado: `completo`.
+- 2026-05-01: Entrevista Luis — nueva línea de negocio documentada: asesorías de IA (activas, abiertas a cualquier cliente). Resumen y tabla de fuentes actualizados.
