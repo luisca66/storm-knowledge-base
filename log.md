@@ -8,6 +8,17 @@
 
 ---
 
+## [2026-05-01 sesión 2] entrevista | como-enseno-armonia.md — visión civilizatoria + IA
+
+**Archivo afectado:** `08-sintesis/como-enseno-armonia.md`
+
+**Conocimiento capturado:**
+- **La visión civilizatoria**: lo que Luis realmente enseña es cómo funciona el cosmos, el cuerpo y la mente. La música es el vehículo más completo — posiblemente el único camino completo — pero no el único posible. El impacto del método no es musical: es humano.
+- **IA como extensión del método**: todos los alumnos trabajan hoy con IA; Luis ya da asesorías cobradas de IA. El objetivo: moldear el cerebro para interactuar *menos* con las IAs. La distinción clave es qué se delega: IA como amplificador (tú eres el creador, tus redes crecen) vs. IA como sustituto (delegas el trabajo cognitivo, pierdes conexiones).
+- **La pregunta de diagnóstico**: ¿Usas la IA para hacer más de lo que ya eres, o para no tener que ser nada?
+
+---
+
 ## [2026-05-01] ingest | 9 fuentes ingresadas (lote)
 
 **Fuentes procesadas:**

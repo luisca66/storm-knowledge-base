@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo Enseño Armonía"
 tipo: sintesis
-ultima_actualizacion: 2026-05-01
+ultima_actualizacion: 2026-05-01 (sesión 2)
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -297,8 +297,51 @@ El entrenamiento de Luis es, en términos de Levitin, un programa intensivo de c
 
 ---
 
+## La visión civilizatoria: cosmos, cuerpo y mente
+
+Luis tiene una respuesta clara cuando se le pregunta qué enseña realmente:
+
+> *"Lo que tienes que saber para resolver una vida es: cómo funciona el cosmos, cómo funciona tu cuerpo y cómo funciona tu mente. No importa cómo te lo enseñe — esa es la meta."*
+
+La música no es el punto. La música es el vehículo más completo disponible para enseñar esas tres cosas simultáneamente — "quizá el único camino completo". Pero el objetivo siempre fue el mismo: construir un ser humano que entiende el sistema en el que existe.
+
+- **El cosmos** → acústica, armónicos naturales, temperamento igual, el círculo de quintas, las matemáticas de las relaciones tonales. La música no inventa estas estructuras — las revela. Estudiar armonía es estudiar física y matemáticas con el oído.
+- **El cuerpo** → el músico como atleta, el sistema neuromuscular, la mielinización, la postura, la respiración, la recuperación. El instrumento primario no es la guitarra ni el piano — es el sistema nervioso del músico.
+- **La mente** → los schemas, el oído predictivo, la migración de S2 a S1, la intención consciente como herramienta de construcción neural. La música construye arquitectura cognitiva que trasciende la música.
+
+Esto explica algo que confunde a los alumnos nuevos: Luis habla de neurociencia en una clase de guitarra, de filosofía en una clase de armonía, de atletismo en una clase de técnica. No es divagación — es que siempre está enseñando lo mismo desde distintos ángulos. El instrumento cambia. La meta no.
+
+La implicación civilizatoria es esta: si el método funciona — si produce personas que entienden cómo funciona el cosmos, el cuerpo y la mente — su impacto no es musical. Es humano.
+
+---
+
+## La IA como extensión del método: amplificar vs. delegar
+
+La integración de IA al método no es una adición externa — es la extensión natural de la misma filosofía.
+
+Todos los alumnos de Luis trabajan hoy con IA. Ya da asesorías cobradas específicamente sobre cómo usarla. El objetivo es coherente con todo lo anterior:
+
+> *"Enseño cómo moldear tu cerebro para interactuar menos con las IAs."*
+
+Menos, no más. La distinción crítica es **qué delegas a la IA**:
+
+**IA como amplificador:** La usas para potenciar tu propio cerebro. Tú eres el creador — la dirección, el criterio, la intención son tuyas. La IA ejecuta, verifica, acelera. Resultado: tus redes neuronales crecen como nunca, porque la IA te permite hacer más de lo que ya haces bien.
+
+**IA como sustituto:** Le delegas a la IA el trabajo cognitivo central — la IA piensa, crea, decide. Tú consumes el output. Resultado: las conexiones que no usas se pierden. El cerebro que no trabaja no mieliniza.
+
+La diferencia no está en cuánto usas la IA. Está en si el trabajo cognitivo lo haces tú o lo hace la máquina. Un músico que usa IA para producir más rápido lo que él concibe es un músico amplificado. Un músico que usa IA para que le diga qué componer está perdiendo exactamente la capacidad que el método busca construir.
+
+**La paradoja que confirma el principio:** Luis construye este Knowledge Base con IA. Es vibe coder — todo su software lo desarrolla con Claude. Pero él es el arquitecto: la visión, la estructura conceptual, la dirección son suyas. La IA es el instrumento. Exactamente como el secuenciador no toca la música — la ejecuta.
+
+La neurociencia respalda esto directamente. Barrett: el cerebro construye predicciones solo si trabaja activamente — la predicción pasiva (consumir output de IA) no construye el modelo. Levitin: los schemas se forman desde la producción activa, no desde la recepción. Agüera y Arcas: la inteligencia es la capacidad de modelar, predecir e influir — si la IA hace el modelado, tú no desarrollas esa capacidad.
+
+**La pregunta de diagnóstico para cualquier uso de IA:** ¿Estás usando la IA para hacer más de lo que ya eres, o estás usándola para no tener que ser nada?
+
+---
+
 ## Historial de Cambios
 - **2026-04-16** — Archivo llenado sustancialmente a partir del Curso Integral de Composición Musical (Medrano). Sección de voz de Luis pendiente de entrevista.
 - **2026-04-17** — Entrevista a Luis: visión de escucha directa sin mediación, el problema neurológico del tiempo, filosofía de no motivar (influencia Sadhguru / Inner Engineering).
 - **2026-04-22** — Ingesta de Inner Engineering (Sadhguru): tres nuevas secciones integradas — el método como sadhana/tecnología, el filtro natural (hacer esperar), y transmisión viva vs. información muerta.
 - **2026-05-01** — Ingesta de This Is Your Brain on Music (Levitin): nueva sección sobre schemas musicales como modelos predictivos — confirma neurológicamente la visión de escucha directa de Luis.
+- **2026-05-01 (sesión 2)** — Entrevista a Luis: dos nuevas secciones — "La visión civilizatoria" (cosmos/cuerpo/mente como meta real del método) y "La IA como extensión del método" (amplificar vs. delegar; asesorías de IA ya en curso).
