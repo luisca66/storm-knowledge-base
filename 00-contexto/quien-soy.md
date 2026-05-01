@@ -1,7 +1,7 @@
 ---
 titulo: "Quién Soy"
 tipo: contexto
-ultima_actualizacion: 2026-04-07
+ultima_actualizacion: 2026-05-01
 relacionado_con:
   - 00-contexto/vision-proyecto.md
   - 00-contexto/stack-tecnologico.md
@@ -12,7 +12,7 @@ estado: completo
 # Quién Soy — Luis Cárdenas (Storm Studios Learning)
 
 ## Resumen
-Luis nació en 1966 en la Ciudad de México. Es músico, compositor, productor, maestro y campeón mundial de físicoculturismo. Con 35 años de carrera musical y 30 enseñando, es el creador de "Los Seres Musicales" — un método pedagógico original que integra neurociencia, fisiología, psicología cognitiva y filosofía yóguica para transformar a cualquier estudiante en un músico consciente y completo. También es autor del libro homónimo (2024) y, desde 2025, constructor de herramientas digitales educativas con IA.
+Luis nació en 1966 en la Ciudad de México. Es músico, compositor, productor, maestro y campeón mundial de físicoculturismo. Con 35 años de carrera musical y 30 enseñando, es el creador de "Los Seres Musicales" — un método pedagógico original que integra neurociencia, fisiología, psicología cognitiva y filosofía yóguica para transformar a cualquier estudiante en un músico consciente y completo. También es autor del libro homónimo (2024), constructor de herramientas digitales educativas con IA, y asesor de IA — enseña a personas y empresas a usar la inteligencia artificial como amplificador del cerebro propio, no como sustituto.
 
 ---
 
@@ -85,6 +85,8 @@ Este logro no es un paréntesis en su historia: es una prueba viva de su método
 
 **Stack principal:** Next.js / TypeScript en Vercel, apps Android, juegos en Godot 4, apps HTML/vanilla JS.
 
+**IA como nueva línea de enseñanza:** En 2026, todos sus alumnos llevan IA integrada. Esto derivó en asesorías de IA pagadas, abiertas a cualquier cliente — no solo alumnos de música. El formato es práctico: el cliente llega con un objetivo concreto (un ensayo, una automatización empresarial, un proceso personal) y Luis lo resuelve con él, enseñando en el camino qué herramienta usar, cómo pagarla y cómo optimizar una suscripción. El objetivo no es que usen más IA — es que moldeen su cerebro para interactuar *menos* con las IAs. La distinción central: IA como amplificador (tú eres el creador, tus redes crecen) vs. IA como sustituto (delegas el trabajo cognitivo, pierdes conexiones).
+
 **Convicción estratégica:** Habiendo vivido todo el desarrollo de la IA en el último año, Luis ha llegado a una conclusión clara: **el futuro está en sus datos, no en sus habilidades para usar la IA.** Las capacidades de los modelos crecerán exponencialmente en meses, no años. Lo que no cambiará — lo que ningún modelo puede generar solo — es el conocimiento acumulado en 35 años de práctica y 30 de enseñanza. Por eso este Knowledge Base no es un proyecto de documentación: es su activo estratégico más importante.
 
 ---
@@ -92,6 +94,12 @@ Este logro no es un paréntesis en su historia: es una prueba viva de su método
 ## Filosofía Personal
 
 **Sobre la música:** Para Luis, la música es mucho más que técnica o arte — es un medio para conectar con la propia esencia más profunda. Los domingos de infancia llenos de Beethoven y trova cubana, las enseñanzas de Mamá Chole y su madre cantando a dúo, la formación con un maestro de linaje Shostakovich, quince años de publicidad y el año dedicado a entrenar el oído absoluto — todo eso convergió en una visión de la música como lenguaje vivo que se habita, no solo se ejecuta.
+
+**Sobre lo que realmente enseña:** Luis tiene una respuesta precisa cuando se le pregunta qué enseña, más allá del instrumento o la herramienta:
+
+> *"Lo que tienes que saber para resolver una vida es: cómo funciona el cosmos, cómo funciona tu cuerpo y cómo funciona tu mente."*
+
+La música es el vehículo más completo — posiblemente el único camino completo — para enseñar las tres cosas simultáneamente. La IA es otro vehículo hacia el mismo destino. El instrumento cambia; la meta no.
 
 **Sobre la enseñanza:** El verdadero maestro no transmite técnica: desarrolla en el estudiante la capacidad de *escuchar más allá de las notas*. La pedagogía musical convencional ha fallado a generaciones enteras de estudiantes que no son prodigios. Su trabajo es reparar ese daño con un método que respete el ritmo de cada persona "como un traje hecho a medida".
 
@@ -128,3 +136,4 @@ En ese sentido, su curso en línea tiene un propósito que no se vuelve obsoleto
 - 2026-04-07: Creación inicial (borrador)
 - 2026-04-07: Llenado sustancial con información del libro *Los Seres Musicales* — capítulo "Interludio: ¿quién soy?". Estado actualizado a `en_progreso`.
 - 2026-04-07: Sección de tecnología e IA completada con dictado directo de Luis. Filosofía sobre IA y legado documentada. Estado: `completo`.
+- 2026-05-01: Entrevista Luis — tres adiciones: (1) resumen actualizado con línea de asesorías de IA; (2) nueva subsección "IA como nueva línea de enseñanza" en Relación con la Tecnología; (3) nueva subsección "Sobre lo que realmente enseña" (cosmos/cuerpo/mente) en Filosofía Personal.
