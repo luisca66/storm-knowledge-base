@@ -1,37 +1,83 @@
 ---
 titulo: "Maestro Virtual"
 tipo: spec
-ultima_actualizacion: 2026-04-07
+ultima_actualizacion: 2026-05-02
 relacionado_con:
   - 01-metodo-pedagogico/ejercicios/reglas-validacion.md
   - 02-plataforma-web/arquitectura.md
   - 02-plataforma-web/secuenciador.md
-estado: borrador
+  - 08-sintesis/como-enseno-armonia.md
+estado: en_progreso
 ---
 
 # Maestro Virtual
 
 ## Resumen
-El validador automático de ejercicios MIDI. Recibe el archivo MIDI del estudiante, aplica reglas de validación por lección, y devuelve retroalimentación.
+El Maestro Virtual es el validador automático de ejercicios del curso. Recibe un archivo MIDI exportado por el Storm Sequencer, aplica las reglas de validación correspondientes a la lección, y devuelve retroalimentación al alumno. Es la implementación tecnológica del principio pedagógico central: **retroalimentación inmediata como condición de la práctica deliberada**.
+
+---
+
+## Por qué existe
+
+En las clases presenciales, Luis valida personalmente el trabajo de cada alumno. El coral perfecto como criterio de avance requiere que alguien — o algo — verifique que los ejercicios cumplen las reglas antes de permitir el avance.
+
+A escala, eso es imposible sin automatización. El Maestro Virtual replica esa función a cualquier hora, sin importar cuántos alumnos haya. Desde la perspectiva de Ericsson/Gladwell: sin retroalimentación inmediata, el alumno puede estar mielinizando el error con perfecta eficiencia.
+
+La plataforma lo describe como "retroalimentación de IA que acompaña al método, no lo sustituye" — la distinción es importante. El Maestro Virtual valida reglas; la comprensión musical la desarrolla el alumno.
+
+---
 
 ## Arquitectura
-- `midi-parser.ts` — parseo del archivo MIDI
-- `scale-validator.ts` — reglas de validación de escalas
-- API route — endpoint que recibe el MIDI y devuelve resultado
 
-## Problema Enarmónico
-[LLENAR: Explicación detallada del problema F#/Gb y cómo se resolvió con key_signature meta-messages]
+El sistema vive como una API route dentro de la plataforma Next.js:
 
-## Estado por Lección
+- **`midi-parser.ts`** — Parseo del archivo MIDI recibido. Extrae notas, duraciones, voces, y los meta-messages (incluyendo `key_signature`).
+- **`scale-validator.ts`** — Módulo de validación para lecciones de escalas. Aplica las reglas de la lección contra el MIDI parseado.
+- **API route** (`app/api/...`) — Endpoint que recibe el archivo MIDI del alumno, lo pasa por el parser y el validador, y devuelve el resultado de la validación.
 
-| Lección | Validador | Estado |
-|---------|-----------|--------|
-| 1 - Escalas Mayores | Implementado y desplegado | Completo |
-| 2 - Escalas Menores | Especificado en documento de handoff | [LLENAR] |
-| 3+ | [LLENAR] | |
+---
 
-## Documento de Handoff — Lección 2
-[LLENAR: Copiar o referenciar el documento de handoff existente]
+## El problema enarmónico y la solución
+
+### El problema
+
+En música occidental, F# (Fa sostenido) y Gb (Sol bemol) son **enarmónicos**: suenan exactamente igual en afinación temperada. Un archivo MIDI estándar solo registra el número de nota MIDI (0–127) y la velocidad — no sabe si la nota es F# o Gb. Ambas producen el mismo número.
+
+Para el Maestro Virtual esto es un problema crítico. Una escala de Fa# mayor tiene un nombre específico para cada nota (Fa#, Sol#, La#, Si, Do#, Re#, Mi#). Si el alumno escribe Sol# cuando debería ser La♭, suenan igual pero son armónicamente distintas. Sin esa información, el validador no puede determinar si el ejercicio es correcto.
+
+### La solución: `key_signature` meta-messages
+
+Los DAWs comerciales (incluido Cubase) exportan MIDI sin `key_signature` meta-messages por defecto — solo guardan las notas como números. Para resolver el problema enarmónico, Luis construyó el **Storm Sequencer** como herramienta propia que sí exporta estos meta-messages.
+
+El `key_signature` meta-message indica la armadura de clave: cuántos sostenidos o bemoles, y si es mayor o menor. Con esa información, el Maestro Virtual puede resolver la enarmónica de cada nota y validar correctamente.
+
+**Esto es la razón de existir del Sequencer propio** — no es comodidad ni ahorro de licencias. Es la única forma de producir el MIDI que el validador requiere.
+
+---
+
+## Estado por lección
+
+| Lección | Tipo | Validador | Estado |
+|---------|------|-----------|--------|
+| Propedéutico (P01–P04) | Fundamentos | — | Sin validación (conceptual) |
+| Lección 1 — Escalas Mayores | Escalas | `scale-validator.ts` | ✅ Implementado y desplegado |
+| Lección 2 — Escalas Menores | Escalas | Especificado en handoff | 🔲 Pendiente de implementar |
+| Lecciones 3–5 | [verificar con Luis] | — | 🔲 Por definir |
+| Lecciones 6–60 | Armonía (SATB) | — | 🔲 Sin especificar |
+
+**Nota:** La validación de corales SATB (lecciones de armonía) es significativamente más compleja que la de escalas. Requiere validar 4 voces simultáneamente contra las reglas de duplicación, movimiento, y tesituras del nivel correspondiente. Este es el desarrollo más complejo pendiente del Maestro Virtual.
+
+---
+
+## Pendientes críticos
+
+- [ ] Implementar validador Lección 2 (Escalas Menores) según documento de handoff existente
+- [ ] Definir arquitectura del validador SATB para las lecciones de armonía (Lecciones 6+)
+- [ ] Especificar reglas de validación por lección en `ejercicios/reglas-validacion.md`
+- [ ] Documentar el documento de handoff de Lección 2 en este archivo
+
+---
 
 ## Historial de Cambios
-- 2026-04-07: Creación inicial (borrador)
+- **2026-04-07** — Creación inicial (borrador)
+- **2026-05-02** — Archivo sustancialmente expandido: propósito pedagógico, arquitectura, el problema enarmónico y su solución, estado por lección. Estado: en_progreso.

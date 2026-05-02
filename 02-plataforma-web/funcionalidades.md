@@ -1,25 +1,113 @@
 ---
-titulo: "Funcionalidades y Roadmap"
+titulo: "Funcionalidades y Estado Actual"
 tipo: catalogo
-ultima_actualizacion: 2026-04-07
+ultima_actualizacion: 2026-05-02
 relacionado_con:
   - 02-plataforma-web/arquitectura.md
-estado: borrador
+  - 02-plataforma-web/maestro-virtual.md
+  - 02-plataforma-web/secuenciador.md
+  - 03-apps-herramientas/indice-apps.md
+estado: en_progreso
 ---
 
-# Funcionalidades y Roadmap
+# Funcionalidades y Estado Actual
 
 ## Resumen
-Features actuales del sitio web y plan de desarrollo futuro.
+Qué existe hoy en [stormstudios.com.mx](https://www.stormstudios.com.mx) — funcionalidades implementadas, contenido disponible y lo que está pendiente. Snapshot tomado 2026-05-02.
 
-## Funcionalidades Actuales
-[LLENAR: Lo que ya funciona hoy en stormstudios.com.mx]
+---
 
-## Roadmap
+## Páginas activas
 
-| Prioridad | Feature | Descripción | Estado |
-|-----------|---------|-------------|--------|
-| [LLENAR] | | | |
+| Ruta | Descripción | Estado |
+|------|-------------|--------|
+| `/es` | Página de inicio | ✅ Activa |
+| `/es/quien-soy` | Biografía y trayectoria de Luis | ✅ Activa |
+| `/es/mi-metodo` | El Camino de la Señal, filosofía pedagógica | ✅ Activa |
+| `/es/clases-taller` | Modalidades de estudio (presencial / distancia / digital) | ✅ Activa |
+| `/es/curso-armonia` | Curso de Armonía Tradicional con lecciones | ✅ Activa |
+| `/es/apps` | Catálogo de las 10 apps Android + Sequencer | ✅ Activa |
+| `/es/el-libro` | Página del libro *Los Seres Musicales* | ✅ Activa |
+| `/es/blog` | Blog de contenidos | ✅ Activa |
+| `/es/contacto` | Formulario / datos de contacto | ✅ Activa |
+| `/es/privacidad` | Política de privacidad | ✅ Activa |
+| `/es/recursos/` | Guías temáticas (armonía, auditivo, intervalos, teoría) | ✅ Activa |
+
+El sitio está disponible en **español e inglés** via internacionalización (`/es/` y `/en/`).
+
+---
+
+## Curso de Armonía — contenido implementado
+
+El curso tiene capacidad para ~60 lecciones. Al 2026-05-02 están publicadas:
+
+| Sección | Lecciones | Estado |
+|---------|-----------|--------|
+| Introducción | 1 lección introductoria | ✅ Publicada |
+| Propedéutico | P01 Escritura de notas, P02 Escritura rítmica, P03 Intervalos, P04 Uso del secuenciador | ✅ 4 lecciones |
+| Lecciones principales | Lecciones 1 a 5 | ✅ 5 lecciones |
+| Lecciones pendientes | Lecciones 6–60 | 🔲 En desarrollo |
+
+**Total publicado:** ~10 lecciones de ~60 planeadas.
+
+---
+
+## Herramientas integradas
+
+### Storm Sequencer v3.0
+Secuenciador MIDI en el navegador, construido en HTML/vanilla JS. Permite al alumno escribir ejercicios del curso y exportarlos como archivo MIDI para enviarlo al Maestro Virtual. Ver `secuenciador.md` para detalles técnicos y pedagógicos.
+
+### Maestro Virtual
+Validador automático de ejercicios. El alumno sube el archivo MIDI exportado del Sequencer y recibe retroalimentación. La plataforma describe esto como "retroalimentación de IA que acompaña al método, no lo sustituye." Ver `maestro-virtual.md` para arquitectura y estado por lección.
+
+---
+
+## Apps Android — catálogo completo (todas gratuitas)
+
+| App | Categoría | Función |
+|-----|-----------|---------|
+| Elefantito Matemático | Cognitiva | Aritmética mental cronometrada |
+| App Memoria – Nemotecnia | Cognitiva | Memorizar números 0–99 con juego de parejas |
+| Desglose | Auditiva | Aislar e identificar notas individuales dentro de acordes |
+| Intervalos – Reconocimiento | Auditiva | Identificar distancias relativas entre notas |
+| Intervalos – Cantados | Auditiva | Producción vocal precisa de intervalos |
+| Reconocimiento de Acordes | Auditiva | Identificar acordes (tríadas hasta acordes con 13ª) |
+| Grados Escala Mayor | Auditiva | Reconocer grados diatónicos y cromáticos en tonalidades mayores |
+| Grados Escala Menor | Auditiva | Reconocer grados diatónicos y cromáticos en tonalidades menores |
+| Oído Absoluto Multi-tímbrico | Auditiva | Reconocimiento de notas sin referencia, 5 timbres |
+| Oído Absoluto Guitarra Clásica | Auditiva | Versión especializada para guitarristas |
+
+---
+
+## Modalidades de estudio ofrecidas
+
+| Modalidad | Descripción |
+|-----------|-------------|
+| **Taller presencial** (CDMX) | Estudio-gimnasio en Ciudad de México. Armonía + entrenamiento auditivo + trabajo corporal. Modalidad más completa. |
+| **Estudio guiado a distancia** | Combinación del curso gratuito, apps, blog y guías de estudio. Permite trabajo serio desde cualquier lugar. |
+| **Recursos digitales** | Acceso libre al curso, apps, blog y guías. Sin acompañamiento directo. |
+
+**Precios:** No publicados en el sitio. El contacto es por teléfono (55 5103 1758) o email (info@stormstudios.com.mx).
+
+---
+
+## Recursos adicionales
+
+- **Guías temáticas:** 4 guías en `/es/recursos/` (curso de armonía, entrenamiento auditivo, intervalos, fundamentos)
+- **Blog:** Artículos sobre el método, neurociencia aplicada, pedagogía musical
+- **Libro *Los Seres Musicales*:** Disponible en formato digital — contiene los principios del método
+
+---
+
+## Pendientes identificados
+
+- [ ] Lecciones 6–60 del curso de armonía (publicar progresivamente)
+- [ ] Precios publicados en el sitio (actualmente solo por contacto)
+- [ ] Estado de la migración de audio assets desde Dreamhost
+- [ ] Sección de asesorías de IA (línea de negocio nueva — ver `vision-proyecto.md`)
+
+---
 
 ## Historial de Cambios
-- 2026-04-07: Creación inicial (borrador)
+- **2026-04-07** — Creación inicial (borrador)
+- **2026-05-02** — Archivo llenado a partir de scraping del sitio stormstudios.com.mx. Estado actualizado de borrador a en_progreso.

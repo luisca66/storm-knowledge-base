@@ -128,6 +128,23 @@
 
 ---
 
+## [2026-05-02] actualización | 02-plataforma-web — tres archivos de borrador a en_progreso
+
+**Método:** Scraping de stormstudios.com.mx + conocimiento del stack documentado en KB
+
+**Archivos modificados (3):**
+- `02-plataforma-web/funcionalidades.md` → llenado completo: páginas activas, lecciones publicadas (~10/60), herramientas integradas, catálogo de 10 apps, modalidades de estudio, pendientes
+- `02-plataforma-web/maestro-virtual.md` → llenado: propósito pedagógico, arquitectura técnica, explicación completa del problema enarmónico y solución con key_signature, estado por lección
+- `02-plataforma-web/decisiones-tecnicas.md` → llenado: razonamiento detrás de Next.js, TypeScript, Vercel, Firebase, Tailwind, next-intl, y el Sequencer en vanilla JS
+
+**Pendientes para verificar con Luis:**
+- Estado actual de Firebase (¿autenticación implementada? ¿qué datos almacena?)
+- Historia del Storm Sequencer (¿cuándo se construyó? ¿versiones anteriores?)
+- Implementar validador Lección 2 (Escalas Menores)
+- Precios en el sitio
+
+---
+
 ## [2026-05-02] ingest | Outliers (Gladwell) + Your Brain at Work (Rock)
 
 **Fuentes:**
