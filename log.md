@@ -8,6 +8,32 @@
 
 ---
 
+## [2026-05-02 sesión 3] plataforma | Documentación completa de 02-plataforma-web/ + ingest Gladwell + Rock + entrevista de verificación
+
+**Archivos modificados:**
+- `02-plataforma-web/funcionalidades.md` → llenado completo: páginas activas, estado de lecciones (~10 de ~60), catálogo de 10 apps Android, modalidades de estudio
+- `02-plataforma-web/maestro-virtual.md` → expansión mayor: arquitectura (midi-parser.ts, scale-validator.ts, API route), problema enarmónico y solución, estado por lección (5 niveles Medrano), lecciones actuales son dummies
+- `02-plataforma-web/secuenciador.md` → historia y origen: construido por Luis con Gemini+ChatGPT+Claude, HTML/JS antes de Next.js, integrado después
+- `02-plataforma-web/decisiones-tecnicas.md` → llenado completo: razonamiento por cada tecnología del stack; Firebase corregido (localStorage, no Firebase en producción confirmada)
+- `00-contexto/vision-proyecto.md` → plataforma como embudo para presencial, intención de legado ("para cuando muera"), Film Scoring en estudio 5.1
+
+**Ingestas:**
+- `Outliers` (Gladwell) → `modelos-mentales-aprendizaje-musical.md`: estudio Ericsson, práctica deliberada, sin naturales ni trabajadores, contexto/ecosistema, trabajo significativo, proverbio del arrozal
+- `Your Brain at Work` (Rock) → `modelos-mentales-aprendizaje-musical.md`: PFC como cuello de botella (Yerkes-Dodson), endurecimiento via ganglios basales (3 repeticiones = LTP), chunking, director metacognitivo
+
+**Entrevista de verificación — conocimiento capturado:**
+- Maestro Virtual = codificación del Curso Medrano completo en código (una instancia Claude hace la conversión)
+- Lecciones actuales en plataforma son DUMMIES
+- ~60 corales como referencia del último alumno presencial — número puede variar
+- Progress del alumno = localStorage (browser-local), Firebase desconocido/no confirmado
+- Storm Sequencer = construido por Luis con sus IAs, HTML que se integró luego a Next.js — "orgullo de la plataforma"
+- Contrapunto y Film Scoring no serán gratuitos — cursos con Luis directamente
+- Film Scoring se mezcla en 5.1 en estudio propio
+- Plataforma = embudo para presencial, no el producto final
+- Intención de legado: dejar el método documentado para que se quede en el mundo
+
+---
+
 ## [2026-05-01 sesión 2] entrevista | como-enseno-armonia.md — visión civilizatoria + IA
 
 **Archivo afectado:** `08-sintesis/como-enseno-armonia.md`

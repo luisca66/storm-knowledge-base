@@ -15,6 +15,8 @@ estado: en_progreso
 ## Resumen
 El Maestro Virtual es el validador automático de ejercicios del curso. Recibe un archivo MIDI exportado por el Storm Sequencer, aplica las reglas de validación correspondientes a la lección, y devuelve retroalimentación al alumno. Es la implementación tecnológica del principio pedagógico central: **retroalimentación inmediata como condición de la práctica deliberada**.
 
+**Lo más importante:** el Maestro Virtual no es un validador genérico — es la **codificación completa del Curso Integral de Composición Musical de Hernández Medrano en lógica de software**. Una instancia de Claude está convirtiendo el curso de Medrano en código; el Maestro Virtual ejecuta ese código para revisar los ejercicios de cada alumno. El curso Medrano (disponible en `07-fuentes/libros/curso-medrano.txt`) es la columna vertebral tanto del Maestro Virtual como de la progresión de lecciones.
+
 ---
 
 ## Por qué existe
@@ -55,17 +57,23 @@ El `key_signature` meta-message indica la armadura de clave: cuántos sostenidos
 
 ---
 
-## Estado por lección
+## Estado de las lecciones
 
-| Lección | Tipo | Validador | Estado |
-|---------|------|-----------|--------|
-| Propedéutico (P01–P04) | Fundamentos | — | Sin validación (conceptual) |
-| Lección 1 — Escalas Mayores | Escalas | `scale-validator.ts` | ✅ Implementado y desplegado |
-| Lección 2 — Escalas Menores | Escalas | Especificado en handoff | 🔲 Pendiente de implementar |
-| Lecciones 3–5 | [verificar con Luis] | — | 🔲 Por definir |
-| Lecciones 6–60 | Armonía (SATB) | — | 🔲 Sin especificar |
+Las lecciones actualmente en la plataforma son **dummies** — placeholders que marcan la estructura del curso pero aún no tienen validación real implementada. La Lección 1 será Escalas Mayores, la Lección 2 Escalas Menores; los números exactos pueden ajustarse conforme el curso se adapte a la plataforma.
 
-**Nota:** La validación de corales SATB (lecciones de armonía) es significativamente más compleja que la de escalas. Requiere validar 4 voces simultáneamente contra las reglas de duplicación, movimiento, y tesituras del nivel correspondiente. Este es el desarrollo más complejo pendiente del Maestro Virtual.
+**El número de lecciones es aproximado.** El último alumno que terminó el curso presencial con Luis escribió aproximadamente **60 corales**, pero ese número puede variar al adaptar el material a la plataforma en línea.
+
+La progresión de lecciones sigue la estructura del Curso Medrano (5 niveles: propedéutico → armonía diatónica → séptimas/novenas → modulación → figuración melódica + cromatismo). Ver `01-metodo-pedagogico/estructura-curso.md` para el mapa completo.
+
+| Nivel | Contenido | Estado del validador |
+|-------|-----------|----------------------|
+| Propedéutico (P01–P04) | Notas, ritmo, intervalos, secuenciador | 🔲 Sin validación (conceptual) |
+| Nivel 1 — Armonía diatónica | ~escalas, acordes de 5ª, SATB, cadencias | 🔲 En desarrollo (codificación Medrano) |
+| Nivel 2 — Séptimas y novenas | V7, VII7, II7, V9 | 🔲 Pendiente |
+| Nivel 3 — Modulación | 1er, 2do, 3er grado de parentesco | 🔲 Pendiente |
+| Nivel 4–5 — Figuración + Cromatismo | Notas extrañas, 6ª napolitana, homónimo | 🔲 Pendiente |
+
+**Nota:** La validación de corales SATB requiere verificar simultáneamente: tesituras de las 4 voces, duplicaciones permitidas/prohibidas, movimientos paralelos (quintas y octavas), enlaces entre acordes, y estados/inversiones. Es el desarrollo técnico más complejo del proyecto.
 
 ---
 

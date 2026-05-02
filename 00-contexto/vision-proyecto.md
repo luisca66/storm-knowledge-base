@@ -1,7 +1,7 @@
 ---
 titulo: "Visión del Proyecto"
 tipo: contexto
-ultima_actualizacion: 2026-05-01
+ultima_actualizacion: 2026-05-02
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -33,6 +33,12 @@ Un alumno que llega sin saber absolutamente nada puede recorrer el siguiente cam
 4. **Precio presencial:** Curso de Contrapunto, Análisis y Film Scoring — con Luis directamente
 
 El regalo (el contenido gratuito) es para llamar la atención y generar masa crítica. El cálculo es que de cada 1,000 alumnos que usen la plataforma, al menos uno estará dispuesto a pagar las clases presenciales. Las clases presenciales son el producto de mayor valor y el que realmente convierte a un alumno en un Ser Musical completo.
+
+**La plataforma como embudo:** La función principal del sitio es vender el curso presencial. Todo el contenido gratuito — armonía, apps, Maestro Virtual — existe para que el alumno serio encuentre a Luis y quiera seguir con él en persona.
+
+**Los cursos avanzados no serán gratuitos — por diseño y por filosofía:** El Taller de Contrapunto y el Curso de Film Scoring son joyas que Luis no va a regalar. El Film Scoring se mezcla en 5.1 en el estudio propio — es un producto de nivel profesional. Tampoco forman parte de la escalera de valor digital: son cursos que se toman directamente con Luis.
+
+**La dimensión de legado:** Luis construye la plataforma también como obra permanente. El objetivo no es solo monetizar en vida — es dejar el método documentado y funcionando para que se quede en el mundo después de él. Esta intención le da al proyecto una escala de tiempo distinta a la de un simple negocio digital.
 
 ---
 
@@ -122,3 +128,4 @@ Este KB no es solo documentación técnica — es la memoria que le permite a cu
 - 2026-04-07: Creación inicial (borrador)
 - 2026-04-09: Llenado completo con dictado directo de Luis. Estado: `completo`.
 - 2026-05-01: Entrevista Luis — nueva línea de negocio documentada: asesorías de IA (activas, abiertas a cualquier cliente). Resumen y tabla de fuentes actualizados.
+- 2026-05-02: Entrevista verificación — añadida intención de legado, función de la plataforma como embudo para presencial, y detalle del estudio 5.1 para Film Scoring.

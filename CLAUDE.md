@@ -232,36 +232,37 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-05-01 (sesión 2)
+**Última actualización:** 2026-05-02 (sesión 3)
 
-**Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md
+**Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md
 
-**Archivos en progreso:** filosofia-ensenanza.md, estructura-curso.md, indice-apps.md, secuenciador.md
+**Archivos en progreso:** filosofia-ensenanza.md, estructura-curso.md, indice-apps.md, secuenciador.md, maestro-virtual.md
 
 **Páginas de síntesis activas (08-sintesis/):**
 - `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
-- `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin
+- `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock
 - `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
 - `tecnologia-al-servicio-del-metodo.md` ← borrador
 - `estrategia-freemium-musical.md` ← borrador
 
-**Fuentes ingresadas:** 31 fuentes total:
+**Fuentes ingresadas:** 33 fuentes total:
 - 22 libros originales + Curso Medrano + LLM Wiki + 1 video
 - Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
 - Sesión 2026-05-01: What Is Intelligence (Agüera y Arcas), This Is Your Brain on Music (Levitin), 6 libros de fitness, A Little Bit of Philosophy U03L04 + U04L04
+- Sesión 2026-05-02: Outliers (Gladwell), Your Brain at Work (Rock)
 
-**Fuentes no ingresadas aún:** Your Brain at Work (Rock), Outliers (Gladwell), libros filosóficos generales, libros económicos
+**Fuentes no ingresadas aún:** libros filosóficos generales, libros económicos
 
 **Repo GitHub:** https://github.com/luisca66/storm-knowledge-base
 
 **Pendiente prioritario:**
 - `filosofia-ensenanza.md` → Elefantito Matemático (Kawashima/prefrontal + memoria) — contexto en insights.md, listo para integrar sin entrevista
 - `modelos-mentales-aprendizaje-musical.md` → sección Sadhguru (silencio interior) aún pendiente
-- `vision-proyecto.md` → nueva línea asesorías de IA documentada ✅ (2026-05-01)
-- Archivos en `borrador` en `02-plataforma-web/`, `04-contenido-musical/`, `05-operaciones/`
-- Ingestar `Your Brain at Work` (Rock) → conectar con modelos-mentales
+- `02-plataforma-web/` → funcionalidades ✅, maestro-virtual ✅, secuenciador ✅, decisiones-tecnicas ✅ — pendiente: arquitectura.md (revisar si necesita actualización)
+- `04-contenido-musical/`, `05-operaciones/` → archivos en borrador pendientes
+- Verificación pendiente: ¿el progreso del alumno (localStorage) es un problema a resolver pronto?
 
 ---
 
-*Este archivo es mantenido por Claude. Última revisión: 2026-05-01 (sesión 2).*
+*Este archivo es mantenido por Claude. Última revisión: 2026-05-02 (sesión 3).*

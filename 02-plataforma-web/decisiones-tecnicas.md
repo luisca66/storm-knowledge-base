@@ -46,14 +46,11 @@ La decisión económica también importa: el plan Hobby de Vercel es **gratuito*
 
 ## Por qué Firebase
 
-Firebase (Google) provee una base de datos en tiempo real en formato JSON, con SDK para JavaScript. Para el estado actual del proyecto, cumple dos funciones:
+Firebase (Google) figura en el stack documentado, pero su uso real actual es incierto. Lo que se sabe con certeza: el **progreso del alumno se guarda localmente en el navegador** (localStorage), no en un servidor. No hay confirmación de que Firebase esté activamente integrado en producción.
 
-1. **Almacenamiento de datos del curso** — progreso del alumno, resultados de validación del Maestro Virtual
-2. **Autenticación** — [verificar con Luis si está implementada]
+**Estado real:** el progreso por lección es local al dispositivo del alumno. Si el alumno cambia de dispositivo o borra el caché, pierde el progreso.
 
-La decisión de Firebase sobre alternativas (PostgreSQL, Supabase, etc.) responde al mismo criterio que Next.js: es un servicio ampliamente documentado, con SDKs oficiales, y con fuerte soporte de IAs de código.
-
-**[VERIFICAR CON LUIS: uso actual de Firebase, qué datos almacena, si hay autenticación implementada]**
+**Pendiente estratégico:** definir si Firebase (o una alternativa) debe implementarse para persistencia real del progreso — especialmente relevante cuando haya más alumnos y más lecciones. Esto también habilitaría autenticación de usuarios, historial de ejercicios y resultados del Maestro Virtual por alumno.
 
 ---
 
@@ -71,13 +68,13 @@ La plataforma está disponible en español e inglés desde el inicio (`/es/` y `
 
 ## Por qué HTML/vanilla JS para el Storm Sequencer
 
-El Sequencer no está construido en React/Next.js — es HTML y JavaScript puro, embebido en la plataforma. Razones probables:
+El Sequencer nació como archivo HTML independiente — antes de que existiera la plataforma Next.js — y fue integrado después. Las razones son concretas:
 
-1. **El Sequencer existía antes que la plataforma** — fue construido como herramienta independiente y luego integrado
-2. **Rendimiento** — un secuenciador MIDI en tiempo real requiere control fino sobre el audio, que es más directo en JS puro que con el overhead de React
-3. **Portabilidad** — como HTML/JS puro, puede funcionar como página standalone sin el framework
+1. **Existía antes que la plataforma** — fue construido como herramienta standalone para resolver el problema enarmónico, y luego embebido en Next.js sin necesidad de reescribirlo
+2. **Control fino sobre MIDI** — un secuenciador en tiempo real requiere manipulación directa del audio y los eventos MIDI; HTML/JS puro da ese control sin el overhead de React
+3. **Funciona** — una vez que resolvió el problema (exportar `key_signature` meta-messages), no había motivo para migrarlo a otro framework y arriesgar regresar errores
 
-**[VERIFICAR CON LUIS: historia del Sequencer, por qué no se migró a React]**
+El Sequencer fue construido por Luis en colaboración con Gemini, ChatGPT y Claude. Es la pieza técnica más original del proyecto.
 
 ---
 
