@@ -27,10 +27,10 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 | Seven and a Half Lessons About the Brain | Lisa Feldman Barrett | neurociencia / método — cerebro no es para pensar, allostasis, body budget — **INGESTED 2026-04-22** | libros/Seven and a half lessons about the brain - Complete.md |
 | Inner Engineering | Sadhguru | filosofía / método — **INGESTED 2026-04-22** | libros/Inner Engineering - Complete.md |
 | This Is Your Brain on Music | Daniel J. Levitin | neurociencia / método / oído — anticipación, schemas, neuroplasticidad — **INGESTED 2026-05-01** | libros/This is your Brain on Music - Complete.md |
-| Your Brain at Work | David Rock | neurociencia / método | libros/Your Brain at Work_Complete.md |
+| Your Brain at Work | David Rock | neurociencia / método — **INGESTED 2026-05-02** | libros/Your Brain at Work_Complete.md |
 | Essentials of Strength Training and Conditioning | NSCA | fitness / método (cuerpo) | libros/ESSENTIALS_of_STRENGTH_TRAINING_and_CONDITIONING_Complete.md |
 | Mental Math | [verificar autor] | otro | libros/Mental Math - Complete.md |
-| Outliers | Malcolm Gladwell | filosofía / método | libros/Outliers_Complete.md |
+| Outliers | Malcolm Gladwell | filosofía / método — **INGESTED 2026-05-02** | libros/Outliers_Complete.md |
 | Energy: A Beginner's Guide | [verificar autor] | neurociencia / filosofía | libros/Energy, A Beginners Guide.md |
 | Lecciones Preliminares de Filosofía | [verificar autor] | filosofía | libros/Lecciones preliminares de filosofía.md |
 | Philosophy: A Beginner's Guide | [verificar autor] | filosofía | libros/Philosophy, Beginners Guide - Complete.md |

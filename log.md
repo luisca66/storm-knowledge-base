@@ -128,6 +128,39 @@
 
 ---
 
+## [2026-05-02] ingest | Outliers (Gladwell) + Your Brain at Work (Rock)
+
+**Fuentes:**
+- `07-fuentes/libros/Outliers_Complete.md` — Malcolm Gladwell
+- `07-fuentes/libros/Your Brain at Work_Complete.md` — David Rock
+
+**Archivos wiki afectados (2):**
+- `08-sintesis/modelos-mentales-aprendizaje-musical.md` → sección Gladwell expandida de stub a completa (10,000 horas, práctica deliberada, no hay naturales/grinders, ecosistema, trabajo significativo). Nueva sección Rock: PFC como cuello de botella, hardwiring via basal ganglia, "director" metacognitivo, chunking, curva Yerkes-Dodson.
+- `07-fuentes/indice-fuentes.md` → ambos libros marcados INGESTED
+
+**Conocimiento capturado:**
+
+*Gladwell/Ericsson (Outliers):*
+- No hay "naturales" ni "grinders" en el estudio de Ericsson — la práctica deliberada lo explica todo
+- La condición que Gladwell suavizó: no son 10,000 horas brutas, sino práctica deliberada con retroalimentación
+- Mozart "desarrolló tarde" — nadie escapa la regla
+- El ecosistema importa: llegar a 10,000 horas requiere contexto favorecedor
+- Trabajo significativo = autonomía + complejidad + conexión esfuerzo-recompensa → el método de Luis cumple las tres
+
+*Rock (Your Brain at Work):*
+- PFC = recurso escaso, costoso, frágil ante amenaza/incertidumbre
+- Hardwiring: 3 repeticiones bastan para iniciar long-term potentiation; el basal ganglia toma el control, libera la PFC
+- Chunking: cada ítem en memoria de trabajo puede representar millones de bits → los expertos no tienen más memoria, tienen chunks más ricos
+- Curva Yerkes-Dodson: el sweet spot entre aburrimiento y sobrecarga maximiza el rendimiento de la PFC
+- El "director" (metacognición) se fortalece con práctica → cambia la estructura del cerebro
+
+**Pendiente para próxima sesión:**
+- Sección Sadhguru en modelos-mentales: silencio interior como condición del aprendizaje
+- `filosofia-ensenanza.md` → conexión matemática mental / Elefantito
+- Hacer git push
+
+---
+
 ## [2026-04-22] ingest | Inner Engineering (Sadhguru)
 
 **Fuente:** `07-fuentes/libros/Inner Engineering - Complete.md`
