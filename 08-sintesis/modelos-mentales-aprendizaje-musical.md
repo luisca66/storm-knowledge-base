@@ -303,7 +303,47 @@ Hay una "zona óptima" entre el aburrimiento y la sobrecarga donde la PFC funcio
 
 ## El silencio interior como condición del aprendizaje (Sadhguru)
 
-*[Pendiente — extraer de Inner Engineering la relación entre estado interior y capacidad de aprendizaje]*
+La filosofía yóguica ocupa un lugar singular en el método de Luis: no es una fuente más junto a Kahneman, Barrett o Levitin — es el **marco de fondo** que sostiene todas las demás. Las ciencias occidentales explican los mecanismos del aprendizaje; la filosofía yóguica pregunta por el sustrato desde el que operan esos mecanismos.
+
+### El problema epistemológico
+
+La filosofía yóguica reclama ser una ciencia — y quien la estudia a fondo encuentra que su rigor metodológico no es inferior al de la ciencia occidental, y en algunos aspectos es superior. Pero la ciencia occidental no la reconoce como tal: la clasifica como pensamiento místico o visión exótica del mundo.
+
+Luis no necesita resolver ese debate en el taller. Su postura es pragmática: *"Si sirve, se queda. Si no, se va."* Y lo que toma de Sadhguru sirve — de forma medible y observable en sus alumnos.
+
+### La meditación no se "hace" — es un estado
+
+El aporte más profundo de Sadhguru a los modelos mentales del método de Luis está en esta distinción:
+
+> La meditación no es algo que se practica. Es un estado al que se puede llegar.
+
+Esto invierte la idea común de que meditar es una actividad — una técnica, un ejercicio, algo que se hace durante 20 minutos. Para Sadhguru, la meditación es la condición natural de una mente que no está en conflicto consigo misma: silenciosa, presente, sin resistencia.
+
+**La tesis de Luis:** ese estado no requiere sentarse en posición de loto. La práctica musical con atención total — lo que él llama *práctica perfecta* — ejercita ese mismo estado. El músico que toca con intención consciente, sin piloto automático, completamente presente en cada nota antes de ejecutarla, está en un estado funcionalmente idéntico al que la tradición yóguica llama meditación.
+
+### Las dos capas del beneficio
+
+Para los alumnos de Luis, la filosofía yóguica opera en dos niveles:
+
+**Nivel profundo:** Un dominio superior de la mente y un conocimiento fundamental de la naturaleza de la vida y la consciencia es el prerrequisito para trascender los límites del cuerpo y la mente. Este es el nivel de los yoguis — y el nivel al que Luis aspira personalmente.
+
+**Nivel práctico:** Una persona iniciada en las enseñanzas yóguicas tiende a ser más feliz y a concentrarse mejor. Punto. Esas dos cosas — felicidad y concentración — son exactamente lo que Luis necesita en un alumno para que el método funcione.
+
+Luis no impone la cosmovisión yóguica a sus alumnos. Pero la vive, y esa manera de estar en el mundo permea la enseñanza.
+
+### La conexión con los otros modelos
+
+El silencio interior no reemplaza a Kahneman, Barrett ni Levitin — los completa desde una capa más profunda:
+
+- **Kahneman** describe el S2 como el sistema de atención deliberada y costosa. El silencio interior es la condición que hace ese costo manejable — un sistema nervioso en calma gasta menos en el mantenimiento del conflicto interno y tiene más disponible para el trabajo deliberado.
+- **Barrett** describe el cerebro como un órgano de predicción que administra un presupuesto corporal. El estado yóguico es, en términos de Barrett, la condición de máxima eficiencia del presupuesto: sin alertas falsas, sin gasto en regulación emocional innecesaria.
+- **Rock** describe la PFC como pequeña, cara y frágil — fácilmente saturada. El silencio interior es la precondición para que la PFC opere a su máxima capacidad sin colapsarse bajo el estrés o el ruido interno.
+
+En todos los casos, la filosofía yóguica no contradice la neurociencia occidental — la fundamenta desde una capa que la neurociencia todavía no ha podido nombrar con precisión.
+
+### El testimonio personal
+
+Para Luis, las enseñanzas de Sadhguru no son teoría. Le dieron la calma y la voluntad para tener una vida plena — vivir en plenitud sin riqueza material, sin que falte nada esencial. Esa estabilidad interior es lo que le permite enseñar con la misma energía y precisión a los 52 años que a los 30. El músico-atleta también es, en su fundamento más profundo, un practicante yóguico.
 
 ---
 
@@ -313,3 +353,4 @@ Hay una "zona óptima" entre el aburrimiento y la sobrecarga donde la PFC funcio
 - **2026-04-22** — Dos secciones Barrett escritas: cerebro no es para pensar (Seven and a Half Lessons) + cerebro construye la realidad (How Emotions Are Made). Conexión Barrett+Kahneman documentada.
 - **2026-05-01** — Dos nuevas secciones: Agüera y Arcas (What Is Intelligence?) — inteligencia como predicción, transfer learning, períodos críticos, convergencia con Barrett. Levitin (This Is Your Brain on Music) — schemas, anticipación, multidimensionalidad del oído, neuroplasticidad, dopamina y memoria. Secciones pendientes de Levitin completadas.
 - **2026-05-02** — Sección Gladwell (Outliers) expandida de stub a completa: 10,000 horas (Ericsson), no hay naturales ni grinders, la práctica deliberada como condición, el contexto/ecosistema, y el trabajo significativo (autonomía + complejidad + esfuerzo-recompensa). Nueva sección Rock (Your Brain at Work): PFC como cuello de botella, hardwiring (S2→S1 via basal ganglia), el "director" metacognitivo, chunking, y curva Yerkes-Dodson.
+- **2026-05-07** — Entrevista Luis: sección Sadhguru completada — meditación como estado (no práctica), la práctica perfecta como camino al silencio interior, dos capas del beneficio (profundo y práctico), conexión con Kahneman/Barrett/Rock.
