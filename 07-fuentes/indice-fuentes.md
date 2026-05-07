@@ -1,7 +1,7 @@
 ---
 titulo: "Índice de Fuentes y Lecturas"
 tipo: catalogo
-ultima_actualizacion: 2026-04-09
+ultima_actualizacion: 2026-05-06
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -43,12 +43,36 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 | Thinking Fast and Slow | Daniel Kahneman | neurociencia / método — Sistema 1 vs. Sistema 2 — **INGESTED 2026-04-22** | libros/Thinking Fast and Slow - Complete.md |
 | What Is Intelligence? | Blaise Agüera y Arcas (Google Research, 2025) | neurociencia / IA / método — inteligencia como predicción, transfer learning, períodos críticos — **INGESTED 2026-05-01** | libros/What is Intelligence - Complete.md |
 | LLM Wiki | Andrej Karpathy | arquitectura del KB | llm-wiki-karpathy.md |
+| **Originals** | Adam Grant | liderazgo / creatividad / método — pendiente ingestar | libros/Originals - Complete.md |
+| **Shadows of Forgotten Ancestors** | Carl Sagan & Ann Druyan | filosofía / ciencia / visión civilizatoria — pendiente ingestar | libros/Shadows of Forgotten Ancestors - Complete.md |
 
 ## Videos
 
 | Video | Canal/Autor | Área de impacto | Archivo |
 |-------|-------------|-----------------|---------|
 | The Real Problem With AI Agents Nobody's Talking About | [verificar canal] | IA / estrategia KB | videos/The Real Problem With AI Agents Nobody's Talking About.md |
+
+## AI News — Resúmenes diarios (sistema ainews)
+
+Sistema de inteligencia continua sobre el panorama de IA. Procesado automáticamente por Openclaw (scraping de canales YouTube) + Cowork (síntesis en audio de ~55 min). Luis lo consume en bicicleta.
+
+**Canales monitoreados:** Peter Diamandis / Moonshot, Matthew Berman (Karpathy/eventos), Nate B. Jones, Wes Roth, Matt Wolfe, AI For Humans, TBPN, Igor AI Advantage, Caleb Ulku.
+
+| Período | Descripción | Carpeta |
+|---------|-------------|---------|
+| Marzo 2026 | Resúmenes diarios | ainews/202603/ |
+| Abril 2026 | Resúmenes diarios + índice general de temas | ainews/202604/ |
+| Mayo 2026 (en curso) | Resúmenes diarios | ainews/202605/ |
+
+**Temas recurrentes del período abr-may 2026:**
+- Enlightenment Gap, Karpathy Loop, Phase of Economics
+- Infraestructura agéntica, Dark Code, arquitectura de memoria
+- Paridad open-source (DeepSeek, Kimi K2.6)
+- AEO (AI Search Optimization), bifurcación consumidores/creadores
+
+**Síntesis disponible en:** `00-contexto/ai-radar.md`
+
+> Esta carpeta es RAW SOURCE — los archivos individuales no se modifican. La síntesis vive en `00-contexto/ai-radar.md`.
 
 ## Cursos en video (transcripts)
 
@@ -77,3 +101,4 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 - 2026-04-22: Inner Engineering (Sadhguru) — marcado como INGESTED. Archivos afectados: como-enseno-armonia.md, filosofia-ensenanza.md, luis-como-ingeniero-neural.md.
 - 2026-04-22: A Little Bit of Philosophy (PHI 101) copiado a libros/a-little-bit-of-philosophy/ — 4 unidades, 17 lecciones.
 - 2026-05-01: A Little Bit of Philosophy — U03 L04 (Filosofía de la Mente) y U04 L04 (Aristóteles y la Virtud) INGESTED. Archivos afectados: filosofia-ensenanza.md. What Is Intelligence (Agüera y Arcas) INGESTED. This Is Your Brain on Music (Levitin) INGESTED. 6 libros de fitness INGESTED → el-musico-como-atleta.md.
+- 2026-05-06: Sistema ainews registrado como fuente continua (mar-may 2026). Originals (Grant) y Shadows of Forgotten Ancestors (Sagan) registrados — pendiente ingestar. Síntesis de ainews en 00-contexto/ai-radar.md.

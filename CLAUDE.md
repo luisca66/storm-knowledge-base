@@ -232,11 +232,11 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-05-02 (sesión 3)
+**Última actualización:** 2026-05-06 (sesión 3)
 
 **Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md
 
-**Archivos en progreso:** filosofia-ensenanza.md, estructura-curso.md, indice-apps.md, secuenciador.md, maestro-virtual.md
+**Archivos en progreso:** filosofia-ensenanza.md, estructura-curso.md, indice-apps.md, secuenciador.md, maestro-virtual.md, ai-radar.md (nuevo)
 
 **Páginas de síntesis activas (08-sintesis/):**
 - `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto
@@ -246,23 +246,24 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `tecnologia-al-servicio-del-metodo.md` ← borrador
 - `estrategia-freemium-musical.md` ← borrador
 
-**Fuentes ingresadas:** 33 fuentes total:
-- 22 libros originales + Curso Medrano + LLM Wiki + 1 video
+**Fuentes ingresadas:** 35 fuentes registradas total:
+- 24 libros ingresados + 2 libros registrados pendientes (Originals, Shadows of Forgotten Ancestors) + Curso Medrano + LLM Wiki + 1 video + Sistema ainews (mar-may 2026)
 - Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
 - Sesión 2026-05-01: What Is Intelligence (Agüera y Arcas), This Is Your Brain on Music (Levitin), 6 libros de fitness, A Little Bit of Philosophy U03L04 + U04L04
 - Sesión 2026-05-02: Outliers (Gladwell), Your Brain at Work (Rock)
+- Sesión 2026-05-06: ainews registrado como fuente continua, Originals + Shadows of Forgotten Ancestors registrados
 
-**Fuentes no ingresadas aún:** libros filosóficos generales, libros económicos
+**Fuentes no ingresadas aún:** Originals (Grant), Shadows of Forgotten Ancestors (Sagan), libros filosóficos generales, libros económicos
 
 **Repo GitHub:** https://github.com/luisca66/storm-knowledge-base
 
 **Pendiente prioritario:**
 - `filosofia-ensenanza.md` → Elefantito Matemático (Kawashima/prefrontal + memoria) — contexto en insights.md, listo para integrar sin entrevista
 - `modelos-mentales-aprendizaje-musical.md` → sección Sadhguru (silencio interior) aún pendiente
-- `02-plataforma-web/` → funcionalidades ✅, maestro-virtual ✅, secuenciador ✅, decisiones-tecnicas ✅ — pendiente: arquitectura.md (revisar si necesita actualización)
-- `04-contenido-musical/`, `05-operaciones/` → archivos en borrador pendientes
-- Verificación pendiente: ¿el progreso del alumno (localStorage) es un problema a resolver pronto?
+- `ai-radar.md` → actualizar mensualmente con síntesis de tendencias del mes
+- Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
+- Archivos en `borrador` en `02-plataforma-web/`, `04-contenido-musical/`, `05-operaciones/`
 
 ---
 
-*Este archivo es mantenido por Claude. Última revisión: 2026-05-02 (sesión 3).*
+*Este archivo es mantenido por Claude. Última revisión: 2026-05-06 (sesión 3).*
