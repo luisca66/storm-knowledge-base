@@ -161,6 +161,13 @@ estado: en_progreso
 |-------|------|-----------|
 | [The Real Problem With AI Agents Nobody's Talking About](07-fuentes/videos/The%20Real%20Problem%20With%20AI%20Agents%20Nobody's%20Talking%20About.md) | Agentes de IA, knowledge bases, conocimiento tácito | Alta — valida arquitectura del KB |
 
+### Ainews — Análisis y evaluaciones (202605)
+
+| Archivo | Descripción | Fecha |
+|---------|-------------|-------|
+| [evaluacion_reporte_productora_pequena.md](07-fuentes/ainews/202605/evaluacion_reporte_productora_pequena.md) | Evaluación del reporte ChatGPT sobre 6 asientos de IA para productora vs. ainews mar-may 2026 | 2026-05-14 |
+| [evaluacion_reporte_claude_cuatro_asientos.md](07-fuentes/ainews/202605/evaluacion_reporte_claude_cuatro_asientos.md) | Evaluación del reporte Claude "Cuatro asientos" (14 opciones, herramientas visuales) vs. ainews mar-may 2026 | 2026-05-14 |
+
 ---
 
 ## 08 · Síntesis (Nivel 2)

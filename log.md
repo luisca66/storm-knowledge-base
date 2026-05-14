@@ -8,6 +8,42 @@
 
 ---
 
+## [2026-05-14] análisis | Evaluación de dos reportes IA para productora Carmen/Mario
+
+**Tipo:** Análisis comparativo ainews × documento externo  
+**Archivos creados (2):**
+- `07-fuentes/ainews/202605/evaluacion_reporte_productora_pequena.md` — Reporte ChatGPT (6 asientos, ~7 pp.)
+- `07-fuentes/ainews/202605/evaluacion_reporte_claude_cuatro_asientos.md` — Reporte Claude (4 asientos, ~41 pp.)
+
+**Documentos analizados:**
+1. *"Acceso compartido a asistentes de IA para una productora pequeña"* (ChatGPT-generated) — 6 usuarios nominales, recomendación principal ChatGPT Business $120/mes
+2. *"Cuatro asientos, una decisión: la IA para Carmen, Mario y sus asistentes"* (Claude-generated) — 4 usuarios, análisis de 14 opciones, tres tiers de presupuesto, herramientas visuales
+
+**Ainews consultado:** resúmenes 20260501–20260514 + índices abril y mayo 2026
+
+**Hallazgos principales por reporte:**
+
+*Reporte 1 (ChatGPT/6 asientos):*
+- Tendencias 6/10 — correcto en precio/paradigma chatbot; no ve agentes, MCP, colapso de costos
+- Memoria 5/10 — bases de conocimiento estáticas, no distingue memoria episódica/semántica/procedimental
+- Seguridad 7/10 — identifica login compartido vs. workspace; no llega a la profundidad del caso McKinsey/Lily
+- Proyecciones 4/10 — vida útil 6-9 meses; no menciona Sora descontinuado, Microsoft price hike, modelos locales
+
+*Reporte 2 (Claude/4 asientos):*
+- Tendencias 7.5/10 — Phase of Economics bien aplicada; no ve Dreaming/Outcomes de Dev Day ni MCP
+- Memoria 6/10 — "segundo cerebro" mencionado pero sin estructura para productora; no distingue tipos de memoria
+- Seguridad 5/10 — identifica pérdida de historial en migración Pro→Team; no contempla seguridad agéntica
+- Proyecciones 7/10 — menciona Sora descontinuado, Microsoft price hike, Claude Team min 5 asientos — información crítica ausente en Reporte 1
+
+**Veredicto comparativo:**
+- Reporte 2 es más completo, más honesto y más útil para una decisión de Q2 2026
+- Reporte 1 es más rápido de implementar, enfocado en solución inmediata
+- Ninguno contempla el paradigma agéntico ni las capacidades de Anthropic Dev Day (08/05/2026)
+
+**Nota operativa:** Los reportes fueron solicitados guardarse en `H:\Clases\Carmen-Mario` — ruta no accesible desde Linux. Archivos disponibles en el KB y en GitHub branch `claude/review-repo-l5XVq`.
+
+---
+
 ## [2026-05-01 sesión 2] entrevista | como-enseno-armonia.md — visión civilizatoria + IA
 
 **Archivo afectado:** `08-sintesis/como-enseno-armonia.md`
