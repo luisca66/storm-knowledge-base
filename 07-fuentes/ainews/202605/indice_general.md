@@ -75,3 +75,11 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **Implementación Corporativa (Deploy Co):** OpenAI lanzando su brazo de consultoría. El verdadero cuello de botella en IA empresarial no es la tecnología, sino el talento humano capaz de implementarla en contextos organizacionales complejos.
 - **CLAUDE.md y Jerarquía de Memoria:** Soluciones prácticas de Anthropic para dar contexto inicial a agentes de programación sin necesidad de redescubrimiento.
 - **Workflows Creativos y Criterio Estético (Matt Wolfe):** Uso de Runway ML y la importancia de la iteración humana en la generación de video; la IA como herramienta de opciones, no de magia automática.
+
+## [15 de Mayo de 2026](./resumen_20260515.md)
+**Temas Principales:**
+- **La Guerra de Implementación de Agentes (Nate B. Jones):** El Private Equity forzando la automatización empresarial; el valor se mueve de los modelos genéricos hacia las capas de implementación (workflows, accesos, evals, auditorías) impulsadas por hyperscalers, consultoras y sistemas de registro.
+- **Transformación Organizacional (Coinbase):** Reestructuración hacia una arquitectura plana centrada en talento AI-nativo capaz de gestionar flotas de agentes; fusión de roles técnicos y de producto.
+- **Inferencia Ultrarrápida y Hardware (Cerebras IPO):** IPO masivo de Cerebras (chips WSE3); la velocidad de inferencia emerge como el principal vector de valor frente a la inteligencia pura para potenciar la productividad y minimizar la latencia.
+- **Evaluación de Agentes en Producción (Lori Voss):** Trascendiendo los "vibes" mediante observabilidad formal (traces y spans). La necesidad imperativa de definir qué es "correcto", uso de LLM-as-judge y meta-evaluación para mitigar fallas en cascada.
+- **El Enterprise como Superinteligencia (Dario Amodei):** Claude ya escribe el 90% del código en Anthropic; el rebalanceo del trabajo humano hacia la edición y el juicio estratégico. El enfoque empresarial de Anthropic para resolver problemas intratables como enfermedades complejas.
