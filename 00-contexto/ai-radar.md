@@ -1,7 +1,7 @@
 ---
 titulo: "AI Radar — Herramientas y Tendencias"
 tipo: contexto
-ultima_actualizacion: 2026-05-06
+ultima_actualizacion: 2026-05-18
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 05-operaciones/asesoria-ia.md
@@ -81,27 +81,99 @@ Karpathy: *"Puedes tercerizar tu pensamiento pero no puedes tercerizar tu entend
 
 #### Mayo 2026 — Estado actual del campo
 
-*Basado en ainews 2026-05-02 al 2026-05-06*
+*Basado en ainews 2026-05-01 al 2026-05-17*
 
-**Modelos clave en circulación:**
-- **GPT-5.5** — "nueva clase de inteligencia" según OpenAI; +37 puntos en razonamiento de contexto largo, -60% en alucinaciones vs 5.4; costo subió a $5/$30 por millón de tokens. Capacidades de ciberseguridad de nivel experto (ataque de 32 pasos completado en 10 min vs 12 horas humanas).
-- **Kimi K2.6** (Moonshot AI) — modelo chino open-source de 1 billón de parámetros, activa solo 32B por consulta; costo de entrenamiento: $4.6M (vs cientos de millones de los labs americanos); 1/8 del costo de APIs de Anthropic corriendo en Fireworks.
-- **DeepSeek V4** — open-source chino, ventana de 1M tokens, precio de $1.74/$3.48 vs $5/$30 de GPT-5.5. Demuestra que la restricción de GPUs avanzados no detiene la innovación algorítmica china.
-- **Claude Mythos** — modelo Anthropic sobre Opus; capacidades hiperespecializadas (ciberseguridad); acceso controlado por la Casa Blanca por razones de seguridad nacional.
+---
 
-**Infraestructura y geopolítica:**
-- Amazon: $33B en Anthropic (total). Google: $40B adicionales + 5GW de cómputo TPU. Anthropic proyecta $40-70B en ingresos para finales de 2026.
-- El cuello de botella real no es el dinero ni los modelos: es TSMC (único fabricante de chips avanzados en Taiwán) y la disponibilidad de energía eléctrica para centros de datos.
-- Solo dos países en la carrera de modelos de frontera: EE.UU. y China. Europa, UK, Japón e India son espectadores.
+**Tema central del mes: Estamos en la fase de implementación.**
 
-**Tendencias prácticas:**
-- **AEO (AI Search Optimization)** — el SEO ya no es solo para Google. Los LLMs (ChatGPT, Google Ask Maps) recomiendan negocios con mejores datos estructurados (schema markup), no necesariamente los mejor rankeados. El negocio #1 en Google Maps ya no es el que ChatGPT recomienda.
-- **Robótica** — Figure Robotics produce 1 robot/hora; 1X proyecta 10,000 robots/año. EXA logró que una garra robótica manipule una frambuesa sin aplastarla — umbral de destreza comparable a "ChatGPT moment para el mundo físico".
-- **Meta monitoreando empleados** — captura de teclado, clics y pantallas para entrenar agentes que reemplacen esos roles. El propósito ya no es seguridad: es digitalizar el trabajo humano como datos de entrenamiento.
+Mayo confirmó que la carrera ya no es de modelos — es de implementación. El dinero, el poder y los empleos se están moviendo hacia quienes pueden desplegar la IA en contextos organizacionales reales, no hacia quienes construyen los modelos.
 
-**La frase del mes:**
-> *"El diferenciador ya no es quién tiene acceso al modelo más capaz. Es quién tiene los datos correctos, el flujo de trabajo correcto, la memoria correcta y el entendimiento correcto de qué preguntar."*
-> — Síntesis del 02/05/2026
+---
+
+**1. La economía del trabajo humano se está reordenando**
+
+El marco más práctico del mes llegó el 4 de mayo: clasificar cualquier tarea en cuatro categorías:
+
+| Categoría | Descripción | Futuro |
+|-----------|-------------|--------|
+| **Theater** | Trabajo que aparenta valor pero no lo tiene | Desaparece primero |
+| **Commoditized** | Tareas rutinarias automatizables | Desaparece a mediano plazo |
+| **In-the-line** | Operativo esencial | Se comprime |
+| **Durable** | Estratégico, creativo, relacional | Permanece y se valoriza |
+
+Esto tiene consecuencias directas: Coinbase aplanó su jerarquía organizacional al detectar que la IA absorbió las capas intermedias. Dario Amodei reportó que **Claude ya escribe el 90% del código en Anthropic**. El trabajo humano se está moviendo hacia la edición, el juicio estratégico y la supervisión de flotas de agentes.
+
+Proyección 2028 (Amodei + Ethan Mollick): **alto crecimiento del PIB simultáneo a alto desempleo** — un escenario sin precedente histórico.
+
+---
+
+**2. La arquitectura agéntica se está formalizando**
+
+El campo está definiendo cómo deben funcionar los agentes en producción:
+
+- **Del SDLC al CDLC** — El Ciclo de Vida del Desarrollo de Software está siendo reemplazado por el "Context Development Life Cycle". Los prompts, el contexto y las instrucciones *son* el código. Versionar contexto es tan importante como versionar código.
+- **Substrate Hypothesis** — Los gestores de tareas (como Linear) se están convirtiendo en la columna vertebral de la infraestructura de agentes. Un agente necesita un sistema de registro, no solo acceso a interfaces.
+- **Primitivas semánticas** — Los agentes necesitan entender el *significado* y la *autoridad* de sus acciones, no solo tener acceso técnico. "Computer use" sin semántica es ciego.
+- **Skills a escala** — Las "skills" (como las de Claude Code) son unidades discretas y versionables de conocimiento. Evitan que los agentes redescubran el mundo en cada sesión.
+
+---
+
+**3. La guerra del protocolo**
+
+Tres batallas que van a definir la infraestructura de los próximos años:
+
+- **Pagos de agentes:** ACP (OpenAI+Stripe) vs UCP (Shopify+Google) vs AP2 (Google). El dilema no es cómo pagar — es cómo garantizar autorización, reembolsos y responsabilidad cuando un agente compra.
+- **Conexiones vs conocimiento:** MCP (sistema nervioso — conexiones externas) vs Skills (cerebelo — conocimiento interno). Son complementarios, no competidores.
+- **Formato de trabajo:** HTML resulta superior a Markdown para estados intermedios de trabajo agéntico — interfaces más ricas, menos metacomunicación en texto plano.
+
+---
+
+**4. Seguridad agéntica: el problema que nadie vio venir**
+
+Dos señales de alarma en mayo:
+
+- **Caso McKinsey/Lily (11 mayo):** Hackeo por inyección SQL a una plataforma de agentes. Lección: los sistemas diseñados con interfaces para humanos *colapsan* cuando los navegan agentes. Autenticación ≠ permisos reales. La seguridad debe rediseñarse desde cero para arquitecturas agénticas.
+- **"Bugmageddon" (17 mayo):** Investigadores encontraron vulnerabilidades Zero-Day en chips Apple M5 usando IA en 5 días. Google confirmó el primer caso de atacantes usando IA para explotar Zero-Days en producción. El ciclo vulnerabilidad→explotación se está acortando dramáticamente.
+
+---
+
+**5. Infraestructura y geopolítica**
+
+- **Anthropic + SpaceX** — Anthropic rentó "Colossus 1" (220,000 GPUs H100) para resolver su crisis de cómputo. xAI pivota hacia proveedor de infraestructura.
+- **Cerebras IPO** — La velocidad de inferencia emerge como el principal vector de valor frente a la inteligencia pura. Chips de oblea única (WSE3) para latencia instantánea.
+- **Modelos locales** — Hardware local (Nvidia DGX Spark) resuelve costo, latencia y privacidad simultáneamente. El costo marginal de inferencia tiende a cero.
+- **Geopolítica 2028:** Dos escenarios posibles — ventaja de inteligencia (modelos cerrados EE.UU.) vs ventaja de distribución (modelos open source chinos). Yann LeCun propone JEPA + Tapestry como alternativa no-LLM de código abierto.
+- **Jack Clark (11 mayo):** >60% de probabilidad de que la IA haga I+D completamente autónoma para finales de 2028. La mejora recursiva ya no es ciencia ficción.
+
+---
+
+**6. El Private Equity forzando la adopción**
+
+El capital privado está entrando a las empresas "legacy" y forzando automatización *top-down*. OpenAI y Anthropic armaron joint ventures con fondos de PE para inyectar "ingenieros desplegados" (forward-deployed) en corporaciones. El cuello de botella ya no es la tecnología — es el talento capaz de implementarla en contextos organizacionales complejos.
+
+Esto abre una oportunidad directa para asesorías: **auditorías de IA a PYMES** ($1,000 por análisis de cuellos de botella) como punto de entrada antes de que los grandes consultores lleguen.
+
+---
+
+**Modelos destacados del mes:**
+- **GPT-5.5** — +37 pts razonamiento contexto largo, -60% alucinaciones. $5/$30 por millón de tokens.
+- **Kimi K2.6** — 1 billón de parámetros, activa 32B por consulta. Entrenamiento: $4.6M. 1/8 del costo de Anthropic.
+- **DeepSeek V4** — 1M tokens de ventana, $1.74/$3.48. La restricción de GPUs no detiene la innovación algorítmica china.
+- **Claude Mythos** — Sobre Opus, hiperespecializado en ciberseguridad. Acceso controlado por razones de seguridad nacional.
+- **Google Spark (anunciado)** — Agente integrado al ecosistema Google sin conectores de fricción. Modelo Flash ultrabarato para inferencia masiva.
+
+---
+
+**Las frases del mes:**
+
+> *"El diferenciador ya no es quién tiene el modelo más capaz. Es quién tiene los datos correctos, el flujo de trabajo correcto, la memoria correcta y el entendimiento correcto de qué preguntar."*
+
+> *"Claude ya escribe el 90% del código en Anthropic. El trabajo humano se mueve hacia la edición y el juicio estratégico."*
+> — Dario Amodei
+
+> *"No puedes outsourcear tu entendimiento — pero sí puedes outsourcear el 90% de la ejecución si construiste el entendimiento correcto."*
+> — Síntesis Luis / Karpathy
 
 ---
 
@@ -145,4 +217,5 @@ Estos son exactamente los principios de "Los Seres Musicales" aplicados al apren
 ---
 
 ## Historial de Cambios
+- **2026-05-18** — Síntesis mayo 2026 completada (días 1-17). 6 temas: reordenamiento del trabajo, arquitectura agéntica, guerra del protocolo, seguridad, infraestructura/geopolítica, Private Equity.
 - **2026-05-06** — Creación inicial. Dos secciones: herramientas actuales + síntesis de tendencias abril-mayo 2026.
