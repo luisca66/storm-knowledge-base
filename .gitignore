@@ -1,3 +1,4 @@
 # Carpetas locales que no se suben al repo
 07-fuentes/ainews/audio/
 07-fuentes/ainews/transcripts_hoy/
+.claude/
