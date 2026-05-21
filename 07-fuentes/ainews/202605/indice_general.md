@@ -109,3 +109,35 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **Avances en Ecosistemas Agénticos y Educación:** Integración de *Hermes* (Alex Finn) con *session recall* sin inferencia, computer use en Notion, y delegación de código a Codex CLI. Transición de Andrej Karpathy a Anthropic para liderar temas de educación de IA y automejora recursiva (RSI).
 - **La Purga del Índice de Google (Caleb Ulku):** Google eliminando del índice web páginas de contenido IA redundante. Superar esta barrera exige optimizar la silueta visual en móviles, construir enlaces locales no-slop y enfocar el contenido en el "hueco" de información en lugar del promedio/consenso.
 - **Tecnología, Sociología y Atención:** Correlación directa entre el smartphone/4G y el desplome global de la natalidad por desplazamiento del ocio presencial. Declive en las ventas de *dad books* en favor de podcasts, y la proyección de los autos autónomos como catalizadores del scroll infinito.
+
+## [20 de Mayo de 2026](./resumen_20260520.md)
+**Temas Principales:**
+- **Google I/O 2026 y World Models:**
+  - *Gemini Omni:* World model orientado a video que permite la edición coherente (consistencia visual, de iluminación y audio) con limitaciones en física compleja (ej. capibara haciendo un 900 en half-pipe) y degradación en transformaciones encadenadas consecutivas (quinto ciclo).
+  - *Gemini Spark:* Agente continuo e integrado (Drive, Gmail, Calendar, Maps) con persistencia multidispositivo y soporte de vibe-coding.
+  - *Ask YouTube y Docs Live:* Herramientas para consumir fragmentos específicos de video mediante timestamps y autogenerar documentos/tablas desde fuentes de correo y PDFs de forma nativa.
+  - *Genie 3:* World model interactivo y motor de juegos generativo que renderiza ubicaciones 3D en tiempo real desde Street View. Especulación sobre el lanzamiento competitivo de GPT 5.6.
+- **Fichaje Estratégico de Andrej Karpathy:** Incorporación a Anthropic para liderar proyectos de *Recursive Self-Learning* (RSL) y *AutoResearch* (modelos autónomos autogenerando y probando hipótesis) para potenciar el modelo confidencial *Mythos*.
+- **Capa Técnica Any-to-Any (Patrick de DeepMind):**
+  - La realidad tras el any-to-any: arquitectura de orquestación mediante function calling que coordina a Gemini 3 (procesamiento multimodal, output de texto) con modelos especializados (Nano Banana 2 para imágenes, Gemini 2.5 TTS para audio, y modelos de video).
+  - *Métricas de la Gemini API:* 1 minuto de audio equivale a 1,920 tokens (>9 horas de audio o 1 hora de video en contexto de 1M); *context caching* integrado con reducción del 90% de costo; *Live API* (Gemini 3.1 Flash Live) procesando audio-a-audio nativo con acentos localizados (británico, bávaro).
+- **Las Primitivas del Despliegue de Agentes (Nate B. Jones):** El éxito del despliegue en producción recae en la infraestructura de 6 capas:
+  - *Runtime stateful:* Microservidores stateful con bases SQL, WebSockets y scheduling (Cloudflare SDK con Durable Objects, AWS Bedrock Agent Core).
+  - *Identidad delegada:* Autenticación OAuth, token vault y autorización RAG asincrónica de grano fino (Auth0, Okta, Microsoft Entra Agent ID).
+  - *Datos gobernados:* Gobernanza de significado semántico y Cortex Analyst/Search (Snowflake Cortex, Databricks Mosaic AI Agent Framework).
+  - *Pagos agénticos:* Stripe Agent Commerce Suite e integración con redes de tarjetas (Visa, Mastercard, Amex).
+  - *Observabilidad de trabajo:* Traces y spans centrados en la ejecución del objetivo en vez de logs de API (DataDog LLM Observability, Langsmith, Langfuse, Braintrust).
+  - *Kill switch multicapa:* Mecanismos de parada independientes de la respuesta del modelo (a nivel de runtime, identidad, pasarela de pago o LangGraph).
+- **Valoración Financiera e IPO de SpaceX AI:**
+  - Valoración estimada de $2 trillones para SpaceX AI en Texas, estructurada con acciones Clase B (Musk retiene el 79% del voto y 42% del equity) para blindar la toma de decisiones contra litigios minoritarios (bajo el umbral del 3% establecido en Delaware y Texas).
+  - Oposición ineficaz de fondos públicos (CalPERS) obligados a comprar por replicación pasiva del S&P 500.
+  - *Números del negocio:* $17B de ingresos en 2025 (Starlink $11B con crecimiento de 50% anual, Falcon 9 con $4.5B y 165 lanzamientos, Star Shield con $2B).
+  - *Infraestructura orbital:* El proyecto *Suncatcher* de Google (data centers orbitales con TPUs resistentes a la radiación) requiere lanzamientos a $200/kg (actualmente a $1,600/kg) para mediados de los 2030s.
+  - *Carga de cómputo:* Colossus 1 rentado a Anthropic por $5B-$6B. Colossus 2 utilizado por xAI (entrenando Grok V9 con soporte de Cursor). Planificación de la instalación Macro Harder de 2 gigawatts.
+- **Sociología de la IA y Sentimiento Público:**
+  - Descenso del optimismo (solo 18% en jóvenes de 14-29 años esperanzados, según Gallup) y aumento de cancelaciones de data centers en Q1 2026.
+  - Eric Schmidt y Gloria Cfield abucheados en ceremonias de graduación universitaria (Arizona y UCF).
+  - Factores: penalización institucionalizada en la educación como plagio, polarización en redes (TikTok), polarización política y riesgo de exclusión del mercado laboral para estudiantes resistentes al cambio.
+- **La Economía Real de los Tokens y "AI Psychosis" (Mobitar):**
+  - Gasto extremo en tokens de frontera (Peter Steinberger: $250,000 en 7 días / $1.3M en 30 días para Open Claw). Encarecimiento encubierto de modelos como Opus 4.7 mediante tokenizers que producen outputs 35% más largos.
+  - *AI Psychosis corporativa (Mitchell Hashimoto):* Empresas priorizan arreglar errores rápidamente con IA en lugar de evitarlos de origen, favoreciendo la velocidad hacia el product-market fit a expensas de un alto costo de tokens que excluye a equipos sin capital.
