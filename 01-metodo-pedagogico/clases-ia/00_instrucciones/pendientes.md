@@ -15,7 +15,7 @@
 - Crear ejercicios mas especificos por edad, perfil y herramienta.
 - Definir rubricas de progreso.
 - Seguir alimentando carpeta de fuentes con articulos y documentacion tecnica.
-- Crear `indice_general.md` para `08_fuentes/noticias_ia_diarias/202605` cuando Luis agregue mas resumenes del mes.
+- Crear `indice_general.md` para `../../07-fuentes/clases_ia/noticias_ia_diarias/202605` cuando Luis agregue mas resumenes del mes.
 - Revisar periodicamente los mapas de fuentes para convertir tendencias nuevas en ejercicios o preguntas de clase.
 - Desarrollar modulo de CRM y automatizacion.
 - Probar el flujo con una clase real.
