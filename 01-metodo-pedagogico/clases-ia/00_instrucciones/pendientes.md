@@ -1,4 +1,12 @@
-# Pendientes iniciales
+# Pendientes
+
+## KB principal (storm-knowledge-base)
+
+- **Entrevista pendiente:** enriquecer `08-sintesis/luis-como-ingeniero-neural.md` con patrones reales observados en alumnos de clases-ia. Preguntas clave: ¿qué patrones neurológicos recurrentes ves en tus alumnos al aprender IA? ¿cómo moldeas su cerebro diferente al método musical? ¿hay una "primera victoria" que activa el mismo mecanismo que el coral perfecto? Esta síntesis es la más importante del KB y necesita datos reales, no solo teoría.
+
+---
+
+## Clases IA (pendientes iniciales)
 
 - Completar diagnosticos de cada alumno.
 - Completar datos faltantes del diagnostico inicial de Mariana: modalidad, frecuencia, duracion de primera clase, dispositivo principal y ritmo deseado.
