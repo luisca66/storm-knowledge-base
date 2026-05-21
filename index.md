@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-04-16
+ultima_actualizacion: 2026-05-21
 estado: en_progreso
 ---
 
@@ -53,6 +53,7 @@ estado: en_progreso
 | [ejercicios/reglas-validacion.md](01-metodo-pedagogico/ejercicios/reglas-validacion.md) | Reglas de validación del Maestro Virtual | borrador |
 | [lecciones/leccion-01-escalas-mayores.md](01-metodo-pedagogico/lecciones/leccion-01-escalas-mayores.md) | Lección 1: Escalas Mayores | borrador |
 | [lecciones/leccion-02-escalas-menores.md](01-metodo-pedagogico/lecciones/leccion-02-escalas-menores.md) | Lección 2: Escalas Menores | borrador |
+| [clases-ia/](01-metodo-pedagogico/clases-ia/) | Repositorio local `luisca66/clases-ia`: sistema operativo para clases personalizadas de IA, currículo, alumnos, sesiones y reportes | repo externo local |
 
 ---
 
@@ -201,4 +202,4 @@ estado: en_progreso
 
 ---
 
-*Mantenido por Claude. Actualizado: 2026-04-16.*
+*Mantenido por Codex. Actualizado: 2026-05-21.*

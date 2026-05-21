@@ -8,6 +8,20 @@
 
 ---
 
+## [2026-05-21] sesion | Repo clases-ia incorporado al KB local
+
+**Accion:**
+- Clonado `https://github.com/luisca66/clases-ia` en `01-metodo-pedagogico/clases-ia/`.
+- Registrado el repo en `index.md`.
+- Agregado `01-metodo-pedagogico/clases-ia/` a `.gitignore` del KB padre para mantenerlo como repositorio Git independiente.
+
+**Estado observado:**
+- Rama interna: `main`, sincronizada con `origin/main`.
+- Ultimo commit: `1b263a1 Preparar kit operativo de leccion 1`.
+- El proyecto tiene estructura operativa para clases de IA: metodo, curriculum, alumnos, sesiones, ejercicios, prompts, fuentes, base ligera y reportes.
+
+---
+
 ## [2026-05-06] sesion | ai-radar.md + ainews registrado + 2 libros nuevos
 
 **Archivos creados / modificados:**
