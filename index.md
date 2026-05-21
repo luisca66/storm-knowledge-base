@@ -35,8 +35,10 @@ estado: en_progreso
 | [quien-soy.md](00-contexto/quien-soy.md) | Biografía completa, linaje pedagógico (Shostakovich→Medrano→Cárdenas), viaje con IA | **completo** |
 | [vision-proyecto.md](00-contexto/vision-proyecto.md) | Modelo freemium, escalera de valor, YouTube, cursos avanzados, "la beca" | **completo** |
 | [stack-tecnologico.md](00-contexto/stack-tecnologico.md) | Next.js 16/React 19/TS/Vercel, Android, Godot 4, Firebase, herramientas IA | en_progreso |
+| [ai-radar.md](00-contexto/ai-radar.md) | Radar de IA activo: herramientas que Luis usa + tendencias estratégicas (actualizar mensual) | en_progreso |
+| [ritmos-y-decisiones.md](00-contexto/ritmos-y-decisiones.md) | Ritmos operativos de Luis: bloques fijos, sistema ainews, rutinas | en_progreso |
 | [decisiones-clave.md](00-contexto/decisiones-clave.md) | Decisiones estratégicas y su justificación | borrador |
-| [insights.md](00-contexto/insights.md) | Bandeja de entrada de ideas diarias (56 entradas al 2026-04-09) | en_progreso |
+| [insights.md](00-contexto/insights.md) | Bandeja de entrada de ideas diarias | en_progreso |
 
 ---
 
@@ -46,7 +48,7 @@ estado: en_progreso
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [filosofia-ensenanza.md](01-metodo-pedagogico/filosofia-ensenanza.md) | 7 principios, comparativa tradicional vs. método, rol de la tecnología | **completo** |
+| [filosofia-ensenanza.md](01-metodo-pedagogico/filosofia-ensenanza.md) | 7 principios, comparativa tradicional vs. método, rol de la tecnología, Elefantito Matemático, Aristóteles | **completo** |
 | [estructura-curso.md](01-metodo-pedagogico/estructura-curso.md) | ~60 lecciones: propedéutico P01-P04, escalas, armonía cromática, modulación | en_progreso |
 | [progresion-estudiante.md](01-metodo-pedagogico/progresion-estudiante.md) | Cómo avanza el alumno a través del método | borrador |
 | [ejercicios/tipos-de-ejercicio.md](01-metodo-pedagogico/ejercicios/tipos-de-ejercicio.md) | Tipos de ejercicio disponibles en la plataforma | borrador |
@@ -192,15 +194,17 @@ estado: en_progreso
 
 | Métrica | Valor |
 |---------|-------|
-| Total archivos wiki | ~40 |
-| Archivos completos | 3 |
-| Archivos en_progreso | 7 |
-| Archivos borrador | ~30 |
-| Páginas de síntesis | 5 |
-| Fuentes ingresadas | 23 (22 libros + 1 video) |
-| Insights capturados | 56 (al 2026-04-09) |
-| Última sesión de trabajo | 2026-04-16 |
+| Total archivos .md (incluye clases-ia) | 256+ |
+| Archivos wiki principales completos | 8 |
+| Archivos wiki en_progreso | 10+ |
+| Archivos wiki borrador | ~20 |
+| Páginas de síntesis | 6 |
+| Libros ingresados | 26 |
+| Libros registrados pendientes | 2 (Originals, Shadows) |
+| Sistema ainews | mar–may 2026 (activo) |
+| Alumnos en clases-ia | 7 perfilados |
+| Última sesión de trabajo | 2026-05-21 |
 
 ---
 
-*Mantenido por Codex. Actualizado: 2026-05-21.*
+*Mantenido por Claude. Actualizado: 2026-05-21.*

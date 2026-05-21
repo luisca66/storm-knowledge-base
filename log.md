@@ -8,6 +8,21 @@
 
 ---
 
+## [2026-05-21] lint | Chequeo de consistencia completo del KB
+
+**Problemas detectados y resueltos:**
+1. ✅ CLAUDE.md sección 7 desactualizada → actualizada a sesión 4 (2026-05-21)
+2. ✅ `ai-radar.md` y `ritmos-y-decisiones.md` no aparecían en index.md → agregados
+3. ✅ Estadísticas de index.md obsoletas → corregidas (256+ archivos, 26 libros, 7 alumnos)
+4. ✅ `filosofia-ensenanza.md` seguía como "en_progreso" en CLAUDE.md → marcado como completo
+5. ✅ `clases-ia/` sin conexión a síntesis principales → conectado vía `relacionado_con:`
+6. ⚠️ `luis-como-ingeniero-neural.md` (9 KB) desbalanceada vs su importancia → pendiente enriquecer con datos reales de alumnos
+7. ⚠️ 10 libros con `[verificar autor]` en indice-fuentes.md → pendiente verificar
+
+**Archivos modificados:** CLAUDE.md, index.md, CHANGELOG.md, log.md, 08-sintesis/como-enseno-armonia.md, 08-sintesis/luis-como-ingeniero-neural.md
+
+---
+
 ## [2026-05-21] actualizacion | Desanidación de repo clases-ia
 
 **Acciones:**

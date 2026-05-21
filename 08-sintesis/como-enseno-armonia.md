@@ -5,6 +5,7 @@ ultima_actualizacion: 2026-05-01 (sesión 2)
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/estructura-curso.md
+  - 01-metodo-pedagogico/clases-ia/03_alumnos/
   - 02-plataforma-web/maestro-virtual.md
   - 02-plataforma-web/secuenciador.md
   - 08-sintesis/modelos-mentales-aprendizaje-musical.md

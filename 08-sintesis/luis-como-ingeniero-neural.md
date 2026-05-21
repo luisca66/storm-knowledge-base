@@ -4,6 +4,7 @@ tipo: sintesis
 ultima_actualizacion: 2026-04-22
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
+  - 01-metodo-pedagogico/clases-ia/01_metodo/patrones_detectados_en_alumnos.md
   - 08-sintesis/modelos-mentales-aprendizaje-musical.md
   - 08-sintesis/como-enseno-armonia.md
   - 08-sintesis/el-musico-como-atleta.md

@@ -232,38 +232,41 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-05-06 (sesión 3)
+**Última actualización:** 2026-05-21 (sesión 4)
 
-**Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md
+**Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md, filosofia-ensenanza.md
 
-**Archivos en progreso:** filosofia-ensenanza.md, estructura-curso.md, indice-apps.md, secuenciador.md, maestro-virtual.md, ai-radar.md (nuevo)
+**Archivos en progreso:** estructura-curso.md, indice-apps.md, secuenciador.md, maestro-virtual.md, ai-radar.md, ritmos-y-decisiones.md
 
 **Páginas de síntesis activas (08-sintesis/):**
-- `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto
+- `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto ⚠️ necesita enriquecerse con datos reales de alumnos de clases-ia
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
-- `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock
+- `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock. Pendiente: sección Sadhguru (silencio interior)
 - `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
-- `tecnologia-al-servicio-del-metodo.md` ← borrador
-- `estrategia-freemium-musical.md` ← borrador
+- `tecnologia-al-servicio-del-metodo.md` ← borrador (no ha crecido desde sesión 1)
+- `estrategia-freemium-musical.md` ← borrador (no ha crecido desde sesión 1)
 
-**Fuentes ingresadas:** 35 fuentes registradas total:
-- 24 libros ingresados + 2 libros registrados pendientes (Originals, Shadows of Forgotten Ancestors) + Curso Medrano + LLM Wiki + 1 video + Sistema ainews (mar-may 2026)
+**Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 7 alumnos perfilados (Bruno 16, Carmen 50, Jonas 12, Julio 60, Luis 84, Mariana 35, Mario 55), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
+
+**Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 1 video + ainews (mar-may 2026):
 - Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
 - Sesión 2026-05-01: What Is Intelligence (Agüera y Arcas), This Is Your Brain on Music (Levitin), 6 libros de fitness, A Little Bit of Philosophy U03L04 + U04L04
 - Sesión 2026-05-02: Outliers (Gladwell), Your Brain at Work (Rock)
-- Sesión 2026-05-06: ainews registrado como fuente continua, Originals + Shadows of Forgotten Ancestors registrados
+- Sesión 2026-05-06: ainews registrado como fuente continua, Originals + Shadows registrados
+- Sesión 2026-05-21: Desanidación de clases-ia + Elefantito Matemático integrado en filosofia-ensenanza.md + Paradigma de No-Compartimentación integrado en síntesis
 
 **Fuentes no ingresadas aún:** Originals (Grant), Shadows of Forgotten Ancestors (Sagan), libros filosóficos generales, libros económicos
 
 **Repo GitHub:** https://github.com/luisca66/storm-knowledge-base
 
 **Pendiente prioritario:**
-- `filosofia-ensenanza.md` → Elefantito Matemático (Kawashima/prefrontal + memoria) — contexto en insights.md, listo para integrar sin entrevista
 - `modelos-mentales-aprendizaje-musical.md` → sección Sadhguru (silencio interior) aún pendiente
 - `ai-radar.md` → actualizar mensualmente con síntesis de tendencias del mes
+- `luis-como-ingeniero-neural.md` → enriquecer con patrones reales de alumnos de clases-ia
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
-- Archivos en `borrador` en `02-plataforma-web/`, `04-contenido-musical/`, `05-operaciones/`
+- Conectar `clases-ia/` vía `relacionado_con:` con síntesis principales
+- Archivos en `borrador` en `04-contenido-musical/`, `05-operaciones/`
 
 ---
 
-*Este archivo es mantenido por Claude. Última revisión: 2026-05-06 (sesión 3).*
+*Este archivo es mantenido por Claude. Última revisión: 2026-05-21 (sesión 4).*

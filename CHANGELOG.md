@@ -1,11 +1,18 @@
 ---
 titulo: "Registro de Cambios"
 tipo: diario
-ultima_actualizacion: 2026-04-09
+ultima_actualizacion: 2026-05-21
 estado: en_progreso
 ---
 
 # Registro de Cambios (CHANGELOG)
+
+## 2026-05-21
+- **Lint completo del KB** (sesión 4): chequeo de consistencia de todo el proyecto. 7 problemas detectados y resueltos.
+- `CLAUDE.md` sección 7 actualizada: fecha, archivos completos (+ filosofia-ensenanza.md), clases-ia documentada, pendientes actualizados.
+- `index.md` actualizado: agregados `ai-radar.md` y `ritmos-y-decisiones.md` a sección 00-contexto; estadísticas corregidas (256+ archivos, 26 libros, 7 alumnos clases-ia, sesión 2026-05-21); descripción de `filosofia-ensenanza.md` expandida.
+- `08-sintesis/como-enseno-armonia.md` → `relacionado_con` conectado a `clases-ia/03_alumnos/`.
+- `08-sintesis/luis-como-ingeniero-neural.md` → `relacionado_con` conectado a `clases-ia/01_metodo/patrones_detectados_en_alumnos.md`.
 
 ## 2026-04-09
 - `01-metodo-pedagogico/filosofia-ensenanza.md` llenado desde el libro: principios fundamentales, tabla comparativa, rol de la tecnología, influencias intelectuales. Estado: `en_progreso`.
