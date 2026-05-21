@@ -1,0 +1,38 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Entornos y dependencias
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# Caches
+.cache/
+.next/
+dist/
+build/
+
+# Secretos y privados futuros
+secrets/
+privado/
+datos_sensibles/
+*.key
+*.pem
+*.p12
+
+# Archivos generados locales
+*.log
+coverage/

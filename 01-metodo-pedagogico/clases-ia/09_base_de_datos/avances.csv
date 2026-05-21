@@ -1,0 +1,14 @@
+id_avance,id_alumno,fecha,nivel_anterior,nivel_nuevo,evidencia,observaciones
+avance_jonas_12_001,jonas_12,2026-04-17,pendiente,Nivel 1 a 2,Primera app construida con Gemini y flujo inicial con Codex/Antigravity,IA como producto visible engancha mejor que explicacion abstracta
+avance_jonas_12_002,jonas_12,2026-04-24,Nivel 2,Nivel 2 a 3,Propuso refinar app previa y eligio nuevo juego con Claude Code,Primer signo fuerte de propiedad sobre producto
+avance_jonas_12_003,jonas_12,2026-05-08,Nivel 2 a 3,Nivel 3 con señales de 4,Dirigio flujo ChatGPT Thinking -> Codex/Antigravity y exigio que los agentes resolvieran sus tareas,Entrada natural a filosofia de mente y criterio sobre agentes
+avance_carmen_50_001,carmen_50,pendiente,pendiente,Nivel 2,Usa Cowork y Claude en proyecto de automatizacion de cotizaciones,Requiere claridad sobre chat vs agente y privacidad
+avance_carmen_50_002,carmen_50,pendiente,Nivel 2,Nivel 2,Comparo Deep Research y Codex en consulta sobre rentas en Merida y quedo impresionada,Deep Research puede ser puerta a investigacion profesional
+avance_carmen_50_003,carmen_50,2026-05-19,Nivel 2,Nivel 2 en consolidacion,Primera interaccion funcional con Claude Code despues de resolver actualizacion de Git en Mac,Privacidad sigue siendo bloqueo central pero carpetas organizadas y control local le ayudan a avanzar
+avance_mario_55_001,mario_55,pendiente,pendiente,Nivel 2 a 3,Usa Cowork Claude Codex y Claude Design en exploraciones profesionales,Necesita mapa de herramientas y cierres de sesion
+avance_mario_55_002,mario_55,pendiente,Nivel 2,Nivel 2 a 3,Explora IA empresarial e investigaciones HTML generadas por Luis,Conectar con proyecciones economicas del rubro creativo
+avance_mario_55_003,mario_55,2026-05-19,Nivel 2 a 3,Nivel 3 en ruta,Creo cuenta de GitHub y vio flujo de Claude Code para repositorios en proyecto de website,Aprendizaje clave: no aceptar sin cuestionar una negativa operativa de la IA; reformular como vibe coder y pedir que resuelva
+avance_bruno_16_001,bruno_16,pendiente,pendiente,Nivel 1 a 2,Ha visto multiples herramientas de IA con Luis y apps personales de entrenamiento bateria y guitarra,Necesita microdecisiones y bloques cortos para pasar de observador a participante
+avance_luis_84_001,luis_84,2026-05-07,pendiente,Nivel 3 a 4,"Uso de Codex en app de ajedrez y trabajo previo de migracion de base de datos","Tiene buena base tecnologica y necesita proyectos retadores mas que habilidades basicas"
+avance_julio_60_001,julio_60,pendiente,pendiente,Nivel 2,Usa ChatGPT Claude y Cowork para tareas profesionales,Alta utilidad practica pero baja paciencia
+avance_mariana_35_001,mariana_35,2026-05-19,pendiente,Nivel 1,Primera clase sobre utilidad de Gemini ChatGPT Claude web search deep research y eleccion de modelos,Alta actividad digital por negocio y redes; necesita construir criterio de chatbots antes de pasar a agentes

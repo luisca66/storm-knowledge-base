@@ -1,0 +1,18 @@
+id_tarea,id_alumno,fecha_asignacion,tarea,estado,fecha_revision,resultado,notas
+tarea_jonas_12_001,jonas_12,2026-05-08,Introducir primer ejercicio de filosofia/pensamiento critico,pendiente,pendiente,pendiente,Prioridad para sesion 5
+tarea_jonas_12_002,jonas_12,2026-05-08,Hacer que Jonas dicte o escriba un prompt completo para un agente,pendiente,pendiente,pendiente,Debe hacerlo sin intermediario ChatGPT Thinking si es posible
+tarea_jonas_12_003,jonas_12,2026-05-08,Revisar intento fallido de Claude Code en rediseño de app de beisbol,pendiente,pendiente,pendiente,Usar como oportunidad para evaluar fallos de herramientas
+tarea_carmen_50_001,carmen_50,2026-05-16,Preparar leccion o mapa sobre cuando usar chat y cuando usar agentes,pendiente,pendiente,pendiente,Clave para Carmen y curso base
+tarea_carmen_50_002,carmen_50,2026-05-16,Preparar proyecto de foto fija con IA,pendiente,pendiente,pendiente,Proximo paso natural para autonomia profesional
+tarea_carmen_50_003,carmen_50,2026-05-16,Crear checklist de privacidad y permisos para agentes,pendiente,pendiente,pendiente,Evitar permisos excesivos y datos sensibles
+tarea_mario_55_001,mario_55,2026-05-16,Preguntar que herramientas usa para imagen y video,pendiente,pendiente,pendiente,Clave para adaptar clases de creativo audiovisual
+tarea_mario_55_002,mario_55,2026-05-16,Explicar HTMLs de investigacion hechos con Codex y Cowork,pendiente,pendiente,pendiente,Debe poder hacer exploraciones sin Luis
+tarea_mario_55_003,mario_55,2026-05-16,Crear y usar mapa de herramientas por tarea,pendiente,pendiente,pendiente,Ayuda a elegir herramienta correcta y reducir dispersion
+tarea_mario_55_004,mario_55,2026-05-16,Ver NotebookLM y Antigravity con Gemini,pendiente,pendiente,pendiente,Pendiente compartido con Carmen
+tarea_bruno_16_001,bruno_16,2026-05-16,Resolver o rodear instalacion de app de entrenamiento en iPhone,pendiente,pendiente,pendiente,Evitar consumir demasiada clase con candados de Apple
+tarea_bruno_16_002,bruno_16,2026-05-16,Crear mas apps de iPhone o web-apps simples,pendiente,pendiente,pendiente,Usar apps personales como gancho de IA
+tarea_bruno_16_003,bruno_16,2026-05-16,Diseñar app para entrenar atencion en microbloques,pendiente,pendiente,pendiente,Conectar con guitarra y gym mental
+tarea_bruno_16_004,bruno_16,2026-05-16,Probar IA para estudiar en bloques de 5 minutos,pendiente,pendiente,pendiente,No usar investigaciones largas
+tarea_julio_60_001,julio_60,2026-05-16,Preparar clase corta de Claude Code,pendiente,pendiente,pendiente,Maximo 45 a 60 minutos
+tarea_julio_60_002,julio_60,2026-05-16,Crear checklist de login correo cuenta y credito,pendiente,pendiente,pendiente,Evitar perder tiempo por errores de acceso
+tarea_julio_60_003,julio_60,2026-05-16,Crear mapa de respaldo si se acaba credito de Codex o Cowork,pendiente,pendiente,pendiente,Reducir frustracion y mantener avance

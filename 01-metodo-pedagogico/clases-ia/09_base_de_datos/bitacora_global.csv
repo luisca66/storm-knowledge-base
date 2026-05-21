@@ -1,0 +1,7 @@
+fecha,tipo,descripcion,archivo_relacionado,siguiente_accion
+2026-05-07,creacion,Creacion inicial del sistema Clases IA,README.md,Completar diagnosticos de alumnos
+2026-05-21,actualizacion,Creado expediente inicial de Mariana 35 con primera clase registrada el 2026-05-19,03_alumnos/mariana_35/perfil.md,Reconstruir bitacora y completar diagnostico inicial
+2026-05-21,actualizacion,Enriquecido diagnostico de Mariana con contexto de tienda de ropa de segunda mano redes datos y primera clase sobre chatbots,03_alumnos/mariana_35/diagnostico_inicial.md,Definir primer caso real de negocio para comparar Gemini ChatGPT y Claude
+2026-05-21,actualizacion,Creadas bitacoras individuales pendientes de reconstruir para Mario y Carmen por la clase del 2026-05-19,09_base_de_datos/sesiones.csv,Completar contenido real de ambas sesiones con Luis
+2026-05-21,actualizacion,Reconstruida clase de Mario del 2026-05-19: website de su compañia GitHub Claude Code y hallazgo vibe coder sobre negativas de la IA,03_alumnos/mario_55/sesiones/2026-05-19_sesion_06_pendiente_reconstruir.md,Continuar con estructura del website y primer ciclo GitHub
+2026-05-21,actualizacion,Reconstruida clase de Carmen del 2026-05-19: introduccion a Claude Code actualizacion de Git y trabajo con carpetas organizadas,03_alumnos/carmen_50/sesiones/2026-05-19_sesion_06_pendiente_reconstruir.md,Continuar proyecto en Claude Code reforzando privacidad y permisos

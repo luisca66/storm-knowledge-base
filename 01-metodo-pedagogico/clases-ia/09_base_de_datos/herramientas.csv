@@ -1,0 +1,12 @@
+id_herramienta,nombre,categoria,nivel,uso_principal,riesgos,notas
+chatgpt,ChatGPT,chat_ia,0,conversacion aprendizaje planeacion,errores convincentes y datos sensibles,herramienta base
+claude,Claude,chat_ia,1,analisis de textos largos,dependencia de resumenes sin revisar,util para documentos
+gemini,Gemini,chat_ia,1,busqueda multimodal y Google,fuentes variables,comparar respuestas
+notebooklm,NotebookLM,estudio,1,trabajo con fuentes,fuentes pobres producen malos resultados,ideal para estudio
+elevenlabs,ElevenLabs,audio,1,voz y lectura,derechos de voz y privacidad,cuidar consentimiento
+suno,Suno,musica,1,canciones y estilos,propiedad intelectual,revisar letras
+codex,Codex,agente_codigo,2,repositorios documentos scripts,cambios sin revisar,usar con GitHub
+github,GitHub,repositorio,2,historial colaboracion,publicar datos privados,mantener repos privados
+antigravity,Antigravity,agente,2,proyectos asistidos,expectativas magicas,usar paso a paso
+claude_code,Claude Code,agente_codigo,2,leer y modificar repos,cambios sin pruebas,documentar resultados
+cowork,Cowork,agente,2,organizacion y ejecucion guiada,delegar sin revisar,revisar outputs

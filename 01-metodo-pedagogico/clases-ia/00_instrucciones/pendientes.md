@@ -1,0 +1,22 @@
+# Pendientes iniciales
+
+- Completar diagnosticos de cada alumno.
+- Completar datos faltantes del diagnostico inicial de Mariana: modalidad, frecuencia, duracion de primera clase, dispositivo principal y ritmo deseado.
+- Definir primer caso real de Mariana para comparar Gemini, ChatGPT y Claude: redes, datos, investigacion, inventario, ventas o comunicacion.
+- Completar datos faltantes de clase de Mario del 2026-05-19: duracion, nombre de la compañia si Luis quiere registrarlo y tarea exacta.
+- Continuar website de Mario: estructura inicial, contenido minimo y primer ciclo editar-subir-revisar con Claude Code y GitHub.
+- Completar datos faltantes de clase de Carmen del 2026-05-19: duracion, nombre o tipo de proyecto, y tarea exacta.
+- Continuar proyecto de Carmen en Claude Code reforzando privacidad, permisos y estructura de carpetas.
+- Revisar y probar las primeras lecciones secuenciales del curso base antes del martes 19 de mayo de 2026.
+- Probar material operativo de Leccion 1 con alumnas nuevas el martes 19 de mayo de 2026.
+- Despues de la clase, convertir bitacoras reales en ajustes a Leccion 1.
+- Verificar disponibilidad y limites actuales de herramientas gratuitas antes de impartir la leccion "IA gratis".
+- Registrar sesiones previas si Luis las recuerda.
+- Crear ejercicios mas especificos por edad, perfil y herramienta.
+- Definir rubricas de progreso.
+- Seguir alimentando carpeta de fuentes con articulos y documentacion tecnica.
+- Crear `indice_general.md` para `08_fuentes/noticias_ia_diarias/202605` cuando Luis agregue mas resumenes del mes.
+- Revisar periodicamente los mapas de fuentes para convertir tendencias nuevas en ejercicios o preguntas de clase.
+- Desarrollar modulo de CRM y automatizacion.
+- Probar el flujo con una clase real.
+- Revisar semanalmente si los CSVs siguen siendo suficientes.
