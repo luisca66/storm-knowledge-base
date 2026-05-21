@@ -29,6 +29,14 @@ fuentes_utilizadas:
 > Página de síntesis: integra neurociencia, psicología del aprendizaje y filosofía aplicadas al método de Luis.
 > Esta es la página que más directamente informa el diseño del curso.
 
+## El Axioma del Campo Unificado (No-Compartimentación)
+
+Antes de desglosar cada modelo mental, es vital establecer el paradigma central del método de Luis: **Todas estas fuentes aplican simultáneamente a todas las tareas e instrumentos.**
+
+El alumno de Luis no está aprendiendo a tocar "un instrumento" — está en un ecosistema donde es multi-instrumentista (batería, guitarra, bajo, piano) y además usa tecnología (IA, secuenciadores, apps). Por lo tanto:
+- **No hay compartimentación:** La eficiencia neuromotora no es solo para el piano; el silencio interior no es solo para antes de un examen; Kahneman no es solo para el análisis armónico. 
+- En cualquier instante de la clase —ya sea que el alumno esté tocando un compás de batería, validando un ejercicio de armonía, o redactando un prompt para una IA— todas las leyes que se describen a continuación (allostasis, carga de la PFC, mielinización S2→S1, dopamina, anticipación) **están ocurriendo al mismo tiempo**. El taller es un campo unificado de neurocognición.
+
 ---
 
 ## Sistema 1 y Sistema 2 (Kahneman) — el modelo cognitivo central del método

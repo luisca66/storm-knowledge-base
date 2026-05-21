@@ -44,25 +44,25 @@ La música no es el objetivo de Luis — es el vehículo. ¿Por qué eligió est
 
 ---
 
-## El framework es universal
+## El framework es universal y el Taller es un Ecosistema (No-Compartimentación)
 
-Luis aplica exactamente el mismo proceso para enseñar cualquier habilidad:
+El conocimiento tácito central de Luis es que su enseñanza opera bajo un **Axioma de Ecosistema Unificado**. Las fuentes de neurociencia, filosofía, fitness y tecnología no están compartimentadas por actividad. No es que "Kahneman aplique al piano" y "Barrett aplique a la armonía". 
 
-| Dominio | Lo que parece | Lo que realmente es |
-|---------|---------------|---------------------|
-| Tocar piano | Aprender notas y técnica | Construir circuitos de corteza motora + auditiva mielinizados |
-| Producción musical | Aprender software | Construir modelos predictivos de relaciones sonoras |
-| Manejo en situaciones difíciles | Aprender técnicas de conducción | Construir respuestas automáticas de bajo pánico bajo presión |
-| Deporte | Aprender movimientos | Construir coordinación neuromotora y anticipación situacional |
-| Levantamiento de pesas | Aprender técnica | Construir señalización neural correcta antes de señalización muscular |
-| Uso de IA | Aprender prompts | Construir modelos mentales de sistemas complejos y delegación eficiente |
+Todos los alumnos presenciales son multi-instrumentistas (llevan guitarra, bajo, piano, batería). Cualquier cosa que ocurre en el taller —tocar un *groove* de batería, programar un prompt en una IA, escribir un coral a 4 voces, o usar una app de entrenamiento auditivo— invoca **todas** las fuentes simultáneamente. El alumno siempre está gestionando su presupuesto corporal (Barrett), cuidando su PFC (Rock), mielinizando de S2 a S1 (Kahneman), requiriendo eficiencia neuromotora (Tsatsouline) y cultivando silencio interior (Sadhguru).
 
-El proceso subyacente es siempre el mismo:
+| Tarea del Taller | Lo que parece | Lo que realmente está ocurriendo simultáneamente |
+|------------------|---------------|--------------------------------------------------|
+| Tocar la batería | Coordinar extremidades y ritmo | Mielinización S2→S1, anticipación (allostasis), eficiencia neuromotora, silencio yóguico. |
+| Armonía (SATB) | Escribir reglas a 4 voces | Carga masiva de la PFC, chunks multidimensionales, predicción de schemas, tolerancia al esfuerzo. |
+| Entrenamiento Auditivo | Adivinar notas en una app | Modificación de arquitectura perceptual, dopamina por feedback, reducción de ruido interno. |
+| Trabajar con IA | Redactar un prompt | Transfer learning, modelo mental abstracto, delegación sin perder red neuronal propia. |
+
+El proceso subyacente en cualquier segundo de clase es siempre el mismo:
 1. Identificar qué redes neurales necesita construir el alumno
-2. Diseñar el ejercicio que activa exactamente esas redes (y solo esas)
+2. Diseñar el ejercicio que activa exactamente esas redes
 3. Garantizar retroalimentación inmediata para que el cerebro aprenda el patrón correcto
-4. Repetir con intención consciente hasta la mielinización
-5. Integrar con otras redes ya construidas
+4. Mantener la PFC en el nivel óptimo de reto sin saturarla de estrés innecesario
+5. Repetir con intención consciente (sadhana) hasta la mielinización
 
 ---
 
@@ -82,7 +82,7 @@ Esta premisa tiene consecuencias directas en cómo está diseñado el curso:
 
 - **El propedéutico primero:** No se puede construir sobre redes neurales que no existen. El alumno tiene que tener los circuitos básicos de lectura, ritmo e intervalos antes de enfrentarse a la complejidad armónica.
 
-- **SATB como ejercicio máximo:** Escribir a 4 voces con todas sus reglas no es un ejercicio académico anticuado — es el ejercicio que requiere más redes neurales simultáneas en el dominio musical. Es el equivalente al peso muerto en el entrenamiento físico: el ejercicio más exigente que construye la base para todo lo demás.
+- **SATB como ejercicio máximo de integración cognitiva:** Escribir a 4 voces con todas sus reglas no es el único camino, pero es uno de los ejercicios que requiere más redes neurales simultáneas en el dominio analítico musical. Actúa como el peso muerto en el entrenamiento físico. Sin embargo, no vive en el vacío: se sostiene sobre la arquitectura perceptual que las apps de oído ya construyeron y sobre la eficiencia atencional que el alumno practica en su instrumento principal (batería, guitarra, piano).
 
 - **El Maestro Virtual:** La retroalimentación inmediata no es un feature de UX. Es la condición necesaria para que el cerebro aprenda el patrón correcto desde la primera repetición. Sin ella, el alumno puede estar mielinizando el error.
 
@@ -120,3 +120,4 @@ Cuando esos cuatro circuitos están construidos y mielinizados, la partitura se 
 ## Historial de Cambios
 - **2026-04-16** — Archivo creado a partir de declaración directa de Luis en entrevista. Es la página más importante del KB para entender el proyecto.
 - **2026-04-22** — Ingesta de *Inner Engineering* (Sadhguru): conexión expandida con la idea de "reordenamiento del sistema" y el concepto de transformación dimensional.
+- **2026-05-21** — Reestructuración del axioma de "No-Compartimentación" a partir de entrevista con Luis. Se internaliza que todas las fuentes aplican a todos los instrumentos y tareas del taller como un campo unificado.

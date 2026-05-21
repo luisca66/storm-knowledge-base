@@ -8,17 +8,33 @@
 
 ---
 
-## [2026-05-21] sesion | Repo clases-ia incorporado al KB local
+## [2026-05-21] entrevista | El Paradigma de No-Compartimentación (Campo Unificado)
 
-**Accion:**
+**Acciones:**
+- Actualización estructural profunda en base a entrevista con Luis. Se corrige el sesgo reduccionista del KB que confinaba la neurociencia al "cuarteto vocal" o al "entrenamiento auditivo" por separado.
+- Archivos `08-sintesis/luis-como-ingeniero-neural.md` y `08-sintesis/modelos-mentales-aprendizaje-musical.md` modificados para incluir el "Axioma del Ecosistema Unificado".
+
+**Conocimiento capturado:**
+- **La No-Compartimentación**: Los alumnos presenciales son multi-instrumentistas (guitarra, bajo, piano, batería) y usuarios de herramientas (IA, apps). Todas las fuentes (Kahneman, Barrett, Levitin, Tsatsouline, Sadhguru, Rock, Agüera y Arcas) aplican simultáneamente a *todas* las tareas del taller.
+- El taller opera como un campo unificado. No se puede aislar la mielinización (Kahneman) del silencio interior (Sadhguru) o de la gestión del presupuesto corporal (Barrett) por cada instrumento. Si el alumno toca un compás de batería o usa un prompt de IA, invoca toda la arquitectura neurocognitiva del método al mismo tiempo.
+
+---
+
+## [2026-05-21] sesion | Repo clases-ia incorporado + Integración de Elefantito Matemático
+
+**Acciones:**
 - Clonado `https://github.com/luisca66/clases-ia` en `01-metodo-pedagogico/clases-ia/`.
 - Registrado el repo en `index.md`.
 - Agregado `01-metodo-pedagogico/clases-ia/` a `.gitignore` del KB padre para mantenerlo como repositorio Git independiente.
+- Procesados e integrados los insights de **Elefantito Matemático** (gym del cerebro/córtex prefrontal/Sistema 2) y del **Módulo de memoria** (mnemotecnia clásica) en [filosofia-ensenanza.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/01-metodo-pedagogico/filosofia-ensenanza.md).
+- Marcados como resueltos y procesados en [insights.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/00-contexto/insights.md).
+- Actualizado [index.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/index.md) para reflejar [filosofia-ensenanza.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/01-metodo-pedagogico/filosofia-ensenanza.md) como **completo**.
 
 **Estado observado:**
-- Rama interna: `main`, sincronizada con `origin/main`.
-- Ultimo commit: `1b263a1 Preparar kit operativo de leccion 1`.
-- El proyecto tiene estructura operativa para clases de IA: metodo, curriculum, alumnos, sesiones, ejercicios, prompts, fuentes, base ligera y reportes.
+- Rama interna clases-ia: `main`, sincronizada con `origin/main`.
+- Último commit: `1b263a1 Preparar kit operativo de leccion 1`.
+- El proyecto tiene estructura operativa para clases de IA: método, currículo, alumnos, sesiones, ejercicios, prompts, fuentes, base ligera y reportes.
+- El archivo de filosofía de enseñanza queda completado en su totalidad al resolver la sección de matemática mental que estaba marcada como pendiente.
 
 ---
 
