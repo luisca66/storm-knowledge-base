@@ -46,7 +46,7 @@ Actualizacion 2026-05-21: se reconstruyo la clase de Carmen del 2026-05-19. Carm
 - Proyectos personales activos.
 - Primeras cuatro lecciones secuenciales del curso base antes del martes 19 de mayo de 2026.
 - Seguir alimentando articulos y documentacion tecnica.
-- Crear indice mensual para `../../07-fuentes/clases_ia/noticias_ia_diarias/202605` cuando haya suficientes dias del mes.
+- Crear indice mensual para `../../07-fuentes/ainews/202605` cuando haya suficientes dias del mes.
 - Rubricas mas finas despues de probar el flujo con clases reales.
 - Completar diagnostico inicial de Mariana y reconstruir su primera clase del 2026-05-19.
 - Definir primer caso de uso de Mariana: redes, datos, investigacion, inventario, ventas o comunicacion.
@@ -58,8 +58,8 @@ Actualizacion 2026-05-21: se reconstruyo la clase de Carmen del 2026-05-19. Carm
 
 - Filosofia: `../../07-fuentes/libros/a-little-bit-of-philosophy/INDEX.md`.
 - Mapa pedagogico de filosofia: `../../07-fuentes/libros/a-little-bit-of-philosophy/mapa_para_clases_ia.md`.
-- Noticias IA: `../../07-fuentes/clases_ia/noticias_ia_diarias/`.
-- Mapa de tendencias IA: `../../07-fuentes/clases_ia/noticias_ia_diarias/mapa_de_tendencias_ia.md`.
+- Noticias IA: `../../07-fuentes/ainews/`.
+- Mapa de tendencias IA: `../../07-fuentes/ainews/mapa_de_tendencias_ia.md`.
 
 ## Alumno piloto actualizado
 

@@ -286,7 +286,7 @@ clases-ia/
 │   ├── proyectos_de_estudio.md
 │   └── proyectos_con_agentes.md
 │
-├── ../../07-fuentes/clases_ia/
+├── ../../07-fuentes/ainews/
 │   ├── README.md
 │   ├── curso_filosofia/
 │   ├── noticias_ia_diarias/
@@ -1008,7 +1008,7 @@ Casos obligatorios:
 
 ## 16. Fuentes
 
-En `../../07-fuentes/clases_ia/`, crea un README.
+En `../../07-fuentes/ainews/`, crea un README.
 
 Debe explicar que esta carpeta servirá para guardar:
 - Curso de filosofía.
