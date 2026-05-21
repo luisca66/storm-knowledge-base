@@ -8,6 +8,18 @@
 
 ---
 
+## [2026-05-21] actualizacion | Desanidación de repo clases-ia
+
+**Acciones:**
+- Se eliminó el sub-directorio `.git` interno de la carpeta `01-metodo-pedagogico/clases-ia/`.
+- Se removió la carpeta del archivo `.gitignore` del repositorio principal.
+- Se agregaron todos los archivos de `clases-ia` al control de versiones del repositorio `storm-knowledge-base`.
+
+**Conocimiento capturado:**
+- Se resolvió un error arquitectónico donde `clases-ia` operaba como un repositorio anidado ("git dentro de git"). A partir de ahora, toda la carpeta pertenece orgánicamente al monorepo principal.
+
+---
+
 ## [2026-05-21] entrevista | El Paradigma de No-Compartimentación (Campo Unificado)
 
 **Acciones:**
