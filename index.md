@@ -53,7 +53,8 @@ estado: en_progreso
 | [ejercicios/reglas-validacion.md](01-metodo-pedagogico/ejercicios/reglas-validacion.md) | Reglas de validación del Maestro Virtual | borrador |
 | [lecciones/leccion-01-escalas-mayores.md](01-metodo-pedagogico/lecciones/leccion-01-escalas-mayores.md) | Lección 1: Escalas Mayores | borrador |
 | [lecciones/leccion-02-escalas-menores.md](01-metodo-pedagogico/lecciones/leccion-02-escalas-menores.md) | Lección 2: Escalas Menores | borrador |
-| [clases-ia/](01-metodo-pedagogico/clases-ia/) | Repositorio local `luisca66/clases-ia`: sistema operativo para clases personalizadas de IA, currículo, alumnos, sesiones y reportes | repo externo local |
+| [clases-ia/](01-metodo-pedagogico/clases-ia/) | Sistema integrado para clases personalizadas de IA (alumnos, sesiones, reportes) | **completo** |
+| [INSTRUCCIONES_CLASES_IA.md](01-metodo-pedagogico/clases-ia/INSTRUCCIONES_CLASES_IA.md) | Reglamento específico para planear y operar clases de IA (Doble lectura obligatoria) | **completo** |
 
 ---
 

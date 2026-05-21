@@ -40,7 +40,7 @@ Nombrar sesiones como `YYYY-MM-DD_sesion_01.md`. Cada sesion debe tener bitacora
 
 ## Como pedir ayuda a un agente
 
-Pedir al agente que lea primero `README.md`, `PROJECT_CONTEXT.md`, `AGENTS.md`, `00_instrucciones/ultimo_estado.md` y `00_instrucciones/pendientes.md`. Luego indicar el alumno, el objetivo y si se necesita plan, bitacora, reporte, ejercicio o actualizacion de base de datos.
+Pedir al agente que lea primero `README.md`, `PROJECT_CONTEXT.md`, `INSTRUCCIONES_CLASES_IA.md`, `00_instrucciones/ultimo_estado.md` y `00_instrucciones/pendientes.md`. Luego indicar el alumno, el objetivo y si se necesita plan, bitacora, reporte, ejercicio o actualizacion de base de datos.
 
 ## Privacidad
 

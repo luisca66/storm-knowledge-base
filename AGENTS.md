@@ -52,6 +52,8 @@ storm-knowledge-base/
 │   ├── filosofia-ensenanza.md ← 7 principios, El Camino de la Señal
 │   ├── estructura-curso.md    ← ~60 lecciones, propedéutico + progresión
 │   ├── progresion-estudiante.md ← cómo avanza el alumno
+│   ├── clases-ia/             ← sistema operativo de las clases personalizadas
+│   │   └── INSTRUCCIONES_CLASES_IA.md ← reglas específicas para dar clases de IA
 │   ├── ejercicios/
 │   │   ├── tipos-de-ejercicio.md
 │   │   └── reglas-validacion.md
@@ -177,6 +179,7 @@ Periódicamente verificar:
 - Propone conexiones entre conceptos y archivos
 - Mantiene consistencia entre archivos (ej. mismo número de apps en todos lados)
 - Actualiza `index.md` y `log.md` en cada sesión
+- **Acatar doble reglamento en clases-ia:** Si trabaja planificando clases de IA o editando perfiles de alumnos, debe leer y obedecer obligatoriamente `01-metodo-pedagogico/clases-ia/INSTRUCCIONES_CLASES_IA.md`.
 
 **Lo que Luis hace:**
 - Decide qué fuentes ingresar
@@ -232,7 +235,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-05-02 (sesión 3)
+**Última actualización:** 2026-05-21 (fusión de clases-ia)
 
 **Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md
 
@@ -265,4 +268,4 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ---
 
-*Este archivo es mantenido por Codex. Última revisión: 2026-05-02 (sesión 3).*
+*Este archivo es mantenido por Codex. Última revisión: 2026-05-21 (fusión de clases-ia).*
