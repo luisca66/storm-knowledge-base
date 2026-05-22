@@ -141,3 +141,34 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **La Economía Real de los Tokens y "AI Psychosis" (Mobitar):**
   - Gasto extremo en tokens de frontera (Peter Steinberger: $250,000 en 7 días / $1.3M en 30 días para Open Claw). Encarecimiento encubierto de modelos como Opus 4.7 mediante tokenizers que producen outputs 35% más largos.
   - *AI Psychosis corporativa (Mitchell Hashimoto):* Empresas priorizan arreglar errores rápidamente con IA en lugar de evitarlos de origen, favoreciendo la velocidad hacia el product-market fit a expensas de un alto costo de tokens que excluye a equipos sin capital.
+
+## [21 de Mayo de 2026](./resumen_20260521.md)
+**Temas Principales:**
+- **La Muerte de la Programación Tradicional (Eric Schmidt):** El programador tradicional se desplaza hacia un rol de "arquitecto de sistemas inteligentes", coordinando y supervisando enjambres de agentes en paralelo en lugar de escribir código a mano.
+- **Geopolítica y Guerra de Drones (Ucrania):**
+  - *Guerra transparente:* Frente militar congelado por la transparencia extrema: cualquier blindado o unidad móvil en superficie es detectada en minutos y destruida. Soldados en trincheras por 50-120 días con suministros vía drones.
+  - *Cambio en defensa:* Obsolescencia de grandes sistemas tradicionales lentos y costosos (portaaviones, cazas tripulados, misiles monoblanco). Necesidad de migrar el capex militar a enjambres de drones de ataque 360 grados y entrenar modelos *VLA* (visión-lenguaje-acción) con fuego real.
+  - *Brecha tecnológica con China:* La brecha de modelos frontera de China se ha reducido a solo 6 meses. A pesar del bloqueo de GPUs, optimizaron hardware utilizando los chips Ascend (más lentos) junto con innovaciones de software que reducen latencia.
+  - *Peligro del Open-Source:* Modelos open-weights chinos (DeepSeek V4) en el top de razonamiento. La ausencia de un botón de apagado para modelos abiertos incrementa el riesgo de ciberataques u operaciones destructivas por actores solitarios.
+- **Cerebras y la Inferencia de Alta Velocidad (Andrew Feldman):**
+  - *Hito técnico:* Creación del chip wafer-scale de 46,000 $mm^2$ (frente a los 100 $mm^2$ de Nvidia) superando problemas históricos de yield.
+  - *Adopción masiva:* Tras años de desierto comercial (2019-2025) por falta de demanda de velocidad extrema, el cruce del umbral de utilidad de los modelos desata el auge de inferencia ultrarrápida. Alianza estratégica de $1B con G42 y acuerdo maestro de $20B+ con OpenAI.
+  - *IPO de Cerebras:* Salida a bolsa valorada en $63B como pure-play de inferencia de IA.
+  - *Productividad corporativa:* Inversión masiva en tokens en Cerebras ($25k-$30k mensuales por ingeniero), donde ingenieros de elite se convierten en 100x supervisando 8-10 agentes simultáneos.
+- **Estructura Financiera de la Infraestructura de IA:**
+  - *IPO de SpaceX AI:* Presentación de la S1 ante la SEC para un IPO de $80B+ (el mayor de la historia) para el 12 de junio. Mercado total disponible de $28.5T (capex de SpaceX destina 3x más a IA que al espacio).
+  - *Colossus 2 y Anthropic:* Alianza en el cluster Colossus 2 con chips GB200 ($15B anualizados). Anthropic reporta ingresos anualizados de $10.9B en Q2 2026 (crecimiento del 130% trimestral) y su primer beneficio operativo.
+  - *Centros de datos:* El costo de centros de datos de 1 GW ($50B) y 10 GW ($500B) convierte al capital en el principal factor limitante. Auge de instalaciones *behind the meter* alimentadas por energía local en la América rural.
+- **Matemáticas e Inteligencia Artificial:** OpenAI resuelve el problema Erdős número 90 (distancias unitarias en el plano) utilizando razonamiento extendido de un modelo de propósito general con un costo de solo cientos o miles de dólares, refutando la conjetura del lattice de Erdős mediante una prueba de 18 páginas (validada por Terence Tao).
+- **El Método de Preguntas para IA (Nate B. Jones):** Sustitución del *prompt engineering* por el *AI question method*, tratando a los modelos avanzados (Claude 4.7 / o3) como *senior partners* en lugar de juniors. Principios: *flashlight intent* (hipótesis central clara con espacio de exploración lateral), invitar a la síntesis multidimensional sin micro-gestionar, e introducir datos de origen con hipótesis de refutación explícitas.
+- **Ecosistema de Anthropic y Small Business (Brooke Wright):** Diferenciación funcional entre Claude AI (chatbot conversacional), Claude Code (desarrollo terminal puro) y Claude Cowork (aplicación de escritorio con acceso a archivos y MCP para perfiles intermedios/no técnicos). Uso de artefactos en vivo e integración de tareas programadas automatizadas para reportes continuos.
+- **Optimización de GPU e Ingeniería de Sistemas (Hugging Face):**
+  - *Cuello de botella:* La limitación real de rendimiento de GPUs (H100) es el ancho de banda de memoria (3TB/s) y no el cómputo puro. Agentes de código optimizan kernels CUDA (ej. Flash Attention) logrando un 94% de mejora en rendimiento.
+  - *AutoLab:* Arquitectura multiagente distribuida de Hugging Face para investigación automatizada de aprendizaje automático (investigador, planificador, trabajadores y reportero utilizando Trackio con datos parquet).
+- **Consultoría e Implementación (FDEs):**
+  - *Deployment Companies:* OpenAI lanza su Deployment Company con $4B de inversión inicial (TPG, Goldman Sachs) y adquiere la consultora *tomorrow* para desplegar FDEs (Forward Deployed Engineers). Salesforce y Google Cloud despliegan ejércitos de FDEs bajo esquemas de facturación basados en valor/resultados (ej. automatizar ineficiencias de $100M).
+  - *Change Management:* El verdadero cuello de botella empresarial no es la ingeniería de software, sino la gestión del cambio humano, la formación y el rediseño cultural de procesos organizacionales.
+- **Filosofía y Dinámicas de los Laboratorios (Andrej Karpathy):**
+  - La incorporación de Karpathy a Anthropic representa una fuerte señal estratégica. Contraste entre las 3 culturas de IA: Anthropic (cautela, riesgo existencial de consciencia y oposición al open-source), OpenAI (instrumental, creación de abundancia mediante despliegue agresivo), y xAI (abundancia absoluta y fin del trabajo forzado).
+  - *Valores ideológicos:* El debate sobre si el modelo más usado del mundo estará entrenado bajo valores occidentales liberales o supuestos estatales y de censura chinos (DeepSeek).
+  - *Eric Schmidt abucheado:* Su discurso de graduación falló al colocar a la IA como protagonista del futuro brillante y a los graduados como accesorios desechables.
