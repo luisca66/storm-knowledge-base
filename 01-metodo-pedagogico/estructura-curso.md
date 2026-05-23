@@ -1,7 +1,7 @@
 ---
 titulo: "Estructura del Curso"
 tipo: catalogo
-ultima_actualizacion: 2026-04-16
+ultima_actualizacion: 2026-05-22
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/progresion-estudiante.md
@@ -34,12 +34,16 @@ El curso de armonía de Storm Studios Learning está basado en el método que Lu
 
 El propedéutico es obligatorio para alumnos sin conocimientos previos. Cubre las herramientas básicas que se usarán en todo el curso.
 
-| # | Lección | Tema |
-|---|---------|------|
-| P01 | Escritura de las Notas Musicales | Lectura y escritura de notas en el pentagrama |
-| P02 | Escritura de la Rítmica Musical | Lectura y escritura de ritmo |
-| P03 | Intervalos | Reconocimiento e identificación de intervalos |
-| P04 | Uso del Secuenciador | Cómo usar el Storm Sequencer v3.0 integrado en la plataforma |
+> **Hito 2026-05-22:** Todos los videos del propedéutico están terminados. Cualquier persona puede llegar al website sin conocimientos previos y comenzar de forma autónoma.
+
+| # | Lección | Tema | Herramienta de práctica |
+|---|---------|------|------------------------|
+| P01 | Escritura de las Notas Musicales | Lectura y escritura de notas en el pentagrama | App web propia integrada en el website |
+| P02 | Escritura de la Rítmica Musical | Lectura y escritura de ritmo | App web propia integrada en el website |
+| P03 | Intervalos | Reconocimiento e identificación de intervalos | Dos apps Android indispensables (ver nota) |
+| P04 | Uso del Secuenciador | Cómo usar el Storm Sequencer v3.0 integrado en la plataforma | Storm Sequencer v3.0 (integrado en el website) |
+
+> **Nota P03:** Las dos apps Android de P03 son APKs nativos construidos en Android Studio. Actualmente se ofrecen como descarga gratuita desde el website. En evaluación: distribución via Google Play Store. Ver `03-apps-herramientas/indice-apps.md` y `00-contexto/decisiones-clave.md`.
 
 ---
 
@@ -124,6 +128,7 @@ Estos cursos no están en la plataforma gratuita. Son el siguiente paso para alu
 ---
 
 ## Historial de Cambios
+- **2026-05-22** — Hito: videos del propedéutico terminados. Documentada la arquitectura de herramientas: P01/P02 con apps web propias, P03 con dos apps Android, P04 con Storm Sequencer. Decisión Play Store en evaluación.
 - 2026-04-07: Creación inicial (borrador)
 - 2026-04-16: Llenado con propedéutico completo (4 lecciones), estructura general y progresión del curso extraídos del sitio web. Estado: `en_progreso`.
 - 2026-04-16: Mapa completo del curso (5 bloques, ~60 lecciones) derivado del Curso Integral de Composición Musical de Hernández Medrano. Pendiente: títulos de lecciones individuales 3-60 y descripción de cursos avanzados.

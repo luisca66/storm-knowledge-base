@@ -1,7 +1,7 @@
 ---
 titulo: "Catálogo de Apps y Herramientas"
 tipo: catalogo
-ultima_actualizacion: 2026-04-16
+ultima_actualizacion: 2026-05-22
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -23,8 +23,8 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 | App | Propósito | Área del método |
 |-----|-----------|-----------------|
 | **Desglose** | Aisla e identifica notas individuales dentro de acordes (2 a 5 notas simultáneas) | Oído absoluto / corteza auditiva selectiva |
-| **Intervalos – Reconocimiento** | Entrena el reconocimiento de distancias de tono entre notas | Oído relativo |
-| **Intervalos – Cantados** | Desarrolla la producción vocal precisa de intervalos | Oído relativo + cuerpo |
+| **Intervalos – Reconocimiento** | Entrena el reconocimiento de distancias de tono entre notas | Oído relativo — **App de P03** |
+| **Intervalos – Cantados** | Desarrolla la producción vocal precisa de intervalos | Oído relativo + cuerpo — **App de P03** |
 | **Reconocimiento de Acordes** | Identifica cualidades de acordes desde tríadas hasta acordes de 13ª | Oído relativo / armonía |
 | **Grados Escala Mayor** | Desarrolla la percepción de función tonal en tonalidades mayores | Oído relativo / grados |
 | **Grados Escala Menor** | Desarrolla la percepción de función tonal en tonalidades menores | Oído relativo / grados |
@@ -70,8 +70,23 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 - Todas las apps son completamente gratuitas y están diseñadas para complementar el curso de armonía.
 - La versión anterior del KB mencionaba "7 apps de entrenamiento auditivo" — el número correcto según el sitio es 8 apps de oído + 2 cognitivas = 10 total.
 
+## Distribución y Play Store
+
+**Estado actual:** Todas las apps Android se distribuyen como descarga gratuita desde el website (stormstudios.com.mx).
+
+**En evaluación (2026-05-22):** Publicar **Intervalos – Reconocimiento** e **Intervalos – Cantados** en Google Play Store. Son las apps indispensables del Propedéutico P03 — las primeras que cualquier alumno nuevo necesita.
+
+**Contexto técnico:** Son APKs nativos construidos en Android Studio con IA. El proceso requiere:
+1. Cuenta Google Play Developer ($25 USD, pago único)
+2. Convertir APK → AAB (Android App Bundle)
+3. Keystore de firma (crítico — no se puede perder)
+4. Assets de tienda + política de privacidad
+
+Ver decisión completa en `00-contexto/decisiones-clave.md`.
+
 ---
 
 ## Historial de Cambios
+- **2026-05-22** — Identificadas apps de P03 (Intervalos x2). Documentada distribución actual y evaluación Play Store.
 - 2026-04-07: Creación inicial (borrador)
 - 2026-04-16: Llenado completo con las 10 apps extraídas del sitio web stormstudios.com.mx/es/apps. Estado: `en_progreso`.
