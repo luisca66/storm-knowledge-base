@@ -172,3 +172,41 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - La incorporación de Karpathy a Anthropic representa una fuerte señal estratégica. Contraste entre las 3 culturas de IA: Anthropic (cautela, riesgo existencial de consciencia y oposición al open-source), OpenAI (instrumental, creación de abundancia mediante despliegue agresivo), y xAI (abundancia absoluta y fin del trabajo forzado).
   - *Valores ideológicos:* El debate sobre si el modelo más usado del mundo estará entrenado bajo valores occidentales liberales o supuestos estatales y de censura chinos (DeepSeek).
   - *Eric Schmidt abucheado:* Su discurso de graduación falló al colocar a la IA como protagonista del futuro brillante y a los graduados como accesorios desechables.
+
+## [24 de Mayo de 2026](./resumen_20260524.md)
+**Temas Principales:**
+- **Ecosistema MCP y Browser-First Agents (Rachel Lee Neighbors):**
+  - *Transportes MCP:* Distinción clave entre *STDIO* (requiere configuración manual de línea de comandos en JSON local) y *HTTP* (conexión simple por URL en el cliente). HTTP habilita MCP para usuarios no técnicos y optimiza setups *serverless* en edge functions (Vercel/Cloudflare).
+  - *MCP Apps:* Interfaces interactivas (HTML, CSS y JS) autopropagadas como respuesta de una tool call (ej. lector interactivo de cómics en Claude). Restricciones de aislamiento tipo "island" (sin localStorage, sin red arbitraria, Content Security Policy explícita y modelo de permisos del host "mother may I").
+  - *Web MCP:* Propuesta emergente para convertir páginas web en miniseridores de herramientas MCP operados en el browser, permitiendo llamadas a funciones JS nativas sin necesidad de parsear el DOM o tomar capturas de pantalla. Modalidad declarativa (formularios con atributos `tool_name` e `imperative` vía `navigator.modelContext.registerTools`).
+- **Heterogeneous Intelligence y co-evolución del Cómputo (Adrian Bertagnoli, Colossyan):**
+  - Fin del escalado homogéneo. Propuesta de heterogeneidad total: co-evolución de modelos, flujos multiagente y hardware específico por subproblema.
+  - *Rendimiento:* Sistema de Colossyan en Cerebras es 7x más barato y 5x más rápido que GPT-5.2 en benchmark Ulong (y 12x más barato y 3x más rápido en SambaNova).
+  - *Heterogeneous Recursion:* Enrutamiento de subtareas específicas a modelos pequeños y baratos según complejidad informática de la tarea (reducción del 43x en costo y 11x de aceleración), mitigando la degradación severa que sufren las tareas O(n) y O(n²) a partir del 30-60% del contexto window. Clúster heterogéneo financiado por grant de £3M de Aria (Reino Unido).
+- **Harness Agentic Antigravity (Google DeepMind):**
+  - *Antigravity:* IDE interno de Google con agent manager, control de browser y scratchpad de traces visible.
+  - Colaboración en el pipeline de Deep Research mediante un *shared file system* en vez de pasarse blobs de texto entre APIs.
+  - Gestión de token quota interna (Google prioriza clientes externos frente a Googlers); enrutamiento inteligente de sustitución (Pro -> Flash -> Gemma 4 local gratuito). Uso de "mock TPUs" para tests y code review automatizado basado en style guides de DeepMind.
+- **Entorno Politorio, Finanzas y Regulación de Mercado:**
+  - *Regulación en EE. UU.:* Trump cancela el Executive Order de IA a pocas horas de firmarse. David Sacks convenció al presidente de que la obligación de someter modelos a auditoría estatal 90 días antes del lanzamiento frenaría la innovación frente a China.
+  - *Mercados de capitales:* Nuevas reglas de Nasdaq impulsan automáticamente flujos pasivos hacia SpaceX, OpenAI y Anthropic. S-1 de SpaceX revela pérdida neta de $4.9B (incluyendo costos de X.com y $15B de capex para Starship) marcando a Starship como el factor de riesgo principal, mientras que la división Colossus (data centers para IA) emerge como el motor de ingresos más estable.
+  - *Caso Claude Code:* Microsoft cancela licencias internas de Claude Code a sus ingenieros para imponer el uso obligatorio de su propio Copilot CLI (dog-fooding), camuflando tensiones por costos extremos de tokens.
+  - *Escasez de hardware:* Micron inicia la producción de 1-alpha DRAM en Manassas, Virginia, para suplir la demanda física de memoria de los context windows masivos de los agentes de IA (las acciones de Micron suben 1000% en un año).
+- **Cultura, Arte e Impugnaciones de Copyright:**
+  - Spotify Studio (suscripción adicional) ofrecerá herramientas de *fan remixes* con IA tras firmar acuerdo de opt-in y royalties con Universal Music Group (UMG).
+  - Demanda de Poseidon Wave Media (The American Dollar) contra Suno por replicar estructuras rítmicas y firmas acústicas (canción "Synthesize") tras un desplome del 80% en ingresos por licencias de los artistas.
+  - Estreno en Cannes de *Hell Grind* (película generada por IA de 95 min con un presupuesto de $500,000, con $400,000 en cómputo) imitando la economía de distribución directa a video.
+- **Logro Matemático del Problema de Erdős de 1946:**
+  - Un modelo de propósito general de OpenAI resuelve el problema combinatorio de distancias unitarias en un plano bidimensional, superando la cuadrícula cuadrada clásica mediante matemáticas multidimensionales colapsadas a 2D (validado por Tim Gowers y Noam Brown).
+  - Eficiencia de inferencia extrema: el cómputo costó menos de 6.3 kWh de electricidad y 31 litros de agua, refutando empíricamente la hipótesis de los "loros estocásticos".
+- **AI Factory y la Dinámica de Contratos de Hardware (Nate B. Jones):**
+  - La compra de IA ya no es licenciamiento de software a costo marginal cero, sino la adquisición de capacidad en una fábrica física restringida (*capacity-constrained*). Cuellos de botella físicos: empaquetado (CoWoS de TSMC para HBM3 de GB200 NVL72) y networking óptico.
+  - Escasez de energía: consumo global de data centers duplicándose para 2030; auge de campus rurales *behind the meter*. Paradoja de Jevons: tokens más baratos aumentan los contextos y loops agénticos, manteniendo al sistema permanentemente token-constrained.
+- **Pre-training y Auto-Mejora (Andrej Karpathy & Anthropic):**
+  - Karpathy se une a Anthropic para liderar pre-training con el loop *Auto Research* (o "the Karpathy loop"): el agente edita el código de entrenamiento, corre tests cortos de 5 minutos, mide resultados, y hace commit o revert. Esto logró un 11% de speedup en nanoGPT en 700 experimentos domésticos.
+  - Aplicado a modelos frontera, ese speedup ahorra decenas de millones. Jack Clark proyecta I+D de IA autónomo para finales de 2028 (60% de probabilidad).
+- **SEO Local y attribute matching:** Google incorpora el factor de ranking *attribute matching* para búsquedas semánticas específicas mapeadas a reseñas redactadas en lenguaje natural y videos de YouTube integrados en el sitio web del negocio.
+- **Casos de Uso de Hermes Agent (Alex Finn):** 6 implementaciones prácticas: meta-prompting en `/goal`, Kanban integrado, control de browser para ingeniería inversa de competidores, memory wiki autogenerado, orquestación multidispositivo vía Tailscale, y *morning priority prompt* para enriquecer la memoria episódica.
+- **AI Psychosis y Crítica Organizacional (Jason Fried & Mobitar):**
+  - Crítica al pitch de reemplazo corporativo: presumir la cantidad de tokens producidos es como alardear de tomar fotos manteniendo el obturador apretado (debes revisarlas todas).
+  - *AI Psychosis corporativa (Mitchell Hashimoto):* Empresas priorizan arreglar errores rápidamente con IA en lugar de evitarlos de origen, favoreciendo la velocidad hacia el product-market fit a expensas de un alto costo de tokens que excluye a equipos sin capital.
