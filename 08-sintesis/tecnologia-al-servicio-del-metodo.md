@@ -1,16 +1,17 @@
 ---
 titulo: "Tecnología al Servicio del Método"
 tipo: sintesis
-ultima_actualizacion: 2026-04-16
+ultima_actualizacion: 2026-05-26
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 02-plataforma-web/maestro-virtual.md
   - 02-plataforma-web/secuenciador.md
   - 03-apps-herramientas/indice-apps.md
+  - 03-apps-herramientas/elefantito-matematico.md
   - 00-contexto/stack-tecnologico.md
   - 07-fuentes/videos/The Real Problem With AI Agents Nobody's Talking About.md
   - 08-sintesis/modelos-mentales-aprendizaje-musical.md
-estado: borrador
+estado: en_progreso
 fuentes_utilizadas:
   - Los Seres Musicales
   - The Real Problem With AI Agents (video)
@@ -69,9 +70,20 @@ Diferencia entre cómo Luis usa IA y cómo la usa la mayoría:
 
 ## El Elefantito Matemático: cuando la tecnología resuelve un cuello de botella pedagógico
 
-*[Pendiente — ¿qué problema específico de la enseñanza musical resuelve la matemática mental? ¿Por qué no se enseña en la educación musical tradicional?]*
+Elefantito Matemático resuelve un problema que la educación musical tradicional suele dejar invisible: el alumno puede tener instrumento, partituras, maestro y motivación, pero no necesariamente el aparato cognitivo listo para sostener el tipo de atención que exige la música avanzada.
+
+La escritura coral a cuatro voces, el entrenamiento auditivo fino y la anticipación antes de tocar dependen de un cuello de botella común: el córtex prefrontal. Ahí se sostiene la intención consciente, la memoria de trabajo, la inhibición de respuestas automáticas y el control del esfuerzo mental. Si esa zona se fatiga o no está entrenada, el alumno sabe la regla pero no puede aplicarla en tiempo real.
+
+La matemática mental cronometrada ataca ese cuello de botella de forma directa. No enseña música, pero entrena el sustrato que permite aprender música mejor. Por eso la app no es una curiosidad dentro del catálogo: es una traducción tecnológica del principio "el músico como atleta". Así como un deportista no solo practica el gesto técnico sino que fortalece el cuerpo que lo sostiene, el músico necesita fortalecer el sistema cognitivo que sostiene la intención musical.
+
+La versión actual del website vuelve esta idea más explícita: antes de jugar, cada nivel incluye un tutor bilingüe con audio narrado. El primer tutor explica la relación entre transposición musical, cálculo mental, memoria de trabajo, procesamiento secuencial y activación prefrontal. Esta decisión convierte la app en una micro-lección pedagógica, no solo en un arcade de operaciones.
+
+La segunda parte del sistema, la mnemotecnia de números y letras, responde al otro pilar: memoria. En el método de Luis, la memoria no es almacenamiento pasivo; es la plantilla que guía la acción. Si la plantilla está mal construida, el cuerpo ejecuta mal aunque el alumno "sepa" la teoría. Tecnología, aquí, significa crear ejercicios repetibles, medibles y accesibles para construir esas plantillas fuera de la clase presencial.
+
+La razón por la que esto no suele aparecer en la educación musical tradicional es que la tradición parte del instrumento. Luis parte del cerebro. Desde esa perspectiva, Elefantito Matemático no es una app lateral: es preparación neural.
 
 ---
 
 ## Historial de Cambios
 - **2026-04-16** — Archivo creado. Secciones iniciales con ideas semilla. Requiere expansión.
+- **2026-05-26** — Expandida la sección de Elefantito Matemático como solución tecnológica al cuello de botella prefrontal y de memoria.

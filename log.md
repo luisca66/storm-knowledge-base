@@ -8,6 +8,49 @@
 
 ---
 
+## [2026-05-26] actualización | Elefantito Matemático documentado como herramienta cognitiva
+
+**Acciones:**
+- Llenado `03-apps-herramientas/elefantito-matematico.md`, que seguía en borrador con placeholders.
+- Expandida la sección de Elefantito en `08-sintesis/tecnologia-al-servicio-del-metodo.md`.
+- Actualizado `index.md` para registrar `AGENTS.md` como schema maestro, reflejar estados y última sesión.
+- Actualizados `AGENTS.md` y `CLAUDE.md` para remover el pendiente viejo de `filosofia-ensenanza.md` y registrar los pendientes nuevos.
+- Actualizado `CHANGELOG.md`.
+
+**Conocimiento capturado:**
+- Elefantito Matemático no es una app lateral del catálogo: es preparación neural para el método.
+- Su función pedagógica es entrenar el cuello de botella prefrontal: atención, memoria de trabajo, inhibición de respuesta automática e intención consciente.
+- El módulo de memoria se entiende como complemento del principio "Memoria es primero y es todo": la memoria es la plantilla que permite que el cuerpo ejecute correctamente.
+
+**Pendientes nuevos/verificados:**
+- Pendiente original refinado tras revisar el repo actual: confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros.
+- Verificado después en la misma sesión: la app Memoria aparece como app separada en el catálogo, no como módulo interno de Elefantito.
+
+---
+
+## [2026-05-26] actualización | Elefantito Matemático corregido desde el repo actual del website
+
+**Acciones:**
+- Revisado `C:\Users\Luis\Documents\claude_code\nuevo-website\storm-studios`.
+- Identificada la versión actual Next.js de Elefantito en `components/apps/elefantito-nextjs/` y la ruta `app/[locale]/apps/matematicas-mentales/jugar/page.tsx`.
+- Corregido `03-apps-herramientas/elefantito-matematico.md` para reflejar la app real: 6 niveles desbloqueables, tutor bilingüe, audio narrado, progreso en `localStorage`, mecánica de 20 barriles, música y efectos en Cloudflare R2.
+- Actualizado `03-apps-herramientas/indice-apps.md`.
+- Corregido `01-metodo-pedagogico/filosofia-ensenanza.md` para distinguir versión Next.js vigente (6 niveles) vs. HTML legacy (8 niveles).
+- Corregido el insight procesado de Elefantito en `00-contexto/insights.md` para no dejar el dato de 8 niveles como estado actual.
+- Ajustada la síntesis `08-sintesis/tecnologia-al-servicio-del-metodo.md` con la nueva capa pedagógica del tutor.
+
+**Conocimiento capturado:**
+- Hay una implementación legacy en `public/apps/elefantito.html` con selector de 8 niveles y récord diario local.
+- La versión vigente integrada al website parece ser la Next.js de 6 niveles.
+- La app Memoria aparece como herramienta separada en el catálogo, no como módulo interno de Elefantito.
+
+**Pendientes nuevos/verificados:**
+- Confirmar si el HTML legacy sigue enlazado o puede archivarse.
+- Revisar si la ficha pública del catálogo debe corregirse de "8 niveles" a "6 niveles".
+- Verificar si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros.
+
+---
+
 ## [2026-05-21] lint | Chequeo de consistencia completo del KB
 
 **Problemas detectados y resueltos:**

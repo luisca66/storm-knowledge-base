@@ -193,7 +193,7 @@ Inspirado directamente en las investigaciones del neurocientífico japonés **Dr
 
 El córtex prefrontal es la sede de la intención consciente, el centro de control del **Sistema 2 (Kahneman)** y la memoria de trabajo. En el método, esta zona es crítica para sostener tareas de altísima demanda cognitiva, como la conducción de cuatro voces simultáneas en la escritura coral (SATB) o el procesamiento polifónico en tiempo real. 
 
-*   **Contexto de uso:** En las clases presenciales con Luis, este entrenamiento es **obligatorio** para todos los alumnos de música. El mensaje del maestro es claro: *"vas a necesitar un cerebro muy poderoso"* para habitar el método. En la plataforma digital, la app es opcional y cuenta con 8 niveles de dificultad, incluyendo el exigente modo 💀 **Imposible**, con tiempos ajustables por pregunta.
+*   **Contexto de uso:** En las clases presenciales con Luis, este entrenamiento es **obligatorio** para todos los alumnos de música. El mensaje del maestro es claro: *"vas a necesitar un cerebro muy poderoso"* para habitar el método. En la plataforma digital, la app es opcional. La versión actual integrada al website funciona con 6 niveles desbloqueables, tutor bilingüe y tiempos ajustables por pregunta; la versión HTML legacy conserva el selector de 8 niveles, incluyendo el modo 💀 **Imposible**.
 
 ### 2. Mnemotecnia clásica para el entrenamiento de la memoria
 El segundo módulo de la herramienta es un entrenamiento sistemático de **mnemotecnia clásica** (asociaciones de números y letras). 
@@ -246,3 +246,4 @@ El método no nace del vacío. Sus raíces intelectuales son explícitas y está
 - 2026-04-22: Ingesta de *Inner Engineering* (Sadhguru): nueva sección "La Filosofía del Maestro: No Motivar a Nadie" con raíces filosóficas completas. Entrada de Sadhguru en Influencias Intelectuales expandida.
 - 2026-05-01: Ingesta de *A Little Bit of Philosophy* (PHI 101 U04 L04): nueva sección Aristóteles — virtud como hábito, validación filosófica del principio de mielinización. Aristóteles agregado a Influencias Intelectuales.
 - 2026-05-21: Integración de insights sobre Elefantito Matemático y Módulo de Memoria en la sección "El Rol de la Matemática Mental". El archivo pasa a estar completo.
+- 2026-05-26: Corrección del estado actual de Elefantito Matemático: versión Next.js vigente con 6 niveles; versión HTML legacy conserva 8 niveles.

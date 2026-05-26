@@ -37,7 +37,7 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 
 | App | Propósito | Área del método |
 |-----|-----------|-----------------|
-| **Elefantito Matemático** | Aritmética cronometrada para entrenar velocidad mental | Concentración / anticipación / memoria |
+| **Elefantito Matemático** | Aritmética cronometrada con tutor bilingüe, audio narrado y 6 niveles desbloqueables | Concentración / anticipación / memoria |
 | **App Memoria – Nemotecnia** | Memorización de números usando sistemas mnemotécnicos con práctica cronometrada | Memoria selectiva |
 
 ---

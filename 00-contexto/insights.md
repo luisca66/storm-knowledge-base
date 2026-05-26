@@ -1,7 +1,7 @@
 ---
 titulo: "Insights y Ideas"
 tipo: contexto
-ultima_actualizacion: 2026-05-21
+ultima_actualizacion: 2026-05-26
 relacionado_con:
   - 06-diario-proyecto/2026-04.md
 estado: en_progreso
@@ -91,7 +91,7 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 
 - [método] [filosofía] La meta real del método: enseñar cómo funciona el cosmos, el cuerpo y la mente. La música es el vehículo más completo — posiblemente el único camino completo. La IA es otro vehículo hacia el mismo destino. → capturado en `08-sintesis/como-enseno-armonia.md` y `00-contexto/quien-soy.md` ✅
 
-- [app] [método] **Elefantito Matemático = gym del cerebro**. Dos módulos: matemáticas mentales + memoria. Ambos con app en la plataforma. Matemáticas mentales: inspirada en investigación Dr. Kawashima sobre activación del córtex prefrontal; 8 niveles (incluyendo modo 💀 Imposible); tiempo ajustable por pregunta; sirve de niños aprendiendo sumas hasta adultos al límite. Conexión con el método: mismo principio que el músico como atleta — entrenamiento deliberado del sustrato neural, no del contenido. Córtex prefrontal = sede del S2 (Kahneman), de la intención consciente, de la capacidad de sostener 4 voces simultáneas. **Contexto de uso:** en clases presenciales es OBLIGATORIO para alumnos de música — Luis lo presenta como "vas a necesitar un cerebro muy poderoso"; en el website es OPCIONAL. Kawashima: las matemáticas mentales producen enorme irrigación cerebral. → integrado en [filosofia-ensenanza.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/01-metodo-pedagogico/filosofia-ensenanza.md) ✅
+- [app] [método] **Elefantito Matemático = gym del cerebro**. Dos módulos: matemáticas mentales + memoria. Ambos con app en la plataforma. Matemáticas mentales: inspirada en investigación Dr. Kawashima sobre activación del córtex prefrontal; originalmente documentado como 8 niveles (incluyendo modo 💀 Imposible), dato que corresponde a la versión HTML legacy; la versión Next.js vigente observada el 2026-05-26 tiene 6 niveles desbloqueables con tutor bilingüe. Tiempo ajustable por pregunta; sirve de niños aprendiendo sumas hasta adultos al límite. Conexión con el método: mismo principio que el músico como atleta — entrenamiento deliberado del sustrato neural, no del contenido. Córtex prefrontal = sede del S2 (Kahneman), de la intención consciente, de la capacidad de sostener 4 voces simultáneas. **Contexto de uso:** en clases presenciales es OBLIGATORIO para alumnos de música — Luis lo presenta como "vas a necesitar un cerebro muy poderoso"; en el website es OPCIONAL. Kawashima: las matemáticas mentales producen enorme irrigación cerebral. → integrado en [filosofia-ensenanza.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/01-metodo-pedagogico/filosofia-ensenanza.md) ✅
 
 - [app] [método] **Módulo de memoria = mnemotecnia de números y letras.** Curso separado, disponible en website y en clases presenciales. No es memoria musical genérica — es un sistema específico de asociación de números y letras (mnemotecnia clásica). Conecta con el Camino de la Señal (Memoria = paso 3) y con el insight de 2026-04-09: "Memoria es primero y es todo." La memoria entrenada deliberadamente es el puente entre intención y ejecución. → integrado en [filosofia-ensenanza.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/01-metodo-pedagogico/filosofia-ensenanza.md) ✅
 
@@ -107,3 +107,4 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - 2026-04-17: 5 insights del 2026-04-16 archivados desde CLAUDE.md
 - 2026-05-01: 4 insights nuevos — visión civilizatoria ✅, Elefantito Matemático (pendiente filosofia-ensenanza.md), asesorías de IA ✅
 - 2026-05-21: Procesados los insights de Elefantito Matemático y Módulo de Memoria, marcándolos como integrados en filosofia-ensenanza.md.
+- 2026-05-26: Corregido insight procesado de Elefantito para distinguir versión HTML legacy de 8 niveles y versión Next.js vigente de 6 niveles.

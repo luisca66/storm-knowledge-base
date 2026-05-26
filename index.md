@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-05-21
+ultima_actualizacion: 2026-05-26
 estado: en_progreso
 ---
 
@@ -17,7 +17,8 @@ estado: en_progreso
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [CLAUDE.md](CLAUDE.md) | Schema maestro: quién es Luis, estructura del KB, workflows, reglas | ✅ activo |
+| [AGENTS.md](AGENTS.md) | Schema maestro obligatorio para Codex: quién es Luis, estructura del KB, workflows, reglas | ✅ activo |
+| [CLAUDE.md](CLAUDE.md) | Schema histórico para Claude; mantener sincronizado cuando aplique | referencia |
 | [README.md](README.md) | Presentación pública del proyecto | ✅ activo |
 | [index.md](index.md) | Este archivo — catálogo navegable | ✅ activo |
 | [log.md](log.md) | Registro cronológico de sesiones e ingestas | ✅ activo |
@@ -81,7 +82,7 @@ estado: en_progreso
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
 | [indice-apps.md](03-apps-herramientas/indice-apps.md) | Catálogo completo: 10 apps Android + Sequencer web | en_progreso |
-| [elefantito-matematico.md](03-apps-herramientas/elefantito-matematico.md) | App de matemática mental / nemotecnia musical | borrador |
+| [elefantito-matematico.md](03-apps-herramientas/elefantito-matematico.md) | App de matemática mental / mnemotecnia: gimnasio prefrontal y de memoria para el método | en_progreso |
 | [otras-apps.md](03-apps-herramientas/otras-apps.md) | Apps adicionales no categorizadas | borrador |
 | [entrenamiento-auditivo/app-android-overview.md](03-apps-herramientas/entrenamiento-auditivo/app-android-overview.md) | Overview de apps de entrenamiento auditivo | borrador |
 | [entrenamiento-auditivo/godot-juegos.md](03-apps-herramientas/entrenamiento-auditivo/godot-juegos.md) | Juegos educativos en Godot 4 | borrador |
@@ -176,7 +177,7 @@ estado: en_progreso
 | [el-musico-como-atleta.md](08-sintesis/el-musico-como-atleta.md) | El cuerpo del músico como sistema atlético: velocidad, flexibilidad, fuerza, nutrición | 6 libros de entrenamiento físico | borrador |
 | [modelos-mentales-aprendizaje-musical.md](08-sintesis/modelos-mentales-aprendizaje-musical.md) | Neurociencia + psicología + filosofía aplicadas al aprendizaje musical | Barrett ×2, Levitin, Gladwell, Sadhguru | borrador |
 | [como-enseno-armonia.md](08-sintesis/como-enseno-armonia.md) | El enfoque específico de Luis para enseñar armonía — conocimiento tácito | Entrevista a Luis (pendiente) | borrador |
-| [tecnologia-al-servicio-del-metodo.md](08-sintesis/tecnologia-al-servicio-del-metodo.md) | Por qué cada decisión técnica existe en función de la pedagogía | Método + video AI Agents + Karpathy | borrador |
+| [tecnologia-al-servicio-del-metodo.md](08-sintesis/tecnologia-al-servicio-del-metodo.md) | Por qué cada decisión técnica existe en función de la pedagogía | Método + video AI Agents + Karpathy + Elefantito | en_progreso |
 | [estrategia-freemium-musical.md](08-sintesis/estrategia-freemium-musical.md) | Modelo de negocio como extensión de los valores pedagógicos | Entrevista + libros de negocios | borrador |
 | [luis-como-ingeniero-neural.md](08-sintesis/luis-como-ingeniero-neural.md) | **La premisa central del proyecto:** Luis modula redes neuronales usando la música como laboratorio — el framework aplica a cualquier habilidad | Entrevista directa 2026-04-16 | **en_progreso** |
 
@@ -203,8 +204,8 @@ estado: en_progreso
 | Libros registrados pendientes | 2 (Originals, Shadows) |
 | Sistema ainews | mar–may 2026 (activo) |
 | Alumnos en clases-ia | 7 perfilados |
-| Última sesión de trabajo | 2026-05-21 |
+| Última sesión de trabajo | 2026-05-26 |
 
 ---
 
-*Mantenido por Claude. Actualizado: 2026-05-21.*
+*Mantenido por Claude. Actualizado: 2026-05-26.*

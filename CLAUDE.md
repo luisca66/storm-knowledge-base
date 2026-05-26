@@ -232,18 +232,18 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-05-21 (sesión 4)
+**Última actualización:** 2026-05-26 (Elefantito Matemático documentado)
 
 **Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md, filosofia-ensenanza.md
 
-**Archivos en progreso:** estructura-curso.md, indice-apps.md, secuenciador.md, maestro-virtual.md, ai-radar.md, ritmos-y-decisiones.md
+**Archivos en progreso:** estructura-curso.md, indice-apps.md, elefantito-matematico.md, secuenciador.md, maestro-virtual.md, ai-radar.md, ritmos-y-decisiones.md
 
 **Páginas de síntesis activas (08-sintesis/):**
 - `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto ⚠️ necesita enriquecerse con datos reales de alumnos de clases-ia
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
 - `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock. Pendiente: sección Sadhguru (silencio interior)
 - `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
-- `tecnologia-al-servicio-del-metodo.md` ← borrador (no ha crecido desde sesión 1)
+- `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — Elefantito Matemático integrado como tecnología cognitiva; faltan Sequencer y apps auditivas
 - `estrategia-freemium-musical.md` ← borrador (no ha crecido desde sesión 1)
 
 **Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 7 alumnos perfilados (Bruno 16, Carmen 50, Jonas 12, Julio 60, Luis 84, Mariana 35, Mario 55), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
@@ -260,13 +260,14 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 **Repo GitHub:** https://github.com/luisca66/storm-knowledge-base
 
 **Pendiente prioritario:**
+- `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros
+- `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar secciones Storm Sequencer y apps de entrenamiento auditivo
 - `modelos-mentales-aprendizaje-musical.md` → sección Sadhguru (silencio interior) aún pendiente
 - `ai-radar.md` → actualizar mensualmente con síntesis de tendencias del mes
 - `luis-como-ingeniero-neural.md` → enriquecer con patrones reales de alumnos de clases-ia
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
-- Conectar `clases-ia/` vía `relacionado_con:` con síntesis principales
 - Archivos en `borrador` en `04-contenido-musical/`, `05-operaciones/`
 
 ---
 
-*Este archivo es mantenido por Claude. Última revisión: 2026-05-21 (sesión 4).*
+*Este archivo es mantenido por Claude. Última revisión: 2026-05-26 (Elefantito Matemático documentado).*

@@ -1,11 +1,20 @@
 ---
 titulo: "Registro de Cambios"
 tipo: diario
-ultima_actualizacion: 2026-05-21
+ultima_actualizacion: 2026-05-26
 estado: en_progreso
 ---
 
 # Registro de Cambios (CHANGELOG)
+
+## 2026-05-26
+- `03-apps-herramientas/elefantito-matematico.md` llenado: propósito pedagógico, conexión con córtex prefrontal/Sistema 2, módulo de memoria y pendientes de verificación.
+- `08-sintesis/tecnologia-al-servicio-del-metodo.md` expandido: Elefantito documentado como tecnología que resuelve el cuello de botella prefrontal y de memoria del aprendizaje musical.
+- `index.md` actualizado: `AGENTS.md` registrado como schema maestro, estado de Elefantito y síntesis tecnológica corregidos a `en_progreso`; última sesión actualizada.
+- `AGENTS.md` y `CLAUDE.md` actualizados: pendiente viejo de filosofia-ensenanza removido; nuevos pendientes de Elefantito y tecnología registrados.
+- Segunda pasada sobre Elefantito desde el repo `nuevo-website/storm-studios`: documentada versión Next.js actual con 6 niveles, tutor bilingüe, audio narrado, progreso local y versión HTML legacy.
+- `01-metodo-pedagogico/filosofia-ensenanza.md` corregido para distinguir versión actual Next.js de 6 niveles vs. versión HTML legacy de 8 niveles.
+- `00-contexto/insights.md` corregido para que el insight procesado de Elefantito no deje el dato legacy de 8 niveles como estado actual.
 
 ## 2026-05-21
 - **Lint completo del KB** (sesión 4): chequeo de consistencia de todo el proyecto. 7 problemas detectados y resueltos.
