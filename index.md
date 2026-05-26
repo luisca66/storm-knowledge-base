@@ -51,7 +51,7 @@ estado: en_progreso
 |---------|-------------|--------|
 | [filosofia-ensenanza.md](01-metodo-pedagogico/filosofia-ensenanza.md) | 7 principios, comparativa tradicional vs. método, rol de la tecnología, Elefantito Matemático, Aristóteles | **completo** |
 | [estructura-curso.md](01-metodo-pedagogico/estructura-curso.md) | ~60 lecciones: propedéutico P01-P04, escalas, armonía cromática, modulación | en_progreso |
-| [progresion-estudiante.md](01-metodo-pedagogico/progresion-estudiante.md) | Cómo avanza el alumno a través del método | borrador |
+| [progresion-estudiante.md](01-metodo-pedagogico/progresion-estudiante.md) | Cómo avanza el alumno: entrada al website, propedéutico, herramientas y criterios de dominio | en_progreso |
 | [ejercicios/tipos-de-ejercicio.md](01-metodo-pedagogico/ejercicios/tipos-de-ejercicio.md) | Tipos de ejercicio disponibles en la plataforma | borrador |
 | [ejercicios/reglas-validacion.md](01-metodo-pedagogico/ejercicios/reglas-validacion.md) | Reglas de validación del Maestro Virtual | borrador |
 | [lecciones/leccion-01-escalas-mayores.md](01-metodo-pedagogico/lecciones/leccion-01-escalas-mayores.md) | Lección 1: Escalas Mayores | borrador |

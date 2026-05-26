@@ -8,6 +8,21 @@
 
 ---
 
+## [2026-05-26] entrevista | Progresión del estudiante — experiencia inicial
+
+**Acciones:**
+- Iniciada la población de `01-metodo-pedagogico/progresion-estudiante.md`.
+- Capturado el recorrido ideal desde la llegada al website hasta la entrada al curso de armonía.
+
+**Conocimiento capturado:**
+- La experiencia debe comunicar que el alumno está frente a un curso profesional, no un producto motivacional de resultados rápidos.
+- El website debe filtrar naturalmente: quien busca atajos se va; quien reconoce el valor descubre herramientas que serían imposibles de pagar o encontrar en una escuela tradicional.
+- El video de introducción ayuda al alumno a diagnosticar si ya puede empezar armonía o si debe cursar el propedéutico.
+- El propedéutico prepara al alumno con notas, ritmo, intervalos y uso del Storm Sequencer.
+- Las herramientas están integradas al ecosistema: videos, apps, juegos web gratuitos, apps Android gratuitas y versiones iPhone de pago.
+
+---
+
 ## [2026-05-26] actualización | Elefantito Matemático documentado como herramienta cognitiva
 
 **Acciones:**

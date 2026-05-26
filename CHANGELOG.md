@@ -8,6 +8,7 @@ estado: en_progreso
 # Registro de Cambios (CHANGELOG)
 
 ## 2026-05-26
+- `01-metodo-pedagogico/progresion-estudiante.md` iniciado mediante entrevista: experiencia profesional/no motivacional, recorrido inicial, propedéutico y descubrimiento de herramientas.
 - `03-apps-herramientas/elefantito-matematico.md` llenado: propósito pedagógico, conexión con córtex prefrontal/Sistema 2, módulo de memoria y pendientes de verificación.
 - `08-sintesis/tecnologia-al-servicio-del-metodo.md` expandido: Elefantito documentado como tecnología que resuelve el cuello de botella prefrontal y de memoria del aprendizaje musical.
 - `index.md` actualizado: `AGENTS.md` registrado como schema maestro, estado de Elefantito y síntesis tecnológica corregidos a `en_progreso`; última sesión actualizada.
