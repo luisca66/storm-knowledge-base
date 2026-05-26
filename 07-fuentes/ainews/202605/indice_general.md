@@ -210,3 +210,33 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **AI Psychosis y Crítica Organizacional (Jason Fried & Mobitar):**
   - Crítica al pitch de reemplazo corporativo: presumir la cantidad de tokens producidos es como alardear de tomar fotos manteniendo el obturador apretado (debes revisarlas todas).
   - *AI Psychosis corporativa (Mitchell Hashimoto):* Empresas priorizan arreglar errores rápidamente con IA en lugar de evitarlos de origen, favoreciendo la velocidad hacia el product-market fit a expensas de un alto costo de tokens que excluye a equipos sin capital.
+
+## [25 de Mayo de 2026](./resumen_20260525.md)
+**Temas Principales:**
+- **IPO de SpaceX AI y Arquitectura Orbital:**
+  - * Prospecto del IPO:* SpaceX busca recaudar $75B a una valuación de $1.75T (el mayor IPO de la historia), con control de voto concentrado en insiders (86%). TAM declarado de $28.5T (Starlink principal $870B, Starlink móvil $740B, X publicidad $600B, Infraestructura IA $2.4T y **Macrohard** $22.7T - plataforma de automatización de trabajo cognitivo con Tesla).
+  - *Estructura e IP:* Anthropic pagará $15B anuales a SpaceX por capacidad en Colossus 1 y 2 (GB200). SpaceX adquiere **Cursor** 30 días después de su IPO (Cursor corre sobre Kimi). Consolidación de un duopolio con Anthropic liderando modelos y SpaceX la infraestructura (enjambre de Dyson). IP dividida: SpaceX maneja el "optimist digital" (trabajo de conocimiento) y Tesla el "optimist encarnado" (Optimus físico).
+  - *Vuelo 12 de Starship V3:* Demostración de acoplamiento y reabastecimiento orbital. Analogía de "packet switching the solar system" frente a arquitecturas monolíticas tipo Apollo. Fuga de talentos de xAI a Anthropic.
+- **Predicción y psicohistoria (FutureSim):** Benchmark *FutureSim* evalúa predicción de eventos a 90 días con internet simulado desde el 1 de enero de 2026. GPT-5.5 Codex lidera con 25% de precisión (superando predicciones de Polymarket). Consecuencias de la "singularidad financiera": colapso de fondos de cobertura en 2 o 3 megaclusters de IA.
+- **Geometría Combinatoria y Descubrimiento Matemático:** Un modelo de OpenAI refuta la conjetura de distancias unitarias de Paul Erdős encontrando crecimiento superlineal y configuraciones exóticas. La traza del modelo muestra razonamiento creativo e intuitivo ("optimistamente, si persigo esto, algo podría ocurrir") semejante al diseño biológico de un microchip.
+- **ChatGPT Personal Finance y Publicidad:** Integración de ChatGPT Pro con 12,000 instituciones financieras para optimizar finanzas. Playbook publicitario de OpenAI: aprovechar historiales bancarios personales para pautar anuncios dirigidos ultra-personalizados. Dario Amodei declara que Anthropic nunca tendrá publicidad.
+- **Educación, Exámenes y Deshonestidad Académica:**
+  - Abucheos a Eric Schmidt y Gloria Caufield en graduaciones (Arizona/UCF). Tensión por la obsolescencia y automatización de las habilidades mientras se enseñan.
+  - El 49% de estudiantes en Stanford admite copiar con IA; reinstauración de exámenes presenciales supervisados para paliar la muerte del código de honor tradicional.
+  - Google aporta $3M para XPrize de Gemini (proyectos para impactar a 100k personas).
+- **Vigilancia Laboral en Meta y Sabotaje de Datos:** Meta rastrea clics y mouse de empleados para entrenar agentes antes de despedir al 10% de su plantilla. El 44% de trabajadores de la Generación Z reporta sabotear intencionalmente los datos de entrenamiento de la IA.
+- **Impuesto Federal a Tokens (Mark Cuban):** Propuesta de gravar con menos de 50 centavos el millón de tokens. Crítica: el token es una métrica arbitraria/reemplazable; el tributo forzaría migrar a codificación por bytes o modelos sin tokens, frenando startups y blindando incumbentes. OpenAI lanza "compute básico universal" con $2M en tokens a compañías de YC.
+- **Biotecnología e Incubación Artificial (Colossal Biosciences):** Primer sistema de incubación artificial con cáscara rígida y membrana permeable al oxígeno para aves en gestación tardía. Avances para revivir al mamut lanudo, dodo, lobo terrible y alce azul.
+- **Crisis de Energía de Centros de Datos:** Gallup reporta que el 70% de estadounidenses se opone a data centers en sus vecindarios (prefiriendo plantas nucleares). Nevada Energy redirigirá 75% del Lago Tahoe a data centers para 2027. Crecimiento de solar y eólica en Texas como zona económica especial de computación.
+- **Singularidad Organizacional y Ruptura de la Ley de Coase:** Coordinar transacciones externamente con APIs y agentes de IA es más barato y rápido que dentro de la empresa. El 80% de proyectos corporativos de IA fallan al integrar IA en workflows humanos en vez de rediseñar la empresa.
+- **Textura de Infraestructura (Emma, OpenAI):**
+  - *Automatización:* Lanzamientos y triages automáticos de Flink/Spark/Kafka por agentes asíncronos.
+  - *Doble Presión:* Equipos de aplicación escalando en leyes de IA ("vibe-coding" que rompe sistemas sin entenderlos) versus equipos de infraestructura operando en leyes de escala humana.
+  - *Arquitectura de seguridad:* Defensa en profundidad con agentes revisores especializados independientes de los creadores del código, archivos AGENT.md, testeo aislado en sandboxes y bibliotecas sencillas de evaluación en Notion.
+- **Después de la Automatización y Backlog Infinito (Dan Shipper, Every):**
+  - La automatización de tareas comunes (95% de emails de Dan respondidos por IA) genera más trabajo humano calificado al saturar el mercado de "slop" (mismidad), elevando la demanda de diferenciación experta.
+  - *Infinite backlog:* Los agentes eliminan cuellos de botella de ejecución, creando un backlog infinito y overwhelm psicológico (trabajar hasta las 3 AM dirigiendo agentes). Agentes de equipo compartidos y Codex multidispositivo.
+- **Kaggle y el Ecosistema Roto de Benchmarks:**
+  - Benchmarks descentralizados, no transparentes y con "jaggedness cognitivo" (ej. plantas de aguas residuales en Turquía).
+  - Soluciones de Kaggle: hackathons, exámenes estandarizados, Game Arena (Werewolf, Poker con Grok propenso al all-in, Chess) y Morph LLM revelando que las evaluaciones agénticas miden el harness (variación de hasta 22%) y no el modelo en sí.
+- **Nihilismo Tecnológico de AGI (Mobitar):** Crítica inspirada por David Deutsch: AGI carece de definición robusta; los LLMs son un truco elaborado de estadística y fuerza bruta ("puedes pulir una mentira para siempre y nunca se convertirá en verdad").
