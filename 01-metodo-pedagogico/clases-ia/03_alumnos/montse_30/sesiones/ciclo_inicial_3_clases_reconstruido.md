@@ -1,7 +1,7 @@
 # Ciclo Inicial — 3 Clases Reconstruidas
 
 **Alumna:** Montse  
-**Período:** aprox. mayo 2026  
+**Período:** 2026-05-12 al 2026-05-26  
 **Modalidad:** presencial en oficina, junto con Mario y Carmen  
 **Reconstruido:** 2026-05-27 por Luis
 
@@ -45,24 +45,40 @@
 
 ---
 
-## Clase 3 — Codex y carpetas agénticas
+## Clase 3 — Codex, carpetas agénticas y verificación del output
 
-**Fecha:** aprox. 2026-05-27  
-**Duración:** pendiente  
+**Fecha:** aprox. 2026-05-26 (martes)
+**Duración:** pendiente
 **Primera clase con atención personalizada de Luis a Montse.**
 
 ### Contenido cubierto
-- **Codex**: qué es, cómo funciona, para qué sirve.
-- **Estructura de carpetas**: cómo organizar un proyecto para que un agente lo entienda y opere.
-- **Carpeta agéntica**: cómo una carpeta se convierte en un proyecto automatizado cuando el agente crea sus propios archivos `.md` de contexto, instrucciones y memoria.
-  - El agente escribe sus propios MDs → la carpeta se vuelve autosuficiente.
-  - Próximas tareas pueden ejecutarse con mínima intervención humana.
-- Idea central: **el agente construye su propio entorno de trabajo**.
+
+**1. Codex y estructura de carpetas agénticas**
+- Qué es Codex y cómo funciona.
+- Cómo estructurar una carpeta para que un agente la entienda y opere dentro de ella.
+- Carpeta agéntica: el agente crea sus propios archivos `.md` de contexto, instrucciones y memoria → la carpeta se vuelve un proyecto automatizado reutilizable.
+
+**2. Proyecto real: calendario de conferencias para Mario**
+- **Tarea:** Montse tenía un PDF con el calendario de unas conferencias. El agente debía buscar los días y horarios disponibles y agendar a Mario maximizando su calendario.
+- **Ejecución:** el agente leyó el PDF, identificó los slots y propuso la agenda óptima.
+- **Automatización:** al terminar la tarea, se le pidió al agente que automatizara el proceso para tareas futuras similares — el agente documentó su propio flujo dentro de la carpeta.
+- **Verificación:** se abrió un segundo chat dentro del mismo agente (mismo folder) para auditar si el primer agente había hecho bien el trabajo. Montse hizo la revisión y confirmó que sí.
+
+**3. Insight clave transmitido por Luis — El criterio de automatización**
+
+> *"Parte de implementar IA en los flujos de trabajo tiene que ver con cuánto tiempo necesitamos para checar el output. Si checar tarda más que hacer todo el proceso manualmente, no vale la pena automatizar."*
+
+> *"Sin embargo, para automatizar procesos y confiar en los agentes es imprescindible invertir mucho tiempo en el desarrollo de la skill. Si se logra, se ahorran horas de trabajo en adelante."*
+
+**Marco práctico resultante:**
+- Fase 1 — Desarrollo: mucho tiempo invertido en construir y calibrar el agente. No es eficiente aún.
+- Fase 2 — Verificación activa: el humano revisa el output con criterio. El tiempo de revisión debe ser menor que el tiempo de hacerlo manualmente.
+- Fase 3 — Confianza ganada: si la skill está bien desarrollada, el agente opera solo y libera horas.
 
 ### Observaciones
-- Clase grupal pero con primer foco real en Montse.
-- Concepto avanzado para clase 3 — indica absorción rápida.
-- Pendiente: ¿hubo tarea o proyecto asignado?
+- Clase con foco real en Montse por primera vez.
+- Montse ejecutó la verificación del agente correctamente — señal de comprensión del flujo.
+- Concepto de ROI de automatización comprendido de forma práctica, no solo teórica.
 
 ---
 

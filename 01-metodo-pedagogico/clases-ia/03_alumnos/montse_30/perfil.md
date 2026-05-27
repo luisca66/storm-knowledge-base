@@ -3,7 +3,7 @@
 ## Datos generales
 - Nombre: Montse
 - Edad: 30
-- Fecha de inicio: pendiente reconstruir (aprox. mayo 2026)
+- Fecha de inicio: 2026-05-12
 - Modalidad: presencial en oficina de Mario y Carmen
 - Frecuencia: martes (junto con Mario y Carmen)
 - Nivel tecnológico inicial: 3 de 5

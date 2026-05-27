@@ -97,6 +97,12 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 
 - [negocio] Asesorías de IA: nueva línea activa, abierta a cualquier cliente. Formato: objetivo concreto (ensayo, automatización, proceso) + enseñanza en el camino (qué usar, cómo pagar, cómo optimizar tokens). Meta: moldear el cerebro para interactuar menos con las IAs. → capturado en [vision-proyecto.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/00-contexto/vision-proyecto.md) y [quien-soy.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/00-contexto/quien-soy.md) ✅
 
+### 2026-05-27
+
+- [método] [negocio] **El criterio de automatización con IA:** para decidir si vale la pena automatizar un proceso con agentes, hay que medir el tiempo de verificación del output. Si revisar lo que hizo el agente tarda más que hacerlo manualmente, no vale la pena. Pero para llegar a confiar en el agente es obligatorio invertir mucho tiempo desarrollando la skill primero. Una vez dominada, se ahorran horas en adelante. → capturado en sesión clase 3 de Montse. Pendiente integrar a `08-sintesis/tecnologia-al-servicio-del-metodo.md`
+
+---
+
 ## Insights Procesados
 
 (aquí se mueven los insights ya integrados a otros archivos del KB)
