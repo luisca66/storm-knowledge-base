@@ -8,6 +8,26 @@
 
 ---
 
+## [2026-05-27] sesion | Curriculum clases-ia completado + ai-radar tres meses + modo Q&A pedagógico
+
+**Acciones:**
+- Commit y push del perfil de Karla (pendiente de sesión anterior).
+- Reestructura completa de `02_curriculum/` (Opción B): creada `leccion_06_flujo_chat_md_agente.md`, reescritos `modulo_chats_ia.md`, `modulo_agentes.md`, `modulo_codex.md` con evidencia real; 9 módulos pendientes convertidos a stubs honestos con PENDIENTE header.
+- Creado `00_instrucciones/conceptos_no_olvidar.md` — referencia de instructor con 15 temas y señales de avance.
+- `ai-radar.md` actualizado completamente: síntesis marzo (nuevo, 6 temas), abril (expandido de tabla a síntesis narrativa completa, 9 temas), mayo 1-17 (existente), mayo 18-26 (nuevo: Google IO, Gemini 3.5 Flash/Omni/Spark, alineamiento, Erdős, AEO), nueva Sección 3 (filtro pedagógico mensual con acciones por alumno).
+- Tabla de modelos actualizada: Gemini 3.1 Pro → 3.5 Flash en 3 archivos.
+- Corrección: Carmen es productora de cine y comerciales, no musical.
+
+**Conocimiento capturado:**
+- AEO (Agent Experience Optimization): concepto nuevo no cubierto en curriculum. La presencia digital ahora tiene dos audiencias — humanos y agentes. El sitio web de Mario, la bio de Mariana, el catálogo de Carmen deben ser legibles para agentes, no solo para ojos humanos.
+- El flujo pedagógico Q&A funciona: Luis pregunta un concepto → KB responde con aplicación por perfil de alumno + señal de avance.
+
+**Pendientes:**
+- Continuación del modo Q&A pedagógico (Luis preguntará más conceptos en futuras sesiones).
+- Workflow mensual ai-radar confirmado: Luis actualiza ainews diario, síntesis se genera al cierre del mes.
+
+---
+
 ## [2026-05-26] entrevista | Progresión del estudiante — experiencia inicial
 
 **Acciones:**
