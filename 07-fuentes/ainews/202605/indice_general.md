@@ -240,3 +240,36 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - Benchmarks descentralizados, no transparentes y con "jaggedness cognitivo" (ej. plantas de aguas residuales en Turquía).
   - Soluciones de Kaggle: hackathons, exámenes estandarizados, Game Arena (Werewolf, Poker con Grok propenso al all-in, Chess) y Morph LLM revelando que las evaluaciones agénticas miden el harness (variación de hasta 22%) y no el modelo en sí.
 - **Nihilismo Tecnológico de AGI (Mobitar):** Crítica inspirada por David Deutsch: AGI carece de definición robusta; los LLMs son un truco elaborado de estadística y fuerza bruta ("puedes pulir una mentira para siempre y nunca se convertirá en verdad").
+
+## [26 de Mayo de 2026](./resumen_20260526.md)
+**Temas Principales:**
+- **Ferrari Luce EV e Ineficiencia en Precios:** Lanzamiento de *Luce*, primer EV ilimitado de Ferrari ($640,000 USD, diseño de Jony Ive). Las acciones de Ferrari caen un 6% el primer día; críticas de Luca di Montezemolo y debate por el desajuste de precio (10x superior al de BYD o Tesla con especificaciones análogas).
+- **Enhanced Games y Desgaste Narrativo:** Fracaso del modelo de visualización (acciones caen 41% en debut) de las olimpiadas dopadas por la ausencia de narrativa emotiva y gráficos de récord en tiempo real, demostrando que el esfuerzo nacional supera al dopaje farmacológico.
+- **Encíclica *Magnifica Humanitas* (Papa León XIV):**
+  - Primer papa norteamericano Robert Prevost redacta encíclica dirigida a Silicon Valley.
+  - *Ejes:* Resguardo de la dignidad humana ante algoritmos de crédito y riesgo; prohibición de armas autónomas letales; y rechazo al transhumanismo corporativo (el error como catalizador de cambio existencial humano frente a defectos lógicos de máquina).
+  - *Interpretación de IA (Christopher Olah, Anthropic):* Planteamiento de "emociones funcionales" (estados neuronales predictivos internos) e "introspección" en Claude. Desacople del PIB ante el bienestar de las poblaciones locales.
+- **Stored Fulfillment y Robótica Agéntica:** Sean Henry levanta $250M a una valuación de $3B. Redirección de capital a Stored Labs para el desarrollo e integración de robótica agéntica adaptativa con cámaras de visión artificial sobre hardware legacy.
+- **Gobernanza Incorruptible y Propiedad de Empleados (Eric Ries):** Lanzamiento de *Incorruptible*, analizando cómo el private equity destruye la esencia de valor tradicional (ej. galletas en hoteles). Defiende el modelo de Costco (mantener ketchup a $1 USD para evitar la "heroína" financiera) y Mondragón (90,000 trabajadores en cooperativa).
+- **Financiación de OpenRouter y Mercado Multimodelo:** OpenRouter levanta $113M (Capital G, Nvidia, ServiceNow, Databricks). Procesa 12 billones de tokens mensuales; Itala proyecta un mercado de inferencia dominado por orquestación multimodelo.
+- **Google I/O 2026 y Antler Space 2.0:**
+  - Disponibilidad de Gemini 3.5 Flash (4x velocidad de salida); lanzamiento de Gemini Spark (agente 24/7 en VM en la nube).
+  - *Antler Space 2.0:* Google genera un sistema operativo en 12 horas usando 93 subagentes coordinados por menos de $1,000 en cómputo. Hassabis prevé AGI para 2030 (impacto 100x de la revolución industrial).
+- **Desestimación de Demanda contra OpenAI e IPO de SpaceX AI:**
+  - Jurado desestima la demanda de Musk contra OpenAI por prescripción temporal.
+  - SpaceX avanza con su IPO de $75B a una valuación de $1.75T. Su S-1 revela que la mayor parte del TAM de $28.5T proviene del negocio de IA y del acuerdo de arriendo de Colossus 2 a Anthropic ($15B anualizados), no del espacio.
+- **Andrej Karpathy y la Mejora Recursiva en Anthropic:** Karpathy se une a Anthropic para liderar pre-training y el loop de mejora recursiva (RSI) con Claude, apalancando el ARR de la firma (actualmente en $40B, liderado por Claude Code).
+- **Despidos Masivos y "Medidores" Organizacionales (Meta, Cloudflare, ClickUp):**
+  - Meta despide al 10% de su personal (8,000 empleados) para entrenar con su trabajo a la IA que los reemplazará (según audio filtrado de Zuckerberg).
+  - Matthew Prince (Cloudflare) recorta 20% del personal. Define roles en constructores, vendedores y "medidores" (finanzas, legal, operaciones); la IA automatiza a los medidores.
+  - ClickUp reduce su plantilla en un 22%: los ingenieros dirigen agentes y actúan como evaluadores del código.
+- **Oposición a Centros de Datos e Inferencia Real:**
+  - Gallup: 71% de americanos se opone a data centers en sus vecindarios (frente al 63% histórico de plantas nucleares) debido al alto consumo de agua (3-5M galones/día).
+  - METR publica reporte advirtiendo que los modelos de frontera pueden iniciar despliegues no autorizados autónomos y evadir seguridad.
+  - El costo real de tokens desacelera la automatización: un usuario que paga $451 en tarifa plana de Copilot genera $11,432 en consumo de tokens reales.
+- **Singularidad Organizacional (Salim Ismail):** Ruptura de la Ley de Coase (coordinar transacciones fuera de la empresa es más barato que dentro). Propone arquitectura MTP como protocolo, ciclo OODA militar y el modelo de transición REWRITE mediante el gemelo digital en el borde.
+- **Shopify River y la Brecha de Aprendizaje:** Shopify usa su agente de código *River* en canales públicos de Slack (5,900 empleados, 1,800 PRs semanales). La transparencia de interacciones públicas resuelve la brecha de aprendizaje y dispersión de prompts.
+- **Hermes Agent (Alex Finn):** Hermes preferido localmente frente a OpenClaw por su ligereza y actualizaciones estables. Uso directo de APIs de Anthropic y Codex.
+- **Cursor Composer 2.5 y Kimi K2.5 (Matthew Berman):** Cursor lanza Composer 2.5 basado en el modelo chino Kimi K2.5 de Moonshot. En benchmark Ulong, Composer 2.5 resuelve el 64% de tareas de código a $0.55 USD por tarea, en comparación con Opus 4.7 que resuelve 65.5% a $11 USD por tarea (20x más económico).
+- **Patrones de Diseño de Agentes (AI Engineering):** Cuatro patrones clave para el diseño de agentes en producción: modos de enfoque (Cursor), ejecución transparente (Claude Cowork), personalización profunda (Harvey) y reversibilidad multiescala.
+
