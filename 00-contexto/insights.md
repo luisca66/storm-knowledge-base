@@ -101,6 +101,8 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 
 - [método] [negocio] **El criterio de automatización con IA:** para decidir si vale la pena automatizar un proceso con agentes, hay que medir el tiempo de verificación del output. Si revisar lo que hizo el agente tarda más que hacerlo manualmente, no vale la pena. Pero para llegar a confiar en el agente es obligatorio invertir mucho tiempo desarrollando la skill primero. Una vez dominada, se ahorran horas en adelante. → capturado en sesión clase 3 de Montse. Pendiente integrar a `08-sintesis/tecnologia-al-servicio-del-metodo.md`
 
+- [método] **El Efecto Santiago:** el costo de no hacer la inversión inicial (herramienta, setup, skill) supera siempre el costo de hacerla. 30 días sin metrónomo = 30 días mal estudiados. 1 día para comprarlo = 29 días bien estudiados. Es el mismo principio que la inversión en skill de agentes IA. → integrado en `01-metodo-pedagogico/filosofia-ensenanza.md` ✅
+
 ---
 
 ## Insights Procesados

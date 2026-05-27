@@ -184,6 +184,31 @@ Esta postura tiene una consecuencia pedagógica importante: intentar motivar art
 
 ---
 
+## El Efecto Santiago
+
+Uno de los principios que Luis enseña explícitamente en el taller. Tiene nombre propio porque viene de una historia real.
+
+**La historia:** Santiago era el hijo de la dentista de Luis. Su familia tenía recursos. Quería entrar a Berkeley School of Music y no lo habían aceptado. Su mamá, Dina, llamó a Luis para pedirle ayuda. Solo tenían cuatro meses — Luis fue práctico y enfocó el trabajo en lo que Berkeley había preguntado en el examen, dejando la metodología completa de lado.
+
+Cada semana, Luis le pedía a Santiago que trajera su metrónomo. Cada semana, Santiago llegaba sin él con una justificación diferente: no había tenido tiempo porque había estado estudiando. Hasta que un día Luis le explicó el costo real de esa decisión:
+
+> *"El resultado neto de no ir por el metrónomo es que tienes 30 días mal estudiados. Si hubieras perdido un día para ir a comprarlo, tendrías 29 días bien estudiados."*
+
+Ese es el **Efecto Santiago**: el costo de no hacer la inversión inicial correcta supera con creces el costo de hacerla.
+
+**El principio generalizado:**
+
+La aversión a invertir tiempo, dinero o esfuerzo en la herramienta, el setup o la preparación correcta — bajo la justificación de que "ya llegaré" o "no es urgente" — produce exactamente el resultado contrario al que se busca. El alumno que estudia sin metrónomo no está avanzando: está construyendo patrones incorrectos que después habrá que desaprender.
+
+**Corolario:** lo mismo aplica a cualquier inversión inicial que multiplica la calidad de todo el trabajo posterior. No es un costo — es un multiplicador.
+
+**El mismo principio en el mundo IA (clase de Montse, 2026-05-26):**
+Para automatizar procesos con agentes y confiar en ellos, es imprescindible invertir mucho tiempo en el desarrollo de la skill. Si no se hace esa inversión, se trabaja ineficientemente para siempre. Si se hace, se ahorran horas en adelante. El metrónomo de la IA es el tiempo que nadie quiere invertir en aprender a usar bien el agente.
+
+**Cuándo usarlo en clase:** cuando un alumno evita la fricción inicial de configurar una herramienta, aprender el flujo correcto o completar el setup necesario — y lo justifica diciéndose que "ya lo hará después".
+
+---
+
 ## El Rol de la Matemática Mental y la Memoria: Elefantito Matemático
 
 Para Luis, el entrenamiento del músico no se limita a su instrumento o al solfeo tradicional; es una preparación física y neural integral. Bajo el principio de que el músico es un atleta del cerebro, se incorpora la herramienta **Elefantito Matemático** como el "gimnasio del sustrato neural", operando bajo dos módulos principales:
@@ -247,3 +272,4 @@ El método no nace del vacío. Sus raíces intelectuales son explícitas y está
 - 2026-05-01: Ingesta de *A Little Bit of Philosophy* (PHI 101 U04 L04): nueva sección Aristóteles — virtud como hábito, validación filosófica del principio de mielinización. Aristóteles agregado a Influencias Intelectuales.
 - 2026-05-21: Integración de insights sobre Elefantito Matemático y Módulo de Memoria en la sección "El Rol de la Matemática Mental". El archivo pasa a estar completo.
 - 2026-05-26: Corrección del estado actual de Elefantito Matemático: versión Next.js vigente con 6 niveles; versión HTML legacy conserva 8 niveles.
+- 2026-05-27: Nueva sección "El Efecto Santiago" — principio nombrado del método, capturado de relato directo de Luis. Conecta con Efecto Santiago en IA (clase Montse).
