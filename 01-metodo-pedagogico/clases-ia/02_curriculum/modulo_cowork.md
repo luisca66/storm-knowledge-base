@@ -1,37 +1,24 @@
-# Modulo: cowork
+# Modulo: Cowork
+
+> **Estado: PENDIENTE** — en uso con Carmen pero sin clase documentada como tema central. Se desarrollará cuando Cowork sea el eje de una sesion real.
+
+---
 
 ## Objetivo
 
 Organizacion y ejecucion guiada con Cowork.
 
-## Para quien sirve
+## Lo que se sabe hasta ahora
 
-Alumnos que necesitan aplicar IA a problemas reales con acompañamiento adaptado a su nivel.
+- Carmen usa Cowork para automatizacion de cotizaciones (su proyecto principal).
+- Julio lo usa activamente.
+- No ha sido el tema central de una clase con flujo completo documentado.
 
-## Herramientas
+## Cuando desarrollar este modulo
 
-ChatGPT, Claude, Gemini, NotebookLM, Codex, GitHub, Antigravity, Cowork, Claude Code u otras segun el caso.
+Cuando Cowork sea el tema central de una clase. Registrar: que tipo de tareas resuelve mejor, que nivel de configuracion requiere, que errores de privacidad o permisos aparecen.
 
-## Conceptos clave
+## Referencias relacionadas
 
-Objetivo, contexto, prompt, verificacion, iteracion, privacidad, limites y siguiente paso.
-
-## Actividad guiada
-
-Luis plantea un problema real del alumno, modela el primer intento, revisa la respuesta y muestra como mejorarla.
-
-## Ejercicio practico
-
-El alumno transforma una necesidad propia en una accion concreta usando la herramienta del modulo.
-
-## Señales de avance
-
-El alumno explica que hizo, detecta un error, ajusta instrucciones y propone un siguiente paso.
-
-## Errores comunes
-
-Pedir cosas vagas, aceptar resultados sin revisar, compartir datos sensibles o querer resolver todo en una sola sesion.
-
-## Proxima ruta sugerida
-
-Registrar la experiencia, convertirla en tarea y conectar con un proyecto personal o ruta de autonomia.
+- `03_alumnos/carmen_50/proyectos/automatizacion_cotizaciones_cowork.md`
+- `modulo_agentes.md` — contexto general de agentes.

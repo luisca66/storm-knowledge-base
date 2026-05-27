@@ -1,37 +1,24 @@
-# Modulo: notebooklm
+# Modulo: NotebookLM
+
+> **Estado: PENDIENTE** — mencionado en lecciones 04 y 05 como herramienta de estudio con fuentes, pero sin clase documentada como tema central. Se desarrollará cuando NotebookLM sea el eje de una sesion real.
+
+---
 
 ## Objetivo
 
-Estudio con fuentes, resumenes y preguntas.
+Estudio con fuentes, resumenes y preguntas asistidas por IA.
 
-## Para quien sirve
+## Lo que se sabe hasta ahora
 
-Alumnos que necesitan aplicar IA a problemas reales con acompañamiento adaptado a su nivel.
+- Aparece en `leccion_04` y `leccion_05` como herramienta de la capa gratuita para estudiar y organizar fuentes.
+- Nivel requerido: basico-intermedio.
+- Util para: alumnos que necesitan estudiar documentos propios, preparar examenes, organizar investigacion.
 
-## Herramientas
+## Cuando desarrollar este modulo
 
-ChatGPT, Claude, Gemini, NotebookLM, Codex, GitHub, Antigravity, Cowork, Claude Code u otras segun el caso.
+Cuando NotebookLM sea el tema central de una clase. Registrar: que tipo de fuentes funciona mejor, como se genera el cuestionario de repaso, que errores aparecen con fuentes de baja calidad.
 
-## Conceptos clave
+## Referencias relacionadas
 
-Objetivo, contexto, prompt, verificacion, iteracion, privacidad, limites y siguiente paso.
-
-## Actividad guiada
-
-Luis plantea un problema real del alumno, modela el primer intento, revisa la respuesta y muestra como mejorarla.
-
-## Ejercicio practico
-
-El alumno transforma una necesidad propia en una accion concreta usando la herramienta del modulo.
-
-## Señales de avance
-
-El alumno explica que hizo, detecta un error, ajusta instrucciones y propone un siguiente paso.
-
-## Errores comunes
-
-Pedir cosas vagas, aceptar resultados sin revisar, compartir datos sensibles o querer resolver todo en una sola sesion.
-
-## Proxima ruta sugerida
-
-Registrar la experiencia, convertirla en tarea y conectar con un proyecto personal o ruta de autonomia.
+- `leccion_05_aprender_y_documentar_con_ia.md` — lección donde NotebookLM es herramienta principal.
+- `modulo_estudio_y_organizacion.md` — tema complementario.

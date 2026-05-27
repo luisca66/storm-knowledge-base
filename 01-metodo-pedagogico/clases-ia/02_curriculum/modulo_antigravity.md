@@ -1,37 +1,24 @@
-# Modulo: antigravity
+# Modulo: Antigravity
+
+> **Estado: PENDIENTE** — mencionado en el curso como opcion de agente pero sin clase documentada como tema central. Se desarrollará cuando Antigravity sea el eje de una sesion real.
+
+---
 
 ## Objetivo
 
 Creacion asistida de proyectos con Antigravity.
 
-## Para quien sirve
+## Lo que se sabe hasta ahora
 
-Alumnos que necesitan aplicar IA a problemas reales con acompañamiento adaptado a su nivel.
+- Listado como agente disponible junto con Codex, Claude Code y Cowork.
+- Aparece en `leccion_04` como herramienta de capa gratuita para construir estructuras.
+- Nivel requerido: intermedio.
 
-## Herramientas
+## Cuando desarrollar este modulo
 
-ChatGPT, Claude, Gemini, NotebookLM, Codex, GitHub, Antigravity, Cowork, Claude Code u otras segun el caso.
+Cuando Antigravity sea el tema central de una clase. Registrar: en que se diferencia de Codex, que tipo de proyectos resuelve mejor, que perfil de alumno le conviene mas.
 
-## Conceptos clave
+## Referencias relacionadas
 
-Objetivo, contexto, prompt, verificacion, iteracion, privacidad, limites y siguiente paso.
-
-## Actividad guiada
-
-Luis plantea un problema real del alumno, modela el primer intento, revisa la respuesta y muestra como mejorarla.
-
-## Ejercicio practico
-
-El alumno transforma una necesidad propia en una accion concreta usando la herramienta del modulo.
-
-## Señales de avance
-
-El alumno explica que hizo, detecta un error, ajusta instrucciones y propone un siguiente paso.
-
-## Errores comunes
-
-Pedir cosas vagas, aceptar resultados sin revisar, compartir datos sensibles o querer resolver todo en una sola sesion.
-
-## Proxima ruta sugerida
-
-Registrar la experiencia, convertirla en tarea y conectar con un proyecto personal o ruta de autonomia.
+- `modulo_agentes.md` — contexto general de agentes.
+- `leccion_04_ia_gratis_y_ecosistema_base.md` — Antigravity como opcion gratuita.

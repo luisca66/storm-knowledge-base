@@ -1,37 +1,28 @@
-# Modulo: github
+# Modulo: GitHub
+
+> **Estado: PENDIENTE** — introducido con Mario pero sin clase documentada como tema central. Se desarrollará cuando GitHub sea el eje de una sesion real.
+
+---
 
 ## Objetivo
 
 Repositorios, historial y colaboracion basica.
 
-## Para quien sirve
+## Lo que se sabe hasta ahora
 
-Alumnos que necesitan aplicar IA a problemas reales con acompañamiento adaptado a su nivel.
+- Mario creo su cuenta GitHub el 2026-05-19.
+- Introducido en el contexto del website de Mario y Carmen con Claude Code.
+- Nivel requerido: intermedio.
 
-## Herramientas
+## Prerrequisito para
 
-ChatGPT, Claude, Gemini, NotebookLM, Codex, GitHub, Antigravity, Cowork, Claude Code u otras segun el caso.
+- `modulo_claude_code.md`.
+- Proyectos de largo aliento que necesitan historial y colaboracion.
 
-## Conceptos clave
+## Cuando desarrollar este modulo
 
-Objetivo, contexto, prompt, verificacion, iteracion, privacidad, limites y siguiente paso.
+Cuando Mario (o cualquier alumno) complete su primer flujo real con GitHub. Registrar: que parte confundio mas, si el concepto de "version" se entendio, si hay miedo a romper el repositorio.
 
-## Actividad guiada
+## Referencias relacionadas
 
-Luis plantea un problema real del alumno, modela el primer intento, revisa la respuesta y muestra como mejorarla.
-
-## Ejercicio practico
-
-El alumno transforma una necesidad propia en una accion concreta usando la herramienta del modulo.
-
-## Señales de avance
-
-El alumno explica que hizo, detecta un error, ajusta instrucciones y propone un siguiente paso.
-
-## Errores comunes
-
-Pedir cosas vagas, aceptar resultados sin revisar, compartir datos sensibles o querer resolver todo en una sola sesion.
-
-## Proxima ruta sugerida
-
-Registrar la experiencia, convertirla en tarea y conectar con un proyecto personal o ruta de autonomia.
+- `03_alumnos/mario_55/` — alumno donde GitHub fue introducido.

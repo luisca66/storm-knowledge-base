@@ -1,37 +1,24 @@
-# Modulo: creatividad
+# Modulo: Creatividad con IA
+
+> **Estado: PENDIENTE** — sin clase documentada como tema central. Se desarrollará cuando ideacion creativa o produccion de contenido sean el eje de una sesion real.
+
+---
 
 ## Objetivo
 
-Ideacion y produccion creativa asistida.
+Ideacion y produccion creativa asistida: guiones, referencias visuales, narrativa, prototipos, portafolio.
 
-## Para quien sirve
+## Lo que se sabe hasta ahora
 
-Alumnos que necesitan aplicar IA a problemas reales con acompañamiento adaptado a su nivel.
+- Especialmente relevante para Carmen (productora audiovisual), Mario (director) y Mariana (redes sociales de tienda de ropa).
+- Aparece en `rutas_por_perfil.md` como modulo central para artistas y profesionales creativos.
 
-## Herramientas
+## Cuando desarrollar este modulo
 
-ChatGPT, Claude, Gemini, NotebookLM, Codex, GitHub, Antigravity, Cowork, Claude Code u otras segun el caso.
+Cuando creatividad con IA sea el tema central de una clase. Registrar: que tipo de output creativo se produjo, como se mantuvo el criterio autoral del alumno, que parte de la produccion sigue siendo del humano.
 
-## Conceptos clave
+## Referencias relacionadas
 
-Objetivo, contexto, prompt, verificacion, iteracion, privacidad, limites y siguiente paso.
-
-## Actividad guiada
-
-Luis plantea un problema real del alumno, modela el primer intento, revisa la respuesta y muestra como mejorarla.
-
-## Ejercicio practico
-
-El alumno transforma una necesidad propia en una accion concreta usando la herramienta del modulo.
-
-## Señales de avance
-
-El alumno explica que hizo, detecta un error, ajusta instrucciones y propone un siguiente paso.
-
-## Errores comunes
-
-Pedir cosas vagas, aceptar resultados sin revisar, compartir datos sensibles o querer resolver todo en una sola sesion.
-
-## Proxima ruta sugerida
-
-Registrar la experiencia, convertirla en tarea y conectar con un proyecto personal o ruta de autonomia.
+- `modulo_audio_y_musica_ia.md` — herramientas de audio para creativos.
+- `03_alumnos/carmen_50/` y `03_alumnos/mario_55/` — perfiles creativos principales.
+- `03_alumnos/mariana_35/` — redes y contenido visual.

@@ -86,13 +86,16 @@ Luego eligen herramienta.
 
 ## Variantes por perfil
 
-| Perfil | Variante |
+| Alumno/perfil | Variante |
 |---|---|
-| Carmen | Cotizaciones, foto fija con IA, privacidad |
-| Mario | Mapa de herramientas y HTMLs de investigacion |
-| Julio | Respaldo cuando se acaba credito |
-| Jonas | Que debe hacer el agente vs que debe juzgar el humano |
-| Bruno | Una app personal con una sola tarea |
+| Carmen (productora) | Cotizaciones, foto fija con IA, privacidad |
+| Mario (director) | Mapa de herramientas y HTMLs de investigacion |
+| Montse (asistente) | Clasificar tareas de asistencia: cuales son conversacion, cuales necesitan agente |
+| Karla (finanzas) | Que tareas financieras son solo consulta vs. cuales necesitan ejecucion del agente |
+| Julio (financiero) | Respaldo cuando se acaba credito |
+| Jonas (adolescente) | Que debe hacer el agente vs. que debe juzgar el humano |
+| Bruno (adolescente) | Una app personal con una sola tarea |
+| Mariana (comercio) | Chat para ideas de publicaciones vs. agente para ejecutar flujo de redes |
 
 ## Errores comunes
 

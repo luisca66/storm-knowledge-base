@@ -1,37 +1,25 @@
-# Modulo: ia basica
+# Modulo: IA Basica
+
+> **Estado: PENDIENTE** — el contenido de este modulo esta distribuido entre `leccion_01`, `leccion_02` y `leccion_03`. Si se necesita un modulo separado de introduccion a IA generativa, se construye a partir de esas lecciones.
+
+---
 
 ## Objetivo
 
-Introduccion a IA generativa y uso seguro.
+Introduccion a IA generativa y uso seguro para alumnos sin experiencia previa.
 
-## Para quien sirve
+## Lo que se sabe hasta ahora
 
-Alumnos que necesitan aplicar IA a problemas reales con acompañamiento adaptado a su nivel.
+- Las lecciones 01-03 del curso base cubren este terreno de forma secuencial y con evidencia real.
+- Este modulo seria util como referencia rapida (una pagina) para alumnos nuevos — no como leccion.
 
-## Herramientas
+## Cuando desarrollar este modulo
 
-ChatGPT, Claude, Gemini, NotebookLM, Codex, GitHub, Antigravity, Cowork, Claude Code u otras segun el caso.
+Si se necesita una guia rapida de introduccion a IA generativa (que es, que no es, como empezar, privacidad basica) que no requiera pasar por las 3 lecciones completas. Util para grupos numerosos o talleres cortos.
 
-## Conceptos clave
+## Referencias relacionadas
 
-Objetivo, contexto, prompt, verificacion, iteracion, privacidad, limites y siguiente paso.
-
-## Actividad guiada
-
-Luis plantea un problema real del alumno, modela el primer intento, revisa la respuesta y muestra como mejorarla.
-
-## Ejercicio practico
-
-El alumno transforma una necesidad propia en una accion concreta usando la herramienta del modulo.
-
-## Señales de avance
-
-El alumno explica que hizo, detecta un error, ajusta instrucciones y propone un siguiente paso.
-
-## Errores comunes
-
-Pedir cosas vagas, aceptar resultados sin revisar, compartir datos sensibles o querer resolver todo en una sola sesion.
-
-## Proxima ruta sugerida
-
-Registrar la experiencia, convertirla en tarea y conectar con un proyecto personal o ruta de autonomia.
+- `leccion_01_primera_victoria_con_ia.md` — primera experiencia real.
+- `leccion_02_prompt_contexto_y_criterio.md` — construccion de prompts.
+- `leccion_03_chat_vs_agente.md` — distincion fundamental.
+- `01_metodo/principios_del_metodo.md` — base filosofica.

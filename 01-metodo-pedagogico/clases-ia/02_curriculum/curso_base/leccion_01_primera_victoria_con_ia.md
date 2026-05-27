@@ -14,9 +14,19 @@ Sirve para alumnos nuevos cuando Luis no sabe nada de ellos. Tambien sirve para 
 
 ## Herramientas
 
-- ChatGPT, Claude o Gemini.
+**Modelos recomendados segun plan del alumno:**
+
+| Plan | Modelo |
+|---|---|
+| Pago (Claude) | Claude 4.7 Extended Thinking |
+| Gratuito (Claude) | Claude 4.6 |
+| Alternativa OpenAI | ChatGPT 5.5 Thinking |
+| Alternativa Google | Gemini 3.1 Pro |
+
 - Opcional: Deep Research si la pregunta requiere investigacion.
 - Opcional: Codex o agente solo si el alumno ya muestra interes en construir.
+
+**Nota:** verificar versiones disponibles antes de clase — los modelos cambian con frecuencia.
 
 ## Conceptos clave
 

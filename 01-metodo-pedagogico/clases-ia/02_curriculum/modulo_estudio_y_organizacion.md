@@ -1,37 +1,25 @@
-# Modulo: estudio y organizacion
+# Modulo: Estudio y Organizacion Personal
+
+> **Estado: PENDIENTE** — cubierto parcialmente en `leccion_05` pero sin modulo desarrollado con evidencia de clase especifica. Se desarrollará cuando estudio u organizacion personal sean el eje de una sesion real.
+
+---
 
 ## Objetivo
 
-Rutinas de estudio, notas y seguimiento.
+Rutinas de estudio, notas, organizacion personal y seguimiento de proyectos con IA.
 
-## Para quien sirve
+## Lo que se sabe hasta ahora
 
-Alumnos que necesitan aplicar IA a problemas reales con acompañamiento adaptado a su nivel.
+- `leccion_05` cubre el flujo basico: NotebookLM + chat para generar guias de estudio.
+- Jonas (12 años) es el alumno donde organizacion y estudio tienen mayor relevancia.
+- Bruno (16) usa IA para guitarra y gym — organizacion de entrenamiento es un caso.
 
-## Herramientas
+## Cuando desarrollar este modulo
 
-ChatGPT, Claude, Gemini, NotebookLM, Codex, GitHub, Antigravity, Cowork, Claude Code u otras segun el caso.
+Cuando organizacion personal o rutinas de estudio sean el tema central de una clase. Registrar: que herramientas resultan mas utiles para ese perfil, como se mantiene la continuidad entre sesiones, que tan autonomo queda el alumno.
 
-## Conceptos clave
+## Referencias relacionadas
 
-Objetivo, contexto, prompt, verificacion, iteracion, privacidad, limites y siguiente paso.
-
-## Actividad guiada
-
-Luis plantea un problema real del alumno, modela el primer intento, revisa la respuesta y muestra como mejorarla.
-
-## Ejercicio practico
-
-El alumno transforma una necesidad propia en una accion concreta usando la herramienta del modulo.
-
-## Señales de avance
-
-El alumno explica que hizo, detecta un error, ajusta instrucciones y propone un siguiente paso.
-
-## Errores comunes
-
-Pedir cosas vagas, aceptar resultados sin revisar, compartir datos sensibles o querer resolver todo en una sola sesion.
-
-## Proxima ruta sugerida
-
-Registrar la experiencia, convertirla en tarea y conectar con un proyecto personal o ruta de autonomia.
+- `leccion_05_aprender_y_documentar_con_ia.md` — lección base con este enfoque.
+- `modulo_notebooklm.md` — herramienta central para estudio.
+- `03_alumnos/jonas_12/` y `03_alumnos/bruno_16/` — alumnos con mayor relevancia para este modulo.

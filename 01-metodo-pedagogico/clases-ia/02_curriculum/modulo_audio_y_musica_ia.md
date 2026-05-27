@@ -1,37 +1,30 @@
-# Modulo: audio y musica ia
+# Modulo: Audio, Musica e IA
+
+> **Estado: PENDIENTE** — sin clase documentada como tema central. Se desarrollará cuando voz, musica o audio sean el eje de una sesion real con un alumno.
+
+---
 
 ## Objetivo
 
-Voz, guiones, musica y experimentacion sonora.
+Voz, guiones, musica y experimentacion sonora con IA.
 
-## Para quien sirve
+## Herramientas en esta categoria
 
-Alumnos que necesitan aplicar IA a problemas reales con acompañamiento adaptado a su nivel.
+- **ElevenLabs** — generacion y clonacion de voz.
+- **Suno** — musica generativa por prompt.
+- Otras herramientas de audio que aparezcan.
 
-## Herramientas
+## Lo que se sabe hasta ahora
 
-ChatGPT, Claude, Gemini, NotebookLM, Codex, GitHub, Antigravity, Cowork, Claude Code u otras segun el caso.
+- Ambas herramientas aparecen en `matriz_de_herramientas.md` con nivel requerido 1.
+- Especialmente relevante para alumnos creativos, artistas o productores.
+- Carmen y Mario (produccion audiovisual) son los candidatos naturales para este modulo.
 
-## Conceptos clave
+## Cuando desarrollar este modulo
 
-Objetivo, contexto, prompt, verificacion, iteracion, privacidad, limites y siguiente paso.
+Cuando ElevenLabs, Suno o cualquier herramienta de audio sea el tema central de una clase. Registrar: que prompt genero el resultado mas util, que riesgos de derechos de autor aparecieron, que critica hizo el alumno al output.
 
-## Actividad guiada
+## Referencias relacionadas
 
-Luis plantea un problema real del alumno, modela el primer intento, revisa la respuesta y muestra como mejorarla.
-
-## Ejercicio practico
-
-El alumno transforma una necesidad propia en una accion concreta usando la herramienta del modulo.
-
-## Señales de avance
-
-El alumno explica que hizo, detecta un error, ajusta instrucciones y propone un siguiente paso.
-
-## Errores comunes
-
-Pedir cosas vagas, aceptar resultados sin revisar, compartir datos sensibles o querer resolver todo en una sola sesion.
-
-## Proxima ruta sugerida
-
-Registrar la experiencia, convertirla en tarea y conectar con un proyecto personal o ruta de autonomia.
+- `modulo_creatividad.md` — contexto creativo relacionado.
+- `03_alumnos/carmen_50/` — perfil mas probable para este modulo.

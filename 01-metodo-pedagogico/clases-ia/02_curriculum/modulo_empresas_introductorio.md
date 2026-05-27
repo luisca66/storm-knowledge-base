@@ -1,37 +1,25 @@
-# Modulo: empresas introductorio
+# Modulo: Empresas (Introductorio)
+
+> **Estado: PENDIENTE** — sin clase documentada como tema central. Se desarrollará cuando administracion, procesos o CRM sean el eje de una sesion real con un alumno empresarial.
+
+---
 
 ## Objetivo
 
-Administracion, procesos y CRM introductorio con limites claros.
+Administracion basica, procesos y CRM introductorio con limites claros sobre lo que la IA puede y no puede hacer en un contexto empresarial.
 
-## Para quien sirve
+## Lo que se sabe hasta ahora
 
-Alumnos que necesitan aplicar IA a problemas reales con acompañamiento adaptado a su nivel.
+- Julio (financiero) y Carmen/Mario (productores) son los candidatos principales.
+- Carmen ya usa Cowork para cotizaciones — ese caso puede alimentar este modulo.
+- Aparece en `rutas_por_perfil.md` como ruta para empresarios o administradores.
 
-## Herramientas
+## Cuando desarrollar este modulo
 
-ChatGPT, Claude, Gemini, NotebookLM, Codex, GitHub, Antigravity, Cowork, Claude Code u otras segun el caso.
+Cuando administracion empresarial, CRM o procesos de negocio sean el eje de una clase. Registrar: que proceso se automatizo, cuales fueron los limites (privacidad, datos de clientes, decisiones financieras), que parte no debe delegarse a la IA.
 
-## Conceptos clave
+## Referencias relacionadas
 
-Objetivo, contexto, prompt, verificacion, iteracion, privacidad, limites y siguiente paso.
-
-## Actividad guiada
-
-Luis plantea un problema real del alumno, modela el primer intento, revisa la respuesta y muestra como mejorarla.
-
-## Ejercicio practico
-
-El alumno transforma una necesidad propia en una accion concreta usando la herramienta del modulo.
-
-## Señales de avance
-
-El alumno explica que hizo, detecta un error, ajusta instrucciones y propone un siguiente paso.
-
-## Errores comunes
-
-Pedir cosas vagas, aceptar resultados sin revisar, compartir datos sensibles o querer resolver todo en una sola sesion.
-
-## Proxima ruta sugerida
-
-Registrar la experiencia, convertirla en tarea y conectar con un proyecto personal o ruta de autonomia.
+- `modulo_cowork.md` — herramienta usada en contexto empresarial.
+- `03_alumnos/carmen_50/proyectos/automatizacion_cotizaciones_cowork.md`.
+- `03_alumnos/julio_60/` — perfil financiero.
