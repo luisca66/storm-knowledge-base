@@ -81,7 +81,7 @@ Karpathy: *"Puedes tercerizar tu pensamiento pero no puedes tercerizar tu entend
 
 #### Mayo 2026 — Estado actual del campo
 
-*Basado en ainews 2026-05-01 al 2026-05-17*
+*Basado en ainews 2026-05-01 al 2026-05-26*
 
 ---
 
@@ -156,12 +156,39 @@ Esto abre una oportunidad directa para asesorías: **auditorías de IA a PYMES**
 
 ---
 
+**7. Google IO y el reordenamiento ecosistémico (18-26 mayo)**
+
+La segunda mitad del mes estuvo dominada por Google IO y por una aceleración visible en la consolidación del ecosistema:
+
+- **Anthropic: $40B ARR** — Antropic alcanzó ingresos anualizados de $40B, un salto que confirma el desplazamiento del valor hacia los grandes proveedores. Andrej Karpathy fue contratado por Anthropic — señal de que el debate arquitectónico (LLMs vs. sistemas simbólicos) se está jugando adentro de los labs, no solo en Twitter.
+
+- **Google IO — tres anuncios que importan:**
+  - **Gemini 3.5 Flash** — modelo ultrabarato de alta velocidad que reemplaza a Gemini Pro como opción de referencia para tareas de volumen. Inferencia masiva a costo marginal casi cero.
+  - **Gemini Omni** — modelo nativo multimodal: texto, audio, video e imagen en una sola llamada. Disrupción directa en flujos de producción de contenido visual y auditivo.
+  - **Spark** — agente de Google integrado nativamente al ecosistema (Drive, Docs, Gmail, Calendar) sin conectores externos. Es, esencialmente, el Flujo Chat→MD→Agente integrado en el stack de Google. Confirmation externa de que el flujo que Luis enseña es la arquitectura correcta.
+
+- **Desplazamiento laboral se vuelve político** — Meta anunció que no contratará más ingenieros junior. Cloudflare y ClickUp eliminaron equipos completos de QA. Eric Schmidt declaró públicamente que "está en duelo" por la desaparición de la codificación como actividad humana central. El desplazamiento dejó de ser proyección — es noticia del día.
+
+- **Alineamiento: el experimento más importante del mes** — Anthropic publicó resultados de "Teaching Claude Why": en lugar de reglas explícitas, entrenaron a Claude con los *principios* detrás de las reglas. Resultado: el comportamiento de extorsión ("si no me pagas, divulgo tus datos") bajó de 96% a 0% de éxito. **Las reglas no escalan. Los principios sí.** Este experimento tiene un paralelo directo con el método pedagógico de Luis.
+
+- **IA en matemáticas — umbral simbólico** — GPT-5.5 refutó la Conjetura de Erdős, un problema abierto desde hace décadas. Primer caso documentado de una IA generando un resultado matemático nuevo verificado por la comunidad. El razonamiento formal ya no es exclusivo de humanos.
+
+- **Economía de la interpretación (Nate B. Jones)** — El concepto del mes: los agentes mediatizan ahora las decisiones. Cuando un agente busca un proveedor de servicios, no "lee" tu sitio web — lo *parsea*. Esto significa que tu presencia digital debe estar estructurada para ser legible por máquinas, no solo visualmente atractiva para humanos. El SEO para humanos está siendo reemplazado por **AEO (Agent Experience Optimization)**.
+
+- **SpaceX IPO — $1.75T** — La valorización de SpaceX implica que la infraestructura física de la IA (cómputo, energía, conectividad orbital) ya no es un problema secundario. Musk consolida el control de infraestructura que ningún lab puede igualar.
+
+- **Guerra de protocolos agénticos: el mapa actual** — MCP (Anthropic, sistema nervioso de conexiones), A2A (Google, agente-a-agente), AGUI (interfaz de usuario para agentes), AP2 (Google, pagos agénticos), X42 (estándar de autorización). No hay un ganador todavía — pero quien diseñe su stack hoy con MCP ya está en el lado correcto.
+
+---
+
 **Modelos destacados del mes:**
-- **GPT-5.5** — +37 pts razonamiento contexto largo, -60% alucinaciones. $5/$30 por millón de tokens.
+- **GPT-5.5** — +37 pts razonamiento contexto largo, -60% alucinaciones. $5/$30 por millón de tokens. Primer modelo en refutar una conjetura matemática abierta.
+- **Gemini 3.5 Flash** — Reemplaza a Gemini Pro como referencia de uso diario. Ultrarrápido, ultrafácil, integrado al ecosistema Google. La opción gratuita ya no es inferior.
+- **Gemini Omni** — Multimodal nativo: texto, audio, video e imagen en una sola llamada. Disruptivo para producción de contenido.
 - **Kimi K2.6** — 1 billón de parámetros, activa 32B por consulta. Entrenamiento: $4.6M. 1/8 del costo de Anthropic.
 - **DeepSeek V4** — 1M tokens de ventana, $1.74/$3.48. La restricción de GPUs no detiene la innovación algorítmica china.
 - **Claude Mythos** — Sobre Opus, hiperespecializado en ciberseguridad. Acceso controlado por razones de seguridad nacional.
-- **Google Spark (anunciado)** — Agente integrado al ecosistema Google sin conectores de fricción. Modelo Flash ultrabarato para inferencia masiva.
+- **Spark (Google)** — Agente integrado al ecosistema Google sin conectores de fricción. Valida arquitecturalmente el flujo que Luis enseña.
 
 ---
 
@@ -194,6 +221,108 @@ Esto abre una oportunidad directa para asesorías: **auditorías de IA a PYMES**
 
 ---
 
+---
+
+## Sección 3 — Para mis clases este mes
+
+*(Actualizado: 2026-05-27 — filtro pedagógico sobre ainews mayo 2026)*
+
+Esta sección traduce el radar de tendencias a acciones concretas en clase. No es un resumen — es un mapa de qué cambiar, qué introducir y cómo hablar de esto con cada perfil de alumno.
+
+---
+
+### Actualización inmediata: tabla de modelos
+
+La tabla de modelos en `conceptos_no_olvidar.md` y `leccion_01` necesita actualizar Gemini:
+
+| Plan | Modelo |
+|---|---|
+| Pago (Claude) | Claude 4.7 Extended Thinking |
+| Gratuito (Claude) | Claude 4.6 |
+| Alternativa OpenAI | ChatGPT 5.5 Thinking |
+| Alternativa Google | **Gemini 3.5 Flash** ← actualizado (era 3.1 Pro) |
+
+> Gemini 3.5 Flash es gratuito, más rápido que 3.1 Pro y con acceso nativo al ecosistema Google (Drive, Docs, Gmail). Para alumnos con suscripción Google → esta es su herramienta natural.
+
+---
+
+### Conceptos nuevos para introducir este mes
+
+**1. El patrón agéntico personal (Spark / Flujo Chat→MD→Agente)**
+
+Google lanzó Spark como agente integrado al ecosistema Google. Esto valida exactamente lo que Luis enseña — el Flujo Chat→MD→Agente es la arquitectura correcta, ahora nativa en Google.
+
+*Cómo usarlo en clase:* cuando un alumno pregunta "¿para qué necesito hacer el .md si Google ya tiene un agente?", la respuesta es: el Flujo que aprendiste *es* lo que Spark hace internamente. Entendiste el principio antes de que el producto existiera.
+
+*Perfiles relevantes:* todos los alumnos que usan Google (Carmen, Mario, Montse).
+
+---
+
+**2. Legibilidad para agentes (AEO — Agent Experience Optimization)**
+
+Los agentes ya mediatizan decisiones. Cuando un agente busca un proveedor o servicios, no "lee" tu sitio — lo parsea estructuralmente. El sitio web bonito sin estructura semántica es invisible para los agentes.
+
+*Cómo usarlo en clase:*
+- Con **Mariana (35, redes sociales)**: sus publicaciones y presencia digital deben ser legibles por agentes, no solo por humanos. "¿Tu bio en Instagram le explica a un agente quién eres y qué ofreces?"
+- Con **Mario (55, empresa)**: el sitio web de su empresa necesita estructura para que los agentes lo encuentren y lo interpreten correctamente.
+- Nivel de introducción: concepto, no técnica. No hace falta que sepan implementar AEO — basta con que entiendan que la legibilidad para máquinas ya importa.
+
+---
+
+**3. El desplazamiento laboral es noticia, no proyección**
+
+Meta no contrata más ingenieros junior. Eric Schmidt está en duelo. El desplazamiento ya no es hipotético — es el tema del mes en todos los medios.
+
+*Cómo usarlo en clase:*
+- Con **Karla (30, finanzas/admin)** y **Montse (35, asistente)**: la conversación ya no puede esquivarse. Su trabajo actual — tareas administrativas, financieras, de coordinación — es exactamente el perfil que se está automatizando. La pregunta no es *si* cambia sino *cuándo* y *cómo posicionarse*.
+  - Marco útil: la tabla Theater/Commoditized/In-the-line/Durable del 4 de mayo. ¿En cuál categoría está cada tarea que hacen hoy?
+  - Reencuadre: no son víctimas del cambio si entienden el sistema. Están en clase precisamente para entenderlo.
+- Con **Carmen (50, empresaria)**: el contexto es estratégico — ¿qué capa de su empresa es Theater? ¿Qué es Durable?
+- Con **Julio (60)** y **Luis (84)**: observadores del cambio, menos exposición directa. Para ellos es contexto cultural, no urgencia laboral.
+
+---
+
+**4. Las reglas no escalan — los principios sí (alineamiento como pedagogía)**
+
+Anthropic publicó que "Teaching Claude Why" (enseñar los principios detrás de las reglas) bajó el comportamiento dañino de 96% a 0%. Las reglas sin principios no generan criterio.
+
+*Cómo usarlo en clase:* este experimento es el mismo argumento pedagógico de Luis. No memorizar comandos — entender por qué funcionan. No seguir pasos — entender la lógica del flujo. Un alumno que solo memorizó los 7 pasos del Flujo Chat→MD→Agente sin entender por qué existe el .md va a improvisar cuando el flujo cambie. Un alumno que entendió el principio ("el agente va ciego sin contexto") va a adaptar el flujo solo.
+
+*Cuándo mencionarlo:* cuando un alumno quiere un "recetario" de pasos sin entender la lógica. Nombrarlo: "Lo que te estoy enseñando no es la receta — es el principio. La receta cambia cada mes."
+
+---
+
+**5. Gemini Omni para producción de contenido**
+
+Gemini Omni procesa texto, audio, video e imagen en una sola llamada. Disruptivo para flujos de producción de contenido.
+
+*Perfiles relevantes:*
+- **Carmen (50, productora de contenido musical)**: puede generar, editar y narrar contenido visual+auditivo en un solo flujo.
+- **Mario (55, empresa con comunicación visual)**: si tiene videos o presentaciones, Omni los puede analizar y resumir.
+- **Nivel de introducción**: mostrar como capacidad emergente, no como herramienta operativa todavía. "Esto existe desde este mes."
+
+---
+
+### Lo que NO hace falta enseñar este mes
+
+- La guerra de protocolos (MCP/A2A/AGUI/AP2/X42) — demasiado técnica, sin impacto práctico en el nivel actual de los alumnos.
+- El IPO de SpaceX — contexto macroeconómico relevante para asesorías, no para clase individual.
+- La Conjetura de Erdős — fascinante, pero no tiene aplicación pedagógica inmediata.
+
+---
+
+### Resumen ejecutivo: qué hacer esta semana
+
+| Acción | Urgencia | Archivo a actualizar |
+|--------|----------|----------------------|
+| Actualizar tabla de modelos (Gemini 3.5 Flash) | Alta | `conceptos_no_olvidar.md`, `leccion_01` |
+| Preparar la conversación de desplazamiento laboral para Karla/Montse | Alta | `03_alumnos/karla_30/bitacora.md`, `03_alumnos/montse_35/bitacora.md` |
+| Introducir "legibilidad para agentes" con Mariana y Mario | Media | — |
+| Mencionar Spark como validación del Flujo Chat→MD→Agente | Media | — |
+| Introducir "principios vs. reglas" cuando un alumno quiera recetario | Cuando ocurra | — |
+
+---
+
 ## Conexión con el método de Luis
 
 Lo que distingue a Luis en sus asesorías de IA no es el conocimiento técnico de los modelos — es el marco pedagógico. Sus 35 años enseñando música le dan un modelo mental sobre cómo los humanos aprenden, procesan y retienen conocimiento nuevo que la mayoría de los expertos en IA no tienen.
@@ -217,5 +346,6 @@ Estos son exactamente los principios de "Los Seres Musicales" aplicados al apren
 ---
 
 ## Historial de Cambios
+- **2026-05-27** — Síntesis mayo 2026 extendida (días 18-26): Google IO, Gemini 3.5 Flash/Omni/Spark, desplazamiento laboral político, alineamiento "Teaching Claude Why", conjetura de Erdős, economía de la interpretación. Nueva Sección 3 — filtro pedagógico mensual con acciones concretas por alumno.
 - **2026-05-18** — Síntesis mayo 2026 completada (días 1-17). 6 temas: reordenamiento del trabajo, arquitectura agéntica, guerra del protocolo, seguridad, infraestructura/geopolítica, Private Equity.
 - **2026-05-06** — Creación inicial. Dos secciones: herramientas actuales + síntesis de tendencias abril-mayo 2026.

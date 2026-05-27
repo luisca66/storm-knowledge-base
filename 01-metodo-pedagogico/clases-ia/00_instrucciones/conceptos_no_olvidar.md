@@ -101,7 +101,7 @@ No es un guion. Es un mapa de lo que no puede quedar en el aire.
   | Pago (Claude) | Claude 4.7 Extended Thinking |
   | Gratuito (Claude) | Claude 4.6 |
   | Alternativa OpenAI | ChatGPT 5.5 Thinking |
-  | Alternativa Google | Gemini 3.1 Pro |
+  | Alternativa Google | Gemini 3.5 Flash |
 
 - Las 3 modalidades:
   - **Thinking** → problemas complejos, tarda más, no para preguntas rápidas
