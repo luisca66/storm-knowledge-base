@@ -414,7 +414,7 @@ Anthropic publicó que "Teaching Claude Why" (enseñar los principios detrás de
 Gemini Omni procesa texto, audio, video e imagen en una sola llamada. Disruptivo para flujos de producción de contenido.
 
 *Perfiles relevantes:*
-- **Carmen (50, productora de contenido musical)**: puede generar, editar y narrar contenido visual+auditivo en un solo flujo.
+- **Carmen (50, productora de cine y comerciales)**: puede analizar guiones, generar referencias visuales, narrar y editar contenido en un solo flujo — sin cambiar entre herramientas.
 - **Mario (55, empresa con comunicación visual)**: si tiene videos o presentaciones, Omni los puede analizar y resumir.
 - **Nivel de introducción**: mostrar como capacidad emergente, no como herramienta operativa todavía. "Esto existe desde este mes."
 
