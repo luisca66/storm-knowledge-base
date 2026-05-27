@@ -1,7 +1,7 @@
 ---
 titulo: "AI Radar — Herramientas y Tendencias"
 tipo: contexto
-ultima_actualizacion: 2026-05-18
+ultima_actualizacion: 2026-05-27
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 05-operaciones/asesoria-ia.md
@@ -204,22 +204,139 @@ La segunda mitad del mes estuvo dominada por Google IO y por una aceleración vi
 
 ---
 
-#### Abril 2026 — Temas dominantes del mes
+#### Abril 2026 — La arquitectura se impone sobre la herramienta
 
-*Basado en ainews 2026-04-01 al 2026-04-30 (indice_general.md)*
-
-| Tema | Descripción condensada |
-|------|----------------------|
-| **Infraestructura agéntica** | Los workflows donde agentes operan autónomamente se volvieron el estándar de la industria. La arquitectura debe pensarse para agentes, no para humanos. |
-| **SaaS Apocalypse** | Los modelos potentes erosionan la funcionalidad base del software tradicional. Las empresas SaaS pierden sus "moats". |
-| **Dark Code** | El código producido automáticamente por agentes resulta inescrutable para desarrolladores humanos. Problema estructural emergente. |
-| **Arquitectura de Memoria** | Debate Karpathy vs Nate Jones: ¿la memoria debe residir en prompts en tiempo real o en estructuras persistentes? La respuesta importa para el diseño del KB. |
-| **Agentic Pressure** | Las empresas medianas son las más vulnerables a la automatización. El modelo de negocio cambia de "vender tareas" a "vender contexto". |
-| **GPT Image 2** | Generación de UI de alta precisión que altera flujos completos de diseño de productos. |
-| **Phase of Economics** | El foco se desplazó del costo de entrenamiento al costo de inferencia. |
-| **Depreciación de credenciales** | Los títulos universitarios pierden peso ante la validación en tiempo real habilitada por IA. El GitHub profile como nuevo currículum. |
+*Basado en ainews 2026-04-01 al 2026-04-30*
 
 ---
+
+**Tema central del mes: El campo dejó de hablar de modelos y empezó a hablar de sistemas.**
+
+Abril fue el mes en que la industria dejó de competir por el modelo más grande y empezó a diseñar la infraestructura que los rodea. Los temas dominantes no fueron capacidades nuevas sino nuevas maneras de organizar lo que ya existe.
+
+---
+
+**1. El Enlightenment Gap se formaliza**
+
+La brecha entre software diseñado para humanos (con ojos, clics, esperas de confirmación) y la velocidad de los agentes no es un bug — es una falla estructural. La mayoría de la infraestructura de software actual es *invisible* para los agentes porque fue diseñada para ojos. Adoptar IA no es instalar una herramienta: es re-arquitecturar cómo fluye la información en una organización.
+
+---
+
+**2. SaaS Apocalypse**
+
+Los modelos potentes absorben la funcionalidad básica del software tradicional. Las empresas SaaS pierden sus moats. No porque los modelos sean "mejores" — sino porque el valor ya no está en el software sino en la integración, el contexto y el flujo de trabajo. Pagar por un CRM básico cuando Claude puede hacer lo mismo con un .md bien estructurado es cada vez más difícil de justificar.
+
+---
+
+**3. Dark Code — el problema que nadie anticipó**
+
+El código generado automáticamente por agentes resulta inescrutable para desarrolladores humanos. Lo generan, lo usan, y no lo entienden. Es el "Efecto Santiago" del desarrollo de software: la deuda técnica invisible que se acumula cuando se delega la ejecución sin entender el principio. El conocimiento que no pasó por un humano no puede mantenerse cuando el agente cambia.
+
+---
+
+**4. El debate de la Memoria**
+
+Karpathy vs Nate Jones: ¿la memoria de un agente debe vivir en prompts en tiempo real o en estructuras persistentes? La respuesta importa directamente para el diseño de cualquier KB o sistema agéntico. La posición de Karpathy: en ambos — pero hay que elegirlo conscientemente, no por defecto. El KB de Luis implementa exactamente este principio: memoria estructurada (archivos .md) + contexto en tiempo real (prompts de sesión).
+
+---
+
+**5. Agentic Pressure sobre las empresas medianas**
+
+Las empresas medianas son las más vulnerables. No tienen el tamaño para absorber el cambio sin reestructuración, ni la agilidad de una startup para pivotar. El modelo de negocio ya no es "vender tareas" — es "vender contexto". Quien posee el contexto organizacional (los datos, los procesos, el conocimiento tácito) posee el valor. El que vendía ejecución sin contexto es el primero en ser reemplazado.
+
+---
+
+**6. GPT Image 2 — el diseñador como editor**
+
+Generación de UI de alta precisión que altera flujos completos de diseño de productos. Ya no se diseña manualmente — se describe y se genera. El rol del diseñador migra de creador a editor: el criterio y el juicio permanecen, la ejecución se delega. Consolidación del patrón: el humano decide qué, la IA ejecuta cómo.
+
+---
+
+**7. Phase of Economics**
+
+El foco se desplazó definitivamente del costo de entrenamiento al costo de inferencia. DeepSeek V4 y Kimi demuestran que se puede tener el 95% de la capacidad de un modelo de frontera a 1/30 del costo. La ventaja competitiva ya no está en quien tiene el modelo más grande — está en quien tiene la mejor infraestructura, los mejores datos y el flujo de trabajo más eficiente.
+
+---
+
+**8. Depreciación de credenciales**
+
+Los títulos universitarios pierden peso ante la validación en tiempo real habilitada por IA. El GitHub profile como nuevo currículum. Lo que construiste > lo que estudiaste. El perfil ya no se valida en un papel — se valida en lo que el sistema puede ver que hiciste. Correlato directo: los alumnos de Luis que construyen proyectos reales en clase tienen más valor de mercado que los que solo aprendieron conceptos.
+
+---
+
+**9. La Bifurcación (Diamandis)**
+
+Abril cerró con Peter Diamandis articulando explícitamente la bifurcación: **consumidores pasivos** (usan el chatbot) vs. **creadores agénticos** (construyen stacks, acumulan memoria, entienden los sistemas). La brecha entre ambos grupos se amplía cada mes. Esta es la tesis central que Luis lleva a sus asesorías — y que define el propósito de cada clase individual.
+
+---
+
+**Las frases del mes:**
+
+> *"La mayoría del software fue diseñado para ojos que leen. Los agentes no tienen ojos."*
+> — Síntesis del Enlightenment Gap
+
+> *"El que vendía ejecución sin contexto es el primero en ser reemplazado. El que vendía contexto sin ejecución, el último."*
+> — Síntesis Agentic Pressure / Nate B. Jones
+
+---
+
+---
+
+#### Marzo 2026 — El campo definió su arquitectura de poder
+
+*Basado en ainews 2026-03-25 al 2026-03-31 — primer semana del pipeline Ainews*
+
+---
+
+**Nota:** Marzo es el mes de inicio del pipeline. Solo 7 días (25-31). Pero en esos 7 días aparecieron los marcos conceptuales que definirían el trimestre.
+
+---
+
+**1. El triángulo de poder**
+
+Tres fuerzas en tensión que van a definir la IA de los próximos años:
+- **IA corporativa** (Anthropic) — seguridad, alineamiento, despliegue controlado
+- **IA militar** (el Pentágono) — autonomía operacional, ciberseguridad ofensiva y defensiva
+- **IA abierta** (Meta) — código abierto, distribución masiva, democratización sin control
+
+No hay un ganador todavía. Cada modelo de poder tiene ventajas estructurales distintas y objetivos incompatibles. La tensión entre los tres va a persistir.
+
+---
+
+**2. El mercado laboral en forma de K**
+
+La demanda de perfiles orientados a IA creció masivamente. La demanda del knowledge worker tradicional se estancó. No es una curva suave de transición — es una bifurcación brusca. Los que están en el lado correcto de la K acumulan oportunidades; los que están en el lado incorrecto las pierden sin verlo venir. GStack (Gary Tan) mostró el caso extremo: un desarrollador individual con el flujo de trabajo de un equipo completo.
+
+---
+
+**3. "Deja de construir para humanos" (Karpathy)**
+
+Los agentes de IA son los nuevos clientes y endpoints. El software futuro no se diseña para ojos que leen ni para manos que hacen clic — se diseña para agentes que parsean. Este principio, enunciado en marzo, definió el concepto de AEO (Agent Experience Optimization) que maduró en mayo. La pregunta ya no es "¿es fácil de usar?" sino "¿es legible para una máquina?"
+
+---
+
+**4. El Segundo Cerebro agéntico**
+
+La evolución del uso humano de IA no es solo "hacer tareas más rápido" — es construir sistemas que gestionen el flujo de información de forma autónoma. El objetivo es externalizar el procesamiento sin externalizar el criterio. El KB de Luis es un ejemplo concreto: la memoria estructurada permite que cualquier sesión de trabajo comience donde terminó la anterior, sin reconstruir el contexto.
+
+---
+
+**5. Skills como infraestructura compartida**
+
+Anthropic, OpenAI y Microsoft se alinearon en un formato de skills portables. Señal importante: cuando tres competidores se alinean en un estándar, ese estándar se vuelve infraestructura. Las skills ya no son herramientas manuales — son conocimiento institucional versionable diseñado para agentes. Prefiguración de la guerra de protocolos que maduró en mayo.
+
+---
+
+**6. ARC-AGI-3 — la diferencia real entre memorización y adaptabilidad**
+
+Los modelos más poderosos lograron <1% en tests donde los humanos consiguen 100%. La diferencia no es razonamiento formal — es adaptabilidad genuina ante escenarios nunca vistos. Los modelos memorizan patrones y los aplican con alta precisión. Los humanos adaptan principios a situaciones completamente nuevas. Esta distinción es central para entender qué puede y qué no puede delegar un alumno a la IA.
+
+---
+
+**La frase del mes:**
+
+> *"Saber decir que no a las herramientas es tan importante como saber usarlas. La IA es un amplificador de criterio — y el criterio no puede delegarse."*
+> — Nate B. Jones, 25 de marzo de 2026
 
 ---
 
@@ -346,6 +463,6 @@ Estos son exactamente los principios de "Los Seres Musicales" aplicados al apren
 ---
 
 ## Historial de Cambios
-- **2026-05-27** — Síntesis mayo 2026 extendida (días 18-26): Google IO, Gemini 3.5 Flash/Omni/Spark, desplazamiento laboral político, alineamiento "Teaching Claude Why", conjetura de Erdős, economía de la interpretación. Nueva Sección 3 — filtro pedagógico mensual con acciones concretas por alumno.
+- **2026-05-27** — Síntesis completa de los tres meses. Mayo 18-26 extendido (Google IO, Gemini 3.5 Flash/Omni/Spark, alineamiento, Erdős, AEO). Abril expandido de tabla a síntesis completa (9 temas). Marzo creado desde cero (7 días, marco de poder, Karpathy, ARC-AGI-3). Nueva Sección 3 — filtro pedagógico mensual.
 - **2026-05-18** — Síntesis mayo 2026 completada (días 1-17). 6 temas: reordenamiento del trabajo, arquitectura agéntica, guerra del protocolo, seguridad, infraestructura/geopolítica, Private Equity.
 - **2026-05-06** — Creación inicial. Dos secciones: herramientas actuales + síntesis de tendencias abril-mayo 2026.
