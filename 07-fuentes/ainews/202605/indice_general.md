@@ -273,3 +273,38 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **Cursor Composer 2.5 y Kimi K2.5 (Matthew Berman):** Cursor lanza Composer 2.5 basado en el modelo chino Kimi K2.5 de Moonshot. En benchmark Ulong, Composer 2.5 resuelve el 64% de tareas de código a $0.55 USD por tarea, en comparación con Opus 4.7 que resuelve 65.5% a $11 USD por tarea (20x más económico).
 - **Patrones de Diseño de Agentes (AI Engineering):** Cuatro patrones clave para el diseño de agentes en producción: modos de enfoque (Cursor), ejecución transparente (Claude Cowork), personalización profunda (Harvey) y reversibilidad multiescala.
 
+## [27 de Mayo de 2026](./resumen_20260527.md)
+**Temas Principales:**
+- **Infraestructura de Evaluaciones y Flywheel de Mejora (Phil Hetzel, BrainTrust):**
+  - *Evals vs Observabilidad:* Disciplinas críticas para la calidad del agente. Evals previenen fallas de riesgo reputacional, sistémico (márgenes de tokens) o legal antes de producción. Observabilidad mantiene la confianza en el mundo real.
+  - *Filosofía de medición:* No tratar evals como unit tests exhaustivos. Centrarse en modos de falla clave (un LLM-as-judge con 85% de precisión ya define tendencias direccionales). Primitivas: tarea, dataset de entrada y funciones de puntuación.
+  - *Estadios de madurez:* 1. Vibes (anotación binaria y justificación escrita por expertos de dominio); 2. Sistematización (procesar justificaciones con Cursor/Codex para crear jueces LLM evaluados y graders determinísticos por código); 3. CRUD en sistemas externos ( traces largos que encapsulan el estado de producción para evals offline o DBs vectoriales versionadas con timestamps); y 4. Flywheel continuo (recrear fallas de producción en evals offline).
+- **El Mayor Unlock de la Programación: Comprehensión (Priscilla, Sentry):**
+  - Priscilla (senior engineer en Sentry - codebase con 15 años y 100 PRs diarios) no escribe código manual desde diciembre de 2025: diseña prompts y colabora con Claude.
+  - *Métricas de uso:* El 67% del tiempo usa la IA para **comprehensión** (leer código, entender intenciones e historia) y solo el 2% para generación.
+  - *Estructuración local:* Skill "catch me up" mapea repositorios en 6 modos: arquitectura, convención, feature trace, sintaxis, testing e historia.
+  - *Sentry Quality Quarter:* Limpieza exhaustiva de TypeScript (eliminar `any` y to-dos) previo al uso intensivo de IA. Desarrollo interno de *Abacus* (rastreo de IA), *Warden* (revisor en PRs) y *Junior* (bot de Slack que soluciona bugs visuales autogenerando PRs).
+- **Proyecto Glasswing y Ciberseguridad de Frontera (Anthropic Mythos):**
+  - Anthropic distribuye en secreto su modelo Mythos (no público) a 50 socios seleccionados bajo el *Proyecto Glasswing*. Identifica más de 10,000 vulnerabilidades críticas de software en un mes. Mozilla parcha 271 bugs (10x más que con Opus 4.6).
+  - *Paradoja de Jevons en ciberseguridad:* Al abaratarse la detección, explota la demanda de ingenieros de seguridad para el triage y diseño de parches de código humanos.
+  - Fricción geopolítica: Gobiernos de la UE, Reino Unido, Canadá y Australia exigen acceso formal a Mythos, el cual se restringe por falta de guardrails contra el uso militar autónomo o ciberataques.
+- **Presupuestos de Inferencia de Agencias de Inteligencia (CIA/NSA):**
+  - CIA y NSA solicitan $9B para construir un cluster air-gapped de inferencia de Nvidia Blackwell.
+  - Susie Wiles (jefa de gabinete) autoriza el uso de Claude en la NSA a pesar del veto original del Pentágono por la cláusula restrictiva de Anthropic para armas y vigilancia doméstica.
+- **DeepSeek V4 y la Divergencia de Tokens en Asia:**
+  - DeepSeek consolida de forma fija sus precios de tokens hiperbaratos ($0.44 entrada, $0.87 salida por millón). Levanta una ronda externa de $10B a una valuación de $45B (Tencent, JD.com, fondo estatal chino de IA) para seguir investigando AGI open-source.
+- **Entrenamiento de Grok V9 (xAI):** Elon Musk anuncia el fin del entrenamiento de Grok V9 medium (1.5 billones de parámetros, 3x mayor al V8) incorporando datos suplementarios de Cursor. Expande el acceso a la terminal agéntica Grok Build.
+- **Recepción Global y Ejes de Magnifica Humanitas (Papa León XIV):**
+  - Lecturas polarizadas y debates entre Timnit Gebru, Blake Scho y Dean Ball (perplejo porque la Iglesia no adjudique alma a la IA).
+  - *Párrafo 99:* La IA es una simulación analítica de datos sin perspectiva afectiva, relacional o espiritual de experiencia interna (no madura por elecciones, perdón o fidelidad).
+  - *Párrafo 118:* Las limitaciones y vulnerabilidades humanas no son fallas de ingeniería que la IA deba parchar, sino el entorno constitutivo donde madura la persona humana (rechazo al transhumanismo).
+- **El RALPH Loop y workflows de Office (Nate B. Jones):**
+  - Evitar los "modelos disfrazados" de Excel/PowerPoint (estética impecable pero lógica y celdas de cálculo rotas).
+  - *RALPH Loop:* Un workflow de 4 fases (preparación de fuentes con índice de evidencia, blueprint estructural textual, creación restringida secuencial y revisión hostil escéptica). Codex genera, Claude Opus 4.7 hace el escaneo hostil de inconsistencias y lista los edits, Codex corrige y Opus verifica de nuevo, limpiando "LLM-isms" del lenguaje.
+- **Lanzamiento de Deep Suite (DataCurve.ai) vs SWEBench Pro:**
+  - SWEBench Pro sufre de recall y alta imprecisión (8.5% falsos positivos, 24% falsos negativos en verifiers).
+  - *Deep Suite:* 91 repositorios en 5 lenguajes (TS, JS, Python, Go, Rust) no vistos en pre-entrenamiento. Soluciones 5.5x más largas y verificadores con error <1.1%.
+  - *Liderazgo de Inferencia:* GPT 5.5 Extra High domina con 70% de completitud a $5.80 por trial (20 minutos), frente al 50-55% de Claude Opus 4.7 que cuesta $16 por trial (37 minutos). Opus omite cambios en ramas paralelas (sync vs async), mientras que GPT 5.5 es literal con el contrato.
+- **Replit y los Motores de Claude (Amjad Masad):** Replit integra Sonnet 3.5 y Sonnet 3.7 anticipadamente para potenciar Replit Agent V2 en el diseño completo de aplicaciones, democratizando la creación de software sin fricciones de permiso.
+
+
