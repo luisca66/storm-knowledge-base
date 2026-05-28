@@ -207,6 +207,25 @@ No es un guion. Es un mapa de lo que no puede quedar en el aire.
 
 ---
 
+## 16 — Las 4 categorías del trabajo frente a la IA
+
+Este marco ayuda al alumno a clasificar su propio trabajo sin entrar en pánico. Úsalo cuando el tema del desplazamiento laboral aparezca — para dar estructura en lugar de alarma.
+
+| Categoría | Descripción | Futuro |
+|---|---|---|
+| **Theater** | Trabajo que aparenta valor pero no lo tiene | Desaparece primero |
+| **Commoditized** | Tareas rutinarias automatizables | Desaparece a mediano plazo |
+| **In-the-line** | Operativo esencial | Se comprime |
+| **Durable** | Estratégico, creativo, relacional | Permanece y se valoriza |
+
+- Pedir al alumno que clasifique 3 tareas de su trabajo real.
+- La pregunta útil: *¿qué parte de tu trabajo requiere criterio, relación o creatividad que la IA no puede replicar?*
+- No usarlo para asustar — usarlo para enfocar el aprendizaje en lo Durable.
+
+**Señal de que ya lo entendió:** puede clasificar sus propias tareas y nombrar al menos una que es Durable y por qué.
+
+---
+
 ## Conceptos transversales — estos van en cualquier clase
 
 Estos no tienen tema propio pero se cuelan en todo. Si no aparecen solos, menciónalos:
@@ -219,6 +238,8 @@ Estos no tienen tema propio pero se cuelan en todo. Si no aparecen solos, menci�
 | **ROI de automatización** | Cuando el alumno pregunta si vale la pena automatizar algo |
 | **Criterio humano** | Cuando el alumno empieza a confiar demasiado en el output de la IA |
 | **Organización de archivos** | Siempre que se abra un agente o se cree una carpeta de proyecto |
+| **La Bifurcación** | En la primera clase, o cuando el alumno no entiende para qué sirve aprender esto. Dos caminos: consumidor pasivo vs. creador agéntico. La brecha crece cada mes. |
+| **"No puedes tercerizar tu entendimiento"** (Karpathy) | Cuando el alumno empieza a copiar respuestas sin leerlas, o pregunta si la IA puede hacer "todo". Mientras más potente el modelo, más vale lo que TÚ sabes de tu dominio. |
 
 ---
 
@@ -238,3 +259,4 @@ Estos no tienen tema propio pero se cuelan en todo. Si no aparecen solos, menci�
 
 ## Historial de Cambios
 - 2026-05-27: Documento creado. Cubre 15 temas + conceptos transversales. Los temas 11-15 son stubs hasta que haya clase real documentada.
+- 2026-05-28: Sección 16 agregada (Las 4 categorías del trabajo). Dos conceptos transversales nuevos: La Bifurcación y "No puedes tercerizar tu entendimiento" (Karpathy). Fuente: ai-radar mayo 2026.
