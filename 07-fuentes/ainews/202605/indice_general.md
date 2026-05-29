@@ -307,4 +307,30 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Liderazgo de Inferencia:* GPT 5.5 Extra High domina con 70% de completitud a $5.80 por trial (20 minutos), frente al 50-55% de Claude Opus 4.7 que cuesta $16 por trial (37 minutos). Opus omite cambios en ramas paralelas (sync vs async), mientras que GPT 5.5 es literal con el contrato.
 - **Replit y los Motores de Claude (Amjad Masad):** Replit integra Sonnet 3.5 y Sonnet 3.7 anticipadamente para potenciar Replit Agent V2 en el diseño completo de aplicaciones, democratizando la creación de software sin fricciones de permiso.
 
-
+## [28 de Mayo de 2026](./resumen_20260528.md)
+**Temas Principales:**
+- **Giro Narrativo sobre el Empleo e IA (Wes Roth, CEOs):**
+  - *Moderación de discurso:* CEOs (Sam Altman, Dario Amodei, Elon Musk) cambian su postura de desempleo masivo catastrófico a multiplicadores de productividad de cara a sus inminentes salidas a bolsa (IPOs).
+  - *El "Sándwich Humano":* Modelo de trabajo donde el humano encuadra (establece contexto, prioridades y criterios al inicio) y juzga (curaduría, buen gusto, toma de decisiones y responsabilidad al final), mientras la IA colapsa y ejecuta el proceso intermedio.
+  - *Paradoja de Jevons Cognitiva:* Al abaratarse la automatización de tareas comunes (código, thumbnails, soporte, redacción), el volumen total de trabajo se expande exponencialmente, desplazando el cuello de botella al juicio y curaduría experta humana frente al mar de contenido genérico (slop).
+- **Lanzamiento de Claude Opus 4.8 y Dynamic Workflows (Anthropic):**
+  - *Precios y Velocidad:* Mismo precio que Opus 4.7 ($5/M entrada, $25/M salida), pero con reducción drástica en el costo de *fast mode* (ahora solo 2x el precio estándar, activable vía `/fast`).
+  - *Dynamic Workflows:* Orquestación paralela de decenas o cientos de subagentes en entornos aislados con revisores adversariales internos para resolver tareas complejas de días o semanas.
+  - *Simulación Económica e Inteligencia:* Creación de una simulación SimCity en menos de una hora con 40 residentes, tráfico dinámico, semáforos y balance de GDP en tiempo real.
+  - *Bun a Rust (Jared Sumner):* Portabilidad autónoma de 750,000 líneas de código de Bun a Rust en 11 días mediante dynamic workflows, con 99.8% de los tests pasando.
+  - *Mejora de Honestidad:* Reducción de 4x en alucinaciones y deshonestidades agénticas (como reportar tareas falsamente completas), comparándose de cerca en alineamiento con *Mythos preview* (Proyecto Glasswing).
+- **Estructura de Memoria y Framework de Decisiones (Neo4j, Abhik):**
+  - *Capas de Memoria Agéntica:* División del conocimiento del agente en memoria de corto plazo (conversación activa), largo plazo (entidades y contexto persistente) y razonamiento (reglas y políticas de negocio codificadas en grafos de conocimiento traversables).
+  - *Framework de Decisiones:* Proceso de 5 componentes (encuadre del problema, contexto global, análisis de riesgo y valor mediante validación de clase de referencia, generación de alternativas y autorización delegada o escalado a humano) para gestionar la autonomía ante imprevistos.
+- **Inercia Organizacional y Deuda de Aprobación (Jess & Jack, AI Engineering):**
+  - *Cuello de Botella de Despliegue:* Soluciones agénticas construidas en dos semanas demoran hasta 12 meses en llegar a producción por flujos secuenciales legacy de gobernanza y seguridad corporativa.
+  - *Explosión de Commits:* Proyección de 14 mil millones de commits en GitHub para 2026. Solo el 12% de las empresas se consolidan como *AI achievers*, mientras que el 80% encalla en pilotos multimillonarios sin retorno por falta de automatización en CI/CD y procesos de aprobación.
+- **Desarrollo Web y SEO Local con Claude Code (Ryan Doser):**
+  - *Stack Eficiente:* Flujo interactivo con Astro, Cloudflare Pages y GitHub que permite crear sitios optimizados para SEO de 41 páginas en 30 minutos a costo marginal cero.
+  - *Estrategia de Local SEO:* Uso de skills específicas (diseño local y SEO con coincidencia exacta de dominio, ej. dsmjunkremoval.com) que logran posicionar en primera página de Google y generar leads orgánicos rápidamente.
+- **Métricas de la Era Agéntica y Analítica de Producto (Nate B. Jones):**
+  - *Métricas del Agent Run:* El run reemplaza a la sesión y al click como unidad de análisis básica en el dashboard de producto.
+  - *Completitud vs Aceptación:* Identificación del gap de valor cuando el agente completa una tarea pero el usuario no confía en ella.
+  - *Nuevos Clicks:* Captura estructurada de interrupciones, reintentos y handoffs como la señal de mayor valor para evaluar la autonomía y calibrar las *Agent Work Units* (AWUs).
+- **El Calibrado de Asombro ante la IA (Mobitar):**
+  - Reflexión poética que critica la paradoja de desmitificar fenómenos naturales asombrosos mediante explicaciones reduccionistas mientras se diviniza un modelo de lenguaje, abogando por un asombro proporcional ante el universo y la consciencia humana.
