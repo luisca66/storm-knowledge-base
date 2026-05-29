@@ -80,7 +80,7 @@ La afirmación de que Luis "modula redes neuronales" y no solo "enseña música"
 | Delegar la ejecución, nunca el juicio | El Sándwich Humano (criterio humano en los extremos) |
 
 Los 10 alumnos de `clases-ia/` son la evidencia viva. Casos concretos del KB:
-- **Mario** (director de cine y comerciales): aprende a elegir la herramienta correcta por tarea y a no aceptar la negativa operativa de la IA ("soy vibe coder" como permiso pedagógico). Mismo principio que con un instrumentista: el criterio humano dirige, la herramienta ejecuta.
+- **Carmen** (50, productora de cine y comerciales): aprende a elegir la herramienta correcta por tarea y a no aceptar la negativa operativa de la IA ("soy vibe coder" como permiso pedagógico). Mismo principio que con un instrumentista: el criterio humano dirige, la herramienta ejecuta.
 - **Bruno** (16, guitarrista): Luis usa la IA y las apps personales como entrenamiento de **atención sostenida** — exactamente el sustrato prefrontal que el método musical también construye. La IA aquí no es el fin, es el gimnasio cognitivo.
 - **Karla** (finanzas) y **Esteban** (fondo de inversión): dominios numéricos/estratégicos sin relación con la música, y aun así el andamiaje es idéntico: encuadre → ejecución delegada → juicio.
 
