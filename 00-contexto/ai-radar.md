@@ -81,7 +81,7 @@ Karpathy: *"Puedes tercerizar tu pensamiento pero no puedes tercerizar tu entend
 
 #### Mayo 2026 — Estado actual del campo
 
-*Basado en ainews 2026-05-01 al 2026-05-26*
+*Basado en ainews 2026-05-01 al 2026-05-28*
 
 ---
 
@@ -181,13 +181,75 @@ La segunda mitad del mes estuvo dominada por Google IO y por una aceleración vi
 
 ---
 
+**8. Opus 4.8 y Dynamic Workflows — el nuevo paradigma de trabajo agéntico (28 mayo)**
+
+El evento técnico más significativo de mayo. Claude lanza Opus 4.8 al **mismo precio que 4.7** ($5/$25 por millón de tokens), pero con tres cambios fundamentales:
+
+- **Fast mode más barato**: el modo rápido bajó de 6x a 2x el precio estándar. Se activa con `/fast` en Claude Code. Para quienes usan agentes de forma intensiva, esto cambia el cálculo de cuándo vale activarlo.
+- **Dynamic Workflows**: Claude Code ya no trabaja en una sola pista secuencial. Puede tomar una tarea compleja, descomponerla en subtareas y lanzar **decenas o cientos de subagentes en paralelo** — cada uno en su propio entorno aislado, con revisores adversariales que intentan romper lo que los demás construyeron. El horizonte de tarea se extiende de horas a **días o semanas** de trabajo humano equivalente.
+- **Honestidad mejorada 4x**: reducción de comportamientos deshonestos agénticos (declarar una tarea completa cuando no lo está). En entornos donde un agente trabaja días sin supervisión, la honestidad supera a la velocidad como prioridad.
+
+Caso real documentado: Jared Sumner portó **750,000 líneas de código de Bun a Rust en 11 días** con cientos de agentes en paralelo. El benchmark Meter Research ya mide tareas equivalentes a semanas de trabajo humano.
+
+**Claude Mythos** se anuncia oficialmente como la nueva jerarquía sobre Opus — la escala pasa de haiku→sonnet→opus a **haiku→sonnet→opus→mythos**. Llegará a todos los clientes en semanas. Actualmente en acceso controlado para ciberseguridad (Proyecto Glasswing): en un mes identificó más de **10,000 vulnerabilidades críticas**; Mozilla parcheó 271 bugs (10x más que con Opus 4.6).
+
+---
+
+**9. El Sándwich Humano y la Paradoja de Jevons Cognitiva (28 mayo)**
+
+El marco conceptual más importante del ciclo de mayo — y el que conecta más directamente con la tesis de Luis.
+
+Los CEOs que hace dos años anunciaban apocalipsis laboral (Altman, Amodei, Musk) moderan radicalmente su discurso. No hay señal limpia de desempleo agregado, y quienes usan IA más intensamente reportan **más trabajo, no menos**.
+
+El mecanismo: **Paradoja de Jevons aplicada al trabajo cognitivo**. Cuando algo que era caro y escaso (escribir código, diseñar, generar contenido) se vuelve barato, la demanda no cae — explota. El volumen total de esas actividades se multiplica. Lo que cambia es dónde vive el cuello de botella: migra al **juicio, al criterio, al buen gusto**, a quien puede distinguir cuál de diez versiones generadas es la mejor.
+
+**El Sándwich Humano** (Dan Shipper / Wes Roth) es la arquitectura de ese trabajo nuevo:
+
+| Capa | Quién | Qué hace |
+|---|---|---|
+| **Encuadre (inicio)** | Humano | Establece contexto, decide qué importa, especifica criterios de calidad |
+| **Ejecución (medio)** | IA | Colapsa el proceso — genera en minutos lo que tomaría días |
+| **Juicio (final)** | Humano | Cuál versión es mejor, si logra el objetivo, qué sigue |
+
+El humano sigue siendo indispensable en los dos extremos. La pregunta abierta: cómo se pagará ese trabajo cuando ya no se factura por líneas producidas sino por decisiones tomadas.
+
+**Corolario estratégico directo**: el conocimiento de dominio profundo (música, medicina, derecho, arquitectura) se vuelve **más** valioso, no menos. Es exactamente el insumo que el modelo no puede proveer.
+
+---
+
+**10. Las métricas de la era agéntica (28 mayo)**
+
+Nate B. Jones señala el problema que casi nadie está viendo: las métricas tradicionales de producto (sesiones, clics, tiempo en pantalla) son **ciegas** a lo que hacen los agentes. Caso real: un agente borró la base de datos de producción de una empresa, incluyendo sus backups, en nueve segundos. El dashboard mostraba todo normal.
+
+La unidad de análisis correcta es el **agent run**, no la sesión. Y la distinción más importante:
+
+| Dimensión | Lo que miden hoy | Lo que debería medirse |
+|---|---|---|
+| Completitud | ¿El agente terminó? | ¿El usuario confió en el resultado? |
+| Uso | Clics, mensajes | Interrupciones, correcciones, reintentos |
+| Valor | Tasa de finalización | Completitud alta + Aceptación alta |
+
+*"Las interrupciones, los reintentos y los handoffs son los nuevos clics de la era agéntica."*
+
+---
+
+**11. Señales destacadas: días 27-28**
+
+- **Glasswing (día 27)**: Anthropic distribuyó Mythos en secreto a 50 socios. En un mes: 10,000+ vulnerabilidades críticas. Mozilla parcheó 271 bugs — 10x más que con Opus 4.6. Cuando los modelos se vuelven más capaces en seguridad, la demanda de ingenieros para triage y parches *explota* (Paradoja de Jevons nuevamente).
+- **Comprehensión como el mayor unlock** (Priscilla, Sentry): una senior engineer con 15 años de codebase usa IA el **67% del tiempo para comprender código**, no para generarlo. Solo el 2% es generación. El uso más valioso de la IA no es producir — es entender.
+- **DeepSeek V4**: congela permanentemente sus precios ultrabajos ($0.44/$0.87 por millón de tokens). Con nueva ronda de $10B. La guerra de precios no tiene techo visible hacia abajo.
+- **RALPH Loop** (Nate B. Jones): workflow de 4 fases para trabajo de oficina con IA — preparación de fuentes, blueprint estructural, creación restringida, y revisión adversarial. Codex genera, Opus hace el escaneo hostil de inconsistencias, Codex corrige, Opus verifica. El mismo principio de revisores adversariales que Dynamic Workflows, pero para documentos.
+
+---
+
 **Modelos destacados del mes:**
 - **GPT-5.5** — +37 pts razonamiento contexto largo, -60% alucinaciones. $5/$30 por millón de tokens. Primer modelo en refutar una conjetura matemática abierta.
 - **Gemini 3.5 Flash** — Reemplaza a Gemini Pro como referencia de uso diario. Ultrarrápido, ultrafácil, integrado al ecosistema Google. La opción gratuita ya no es inferior.
 - **Gemini Omni** — Multimodal nativo: texto, audio, video e imagen en una sola llamada. Disruptivo para producción de contenido.
 - **Kimi K2.6** — 1 billón de parámetros, activa 32B por consulta. Entrenamiento: $4.6M. 1/8 del costo de Anthropic.
-- **DeepSeek V4** — 1M tokens de ventana, $1.74/$3.48. La restricción de GPUs no detiene la innovación algorítmica china.
-- **Claude Mythos** — Sobre Opus, hiperespecializado en ciberseguridad. Acceso controlado por razones de seguridad nacional.
+- **DeepSeek V4** — 1M tokens de ventana, $0.44/$0.87. Precios congelados permanentemente. La restricción de GPUs no detiene la innovación algorítmica china.
+- **Claude Opus 4.8** ← nuevo — Mismo precio que 4.7 ($5/$25). Fast mode ahora 2x el estándar (era 6x, activa con `/fast`). Dynamic Workflows: orquestación de cientos de subagentes con revisores adversariales. Honestidad mejorada 4x.
+- **Claude Mythos** — Nueva jerarquía sobre Opus (haiku→sonnet→opus→mythos). Llega a todos los clientes en semanas. Proyecto Glasswing: 10,000+ vulnerabilidades críticas en un mes; Mozilla: 271 bugs (10x Opus 4.6).
 - **Spark (Google)** — Agente integrado al ecosistema Google sin conectores de fricción. Valida arquitecturalmente el flujo que Luis enseña.
 
 ---
@@ -201,6 +263,15 @@ La segunda mitad del mes estuvo dominada por Google IO y por una aceleración vi
 
 > *"No puedes outsourcear tu entendimiento — pero sí puedes outsourcear el 90% de la ejecución si construiste el entendimiento correcto."*
 > — Síntesis Luis / Karpathy
+
+> *"No puedo automatizar la comprensión. No existe un botón ni un prompt que inyecte entendimiento directamente en mi cerebro. Todavía tengo que sentarme frente a la información e interactuar con esa idea y entenderla."*
+> — Wes Roth
+
+> *"El indicador número uno de éxito en 2026 es tu nivel de atención. No la destreza técnica ni el modelo que usas."*
+> — Alex Finn
+
+> *"Las interrupciones, los reintentos y los handoffs son los nuevos clics de la era agéntica."*
+> — Nate B. Jones
 
 ---
 
@@ -342,7 +413,7 @@ Los modelos más poderosos lograron <1% en tests donde los humanos consiguen 100
 
 ## Sección 3 — Para mis clases este mes
 
-*(Actualizado: 2026-05-27 — filtro pedagógico sobre ainews mayo 2026)*
+*(Actualizado: 2026-05-29 — filtro pedagógico sobre ainews mayo 2026, días 27-28 integrados)*
 
 Esta sección traduce el radar de tendencias a acciones concretas en clase. No es un resumen — es un mapa de qué cambiar, qué introducir y cómo hablar de esto con cada perfil de alumno.
 
@@ -350,14 +421,16 @@ Esta sección traduce el radar de tendencias a acciones concretas en clase. No e
 
 ### Actualización inmediata: tabla de modelos
 
-La tabla de modelos en `conceptos_no_olvidar.md` y `leccion_01` necesita actualizar Gemini:
+La tabla de modelos en `conceptos_no_olvidar.md` y `leccion_01` — actualizada al 28 de mayo:
 
 | Plan | Modelo |
 |---|---|
-| Pago (Claude) | Claude 4.7 Extended Thinking |
+| Pago (Claude) | **Claude 4.8 (Opus)** ← actualizado (era 4.7) |
 | Gratuito (Claude) | Claude 4.6 |
 | Alternativa OpenAI | ChatGPT 5.5 Thinking |
 | Alternativa Google | **Gemini 3.5 Flash** ← actualizado (era 3.1 Pro) |
+
+> **Opus 4.8**: mismas capacidades que 4.7 al mismo precio, pero más honesto y con fast mode más barato. Para Luis: el fast mode ya no hay que pensarlo dos veces — está a 2x el estándar, no a 6x.
 
 > Gemini 3.5 Flash es gratuito, más rápido que 3.1 Pro y con acceso nativo al ecosistema Google (Drive, Docs, Gmail). Para alumnos con suscripción Google → esta es su herramienta natural.
 
@@ -420,11 +493,30 @@ Gemini Omni procesa texto, audio, video e imagen en una sola llamada. Disruptivo
 
 ---
 
+**6. El Sándwich Humano (28 mayo)**
+
+El marco conceptual más poderoso del mes para usar en clase cuando aparece la pregunta "¿la IA va a quitarnos el trabajo?". Responde mejor que cualquier estadística.
+
+*El concepto:* cuando algo que era caro de producir (código, diseño, texto) se vuelve barato, la gente no consume menos — consume más. El cuello de botella migra al juicio: quién tiene criterio, quién puede distinguir cuál de diez versiones es la mejor, quién puede darle voz única a lo generado. Eso no se automatiza.
+
+El humano sigue siendo indispensable en dos momentos: **al inicio** (encuadrar la tarea, poner el contexto, definir qué es bueno) y **al final** (juzgar si el resultado cumple, decidir qué sigue). La IA colapsa el proceso en el medio.
+
+*Cómo usarlo en clase:*
+- Con **cualquier alumno que sienta que la IA lo va a reemplazar**: "¿Cuál es la parte de tu trabajo donde tienes criterio que nadie más tiene? Eso no se automatiza — y se vuelve más valioso porque la ejecución ahora es barata para todos."
+- Con **Mariana (35, redes sociales)**: su criterio sobre qué conecta con su audiencia es el encuadre y el juicio. La IA genera los posts. Mariana decide cuáles son ella.
+- Con **Carmen (50, productora)**: su criterio cinematográfico es exactamente el sándwich. La IA genera opciones visuales o guiones. Carmen juzga cuál tiene alma.
+- Con **Esteban (33)** y cualquier alumno creativo: el método de Luis ES el sándwich — él encuadra la experiencia musical, el alumno ejecuta con las herramientas, Luis juzga el progreso.
+
+*Cuándo mencionarlo:* cuando el alumno pregunte sobre desplazamiento laboral, cuando quiera automatizar "todo", o cuando no entienda por qué su experiencia de dominio importa.
+
+---
+
 ### Lo que NO hace falta enseñar este mes
 
 - La guerra de protocolos (MCP/A2A/AGUI/AP2/X42) — demasiado técnica, sin impacto práctico en el nivel actual de los alumnos.
 - El IPO de SpaceX — contexto macroeconómico relevante para asesorías, no para clase individual.
 - La Conjetura de Erdős — fascinante, pero no tiene aplicación pedagógica inmediata.
+- Dynamic Workflows (técnico) — la capacidad existe y Luis puede usarla, pero explicarla a los alumnos es prematuro. El Sándwich Humano captura el principio sin la complejidad técnica.
 
 ---
 
@@ -437,6 +529,8 @@ Gemini Omni procesa texto, audio, video e imagen en una sola llamada. Disruptivo
 | Introducir "legibilidad para agentes" con Mariana y Mario | Media | — |
 | Mencionar Spark como validación del Flujo Chat→MD→Agente | Media | — |
 | Introducir "principios vs. reglas" cuando un alumno quiera recetario | Cuando ocurra | — |
+| Actualizar tabla de modelos (Opus 4.8) | Alta | `conceptos_no_olvidar.md` |
+| Introducir "El Sándwich Humano" cuando aparezca la pregunta del desplazamiento | Alta | — |
 
 ---
 
@@ -463,6 +557,7 @@ Estos son exactamente los principios de "Los Seres Musicales" aplicados al apren
 ---
 
 ## Historial de Cambios
+- **2026-05-29** — Síntesis mayo extendida a días 27-28. Nuevas secciones 8-11: Opus 4.8 + Dynamic Workflows, El Sándwich Humano + Paradoja de Jevons Cognitiva, métricas agénticas (Nate Jones), señales días 27-28 (Glasswing, comprensión, DeepSeek V4, RALPH Loop). Modelos actualizados: Opus 4.8, Mythos jerarquía confirmada, DeepSeek V4 precio corregido. Sección 3: tabla actualizada (4.7→4.8), concepto 6 (Sándwich Humano), resumen ejecutivo ampliado.
 - **2026-05-27** — Síntesis completa de los tres meses. Mayo 18-26 extendido (Google IO, Gemini 3.5 Flash/Omni/Spark, alineamiento, Erdős, AEO). Abril expandido de tabla a síntesis completa (9 temas). Marzo creado desde cero (7 días, marco de poder, Karpathy, ARC-AGI-3). Nueva Sección 3 — filtro pedagógico mensual.
 - **2026-05-18** — Síntesis mayo 2026 completada (días 1-17). 6 temas: reordenamiento del trabajo, arquitectura agéntica, guerra del protocolo, seguridad, infraestructura/geopolítica, Private Equity.
 - **2026-05-06** — Creación inicial. Dos secciones: herramientas actuales + síntesis de tendencias abril-mayo 2026.

@@ -1,7 +1,7 @@
 ---
 titulo: "Luis Como Ingeniero Neural"
 tipo: sintesis
-ultima_actualizacion: 2026-04-22
+ultima_actualizacion: 2026-05-29
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/clases-ia/01_metodo/patrones_detectados_en_alumnos.md
@@ -67,6 +67,30 @@ El proceso subyacente en cualquier segundo de clase es siempre el mismo:
 
 ---
 
+## Luis en la era agéntica: el Sándwich Humano como método
+
+El concepto del "Sándwich Humano" que surgió del análisis de ainews de mayo 2026 no describe algo nuevo para Luis — describe exactamente lo que ha hecho durante 35 años. Solo que ahora tiene nombre y se aplica en la era de los agentes.
+
+La arquitectura del trabajo agéntico de Luis:
+
+| Capa | Luis hace | Ejemplo concreto |
+|---|---|---|
+| **Encuadre (inicio)** | Diagnostica la arquitectura neural del alumno. Diseña el ejercicio que activa exactamente los circuitos necesarios. | "Este alumno necesita desarrollar anticipación tonal antes de abordar el cifrado de acordes." |
+| **Ejecución (medio)** | La IA genera: variaciones de ejercicios, análisis armónico, explicaciones alternativas, código del Maestro Virtual, contenido de lecciones. | Claude Code genera 20 variantes de un ejercicio rítmico calibradas al nivel del alumno. |
+| **Juicio (final)** | Luis evalúa si el output alcanza el nivel musical y pedagógico requerido. Decide qué sigue en la construcción neural del alumno. | "Esta variante no está bien — el patrón esconde el acento natural del compás. Recalibra." |
+
+**Por qué el dominio profundo de Luis es su ventaja estructural en este modelo:**
+
+La Paradoja de Jevons aplicada al trabajo cognitivo explica por qué el conocimiento de dominio se vuelve más valioso cuando la ejecución se abarata: cuando generar ejercicios musicales, explicaciones pedagógicas o código de herramientas se vuelve barato para todos, el cuello de botella migra al juicio. Y el juicio musical de alto nivel — saber por qué una melodía funciona neurológicamente, qué intervalo va a tensionar vs. resolver el sistema auditivo del alumno, cuándo el cerebro está listo para la siguiente capa de complejidad — no se automatiza.
+
+Nadie más puede proveer el encuadre de 35 años de Luis. Eso es exactamente el insumo que el modelo no puede replicar.
+
+**Las Dynamic Workflows como extensión de la ingeniería neural:**
+
+Con Opus 4.8 y Dynamic Workflows (mayo 2026), Luis puede lanzar múltiples subagentes en paralelo sobre el mismo problema pedagógico: un agente genera ejercicios para nivel 1, otro para nivel 2, un tercero analiza los errores históricos del alumno, un cuarto adapta la explicación al perfil cognitivo específico. Luis juzga al final cuál línea es útil y en qué combinación. La ingeniería neural que antes requería horas de diseño manual ahora se puede ejecutar en minutos — Luis sigue siendo el único que puede juzgar si el resultado está bien calibrado neurológicamente.
+
+---
+
 ## La diferencia con la enseñanza tradicional
 
 La enseñanza tradicional de cualquier habilidad enseña **comportamientos**. Luis enseña **arquitectura**.
@@ -121,4 +145,5 @@ Cuando esos cuatro circuitos están construidos y mielinizados, la partitura se 
 ## Historial de Cambios
 - **2026-04-16** — Archivo creado a partir de declaración directa de Luis en entrevista. Es la página más importante del KB para entender el proyecto.
 - **2026-04-22** — Ingesta de *Inner Engineering* (Sadhguru): conexión expandida con la idea de "reordenamiento del sistema" y el concepto de transformación dimensional.
-- **2026-05-21** — Reestructuración del axioma de "No-Compartimentación" a partir de entrevista con Luis. Se internaliza que todas las fuentes aplican a todos los instrumentos y tareas del taller como un campo unificado.
+- **2026-05-21** — Reestructuración del axioma de "No-Compartimentación".
+- **2026-05-29** — Nueva sección "Luis en la era agéntica: el Sándwich Humano como método". Conexión con Paradoja de Jevons Cognitiva y Dynamic Workflows. Fuente: ainews 2026-05-28 (Wes Roth, Dan Shipper).

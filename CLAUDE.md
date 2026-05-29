@@ -232,7 +232,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-05-26 (Elefantito Matemático documentado)
+**Última actualización:** 2026-05-29 (síntesis mayo 27-28: Opus 4.8, Sándwich Humano)
 
 **Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md, filosofia-ensenanza.md
 
@@ -246,7 +246,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — Elefantito Matemático integrado como tecnología cognitiva; faltan Sequencer y apps auditivas
 - `estrategia-freemium-musical.md` ← borrador (no ha crecido desde sesión 1)
 
-**Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 7 alumnos perfilados (Bruno 16, Carmen 50, Jonas 12, Julio 60, Luis 84, Mariana 35, Mario 55), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
+**Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 8 alumnos perfilados (Bruno 16, Carmen 50, Esteban 33, Jonas 12, Julio 60, Luis 84, Mariana 35, Mario 55), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
 
 **Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 1 video + ainews (mar-may 2026):
 - Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
@@ -264,10 +264,10 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar secciones Storm Sequencer y apps de entrenamiento auditivo
 - `modelos-mentales-aprendizaje-musical.md` → sección Sadhguru (silencio interior) aún pendiente
 - `ai-radar.md` → actualizar mensualmente con síntesis de tendencias del mes
-- `luis-como-ingeniero-neural.md` → enriquecer con patrones reales de alumnos de clases-ia
+- `luis-como-ingeniero-neural.md` → enriquecer con patrones reales de alumnos de clases-ia (sección Sándwich Humano ya integrada 2026-05-29)
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
 - Archivos en `borrador` en `04-contenido-musical/`, `05-operaciones/`
 
 ---
 
-*Este archivo es mantenido por Claude. Última revisión: 2026-05-26 (Elefantito Matemático documentado).*
+*Este archivo es mantenido por Claude. Última revisión: 2026-05-29 (síntesis mayo 27-28, Opus 4.8, Sándwich Humano, Esteban integrado como alumno 8).*

@@ -98,7 +98,7 @@ No es un guion. Es un mapa de lo que no puede quedar en el aire.
 
   | Plan | Modelo |
   |---|---|
-  | Pago (Claude) | Claude 4.7 Extended Thinking |
+  | Pago (Claude) | **Claude 4.8 (Opus)** ← actualizado |
   | Gratuito (Claude) | Claude 4.6 |
   | Alternativa OpenAI | ChatGPT 5.5 Thinking |
   | Alternativa Google | Gemini 3.5 Flash |
@@ -226,6 +226,28 @@ Este marco ayuda al alumno a clasificar su propio trabajo sin entrar en pánico.
 
 ---
 
+## 17 — El Sándwich Humano
+
+Este concepto responde la pregunta más frecuente en clase: *"¿la IA no nos va a quitar el trabajo?"* Úsalo antes de que el alumno entre en pánico o en negación.
+
+**El principio**: cuando algo que era caro de producir (código, diseño, texto, análisis) se vuelve barato, la gente no consume menos — consume más. El volumen total explota. Lo que cambia es dónde está el cuello de botella: ya no en la ejecución, sino en el **juicio, el criterio y el buen gusto** — en quien puede distinguir cuál de diez versiones generadas es la mejor.
+
+**La estructura del trabajo nuevo:**
+
+| Momento | Quién | Qué hace |
+|---|---|---|
+| Inicio | Humano | Encuadra: contexto, criterios, qué importa |
+| Medio | IA | Ejecuta: genera en minutos lo que tomaría días |
+| Final | Humano | Juzga: ¿cuál versión es mejor? ¿logró el objetivo? ¿qué sigue? |
+
+- El humano sigue siendo indispensable en los dos extremos.
+- La experiencia de dominio (música, negocios, comunicación) es el encuadre — y eso no se automatiza.
+- Quien tiene criterio más fino gana más, no menos, cuando la ejecución se vuelve barata.
+
+**Señal de que ya lo entendió:** puede identificar, en una tarea propia, cuál parte es su encuadre único y cuál es ejecución que puede delegar a la IA.
+
+---
+
 ## Conceptos transversales — estos van en cualquier clase
 
 Estos no tienen tema propio pero se cuelan en todo. Si no aparecen solos, menciónalos:
@@ -240,6 +262,7 @@ Estos no tienen tema propio pero se cuelan en todo. Si no aparecen solos, menci�
 | **Organización de archivos** | Siempre que se abra un agente o se cree una carpeta de proyecto |
 | **La Bifurcación** | En la primera clase, o cuando el alumno no entiende para qué sirve aprender esto. Dos caminos: consumidor pasivo vs. creador agéntico. La brecha crece cada mes. |
 | **"No puedes tercerizar tu entendimiento"** (Karpathy) | Cuando el alumno empieza a copiar respuestas sin leerlas, o pregunta si la IA puede hacer "todo". Mientras más potente el modelo, más vale lo que TÚ sabes de tu dominio. |
+| **El Sándwich Humano** | Cuando el alumno pregunta si la IA lo va a reemplazar, o cuando quiere "automatizar todo". Su criterio de dominio es el encuadre y el juicio — los dos extremos que la IA no puede ocupar. |
 
 ---
 
@@ -258,5 +281,6 @@ Estos no tienen tema propio pero se cuelan en todo. Si no aparecen solos, menci�
 ---
 
 ## Historial de Cambios
-- 2026-05-27: Documento creado. Cubre 15 temas + conceptos transversales. Los temas 11-15 son stubs hasta que haya clase real documentada.
-- 2026-05-28: Sección 16 agregada (Las 4 categorías del trabajo). Dos conceptos transversales nuevos: La Bifurcación y "No puedes tercerizar tu entendimiento" (Karpathy). Fuente: ai-radar mayo 2026.
+- 2026-05-27: Documento creado. Cubre 15 temas + conceptos transversales.
+- 2026-05-28: Sección 16 (4 categorías del trabajo). Conceptos transversales: La Bifurcación y Karpathy.
+- 2026-05-29: Tabla de modelos actualizada (Opus 4.8). Sección 17 (El Sándwich Humano). Concepto transversal: El Sándwich Humano.

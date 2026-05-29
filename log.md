@@ -8,6 +8,24 @@
 
 ---
 
+## [2026-05-29] actualización | Síntesis mayo 27-28 integrada al KB — Opus 4.8, Sándwich Humano, métricas agénticas
+
+**Acciones:**
+- `ai-radar.md`: síntesis mayo extendida a días 27-28. Nuevas secciones 8-11: Opus 4.8 + Dynamic Workflows, El Sándwich Humano + Paradoja de Jevons Cognitiva, métricas agénticas (Nate Jones), señales días 27-28 (Glasswing, comprensión 67%, DeepSeek V4 precio corregido, RALPH Loop). Modelos: Opus 4.8 agregado, Mythos jerarquía confirmada. Sección 3: tabla actualizada (4.7→4.8), concepto 6 (Sándwich Humano) con aplicación por alumno, resumen ejecutivo ampliado.
+- `conceptos_no_olvidar.md`: tabla de modelos actualizada (Opus 4.7 → Opus 4.8). Sección 17 (El Sándwich Humano) creada. Concepto transversal agregado.
+- `08-sintesis/luis-como-ingeniero-neural.md`: nueva sección "Luis en la era agéntica — el Sándwich Humano como método". Conexión con Jevons Cognitiva y Dynamic Workflows.
+- Pull del commit de laptop: `plan_clase_01.docx` de Esteban (33), resumen ainews 20260528 (completo y básico), índice_general actualizado.
+- Push previo de 2 commits pendientes: transcripts EXO 3.0 y Diamandis/Ismail.
+
+**Conocimiento capturado:**
+- El Sándwich Humano (Wes Roth / Dan Shipper): arquitectura de colaboración humano-IA donde el dominio profundo del humano es el encuadre inicial y el juicio final. La ejecución se delega — el criterio no.
+- Paradoja de Jevons Cognitiva: cuando la ejecución se abarata, el volumen total de trabajo explota y el cuello de botella migra al juicio. El conocimiento de dominio de Luis se vuelve más valioso, no menos.
+- Opus 4.8: mismo precio, fast mode 2x (era 6x), Dynamic Workflows con cientos de subagentes en paralelo, honestidad 4x mejorada.
+- Mythos jerarquía confirmada: haiku→sonnet→opus→mythos. Llega en semanas.
+- La comprehensión de código (no la generación) es el 67% del uso real de IA en ingeniería — dato aplicable al argumento de que la IA no reemplaza sino transforma.
+
+---
+
 ## [2026-05-27] sesion | Curriculum clases-ia completado + ai-radar tres meses + modo Q&A pedagógico
 
 **Acciones:**
