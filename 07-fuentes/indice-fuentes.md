@@ -1,7 +1,7 @@
 ---
 titulo: "Índice de Fuentes y Lecturas"
 tipo: catalogo
-ultima_actualizacion: 2026-05-06
+ultima_actualizacion: 2026-05-29
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -51,6 +51,9 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 | Video | Canal/Autor | Área de impacto | Archivo |
 |-------|-------------|-----------------|---------|
 | The Real Problem With AI Agents Nobody's Talking About | [verificar canal] | IA / estrategia KB | videos/The Real Problem With AI Agents Nobody's Talking About.md |
+| This Could Save Your Life | [verificar canal] | [por clasificar] | videos/This Could Save Your Life.md |
+| Moonshots — Organizational Singularity | Peter Diamandis & Salim Ismail | IA / negocio — singularidad organizacional, ExO 3.0 — pendiente ingestar | videos/moonshots-organizational-singularity-peter-diamandis-salim-ismail.md |
+| Singularidad Organizacional — ExO 3.0 | [verificar canal] | IA / negocio — modelo organizacional exponencial — pendiente ingestar | videos/singularidad-organizacional-exo-3.0.md |
 
 ## AI News — Resúmenes diarios (sistema ainews)
 
@@ -103,3 +106,4 @@ Sistema de inteligencia continua sobre el panorama de IA. Procesado automáticam
 - 2026-05-01: A Little Bit of Philosophy — U03 L04 (Filosofía de la Mente) y U04 L04 (Aristóteles y la Virtud) INGESTED. Archivos afectados: filosofia-ensenanza.md. What Is Intelligence (Agüera y Arcas) INGESTED. This Is Your Brain on Music (Levitin) INGESTED. 6 libros de fitness INGESTED → el-musico-como-atleta.md.
 - 2026-05-06: Sistema ainews registrado como fuente continua (mar-may 2026). Originals (Grant) y Shadows of Forgotten Ancestors (Sagan) registrados — pendiente ingestar. Síntesis de ainews en 00-contexto/ai-radar.md.
 - 2026-05-21: Verificados y corregidos 10 autores que estaban como [verificar autor]: Wolfe, Blahnik, Benjamin & Shermer, Smil, García Morente, Cave, Sadhguru, Lassalle, Dalio, Keyu Jin.
+- 2026-05-29: Lint — agregados 3 videos nuevos (This Could Save Your Life, Diamandis/Ismail Moonshots, ExO 3.0). Pendiente ingestarlos al wiki.

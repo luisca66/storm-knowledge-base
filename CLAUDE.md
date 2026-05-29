@@ -246,9 +246,9 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — Elefantito Matemático integrado como tecnología cognitiva; faltan Sequencer y apps auditivas
 - `estrategia-freemium-musical.md` ← borrador (no ha crecido desde sesión 1)
 
-**Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 8 alumnos perfilados (Bruno 16, Carmen 50, Esteban 33, Jonas 12, Julio 60, Luis 84, Mariana 35, Mario 55), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
+**Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 10 alumnos perfilados (Bruno 16, Carmen 50, Esteban 33, Jonas 12, Julio 60, Karla 30, Luis 84, Mariana 35, Mario 55, Montse 30), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
 
-**Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 1 video + ainews (mar-may 2026):
+**Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 4 videos + ainews (mar-may 2026):
 - Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
 - Sesión 2026-05-01: What Is Intelligence (Agüera y Arcas), This Is Your Brain on Music (Levitin), 6 libros de fitness, A Little Bit of Philosophy U03L04 + U04L04
 - Sesión 2026-05-02: Outliers (Gladwell), Your Brain at Work (Rock)

@@ -13,9 +13,9 @@
 **Inconsistencias detectadas y corregidas:**
 1. ✅ `index.md` — alumnos "7" → **10** reales (faltaban julio, montse, esteban); videos "1" → **4**; última sesión 2026-05-26 → 2026-05-29.
 2. ✅ `index.md` — sección Videos solo listaba 1 de 4. Agregados This Could Save Your Life, Diamandis/Ismail, ExO 3.0.
-3. ✅ `indice-fuentes.md` — estadísticas obsoletas (videos 1→4, total 25→28). Registrados V02-V04. Fecha actualizada.
-4. ✅ `CLAUDE.md` sección 7 — estado congelado en 2026-05-06 (sesión 3). Actualizado a 2026-05-29: clases-ia + 10 alumnos, filosofia-ensenanza completo, pendientes reales, eliminada línea duplicada de ai-radar.
-5. ✅ `.gitignore` — agregado `.claude/` (el harness crea worktrees ahí dentro del repo; sin ignorar, un `git add .` podría capturar copias completas).
+3. ✅ `indice-fuentes.md` — agregados 3 videos (Diamandis/Ismail, ExO 3.0, This Could Save Your Life) a la tabla; fecha frontmatter 2026-05-06→2026-05-29.
+4. ✅ `CLAUDE.md` sección 7 — alumnos clases-ia 8→10 (faltaban Karla, Montse); videos 1→4. (El resto de la sección ya había sido actualizado a 2026-05-29 por la sesión previa.)
+5. ℹ️ `.gitignore` — verificado: `.claude/` ya estaba ignorado (correcto; el harness crea worktrees ahí dentro del repo).
 
 **Pendientes señalados (requieren a Luis o trabajo de ingesta):**
 - ⚠️ 3 videos nuevos están como transcripts crudos pero no ingeridos al wiki (síntesis pendiente).
