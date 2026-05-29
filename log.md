@@ -8,6 +8,28 @@
 
 ---
 
+## [2026-05-29] actualización | Pendientes del lint resueltos — escritura activa (Opus 4.8)
+
+**Acciones (resolución de pendientes detectados en el lint):**
+- `08-sintesis/tecnologia-al-servicio-del-metodo.md`: llenadas dos secciones que eran placeholders ("Tres capas de tecnología" + "Conexión con el método") e integrado el insight del criterio de automatización (2026-05-27) vinculado al Efecto Santiago. Frontmatter actualizado.
+- `00-contexto/insights.md`: insight "criterio de automatización con IA" marcado ✅ (ya integrado).
+- `08-sintesis/luis-como-ingeniero-neural.md`: llenado el núcleo central que estaba vacío — "aprender es construir y modular redes neuronales" (Kahneman S1/S2, Barrett cerebro predictivo, Camino de la Señal, No-Compartimentación). Nueva sección "La prueba empírica: el framework aplica a cualquier habilidad" con tabla método-musical↔clases-IA y los 10 alumnos como evidencia viva.
+- `AGENTS.md`: sincronizado con CLAUDE.md (alumnos 8→10, videos 1→4, notas de síntesis actualizadas) para frenar la divergencia detectada en el lint.
+
+**Conocimiento capturado:**
+- El criterio de automatización es el Efecto Santiago aplicado a la IA: la inversión inicial en dominar la herramienta siempre paga; el umbral de decisión es "tiempo de verificación < tiempo de hacerlo manual".
+- La tesis "Luis es ingeniero neural, no maestro de música" queda respaldada empíricamente: el mismo framework produce la misma estructura pedagógica al enseñar IA a no-músicos (Mario, Karla, Esteban).
+
+**Pendiente que sigue requiriendo a Luis / sesión dedicada:**
+- Ingerir al wiki los 3 videos (Diamandis/Ismail, ExO 3.0, This Could Save Your Life) — transcripts grandes, merecen sesión propia.
+- Verificar canal/autor de videos marcados [verificar canal].
+- Validar las conexiones por alumno en luis-como-ingeniero-neural.md con datos de sesiones reales.
+- Decisión de fondo: consolidar CLAUDE.md y AGENTS.md en una fuente única (hoy se sincronizan a mano).
+
+**Archivos modificados:** tecnologia-al-servicio-del-metodo.md, luis-como-ingeniero-neural.md, insights.md, CLAUDE.md, AGENTS.md, log.md
+
+---
+
 ## [2026-05-29] lint | Revisión completa de salud del KB (Opus 4.8)
 
 **Inconsistencias detectadas y corregidas:**

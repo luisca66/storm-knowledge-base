@@ -239,11 +239,11 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 **Archivos en progreso:** estructura-curso.md, indice-apps.md, elefantito-matematico.md, secuenciador.md, maestro-virtual.md, ai-radar.md, ritmos-y-decisiones.md
 
 **Páginas de síntesis activas (08-sintesis/):**
-- `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto ⚠️ necesita enriquecerse con datos reales de alumnos de clases-ia
+- `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto. Núcleo llenado (Camino de la Señal + Kahneman + Barrett + No-Compartimentación) y sección "prueba empírica" con los 10 alumnos de clases-ia. Pendiente: validar conexiones por alumno con datos de sesiones reales
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
 - `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock. Pendiente: sección Sadhguru (silencio interior)
 - `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
-- `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — Elefantito Matemático integrado como tecnología cognitiva; faltan Sequencer y apps auditivas
+- `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — tres capas de tecnología llenadas + criterio de automatización (Efecto Santiago) integrado
 - `estrategia-freemium-musical.md` ← borrador (no ha crecido desde sesión 1)
 
 **Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 10 alumnos perfilados (Bruno 16, Carmen 50, Esteban 33, Jonas 12, Julio 60, Karla 30, Luis 84, Mariana 35, Mario 55, Montse 30), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.

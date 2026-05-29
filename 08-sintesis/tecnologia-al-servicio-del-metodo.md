@@ -1,7 +1,7 @@
 ---
 titulo: "Tecnología al Servicio del Método"
 tipo: sintesis
-ultima_actualizacion: 2026-05-26
+ultima_actualizacion: 2026-05-29
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 02-plataforma-web/maestro-virtual.md

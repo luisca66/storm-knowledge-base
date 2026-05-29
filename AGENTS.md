@@ -246,7 +246,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
 - `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock
 - `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
-- `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — Elefantito Matemático integrado como tecnología cognitiva; faltan Sequencer y apps auditivas
+- `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — tres capas de tecnología llenadas + criterio de automatización (Efecto Santiago) integrado
 - `estrategia-freemium-musical.md` ← borrador
 
 **Fuentes ingresadas:** 33 fuentes total:
