@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-05-26
+ultima_actualizacion: 2026-05-29
 estado: en_progreso
 ---
 
@@ -165,6 +165,9 @@ estado: en_progreso
 | Video | Tema | Relevancia |
 |-------|------|-----------|
 | [The Real Problem With AI Agents Nobody's Talking About](07-fuentes/videos/The%20Real%20Problem%20With%20AI%20Agents%20Nobody's%20Talking%20About.md) | Agentes de IA, knowledge bases, conocimiento tácito | Alta — valida arquitectura del KB |
+| [This Could Save Your Life](07-fuentes/videos/This%20Could%20Save%20Your%20Life.md) | (por clasificar) | (por revisar) |
+| [Moonshots — Organizational Singularity (Diamandis/Ismail)](07-fuentes/videos/moonshots-organizational-singularity-peter-diamandis-salim-ismail.md) | Singularidad organizacional, ExO 3.0, transformación empresarial con IA | Alta — clases de IA / asesorías |
+| [Singularidad Organizacional — ExO 3.0](07-fuentes/videos/singularidad-organizacional-exo-3.0.md) | ExO 3.0, modelo organizacional exponencial | Alta — clases de IA / asesorías |
 
 ---
 
@@ -202,10 +205,11 @@ estado: en_progreso
 | Páginas de síntesis | 6 |
 | Libros ingresados | 26 |
 | Libros registrados pendientes | 2 (Originals, Shadows) |
+| Videos (transcripts) | 4 |
 | Sistema ainews | mar–may 2026 (activo) |
-| Alumnos en clases-ia | 7 perfilados |
-| Última sesión de trabajo | 2026-05-26 |
+| Alumnos en clases-ia | 10 perfilados |
+| Última sesión de trabajo | 2026-05-29 |
 
 ---
 
-*Mantenido por Claude. Actualizado: 2026-05-26.*
+*Mantenido por Claude. Actualizado: 2026-05-29.*
