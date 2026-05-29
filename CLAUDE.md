@@ -241,7 +241,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 **Páginas de síntesis activas (08-sintesis/):**
 - `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto. Núcleo llenado (Camino de la Señal + Kahneman + Barrett + No-Compartimentación) y sección "prueba empírica" con los 10 alumnos de clases-ia. Pendiente: validar conexiones por alumno con datos de sesiones reales
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
-- `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock. Pendiente: sección Sadhguru (silencio interior)
+- `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock + Sadhguru (silencio interior, ya integrado)
 - `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
 - `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — tres capas de tecnología llenadas + criterio de automatización (Efecto Santiago) integrado
 - `estrategia-freemium-musical.md` ← borrador (no ha crecido desde sesión 1)
@@ -262,9 +262,9 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 **Pendiente prioritario:**
 - `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros
 - `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar secciones Storm Sequencer y apps de entrenamiento auditivo
-- `modelos-mentales-aprendizaje-musical.md` → sección Sadhguru (silencio interior) aún pendiente
 - `ai-radar.md` → actualizar mensualmente con síntesis de tendencias del mes
-- `luis-como-ingeniero-neural.md` → enriquecer con patrones reales de alumnos de clases-ia (sección Sándwich Humano ya integrada 2026-05-29)
+- `luis-como-ingeniero-neural.md` → validar las conexiones por alumno con datos de sesiones reales (secciones Sándwich Humano y prueba empírica ya integradas)
+- Ingestar 3 videos (Diamandis/Ismail, ExO 3.0, This Could Save Your Life) al wiki
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
 - Archivos en `borrador` en `04-contenido-musical/`, `05-operaciones/`
 

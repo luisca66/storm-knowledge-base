@@ -244,7 +244,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 **Páginas de síntesis activas (08-sintesis/):**
 - `luis-como-ingeniero-neural.md` ← la más importante — visión central. Sólida: No-Compartimentación + Sándwich Humano + nueva sección "prueba empírica" con casos reales de clases-ia (Mario, Bruno, Karla, Esteban). Pendiente: validar conexiones con datos de sesiones reales
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
-- `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock
+- `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock + Sadhguru (silencio interior, ya integrado)
 - `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
 - `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — tres capas de tecnología llenadas + criterio de automatización (Efecto Santiago) integrado
 - `estrategia-freemium-musical.md` ← borrador
@@ -262,7 +262,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 **Pendiente prioritario:**
 - `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros
 - `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar secciones Storm Sequencer y apps de entrenamiento auditivo
-- `modelos-mentales-aprendizaje-musical.md` → sección Sadhguru (silencio interior) aún pendiente
+- Ingestar 3 videos (Diamandis/Ismail, ExO 3.0, This Could Save Your Life) al wiki
 - `02-plataforma-web/` → funcionalidades ✅, maestro-virtual ✅, secuenciador ✅, decisiones-tecnicas ✅ — pendiente: arquitectura.md (revisar si necesita actualización)
 - `04-contenido-musical/`, `05-operaciones/` → archivos en borrador pendientes
 - Verificación pendiente: ¿el progreso del alumno (localStorage) es un problema a resolver pronto?
