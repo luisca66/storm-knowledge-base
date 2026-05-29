@@ -66,6 +66,20 @@ Diferencia entre cómo Luis usa IA y cómo la usa la mayoría:
 - La mayoría: instala el agente y espera que funcione
 - Luis: construye una base de conocimiento estructurada primero, para que el agente tenga contexto real
 
+### El criterio de automatización: cuándo la herramienta vale la pena
+
+*(Insight capturado 2026-05-27, clase de Montse)*
+
+Una de las preguntas que más aparece en las clases de IA de Luis es: *¿vale la pena automatizar esto con un agente?* La respuesta es un criterio medible:
+
+> **Mide el tiempo de verificación del output.** Si revisar lo que hizo el agente tarda más que hacerlo manualmente, no vale la pena automatizarlo.
+
+Pero hay una segunda mitad, y es la que separa a quien sabe usar IA de quien no:
+
+> Para llegar a *confiar* en un agente es obligatorio invertir mucho tiempo desarrollando la skill primero. Una vez dominada, se ahorran horas en adelante.
+
+Esto es **El Efecto Santiago** aplicado a la IA: el costo de no hacer la inversión inicial (aprender la herramienta, montar el setup, organizar la carpeta agéntica) siempre supera el costo de hacerla. 30 días sin metrónomo = 30 días mal estudiados; 1 día comprándolo = 29 días bien estudiados. El mismo principio gobierna la decisión de automatizar — y es coherente con la mielinización: primero el trabajo consciente y costoso (S2), después el automatismo que libera capacidad (S1).
+
 ---
 
 ## El Elefantito Matemático: cuando la tecnología resuelve un cuello de botella pedagógico
@@ -87,3 +101,4 @@ La razón por la que esto no suele aparecer en la educación musical tradicional
 ## Historial de Cambios
 - **2026-04-16** — Archivo creado. Secciones iniciales con ideas semilla. Requiere expansión.
 - **2026-05-26** — Expandida la sección de Elefantito Matemático como solución tecnológica al cuello de botella prefrontal y de memoria.
+- **2026-05-29** — Integrado el insight del criterio de automatización (2026-05-27) en la sección de IA, vinculado al Efecto Santiago y a la mielinización S2→S1.

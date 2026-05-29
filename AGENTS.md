@@ -242,7 +242,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 **Archivos en progreso:** estructura-curso.md, indice-apps.md, elefantito-matematico.md, secuenciador.md, maestro-virtual.md
 
 **Páginas de síntesis activas (08-sintesis/):**
-- `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto
+- `luis-como-ingeniero-neural.md` ← la más importante — visión central. Sólida: No-Compartimentación + Sándwich Humano + nueva sección "prueba empírica" con casos reales de clases-ia (Mario, Bruno, Karla, Esteban). Pendiente: validar conexiones con datos de sesiones reales
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
 - `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock
 - `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
@@ -250,7 +250,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `estrategia-freemium-musical.md` ← borrador
 
 **Fuentes ingresadas:** 33 fuentes total:
-- 22 libros originales + Curso Medrano + LLM Wiki + 1 video
+- 22 libros originales + Curso Medrano + LLM Wiki + 4 videos
 - Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
 - Sesión 2026-05-01: What Is Intelligence (Agüera y Arcas), This Is Your Brain on Music (Levitin), 6 libros de fitness, A Little Bit of Philosophy U03L04 + U04L04
 - Sesión 2026-05-02: Outliers (Gladwell), Your Brain at Work (Rock)

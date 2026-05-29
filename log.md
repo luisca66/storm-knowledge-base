@@ -11,9 +11,9 @@
 ## [2026-05-29] actualización | Pendientes del lint resueltos — escritura activa (Opus 4.8)
 
 **Acciones (resolución de pendientes detectados en el lint):**
-- `08-sintesis/tecnologia-al-servicio-del-metodo.md`: llenadas dos secciones que eran placeholders ("Tres capas de tecnología" + "Conexión con el método") e integrado el insight del criterio de automatización (2026-05-27) vinculado al Efecto Santiago. Frontmatter actualizado.
+- `08-sintesis/tecnologia-al-servicio-del-metodo.md`: integrado el insight del criterio de automatización (2026-05-27) en la sección "La IA en el flujo de trabajo de Luis", vinculado al Efecto Santiago y a la mielinización S2→S1. Frontmatter actualizado.
 - `00-contexto/insights.md`: insight "criterio de automatización con IA" marcado ✅ (ya integrado).
-- `08-sintesis/luis-como-ingeniero-neural.md`: llenado el núcleo central que estaba vacío — "aprender es construir y modular redes neuronales" (Kahneman S1/S2, Barrett cerebro predictivo, Camino de la Señal, No-Compartimentación). Nueva sección "La prueba empírica: el framework aplica a cualquier habilidad" con tabla método-musical↔clases-IA y los 10 alumnos como evidencia viva.
+- `08-sintesis/luis-como-ingeniero-neural.md`: el archivo ya estaba sólido; se agregó la nueva sección "La prueba empírica: el framework aplica a no-músicos" con tabla método-musical↔clases-IA y casos reales (Mario, Bruno, Karla, Esteban).
 - `AGENTS.md`: sincronizado con CLAUDE.md (alumnos 8→10, videos 1→4, notas de síntesis actualizadas) para frenar la divergencia detectada en el lint.
 
 **Conocimiento capturado:**

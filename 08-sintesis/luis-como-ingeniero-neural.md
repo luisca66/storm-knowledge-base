@@ -67,6 +67,29 @@ El proceso subyacente en cualquier segundo de clase es siempre el mismo:
 
 ---
 
+## La prueba empírica: el framework aplica a no-músicos
+
+La afirmación de que Luis "modula redes neuronales" y no solo "enseña música" dejó de ser teoría cuando empezó a dar clases de IA a alumnos que **no son músicos**. El mismo framework neural, aplicado a un dominio completamente distinto, produce la misma estructura pedagógica:
+
+| Principio del método musical | Su forma en las clases de IA |
+|---|---|
+| No mielinizar el error → coral perfecto | Verificación obligatoria del output antes de aceptarlo |
+| Anticipación: construir el modelo antes de ejecutar | El `.md` de contexto antes de soltar el agente |
+| El Efecto Santiago (inversión inicial) | Desarrollar la skill antes de automatizar |
+| Memoria como plantilla persistente | Carpeta agéntica + KB como memoria externa |
+| Delegar la ejecución, nunca el juicio | El Sándwich Humano (criterio humano en los extremos) |
+
+Los 10 alumnos de `clases-ia/` son la evidencia viva. Casos concretos del KB:
+- **Mario** (director de cine y comerciales): aprende a elegir la herramienta correcta por tarea y a no aceptar la negativa operativa de la IA ("soy vibe coder" como permiso pedagógico). Mismo principio que con un instrumentista: el criterio humano dirige, la herramienta ejecuta.
+- **Bruno** (16, guitarrista): Luis usa la IA y las apps personales como entrenamiento de **atención sostenida** — exactamente el sustrato prefrontal que el método musical también construye. La IA aquí no es el fin, es el gimnasio cognitivo.
+- **Karla** (finanzas) y **Esteban** (fondo de inversión): dominios numéricos/estratégicos sin relación con la música, y aun así el andamiaje es idéntico: encuadre → ejecución delegada → juicio.
+
+> Esto cierra el círculo de la premisa central: si el método funciona igual de bien para enseñar armonía SATB que para enseñar a un inversionista a dirigir agentes de IA, lo que Luis enseña no es música ni es IA — es **cómo construir y modular las redes neuronales que cualquier maestría requiere.**
+
+*(Nota: las conexiones por alumno son interpretación a partir de los perfiles en `clases-ia/`. Pendiente de enriquecer con datos de sesiones reales conforme avancen las clases.)*
+
+---
+
 ## Luis en la era agéntica: el Sándwich Humano como método
 
 El concepto del "Sándwich Humano" que surgió del análisis de ainews de mayo 2026 no describe algo nuevo para Luis — describe exactamente lo que ha hecho durante 35 años. Solo que ahora tiene nombre y se aplica en la era de los agentes.
@@ -147,3 +170,4 @@ Cuando esos cuatro circuitos están construidos y mielinizados, la partitura se 
 - **2026-04-22** — Ingesta de *Inner Engineering* (Sadhguru): conexión expandida con la idea de "reordenamiento del sistema" y el concepto de transformación dimensional.
 - **2026-05-21** — Reestructuración del axioma de "No-Compartimentación".
 - **2026-05-29** — Nueva sección "Luis en la era agéntica: el Sándwich Humano como método". Conexión con Paradoja de Jevons Cognitiva y Dynamic Workflows. Fuente: ainews 2026-05-28 (Wes Roth, Dan Shipper).
+- **2026-05-29** — Nueva sección "La prueba empírica: el framework aplica a no-músicos" con tabla método↔clases-IA y casos reales (Mario, Bruno, Karla, Esteban).
