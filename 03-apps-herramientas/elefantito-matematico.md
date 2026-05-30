@@ -121,7 +121,15 @@ El tutor del Nivel 1 explica por qué el cálculo mental pertenece a un curso de
 - **APK en español**: `https://pub-2de970e8bf224791a9ab6d06fa62ce19.r2.dev/APKs/elefantito-matematico.apk`
 - **APK en inglés**: `https://pub-2de970e8bf224791a9ab6d06fa62ce19.r2.dev/APKs/little-elephant-math.apk`
 - **Distribución**: descarga directa desde el catálogo del website
-- **Código fuente**: repositorio Android separado (no en `storm-studios`)
+- **Código fuente**: `D:\Android Studio\Utility apps\elefantitomatematico` (repositorio separado)
+- **Tecnología**: Kotlin nativo con Jetpack Compose — **no es un WebView ni wrapper**. App completamente nativa con arquitectura MVVM.
+- **Target SDK**: Android 36 (última versión). Min SDK 24 (Android 7.0+)
+- **Offline total**: los 28 archivos MP3 van empaquetados localmente (24 pistas de música + 2 de tutor + efectos). No necesita conexión a internet.
+- **Progreso**: `SharedPreferences` (equivalente al `localStorage` de la web)
+- **20 niveles idénticos** a la web, misma mecánica de 20 barriles, tutores bilingües
+- **Diferencia de audio**: la web narra el tutor en audio para todos los niveles (Cloudflare R2). En Android, solo los niveles 1 y 2 tienen narración de voz (`tutor_1.mp3`, `tutor_2.mp3`); los niveles 3–20 usan tutores interactivos con texto y pistas.
+- **Teclado numérico propio** en pantalla (no el del sistema)
+- **Retrato fijo** (portrait locked)
 
 ### HTML Legacy
 
@@ -160,7 +168,7 @@ Elefantito no reemplaza solfeo, armonía ni entrenamiento auditivo. Prepara el t
 | Fuente | Press Start 2P (Google Fonts) |
 | Almacenamiento | localStorage |
 | Audio | Web Audio API + MP3 en Cloudflare R2 |
-| Android | APK en Cloudflare R2 (repo separado) |
+| Android | Kotlin/Jetpack Compose nativo. Audio empaquetado localmente. Offline total. |
 | TypeScript | Sí (componentes principales .tsx) |
 
 ---
