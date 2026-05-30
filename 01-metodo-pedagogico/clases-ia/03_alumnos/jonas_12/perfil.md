@@ -34,26 +34,28 @@
 
 ## Herramientas vistas
 - ChatGPT: usado como agente de pensamiento/entrevistador para generar prompts.
-- Claude: pendiente o no central en evidencia principal.
-- Gemini: usado para primera app `atrapa la pelota.html`.
+- Claude Opus 4.8: trivia F1 profesional (sesión 5). Primer contacto con el nuevo modelo.
+- Gemini 3.5 Flash: generación de ideas de juegos y maze game en Canvas (sesión 5).
 - NotebookLM: pendiente.
 - Codex: usado para construir apps, incluyendo versiones profesionales y trivia mundial.
 - GitHub: pendiente.
-- Antigravity: usado en paralelo con Codex para construir apps.
+- Antigravity: usado en paralelo con Codex; maze game escalado a proyecto grande (sesión 5).
 - Cowork: pendiente.
-- Claude Code: usado para construir juego de bolas/strikes; tambien tuvo un intento fallido de rediseño.
+- Claude Code: usado para construir juego de bolas/strikes; intento fallido de rediseño en sesión 4.
+- Terminal / localhost: primera clase en sesión 5 — necesaria para correr proyectos React/Next.js.
 - ElevenLabs: pendiente.
 - Suno: pendiente.
-- Otras: Claude Design, Opus 4.7 como generador de prompt, app propia de bateria.
+- Otras: Claude Design, app propia de batería en tablet (autoría de Luis).
 
 ## Nivel de dominio
-- Nivel actual: entre Nivel 2 y Nivel 3 en uso de IA; con señales fuertes hacia Nivel 4 cuando trabaja en proyectos que siente propios.
+- Nivel actual: Nivel 3 consolidándose; señales fuertes de Nivel 4 en criterio propio.
 - Evidencias:
   - Eligio conceptos de apps conectados con beisbol y trivia.
   - Propuso refinar una app previa antes de construir algo nuevo.
   - En la cuarta sesion dirigio el flujo ChatGPT Thinking -> Codex / Antigravity.
   - Distinguio que un agente debe resolver tareas propias y no delegarlas de vuelta al humano.
-- Proximo nivel sugerido: consolidar Nivel 3 con prompt propio, verificacion de resultados y primera reflexion explicita sobre IA.
+  - En la quinta sesion: eligio el maze game entre varias opciones de Gemini (decision de diseño propia). Pidio subir el peso en bench press el solo. Asimilo la terminal sin resistencia.
+- Proximo nivel sugerido: primera reflexion oral explicita sobre IA (que hice yo / que hizo la IA / que tuve que juzgar). Arrancar proyectos en terminal de forma autonoma.
 
 ## Historial
 - Sesiones realizadas:
@@ -61,24 +63,24 @@
   - 2026-04-17: bateria + primera exposicion a IA y construccion de apps.
   - 2026-04-24: gym + bateria + Claude Code / app de beisbol.
   - 2026-05-08: ChatGPT Thinking + Codex + Antigravity; app de trivia mundial.
+  - 2026-05-28: gym intenso + bateria + Opus 4.8 + Gemini 3.5 Flash + primera terminal.
 - Logros:
   - Primer ritmo de bateria en 10-15 minutos.
   - Ejercicios 1-10 de bombo con app de bateria.
   - Primer pull up sin ayuda y sostenerse erguido en aros.
   - Construccion de varias apps con IA.
   - Autonomia creciente en seleccion de ideas y flujo de herramientas.
+  - 10 pull ups propios. Bench press: 4x10 con 10 kg + serie final 12.5 kg pedida por el.
+  - Primera clase de terminal — sin resistencia.
+  - Eligio juego propio (maze) entre opciones de Gemini. Decision de diseño autonoma.
 - Dificultades:
-  - Filosofia/pensamiento critico explicito no se ha introducido aun.
-  - Riesgo de que IA se quede como trabajo dirigido por Luis si no se le pide prompt propio.
-  - Fatiga de viernes o por demanda cognitiva sostenida.
-- Tareas:
-  - Introducir primer ejercicio de filosofia/pensamiento critico.
-  - Probar que Jonas dicte o escriba un prompt completo sin intermediario.
-  - Revisar intento fallido de Claude Code en rediseño de beisbol.
+  - Reflexion explicita sobre roles IA/humano aun no introducida formalmente.
+  - Fatiga natural al final de sesiones densas (gym + bateria + codigo).
 - Proximos pasos:
-  - Sesion 5: usar su frase "lo tienen que hacer todo ustedes" como entrada a filosofia de mente, roles de agente y criterio humano.
-  - Llevarlo a explicar que hace la IA, que hace el humano y que debe verificarse.
-  - Mantener proyectos concretos con beisbol, bateria, robotica o trivia.
+  - Arrancar proyectos en terminal de forma autonoma (sin guia paso a paso).
+  - Primera reflexion oral breve: que hice yo / que hizo la IA / que tuve que juzgar.
+  - Usar la frase "lo tienen que hacer todo ustedes" cuando salga organicamente — no forzarla.
+  - Mantener proyectos concretos con F1, beisbol, bateria, robotica.
 
 ## Observaciones de Luis
 - Notas pedagogicas: Jonas aprende mejor con retos concretos, progreso visible y sentido de propiedad. No conviene presentarle filosofia como materia escolar; debe entrar por beisbol, IA, bateria o agentes.
