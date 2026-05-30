@@ -127,7 +127,7 @@ El tutor del Nivel 1 explica por qué el cálculo mental pertenece a un curso de
 - **Offline total**: los 28 archivos MP3 van empaquetados localmente (24 pistas de música + 2 de tutor + efectos). No necesita conexión a internet.
 - **Progreso**: `SharedPreferences` (equivalente al `localStorage` de la web)
 - **20 niveles idénticos** a la web, misma mecánica de 20 barriles, tutores bilingües
-- **Diferencia de audio**: la web narra el tutor en audio para todos los niveles (Cloudflare R2). En Android, solo los niveles 1 y 2 tienen narración de voz (`tutor_1.mp3`, `tutor_2.mp3`); los niveles 3–20 usan tutores interactivos con texto y pistas.
+- **Audio de tutor**: solo los niveles 1 y 2 tienen narración de voz — igual en web y Android. Los niveles 3–20 tienen tutores interactivos paso a paso que no la necesitan.
 - **Teclado numérico propio** en pantalla (no el del sistema)
 - **Retrato fijo** (portrait locked)
 
