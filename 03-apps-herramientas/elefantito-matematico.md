@@ -1,100 +1,172 @@
 ---
 titulo: "Elefantito Matemático"
 tipo: tecnico
-ultima_actualizacion: 2026-05-26
+ultima_actualizacion: 2026-05-29
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 03-apps-herramientas/indice-apps.md
   - 08-sintesis/tecnologia-al-servicio-del-metodo.md
-estado: en_progreso
+estado: completo
 ---
 
 # Elefantito Matemático
 
 ## Resumen
-Juego retro de matemática mental bilingüe (español/inglés), inspirado en Kawashima y en técnicas de *Secrets of Mental Math* de Arthur Benjamin. La versión actual del website ya no es solo el HTML/vanilla JS original: vive integrada en Next.js como app web jugable dentro de la ruta `/apps/matematicas-mentales/jugar`, con tutoriales por nivel, audio narrado, progreso local y mecánica de juego por desbloqueo.
+
+Juego retro de matemática mental bilingüe (español/inglés), inspirado en el Dr. Ryuta Kawashima y en las técnicas de *Secrets of Mental Math* de Arthur Benjamin. Disponible en **web (Next.js)** y **Android (APK)**. Cuenta con 20 niveles progresivos desbloqueables, tutores interactivos bilingües por nivel, mecánica de juego retro con elefante y barriles, y audio narrado alojado en Cloudflare R2.
+
+**Estado actual: terminado y en producción.**
+
+---
 
 ## Propósito Pedagógico
-Elefantito Matemático existe porque Luis no entiende la formación musical como entrenamiento de dedos, sino como entrenamiento del sistema nervioso completo. La aritmética mental rápida funciona como un gimnasio del córtex prefrontal: obliga al alumno a sostener atención, manipular información en memoria de trabajo, inhibir impulsos y responder bajo presión temporal.
 
-La conexión con la música no está en que las matemáticas "se parezcan" a la armonía de forma superficial. Está en el tipo de cerebro que ambas actividades exigen. Un estudiante que va a escribir corales, escuchar voces simultáneas, anticipar funciones armónicas y sostener intención consciente antes de tocar necesita un prefrontal fuerte. Por eso Luis puede presentar la app a sus alumnos presenciales con una frase directa: "vas a necesitar un cerebro muy poderoso".
+Elefantito existe porque Luis no entiende la formación musical como entrenamiento de dedos, sino como entrenamiento del sistema nervioso completo. La aritmética mental rápida funciona como un gimnasio del córtex prefrontal: obliga al alumno a sostener atención, manipular información en memoria de trabajo, inhibir impulsos y responder bajo presión temporal.
 
-El juego se inspira en la línea de investigación del Dr. Ryuta Kawashima sobre cálculo mental y activación prefrontal. Dentro del método, ese dato se integra con Kahneman: la matemática mental entrena el Sistema 2, el sistema deliberado que permite detener la reacción automática y construir intención.
+La conexión con la música no está en que las matemáticas "se parezcan" a la armonía. Está en el tipo de cerebro que ambas actividades exigen. Un estudiante que va a escribir corales, escuchar voces simultáneas, anticipar funciones armónicas y sostener intención consciente antes de tocar necesita un prefrontal fuerte.
 
-En clases presenciales, este entrenamiento es obligatorio para alumnos de música. En el website, la app funciona como herramienta opcional para cualquier usuario: desde niños que practican sumas hasta adultos que quieren llevar su velocidad mental al límite.
+El juego integra dos líneas de investigación:
+- **Dr. Ryuta Kawashima**: el cálculo mental rápido activa el córtex prefrontal de forma más intensa que la mayoría de actividades cognitivas (*Brain Age*).
+- **Arthur Benjamin**: técnicas de matemática mental que permiten operar números grandes de izquierda a derecha, en voz alta, sin papel. 15+ técnicas implementadas en los 20 niveles.
 
-## Spec del Juego
-### Módulo de matemática mental
+Integrado con Kahneman: la matemática mental entrena el Sistema 2 — el sistema deliberado que permite detener la reacción automática y construir intención.
 
-- Mapa de **6 niveles desbloqueables**.
-- Cada nivel tiene pestaña **Tutor** y pestaña **Jugar**.
-- El alumno debe completar/aceptar la lección del tutor antes de jugar.
-- Progreso guardado en `localStorage` (`unlockedLevels`, `completedLessons`).
-- Tiempo ajustable por pregunta: 3 a 25 segundos en la versión Next.js.
-- Objetivo de cada partida: llenar la repisa con **20 barriles**.
-- Respuesta correcta: el elefantito lanza un barril.
-- Error o tiempo agotado: se retira un barril.
-- Al completar un nivel, se desbloquea el siguiente.
-- Diseño retro/pixel con fuente `Press Start 2P`, scanlines, mapa de niveles, assets de elefantito y barriles.
-- Música de fondo y efectos alojados en Cloudflare R2.
+En clases presenciales, este entrenamiento es obligatorio para alumnos de música. En el website, la app está disponible para cualquier usuario como herramienta cognitiva.
 
-### Progresión actual de niveles
+---
 
-| Nivel | Tipos de problema |
-|-------|-------------------|
-| 1 | Sumas 1 dígito, restas 1 dígito sin negativo, multiplicación 1x1 |
-| 2 | Sumas 2 dígitos + 1 dígito, restas 2 dígitos - 1 dígito, divisiones exactas básicas |
-| 3 | Sumas de dos números entre 11 y 89 |
-| 4 | Sumas de tres dígitos + tres dígitos |
-| 5 | Sumas por redondeo/compensación: segundo número cerca de la siguiente centena |
-| 6 | Sumas de 4 dígitos + 3 dígitos, sin ceros internos |
+## Los 20 Niveles
 
-### Tutor integrado
+### Progresión completa
 
-La versión nueva incluye tutoriales bilingües por nivel. El nivel 1 explica por qué el cálculo mental pertenece a un curso de música: transposición, memoria de trabajo, procesamiento secuencial, atención, Kawashima, *Brain Age*, Arthur Benjamin y transferencia cognitiva entre música y cálculo. Los niveles posteriores introducen la progresión práctica: números más grandes, resta, división, caminos reversibles, memoria de trabajo y técnicas de descomposición.
+| Nivel | Técnica | Tipo de Problema |
+|-------|---------|-----------------|
+| 1 | Suma básica (1 dígito) | 1–9 |
+| 2 | Suma/resta básica (1 dígito) | 1–9 |
+| 3 | Suma dos cifras | 11–99 |
+| 4 | Suma tres cifras | 100–999 |
+| 5 | Suma 4d + 3d (sin ceros) | 1,000–9,999 + 100–999 |
+| 6 | Suma dos cifras avanzada | 11–99, sin unidades ≠ 0 |
+| 7 | Suma tres cifras (sin ceros) | 100–999 |
+| 8 | Redondeo y compensación | 3d + número que termina en 91–99 |
+| 9 | Suma compleja 4d + 3d | 1,000–9,999 + 100–999 |
+| 10 | **Complementos a 100** | Técnica digit-by-digit (Benjamin) |
+| 11 | **Complementos a 1,000** | Extensión de complementos |
+| 12 | Resta sin préstamo (2d) | 30–99 |
+| 13 | Resta sin préstamo (3d) | 100–999 |
+| 14 | **Redondeo y compensación en resta** | Números que terminan en 7–9 |
+| 15 | **Resta con complemento (3d)** | 200–999 con análisis de redondeo |
+| 16 | **Tablas de multiplicación** | 2×2 a 12×12 |
+| 17 | **Tablas de 11 y 12** | Multiplicación especializada |
+| 18 | **Factorización (11 ó 12)** | 2d × múltiplos de 11/12 |
+| 19 | **Multiplicación 2d×1d (distributiva)** | 12–99 × 2–9 |
+| 20 | **Multiplicación 3d×1d (distributiva extendida)** | 100–999 × 2–9 |
 
-Cada tutor tiene audio narrado en español/inglés alojado en Cloudflare R2 y un botón de cierre tipo "Entendido, estoy listo" que marca la lección como completada.
+*(Además, el catálogo interno documenta tipos de problema hasta el 24, incluyendo división exacta 2d/3d y fracciones decimales cíclicas — extensibles como niveles futuros.)*
 
-### Módulo de memoria
+### Técnicas de Arthur Benjamin implementadas
 
-Elefantito se conecta con una app separada de memoria basada en mnemotecnia clásica de números y letras. No busca entrenar "memoria musical" de forma genérica, sino una capacidad transversal: retener, asociar y recuperar información con velocidad y precisión.
+Las siguientes técnicas de *Secrets of Mental Math* tienen tutores interactivos completos:
 
-Este módulo enlaza directamente con el principio del método: "Memoria es primero y es todo". La memoria entrenada es el puente entre intención y ejecución; sin una plantilla mental clara, el cuerpo no tiene qué obedecer.
+- Complementos a 100 y 1,000 (niveles 10–11)
+- Propiedad distributiva izquierda-a-derecha (niveles 19–20)
+- Factorización por 11 y 12 (nivel 18)
+- Redondeo y compensación en suma y resta (niveles 8, 14–15)
+- Tablas multiplicativas extendidas (niveles 16–17)
+- División izquierda-a-derecha (planificada)
+- Fracciones decimales cíclicas — 1/7 = 142857, 1/11 = 09–90 (planificada)
 
-### Relación con el curso musical
+---
 
-Elefantito no reemplaza solfeo, armonía ni entrenamiento auditivo. Prepara el terreno cognitivo para que esos entrenamientos puedan operar mejor. Es una herramienta auxiliar del mismo ecosistema que incluye:
+## Mecánica de Juego
 
-- apps de oído absoluto y relativo;
-- Maestro Virtual para validación MIDI;
-- Storm Sequencer para composición y entrega de ejercicios;
-- curso de armonía SATB y escritura coral.
+- **Objetivo**: llenar la repisa con 20 barriles
+- **Respuesta correcta**: el elefantito lanza un barril
+- **Error o tiempo agotado**: se retira un barril
+- **Tiempo por pregunta**: configurable (default 10s, rango 3–25s)
+- **Progresión bloqueada**: hay que completar el tutor del nivel actual para jugar; hay que completar el juego para desbloquear el siguiente
+- **Estética**: pixel art retro, fuente `Press Start 2P`, scanlines, colores neon verde/cian
+- **Audio**: 24 tracks de música aleatoria desde Cloudflare R2; efectos de sonido por acción
 
-## Estado Actual
-### Versión actual observada en el repo del website
+---
 
-- Repo fuente: `C:\Users\Luis\Documents\claude_code\nuevo-website\storm-studios`
-- Ruta Next.js: `app/[locale]/apps/matematicas-mentales/jugar/page.tsx`
-- Componentes principales: `components/apps/elefantito-nextjs/`
-- Catálogo público: `data/apps/apps-catalog.ts`
-- Assets locales: `public/elefantito_piso.png`, `public/elefantito_aire.png`, `public/barril.png`, `public/images/app-matematicas-mentales.png`
-- Versión HTML anterior: `public/apps/elefantito.html` conserva una implementación legacy con selector de 8 niveles y récord diario local.
+## Tutor Bilingüe por Nivel
 
-### Por verificar
+Cada nivel tiene un componente `TutorLevel[N].jsx` dedicado (20 archivos, 7–16 KB cada uno). Cada tutor:
 
-- Si la versión legacy `public/apps/elefantito.html` sigue enlazada en algún lugar o ya puede considerarse archivo histórico.
-- Si la ficha pública del catálogo debe cambiar de "8 niveles" a "6 niveles" para coincidir con la versión Next.js.
-- Si las técnicas avanzadas de Arthur Benjamin están planificadas para niveles futuros o quedaron fuera del rediseño actual.
+1. Explica la técnica mental del nivel (bilingüe español/inglés)
+2. Practica paso a paso con el alumno antes de soltarlo al juego cronometrado
+3. Tiene sistema de pistas y rastreo de errores
+4. Incluye audio narrado en ambos idiomas alojado en Cloudflare R2
+5. Termina con botón "Entendido, estoy listo" que desbloquea el juego
 
-## Tecnología
-- Next.js / React para la versión actual integrada al website
-- HTML / vanilla JavaScript para la versión legacy
-- Estilo visual retro
-- Bilingüe: español e inglés
-- `localStorage` para progreso
-- Cloudflare R2 para audio de tutorial, música y efectos
+El tutor del Nivel 1 explica por qué el cálculo mental pertenece a un curso de música: transposición, memoria de trabajo, procesamiento secuencial, atención, Kawashima, *Brain Age*, Arthur Benjamin y transferencia cognitiva entre música y cálculo.
+
+---
+
+## Plataformas
+
+### Web (Next.js)
+
+- **Rutas**: `/es/apps/matematicas-mentales/jugar` y `/en/apps/matematicas-mentales/jugar`
+- **Componente principal**: `components/apps/elefantito-nextjs/ElefantitoApp.jsx`
+- **27 archivos JSX** (~8,000–10,000 líneas de código)
+- **Progreso**: `localStorage` con versionado (`"locked-v1"`)
+- **Estado global**: React Context API (`GameProvider`, `LanguageProvider`)
+- **Localización**: `next-intl`, archivos `es.json` y `en.json`
+- **Assets**: `public/elefantito_piso.png`, `public/elefantito_aire.png`, `public/barril.png`
+
+### Android
+
+- **APK en español**: `https://pub-2de970e8bf224791a9ab6d06fa62ce19.r2.dev/APKs/elefantito-matematico.apk`
+- **APK en inglés**: `https://pub-2de970e8bf224791a9ab6d06fa62ce19.r2.dev/APKs/little-elephant-math.apk`
+- **Distribución**: descarga directa desde el catálogo del website
+- **Código fuente**: repositorio Android separado (no en `storm-studios`)
+
+### HTML Legacy
+
+- **Estado**: archivado en `/archive/apps/elefantito-legacy.html`
+- **No enlazado** desde ninguna parte de la aplicación actual
+- **Propósito**: referencia histórica — tenía 8 niveles y récord diario local
+
+---
+
+## Integración en el Ecosistema
+
+Elefantito no reemplaza solfeo, armonía ni entrenamiento auditivo. Prepara el terreno cognitivo para que esos entrenamientos operen mejor. Es una herramienta auxiliar del mismo ecosistema:
+
+- Apps de oído absoluto y relativo
+- Maestro Virtual para validación MIDI en tiempo real
+- Storm Sequencer para composición y entrega de ejercicios
+- Curso de armonía SATB y escritura coral
+
+**En el catálogo público** (`data/apps/apps-catalog.ts`):
+- Slug: `matematicas-mentales`
+- Categoría: `cognitive`
+- Features declaradas: 20 niveles progresivos, tutores bilingües, técnicas reales de matemática mental, progresión bloqueada, web + APK Android
+
+**Blog post de lanzamiento**: `content/blog/es/2026-05-27-propedeutico-listo-apps-matematicas-memoria.mdx` — "El propedéutico ya está listo, y las primeras apps cognitivas también"
+
+---
+
+## Stack Técnico
+
+| Capa | Tecnología |
+|------|-----------|
+| Framework | Next.js 14+ (React Server + Client Components) |
+| Estado | React Context API |
+| Localización | next-intl |
+| Estilos | Tailwind CSS |
+| Fuente | Press Start 2P (Google Fonts) |
+| Almacenamiento | localStorage |
+| Audio | Web Audio API + MP3 en Cloudflare R2 |
+| Android | APK en Cloudflare R2 (repo separado) |
+| TypeScript | Sí (componentes principales .tsx) |
+
+---
 
 ## Historial de Cambios
-- 2026-04-07: Creación inicial (borrador)
-- 2026-05-26: Llenado del propósito pedagógico, conexión con el método, módulos cognitivos y pendientes de verificación.
-- 2026-05-26: Actualización con la versión real del repo `nuevo-website/storm-studios`: app Next.js con 6 niveles, tutor bilingüe, audio narrado, progreso local y versión HTML legacy identificada.
+
+- **2026-04-07** — Creación inicial (borrador)
+- **2026-05-26** — Llenado del propósito pedagógico y versión con 6 niveles documentada
+- **2026-05-29** — Reescritura completa. Luis terminó el proyecto en web y Android. Actualización a 20 niveles, 25 tipos de problema, 15+ técnicas de Arthur Benjamin implementadas, APK en Cloudflare R2, HTML legacy archivado. Estado cambiado a `completo`.
