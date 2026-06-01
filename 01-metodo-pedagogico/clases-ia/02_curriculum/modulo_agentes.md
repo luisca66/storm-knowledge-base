@@ -92,9 +92,9 @@ La inversion inicial (El Efecto Santiago) siempre se requiere: aprender a hacer 
 
 | Plan | Chat recomendado |
 |---|---|
-| Pago | Claude 4.7 Extended Thinking |
+| Pago | Claude 4.8 (Opus) |
 | Gratuito | Claude 4.6 |
-| Alternativa | ChatGPT 5.5 Thinking / Gemini 3.1 Pro |
+| Alternativa | ChatGPT 5.5 Thinking / Gemini 3.5 Flash |
 
 ---
 
@@ -114,6 +114,37 @@ La inversion inicial (El Efecto Santiago) siempre se requiere: aprender a hacer 
 ## Filosofia silenciosa
 
 El humano no delega el pensamiento — solo la ejecucion. El `.md` es la prueba de que el humano penso antes de actuar. Un agente sin un `.md` bien construido es un ejecutor sin criterio.
+
+---
+
+## El problema aguas arriba
+
+*(Fuente: "The Real Problem With AI Agents Nobody's Talking About")*
+
+El error mas comun con los agentes no ocurre durante la ejecucion — ocurre antes de que el agente empiece. Se instala el agente, se abre la carpeta, y aparece la pregunta que no se discute en los tutoriales: *¿y ahora que le digo?*
+
+El caso documentado: un desarrollador invirtio 40 horas construyendo un framework agentico. Resultado: outputs inutiles. El problema no era tecnico — era la ausencia de claridad de intencion antes de empezar.
+
+La pregunta que el agente necesita poder responder antes de la primera instruccion:
+
+> *"Que hago exactamente, en lenguaje verificable y accionable."*
+
+No "soy un asistente de productividad". Sino: "Reviso estos archivos en esta carpeta, produzco este tipo de output, en este formato, con estas restricciones. Si algo no esta claro, pregunto antes de ejecutar."
+
+### El OS del agente: cuatro archivos de identidad
+
+Los setups que funcionan tienen una estructura minima equivalente a un sistema operativo:
+
+| Archivo | Contenido |
+|---|---|
+| `soul.md` | Por que existe este agente. Su proposito profundo. |
+| `identity.md` | Que hace, que no hace, como toma decisiones. |
+| `user.md` | Quien es el usuario: contexto, estilo, preferencias. |
+| `heartbeat.md` | La tarea recurrente que el agente ejecuta por defecto. |
+
+Esto es la version persistente de la carpeta agentica del Flujo Chat→MD→Agente: en un proyecto de ejecucion unica se crea un `instrucciones.md`; en un agente que vive dias o semanas en una carpeta se mantiene un OS.
+
+**Conexion con el Efecto Santiago:** quien no invierte en construir este OS primero obtiene outputs genericos o inutiles, independientemente de lo potente que sea el modelo. El problema no es el agente — es la ausencia de claridad aguas arriba.
 
 ---
 
@@ -163,6 +194,7 @@ El alumno:
 - Asumir que si el agente termino, lo hizo correctamente.
 - Querer automatizar un proceso que el alumno mismo no entiende bien.
 - Delegar el pensamiento junto con la ejecucion.
+- Instalar el agente sin definir en lenguaje verificable que hace, que no hace y con que archivos trabaja (el problema aguas arriba).
 
 ---
 
@@ -195,3 +227,4 @@ El alumno puede tomar una tarea propia, generar el `.md` sin ayuda de Luis, pasa
 
 - 2026-05-26: enseñado en clase 3 del grupo martes (Carmen, Mario, Montse, Karla). Flujo completo ejecutado. Distincion clave: Karla leyo el plan antes de pasarlo al agente.
 - Proyecto real de Montse: calendario de conferencias PDF para Mario — ejecutado con Codex, verificado con segundo chat.
+- 2026-06-01: Seccion "El problema aguas arriba" integrada desde video "The Real Problem With AI Agents". Tabla de modelos actualizada (Claude 4.8, Gemini 3.5 Flash). Nuevo error agregado a la lista de errores comunes.

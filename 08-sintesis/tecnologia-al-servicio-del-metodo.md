@@ -1,7 +1,7 @@
 ---
 titulo: "Tecnología al Servicio del Método"
 tipo: sintesis
-ultima_actualizacion: 2026-05-29
+ultima_actualizacion: 2026-06-01
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 02-plataforma-web/maestro-virtual.md
@@ -10,11 +10,13 @@ relacionado_con:
   - 03-apps-herramientas/elefantito-matematico.md
   - 00-contexto/stack-tecnologico.md
   - 07-fuentes/videos/The Real Problem With AI Agents Nobody's Talking About.md
+  - 07-fuentes/videos/singularidad-organizacional-exo-3.0.md
   - 08-sintesis/modelos-mentales-aprendizaje-musical.md
 estado: en_progreso
 fuentes_utilizadas:
   - Los Seres Musicales
   - The Real Problem With AI Agents (video)
+  - Singularidad Organizacional — ExO 3.0 (Diamandis + Ismail, video destilado)
   - LLM Wiki (Karpathy)
   - Entrevista a Luis (pendiente)
 ---
@@ -82,6 +84,55 @@ Esto es **El Efecto Santiago** aplicado a la IA: el costo de no hacer la inversi
 
 ---
 
+## ExO 3.0 y la Singularidad Organizacional
+
+*(Fuente: podcast Moonshots Ep. 258, Peter Diamandis + Salim Ismail, 2026 — destilado: `singularidad-organizacional-exo-3.0.md`)*
+
+Diamandis e Ismail introdujeron en 2026 el concepto de **Singularidad Organizacional**: el momento en que la inteligencia generada por IA dentro de una organización supera la inteligencia colectiva de su equipo humano. No es una predicción futurista — es un umbral operativo que organizaciones pequeñas están cruzando ahora.
+
+### El teorema de Coase reformulado
+
+Ronald Coase demostró en 1937 que las empresas existen porque coordinar transacciones en el mercado tiene costos. Cuando esos costos bajan, las empresas se reducen. La IA colapsa los costos de coordinación a cero.
+
+> *"Building the functionality is cheaper than having the meeting about it."* — Salim Ismail
+
+La implicación directa para Storm Studios: un equipo de uno con herramientas agénticas puede ejecutar funciones que antes requerirían equipos. No porque Luis sea más eficiente — sino porque los agentes absorben los costos de coordinación.
+
+### El stack de 6 capas de inteligencia
+
+La arquitectura que propone ExO 3.0 para cualquier sistema que integre IA:
+
+| Capa | Función |
+|---|---|
+| **Propósito** | La razón de ser que guía todas las decisiones |
+| **Sentir** | Captura de información del entorno (inputs) |
+| **Interpretar** | Dar sentido a los inputs en contexto |
+| **Decidir** | Seleccionar la acción correcta |
+| **Orquestar** | Coordinar múltiples agentes en ejecución |
+| **Aprender** | Actualizar el sistema a partir de resultados |
+
+*Envuelto en una capa transversal: Govern & Assure.*
+
+Este stack describe exactamente lo que este KB implementa para Luis: CLAUDE.md y los archivos de síntesis son la capa Propósito + Interpretar; los agentes (Claude Code, Codex) son Decidir + Orquestar; las actualizaciones del KB son la capa Aprender.
+
+### Los 5 fosos defensivos
+
+En un mundo donde cualquier funcionalidad puede replicarse con agentes, los activos defensibles son:
+
+1. **Datos propietarios** — lo que nadie más tiene (35 años de práctica pedagógica codificada en el método)
+2. **Comunidad y efectos de red** — relaciones que generan valor porque otros participan
+3. **Marca** — confianza acumulada que no se puede instanciar con un agente
+4. **Acceso regulatorio** — certificaciones, alianzas institucionales
+5. **Distribución única** — canales que se construyeron con tiempo y confianza
+
+Para Storm Studios: el foso más profundo es datos propietarios (el método de Luis) + marca personal de educador. Esa combinación no se replica con un agente competidor — se construye en décadas.
+
+### Pasaporte del agente: identidad y gobernanza
+
+Ismail propone que cada agente que opera en la organización debe tener un "pasaporte": qué puede hacer, con qué datos trabaja, qué restricciones tiene y quién es responsable de su output. Esto es coherente con el OS del agente (soul.md + identity.md + user.md + heartbeat.md) que Luis ya enseña en clases-IA. La diferencia entre un agente que produce outputs confiables y uno que improvisa es que el primero tiene pasaporte.
+
+---
+
 ## El Elefantito Matemático: cuando la tecnología resuelve un cuello de botella pedagógico
 
 Elefantito Matemático resuelve un problema que la educación musical tradicional suele dejar invisible: el alumno puede tener instrumento, partituras, maestro y motivación, pero no necesariamente el aparato cognitivo listo para sostener el tipo de atención que exige la música avanzada.
@@ -102,3 +153,4 @@ La razón por la que esto no suele aparecer en la educación musical tradicional
 - **2026-04-16** — Archivo creado. Secciones iniciales con ideas semilla. Requiere expansión.
 - **2026-05-26** — Expandida la sección de Elefantito Matemático como solución tecnológica al cuello de botella prefrontal y de memoria.
 - **2026-05-29** — Integrado el insight del criterio de automatización (2026-05-27) en la sección de IA, vinculado al Efecto Santiago y a la mielinización S2→S1.
+- **2026-06-01** — Sección ExO 3.0 y Singularidad Organizacional integrada: teorema de Coase reformulado, stack de 6 capas de inteligencia (Propósito→Sentir→Interpretar→Decidir→Orquestar→Aprender), 5 fosos defensivos, pasaporte del agente. Conexión explícita entre el stack y la arquitectura del KB. Fuente: singularidad-organizacional-exo-3.0.md.

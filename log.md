@@ -8,6 +8,22 @@
 
 ---
 
+## [2026-06-01] ingest | 3 videos ingresados al wiki — El problema aguas arriba, ExO 3.0, Longevidad sistémica
+
+**Videos ingresados:**
+1. "The Real Problem With AI Agents Nobody's Talking About" → `modulo_agentes.md` (nueva sección "El problema aguas arriba"), `conceptos_no_olvidar.md` (sección 18 + concepto transversal), `tecnologia-al-servicio-del-metodo.md` (mención en sección IA).
+2. "Singularidad Organizacional — ExO 3.0" (Diamandis + Ismail) → `tecnologia-al-servicio-del-metodo.md` (nueva sección completa: Coase reformulado, stack 6 capas, 5 fosos defensivos, pasaporte del agente). Moonshots raw transcript no requiere ingesta separada — cubierto por el destilado.
+3. "This Could Save Your Life" (Dr. William Lee) → `el-musico-como-atleta.md` (sección 8: longevidad sistémica — 5 prácticas con traducción directa al músico). Dimensión "Longevidad sistémica" añadida a la tabla del sistema en sección 6.
+
+**Archivos modificados:** modulo_agentes.md, conceptos_no_olvidar.md, tecnologia-al-servicio-del-metodo.md, el-musico-como-atleta.md, indice-fuentes.md, log.md
+
+**Conocimiento capturado:**
+- El problema aguas arriba: instalar un agente ≠ saber usarlo. El cuello de botella real es la claridad de intención upstream, no la potencia del modelo. OS del agente: soul.md + identity.md + user.md + heartbeat.md.
+- ExO 3.0 conecta directamente con la arquitectura del KB: el stack de 6 capas (Propósito→Sentir→Interpretar→Decidir→Orquestar→Aprender) describe exactamente lo que CLAUDE.md + síntesis + agentes implementan. Los 5 fosos defensivos identifican datos propietarios + marca personal como los activos más profundos de Storm Studios.
+- Longevidad sistémica: el músico de alto rendimiento que no cuida la longevidad optimiza para el presente a costa del futuro. Sueño oncológico = consolidación de memoria motora (el sistema consolida durante el sueño profundo, no durante la práctica).
+
+---
+
 ## [2026-05-29] actualización | Pendientes del lint resueltos — escritura activa (Opus 4.8)
 
 **Acciones (resolución de pendientes detectados en el lint):**

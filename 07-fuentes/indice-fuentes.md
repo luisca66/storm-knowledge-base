@@ -1,7 +1,7 @@
 ---
 titulo: "Índice de Fuentes y Lecturas"
 tipo: catalogo
-ultima_actualizacion: 2026-05-29
+ultima_actualizacion: 2026-06-01
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -50,10 +50,10 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 
 | Video | Canal/Autor | Área de impacto | Archivo |
 |-------|-------------|-----------------|---------|
-| The Real Problem With AI Agents Nobody's Talking About | [verificar canal] | IA / estrategia KB | videos/The Real Problem With AI Agents Nobody's Talking About.md |
-| This Could Save Your Life | [verificar canal] | [por clasificar] | videos/This Could Save Your Life.md |
-| Moonshots — Organizational Singularity | Peter Diamandis & Salim Ismail | IA / negocio — singularidad organizacional, ExO 3.0 — pendiente ingestar | videos/moonshots-organizational-singularity-peter-diamandis-salim-ismail.md |
-| Singularidad Organizacional — ExO 3.0 | [verificar canal] | IA / negocio — modelo organizacional exponencial — pendiente ingestar | videos/singularidad-organizacional-exo-3.0.md |
+| The Real Problem With AI Agents Nobody's Talking About | [verificar canal] | IA / estrategia KB — upstream gap, OS del agente (soul/identity/user/heartbeat) — **INGESTED 2026-06-01** | videos/The Real Problem With AI Agents Nobody's Talking About.md |
+| This Could Save Your Life | Dr. William Lee | fitness / método (cuerpo) — longevidad sistémica, 5 prácticas de prevención — **INGESTED 2026-06-01** | videos/This Could Save Your Life.md |
+| Moonshots — Organizational Singularity | Peter Diamandis & Salim Ismail | IA / negocio — raw transcript; cubierto por ExO 3.0 destilado | videos/moonshots-organizational-singularity-peter-diamandis-salim-ismail.md |
+| Singularidad Organizacional — ExO 3.0 | Diamandis + Ismail (destilado) | IA / negocio — stack 6 capas, 5 fosos defensivos, Coase reformulado — **INGESTED 2026-06-01** | videos/singularidad-organizacional-exo-3.0.md |
 
 ## AI News — Resúmenes diarios (sistema ainews)
 
@@ -107,3 +107,4 @@ Sistema de inteligencia continua sobre el panorama de IA. Procesado automáticam
 - 2026-05-06: Sistema ainews registrado como fuente continua (mar-may 2026). Originals (Grant) y Shadows of Forgotten Ancestors (Sagan) registrados — pendiente ingestar. Síntesis de ainews en 00-contexto/ai-radar.md.
 - 2026-05-21: Verificados y corregidos 10 autores que estaban como [verificar autor]: Wolfe, Blahnik, Benjamin & Shermer, Smil, García Morente, Cave, Sadhguru, Lassalle, Dalio, Keyu Jin.
 - 2026-05-29: Lint — agregados 3 videos nuevos (This Could Save Your Life, Diamandis/Ismail Moonshots, ExO 3.0). Pendiente ingestarlos al wiki.
+- 2026-06-01: Videos ingresados al wiki. INGESTED: "The Real Problem With AI Agents" → modulo_agentes.md + conceptos_no_olvidar.md + tecnologia-al-servicio-del-metodo.md. INGESTED: "This Could Save Your Life" → el-musico-como-atleta.md (sección 8). INGESTED: "ExO 3.0" → tecnologia-al-servicio-del-metodo.md (nueva sección). Moonshots raw transcript: no requiere ingesta separada (cubierto por ExO 3.0 destilado). Autor Dr. William Lee confirmado para "This Could Save Your Life".
