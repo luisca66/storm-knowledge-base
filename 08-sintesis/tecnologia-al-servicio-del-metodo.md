@@ -48,9 +48,35 @@ Con retroalimentación inmediata → cada nota incorrecta se corrige en el momen
 
 ---
 
-## El Storm Sequencer: composición como exploración, no como teoría
+## El Storm Sequencer: teoría encarnada en escritura activa
 
-*[Pendiente — ¿cómo usa el Sequencer para que el alumno explore armonía de forma activa antes de que la teoría lo explique?]*
+El Storm Workstation v3.0 no es un DAW simplificado. Es un instrumento pedagógico con una arquitectura de dos etapas diseñada para llevar al alumno desde la primera nota hasta la escritura coral a cuatro voces.
+
+### El modelo de aprendizaje: simultaneidad, no secuencia
+
+En la mayoría de los métodos, la teoría precede a la práctica. En Storm Studios, Luis modela el ejercicio en video mientras explica la teoría: **escribe en el Sequencer y habla al mismo tiempo**. El alumno no aprende la regla para luego aplicarla — ve la regla materializarse como sonido en tiempo real.
+
+Esto no es un detalle de diseño instruccional. Es la implementación técnica del principio central del método: el conocimiento musical solo existe cuando el cuerpo lo ejecuta, no cuando la mente lo comprende en abstracto.
+
+### El cifrado como acción doble
+
+La función más importante del Sequencer no es la reproducción — es que **el alumno escribe tanto la nota como su función armónica**. Cada nota tiene dos capas:
+
+- La posición en el pentagrama → qué suena
+- El numeral romano debajo → por qué suena así en el contexto armónico
+
+El Sequencer muestra ambas capas. La opción "Ocultar Cifrados" existe para quien quiera componer sin la capa de análisis — pero en el contexto del curso, los cifrados son parte del ejercicio. Un alumno que completa una lección no solo escribió música: articuló su función armónica.
+
+### La arquitectura de dos modos: destino explícito
+
+| Modo | Etapa | Función |
+|------|-------|---------|
+| **Melodía Simple** | Propedéutico + lecciones iniciales | Escalas, intervalos, ritmo, primeros cifrados |
+| **Cuarteto SATB** | Las ~60 lecciones del curso completo | Escritura coral armónica a 4 voces (S/A/T/B) |
+
+El Cuarteto SATB no es una función avanzada opcional — es el **horizonte explícito del curso completo**. Las aproximadamente 60 lecciones de Storm Studios Learning terminan en ese modo. La primera lección de SATB comienza con las tesituras vocales y la distribución de acordes en el pentagrama cuádruple. Todo el propedéutico (4 lecciones: claves, intervalos, ritmo, Sequencer) existe para llegar ahí.
+
+Esta claridad de destino es una decisión pedagógica deliberada: el alumno sabe desde la primera clase adónde va. No hay ambigüedad sobre qué significa "aprender armonía" en Storm Studios — significa poder escribir a cuatro voces.
 
 ---
 

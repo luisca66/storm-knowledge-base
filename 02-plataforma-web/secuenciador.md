@@ -1,7 +1,7 @@
 ---
 titulo: "Secuenciador Storm Studios"
 tipo: spec
-ultima_actualizacion: 2026-05-02
+ultima_actualizacion: 2026-06-01
 relacionado_con:
   - 02-plataforma-web/maestro-virtual.md
   - 00-contexto/decisiones-clave.md
@@ -54,7 +54,58 @@ En presencial, Luis puede asignar composición libre desde etapas tempranas seg�
 
 ---
 
+## Los dos modos del Sequencer
+
+El Storm Workstation v3.0 tiene dos modos de escritura. Son pedagógicamente distintos y corresponden a etapas del curso:
+
+| Modo | Pentagramas | Etapa del curso | Propósito |
+|------|------------|-----------------|-----------|
+| **Melodía Simple** | 1 (clave de Sol) | Propedéutico + lecciones iniciales | Escalas, intervalos, escritura rítmica, cifrado por grados |
+| **Cuarteto SATB** | 4 (S, A, T, B) | Lecciones intermedias y avanzadas (~60 lecciones) | Escritura coral armónica a cuatro voces |
+
+El Cuarteto SATB es el **destino final del curso completo**. Las aproximadamente 60 lecciones de Storm Studios Learning terminan en ese modo. No es una función opcional — es el horizonte hacia el que apunta todo el método.
+
+---
+
+## El cifrado como ejercicio activo
+
+El botón "Ocultar Cifrados" implica que por defecto los cifrados están visibles — pero no porque el Sequencer los genere automáticamente. **El alumno los escribe.** El cifrado es parte del ejercicio.
+
+La teoría aplicada en las primeras lecciones: cada nota de la escala es un grado y se escribe con numerales romanos (I, II, III...). Más adelante, el alumno cifra acordes completos.
+
+Esto produce una doble acción en cada nota escrita:
+- La nota en el pentagrama = qué suena
+- El numeral romano debajo = por qué suena así armónicamente
+
+El alumno que completa un ejercicio no solo escribió música — articuló su función armónica. La herramienta no puede hacer eso por él.
+
+La opción "Ocultar Cifrados" existe para quien quiera usar el Sequencer en modo composición libre, sin la capa de análisis.
+
+---
+
+## La arquitectura pedagógica del propedéutico
+
+Antes de llegar a las lecciones del curso, el alumno completa **4 lecciones propedéuticas dentro del mismo website**, que cubren:
+
+1. Clave de Sol y clave de Fa
+2. Intervalos
+3. Escritura rítmica
+4. Uso mínimo del Sequencer
+
+Luis modela cada ejercicio en video: escribe la tarea en el Sequencer mientras explica la teoría que la sustenta. Teoría y escritura ocurren simultáneamente — no hay separación entre "aprender la regla" y "aplicarla". La herramienta es el medio por el que la teoría se vuelve audible.
+
+---
+
+## El momento "wow" del alumno nuevo
+
+Para un alumno sin experiencia digital, el Sequencer es la primera vez que escribe música y la escucha reproducirse. Luis lo describe como "la magia de escribir música digital" — el cruce de consumidor a creador.
+
+Para alumnos con experiencia en DAWs (Cubase, Logic): ven un secuenciador mínimo pero que hace exactamente lo que necesita. El valor no está en la riqueza de features — está en que resuelve el problema específico (enarmónica + cifrado + cuarteto SATB) que ningún DAW comercial resuelve de esta forma.
+
+---
+
 ## Historial de Cambios
 - **2026-04-07** — Creación inicial (borrador)
 - **2026-04-16** — Función pedagógica y diferenciador técnico documentados
 - **2026-05-02** — Historia y origen añadidos. El Sequencer como orgullo técnico del proyecto: construido con IAs (Gemini, ChatGPT, Claude), HTML/JS puro integrado a Next.js. Estado: en_progreso.
+- **2026-06-01** — Entrevista a Luis: modos Melodía Simple / Cuarteto SATB documentados. El SATB como destino de las ~60 lecciones. El cifrado como ejercicio activo (no análisis automático). Propedéutico: 4 lecciones dentro del website. Momento "wow" del alumno nuevo capturado.

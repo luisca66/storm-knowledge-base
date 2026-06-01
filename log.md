@@ -8,6 +8,20 @@
 
 ---
 
+## [2026-06-01] entrevista | Storm Sequencer — modos, cifrado activo, arquitectura pedagógica
+
+**Archivos actualizados:**
+- `02-plataforma-web/secuenciador.md`: 4 nuevas secciones — modos Melodía Simple / Cuarteto SATB, el cifrado como ejercicio activo (no análisis automático), arquitectura del propedéutico (4 lecciones), momento "wow" del alumno nuevo.
+- `08-sintesis/tecnologia-al-servicio-del-metodo.md`: sección [Pendiente] del Storm Sequencer completada — modelo de simultaneidad (teoría + escritura al mismo tiempo), acción doble del cifrado (nota + función armónica), arquitectura de dos modos con destino explícito.
+
+**Conocimiento capturado:**
+- El Cuarteto SATB es el **destino final del curso completo** (~60 lecciones). No es una función avanzada — es el horizonte hacia el que apunta todo el método desde la lección 1.
+- El cifrado es ejercicio activo del alumno: escribe la nota Y el numeral romano. La herramienta no genera el análisis — el alumno lo articula.
+- Luis modela en video: teoría y escritura simultáneas, no secuenciales. La regla se vuelve audible mientras se explica.
+- El propedéutico tiene 4 lecciones dentro del mismo website antes de iniciar el curso principal.
+
+---
+
 ## [2026-06-01] ingest | 3 videos ingresados al wiki — El problema aguas arriba, ExO 3.0, Longevidad sistémica
 
 **Videos ingresados:**
