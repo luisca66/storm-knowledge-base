@@ -1,7 +1,7 @@
 ---
 titulo: "AI Radar — Herramientas y Tendencias"
 tipo: contexto
-ultima_actualizacion: 2026-05-27
+ultima_actualizacion: 2026-06-01
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 05-operaciones/asesoria-ia.md
@@ -81,7 +81,7 @@ Karpathy: *"Puedes tercerizar tu pensamiento pero no puedes tercerizar tu entend
 
 #### Mayo 2026 — Estado actual del campo
 
-*Basado en ainews 2026-05-01 al 2026-05-28*
+*Basado en ainews 2026-05-01 al 2026-05-31*
 
 ---
 
@@ -242,6 +242,44 @@ La unidad de análisis correcta es el **agent run**, no la sesión. Y la distinc
 
 ---
 
+**12. "Magnifica Humanitas" — la encíclica papal sobre IA (31 mayo)**
+
+La primera encíclica del Papa León XIV dedicó sus 42,000 palabras enteramente a la inteligencia artificial. Es el documento de enseñanza formal más serio que cualquier institución global ha producido sobre el tema. No es una declaración de posicionamiento — es el tipo de texto que los papas producen una o dos veces en toda su vida.
+
+Los puntos filosóficamente más importantes:
+
+- **"La tecnología nunca es neutral"** — adopta los valores de quienes la diseñan, financian, regulan y usan. En el contexto actual, esas cuatro funciones las ejerce un puñado de compañías.
+- **"Síndrome de Babel"** — cuando las organizaciones optimizan exclusivamente por eficiencia, eliminan la agencia humana antes de que nadie haya tomado la decisión consciente de hacerlo. Los humanos se reducen a dashboards, KPIs y tokens.
+- **Los límites humanos no son bugs** — "La humanidad florece no a pesar de sus limitaciones, sino frecuentemente *a través* de ellas." Contraposición directa al transhumanismo que ve las limitaciones cognitivas humanas como problemas de ingeniería.
+- **Riesgo de colonialismo digital** — Los datos de salud de poblaciones enteras, recolectados "bajo pretexto de ayuda", dan a quienes los controlan una palanca estructural sobre el futuro.
+
+La ironía del momento: Anthropic colaboró en la redacción del documento (Chris Olah, co-fundador, estuvo sentado junto al Papa). El mismo texto que Anthropic ayudó a producir declara explícitamente que los modelos de IA no tienen vida interior ni valor moral comparable al humano — en contradicción directa con los "soul documents" que Anthropic produce para sus propios modelos.
+
+---
+
+**13. El fin del SEO orgánico — AEO confirmado a escala (31 mayo)**
+
+El CEO de Condé Nast (Vogue, GQ, The New Yorker) le dijo a sus equipos que planifiquen para **cero tráfico de búsqueda orgánica de Google**. No 10% menos. Cero como baseline de planificación.
+
+El mecanismo: Google inserta AI Overview + filas de links comerciales antes de cualquier resultado informacional. El tráfico de búsqueda sigue subiendo (más usuarios usan ChatGPT y luego verifican en Google), pero ese tráfico ya no llega a los publishers — va a los anunciantes.
+
+Esto valida a escala masiva el concepto de AEO (Agent Experience Optimization) introducido en mayo: **tu presencia digital tiene dos audiencias ahora**. La diferencia entre los que entienden esto y los que no se verá en los rankings de búsqueda de los próximos 12 meses.
+
+---
+
+**14. Los números del campo al cierre de mayo (31 mayo)**
+
+El fin del mes llegó con datos de negocio que ya no caben en el lenguaje de las startups:
+
+- **Anthropic Serie H: $965B de valuación** — el startup más valioso de la historia, superando a OpenAI en esa métrica. Proyección citada: podría superar los ingresos de Alphabet para 2028 y alcanzar $2T anuales en 2030.
+- **OpenAI: $5.7B en ingresos en un solo trimestre** — ChatGPT con 95M usuarios activos semanales, superando a Instagram en tasa de crecimiento equivalente.
+- **Solopreneurs duplicándose** — A16Z: fundadores solo en IA pasaron de 1,500 a 3,000 en un trimestre. El número total de nuevas empresas en EEUU está 25% por encima del mismo trimestre del año anterior.
+- **Paradoja de Jevons en tokens** — el precio del token cayó 75% (de $2 a $0.50 por millón). La demanda respondió como predice Jevons: explotó hasta 25 billones de tokens/mes. Gartner proyecta 90% adicional de reducción de costos entre 2025 y 2030. Cada vez que el token se abarata, aparece demanda nueva que no existía.
+- **GreenTree (DeepMind)** — sistema que predice eventos geopolíticos, económicos y políticos con precisión equivalente al 2% superior de predictores humanos (los "superforecasters" que superan a analistas de la CIA en 30%). Paridad alcanzada el 15 de marzo. Implicación: el razonamiento predictivo sobre el futuro ya no es exclusivo de los mejores analistas humanos.
+- **Bases de datos forkables** — Wes Roth documenta el problema emergente: cuando varios agentes escriben en el mismo estado compartido, se contaminan entre sí. La solución: databases forkables (análogo a git para datos). Cada agente trabaja en su propio fork; el humano decide qué fork sobrevive. Sin esto, los experimentos con múltiples agentes son caos.
+
+---
+
 **Modelos destacados del mes:**
 - **GPT-5.5** — +37 pts razonamiento contexto largo, -60% alucinaciones. $5/$30 por millón de tokens. Primer modelo en refutar una conjetura matemática abierta.
 - **Gemini 3.5 Flash** — Reemplaza a Gemini Pro como referencia de uso diario. Ultrarrápido, ultrafácil, integrado al ecosistema Google. La opción gratuita ya no es inferior.
@@ -272,6 +310,12 @@ La unidad de análisis correcta es el **agent run**, no la sesión. Y la distinc
 
 > *"Las interrupciones, los reintentos y los handoffs son los nuevos clics de la era agéntica."*
 > — Nate B. Jones
+
+> *"La humanidad florece no a pesar de sus limitaciones, sino frecuentemente a través de ellas."*
+> — Papa León XIV, Magnifica Humanitas
+
+> *"Planifiquen para cero tráfico de búsqueda orgánica de Google. No diez por ciento menos. Cero."*
+> — CEO de Condé Nast, mayo 2026
 
 ---
 
@@ -511,6 +555,36 @@ El humano sigue siendo indispensable en dos momentos: **al inicio** (encuadrar l
 
 ---
 
+**6. El "Síndrome de Babel" para Carmen y Mario**
+
+La encíclica papal introdujo el término "Síndrome de Babel": cuando una organización optimiza exclusivamente por eficiencia, reduce a los humanos a dashboards y KPIs antes de que nadie haya decidido conscientemente hacerlo.
+
+*Cómo usarlo en clase:*
+- Con **Carmen y Mario (productora de cine y comerciales)**: su industria creativa está exactamente en este punto de presión. La pregunta no es si automatizar — es cómo automatizar sin perder lo que hace valioso el trabajo humano en producción. El criterio artístico, el juicio sobre qué funciona narrativamente, la relación con el cliente — esas son las capas Durable. Las tareas de coordinación, cotización, seguimiento — esas son las capas candidatas a automatización.
+- La frase del Papa es útil para nombrar el riesgo sin catastrofismo: "el riesgo no es que la IA sea mala, es que la eficiencia ciega elimine la agencia humana por accidente."
+
+---
+
+**7. Los números de la Paradoja de Jevons — datos para Karla y Montse**
+
+El precio del token cayó 75% en un año. La demanda explotó a 25 billones de tokens/mes. Cada vez que algo se abarata, se usa más, no menos.
+
+*Cómo usarlo en clase:*
+- Con **Karla y Montse**: este es el contrapeso al miedo de desplazamiento. No es garantía de que su trabajo específico no cambie — pero sí es evidencia de que la demanda total de trabajo humano no está colapsando. Lo que cambia es *qué tipo* de trabajo se pide. Las personas que entienden los sistemas tienen más demanda, no menos.
+- Dato concreto: los solopreneurs con IA se duplicaron de 1,500 a 3,000 en un trimestre. El número de nuevas empresas en EEUU está 25% por encima del año anterior. La IA no está destruyendo trabajo — está cambiando quién puede iniciar uno.
+
+---
+
+**8. AEO confirmado por el CEO de Condé Nast**
+
+El concepto de AEO (legibilidad para agentes) ya no es teoría. El CEO de Vogue y GQ les dijo a sus equipos que planifiquen para cero tráfico orgánico de Google. La búsqueda informacional está siendo reemplazada por respuestas directas de IA.
+
+*Cómo usarlo en clase:*
+- Refuerza el concepto 2 de esta Sección 3 (legibilidad para agentes) con evidencia de alto perfil. Ya no es "puede pasar" — es "está pasando ahora mismo con las revistas más grandes del mundo."
+- Con **Mario** (website de la empresa): si Condé Nast está planificando para cero tráfico orgánico, ¿qué debería estar pensando una productora de cine al construir su sitio?
+
+---
+
 ### Lo que NO hace falta enseñar este mes
 
 - La guerra de protocolos (MCP/A2A/AGUI/AP2/X42) — demasiado técnica, sin impacto práctico en el nivel actual de los alumnos.
@@ -524,11 +598,14 @@ El humano sigue siendo indispensable en dos momentos: **al inicio** (encuadrar l
 
 | Acción | Urgencia | Archivo a actualizar |
 |--------|----------|----------------------|
-| Actualizar tabla de modelos (Gemini 3.5 Flash) | Alta | `conceptos_no_olvidar.md`, `leccion_01` |
-| Preparar la conversación de desplazamiento laboral para Karla/Montse | Alta | `03_alumnos/karla_30/bitacora.md`, `03_alumnos/montse_35/bitacora.md` |
+| Actualizar tabla de modelos (Gemini 3.5 Flash, Opus 4.8) | Alta ✅ | `conceptos_no_olvidar.md`, `leccion_01` |
+| Preparar conversación de desplazamiento laboral para Karla/Montse | Alta | `03_alumnos/karla_30/bitacora.md`, `03_alumnos/montse_35/bitacora.md` |
 | Introducir "legibilidad para agentes" con Mariana y Mario | Media | — |
 | Mencionar Spark como validación del Flujo Chat→MD→Agente | Media | — |
-| Introducir "principios vs. reglas" cuando un alumno quiera recetario | Cuando ocurra | — |
+| Introducir "principios vs. reglas" cuando alumno quiera recetario | Cuando ocurra | — |
+| Usar datos Jevons ($2→$0.50, 25T tokens/mes) con Karla/Montse | Media | — |
+| Usar "Síndrome de Babel" con Carmen/Mario para nombrar el riesgo de automatizar sin criterio | Media | — |
+| Conectar muerte del SEO orgánico (Condé Nast) con AEO de Mario | Media | — |
 | Actualizar tabla de modelos (Opus 4.8) | Alta | `conceptos_no_olvidar.md` |
 | Introducir "El Sándwich Humano" cuando aparezca la pregunta del desplazamiento | Alta | — |
 
@@ -558,6 +635,7 @@ Estos son exactamente los principios de "Los Seres Musicales" aplicados al apren
 
 ## Historial de Cambios
 - **2026-05-29** — Síntesis mayo extendida a días 27-28. Nuevas secciones 8-11: Opus 4.8 + Dynamic Workflows, El Sándwich Humano + Paradoja de Jevons Cognitiva, métricas agénticas (Nate Jones), señales días 27-28 (Glasswing, comprensión, DeepSeek V4, RALPH Loop). Modelos actualizados: Opus 4.8, Mythos jerarquía confirmada, DeepSeek V4 precio corregido. Sección 3: tabla actualizada (4.7→4.8), concepto 6 (Sándwich Humano), resumen ejecutivo ampliado.
+- **2026-06-01** — Mayo cerrado completamente (días 29-31): encíclica papal "Magnifica Humanitas" (Síndrome de Babel, límites humanos), muerte del SEO orgánico (Condé Nast CEO), números del campo (Anthropic $965B, OpenAI $5.7B/Q, solopreneurs x2, Jevons en tokens, GreenTree, databases forkables). Sección 3 ampliada con 3 conceptos pedagógicos nuevos y tabla ejecutiva actualizada.
 - **2026-05-27** — Síntesis completa de los tres meses. Mayo 18-26 extendido (Google IO, Gemini 3.5 Flash/Omni/Spark, alineamiento, Erdős, AEO). Abril expandido de tabla a síntesis completa (9 temas). Marzo creado desde cero (7 días, marco de poder, Karpathy, ARC-AGI-3). Nueva Sección 3 — filtro pedagógico mensual.
 - **2026-05-18** — Síntesis mayo 2026 completada (días 1-17). 6 temas: reordenamiento del trabajo, arquitectura agéntica, guerra del protocolo, seguridad, infraestructura/geopolítica, Private Equity.
 - **2026-05-06** — Creación inicial. Dos secciones: herramientas actuales + síntesis de tendencias abril-mayo 2026.
