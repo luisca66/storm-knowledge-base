@@ -334,3 +334,31 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Nuevos Clicks:* Captura estructurada de interrupciones, reintentos y handoffs como la señal de mayor valor para evaluar la autonomía y calibrar las *Agent Work Units* (AWUs).
 - **El Calibrado de Asombro ante la IA (Mobitar):**
   - Reflexión poética que critica la paradoja de desmitificar fenómenos naturales asombrosos mediante explicaciones reduccionistas mientras se diviniza un modelo de lenguaje, abogando por un asombro proporcional ante el universo y la consciencia humana.
+
+## [31 de Mayo de 2026](./resumen_20260531.md)
+**Temas Principales:**
+- **La Encíclica *Magnifica Humanitas* y la Filosofía de la IA (Papa León XIV):**
+  - *Síndrome de Babel y Exo-Risk:* Crítica doctrinal de 42,000 palabras que condena la optimización a ciegas por eficiencia que reduce al humano a KPIs y tokens, y alerta sobre la "esclavitud agéntica" y la extrema concentración de propiedad de la IA.
+  - *Fricción sobre la Personería:* Declaración formal de que la IA carece de vida interior moral o valor intrínseco. Esto contrasta con los *"soul documents"* de Anthropic (cuyo cofundador Chris Olah presentó la encíclica) que adoctrinan a sus modelos con una conciencia incipiente.
+  - *Visión Budista Alternativa:* Órdenes en Corea del Sur que ordenan monjes humanoides de IA, contraponiéndose a la posición vaticana.
+- **Geopolítica, Desregulación e Inferencia de Inversión (Moonshots, AI Daily Brief):**
+  - *Cancelación de Orden Ejecutiva:* Presión de última hora de Musk, Zuckerberg y Sacks que llevó a la cancelación de la ceremonia de firma de la orden de revisión gubernamental obligatoria por 90 días, priorizando velocidad frente a China.
+  - *Negocio y Valoración de Anthropic:* Cierre de Serie H a una valoración de $965B. Proyecciones sugieren ingresos superiores a Google para 2028-2030. Rápido auge del serve-run de tokens y startups de inferencia como Base10 ($11B de valoración) y Open Router (Serie B de $113M procesando 100B tokens/mes).
+- **El Benchmark DeepSWE y la Paradoja de Jevons (Data Curve, Moonshots):**
+  - *DeepSWE:* Evaluador de código desarrollado fuera de GitHub (para evitar memorización) que requiere modificar un promedio de 668 líneas en 7 archivos. GPT-5.5 lidera con 70%, Claude Opus 4.7 con 54%, y los modelos chinos (Kimi K2.6 con 24%, DeepSeek V4 con 8%) quedan rezagados.
+  - *Patrones de Falla:* Claude tiende a olvidar componentes múltiples en prompts de varias directivas (como soporte sync vs async) y duplica el consumo de tokens de GPT-5.5.
+  - *Goodhart's Law y Token Maxing:* Caída de precios de tokens del 75% dispara el consumo a 25 billones al mes, forzando a corporaciones (Uber, Meta, DoorDash, AWS) a auditar presupuestos de tokens no vinculados a valor real.
+- **Super-Predicciones, Empleo y Startups (DeepMind, Goldman Sachs):**
+  - *GreenTree:* Modelo de DeepMind que iguala la precisión de los mejores *super forecasters* humanos (15 de marzo de 2026), con implicaciones en predicciones actuariales y simulación retrospectiva.
+  - *Moderación Laboral:* Altman y Solomon (Goldman Sachs) descartan el apocalipsis laboral. Jensen Huang critica a CEOs que encubren despidos de sobrecontratación pandémica culpando a la IA. El 100% del empleo neto en 50 años sigue proviniendo de startups, impulsado hoy por la duplicación de fundadores solo en IA (3,000 en un trimestre).
+- **Bases de Datos Forkables y Harness de Desarrollo (Wes Roth, Nate B. Jones):**
+  - *Bases de Datos Forkables:* Propuesta de control de versiones de bases de datos (ej. Ghost con Postgres, CLI y MCP) para aislar los entornos de ejecución paralelos de agentes (evitando contaminación de datos como la ocurrida en el simulador Gravell GPT).
+  - *Andamiaje (Harness) de Código:* Navegación mediante bash y grep (no RAG) en repositorios grandes. Estructuración con `claude.md` corto (<300 líneas), hooks automáticos (inicio, fin, pre-tool-use, manejo de errores) y skills modulares dinámicos.
+  - *Evaluación de Juicio Humano:* La pizarra (whiteboard) centrada en proceso visible bajo presión (situación, decisión, riesgo, cambio) como única métrica válida frente a los entregables terminados con IA.
+- **Caída de Tráfico Orgánico y Ask Maps (Condé Nast, Google):**
+  - Condé Nast instruye a planificar para "cero tráfico de búsqueda orgánica" de Google debido a AI Overviews y enlaces comerciales.
+  - Ask Maps (Gemini) reemplaza los map packs tradicionales de SEO local en búsquedas transaccionales, redefiniendo la autoridad de los negocios locales hacia las citas semánticas.
+- **Innovaciones Multimodales y Espaciales (Matt Wolfe, Alex Finn):**
+  - *Actualizaciones de Modelos:* Microsoft MAI Image 2.5 (3° puesto global en Arena.ai), Perplexity Computer integrado en Office 365, Leonardo AI para modelos 3D y Dubbing V2 / Music V2 de 11Labs.
+  - *Gemini Omni:* Generación de videos realistas de 8 segundos en primera persona de trayectorias (ej. taxista o drone) dibujadas sobre mapas.
+  - *Luna y Marte:* Planes de Starlink de conectividad láser gigabit interplanetaria lunar para 2027-2028. Criptobillonario Chun Wang reserva la primera misión Starship tripulada privada para orbitar Marte. Blue Origin sufre explosión estática del New Glenn en Cape Canaveral.
