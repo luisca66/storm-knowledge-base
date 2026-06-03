@@ -132,7 +132,36 @@ Esto es estratégicamente profundo y se conecta con todo el resto de la síntesi
 
 ---
 
-## 8. Las dos líneas son el mismo motor
+## 8. Los cursos avanzados: las joyas presenciales
+
+*(Entrevista a Luis, 2026-06-03)*
+
+El tope de la escalera (§3) no es teórico: **todos los cursos avanzados ya existen y Luis ya los ha impartido.** Lo que escasea no es el producto — es el alumno que llega hasta ahí.
+
+**La oferta avanzada completa:**
+- **Taller de Contrapunto** — puede darse en línea.
+- **Curso de Análisis** — puede darse en línea.
+- **Curso de Film Scoring** — **presencial obligatorio.** Las tareas se mezclan en el estudio con el **5.1 Genelec** propio; la presencia física es parte esencial del producto, no un accidente.
+- **Taller de Ingeniería de Audio y Producción Musical** — ligado al mismo estudio 5.1. *(Aún no integrado como curso en el KB — ver §9.)*
+- **Formación física** — incluida en el intensivo presencial (Luis tiene gym propio). No es un extra: es parte del currículum. Ver [el-musico-como-atleta.md](el-musico-como-atleta.md).
+
+**El cliente:** alguien que "para empezar, tiene lana, porque es caro" **y** tiene "vocación de hierro" — la disposición a estudiar todo el método *y además* pagar el avanzado. Idealmente un egresado del curso gratuito del website, pero Luis es realista: *"va a ser uno de mil, literalmente."* La realidad actual lo confirma — **aproximadamente un alumno cada tres años** completa hasta Film Scoring.
+
+Esto **confirma empíricamente** la tesis de las §2 y §4: el tope de la escalera es para el más raro, el más comprometido y el más capaz de pagar — y eso es el diseño funcionando, no un fallo de conversión. El foso (10k horas + estudio + criterio + ahora también el cuerpo) es tan profundo que solo lo cruza quien tiene la vocación completa.
+
+**La lógica de precio:**
+| Modalidad | Qué incluye | Precio |
+|---|---|---|
+| Presencial intensivo ("todo lo extra") | 3 horas diarias, todos los avanzados + formación física | **$20,000 MXN/mes** |
+| En línea (Contrapunto, Análisis) | Clase individual remota | **$1,250 MXN/clase** |
+
+Film Scoring e Ingeniería de Audio quedan fuera de la modalidad en línea por la dependencia del estudio 5.1.
+
+> **La prueba viviente del modelo:** el último alumno que llegó hasta Film Scoring **también se hizo campeón en Miami en Musclemania Men's Physique.** El mismo alumno, en el mismo periodo, alcanzó el tope del método musical y el tope físico — porque la formación física *es parte del curso*. Es la tesis de [el-musico-como-atleta.md](el-musico-como-atleta.md) y de [luis-como-ingeniero-neural.md](luis-como-ingeniero-neural.md) hecha carne: Luis no entrena músicos, **construye la neurología y la fisiología completas**. El framework aplica a cualquier dominio de alto rendimiento.
+
+---
+
+## 9. Las dos líneas son el mismo motor
 
 La plataforma musical (freemium) y las **asesorías de IA** (de pago, abiertas a cualquier cliente) parecen negocios distintos. No lo son: ambas venden lo mismo bajo distinta superficie — **construir la arquitectura neural correcta en vez de sustituirla** (ver [luis-como-ingeniero-neural.md](luis-como-ingeniero-neural.md)).
 
@@ -143,16 +172,18 @@ La misma distinción, el mismo maestro, el mismo principio. Las asesorías de IA
 
 ---
 
-## 9. Preguntas abiertas (agenda con Luis)
+## 10. Preguntas abiertas (agenda con Luis)
 
 Esta página crece con cada entrevista. Lo que aún no está resuelto y vale la pena capturar:
 
-1. **Los tres cursos avanzados** (Contrapunto, Análisis, Film Scoring) — ¿a quién van dirigidos exactamente? ¿Rango de precio que contempla Luis? ¿Solo presencial o eventualmente híbrido/remoto? ¿En qué orden los desarrollaría?
-2. **AEO operativo** (§5) — ¿vale la pena estructurar ya la plataforma para ser legible por agentes, o es prematuro frente al cuello de botella de grabar videos?
-3. **El número 1/1000** — ¿es una intuición o hay algún dato de los alumnos reales (clases-ia, presenciales) que lo respalde o lo ajuste?
-4. **Precio de lo presencial** — sigue como "precio directo con Luis". ¿Hay un rango, una lógica de fijación (por hora, por curso, por resultado)?
+1. **AEO operativo** (§5) — ¿vale la pena estructurar ya la plataforma para ser legible por agentes, o es prematuro frente al cuello de botella de grabar videos?
+2. **Orden de lanzamiento** de los avanzados cuando se libere el tiempo de Luis — ¿cuál primero y por qué? (los productos ya existen; la pregunta es de secuencia comercial).
+3. **Profundizar el dato de conversión** — el 1/1000 quedó confirmado como intuición + realidad (~1 alumno cada 3 años hasta Film Scoring). Pendiente menor: ¿cambia ese número cuando el flujo del website crezca, o la vocación de hierro lo mantiene constante?
 
-> ✅ **Resuelto 2026-06-03:** YouTube (era pregunta 1) — integrado como §7. El video es la lección completa e irreducible; el website es un faro bilingüe, no un embudo de volumen; las regalías son ingreso potencial secundario; cadencia ~1-2 lecciones/semana.
+> ✅ **Resueltos 2026-06-03:**
+> - **YouTube** (§7) — el video es la lección completa e irreducible; el website es un faro bilingüe, no un embudo de volumen; regalías = ingreso secundario; cadencia ~1-2 lecciones/semana.
+> - **Cursos avanzados y precio** (§8) — todos ya existen e impartidos; cliente con lana + vocación de hierro (1/1000, ~1 cada 3 años); Contrapunto/Análisis en línea ($1,250 MXN/clase), Film Scoring/Ing. Audio presencial-only (estudio 5.1); intensivo presencial $20,000 MXN/mes (3 hrs diarias, incluye formación física).
+> - **El 1/1000** — confirmado como intuición vivida y realidad actual.
 
 ---
 

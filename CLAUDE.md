@@ -270,7 +270,8 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - Verificar **canal/origen** de "A Little Bit of Philosophy — PHI 101" (`[verificar canal]` en `indice-fuentes.md` L84) — único marcador abierto; los 3 autores antes pendientes (Wolfe, Cave, Lassalle) ya quedaron asignados el 2026-05-21
 - `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
-- `estrategia-freemium-musical.md` → reescrita como síntesis el 2026-06-03; ahora necesita una **entrevista a Luis** para resolver las 5 preguntas abiertas de §8 (YouTube, cursos avanzados, AEO, validar 1/1000, precio presencial)
+- `estrategia-freemium-musical.md` → reescrita + entrevistada el 2026-06-03 (YouTube §7, cursos avanzados §8). Quedan 3 preguntas menores en §10 (AEO operativo, orden de lanzamiento de avanzados, profundizar dato de conversión)
+- **Documentar el Taller de Ingeniería de Audio y Producción Musical** (surgió en entrevista 2026-06-03) — curso real ya impartido, ligado al estudio 5.1, hoy solo mencionado en vision-proyecto/freemium. Necesita ficha propia
 - Archivos en `borrador` en `04-contenido-musical/`, `05-operaciones/`
 
 ---

@@ -8,6 +8,26 @@
 
 ---
 
+## [2026-06-03] entrevista | Cursos avanzados — precios, modalidad y la prueba viviente del músico-atleta
+
+**Archivos:** `08-sintesis/estrategia-freemium-musical.md` (nueva §8), `08-sintesis/el-musico-como-atleta.md` (Premisa central), `00-contexto/vision-proyecto.md` (Fuentes de Ingreso + cursos avanzados).
+
+**Pregunta:** los tres cursos avanzados (público, orden, precio, modalidad) — de las preguntas abiertas de la síntesis freemium.
+
+**Conocimiento capturado:**
+- **Todos los cursos avanzados ya existen y Luis ya los ha impartido.** Lo escaso no es el producto — es el alumno. Realidad actual: **~1 alumno cada 3 años** completa hasta Film Scoring. (Corrige vision-proyecto, que los marcaba como "Futuro".)
+- **Oferta completa:** Contrapunto, Análisis, Film Scoring, **+ Taller de Ingeniería de Audio y Producción Musical** (no estaba documentado en el KB — ligado al estudio 5.1) **+ formación física** (Luis tiene gym propio, integrada al intensivo).
+- **Cliente:** "tiene lana, porque es caro" + **"vocación de hierro"** (estudiar todo Y pagar). "Uno de mil, literalmente" — confirma empíricamente el 1/1000 y el foso de las §2/§4.
+- **Modalidad:** Contrapunto y Análisis pueden ser en línea; Film Scoring e Ingeniería de Audio son **presencial-only** (mezcla en 5.1 Genelec). La presencia física es parte esencial.
+- **Precio:** intensivo presencial "todo lo extra" = **$20,000 MXN/mes** (3 hrs diarias, incluye formación física); en línea (Contrapunto/Análisis) = **$1,250 MXN/clase**.
+- **La prueba viviente:** el último alumno que terminó Film Scoring **también se hizo campeón en Miami en Musclemania Men's Physique.** Mismo alumno, mismo periodo, tope musical + tope físico. → integrado en `el-musico-como-atleta.md`: la tesis pasa de "Luis es la prueba" a "el método es **replicable**".
+
+**Resultado:** §8 nueva en freemium (cursos avanzados); secciones renumeradas (dos líneas 8→9, preguntas 9→10). Quedan ~3 preguntas menores (AEO, orden de lanzamiento, profundizar conversión). Prueba de replicabilidad añadida a el-musico-como-atleta. vision-proyecto corregido y con precios.
+
+**Pendiente que genera:** documentar el **Taller de Ingeniería de Audio y Producción Musical** como curso propio (hoy solo mencionado) — candidato a `01-metodo-pedagogico/estructura-curso.md` o ficha en `03-apps-herramientas`/operaciones.
+
+---
+
 ## [2026-06-03] entrevista | Estrategia freemium — YouTube, el faro y el video irreducible
 
 **Archivo:** `08-sintesis/estrategia-freemium-musical.md` (nueva §7).

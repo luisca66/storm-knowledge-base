@@ -1,9 +1,11 @@
 ---
 titulo: "El Músico Como Atleta"
 tipo: sintesis
-ultima_actualizacion: 2026-06-01
+ultima_actualizacion: 2026-06-03
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
+  - 08-sintesis/estrategia-freemium-musical.md
+  - 08-sintesis/luis-como-ingeniero-neural.md
   - 07-fuentes/libros/ESSENTIALS_of_STRENGTH_TRAINING_and_CONDITIONING_Complete.md
   - 07-fuentes/libros/Full body flexibility - Complete.md
   - 07-fuentes/libros/Speed Training - Complete.md
@@ -36,6 +38,8 @@ fuentes_utilizadas:
 El músico de alto rendimiento es un atleta. No en sentido metafórico — en sentido funcional y fisiológico. Su instrumento primario es el sistema neuromuscular: circuitos nerviosos, velocidad de procesamiento, control motor fino, resistencia y recuperación. Ignorar la preparación física es tan absurdo como que un corredor olímpico ignore el entrenamiento de fuerza.
 
 Luis es el caso de estudio viviente: 35 años de carrera musical, 30 como maestro, campeón natural de Musclemania Las Vegas a los 52 años. Su cuerpo no es un accidente — es una tesis. La misma filosofía que aplica a construir músicos aplica a construir atletas: neurología correcta, progresión deliberada, integración total del sistema.
+
+**Y la tesis replica en sus alumnos, no solo en él.** La formación física está *integrada* al curso presencial avanzado — Luis tiene gym propio y las tres horas diarias del intensivo incluyen entrenamiento del cuerpo junto al del oído (ver [estrategia-freemium-musical.md](estrategia-freemium-musical.md) §8). La prueba: **el último alumno que completó hasta Film Scoring también se coronó campeón en Miami en Musclemania Men's Physique.** El mismo alumno, en el mismo periodo de formación, alcanzó el tope del método musical y el tope físico. Esto traslada la premisa de "Luis es la prueba" a "el método es replicable" — el sistema no depende del talento individual del maestro, sino de una arquitectura de formación que construye simultáneamente la neurología musical y la fisiología atlética. Es la misma idea de [luis-como-ingeniero-neural.md](luis-como-ingeniero-neural.md): el framework no es sobre música ni sobre músculo — es sobre construir el sustrato correcto para cualquier dominio de alto rendimiento.
 
 ---
 
@@ -244,3 +248,4 @@ Para el músico: la hidratación adecuada es directamente relevante para la velo
 - **2026-04-16** — Archivo creado. Estructura base. Pendiente de contenido via entrevista a Luis y lectura de fuentes.
 - **2026-05-01** — Archivo llenado sustancialmente a partir de los 6 libros de fitness: Speed (J. Barnes), Speed Training (Christensen), Super Joints (Tsatsouline), Full Body Flexibility, Essentials of Strength Training (NSCA), A Guide to Amino Acid and Protein Nutrition. Estado cambiado a en_progreso.
 - **2026-06-01** — Sección 8 (Longevidad del sistema) integrada desde video "This Could Save Your Life" (Dr. William Lee, biólogo vascular). 5 prácticas: arquitectura de sueño oncológico, sulforafano/NRF2, caminata metabólica, alimentos fermentados, hidratación con agua fría — todas con traducción directa al músico. Dimensión "Longevidad sistémica" añadida a la tabla del sistema en sección 6. Fuente agregada al frontmatter.
+- **2026-06-03** (entrevista) — Prueba empírica de replicabilidad añadida a la Premisa central: el último alumno que completó Film Scoring también se coronó campeón en Miami en Musclemania Men's Physique. La formación física está integrada al curso presencial avanzado (gym propio, 3 hrs diarias). La tesis pasa de "Luis es la prueba" a "el método es replicable". Cross-refs a estrategia-freemium-musical (§8) y luis-como-ingeniero-neural añadidas.
