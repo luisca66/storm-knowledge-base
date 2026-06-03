@@ -245,7 +245,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
 - `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — tres capas de tecnología llenadas + criterio de automatización (Efecto Santiago) integrado
 - `entrenamiento-oido-absoluto.md` ← **en progreso** (creada 2026-06-03) — teoría operativa del oído absoluto destilada del backlog de ~40 insights de [oído]. 12 secciones + agenda de preguntas abiertas. La apuesta más radical del método: el AP como corteza selectiva entrenable, no como don
-- `estrategia-freemium-musical.md` ← borrador (no ha crecido desde sesión 1)
+- `estrategia-freemium-musical.md` ← **en progreso** (reescrita 2026-06-03) — pasó de borrador a síntesis de tesis: por qué el modelo freemium es defendible (el negocio ES el método; gratuidad como filtro; foso 10k horas/Gladwell; fuerzas macro de IA que lo protegen; la beca/Bogle como paciencia compuesta). Pendiente: poblar §8 (5 preguntas abiertas: YouTube, cursos avanzados, AEO, el 1/1000, precio presencial)
 
 **Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 10 alumnos perfilados (Bruno 16, Carmen 50, Esteban 33, Jonas 12, Julio 60, Karla 30, Luis 84, Mariana 35, Mario 55, Montse 30), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
 
@@ -270,7 +270,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - Verificar **canal/origen** de "A Little Bit of Philosophy — PHI 101" (`[verificar canal]` en `indice-fuentes.md` L84) — único marcador abierto; los 3 autores antes pendientes (Wolfe, Cave, Lassalle) ya quedaron asignados el 2026-05-21
 - `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
-- `estrategia-freemium-musical.md` → sigue en borrador sin crecer desde sesión 1 (2026-04-16)
+- `estrategia-freemium-musical.md` → reescrita como síntesis el 2026-06-03; ahora necesita una **entrevista a Luis** para resolver las 5 preguntas abiertas de §8 (YouTube, cursos avanzados, AEO, validar 1/1000, precio presencial)
 - Archivos en `borrador` en `04-contenido-musical/`, `05-operaciones/`
 
 ---

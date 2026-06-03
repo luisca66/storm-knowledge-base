@@ -8,6 +8,33 @@
 
 ---
 
+## [2026-06-03] sintesis | Reescritura de estrategia-freemium-musical (borrador → en_progreso)
+
+**Archivo:** `08-sintesis/estrategia-freemium-musical.md`.
+
+**Origen:** la página llevaba en `borrador` sin crecer desde la sesión 1 (2026-04-16) — señalado en 4 lints. Era un stub que además duplicaba parcialmente `vision-proyecto.md`.
+
+**Decisión editorial (Regla 2 — no duplicar):** `vision-proyecto.md` (completo) ya tiene los *hechos* del modelo (escalera, embudo, la beca, 1/1000). La síntesis no debía repetirlos — se reescribió como **capa de tesis**: *por qué* el modelo es defendible. Una página nivel 2 real, no un resumen.
+
+**7 secciones:**
+1. El modelo de negocio ES el método (regalar el método completo es lo que lo hace creíble).
+2. La gratuidad como filtro, no como embudo de marketing (la conversión 1/1000 baja es el mecanismo de selección del método, no un bug).
+3. La escalera de valor como gradiente de profundidad neural (no de features).
+4. El foso defensivo: las 10,000 horas (Gladwell) hacen lo presencial no comoditizable.
+5. Las fuerzas macro de IA que protegen el modelo (Jevons cognitiva, "no outsourcear entendimiento", la bifurcación, AEO) — conexión directa con el AI Radar.
+6. "La beca" como paciencia compuesta (lente Bogle: largo plazo + horizonte de legado vs. los IPOs forzados de los labs).
+7. Las dos líneas (plataforma + asesorías IA) como el mismo motor.
+
+**§8 — agenda de 5 preguntas abiertas para Luis:** YouTube (tipo/frecuencia/rol), los 3 cursos avanzados (público/precio/orden), AEO operativo, validar el 1/1000 con datos reales, lógica de precio presencial.
+
+**Lentes nuevas integradas:** Bogle (Little Book of Common Sense Investing), Gladwell (Outliers), AI Radar (síntesis abr–jun 2026).
+
+**Archivos modificados:** estrategia-freemium-musical.md (reescrito), index.md (estado + descripción + stats: síntesis 7 todas en_progreso), CLAUDE.md (§7 síntesis activa + pendiente convertido en "entrevista pendiente"), log.md.
+
+**Pendiente que genera:** entrevista a Luis para poblar §8.
+
+---
+
 ## [2026-06-03] actualización | AI Radar — síntesis de junio 2026 abierta (días 1-2)
 
 **Archivo:** `00-contexto/ai-radar.md` (Sección 2 — Síntesis mensual).
