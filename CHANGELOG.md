@@ -1,11 +1,23 @@
 ---
 titulo: "Registro de Cambios"
 tipo: diario
-ultima_actualizacion: 2026-05-26
+ultima_actualizacion: 2026-06-03
 estado: en_progreso
 ---
 
 # Registro de Cambios (CHANGELOG)
+
+## 2026-06-03
+- **Lint de salud del KB** (Opus 4.8): sincronización general de archivos de control que habían quedado clavados en 2026-05-29 pese al trabajo del 01-02 de junio.
+- `CLAUDE.md` §7 actualizada a 2026-06-03: ingesta de 3 videos confirmada (pendiente fantasma eliminado), sesión 06-01 registrada, pendientes reordenados (síntesis del oído absoluto y decisión CLAUDE/AGENTS promovidas).
+- `index.md`: estados de síntesis corregidos (el-musico-como-atleta, modelos-mentales, como-enseno-armonia: borrador → en_progreso, alineados con sus frontmatter); diario `2026-05.md` agregado al catálogo; video "This Could Save Your Life" reclasificado como ingerido; estadísticas y fecha actualizadas.
+- **Duplicado eliminado:** `Los_Seres_Musicales.md` de la raíz (copia byte a byte de `07-fuentes/libros/Los_Seres_Musicales.md`) — violaba la regla de no duplicar contenido.
+- `CHANGELOG.md` actualizado con las entradas faltantes de 05-29, 06-01 y 06-02.
+
+## 2026-06-01
+- **Entrevista — Storm Sequencer:** `02-plataforma-web/secuenciador.md` ampliado con 4 secciones (modos Melodía Simple / Cuarteto SATB, el cifrado como ejercicio activo, arquitectura del propedéutico de 4 lecciones, momento "wow"). Capturado: el Cuarteto SATB es el destino final del curso completo (~60 lecciones).
+- **Ingesta de 3 videos al wiki:** "The Real Problem With AI Agents" → modulo_agentes.md + conceptos_no_olvidar.md; "ExO 3.0" + "Diamandis/Ismail" → `08-sintesis/tecnologia-al-servicio-del-metodo.md` (sección completa: Coase reformulado, stack 6 capas, 5 fosos defensivos); "This Could Save Your Life" → `08-sintesis/el-musico-como-atleta.md` (sección 8: longevidad sistémica).
+- `00-contexto/ai-radar.md`: mayo cerrado completo (días 29-31).
 
 ## 2026-05-26
 - `01-metodo-pedagogico/progresion-estudiante.md` iniciado mediante entrevista: experiencia profesional/no motivacional, recorrido inicial, propedéutico y descubrimiento de herramientas.

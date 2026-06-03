@@ -8,6 +8,29 @@
 
 ---
 
+## [2026-06-03] lint | Revisión de salud + sincronización de estados (Opus 4.8)
+
+**Inconsistencias detectadas y corregidas:**
+1. ✅ Archivos de control clavados en 2026-05-29 pese al trabajo del 01-02 jun → `CLAUDE.md` §7, `index.md` y `CHANGELOG.md` sincronizados a 2026-06-03.
+2. ✅ Pendiente fantasma en `CLAUDE.md`: "Ingestar 3 videos al wiki" seguía listado pese a que el commit 77b8b48 (06-01) ya los ingirió → eliminado; sesión 06-01 registrada en "Fuentes ingresadas".
+3. ✅ Contradicción de estados: `index.md` marcaba como `borrador` a el-musico-como-atleta, modelos-mentales y como-enseno-armonia, pero sus frontmatter dicen `en_progreso` → columna Estado de la sección 08 corregida.
+4. ✅ `06-diario-proyecto/2026-05.md` existía pero no estaba en `index.md` → agregado.
+5. ✅ Video "This Could Save Your Life" figuraba como "(por clasificar)" → reclasificado como ingerido (longevidad sistémica → el-musico-como-atleta sección 8).
+6. ✅ **Duplicación de contenido:** `Los_Seres_Musicales.md` en la raíz era copia byte a byte (533 KB) de `07-fuentes/libros/Los_Seres_Musicales.md` → eliminado de la raíz (`git rm`).
+7. ✅ Estadísticas de `index.md` actualizadas (síntesis 5 en_progreso + 1 borrador; última sesión 2026-06-03).
+
+**Pendientes señalados (requieren a Luis o sesión dedicada):**
+- ⚠️ Síntesis nueva candidata: "El entrenamiento del oído absoluto" — el backlog de ~40 insights de [oído] del 2026-04-09 en `insights.md` no tiene archivo destino. Material original denso de Luis; ideal para nivel 2.
+- ℹ️ Decisión de fondo (3er lint que lo señala): consolidar `CLAUDE.md` y `AGENTS.md` en una fuente única.
+- ⚠️ 3 libros con `[verificar autor]` en `indice-fuentes.md` (Amino Acid, Philosophy Beginner's Guide, Civilización Artificial).
+- ⚠️ `estrategia-freemium-musical.md` sigue en borrador sin crecer desde 2026-04-16.
+
+**Referencias cruzadas:** verificadas, sin enlaces rotos.
+
+**Archivos modificados:** CLAUDE.md, index.md, CHANGELOG.md, log.md; eliminado Los_Seres_Musicales.md (raíz).
+
+---
+
 ## [2026-06-01] entrevista | Storm Sequencer — modos, cifrado activo, arquitectura pedagógica
 
 **Archivos actualizados:**

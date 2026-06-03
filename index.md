@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-05-29
+ultima_actualizacion: 2026-06-03
 estado: en_progreso
 ---
 
@@ -121,6 +121,7 @@ estado: en_progreso
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
 | [2026-04.md](06-diario-proyecto/2026-04.md) | Diario de abril 2026 | en_progreso |
+| [2026-05.md](06-diario-proyecto/2026-05.md) | Diario de mayo 2026 (hito: propedéutico completo) | en_progreso |
 
 ---
 
@@ -165,7 +166,7 @@ estado: en_progreso
 | Video | Tema | Relevancia |
 |-------|------|-----------|
 | [The Real Problem With AI Agents Nobody's Talking About](07-fuentes/videos/The%20Real%20Problem%20With%20AI%20Agents%20Nobody's%20Talking%20About.md) | Agentes de IA, knowledge bases, conocimiento tácito | Alta — valida arquitectura del KB |
-| [This Could Save Your Life](07-fuentes/videos/This%20Could%20Save%20Your%20Life.md) | (por clasificar) | (por revisar) |
+| [This Could Save Your Life](07-fuentes/videos/This%20Could%20Save%20Your%20Life.md) | Longevidad sistémica (Dr. William Lee) — 5 prácticas aplicadas al músico | Ingerido → el-musico-como-atleta.md (sección 8) |
 | [Moonshots — Organizational Singularity (Diamandis/Ismail)](07-fuentes/videos/moonshots-organizational-singularity-peter-diamandis-salim-ismail.md) | Singularidad organizacional, ExO 3.0, transformación empresarial con IA | Alta — clases de IA / asesorías |
 | [Singularidad Organizacional — ExO 3.0](07-fuentes/videos/singularidad-organizacional-exo-3.0.md) | ExO 3.0, modelo organizacional exponencial | Alta — clases de IA / asesorías |
 
@@ -177,9 +178,9 @@ estado: en_progreso
 
 | Archivo | Descripción | Fuentes principales | Estado |
 |---------|-------------|---------------------|--------|
-| [el-musico-como-atleta.md](08-sintesis/el-musico-como-atleta.md) | El cuerpo del músico como sistema atlético: velocidad, flexibilidad, fuerza, nutrición | 6 libros de entrenamiento físico | borrador |
-| [modelos-mentales-aprendizaje-musical.md](08-sintesis/modelos-mentales-aprendizaje-musical.md) | Neurociencia + psicología + filosofía aplicadas al aprendizaje musical | Barrett ×2, Levitin, Gladwell, Sadhguru | borrador |
-| [como-enseno-armonia.md](08-sintesis/como-enseno-armonia.md) | El enfoque específico de Luis para enseñar armonía — conocimiento tácito | Entrevista a Luis (pendiente) | borrador |
+| [el-musico-como-atleta.md](08-sintesis/el-musico-como-atleta.md) | El cuerpo del músico como sistema atlético: velocidad, flexibilidad, fuerza, nutrición, longevidad | 6 libros de fitness + This Could Save Your Life | en_progreso |
+| [modelos-mentales-aprendizaje-musical.md](08-sintesis/modelos-mentales-aprendizaje-musical.md) | Neurociencia + psicología + filosofía aplicadas al aprendizaje musical | Barrett ×2, Levitin, Gladwell, Rock, Agüera y Arcas, Sadhguru | en_progreso |
+| [como-enseno-armonia.md](08-sintesis/como-enseno-armonia.md) | El enfoque específico de Luis para enseñar armonía — conocimiento tácito | Medrano + Sadhguru + Levitin + entrevistas | en_progreso |
 | [tecnologia-al-servicio-del-metodo.md](08-sintesis/tecnologia-al-servicio-del-metodo.md) | Por qué cada decisión técnica existe en función de la pedagogía | Método + video AI Agents + Karpathy + Elefantito | en_progreso |
 | [estrategia-freemium-musical.md](08-sintesis/estrategia-freemium-musical.md) | Modelo de negocio como extensión de los valores pedagógicos | Entrevista + libros de negocios | borrador |
 | [luis-como-ingeniero-neural.md](08-sintesis/luis-como-ingeniero-neural.md) | **La premisa central del proyecto:** Luis modula redes neuronales usando la música como laboratorio — el framework aplica a cualquier habilidad | Entrevista directa 2026-04-16 | **en_progreso** |
@@ -200,16 +201,16 @@ estado: en_progreso
 |---------|-------|
 | Total archivos .md (incluye clases-ia) | 256+ |
 | Archivos wiki principales completos | 8 |
-| Archivos wiki en_progreso | 10+ |
-| Archivos wiki borrador | ~20 |
-| Páginas de síntesis | 6 |
+| Archivos wiki en_progreso | 13+ |
+| Archivos wiki borrador | ~18 |
+| Páginas de síntesis | 6 (5 en_progreso, 1 borrador) |
 | Libros ingresados | 26 |
 | Libros registrados pendientes | 2 (Originals, Shadows) |
-| Videos (transcripts) | 4 |
+| Videos (transcripts, ingeridos al wiki) | 4 |
 | Sistema ainews | mar–may 2026 (activo) |
 | Alumnos en clases-ia | 10 perfilados |
-| Última sesión de trabajo | 2026-05-29 |
+| Última sesión de trabajo | 2026-06-03 |
 
 ---
 
-*Mantenido por Claude. Actualizado: 2026-05-29.*
+*Mantenido por Claude. Actualizado: 2026-06-03.*

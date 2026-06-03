@@ -232,7 +232,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-05-29 (síntesis mayo 27-28: Opus 4.8, Sándwich Humano)
+**Última actualización:** 2026-06-03 (lint de salud: sincronización de estados + ingesta de 3 videos confirmada + entrevista Storm Sequencer)
 
 **Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md, filosofia-ensenanza.md
 
@@ -248,26 +248,30 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 **Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 10 alumnos perfilados (Bruno 16, Carmen 50, Esteban 33, Jonas 12, Julio 60, Karla 30, Luis 84, Mariana 35, Mario 55, Montse 30), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
 
-**Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 4 videos + ainews (mar-may 2026):
+**Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 4 videos (ingeridos al wiki) + ainews (mar-may 2026):
 - Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
 - Sesión 2026-05-01: What Is Intelligence (Agüera y Arcas), This Is Your Brain on Music (Levitin), 6 libros de fitness, A Little Bit of Philosophy U03L04 + U04L04
 - Sesión 2026-05-02: Outliers (Gladwell), Your Brain at Work (Rock)
 - Sesión 2026-05-06: ainews registrado como fuente continua, Originals + Shadows registrados
 - Sesión 2026-05-21: Desanidación de clases-ia + Elefantito Matemático integrado en filosofia-ensenanza.md + Paradigma de No-Compartimentación integrado en síntesis
+- Sesión 2026-06-01: 3 videos ingeridos al wiki (Real Problem With AI Agents → modulo_agentes/conceptos_no_olvidar; ExO 3.0 + Diamandis/Ismail → tecnologia-al-servicio-del-metodo; This Could Save Your Life → el-musico-como-atleta) + entrevista Storm Sequencer (modos, cifrado activo, destino SATB)
 
 **Fuentes no ingresadas aún:** Originals (Grant), Shadows of Forgotten Ancestors (Sagan), libros filosóficos generales, libros económicos
 
 **Repo GitHub:** https://github.com/luisca66/storm-knowledge-base
 
 **Pendiente prioritario:**
-- `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros
-- `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar secciones Storm Sequencer y apps de entrenamiento auditivo
-- `ai-radar.md` → actualizar mensualmente con síntesis de tendencias del mes
+- `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar sección de apps de entrenamiento auditivo (sección Storm Sequencer ya completada el 2026-06-01)
+- `ai-radar.md` → actualizar mensualmente con síntesis de tendencias del mes (junio 2026 pendiente)
 - `luis-como-ingeniero-neural.md` → validar las conexiones por alumno con datos de sesiones reales (secciones Sándwich Humano y prueba empírica ya integradas)
-- Ingestar 3 videos (Diamandis/Ismail, ExO 3.0, This Could Save Your Life) al wiki
+- **Síntesis nueva candidata:** "El entrenamiento del oído absoluto" — recoger el backlog de ~40 insights de [oído] del 2026-04-09 en `insights.md`, que hoy no tienen archivo destino (conectaría con Levitin, Barrett y las apps auditivas)
+- **Decisión de fondo:** consolidar `CLAUDE.md` y `AGENTS.md` en una fuente única (hoy se sincronizan a mano, riesgo de divergencia señalado en 3 lints)
+- Verificar autor de 3 libros con `[verificar autor]` en `indice-fuentes.md` (Amino Acid, Philosophy Beginner's Guide, Civilización Artificial)
+- `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
+- `estrategia-freemium-musical.md` → sigue en borrador sin crecer desde sesión 1 (2026-04-16)
 - Archivos en `borrador` en `04-contenido-musical/`, `05-operaciones/`
 
 ---
 
-*Este archivo es mantenido por Claude. Última revisión: 2026-05-29 (síntesis mayo 27-28, Opus 4.8, Sándwich Humano, Esteban integrado como alumno 8).*
+*Este archivo es mantenido por Claude. Última revisión: 2026-06-03 (lint de salud: estados sincronizados, videos confirmados ingeridos, duplicado de Los_Seres eliminado de la raíz).*
