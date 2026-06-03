@@ -234,7 +234,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-06-03 (chequeo de salud: backlog de `insights.md` cerrado — buzón sin pendientes activos; falso pendiente de "verificar autor" corregido)
+**Última actualización:** 2026-06-03 (sesión KB: 3 videos ingresados, entrevista Storm Sequencer; sesión freemium: cursos avanzados, AEO, YouTube, oído absoluto; ainews junio iniciado — días 1-2 en carpeta 202606)
 
 **Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md, filosofia-ensenanza.md
 
@@ -244,8 +244,8 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto. Núcleo llenado (Camino de la Señal + Kahneman + Barrett + No-Compartimentación) y sección "prueba empírica" con los 10 alumnos de clases-ia. Pendiente: validar conexiones por alumno con datos de sesiones reales
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
 - `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock + Sadhguru (silencio interior, ya integrado)
-- `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
-- `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — tres capas de tecnología llenadas + criterio de automatización (Efecto Santiago) integrado
+- `el-musico-como-atleta.md` ← **en progreso** — 6 libros de fitness + sección 8 longevidad sistémica (Dr. William Lee: sueño oncológico, sulforafano, caminata metabólica, fermentados, autofagia). Premisa central ampliada: prueba de replicabilidad (último alumno Film Scoring = campeón Musclemania Miami)
+- `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — Storm Sequencer completado (modos, cifrado activo, destino SATB) + ExO 3.0/Singularidad Organizacional integrado (Coase reformulado, stack 6 capas, 5 fosos, pasaporte del agente) + criterio de automatización (Efecto Santiago)
 - `entrenamiento-oido-absoluto.md` ← **en progreso** (creada 2026-06-03) — teoría operativa del oído absoluto destilada del backlog de ~40 insights de [oído]. 12 secciones + agenda de preguntas abiertas. La apuesta más radical del método: el AP como corteza selectiva entrenable, no como don
 - `estrategia-freemium-musical.md` ← **en progreso** (reescrita 2026-06-03) — pasó de borrador a síntesis de tesis: por qué el modelo freemium es defendible (el negocio ES el método; gratuidad como filtro; foso 10k horas/Gladwell; fuerzas macro de IA que lo protegen; la beca/Bogle como paciencia compuesta). Pendiente: poblar §8 (5 preguntas abiertas: YouTube, cursos avanzados, AEO, el 1/1000, precio presencial)
 
