@@ -28,6 +28,8 @@ Este Knowledge Base es el **cerebro externalizado de Luis**. Funciona según el 
 
 El KB NO es un archivo de notas. Es la base de entrenamiento para que una IA futura pueda construir el proyecto de forma autónoma.
 
+**El KB es privado — nunca público.** Es el cerebro externalizado de Luis, exclusivamente para él y para la IA que colabora con él. Ningún archivo del KB se publica jamás. Cuando el proyecto tenga artefactos públicos (el **website**, YouTube, Kindle), esos se *redactan usando* el KB como fuente, pero el KB en sí no se expone. Cualquier discusión de AEO / legibilidad para agentes aplica **solo al website**, no al KB. Esta separación es deliberada y es parte del foso: la síntesis profunda del método (el "mecanismo") se queda privada; lo público expone identidad y resultados, no el cómo (ver la paradoja de la legibilidad en `00-contexto/ai-radar.md` y su aplicación en `08-sintesis/estrategia-freemium-musical.md` §5).
+
 ---
 
 ## 3. Estructura de carpetas

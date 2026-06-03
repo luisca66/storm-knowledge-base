@@ -8,6 +8,21 @@
 
 ---
 
+## [2026-06-03] corrección | El KB es privado — nunca público (aclaración de Luis)
+
+**Disparador:** Luis señaló que una redacción mía ("el KB no debe volverse *todo* público") implicaba erróneamente que parte del KB podría publicarse. No es así: **el KB es privado y nunca se publica.**
+
+**La separación correcta, ahora explícita:**
+- **KB** = cerebro externalizado privado de Luis (y la IA que colabora). Nunca público.
+- **Website / YouTube / Kindle** = artefactos públicos, *redactados usando* el KB como fuente.
+- **AEO / legibilidad para agentes aplica solo al website**, jamás al KB. "Alimentar la capa pública" = redactar el website con el KB, no exponerlo.
+
+**Por qué importa:** es parte del foso. La síntesis profunda del método (el "mecanismo") se queda privada; lo público expone identidad + resultados, no el cómo (paradoja de la legibilidad).
+
+**Archivos modificados:** `08-sintesis/estrategia-freemium-musical.md` (§5 corregida en 3 puntos + aclaración + historial), `CLAUDE.md` (§2 — privacidad del KB hecha explícita y permanente), `log.md`. Memoria guardada: `kb-es-privado`.
+
+---
+
 ## [2026-06-03] actualización | Recomendación AEO evaluada contra el radar — la paradoja de la legibilidad
 
 **Archivos:** `00-contexto/ai-radar.md` (Sección 2 — 6º lente), `08-sintesis/estrategia-freemium-musical.md` (§5).
