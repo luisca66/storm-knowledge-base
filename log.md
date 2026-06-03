@@ -8,6 +8,29 @@
 
 ---
 
+## [2026-06-03] actualización | Cierre del backlog de insights + falso pendiente corregido (Opus 4.8)
+
+**Chequeo general de salud + procesamiento del pendiente #1 (backlog de insights).**
+
+**Hallazgo principal:** el "backlog" de `insights.md` era más pequeño de lo que sugería el conteo crudo (67 viñetas / 10 ✅). Desglose real:
+- Bloque 2026-04-09 (~57 viñetas): ya procesado el 2026-06-03 vía banner → `entrenamiento-oido-absoluto.md`. Se conserva como material crudo intencionalmente.
+- Bloques 2026-05-01 y 2026-05-27: ya tenían ✅.
+- **Único pendiente real:** 4 insights del 2026-04-16.
+
+**Acción:** los 4 insights del 2026-04-16 ya estaban integrados al wiki desde el 2026-04-17 (confirmado por `log.md:561`) pero nunca recibieron su ✅ — hueco de contabilidad, no de contenido. Verificado destino por grep y marcados:
+- redes neuronales/música como vehículo → `luis-como-ingeniero-neural.md`, `como-enseno-armonia.md`, `quien-soy.md`
+- coral perfecto/mastery-based → `como-enseno-armonia.md`, `modelos-mentales-aprendizaje-musical.md`
+- secuenciador vs Cubase → `secuenciador.md`, `como-enseno-armonia.md`
+- apps auditivas = corazón → `filosofia-ensenanza.md`
+
+Resultado: **buzón de insights sin pendientes activos.**
+
+**Falso pendiente corregido en CLAUDE.md:** la línea "verificar autor de 3 libros (Amino Acid, Philosophy, Civilización Artificial)" se arrastraba desde lints previos, pero los 3 ya tienen autor asignado en `indice-fuentes.md` desde el 2026-05-21 (Wolfe, Cave, Lassalle). Reemplazada por el único marcador realmente abierto: `[verificar canal]` de "A Little Bit of Philosophy — PHI 101".
+
+**Archivos modificados:** insights.md, CLAUDE.md, log.md.
+
+---
+
 ## [2026-06-03] sintesis | Nueva página nivel 2 — El entrenamiento del oído absoluto
 
 **Archivo creado:** `08-sintesis/entrenamiento-oido-absoluto.md`

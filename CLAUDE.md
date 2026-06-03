@@ -232,7 +232,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-06-03 (lint de salud: sincronización de estados + ingesta de 3 videos confirmada + entrevista Storm Sequencer)
+**Última actualización:** 2026-06-03 (chequeo de salud: backlog de `insights.md` cerrado — buzón sin pendientes activos; falso pendiente de "verificar autor" corregido)
 
 **Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md, filosofia-ensenanza.md
 
@@ -267,7 +267,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `luis-como-ingeniero-neural.md` → validar las conexiones por alumno con datos de sesiones reales (secciones Sándwich Humano y prueba empírica ya integradas)
 - `entrenamiento-oido-absoluto.md` (creada 2026-06-03) → poblar §12 (preguntas abiertas) con datos de alumnos reales que desbloqueen AP; desarrollar la "gramática posicional" (§3)
 - **Decisión de fondo:** consolidar `CLAUDE.md` y `AGENTS.md` en una fuente única (hoy se sincronizan a mano, riesgo de divergencia señalado en 3 lints)
-- Verificar autor de 3 libros con `[verificar autor]` en `indice-fuentes.md` (Amino Acid, Philosophy Beginner's Guide, Civilización Artificial)
+- Verificar **canal/origen** de "A Little Bit of Philosophy — PHI 101" (`[verificar canal]` en `indice-fuentes.md` L84) — único marcador abierto; los 3 autores antes pendientes (Wolfe, Cave, Lassalle) ya quedaron asignados el 2026-05-21
 - `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
 - `estrategia-freemium-musical.md` → sigue en borrador sin crecer desde sesión 1 (2026-04-16)

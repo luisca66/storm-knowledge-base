@@ -21,10 +21,10 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 
 ### 2026-04-16
 
-- [filosofía] [método] Luis modula redes neuronales — la música es el vehículo, no el destino
-- [método] El coral perfecto como criterio de avance (mastery-based learning)
-- [técnico] [método] Secuenciador online = entrega de tareas; Cubase = exploración creativa
-- [app] [método] Las apps de entrenamiento auditivo son el corazón del proyecto, no un complemento
+- ✅ [filosofía] [método] Luis modula redes neuronales — la música es el vehículo, no el destino → integrado en `08-sintesis/luis-como-ingeniero-neural.md`, `08-sintesis/como-enseno-armonia.md` y `00-contexto/quien-soy.md` (marcado 2026-06-03; contenido integrado desde 2026-04-17)
+- ✅ [método] El coral perfecto como criterio de avance (mastery-based learning) → integrado en `08-sintesis/como-enseno-armonia.md` (§"El criterio de avance: el coral perfecto como puerta") y `08-sintesis/modelos-mentales-aprendizaje-musical.md` (marcado 2026-06-03)
+- ✅ [técnico] [método] Secuenciador online = entrega de tareas; Cubase = exploración creativa → integrado en `02-plataforma-web/secuenciador.md` (§"Cubase vs. Storm Sequencer") y `08-sintesis/como-enseno-armonia.md` (marcado 2026-06-03)
+- ✅ [app] [método] Las apps de entrenamiento auditivo son el corazón del proyecto, no un complemento → integrado en `01-metodo-pedagogico/filosofia-ensenanza.md` (marcado 2026-06-03)
 - ✅ [filosofía] [negocio] La visión civilizatoria: una sociedad que entiende música sin necesitar partituras → capturado en `08-sintesis/como-enseno-armonia.md` (2026-05-01)
 
 ### 2026-04-09
@@ -120,3 +120,4 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - 2026-05-21: Procesados los insights de Elefantito Matemático y Módulo de Memoria, marcándolos como integrados en filosofia-ensenanza.md.
 - 2026-05-26: Corregido insight procesado de Elefantito para distinguir versión HTML legacy de 8 niveles y versión Next.js vigente de 6 niveles.
 - 2026-06-03: Backlog de ~40 insights `[oído]`/`[método]` del 2026-04-09 sintetizado en `08-sintesis/entrenamiento-oido-absoluto.md` (página de síntesis nueva). Marcados como procesados con banner en la sección 2026-04-09.
+- 2026-06-03: Cierre del backlog del 2026-04-16. Los 4 insights restantes (redes neuronales/vehículo, coral perfecto/mastery, secuenciador vs Cubase, apps auditivas = corazón) ya estaban integrados al wiki desde el 2026-04-17 según `log.md:561` pero nunca habían recibido su ✅ — hueco de contabilidad, no de contenido. Marcados con destino verificado. **Buzón sin pendientes activos** (el bloque 2026-04-09 se conserva como material crudo bajo banner).
