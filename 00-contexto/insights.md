@@ -1,9 +1,10 @@
 ---
 titulo: "Insights y Ideas"
 tipo: contexto
-ultima_actualizacion: 2026-05-26
+ultima_actualizacion: 2026-06-03
 relacionado_con:
   - 06-diario-proyecto/2026-04.md
+  - 08-sintesis/entrenamiento-oido-absoluto.md
 estado: en_progreso
 ---
 
@@ -27,6 +28,8 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - ✅ [filosofía] [negocio] La visión civilizatoria: una sociedad que entiende música sin necesitar partituras → capturado en `08-sintesis/como-enseno-armonia.md` (2026-05-01)
 
 ### 2026-04-09
+
+> ✅ **Procesado (2026-06-03):** el grueso de los insights `[oído]` y `[método]` de esta fecha quedó sintetizado en `08-sintesis/entrenamiento-oido-absoluto.md` (teoría operativa del oído absoluto: corteza selectiva, imagen mental, matriz de las 4 percepciones, automaticidad, hipótesis del sample rate, mapa a las apps). Se conservan aquí como material crudo porque la síntesis los cita verbatim y porque varios siguen siendo preguntas abiertas (ver §12 de la síntesis). Los insights `[método]` no auditivos (memoria, modelo mental, tocar como resultado) ya estaban reflejados en `filosofia-ensenanza.md` y `modelos-mentales-aprendizaje-musical.md`.
 
 - [método] [técnico] Hay que preparar los datos para la IA futura: los míos, los del curso, los libros.
 - [método] [oído] La privacidad de la señal tiene que ser tan absoluta que no se sienta el esfuerzo físico, como en los pesos máximos — como si la mano fuera robótica y no obedeciera a la mente.
@@ -116,3 +119,4 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - 2026-05-01: 4 insights nuevos — visión civilizatoria ✅, Elefantito Matemático (pendiente filosofia-ensenanza.md), asesorías de IA ✅
 - 2026-05-21: Procesados los insights de Elefantito Matemático y Módulo de Memoria, marcándolos como integrados en filosofia-ensenanza.md.
 - 2026-05-26: Corregido insight procesado de Elefantito para distinguir versión HTML legacy de 8 niveles y versión Next.js vigente de 6 niveles.
+- 2026-06-03: Backlog de ~40 insights `[oído]`/`[método]` del 2026-04-09 sintetizado en `08-sintesis/entrenamiento-oido-absoluto.md` (página de síntesis nueva). Marcados como procesados con banner en la sección 2026-04-09.

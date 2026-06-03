@@ -244,6 +244,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock + Sadhguru (silencio interior, ya integrado)
 - `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
 - `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — tres capas de tecnología llenadas + criterio de automatización (Efecto Santiago) integrado
+- `entrenamiento-oido-absoluto.md` ← **en progreso** (creada 2026-06-03) — teoría operativa del oído absoluto destilada del backlog de ~40 insights de [oído]. 12 secciones + agenda de preguntas abiertas. La apuesta más radical del método: el AP como corteza selectiva entrenable, no como don
 - `estrategia-freemium-musical.md` ← borrador (no ha crecido desde sesión 1)
 
 **Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 10 alumnos perfilados (Bruno 16, Carmen 50, Esteban 33, Jonas 12, Julio 60, Karla 30, Luis 84, Mariana 35, Mario 55, Montse 30), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
@@ -264,7 +265,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar sección de apps de entrenamiento auditivo (sección Storm Sequencer ya completada el 2026-06-01)
 - `ai-radar.md` → actualizar mensualmente con síntesis de tendencias del mes (junio 2026 pendiente)
 - `luis-como-ingeniero-neural.md` → validar las conexiones por alumno con datos de sesiones reales (secciones Sándwich Humano y prueba empírica ya integradas)
-- **Síntesis nueva candidata:** "El entrenamiento del oído absoluto" — recoger el backlog de ~40 insights de [oído] del 2026-04-09 en `insights.md`, que hoy no tienen archivo destino (conectaría con Levitin, Barrett y las apps auditivas)
+- `entrenamiento-oido-absoluto.md` (creada 2026-06-03) → poblar §12 (preguntas abiertas) con datos de alumnos reales que desbloqueen AP; desarrollar la "gramática posicional" (§3)
 - **Decisión de fondo:** consolidar `CLAUDE.md` y `AGENTS.md` en una fuente única (hoy se sincronizan a mano, riesgo de divergencia señalado en 3 lints)
 - Verificar autor de 3 libros con `[verificar autor]` en `indice-fuentes.md` (Amino Acid, Philosophy Beginner's Guide, Civilización Artificial)
 - `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros

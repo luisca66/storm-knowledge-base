@@ -184,6 +184,7 @@ estado: en_progreso
 | [tecnologia-al-servicio-del-metodo.md](08-sintesis/tecnologia-al-servicio-del-metodo.md) | Por qué cada decisión técnica existe en función de la pedagogía | Método + video AI Agents + Karpathy + Elefantito | en_progreso |
 | [estrategia-freemium-musical.md](08-sintesis/estrategia-freemium-musical.md) | Modelo de negocio como extensión de los valores pedagógicos | Entrevista + libros de negocios | borrador |
 | [luis-como-ingeniero-neural.md](08-sintesis/luis-como-ingeniero-neural.md) | **La premisa central del proyecto:** Luis modula redes neuronales usando la música como laboratorio — el framework aplica a cualquier habilidad | Entrevista directa 2026-04-16 | **en_progreso** |
+| [entrenamiento-oido-absoluto.md](08-sintesis/entrenamiento-oido-absoluto.md) | Teoría operativa del oído absoluto: corteza selectiva, imagen mental, matriz de las 4 percepciones, automaticidad, hipótesis del sample rate, mapa a las 8 apps | Backlog insights oído 2026-04-09 + Levitin + Barrett + Agüera y Arcas | en_progreso |
 
 ---
 
@@ -203,7 +204,7 @@ estado: en_progreso
 | Archivos wiki principales completos | 8 |
 | Archivos wiki en_progreso | 13+ |
 | Archivos wiki borrador | ~18 |
-| Páginas de síntesis | 6 (5 en_progreso, 1 borrador) |
+| Páginas de síntesis | 7 (6 en_progreso, 1 borrador) |
 | Libros ingresados | 26 |
 | Libros registrados pendientes | 2 (Originals, Shadows) |
 | Videos (transcripts, ingeridos al wiki) | 4 |

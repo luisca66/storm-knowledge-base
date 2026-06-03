@@ -8,6 +8,7 @@ estado: en_progreso
 # Registro de Cambios (CHANGELOG)
 
 ## 2026-06-03
+- **Síntesis nueva (nivel 2):** creada `08-sintesis/entrenamiento-oido-absoluto.md` a partir del backlog de ~40 insights de oído del 2026-04-09. Teoría operativa del oído absoluto: corteza selectiva, imagen mental, matriz de las 4 percepciones, automaticidad (Kahneman), hipótesis del sample rate, mapa a las 8 apps y agenda de preguntas abiertas. Backlog marcado como procesado en `insights.md`. Páginas de síntesis: 6 → 7.
 - **Lint de salud del KB** (Opus 4.8): sincronización general de archivos de control que habían quedado clavados en 2026-05-29 pese al trabajo del 01-02 de junio.
 - `CLAUDE.md` §7 actualizada a 2026-06-03: ingesta de 3 videos confirmada (pendiente fantasma eliminado), sesión 06-01 registrada, pendientes reordenados (síntesis del oído absoluto y decisión CLAUDE/AGENTS promovidas).
 - `index.md`: estados de síntesis corregidos (el-musico-como-atleta, modelos-mentales, como-enseno-armonia: borrador → en_progreso, alineados con sus frontmatter); diario `2026-05.md` agregado al catálogo; video "This Could Save Your Life" reclasificado como ingerido; estadísticas y fecha actualizadas.

@@ -8,6 +8,32 @@
 
 ---
 
+## [2026-06-03] sintesis | Nueva página nivel 2 — El entrenamiento del oído absoluto
+
+**Archivo creado:** `08-sintesis/entrenamiento-oido-absoluto.md`
+
+**Origen:** procesamiento del backlog de ~40 insights `[oído]`/`[método]` del 2026-04-09 en `insights.md`, que llevaban más de un año sin archivo destino. Material original y denso de Luis sobre teoría del oído — el candidato más fuerte a síntesis identificado en el lint del mismo día.
+
+**Estructura (12 secciones):**
+1. Por qué existe la página (el AP como caso límite de la tesis "ingeniero neural").
+2. Tesis central: el AP no es don, es corteza selectiva aislable; "unlocking is the way".
+3. AP como imagen mental (analogía del teléfono / propiocepción del tono); el relativo contamina al absoluto; gramática posicional ("ahí es do").
+4. La matriz movible: absoluto / grado / intervalo / acorde como libre selección sobre cualquier nota.
+5. Método: desintegrar → entrenar por separado → reintegrar; criterio "una sola respuesta correcta alcanzable solo con la corteza correcta".
+6. Automaticidad: el intelecto echa a perder el AP (S1 puro, link Kahneman); el punto de inflexión del desbloqueo.
+7. Hipótesis del sample rate: velocidad/ritmo como resolución temporal, no mielina; frecuencia + tiempo como únicos ejes.
+8. El oído como lenguaje (centros de lenguaje vs. mecánicos).
+9. Condiciones físicas: calentamiento del oído, contaminación de la señal, esfuerzo invisible.
+10. Mapa de las 8 apps a cada capa de percepción + ejercicios crudos derivados de insights.
+11. Respaldo neurocientífico (enlazado a modelos-mentales, no repetido): Levitin, Barrett, Agüera y Arcas.
+12. Preguntas abiertas (agenda de investigación de Luis): cómo lo hacen los prodigios, grados-color, sample rate, medir el desbloqueo, la gramática del método.
+
+**Decisión editorial:** las preguntas que Luis dejó abiertas en los insights NO se resolvieron inventando — se preservaron como §12. La página enlaza la neurociencia ya documentada en lugar de duplicarla.
+
+**Archivos modificados:** entrenamiento-oido-absoluto.md (nuevo), insights.md (backlog marcado procesado), index.md (síntesis 6→7), CLAUDE.md (síntesis activa + pendiente actualizado), log.md, CHANGELOG.md.
+
+---
+
 ## [2026-06-03] lint | Revisión de salud + sincronización de estados (Opus 4.8)
 
 **Inconsistencias detectadas y corregidas:**
