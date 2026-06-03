@@ -263,7 +263,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 **Pendiente prioritario:**
 - `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar sección de apps de entrenamiento auditivo (sección Storm Sequencer ya completada el 2026-06-01)
-- `ai-radar.md` → actualizar mensualmente con síntesis de tendencias del mes (junio 2026 pendiente)
+- `ai-radar.md` → síntesis de junio 2026 **abierta (días 1-2)** el 2026-06-03; completar al cierre del mes conforme entren los resúmenes de ainews
 - `luis-como-ingeniero-neural.md` → validar las conexiones por alumno con datos de sesiones reales (secciones Sándwich Humano y prueba empírica ya integradas)
 - `entrenamiento-oido-absoluto.md` (creada 2026-06-03) → poblar §12 (preguntas abiertas) con datos de alumnos reales que desbloqueen AP; desarrollar la "gramática posicional" (§3)
 - **Decisión de fondo:** consolidar `CLAUDE.md` y `AGENTS.md` en una fuente única (hoy se sincronizan a mano, riesgo de divergencia señalado en 3 lints)

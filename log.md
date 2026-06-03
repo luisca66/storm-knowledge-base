@@ -8,6 +8,28 @@
 
 ---
 
+## [2026-06-03] actualización | AI Radar — síntesis de junio 2026 abierta (días 1-2)
+
+**Archivo:** `00-contexto/ai-radar.md` (Sección 2 — Síntesis mensual).
+
+**Fuentes:** `07-fuentes/ainews/202606/` — resumen_20260601.md, resumen_20260602.md, indice_general.md (únicos días disponibles; junio apenas comienza).
+
+**Decisión de método:** la nota de mantenimiento dice sintetizar "al cerrar cada mes". Con solo 2 días, se abre la sección como **"En curso (días 1-2)"** marcada como parcial — aporta valor ahora sin esperar al cierre. Se completará conforme entren los resúmenes.
+
+**Tema central emergente:** la **era de la escasez de tokens** (fin del subsidio de IA). Uber quemó su presupuesto anual en 4 meses, Microsoft canceló Copilot interno, GitHub Copilot terminó su tarifa plana, Anthropic limita el subsidio a Claude Code directo. Goldman proyecta 120 cuatrillones de tokens/mes para 2030. Propuesta: tarifa plana por "empleado cognitivo".
+
+**7 temas + señales + modelos:** Opus 4.8 / inteligencia de orquestación / auto-fork / Dynamic Workflows; "Enforce, don't instruct" (WorkOS/Case — agentes mienten, SHA-256, menos contexto = mejor 77%→97%); calidad de datos 5:1 (Snorkel); paradoja del empleo + Altman/Amodei moderan retórica; encíclica Magnifica Humanitas con confesión de Chris Olah en el Vaticano; crisis de percepción anti-tech (FBI categoría nueva); temporada de IPOs (Anthropic $965B + S-1).
+
+**Ganchos pedagógicos integrados (no solo resumen):**
+- Escasez de tokens → costos de clases-ia + criterio de automatización / Efecto Santiago.
+- "Menos contexto = mejor resultado" → valida el KB **anti-RAG** (Regla 3: síntesis > acumulación) y la verificación obligatoria del output (coral perfecto agéntico).
+- Calidad de datos 5:1 → principio pedagógico de calidad sobre cantidad.
+- "Trabajo de medio a medio" → confirma el Sándwich Humano (mayo §9).
+
+**Archivos modificados:** ai-radar.md (sección junio + frontmatter + historial + relacionado_con), CLAUDE.md (pendiente actualizado), log.md.
+
+---
+
 ## [2026-06-03] actualización | Cierre del backlog de insights + falso pendiente corregido (Opus 4.8)
 
 **Chequeo general de salud + procesamiento del pendiente #1 (backlog de insights).**
