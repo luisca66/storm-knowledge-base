@@ -110,7 +110,29 @@ El contraste con el momento de la industria de IA es nítido: mientras los labs 
 
 ---
 
-## 7. Las dos líneas son el mismo motor
+## 7. YouTube: el faro bilingüe y el video irreducible
+
+*(Entrevista a Luis, 2026-06-03)*
+
+El video de YouTube **es la lección completa** — no un teaser ni contenido aparte. Es la pantalla grabada usando exactamente las mismas herramientas que la plataforma ofrece gratis (las del propedéutico y, sobre todo, el **Storm Sequencer**). Contiene todo lo necesario para hacer la tarea de esa lección.
+
+La decisión de diseño más importante: **el video es irreducible.** No hay resumen posible que lo sustituya, no hay atajos. *"O ves el video o no entiendes nada."* El alumno es **cautivo** del video por la naturaleza misma de lo que se enseña — no por una restricción artificial.
+
+Esto es estratégicamente profundo y se conecta con todo el resto de la síntesis:
+- Es el principio **"no atajos"** del método (§2, el filtro) hecho formato. Lo que no se puede comprimir no se puede saltar.
+- En la era de la IA es un **foso involuntario**: cuando todo el contenido informativo se puede resumir, parsear y destilar por un agente (AI Radar — la economía de la interpretación), lo valioso es justamente lo que **no se deja resumir**. La transformación neural no se transmite por resumen; hay que pasar por el proceso. El video irreducible vende exactamente eso.
+
+**El website como faro, no como embudo de volumen.** Luis es explícito: el sitio "es para unos pocos" — pero esos pocos tienen que aprender, sí o sí, **armonía tradicional estilo Shostakovich** (el linaje Shostakovich→Medrano→Cárdenas, ver [quien-soy.md](../00-contexto/quien-soy.md)). La función primaria de la plataforma y de YouTube no es convertir a escala, sino **señalar al mundo "aquí estoy"**. Es un faro: emite, y el barco correcto lo encuentra. Esto refuerza la §2 (selección sobre volumen) y la dimensión de legado de la §6.
+
+**Las regalías de YouTube: ingreso potencial, no central.** Si eventualmente hay un flujo importante de alumnos, el AdSense puede volverse un ingreso real. Pero no es la razón de ser del canal — el canal es el faro. El ingreso de YouTube es un subproducto del alcance, no el objetivo.
+
+**Bilingüe por diseño (inglés + español).** Cada lección se piensa en ambos idiomas desde el inicio. Duplica el alcance del faro y es coherente con la escala de legado: el método no apunta solo al mercado hispanohablante.
+
+**El loop que neutraliza el cuello de botella.** Grabar es lo más lento y no se puede delegar (vision-proyecto). Pero Luis señala algo que lo cambia todo: producir el curso es hoy "casi un hobby con el que aprendo a usar IA" — y esa misma skill **ya le reporta ingresos vía las asesorías de IA cobradas**. Es decir, el tiempo de producción no es costo puro: **compone** hacia la línea de asesorías (§7→§8). El cuello de botella se paga solo. Cadencia realista: **~1 lección/semana** mientras tenga el trabajo actual; **2/semana** si se libera las mañanas — siempre en las dos versiones idiomáticas.
+
+---
+
+## 8. Las dos líneas son el mismo motor
 
 La plataforma musical (freemium) y las **asesorías de IA** (de pago, abiertas a cualquier cliente) parecen negocios distintos. No lo son: ambas venden lo mismo bajo distinta superficie — **construir la arquitectura neural correcta en vez de sustituirla** (ver [luis-como-ingeniero-neural.md](luis-como-ingeniero-neural.md)).
 
@@ -121,18 +143,20 @@ La misma distinción, el mismo maestro, el mismo principio. Las asesorías de IA
 
 ---
 
-## 8. Preguntas abiertas (agenda con Luis)
+## 9. Preguntas abiertas (agenda con Luis)
 
 Esta página crece con cada entrevista. Lo que aún no está resuelto y vale la pena capturar:
 
-1. **YouTube como canal** — ¿qué tipo de contenido (lecciones completas vs. cápsulas vs. detrás-de-cámaras del método)? ¿Qué frecuencia es sostenible dado que grabar es el cuello de botella? ¿El video de YouTube *es* la lección del curso, o es un teaser que lleva a la plataforma? ¿La monetización de YouTube es ingreso real esperado o solo canal de adquisición?
-2. **Los tres cursos avanzados** (Contrapunto, Análisis, Film Scoring) — ¿a quién van dirigidos exactamente? ¿Rango de precio que contempla Luis? ¿Solo presencial o eventualmente híbrido/remoto? ¿En qué orden los desarrollaría?
-3. **AEO operativo** (§5) — ¿vale la pena estructurar ya la plataforma para ser legible por agentes, o es prematuro frente al cuello de botella de grabar videos?
-4. **El número 1/1000** — ¿es una intuición o hay algún dato de los alumnos reales (clases-ia, presenciales) que lo respalde o lo ajuste?
-5. **Precio de lo presencial** — sigue como "precio directo con Luis". ¿Hay un rango, una lógica de fijación (por hora, por curso, por resultado)?
+1. **Los tres cursos avanzados** (Contrapunto, Análisis, Film Scoring) — ¿a quién van dirigidos exactamente? ¿Rango de precio que contempla Luis? ¿Solo presencial o eventualmente híbrido/remoto? ¿En qué orden los desarrollaría?
+2. **AEO operativo** (§5) — ¿vale la pena estructurar ya la plataforma para ser legible por agentes, o es prematuro frente al cuello de botella de grabar videos?
+3. **El número 1/1000** — ¿es una intuición o hay algún dato de los alumnos reales (clases-ia, presenciales) que lo respalde o lo ajuste?
+4. **Precio de lo presencial** — sigue como "precio directo con Luis". ¿Hay un rango, una lógica de fijación (por hora, por curso, por resultado)?
+
+> ✅ **Resuelto 2026-06-03:** YouTube (era pregunta 1) — integrado como §7. El video es la lección completa e irreducible; el website es un faro bilingüe, no un embudo de volumen; las regalías son ingreso potencial secundario; cadencia ~1-2 lecciones/semana.
 
 ---
 
 ## Historial de Cambios
 - **2026-04-16** — Archivo creado. Estructura base con info de entrevista previa (borrador stub).
 - **2026-06-03** — Reescritura completa como página de síntesis nivel 2. Pasa de `borrador` a `en_progreso`. Deja de duplicar vision-proyecto.md y se convierte en la capa de tesis: por qué el modelo es defendible. 7 secciones (modelo = método, gratuidad como filtro, escalera como gradiente de profundidad, foso 10k horas/Gladwell, fuerzas macro de IA que protegen el modelo, la beca/Bogle como paciencia compuesta, las dos líneas como un motor) + agenda de 5 preguntas abiertas para Luis. Lentes nuevas integradas: Bogle (largo plazo), Gladwell (foso), AI Radar (Jevons/bifurcación/AEO/no-outsourcear-entendimiento).
+- **2026-06-03** (entrevista) — Resuelta la pregunta de YouTube → nueva §7 "El faro bilingüe y el video irreducible". Hallazgos: el video ES la lección completa (pantalla grabada con las herramientas gratuitas + Storm Sequencer); es **irreducible** ("o ves el video o no entiendes nada") — el "no atajos" del método hecho formato y foso involuntario en la era de los resúmenes por IA; el website es un **faro** ("aquí estoy"), no un embudo de volumen, para los pocos que aprenderán armonía estilo Shostakovich; regalías de YouTube = ingreso potencial secundario; **bilingüe** (EN/ES) por diseño; cadencia ~1/semana (2/semana si libera mañanas); el cuello de botella de grabar se neutraliza porque producir el curso *es* cómo Luis entrena la skill de IA que ya monetiza en asesorías. Secciones renumeradas (dos líneas 7→8, preguntas 8→9; quedan 4 preguntas abiertas).

@@ -8,6 +8,26 @@
 
 ---
 
+## [2026-06-03] entrevista | Estrategia freemium — YouTube, el faro y el video irreducible
+
+**Archivo:** `08-sintesis/estrategia-freemium-musical.md` (nueva §7).
+
+**Pregunta:** rol de YouTube en el modelo (de las 5 preguntas abiertas de §8 que dejó la reescritura del mismo día).
+
+**Conocimiento capturado:**
+- **El video de YouTube ES la lección completa** — pantalla grabada con las mismas herramientas gratuitas (propedéutico + Storm Sequencer). Contiene todo lo necesario para hacer la tarea. No es teaser ni contenido aparte.
+- **El video es irreducible:** "no hay resumen posible que lo enseñe, no hay atajos. O ves el video o no entiendes nada." El alumno es cautivo por la naturaleza de lo que se enseña, no por restricción artificial. → Es el principio "no atajos" del método hecho formato, y un **foso involuntario** en la era de la IA: lo valioso es lo que no se deja resumir/parsear.
+- **El website es un faro, no un embudo de volumen:** "es para unos pocos", pero esos pocos aprenden armonía tradicional estilo Shostakovich sí o sí. Función primaria = señalar "aquí estoy", no convertir a escala.
+- **Regalías de YouTube:** ingreso potencial real si hay flujo importante, pero secundario; el canal es faro, el ingreso es subproducto del alcance.
+- **Bilingüe (EN/ES) por diseño** — duplica el alcance, coherente con la escala de legado.
+- **El loop que paga el cuello de botella:** grabar es lo más lento e indelegable, pero hoy es "casi un hobby con el que aprendo a usar IA" — skill que YA monetiza vía asesorías de IA cobradas. El tiempo de producción compone hacia la otra línea. Cadencia: ~1 lección/semana (2/semana si se liberan las mañanas).
+
+**Resultado:** §7 nueva; secciones renumeradas (dos líneas 7→8, preguntas abiertas 8→9). Quedan 4 preguntas abiertas (cursos avanzados, AEO, validar 1/1000, precio presencial).
+
+**Archivos modificados:** estrategia-freemium-musical.md (nueva §7 + renumeración + historial), log.md.
+
+---
+
 ## [2026-06-03] sintesis | Reescritura de estrategia-freemium-musical (borrador → en_progreso)
 
 **Archivo:** `08-sintesis/estrategia-freemium-musical.md`.
