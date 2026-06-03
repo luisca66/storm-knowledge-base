@@ -8,6 +8,22 @@
 
 ---
 
+## [2026-06-03] actualización | AEO como recomendación operativa + pasada de consistencia
+
+**Archivos:** `08-sintesis/estrategia-freemium-musical.md` (§5), `00-contexto/ai-radar.md` (§13).
+
+**Contexto:** Luis pidió mi opinión sobre si invertir en AEO (hacer la plataforma legible por agentes) y luego pidió revisar el KB porque el ai-radar ya tiene mucho material de AEO.
+
+**Pasada de consistencia (AEO en el KB):** el AEO está bien cubierto como *tendencia* en `ai-radar.md` en 5 lugares (economía de la interpretación/mayo, §13 fin del SEO orgánico/Condé Nast, "Deja de construir para humanos"/Karpathy marzo, Sección 3 conceptos 2 y 8 con aplicación a alumnos Mariana/Mario). La separación correcta quedó establecida: **ai-radar = la tendencia; estrategia-freemium = la aplicación a Storm Studios.** Cross-link recíproco añadido entre ambos (ai-radar §13 ↔ freemium §5). Sin duplicación.
+
+**Recomendación registrada (§5 "AEO en modo faro"):** sí pero casi gratis y sin robar tiempo a grabar. Razones: (1) el activo caro ya existe (KB en Markdown); (2) la lógica de faro lo amplifica — el alumno ideal 1/1000 es justo quien pregunta a su IA; (3) coherente con el legado (método legible por agentes sobrevive a Luis). Prioridad #1 (grabar) no se mueve. El 20% que rinde: una página pública canónica + nombres literales + dejar que el KB la alimente. NO hacer schema markup elaborado todavía. Punto de fondo: el mejor AEO de Luis es ser genuinamente único (unicidad = descubribilidad). Aprobada por Luis como recomendación.
+
+**Resultado:** AEO sale de preguntas abiertas (§10); quedan 2 menores. 
+
+**Archivos modificados:** estrategia-freemium-musical.md (§5 + §10 + historial), ai-radar.md (§13 cross-link), CLAUDE.md, log.md.
+
+---
+
 ## [2026-06-03] entrevista | Cursos avanzados — precios, modalidad y la prueba viviente del músico-atleta
 
 **Archivos:** `08-sintesis/estrategia-freemium-musical.md` (nueva §8), `08-sintesis/el-musico-como-atleta.md` (Premisa central), `00-contexto/vision-proyecto.md` (Fuentes de Ingreso + cursos avanzados).

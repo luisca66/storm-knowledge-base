@@ -88,9 +88,30 @@ Aquí es donde la síntesis hace algo que vision-proyecto no puede: conectar el 
 
 - **La bifurcación** (Diamandis, AI Radar): consumidores pasivos vs. creadores que entienden los sistemas. El método de Luis fabrica lo segundo (ver [luis-como-ingeniero-neural.md](luis-como-ingeniero-neural.md)). Eso posiciona a Storm Studios del lado correcto de la brecha que se ensancha cada mes.
 
-- **AEO — Agent Experience Optimization** (AI Radar, mayo §13 / junio): cada vez más, quien busca un servicio no "lee" un sitio — manda un agente a parsearlo. La plataforma de Luis debe ser **legible para agentes**, no solo bonita para humanos, si quiere ser descubierta cuando un alumno potencial le pregunte a su IA "¿dónde aprendo armonía de verdad?". *(Pendiente operativo: estructurar la plataforma con esto en mente — ver §8.)*
+- **AEO — Agent Experience Optimization** (AI Radar: "economía de la interpretación" mayo, §13 "fin del SEO orgánico", "Deja de construir para humanos"/Karpathy marzo): cada vez más, quien busca un servicio no "lee" un sitio — manda un agente a parsearlo. La plataforma de Luis debe ser **legible para agentes**, no solo bonita para humanos, si quiere ser descubierta cuando un alumno potencial le pregunte a su IA "¿dónde aprendo armonía de verdad?". *(Recomendación operativa concreta abajo.)*
 
 > Implicación: las mismas fuerzas que están destruyendo modelos de negocio basados en distribuir información barata **fortalecen** un modelo basado en transformación profunda + criterio humano irreductible.
+
+### Recomendación operativa: AEO en modo faro
+
+*(Recomendación de Claude, 2026-06-03 — aprobada por Luis como recomendación; pendiente de ejecución cuando se libere tiempo.)*
+
+La pregunta no es "¿AEO sí o no?" sino "¿cuánto y cuándo?". Para el caso específico de Luis la respuesta es clara: **sí, pero casi gratis y sin robarle tiempo a grabar.** Tres razones por las que para él el AEO es distinto que para cualquier otro:
+
+1. **El activo caro ya existe.** Lo costoso del AEO es producir contenido estructurado y semántico que explique *qué eres, para quién y por qué eres único*. Eso ya se está produciendo — es este KB, ya en Markdown, justo lo que los agentes prefieren leer. Falta solo destilar una capa pública a partir de él (un fin de semana, no un proyecto).
+2. **La lógica de faro amplifica el argumento.** Luis no quiere volumen — quiere al *1 de 1000 correcto* (§2). Y ese alumno ideal (vocación de hierro + ya usa IA) es exactamente quien le pregunta a su IA "¿dónde aprendo armonía de verdad?" en vez de buscar en Google. El AEO no trae multitudes — trae al barco correcto a la frecuencia del faro.
+3. **Es coherente con el legado (§6).** Un método legible para agentes **sobrevive y se propaga después de Luis**: una IA podrá seguir recomendándolo cuando él ya no esté.
+
+**Pero la prioridad #1 no se mueve:** grabar sigue siendo el cuello de botella real e indelegable. El AEO entra como tarea de "modo hobby IA" (que además es el loop de skill que ya monetiza, §7), nunca compitiendo con las lecciones.
+
+**El 20% que cuesta casi nada y rinde casi todo:**
+- Una **página pública canónica y semánticamente limpia**: qué es el método, para quién, el linaje Shostakovich→Medrano→Cárdenas, y qué lo hace único (validación MIDI en tiempo real + método neurológico, no teórico). Un agente lee *eso* y ya sabe recomendarlo.
+- **Nombres y descripciones literales**, no solo de marca — los agentes parsean *significado*: "curso de armonía tradicional estilo Shostakovich con maestro virtual MIDI" comunica más a una IA que un título ingenioso pero abstracto.
+- **Dejar que el KB alimente esa capa** — el contenido ya existe.
+
+**Lo que NO se hace ahora** (prematuro, se rehace, roba tiempo): schema markup elaborado, ingeniería de datos estructurados, ops de SEO multilingüe.
+
+> El punto de fondo: **el mejor AEO de Luis es ser genuinamente el único** que hace lo que hace. La unicidad *es* descubribilidad — un agente recomienda lo que no tiene sustituto, y "armonía estilo Shostakovich con validación MIDI en tiempo real y método neurológico" no tiene competencia. Eso ya lo tiene; el AEO solo se asegura de que la IA *sepa* que existe.
 
 ---
 
@@ -176,13 +197,13 @@ La misma distinción, el mismo maestro, el mismo principio. Las asesorías de IA
 
 Esta página crece con cada entrevista. Lo que aún no está resuelto y vale la pena capturar:
 
-1. **AEO operativo** (§5) — ¿vale la pena estructurar ya la plataforma para ser legible por agentes, o es prematuro frente al cuello de botella de grabar videos?
-2. **Orden de lanzamiento** de los avanzados cuando se libere el tiempo de Luis — ¿cuál primero y por qué? (los productos ya existen; la pregunta es de secuencia comercial).
-3. **Profundizar el dato de conversión** — el 1/1000 quedó confirmado como intuición + realidad (~1 alumno cada 3 años hasta Film Scoring). Pendiente menor: ¿cambia ese número cuando el flujo del website crezca, o la vocación de hierro lo mantiene constante?
+1. **Orden de lanzamiento** de los avanzados cuando se libere el tiempo de Luis — ¿cuál primero y por qué? (los productos ya existen; la pregunta es de secuencia comercial).
+2. **Profundizar el dato de conversión** — el 1/1000 quedó confirmado como intuición + realidad (~1 alumno cada 3 años hasta Film Scoring). Pendiente menor: ¿cambia ese número cuando el flujo del website crezca, o la vocación de hierro lo mantiene constante?
 
 > ✅ **Resueltos 2026-06-03:**
 > - **YouTube** (§7) — el video es la lección completa e irreducible; el website es un faro bilingüe, no un embudo de volumen; regalías = ingreso secundario; cadencia ~1-2 lecciones/semana.
 > - **Cursos avanzados y precio** (§8) — todos ya existen e impartidos; cliente con lana + vocación de hierro (1/1000, ~1 cada 3 años); Contrapunto/Análisis en línea ($1,250 MXN/clase), Film Scoring/Ing. Audio presencial-only (estudio 5.1); intensivo presencial $20,000 MXN/mes (3 hrs diarias, incluye formación física).
+> - **AEO** (§5, recomendación operativa) — sí pero en modo faro: barato, alineado con legado y selección, sin robar tiempo a grabar; empezar por una sola página canónica.
 > - **El 1/1000** — confirmado como intuición vivida y realidad actual.
 
 ---
@@ -190,4 +211,5 @@ Esta página crece con cada entrevista. Lo que aún no está resuelto y vale la 
 ## Historial de Cambios
 - **2026-04-16** — Archivo creado. Estructura base con info de entrevista previa (borrador stub).
 - **2026-06-03** — Reescritura completa como página de síntesis nivel 2. Pasa de `borrador` a `en_progreso`. Deja de duplicar vision-proyecto.md y se convierte en la capa de tesis: por qué el modelo es defendible. 7 secciones (modelo = método, gratuidad como filtro, escalera como gradiente de profundidad, foso 10k horas/Gladwell, fuerzas macro de IA que protegen el modelo, la beca/Bogle como paciencia compuesta, las dos líneas como un motor) + agenda de 5 preguntas abiertas para Luis. Lentes nuevas integradas: Bogle (largo plazo), Gladwell (foso), AI Radar (Jevons/bifurcación/AEO/no-outsourcear-entendimiento).
+- **2026-06-03** (recomendación) — AEO resuelto como **recomendación operativa** dentro de §5 ("AEO en modo faro", aprobada por Luis como recomendación): sí pero casi gratis y sin robar tiempo a grabar, porque el activo (KB en Markdown) ya existe, la lógica de faro lo amplifica y es coherente con el legado; empezar por una sola página canónica; no hacer schema markup elaborado todavía. Cross-link recíproco con `ai-radar.md` §13 (tendencia ↔ aplicación). Quedan 2 preguntas menores en §10.
 - **2026-06-03** (entrevista) — Resuelta la pregunta de YouTube → nueva §7 "El faro bilingüe y el video irreducible". Hallazgos: el video ES la lección completa (pantalla grabada con las herramientas gratuitas + Storm Sequencer); es **irreducible** ("o ves el video o no entiendes nada") — el "no atajos" del método hecho formato y foso involuntario en la era de los resúmenes por IA; el website es un **faro** ("aquí estoy"), no un embudo de volumen, para los pocos que aprenderán armonía estilo Shostakovich; regalías de YouTube = ingreso potencial secundario; **bilingüe** (EN/ES) por diseño; cadencia ~1/semana (2/semana si libera mañanas); el cuello de botella de grabar se neutraliza porque producir el curso *es* cómo Luis entrena la skill de IA que ya monetiza en asesorías. Secciones renumeradas (dos líneas 7→8, preguntas 8→9; quedan 4 preguntas abiertas).

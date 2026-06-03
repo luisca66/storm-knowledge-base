@@ -377,6 +377,8 @@ El mecanismo: Google inserta AI Overview + filas de links comerciales antes de c
 
 Esto valida a escala masiva el concepto de AEO (Agent Experience Optimization) introducido en mayo: **tu presencia digital tiene dos audiencias ahora**. La diferencia entre los que entienden esto y los que no se verá en los rankings de búsqueda de los próximos 12 meses.
 
+> **Aplicación a Storm Studios:** la recomendación operativa de AEO para la propia plataforma de Luis (el website como faro legible por agentes, en modo barato y sin robar tiempo a grabar) vive en [estrategia-freemium-musical.md](../08-sintesis/estrategia-freemium-musical.md) §5. Esta sección del radar es la *tendencia*; aquella es la *aplicación*.
+
 ---
 
 **14. Los números del campo al cierre de mayo (31 mayo)**
