@@ -42,3 +42,34 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Full-Stack Filmmakers:* Éxito en taquilla de YouTubers (Kane Parsons, Curry Barker, Markiplier) autogestionando producciones baratas con Blender/After Effects, superando barreras de Hollywood.
   - *Computex de Nvidia:* Lanzamiento del super chip RTX Spark para PCs y CPUs Vera Rubin en producción.
 
+## [02 de Junio de 2026](./resumen_20260602.md)
+**Temas Principales:**
+- **Análisis de la Encíclica *Magnifica Humanitas* y Reacciones (AI Show, Paul Ritzer):**
+  - *Contexto de León XIV:* Publicación en el 135° aniversario de la *Rerum Novarum* (1891) sobre derechos de los trabajadores. Tesis central: la IA no es neutral, amplifica el poder del poseedor de datos y reproduce monopolios morales.
+  - *Llamado a "Desarmar":* Proponer liberar a la IA del monopolio y de la competencia armada comercial y militar, e impulsar la reforma de la ONU para una gobernanza internacional compartida.
+  - *Confesión de Chris Olah (Anthropic):* Admisión pública en el Vaticano sobre el conflicto de incentivos comerciales de los laboratorios y la opacidad de los modelos ("cultivados" neuronalmente, reflejando rasgos de neurociencia e introspección).
+  - *Debate Teológico (Yann LeCun):* Crítica a la personería moral exclusiva del ser humano frente al desarrollo de empatía funcional en las máquinas.
+- **Deterioro de la Percepción Pública y Seguridad (Alex Canrit):**
+  - *Emergencia de PR:* Abucheos colectivos de graduados de 18 a 25 años en ceremonias y resistencia comunitaria a centros de datos.
+  - *Extremismo Anti-Tech:* FBI y DHS emiten reportes de alerta sobre "extremismo violento anti-tech" derivado del desplazamiento laboral y consumo de recursos.
+- **Paradoja de Empleo y Crisis de Costos de Tokens:**
+  - *Contradicción Laboral:* Informes macroeconómicos (Apollo/Yale) registran "cero impacto agregado", mientras que las firmas anuncian recortes masivos (Intuit 17%, Meta, Block).
+  - *Token Spend Descontrolado:* Facturas corporativas estallan (Uber quema su presupuesto anual de 2026 en 4 meses y Microsoft recorta licencias de Copilot).
+  - *Métricas de Google:* El consumo en Google pasa de 480B de tokens/mes en 2025 a 3.2 cuatrillones/mes en 2026 (proyección de Goldman Sachs de 120 cuatrillones/mes en 2030 por el auge agéntico).
+  - *Suscripciones Planas:* Propuesta de migrar del pago por tokens a tarifas planas anuales por empleado cognitivo para evitar microgestión en áreas no técnicas.
+- **Rondas de Inversión y Lanzamientos del Sector:**
+  - *Ronda de Anthropic:* Serie H de $65B ($965B de valoración post-money) con Sequoia, Altimeter y Green Oaks; presentación confidencial del S-1 (SEC) para salida a bolsa.
+  - *Stargate Michigan (OpenAI):* Data center de 1 GW de refrigeración cerrada.
+  - *Alphabet y Berkshire Hathaway:* Emisión de $80B en acciones de Google para diluir el riesgo de capex en data centers; Berkshire adquiere Taylor Morrison por $6.8B all-cash.
+  - *Noticias de Capital de Riesgo:* Cognition levanta $1B a $26B de valoración; HubSpot lanza CLI CRM para agentes; Trajectory levanta $15M para aprendizaje continuo; Pulsia levanta $30M.
+  - *Fallas de Soporte de Meta AI:* Hackeo de Instagram de Obama y Space Force pidiendo accesos directos al chatbot, revelando brechas de identidad y permisos.
+- **Calidad de Datos en RL y Rendimiento en Benchmarks (Kobe Crawford, Snorkel):**
+  - *Dato vs. Cómputo:* El set de entrenamiento RL de alta calidad mejora la precisión del modelo en una ratio de 5:1 (6% de mejora de datos aceptados frente a 1% de rechazados por ruido de infraestructura).
+  - *Abstracción en ARC-AGI 3:* Opus 4.8 sube a 1.5% en la prueba de Chollet, transitando de interpretar píxeles a modelar y abstraer objetos.
+  - *Deep Suite y GPT-5.6:* GPT-5.5 mantiene el liderato en software engineering (Opus 4.8 Ultra Code no fue evaluado); rumores de GPT-5.6 con contexto de 1.5M tokens para junio.
+- **Filosofía Evolutiva e Inconsistencia Interna (Geoffrey Hinton, Nobel 2024):**
+  - *La Carrera Comercial:* Preocupación de que la presión de los IPOs desvíe el diseño de sistemas hacia la competencia en lugar de crear seres que cuiden a la humanidad.
+  - *Auto-Mejora:* Bucle de automejora recursiva en LLMs mediante generación y resolución de inconsistencias lógicas internas (rollouts cognitivos).
+  - *Fast Weights y Hardware Analógico:* Propuesta de almacenar contexto dinámico a corto plazo en pesos rápidos sinapsis-símiles de voltaje y conductancia física, en lugar de multiplicadores de matrices digitales fijos.
+
+
