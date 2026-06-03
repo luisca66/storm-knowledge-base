@@ -8,6 +8,23 @@
 
 ---
 
+## [2026-06-03] actualización | Recomendación AEO evaluada contra el radar — la paradoja de la legibilidad
+
+**Archivos:** `00-contexto/ai-radar.md` (Sección 2 — 6º lente), `08-sintesis/estrategia-freemium-musical.md` (§5).
+
+**Contexto:** Luis pidió leer el ai-radar a fondo (incluidas fuentes crudas) para *evaluar* la recomendación de AEO contra lo que el campo realmente dice, no solo registrarla.
+
+**Hallazgo clave (estaba solo en fuentes crudas, faltaba en el wiki):** la **paradoja de la legibilidad** de Nate B. Jones (`ainews/202605/resumen_20260504.md`). El trabajo durable debe ser legible para ser *valorado* pero no tan legible como para ser *ejecutado sin ti*. Dos errores: invisible (sin crédito) vs. demasiado explícito (delegable/automatizable). Salida: **legibilidad parcial** — resultados sí, mecanismo no; mucho del trabajo durable es instinto calibrado no articulable ("no es un proceso; es lo que eres"). → Añadido como **6º lente del marco conceptual** del radar.
+
+**Evaluación de la recomendación:** estaba direccionalmente bien pero le faltaba este concepto, que la *afila*. Refinamientos integrados a §5:
+1. **Guardrail de legibilidad parcial:** exponer identidad + resultados (para ser descubrible/recomendable), NO el mecanismo del método (para no ser replicable). Es la misma lógica del video irreducible (§7) aplicada a la capa pública.
+2. **El KB no debe volverse todo público:** la síntesis profunda del método es el activo durable; publicarla parseable sería regalar el foso.
+3. **Schema markup:** corregido de "no hacer" a "prioridad baja, no cero" — útil para descubrimiento local, después de la página canónica. El vector real de Luis es conversacional, no de mapas.
+
+**Archivos modificados:** ai-radar.md (6º lente + historial), estrategia-freemium-musical.md (§5 guardrail + historial), log.md.
+
+---
+
 ## [2026-06-03] actualización | AEO como recomendación operativa + pasada de consistencia
 
 **Archivos:** `08-sintesis/estrategia-freemium-musical.md` (§5), `00-contexto/ai-radar.md` (§13).
