@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-06-03
+ultima_actualizacion: 2026-06-04
 estado: en_progreso
 ---
 
@@ -67,11 +67,11 @@ estado: en_progreso
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [arquitectura.md](02-plataforma-web/arquitectura.md) | Arquitectura técnica de la plataforma | borrador |
-| [funcionalidades.md](02-plataforma-web/funcionalidades.md) | Features actuales y planeadas | borrador |
-| [maestro-virtual.md](02-plataforma-web/maestro-virtual.md) | Validador MIDI en tiempo real integrado al curso | borrador |
-| [secuenciador.md](02-plataforma-web/secuenciador.md) | Storm Sequencer v3.0 — secuenciador MIDI en el navegador | borrador |
-| [decisiones-tecnicas.md](02-plataforma-web/decisiones-tecnicas.md) | Decisiones técnicas relevantes y su contexto | borrador |
+| [arquitectura.md](02-plataforma-web/arquitectura.md) | Arquitectura técnica de la plataforma | en_progreso |
+| [funcionalidades.md](02-plataforma-web/funcionalidades.md) | Features actuales y planeadas | en_progreso |
+| [maestro-virtual.md](02-plataforma-web/maestro-virtual.md) | Validador MIDI en tiempo real integrado al curso | en_progreso |
+| [secuenciador.md](02-plataforma-web/secuenciador.md) | Storm Sequencer v3.0 — secuenciador MIDI en el navegador | en_progreso |
+| [decisiones-tecnicas.md](02-plataforma-web/decisiones-tecnicas.md) | Decisiones técnicas relevantes y su contexto | en_progreso |
 
 ---
 
@@ -82,7 +82,7 @@ estado: en_progreso
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
 | [indice-apps.md](03-apps-herramientas/indice-apps.md) | Catálogo completo: 10 apps Android + Sequencer web | en_progreso |
-| [elefantito-matematico.md](03-apps-herramientas/elefantito-matematico.md) | App de matemática mental / mnemotecnia: gimnasio prefrontal y de memoria para el método | en_progreso |
+| [elefantito-matematico.md](03-apps-herramientas/elefantito-matematico.md) | App web/Android de matemática mental: 20 niveles, tutores bilingües, técnicas Arthur Benjamin | **completo** |
 | [otras-apps.md](03-apps-herramientas/otras-apps.md) | Apps adicionales no categorizadas | borrador |
 | [entrenamiento-auditivo/app-android-overview.md](03-apps-herramientas/entrenamiento-auditivo/app-android-overview.md) | Overview de apps de entrenamiento auditivo | borrador |
 | [entrenamiento-auditivo/godot-juegos.md](03-apps-herramientas/entrenamiento-auditivo/godot-juegos.md) | Juegos educativos en Godot 4 | borrador |
@@ -201,17 +201,17 @@ estado: en_progreso
 | Métrica | Valor |
 |---------|-------|
 | Total archivos .md (incluye clases-ia) | 256+ |
-| Archivos wiki principales completos | 8 |
-| Archivos wiki en_progreso | 13+ |
-| Archivos wiki borrador | ~18 |
+| Archivos wiki principales completos | 4 (sin sistema/clases-ia) |
+| Archivos wiki en_progreso | 19 |
+| Archivos wiki borrador | 15 |
 | Páginas de síntesis | 7 (todas en_progreso) |
 | Libros ingresados | 26 |
 | Libros registrados pendientes | 2 (Originals, Shadows) |
 | Videos (transcripts, ingeridos al wiki) | 4 |
-| Sistema ainews | mar–may 2026 (activo) |
+| Sistema ainews | mar–jun 2026 (activo) |
 | Alumnos en clases-ia | 10 perfilados |
-| Última sesión de trabajo | 2026-06-03 |
+| Última sesión de trabajo | 2026-06-04 |
 
 ---
 
-*Mantenido por Claude. Actualizado: 2026-06-03.*
+*Mantenido por Claude. Actualizado: 2026-06-04.*

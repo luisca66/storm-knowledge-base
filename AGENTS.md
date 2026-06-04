@@ -106,7 +106,7 @@ Todo archivo del KB (excepto raw sources y este AGENTS.md) debe tener:
 ```yaml
 ---
 titulo: "Nombre descriptivo"
-tipo: contexto | catalogo | decision | tecnico | diario | fuente
+tipo: contexto | catalogo | decision | tecnico | diario | fuente | spec | sintesis
 ultima_actualizacion: YYYY-MM-DD
 relacionado_con:
   - ruta/relativa/al/archivo.md
@@ -235,38 +235,48 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-05-26 (Elefantito Matemático documentado)
+**Última actualización:** 2026-06-04 (lint de salud Codex: AGENTS/index sincronizados, Elefantito 20 niveles reflejado, schema ampliado)
 
-**Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md, filosofia-ensenanza.md
+**Archivos completos:** quien-soy.md, vision-proyecto.md, filosofia-ensenanza.md, elefantito-matematico.md
 
-**Archivos en progreso:** estructura-curso.md, indice-apps.md, elefantito-matematico.md, secuenciador.md, maestro-virtual.md
+**Archivos en progreso:** stack-tecnologico.md, estructura-curso.md, progresion-estudiante.md, indice-apps.md, secuenciador.md, maestro-virtual.md, arquitectura.md, funcionalidades.md, decisiones-tecnicas.md, ai-radar.md, ritmos-y-decisiones.md
 
 **Páginas de síntesis activas (08-sintesis/):**
-- `luis-como-ingeniero-neural.md` ← la más importante — visión central. Sólida: No-Compartimentación + Sándwich Humano + nueva sección "prueba empírica" con casos reales de clases-ia (Mario, Bruno, Karla, Esteban). Pendiente: validar conexiones con datos de sesiones reales
+- `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto. Núcleo llenado (Camino de la Señal + Kahneman + Barrett + No-Compartimentación) y sección "prueba empírica" con los 10 alumnos de clases-ia. Pendiente: validar conexiones por alumno con datos de sesiones reales
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
 - `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock + Sadhguru (silencio interior, ya integrado)
-- `el-musico-como-atleta.md` ← **en progreso** — llenado con 6 libros de fitness
-- `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — tres capas de tecnología llenadas + criterio de automatización (Efecto Santiago) integrado
-- `estrategia-freemium-musical.md` ← borrador
+- `el-musico-como-atleta.md` ← **en progreso** — 6 libros de fitness + sección 8 longevidad sistémica (Dr. William Lee: sueño oncológico, sulforafano, caminata metabólica, fermentados, autofagia). Premisa central ampliada: prueba de replicabilidad (último alumno Film Scoring = campeón Musclemania Miami)
+- `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — Storm Sequencer completado (modos, cifrado activo, destino SATB) + ExO 3.0/Singularidad Organizacional integrado (Coase reformulado, stack 6 capas, 5 fosos, pasaporte del agente) + criterio de automatización (Efecto Santiago)
+- `entrenamiento-oido-absoluto.md` ← **en progreso** (creada 2026-06-03) — teoría operativa del oído absoluto destilada del backlog de ~40 insights de [oído]. 12 secciones + agenda de preguntas abiertas. La apuesta más radical del método: el AP como corteza selectiva entrenable, no como don
+- `estrategia-freemium-musical.md` ← **en progreso** (reescrita 2026-06-03) — por qué el modelo freemium es defendible: el negocio ES el método; gratuidad como filtro; foso 10k horas/Gladwell; fuerzas macro de IA que lo protegen; la beca/Bogle como paciencia compuesta
 
-**Fuentes ingresadas:** 33 fuentes total:
-- 22 libros originales + Curso Medrano + LLM Wiki + 4 videos
+**Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 10 alumnos perfilados (Bruno 16, Carmen 50, Esteban 33, Jonas 12, Julio 60, Karla 30, Luis 84, Mariana 35, Mario 55, Montse 30), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
+
+**Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 4 videos (ingeridos al wiki) + ainews (mar-jun 2026):
 - Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
 - Sesión 2026-05-01: What Is Intelligence (Agüera y Arcas), This Is Your Brain on Music (Levitin), 6 libros de fitness, A Little Bit of Philosophy U03L04 + U04L04
 - Sesión 2026-05-02: Outliers (Gladwell), Your Brain at Work (Rock)
+- Sesión 2026-05-06: ainews registrado como fuente continua, Originals + Shadows registrados
+- Sesión 2026-05-21: Desanidación de clases-ia + Elefantito Matemático integrado en filosofia-ensenanza.md + Paradigma de No-Compartimentación integrado en síntesis
+- Sesión 2026-06-01: 3 videos ingeridos al wiki (Real Problem With AI Agents → modulo_agentes/conceptos_no_olvidar; ExO 3.0 + Diamandis/Ismail → tecnologia-al-servicio-del-metodo; This Could Save Your Life → el-musico-como-atleta) + entrevista Storm Sequencer (modos, cifrado activo, destino SATB)
 
-**Fuentes no ingresadas aún:** libros filosóficos generales, libros económicos
+**Fuentes no ingresadas aún:** Originals (Grant), Shadows of Forgotten Ancestors (Sagan), libros filosóficos generales, libros económicos
 
 **Repo GitHub:** https://github.com/luisca66/storm-knowledge-base
 
 **Pendiente prioritario:**
-- `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros
-- `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar secciones Storm Sequencer y apps de entrenamiento auditivo
-- Ingestar 3 videos (Diamandis/Ismail, ExO 3.0, This Could Save Your Life) al wiki
-- `02-plataforma-web/` → funcionalidades ✅, maestro-virtual ✅, secuenciador ✅, decisiones-tecnicas ✅ — pendiente: arquitectura.md (revisar si necesita actualización)
+- `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar sección de apps de entrenamiento auditivo (sección Storm Sequencer ya completada el 2026-06-01)
+- `ai-radar.md` → síntesis de junio 2026 abierta; completar al cierre del mes conforme entren los resúmenes de ainews
+- `luis-como-ingeniero-neural.md` → validar las conexiones por alumno con datos de sesiones reales (secciones Sándwich Humano y prueba empírica ya integradas)
+- `entrenamiento-oido-absoluto.md` → poblar §12 (preguntas abiertas) con datos de alumnos reales que desbloqueen AP; desarrollar la "gramática posicional" (§3)
+- **Decisión de fondo:** consolidar `CLAUDE.md` y `AGENTS.md` en una fuente única (hoy se sincronizan a mano, riesgo de divergencia señalado en varios lints)
+- Verificar **canal/origen** de "A Little Bit of Philosophy — PHI 101" (`[verificar canal]` en `indice-fuentes.md`)
+- Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
+- `estrategia-freemium-musical.md` → quedan 2 preguntas menores en §10 (orden de lanzamiento de avanzados, profundizar dato de conversión)
+- **Documentar el Taller de Ingeniería de Audio y Producción Musical** (surgió en entrevista 2026-06-03) — curso real ya impartido, ligado al estudio 5.1, hoy solo mencionado en vision-proyecto/freemium. Necesita ficha propia
 - `04-contenido-musical/`, `05-operaciones/` → archivos en borrador pendientes
 - Verificación pendiente: ¿el progreso del alumno (localStorage) es un problema a resolver pronto?
 
 ---
 
-*Este archivo es mantenido por Codex. Última revisión: 2026-05-26 (Elefantito Matemático documentado).*
+*Este archivo es mantenido por Codex. Última revisión: 2026-06-04 (lint de salud: AGENTS/index sincronizados, Elefantito 20 niveles reflejado, schema ampliado).*

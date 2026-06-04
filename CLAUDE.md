@@ -106,7 +106,7 @@ Todo archivo del KB (excepto raw sources y este CLAUDE.md) debe tener:
 ```yaml
 ---
 titulo: "Nombre descriptivo"
-tipo: contexto | catalogo | decision | tecnico | diario | fuente
+tipo: contexto | catalogo | decision | tecnico | diario | fuente | spec | sintesis
 ultima_actualizacion: YYYY-MM-DD
 relacionado_con:
   - ruta/relativa/al/archivo.md
@@ -234,11 +234,11 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-06-03 (sesión KB: 3 videos ingresados, entrevista Storm Sequencer; sesión freemium: cursos avanzados, AEO, YouTube, oído absoluto; ainews junio iniciado — días 1-2 en carpeta 202606)
+**Última actualización:** 2026-06-04 (lint de salud Codex: AGENTS/index sincronizados, Elefantito 20 niveles reflejado, schema ampliado)
 
-**Archivos completos:** quien-soy.md, vision-proyecto.md, stack-tecnologico.md, indice-fuentes.md, funcionalidades.md, decisiones-tecnicas.md, filosofia-ensenanza.md
+**Archivos completos:** quien-soy.md, vision-proyecto.md, filosofia-ensenanza.md, elefantito-matematico.md
 
-**Archivos en progreso:** estructura-curso.md, indice-apps.md, elefantito-matematico.md, secuenciador.md, maestro-virtual.md, ai-radar.md, ritmos-y-decisiones.md
+**Archivos en progreso:** stack-tecnologico.md, estructura-curso.md, progresion-estudiante.md, indice-apps.md, secuenciador.md, maestro-virtual.md, arquitectura.md, funcionalidades.md, decisiones-tecnicas.md, ai-radar.md, ritmos-y-decisiones.md
 
 **Páginas de síntesis activas (08-sintesis/):**
 - `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto. Núcleo llenado (Camino de la Señal + Kahneman + Barrett + No-Compartimentación) y sección "prueba empírica" con los 10 alumnos de clases-ia. Pendiente: validar conexiones por alumno con datos de sesiones reales
@@ -251,7 +251,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 **Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 10 alumnos perfilados (Bruno 16, Carmen 50, Esteban 33, Jonas 12, Julio 60, Karla 30, Luis 84, Mariana 35, Mario 55, Montse 30), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
 
-**Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 4 videos (ingeridos al wiki) + ainews (mar-may 2026):
+**Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 4 videos (ingeridos al wiki) + ainews (mar-jun 2026):
 - Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
 - Sesión 2026-05-01: What Is Intelligence (Agüera y Arcas), This Is Your Brain on Music (Levitin), 6 libros de fitness, A Little Bit of Philosophy U03L04 + U04L04
 - Sesión 2026-05-02: Outliers (Gladwell), Your Brain at Work (Rock)
@@ -270,7 +270,6 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `entrenamiento-oido-absoluto.md` (creada 2026-06-03) → poblar §12 (preguntas abiertas) con datos de alumnos reales que desbloqueen AP; desarrollar la "gramática posicional" (§3)
 - **Decisión de fondo:** consolidar `CLAUDE.md` y `AGENTS.md` en una fuente única (hoy se sincronizan a mano, riesgo de divergencia señalado en 3 lints)
 - Verificar **canal/origen** de "A Little Bit of Philosophy — PHI 101" (`[verificar canal]` en `indice-fuentes.md` L84) — único marcador abierto; los 3 autores antes pendientes (Wolfe, Cave, Lassalle) ya quedaron asignados el 2026-05-21
-- `03-apps-herramientas/elefantito-matematico.md` → confirmar si el HTML legacy de 8 niveles sigue enlazado y si las técnicas avanzadas de Arthur Benjamin siguen planeadas para niveles futuros
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
 - `estrategia-freemium-musical.md` → reescrita + entrevistada el 2026-06-03 (YouTube §7, cursos avanzados §8, AEO como recomendación operativa en §5). Quedan 2 preguntas menores en §10 (orden de lanzamiento de avanzados, profundizar dato de conversión)
 - **Documentar el Taller de Ingeniería de Audio y Producción Musical** (surgió en entrevista 2026-06-03) — curso real ya impartido, ligado al estudio 5.1, hoy solo mencionado en vision-proyecto/freemium. Necesita ficha propia
@@ -278,4 +277,4 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ---
 
-*Este archivo es mantenido por Claude. Última revisión: 2026-06-03 (lint de salud: estados sincronizados, videos confirmados ingeridos, duplicado de Los_Seres eliminado de la raíz).*
+*Este archivo es mantenido por Claude. Última revisión: 2026-06-04 (lint de salud Codex: AGENTS/index sincronizados, Elefantito 20 niveles reflejado, schema ampliado).*

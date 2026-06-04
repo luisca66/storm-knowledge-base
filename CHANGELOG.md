@@ -1,11 +1,17 @@
 ---
 titulo: "Registro de Cambios"
 tipo: diario
-ultima_actualizacion: 2026-06-03
+ultima_actualizacion: 2026-06-04
 estado: en_progreso
 ---
 
 # Registro de Cambios (CHANGELOG)
+
+## 2026-06-04
+- **Lint de salud Codex:** `AGENTS.md` sincronizado con el estado real del 2026-06-03 y `CLAUDE.md`; convención de frontmatter ampliada para permitir `spec` y `sintesis`, tipos ya usados por el KB.
+- `index.md` corregido: archivos de `02-plataforma-web/` pasan de `borrador` a `en_progreso`, Elefantito pasa a `completo`, estadísticas recalculadas sin sistema/clases-ia.
+- `03-apps-herramientas/indice-apps.md` corregido: Elefantito Matemático actualizado de 6 a 20 niveles desbloqueables.
+- Chequeo de referencias cruzadas: sin roturas reales detectadas fuera de ejemplos/templates.
 
 ## 2026-06-03
 - **Síntesis nueva (nivel 2):** creada `08-sintesis/entrenamiento-oido-absoluto.md` a partir del backlog de ~40 insights de oído del 2026-04-09. Teoría operativa del oído absoluto: corteza selectiva, imagen mental, matriz de las 4 percepciones, automaticidad (Kahneman), hipótesis del sample rate, mapa a las 8 apps y agenda de preguntas abiertas. Backlog marcado como procesado en `insights.md`. Páginas de síntesis: 6 → 7.

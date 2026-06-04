@@ -8,6 +8,31 @@
 
 ---
 
+## [2026-06-04] lint | Checada de salud del KB
+
+**Disparador:** Luis pidió "darle una checada" al proyecto.
+
+**Chequeos realizados:**
+- `git status` limpio antes de empezar.
+- Revisión de últimos commits.
+- Revisión de `AGENTS.md`, `CLAUDE.md`, `index.md`, `CHANGELOG.md`, `log.md`.
+- Búsqueda de placeholders, borradores, pendientes explícitos y estados de frontmatter.
+- Chequeo mecánico de `relacionado_con`: sin referencias rotas reales fuera de ejemplos/templates.
+
+**Problemas detectados y resueltos:**
+1. `AGENTS.md` estaba congelado en 2026-05-26 mientras `CLAUDE.md` e `index.md` ya estaban en 2026-06-03 → sincronizado.
+2. La convención de `tipo:` no aceptaba `spec` ni `sintesis`, aunque el KB ya los usa en archivos reales → schema ampliado.
+3. `index.md` marcaba los archivos de `02-plataforma-web/` como `borrador`, pero sus frontmatter están en `en_progreso` → corregido.
+4. `index.md` e `indice-apps.md` todavía describían Elefantito Matemático como `en_progreso`/6 niveles; la ficha actual lo marca `completo` con 20 niveles → corregido.
+
+**Pendientes que siguen abiertos:**
+- `04-contenido-musical/` y `05-operaciones/` siguen siendo las zonas más vacías del KB.
+- `progresion-estudiante.md` aún necesita entrevista para criterios de dominio y gamificación.
+- `08-sintesis/tecnologia-al-servicio-del-metodo.md` aún necesita completar apps de entrenamiento auditivo.
+- Decisión de fondo: consolidar `AGENTS.md` y `CLAUDE.md` para evitar divergencia futura.
+
+---
+
 ## [2026-06-03] corrección | El KB es privado — nunca público (aclaración de Luis)
 
 **Disparador:** Luis señaló que una redacción mía ("el KB no debe volverse *todo* público") implicaba erróneamente que parte del KB podría publicarse. No es así: **el KB es privado y nunca se publica.**

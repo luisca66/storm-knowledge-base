@@ -1,7 +1,7 @@
 ---
 titulo: "Catálogo de Apps y Herramientas"
 tipo: catalogo
-ultima_actualizacion: 2026-05-22
+ultima_actualizacion: 2026-06-04
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -37,7 +37,7 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 
 | App | Propósito | Área del método |
 |-----|-----------|-----------------|
-| **Elefantito Matemático** | Aritmética cronometrada con tutor bilingüe, audio narrado y 6 niveles desbloqueables | Concentración / anticipación / memoria |
+| **Elefantito Matemático** | Aritmética cronometrada con tutor bilingüe, audio narrado y 20 niveles desbloqueables | Concentración / anticipación / memoria |
 | **App Memoria – Nemotecnia** | Memorización de números usando sistemas mnemotécnicos con práctica cronometrada | Memoria selectiva |
 
 ---
@@ -87,6 +87,7 @@ Ver decisión completa en `00-contexto/decisiones-clave.md`.
 ---
 
 ## Historial de Cambios
+- **2026-06-04** — Sincronizado Elefantito Matemático con ficha actual: 20 niveles desbloqueables, no 6.
 - **2026-05-22** — Identificadas apps de P03 (Intervalos x2). Documentada distribución actual y evaluación Play Store.
 - 2026-04-07: Creación inicial (borrador)
 - 2026-04-16: Llenado completo con las 10 apps extraídas del sitio web stormstudios.com.mx/es/apps. Estado: `en_progreso`.
