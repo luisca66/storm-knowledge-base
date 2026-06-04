@@ -72,4 +72,42 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Auto-Mejora:* Bucle de automejora recursiva en LLMs mediante generación y resolución de inconsistencias lógicas internas (rollouts cognitivos).
   - *Fast Weights y Hardware Analógico:* Propuesta de almacenar contexto dinámico a corto plazo en pesos rápidos sinapsis-símiles de voltaje y conductancia física, en lugar de multiplicadores de matrices digitales fijos.
 
+## [03 de Junio de 2026](./resumen_20260603.md)
+**Temas Principales:**
+- **Ray Kurzweil y la Singularidad en MIT (Moonshots, Peter Diamandis):**
+  - *Timeline de AGI (2029):* Kurzweil ratifica que para 2029 la certeza de la AGI será universal. Las dos brechas pendientes son la comprensión física del mundo (Google proyecta resolverlo en 2029) y la robótica a precio accesible (como limpiar una cocina).
+  - *Retornos Acelerados:* El hardware de cómputo creció 75,000 billones de trillones en 75 años (software sumó 1M de mejora). Afirma que los LLMs son útiles en el día a día desde hace apenas 6 meses.
+  - *Consciencia y Selfbots:* Creación del "Dad Bot" y de un selfbot de sí mismo para febrero de 2026 junto a su libro *My Exponential Life*.
+  - *Educación en la Era Exponencial:* Las universidades deben centrarse en socialización y la estimulación del estado de flujo (flow state - 500% de productividad y 400-700% de creatividad) frente a la IA que ya suministra conocimiento de forma superior. El valor se mueve de la oferta de skills a la demanda de especificación de problemas.
+- **Hollywood, YouTubers y AI Filmmaking (Black Forest Labs):**
+  - *Inteligencia Cinematográfica:* Martin Scorsese dirigiendo a la IA de video *Flux* en tiempo real.
+  - *Fricciones en la Industria:* Jorge Gutiérrez se retira de un proyecto de Prime Video que usaba IA por el odio en redes.
+  - *Triunfo de YouTubers:* Éxito en taquilla de las películas de los YouTubers independientes Kane Brown (*The Backrooms*) y Curry Barker (*Obsession*), superando a franquicias consolidadas de Star Wars.
+- **Nvidia Computex y Hardware local (Computex, PewDiePie):**
+  - *Neotron 3 Ultra:* Lanzamiento de pesos abiertos (48 puntos de IA, supera a Gemma 4 31B).
+  - *RTX Spark:* Chip proumer para laptops (20 núcleos CPU, >6k núcleos GPU, 128GB de memoria, 1 petaflop de cómputo IA), marcando el "momento M1" de Windows para inferencia local.
+  - *Odysseus (PewDiePie):* Lanzamiento de la desktop app de IA local con 10k estrellas en GitHub y un cookbook para recomendar modelos compatibles con el hardware del usuario.
+- **Claude 4.8 y el "Overthinking Constitucional" (Nate B. Jones):**
+  - *Checkpoint de Raise:* Opus 4.8 es una versión transicional lanzada para acompañar el raise de Anthropic a una valoración de $965B.
+  - *Límite de Razonamiento:* El nivel "max" rinde peor que "high" en benchmarks debido a que el modelo consume ciclos de tokens auto-evaluándose éticamente con principios constitucionales en lugar de resolver la tarea.
+  - *Uso de /workflows:* Comando en Claude Code para que el agente proponga y estructure visualmente un plan multiagente transparente para validación del programador.
+- **Microsoft Build y OpenClaw ( Satya Nadella):**
+  - *Modelos Propios:* MAI Code One Flash y MAI Thinking One (enfocados en costo).
+  - *Ecosistema Scout:* Microsoft Scout (agente de Copilot) corre sobre el protocolo open-source OpenClaw.
+  - *Project Solaris:* Wearables empresariales del tamaño de una tarjeta de crédito ejecutando agentes ligeros conectados a Azure.
+- **Ecosistema y Seguridad:**
+  - *Cruce de Tráfico:* El tráfico de bots supera por primera vez al tráfico humano en internet, alcanzando el 57.5% (Cloudflare).
+  - *Hackeo de Instagram:* Explotación de soporte de Meta AI para secuestrar cuentas (como la de Obama) usando deepfakes de video, tras recortes masivos en Trust & Safety de Meta.
+  - *Alphabet y Bernie Sanders:* Emisión de $80B de Google (Berkshire Hathaway adquiere $10B) para mitigar riesgos de capex en data centers; propuesta del *AI Sovereign Wealth Fund Act* de Sanders para capturar el 50% de las acciones de los labs de IA.
+- **Interfaces para Agentes y Protocolo MCP (Postman, Ruben Casas):**
+  - *Niveles de UI:* Clasificación en UI estática, UI declarativa (como JSON Render de Vercel) y UI generativa real (HTML/CSS/JS bajo demanda).
+  - *MCP Apps:* Clave para UI generativa por proveer el sandbox de doble iFrame seguro con el que el humano y el agente colaboran visualmente (ej. Excalidraw).
+- **Despliegues Corporativos y Límites de Consumo (Walmart, Bain):**
+  - *Retornos Inflados:* Bain reporta que casi el 40% de las empresas ven ahorros de costos por debajo del 10%, comprometiendo la autofinanciación de la siguiente ola tecnológica.
+  - *Walmart y Code Puppy:* Walmart devaluará el acceso ilimitado a tokens en su agente Code Puppy e introduce límites y cuotas individuales por usuario.
+- **Hermes Desktop App y Meta Wearables (Alex Finn, Meta):**
+  - *Hermes App:* Organización de sesiones por áreas de vida, control de cron-jobs y compresión de memoria ajustando el threshold a 0.5.
+  - *Meta Wearables:* Pendant colgado al cuello para wearables de trabajo; Reality Labs reporta $4B en pérdidas y $42M en ingresos.
+
+
 
