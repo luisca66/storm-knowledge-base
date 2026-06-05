@@ -33,6 +33,51 @@
 
 ---
 
+## [2026-06-04] entrevista | Apps de entrenamiento auditivo — el método precede a la tecnología
+
+**Archivos:** `08-sintesis/tecnologia-al-servicio-del-metodo.md` (sección apps completada — era [Pendiente]), `03-apps-herramientas/indice-apps.md` (nueva sección "Origen y evolución" + orden de uso cognitivo), `08-sintesis/entrenamiento-oido-absoluto.md` (nota de linaje Burge en Premisa central).
+
+**Pregunta:** orden y momento de uso de las apps de oído en el camino del alumno (capa operativa que faltaba; la teoría ya estaba en entrenamiento-oido-absoluto.md §10).
+
+**Conocimiento capturado:**
+- **La metodología precede a las apps.** Cronología: pre-2024 ejercicios a mano (heredados de **David Lucas Burge** + evolución propia), ejecutados por los alumnos programándolos en **Cubase** → 2024 libro (Amazon Kindle oct 2024) + primeros intentos en Python → 2025 Android vibe-coding (automatiza lo de Cubase) → 2026 explosión con Claude Code. Las apps **automatizaron un método existente, no lo crearon**.
+- Esto es la prueba histórica de la tesis del archivo de síntesis: la tecnología llegó a un método maduro. Efecto Santiago a escala de catálogo (las apps escalan lo ya validado, no descubren).
+- **Orden de apps cognitivas:** primero Memoria, luego Matemáticas Mentales (Elefantito).
+- **Estado de uso honesto:** el último alumno "vintage" se fue a mediados de 2025; desde entonces solo Luis ha usado las apps. Codifican método validado, esperan primer alumno.
+
+**Pendiente que sigue:** documentar el juego auditivo en Godot (13 niveles, `[LLENAR: estado]`); precisar el orden de uso de las 8 apps de oído relativo al avance en lecciones.
+
+---
+
+## [2026-06-04] entrevista | Desglose — la operación fundacional del oído
+
+**Archivos:** `08-sintesis/entrenamiento-oido-absoluto.md` (nueva sección en §5 + reorden del mapa de apps §10), `03-apps-herramientas/indice-apps.md` (Desglose detallado + nota fundacional). Consultado `07-fuentes/libros/Los_Seres_Musicales.md` (definición de Ser Musical, confirmada consistente con el KB).
+
+**Pregunta:** orden de uso de las 8 apps de oído.
+
+**Conocimiento capturado:**
+- **Desglose es la app fundacional** y donde todos los alumnos vienen más atrasados (Luis incluido en su propio desarrollo). Mecánica: toca 2–7 notas simultáneas (piano, corno, coro, cello, fagot, multitímbrico); el alumno **canta** cada nota y la app la valida al afinar. **Sensible a la nota, no a la octava** → rango C2–C7. Progresión: principiante 2 notas en rango vocal → con los años 7 notas en todo el rango instrumental.
+- **Axioma:** "si no puedes desglosar lo que estás escuchando, simplemente no lo estás escuchando." Escuchar = descomponer, no recibir.
+- **Prerrequisito del AP:** las apps de oído absoluto suponen que el oído puede separar fundamental+armónicos; sin esa capacidad no hay sustrato fisiológico ni neurológico para el AP. El timbre ES el perfil de armónicos → desglosar armónicos es anclar la frecuencia limpia de su envoltura tímbrica. Conecta con la tesis de la corteza selectiva (§2) y con la progresión del atleta (§ el-musico-como-atleta).
+- Dato corregido en el KB: Desglose es 2–7 notas (antes figuraba 2–5).
+
+**Definición de Ser Musical (del libro, confirmada):** quien maneja el lenguaje musical como su idioma natal — escucha y entiende cada nota/frase sin partitura y puede transcribir. El taller transforma a los no-prodigios en seres musicales modificando estructuras cerebrales (entrenamiento selectivo de la corteza). Esencia: intención consciente. Ya consistente con filosofia-ensenanza / luis-como-ingeniero-neural (Camino de la Señal).
+
+---
+
+## [2026-06-04] entrevista | El porqué de Memoria + Matemáticas — gimnasio del cerebro en la era de la IA
+
+**Archivos:** `03-apps-herramientas/indice-apps.md` (App Memoria detallada + porqué del orden), `03-apps-herramientas/elefantito-matematico.md` (Propósito Pedagógico ampliado), `08-sintesis/tecnologia-al-servicio-del-metodo.md` (sección Elefantito + argumento anti-zombie).
+
+**Pregunta:** por qué el alumno empieza por Memoria y Matemáticas Mentales (la capa de preparación cognitiva).
+
+**Conocimiento capturado:**
+- **App Memoria = sistema fonético clásico:** cada dígito se asocia a consonante(s); las vocales no cuentan, así los números se vuelven palabras memorizables. La app lo deja listo para practicar y jugar cronometrado.
+- **El orden y su porqué:** primero Memoria (retener números con fluidez = construir la plantilla), luego Matemáticas Mentales (el cálculo rápido exige sostener resultados intermedios grandes en memoria de trabajo). "Memoria es primero y es todo".
+- **El argumento de fondo (tesis civilizatoria):** así como quien entra al taller entra al gimnasio físico, el alumno empieza por el desarrollo *físico del cerebro*. En la era de "todo lo hace ChatGPT", mantener el cerebro irrigado es urgente por dos razones: (1) no perderlo por desuso; (2) no caer en consumidor pasivo de corporaciones que nos necesitan comprando lo innecesario. Conecta con Karpathy ("no puedes tercerizar tu entendimiento") y con el Sándwich Humano (el humano que encuadra/juzga necesita un cerebro en forma).
+
+---
+
 ## [2026-06-03] corrección | El KB es privado — nunca público (aclaración de Luis)
 
 **Disparador:** Luis señaló que una redacción mía ("el KB no debe volverse *todo* público") implicaba erróneamente que parte del KB podría publicarse. No es así: **el KB es privado y nunca se publica.**

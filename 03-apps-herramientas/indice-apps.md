@@ -6,6 +6,8 @@ relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 02-plataforma-web/funcionalidades.md
+  - 08-sintesis/tecnologia-al-servicio-del-metodo.md
+  - 08-sintesis/entrenamiento-oido-absoluto.md
 estado: en_progreso
 ---
 
@@ -22,7 +24,7 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 
 | App | Propósito | Área del método |
 |-----|-----------|-----------------|
-| **Desglose** | Aisla e identifica notas individuales dentro de acordes (2 a 5 notas simultáneas) | Oído absoluto / corteza auditiva selectiva |
+| **Desglose** ⭐ | **App fundacional.** Toca de 2 a 7 notas simultáneas (piano, corno, coro, cello, fagot o multitímbrico); el alumno debe **cantar cada nota** y la app la da por buena al afinarla. Sensible a la nota, no a la octava → se trabaja todo el rango C2–C7 | Oído absoluto / corteza auditiva selectiva |
 | **Intervalos – Reconocimiento** | Entrena el reconocimiento de distancias de tono entre notas | Oído relativo — **App de P03** |
 | **Intervalos – Cantados** | Desarrolla la producción vocal precisa de intervalos | Oído relativo + cuerpo — **App de P03** |
 | **Reconocimiento de Acordes** | Identifica cualidades de acordes desde tríadas hasta acordes de 13ª | Oído relativo / armonía |
@@ -31,14 +33,25 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 | **Oído Absoluto Multi-tímbrico** | Reconocimiento de notas específicas en 5 timbres diferentes | Oído absoluto |
 | **Oído Absoluto Guitarra Clásica** | Entrenamiento especializado de oído absoluto para guitarra clásica | Oído absoluto |
 
+> **Desglose es la app fundacional del oído (orden confirmado por Luis, 2026-06-04).** Es donde *todos* los alumnos vienen más atrasados — el propio Luis lo recuerda como su cuello de botella al avanzar su desarrollo. La progresión: los principiantes empiezan con **solo 2 notas y solo en su rango vocal**; con los años el trabajo se extiende a **7 notas y todo el rango instrumental**.
+>
+> **El axioma:** *"si no puedes desglosar lo que estás escuchando, simplemente no lo estás escuchando."* Las demás apps de oído se benefician enormemente de la capacidad de desglose. Más a fondo: las apps de **oído absoluto suponen** que si el oído no puede separar todos los componentes de un sonido (**fundamental + armónicos**), no existe el fundamento *fisiológico* ni *neurológico* para desarrollar el oído que exige un Ser Musical. Desglose construye ese fundamento. (Desarrollo completo en `08-sintesis/entrenamiento-oido-absoluto.md` §5.)
+
 ---
 
 ## Apps de Entrenamiento Cognitivo (Android — gratuitas)
 
 | App | Propósito | Área del método |
 |-----|-----------|-----------------|
+| **App Memoria – Nemotecnia** | Sistema fonético: cada dígito se asocia a una(s) consonante(s); las vocales no cuentan, así los números se vuelven palabras memorizables. Método clásico, listo en la app para practicarlo y jugarlo cronometrado | Memoria selectiva |
 | **Elefantito Matemático** | Aritmética cronometrada con tutor bilingüe, audio narrado y 20 niveles desbloqueables | Concentración / anticipación / memoria |
-| **App Memoria – Nemotecnia** | Memorización de números usando sistemas mnemotécnicos con práctica cronometrada | Memoria selectiva |
+
+> **Orden de uso y porqué (confirmado por Luis, 2026-06-04):** primero **Memoria**, luego **Matemáticas Mentales** (Elefantito).
+>
+> 1. **Memoria primero** porque el sistema fonético (números↔consonantes, vocales ignoradas) le da al alumno la capacidad de *retener números bien*. Es la plantilla que guía la acción (ver `08-sintesis/tecnologia-al-servicio-del-metodo.md` — "Memoria es primero y es todo").
+> 2. **Matemáticas mentales después**, una vez que el alumno ya recuerda sus números con fluidez: el Elefantito es entonces "el gimnasio completo de la mente" — sostiene resultados intermedios grandes en memoria de trabajo mientras opera.
+>
+> **El porqué de fondo (la era de la IA):** así como quien entra al taller entra también al gimnasio físico, el alumno empieza por el **desarrollo físico de su cerebro**. En la era de "todo lo hace ChatGPT", mantener el cerebro irrigado y funcionando nunca fue más importante — para no perderlo por desuso y para no quedar reducido a consumidor pasivo de las corporaciones que nos necesitan comprando lo que no necesitamos. El entrenamiento cognitivo es la condición para extraer el valor máximo de los estudios y de la vida. (Conecta con "no puedes tercerizar tu entendimiento" / Karpathy en `01-metodo-pedagogico/clases-ia/00_instrucciones/conceptos_no_olvidar.md` y con el cerebro-como-músculo de `08-sintesis/el-musico-como-atleta.md`.)
 
 ---
 
@@ -70,6 +83,21 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 - Todas las apps son completamente gratuitas y están diseñadas para complementar el curso de armonía.
 - La versión anterior del KB mencionaba "7 apps de entrenamiento auditivo" — el número correcto según el sitio es 8 apps de oído + 2 cognitivas = 10 total.
 
+## Origen y evolución de las apps
+
+Las apps de Storm Studios **no precedieron al método — lo automatizaron.** Cronología (relatada por Luis, entrevista 2026-06-04):
+
+| Etapa | Qué pasó |
+|-------|----------|
+| **Pre-2024** | Los ejercicios existían y se pulían a mano desde años atrás. Algunos heredados de **David Lucas Burge** (pionero del entrenamiento de oído absoluto), otros ya evolución propia. Los alumnos los ejecutaban **programándolos ellos mismos en Cubase**. |
+| **2024** | Luis escribe su libro para fundar la academia (al ver que no tenía nada documentado). Empezó como manual → terminó como libro completo → **Amazon Kindle, octubre 2024**. Primeros intentos de programar los ejercicios en Python ("codear todavía era un sueño"). |
+| **2025** | Consigue programar para Android vibe-codeando con IA. Las apps **automatizan lo que antes se hacía a mano en Cubase**. Mismo método, ejecución automatizada. |
+| **2026** | Con Claude Code y la nueva generación de modelos, el alcance de las apps crece — siempre como expresión de la metodología preexistente. |
+
+> **Estado de uso real:** el último alumno del entrenamiento "vintage" (a mano, en Cubase) se fue a mediados de 2025. Desde entonces no ha habido alumno con aspiraciones profesionales, por lo que **las apps aún no las ha usado nadie más que Luis**. Codifican una metodología validada en años de enseñanza presencial; esperan a su primer alumno. (Ver análisis de la tesis en `08-sintesis/tecnologia-al-servicio-del-metodo.md`.)
+
+---
+
 ## Distribución y Play Store
 
 **Estado actual:** Todas las apps Android se distribuyen como descarga gratuita desde el website (stormstudios.com.mx).
@@ -87,6 +115,9 @@ Ver decisión completa en `00-contexto/decisiones-clave.md`.
 ---
 
 ## Historial de Cambios
+- **2026-06-04** — Entrevista a Luis (3): Desglose detallado y establecido como app fundacional del oído (2–7 notas cantadas, timbres, sensible a nota no octava, C2–C7, progresión rango vocal→instrumental). Axioma "si no puedes desglosar no lo estás escuchando" + separación fundamental+armónicos como prerrequisito del AP. Corregido dato 2–5→2–7 notas.
+- **2026-06-04** — Entrevista a Luis (2): App Memoria descrita en detalle (sistema fonético dígitos↔consonantes). Orden de uso cognitivo ampliado con el porqué (memoria construye la plantilla; matemáticas la ejercitan) y el argumento de fondo "gimnasio del cerebro en la era de la IA".
+- **2026-06-04** — Entrevista a Luis: añadida sección "Origen y evolución de las apps" (cronología método→apps: Burge/Cubase → Python 2024 → Android 2025 → 2026). Orden de uso de apps cognitivas confirmado (Memoria → Matemáticas). Estado de uso real documentado (solo Luis hasta hoy). Cross-links a síntesis.
 - **2026-06-04** — Sincronizado Elefantito Matemático con ficha actual: 20 niveles desbloqueables, no 6.
 - **2026-05-22** — Identificadas apps de P03 (Intervalos x2). Documentada distribución actual y evaluación Play Store.
 - 2026-04-07: Creación inicial (borrador)

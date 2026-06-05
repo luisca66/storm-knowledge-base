@@ -1,7 +1,7 @@
 ---
 titulo: "Elefantito Matemático"
 tipo: tecnico
-ultima_actualizacion: 2026-05-29
+ultima_actualizacion: 2026-06-04
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 03-apps-herramientas/indice-apps.md
@@ -32,6 +32,14 @@ El juego integra dos líneas de investigación:
 Integrado con Kahneman: la matemática mental entrena el Sistema 2 — el sistema deliberado que permite detener la reacción automática y construir intención.
 
 En clases presenciales, este entrenamiento es obligatorio para alumnos de música. En el website, la app está disponible para cualquier usuario como herramienta cognitiva.
+
+### El orden: por qué Memoria va antes que Matemáticas
+
+Elefantito no es la primera app cognitiva del camino — es la segunda. El alumno empieza por la **App Memoria – Nemotecnia** (el sistema fonético que asocia dígitos a consonantes, ignorando las vocales, para volver los números palabras memorizables). La razón es secuencial: solo cuando el alumno *retiene números con fluidez* tiene sentido el cálculo mental, porque la matemática mental rápida exige sostener resultados intermedios grandes en memoria de trabajo. Memoria construye la plantilla; Elefantito la ejercita bajo presión. Es el mismo principio "Memoria es primero y es todo" del método.
+
+### El porqué de fondo: gimnasio del cerebro en la era de la IA
+
+Así como quien entra al taller de Luis entra también al gimnasio físico, el alumno arranca por el **desarrollo físico de su cerebro**. En la era de "todo lo hace ChatGPT", mantener el cerebro irrigado y funcionando nunca fue más importante: por un lado para no perderlo por desuso, y por otro para no quedar reducido a consumidor pasivo de las corporaciones que nos necesitan comprando lo que no necesitamos. El entrenamiento cognitivo no es un adorno propedéutico — es la condición para extraer el valor máximo de los estudios y de la vida. Esto enlaza directamente con "no puedes tercerizar tu entendimiento" (Karpathy, ver `clases-ia/00_instrucciones/conceptos_no_olvidar.md`): cuanto más potente la IA, más vale el cerebro que la dirige.
 
 ---
 
@@ -178,3 +186,4 @@ Elefantito no reemplaza solfeo, armonía ni entrenamiento auditivo. Prepara el t
 - **2026-04-07** — Creación inicial (borrador)
 - **2026-05-26** — Llenado del propósito pedagógico y versión con 6 niveles documentada
 - **2026-05-29** — Reescritura completa. Luis terminó el proyecto en web y Android. Actualización a 20 niveles, 25 tipos de problema, 15+ técnicas de Arthur Benjamin implementadas, APK en Cloudflare R2, HTML legacy archivado. Estado cambiado a `completo`.
+- **2026-06-04** — Entrevista a Luis: añadido el orden cognitivo (Memoria antes que Matemáticas y por qué) y el argumento de fondo "gimnasio del cerebro en la era de la IA" (no perder el cerebro por desuso; no caer en consumidor pasivo). Conexión con Karpathy "no puedes tercerizar tu entendimiento".

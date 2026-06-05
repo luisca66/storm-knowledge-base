@@ -1,7 +1,7 @@
 ---
 titulo: "El entrenamiento del oído absoluto"
 tipo: sintesis
-ultima_actualizacion: 2026-06-03
+ultima_actualizacion: 2026-06-04
 relacionado_con:
   - 08-sintesis/modelos-mentales-aprendizaje-musical.md
   - 08-sintesis/como-enseno-armonia.md
@@ -25,6 +25,8 @@ estado: en_progreso
 Luis lleva años pensando en voz alta sobre el oído absoluto. Ese pensamiento vivía disperso como ~40 insights crudos en `insights.md`, en su mayoría etiquetados `[oído]`. No tenían archivo destino porque no pertenecen a una sola fuente: son la teoría propia de Luis, validada parcialmente por Levitin y Barrett, y encarnada en las 8 apps de entrenamiento auditivo.
 
 El oído absoluto es el caso límite del proyecto entero. Si la tesis central de Luis es cierta —que **no enseña música, modula redes neuronales** (ver [[luis-como-ingeniero-neural]])— entonces el AP es la prueba más dura: la habilidad que la cultura considera el "don" más innato de todos. Si el método puede construir AP deliberadamente en un adulto, la tesis del don queda desmontada.
+
+**Linaje de los ejercicios.** Parte del entrenamiento auditivo de Luis se hereda de **David Lucas Burge** (pionero del *Perfect Pitch / Relative Pitch Ear Training*), y el resto es evolución propia acumulada en años de enseñanza. Los ejercicios se pulieron primero a mano —los alumnos los programaban en Cubase— y solo después se automatizaron en las apps Android (ver cronología en [[indice-apps]] y la tesis método-precede-a-la-tecnología en [[tecnologia-al-servicio-del-metodo]]). Esto importa para la credibilidad de la apuesta: la teoría de la corteza selectiva no es especulación de escritorio, es la racionalización de un método con kilometraje práctico.
 
 ---
 
@@ -118,6 +120,22 @@ El oído del principiante es un amasijo donde tono, ritmo, timbre, melodía y fu
 
 (El tono y el tiempo son, además, las dos únicas dimensiones donde el cerebro acomoda la música —ver §7.)
 
+### El desglose: la operación fundacional del oído
+
+Hay una desintegración que viene *antes* que todas las demás y que es el verdadero punto de entrada del entrenamiento auditivo: **separar las notas que suenan al mismo tiempo**. Es la operación que la app **Desglose** entrena, y Luis la trata como el cimiento de todo el edificio del oído.
+
+El axioma que la gobierna es tajante:
+
+> *"Si no puedes desglosar lo que estás escuchando, simplemente no lo estás escuchando."*
+
+Escuchar no es recibir el sonido —es **descomponerlo**. Quien oye un acorde como un bloque indiferenciado no está oyendo el acorde; está oyendo una textura. El oído musical empieza cuando esa masa se separa en sus voces. Por eso Desglose es donde *todos* los alumnos vienen más atrasados —incluido el propio Luis en su desarrollo—: es la habilidad más básica y la menos entrenada por la educación tradicional.
+
+**El prerrequisito fisiológico del AP.** Aquí está la conexión más profunda con la tesis de la corteza selectiva (§2). Las apps de oído absoluto **suponen** una capacidad previa: que el oído pueda separar todos los componentes de un sonido —**la fundamental y sus armónicos**—. Si esa separación no existe, no hay sustrato *ni fisiológico ni neurológico* sobre el cual construir AP. El timbre mismo de una nota *es* su perfil de armónicos; un oído que no desglosa armónicos no tiene cómo anclar la identidad de la frecuencia limpia de su envoltura tímbrica. Desglose construye literalmente la infraestructura coclear y cortical que §2 exige ("primero hay que construir la infraestructura neuronal y la sensibilidad de la cóclea").
+
+**El diseño de la app encarna la teoría.** Desglose toca de 2 a 7 notas simultáneas en distintos timbres (piano, corno, coro, cello, fagot, multitímbrico) y exige **cantar** cada nota —no reconocerla pasivamente—. Cantar fuerza la respuesta a pasar por el sistema de producción vocal, que no admite trampa intelectual: o aíslas la nota en tu percepción o no la puedes entonar. La app es **sensible a la nota, no a la octava**, de modo que entrena la identidad de clase de altura (*chroma*) en todo el rango C2–C7. La progresión respeta el cuerpo: el principiante empieza con 2 notas en su propio rango vocal y, con los años, llega a 7 notas en todo el rango instrumental. Es el principio del atleta (ver [[el-musico-como-atleta]]): se carga peso progresivo sobre una articulación que primero hay que volver capaz.
+
+Por eso, en el orden de las apps de oído, **Desglose es la primera**: las demás (intervalos, grados, acordes, AP multitímbrico) se benefician de —y en el límite presuponen— la capacidad de desglose ya instalada.
+
 El criterio de diseño de cada ejercicio es exigente:
 
 > *"El éxito del método de entrenamiento auditivo tiene que ser la generación de ejercicios en los que la única respuesta correcta se proporciona con las neuronas correctas, idealmente desde el principio del curso."*
@@ -200,13 +218,13 @@ El oído entrenado, como el cuerpo del atleta ([[el-musico-como-atleta]]), opera
 
 La teoría anterior está encarnada en las 8 apps de entrenamiento auditivo (ver [[indice-apps]]). El mapeo:
 
-| Capa de percepción (§4) | App(s) | Qué corteza aísla |
-|---|---|---|
-| **Absoluto** (identidad de frecuencia) | Oído Absoluto Multi-tímbrico, Oído Absoluto Guitarra Clásica | Representación de la frecuencia a través de varios timbres → desbloquea el AP sin atarlo a un timbre |
-| **Absoluto dentro de simultaneidad** | Desglose (aislar notas en acordes de 2–5 notas) | Concentración en una sola nota dentro de la mezcla — "la capacidad de concentrarse en una sola nota" (§2) |
-| **Intervalo** | Intervalos – Reconocimiento, Intervalos – Cantados | Oído relativo puro (distancia) — apps del Propedéutico P03 |
-| **Grado** | Grados Escala Mayor, Grados Escala Menor | Función tonal — el eje móvil de la matriz (§4) |
-| **Acorde** | Reconocimiento de Acordes (tríadas → 13ª) | Misma corteza de grados aplicada a simultaneidades (§4) |
+| Orden | Capa de percepción (§4) | App(s) | Qué corteza aísla |
+|---|---|---|---|
+| **0 — fundacional** | **Desglose de la simultaneidad** | Desglose (cantar cada una de 2–7 notas simultáneas, varios timbres, sensible a nota no a octava, rango C2–C7) | Separación fundamental+armónicos → el prerrequisito fisiológico y neurológico de todo lo demás (§5). "Si no puedes desglosar, no lo estás escuchando" |
+| 1 | **Absoluto** (identidad de frecuencia) | Oído Absoluto Multi-tímbrico, Oído Absoluto Guitarra Clásica | Representación de la frecuencia a través de varios timbres → desbloquea el AP sin atarlo a un timbre |
+| 2 | **Intervalo** | Intervalos – Reconocimiento, Intervalos – Cantados | Oído relativo puro (distancia) — apps del Propedéutico P03 |
+| 3 | **Grado** | Grados Escala Mayor, Grados Escala Menor | Función tonal — el eje móvil de la matriz (§4) |
+| 4 | **Acorde** | Reconocimiento de Acordes (tríadas → 13ª) | Misma corteza de grados aplicada a simultaneidades (§4) |
 
 Dos principios de diseño que la teoría impone a las apps:
 1. **Una sola respuesta correcta alcanzable solo con la corteza correcta** (§5) — la app no debe permitir resolver por deducción teórica.
@@ -251,4 +269,6 @@ Insights que Luis dejó como preguntas a sí mismo y que esta síntesis **no res
 ---
 
 ## Historial de Cambios
+- **2026-06-04** — Entrevista a Luis (2): añadida la sección "El desglose: la operación fundacional del oído" (§5) — el axioma "si no puedes desglosar, no lo estás escuchando", la separación fundamental+armónicos como prerrequisito fisiológico/neurológico del AP, el diseño de la app (cantar 2–7 notas, sensible a nota no octava, C2–C7) y la progresión por rango vocal→instrumental. Mapa de apps (§10) reordenado con Desglose como capa 0 fundacional; corregido dato 2–5→2–7. Consultado el libro Los Seres Musicales para fundamentar el concepto "Ser Musical".
+- **2026-06-04** — Añadida nota de linaje en Premisa central: ejercicios heredados de David Lucas Burge + evolución propia, pulidos a mano en Cubase antes de automatizarse. Refuerza la credibilidad de la tesis de la corteza selectiva (método con kilometraje, no especulación). Cross-links a indice-apps y tecnologia-al-servicio-del-metodo.
 - **2026-06-03** — Creación de la página de síntesis. Origen: procesamiento del backlog de ~40 insights `[oído]` del 2026-04-09 que no tenían archivo destino. Estructura en 12 secciones: tesis de la corteza selectiva, AP como imagen mental, la matriz de las 4 percepciones, desintegrar/reintegrar, automaticidad (Kahneman), hipótesis del sample rate, oído como lenguaje, condiciones físicas, mapa a las 8 apps, respaldo neurocientífico (enlazado, no repetido) y agenda de preguntas abiertas. Insights de oído marcados como procesados en `insights.md`.
