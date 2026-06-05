@@ -37,6 +37,13 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 >
 > **El axioma:** *"si no puedes desglosar lo que estás escuchando, simplemente no lo estás escuchando."* Las demás apps de oído se benefician enormemente de la capacidad de desglose. Más a fondo: las apps de **oído absoluto suponen** que si el oído no puede separar todos los componentes de un sonido (**fundamental + armónicos**), no existe el fundamento *fisiológico* ni *neurológico* para desarrollar el oído que exige un Ser Musical. Desglose construye ese fundamento. (Desarrollo completo en `08-sintesis/entrenamiento-oido-absoluto.md` §5.)
 
+> **La secuencia del oído relativo (tras Desglose).** Una vez instalado el desglose, el alumno desarrolla **simultáneamente y de forma exhaustiva** (trabajo de meses):
+> 1. **Intervalos** — las dos apps a la vez: *Reconocer* + *Cantados*. Aunque casi con certeza se procesan en la misma parte del cerebro, en la práctica ambas capacidades (percibir y producir) se desarrollan por separado. Intervalos es crucial para el músico profesional.
+> 2. **Grados** — igual de importante (si no más): la percepción de función tonal. Hoy solo existe la versión *Reconocer* (Escala Mayor / Escala Menor). **Pendiente: programar Grados Cantados** (Luis ya tiene ideas — surgió en esta entrevista).
+> 3. **Acordes** — en paralelo: reconocer acordes desde los de quinta (tríadas) hasta los de 13ª.
+>
+> **Diseño multitímbrico (todas las apps).** Todas usan los mismos cinco timbres — **piano, coro, corno, fagot, cello** — o el modo **multitímbrico**. La razón es de fondo: la música es multitímbrica, no solo piano (el instrumento con el que casi todo el mundo entrena el oído, sesgando la percepción a un solo timbre). Entrenar la identidad de la nota a través de varios timbres desata la frecuencia de su envoltura tímbrica.
+
 ---
 
 ## Apps de Entrenamiento Cognitivo (Android — gratuitas)
@@ -120,6 +127,7 @@ Ver decisión completa en `00-contexto/decisiones-clave.md`.
 ---
 
 ## Historial de Cambios
+- **2026-06-04** — Entrevista a Luis (5): documentada la secuencia del oído relativo tras Desglose (intervalos cantados+reconocer simultáneos, grados, acordes 5ª→13ª, exhaustivo, meses). Diseño multitímbrico explicado (5 timbres porque la música no es solo piano). Pendiente nuevo: programar Grados Cantados.
 - **2026-06-04** — Entrevista a Luis (4): sección Juegos Godot reescrita (era stub `[LLENAR]`). Dos juegos reales: Oído Absoluto (5 niveles/5 mundos, terminado) e Intervalos (cantar para disparar, en desarrollo). Documentados como semilla del Videojuego Total de Entrenamiento Auditivo (visión en vision-proyecto.md). Cifra "13 niveles" marcada como no verificada.
 - **2026-06-04** — Entrevista a Luis (3): Desglose detallado y establecido como app fundacional del oído (2–7 notas cantadas, timbres, sensible a nota no octava, C2–C7, progresión rango vocal→instrumental). Axioma "si no puedes desglosar no lo estás escuchando" + separación fundamental+armónicos como prerrequisito del AP. Corregido dato 2–5→2–7 notas.
 - **2026-06-04** — Entrevista a Luis (2): App Memoria descrita en detalle (sistema fonético dígitos↔consonantes). Orden de uso cognitivo ampliado con el porqué (memoria construye la plantilla; matemáticas la ejercitan) y el argumento de fondo "gimnasio del cerebro en la era de la IA".

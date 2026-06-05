@@ -49,6 +49,19 @@
 
 ---
 
+## [2026-06-04] entrevista | La secuencia del oído relativo + diseño multitímbrico
+
+**Archivos:** `03-apps-herramientas/indice-apps.md` (nota de secuencia del oído relativo + diseño multitímbrico), `08-sintesis/entrenamiento-oido-absoluto.md` (mapa de apps §10 reorganizado).
+
+**Conocimiento capturado:**
+- **Tras Desglose, el oído relativo se entrena simultáneo y exhaustivo (meses):** Intervalos (las dos apps a la vez — Reconocer + Cantados; percibir y producir se desarrollan por separado aunque comparten corteza), Grados (función tonal, igual o más importante que intervalos), Acordes (5ª/tríadas → 13ª).
+- **Grados solo tiene versión Reconocer** (Mayor/Menor). Luis se dio cuenta en la entrevista de que **falta programar Grados Cantados** — ya tiene ideas. → Pendiente nuevo.
+- **Diseño multitímbrico (todas las apps):** piano, coro, corno, fagot, cello o multitímbrico. Razón: la música es multitímbrica, no solo piano (el instrumento con que casi todos entrenan el oído, sesgando la percepción a un timbre). Entrenar a través de timbres desata la identidad de la nota de su envoltura tímbrica (coherente con timbre = perfil de armónicos, §5).
+
+**Pendiente generado:** programar app **Grados Cantados**.
+
+---
+
 ## [2026-06-04] entrevista | Los juegos Godot y el Videojuego Total de Entrenamiento Auditivo
 
 **Archivos:** `03-apps-herramientas/indice-apps.md` (sección Godot reescrita, era stub `[LLENAR]`), `00-contexto/vision-proyecto.md` (nuevo horizonte lejano en La Visión Completa).

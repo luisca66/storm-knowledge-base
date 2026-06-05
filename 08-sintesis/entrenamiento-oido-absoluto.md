@@ -221,10 +221,12 @@ La teoría anterior está encarnada en las 8 apps de entrenamiento auditivo (ver
 | Orden | Capa de percepción (§4) | App(s) | Qué corteza aísla |
 |---|---|---|---|
 | **0 — fundacional** | **Desglose de la simultaneidad** | Desglose (cantar cada una de 2–7 notas simultáneas, varios timbres, sensible a nota no a octava, rango C2–C7) | Separación fundamental+armónicos → el prerrequisito fisiológico y neurológico de todo lo demás (§5). "Si no puedes desglosar, no lo estás escuchando" |
-| 1 | **Absoluto** (identidad de frecuencia) | Oído Absoluto Multi-tímbrico, Oído Absoluto Guitarra Clásica | Representación de la frecuencia a través de varios timbres → desbloquea el AP sin atarlo a un timbre |
-| 2 | **Intervalo** | Intervalos – Reconocimiento, Intervalos – Cantados | Oído relativo puro (distancia) — apps del Propedéutico P03 |
-| 3 | **Grado** | Grados Escala Mayor, Grados Escala Menor | Función tonal — el eje móvil de la matriz (§4) |
-| 4 | **Acorde** | Reconocimiento de Acordes (tríadas → 13ª) | Misma corteza de grados aplicada a simultaneidades (§4) |
+| **Clúster relativo** (simultáneo tras Desglose, trabajo de meses) — **Intervalo** | Intervalos – Reconocimiento *y* Intervalos – Cantados (a la vez: percibir + producir se desarrollan por separado aunque comparten corteza) | Oído relativo puro (distancia) — apps del Propedéutico P03 |
+| ↳ | **Grado** | Grados Escala Mayor, Grados Escala Menor (solo *Reconocer*; **Grados Cantados pendiente de programar**) | Función tonal — el eje móvil de la matriz (§4) |
+| ↳ | **Acorde** | Reconocimiento de Acordes (tríadas/5ª → 13ª) | Misma corteza de grados aplicada a simultaneidades (§4) |
+| **Track propio** | **Absoluto** (identidad de frecuencia) | Oído Absoluto Multi-tímbrico, Oído Absoluto Guitarra Clásica | Representación de la frecuencia a través de varios timbres → desbloquea el AP sin atarlo a un timbre |
+
+> **Nota de secuencia (Luis, 2026-06-04):** tras Desglose, el oído relativo (intervalos + grados + acordes) se entrena de forma simultánea y exhaustiva durante meses. El oído absoluto es un track propio (detallado en las secciones anteriores). **Diseño multitímbrico:** todas las apps usan piano, coro, corno, fagot, cello o multitímbrico — porque la música es multitímbrica, no solo piano (el timbre con el que casi todos entrenan, sesgando la percepción). Entrenar a través de varios timbres desata la identidad de la nota de su envoltura tímbrica (coherente con §5: el timbre *es* el perfil de armónicos).
 
 Dos principios de diseño que la teoría impone a las apps:
 1. **Una sola respuesta correcta alcanzable solo con la corteza correcta** (§5) — la app no debe permitir resolver por deducción teórica.
@@ -269,6 +271,7 @@ Insights que Luis dejó como preguntas a sí mismo y que esta síntesis **no res
 ---
 
 ## Historial de Cambios
+- **2026-06-04** — Entrevista a Luis (3): mapa de apps (§10) reorganizado — el oído relativo (intervalos+grados+acordes) como clúster simultáneo tras Desglose; AP como track propio. Añadida nota de secuencia y de diseño multitímbrico (5 timbres porque la música no es solo piano). Registrado pendiente: programar Grados Cantados.
 - **2026-06-04** — Entrevista a Luis (2): añadida la sección "El desglose: la operación fundacional del oído" (§5) — el axioma "si no puedes desglosar, no lo estás escuchando", la separación fundamental+armónicos como prerrequisito fisiológico/neurológico del AP, el diseño de la app (cantar 2–7 notas, sensible a nota no octava, C2–C7) y la progresión por rango vocal→instrumental. Mapa de apps (§10) reordenado con Desglose como capa 0 fundacional; corregido dato 2–5→2–7. Consultado el libro Los Seres Musicales para fundamentar el concepto "Ser Musical".
 - **2026-06-04** — Añadida nota de linaje en Premisa central: ejercicios heredados de David Lucas Burge + evolución propia, pulidos a mano en Cubase antes de automatizarse. Refuerza la credibilidad de la tesis de la corteza selectiva (método con kilometraje, no especulación). Cross-links a indice-apps y tecnologia-al-servicio-del-metodo.
 - **2026-06-03** — Creación de la página de síntesis. Origen: procesamiento del backlog de ~40 insights `[oído]` del 2026-04-09 que no tenían archivo destino. Estructura en 12 secciones: tesis de la corteza selectiva, AP como imagen mental, la matriz de las 4 percepciones, desintegrar/reintegrar, automaticidad (Kahneman), hipótesis del sample rate, oído como lenguaje, condiciones físicas, mapa a las 8 apps, respaldo neurocientífico (enlazado, no repetido) y agenda de preguntas abiertas. Insights de oído marcados como procesados en `insights.md`.
