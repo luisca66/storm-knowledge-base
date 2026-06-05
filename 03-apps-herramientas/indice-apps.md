@@ -71,9 +71,14 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 
 ## Juegos Educativos (Godot 4)
 
-| Juego | Propósito | Estado |
-|-------|-----------|--------|
-| Juego auditivo (Godot) | Entrenamiento auditivo con mecánicas de juego, 13 niveles | [LLENAR: estado] |
+Proyecto personal de Luis para llevar el entrenamiento auditivo a un entorno de videojuego. Los juegos en sí "no son tan importantes" — su valor real es ser **la semilla del Videojuego Total de Entrenamiento Auditivo** (ver `00-contexto/vision-proyecto.md`). También han sido motor del entusiasmo de Luis por subir de nivel como vibe coder, en su camino de modernizar sus clases y dar mejores asesorías de IA.
+
+| Juego | Habilidad | Mecánica | Estado |
+|-------|-----------|----------|--------|
+| **Juego de Oído Absoluto** | Oído absoluto | 5 niveles en 5 mundos (personajes: cocodrilito, personaje esférico, unicornio volador —pedido por Kari, novia de Luis—, nave espacial, +otros) | Terminado — "quedó hermoso" |
+| **Juego de Intervalos** | Intervalos (cantados) | El enemigo se acerca y produce la nota base pidiendo un intervalo; el alumno **canta la nota correcta ~1.5 s** para cargar el arma *y* la **escribe a mano**; con ambas correctas se oye la carga y dispara | En desarrollo — versión nueva de intervalos |
+
+> Nota: el KB registraba antes "13 niveles" como cifra agregada sin verificar. Lo confirmado por Luis (2026-06-04): el juego de AP tiene 5 niveles/5 mundos; el de intervalos está en desarrollo. Programación pausada por falta de tiempo.
 
 ---
 
@@ -115,6 +120,7 @@ Ver decisión completa en `00-contexto/decisiones-clave.md`.
 ---
 
 ## Historial de Cambios
+- **2026-06-04** — Entrevista a Luis (4): sección Juegos Godot reescrita (era stub `[LLENAR]`). Dos juegos reales: Oído Absoluto (5 niveles/5 mundos, terminado) e Intervalos (cantar para disparar, en desarrollo). Documentados como semilla del Videojuego Total de Entrenamiento Auditivo (visión en vision-proyecto.md). Cifra "13 niveles" marcada como no verificada.
 - **2026-06-04** — Entrevista a Luis (3): Desglose detallado y establecido como app fundacional del oído (2–7 notas cantadas, timbres, sensible a nota no octava, C2–C7, progresión rango vocal→instrumental). Axioma "si no puedes desglosar no lo estás escuchando" + separación fundamental+armónicos como prerrequisito del AP. Corregido dato 2–5→2–7 notas.
 - **2026-06-04** — Entrevista a Luis (2): App Memoria descrita en detalle (sistema fonético dígitos↔consonantes). Orden de uso cognitivo ampliado con el porqué (memoria construye la plantilla; matemáticas la ejercitan) y el argumento de fondo "gimnasio del cerebro en la era de la IA".
 - **2026-06-04** — Entrevista a Luis: añadida sección "Origen y evolución de las apps" (cronología método→apps: Burge/Cubase → Python 2024 → Android 2025 → 2026). Orden de uso de apps cognitivas confirmado (Memoria → Matemáticas). Estado de uso real documentado (solo Luis hasta hoy). Cross-links a síntesis.

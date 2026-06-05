@@ -1,7 +1,7 @@
 ---
 titulo: "Visión del Proyecto"
 tipo: contexto
-ultima_actualizacion: 2026-06-03
+ultima_actualizacion: 2026-06-04
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -39,6 +39,8 @@ El regalo (el contenido gratuito) es para llamar la atención y generar masa cr�
 **Los cursos avanzados no serán gratuitos — por diseño y por filosofía:** El Taller de Contrapunto, el Curso de Análisis, el Curso de Film Scoring y el **Taller de Ingeniería de Audio y Producción Musical** son joyas que Luis no va a regalar. **Todos ya existen y los ha impartido** — lo que escasea es el alumno que llega (≈1 cada 3 años hasta Film Scoring). Contrapunto y Análisis pueden darse en línea; Film Scoring e Ingeniería de Audio son presencial-only porque se mezclan en 5.1 en el estudio Genelec propio. El intensivo presencial además **integra formación física** (Luis tiene gym propio): no es un extra, es parte del currículum — ver [el-musico-como-atleta.md](../08-sintesis/el-musico-como-atleta.md) y la lógica completa del modelo en [estrategia-freemium-musical.md](../08-sintesis/estrategia-freemium-musical.md). Tampoco forman parte de la escalera de valor digital: son cursos que se toman directamente con Luis.
 
 **La dimensión de legado:** Luis construye la plataforma también como obra permanente. El objetivo no es solo monetizar en vida — es dejar el método documentado y funcionando para que se quede en el mundo después de él. Esta intención le da al proyecto una escala de tiempo distinta a la de un simple negocio digital.
+
+**El horizonte lejano — el Videojuego Total de Entrenamiento Auditivo:** La visión más ambiciosa de Luis, condicionada a "si vivo para hacerla realidad" y a que las IAs sigan evolucionando hasta poder programarla. Sería un videojuego donde **todo el juego se resuelve con habilidades auditivas** — desglose, oído absoluto, reconocimiento de acordes y de grados —, ambientado en mundos oníricos con personajes casi etéreos que avanzan resolviendo una narrativa auditiva progresiva. No es una gamificación decorativa: la habilidad de oído *es* la mecánica de juego. Las apps web/Android y los juegos actuales en **Godot 4** (ver [indice-apps.md](../03-apps-herramientas/indice-apps.md)) son la semilla y el campo de práctica de esa visión — el primer juego de oído absoluto (5 mundos) y el de intervalos (cantar para disparar) ya prueban la idea. Luis prevé que la programación del juego total será posible con una IA futura (estima que con **Claude Opus 7**, probablemente). Es a la vez producto-legado y motor de su aprendizaje como vibe coder.
 
 ---
 
@@ -131,3 +133,4 @@ Este KB no es solo documentación técnica — es la memoria que le permite a cu
 - 2026-05-01: Entrevista Luis — nueva línea de negocio documentada: asesorías de IA (activas, abiertas a cualquier cliente). Resumen y tabla de fuentes actualizados.
 - 2026-05-02: Entrevista verificación — añadida intención de legado, función de la plataforma como embudo para presencial, y detalle del estudio 5.1 para Film Scoring.
 - 2026-06-03: Entrevista — precios concretos (intensivo presencial $20,000 MXN/mes con formación física incluida; Contrapunto/Análisis en línea $1,250 MXN/clase). Añadido el Taller de Ingeniería de Audio y Producción Musical (no documentado antes). Corregido: los avanzados ya existen e impartidos (~1 alumno cada 3 años llega a Film Scoring), no son "futuro". Tabla de Fuentes de Ingreso actualizada. Cross-refs a el-musico-como-atleta y estrategia-freemium-musical.
+- 2026-06-04: Entrevista — documentado el horizonte lejano "Videojuego Total de Entrenamiento Auditivo" (toda la mecánica resuelta con habilidades de oído; mundos oníricos; condicionado a IAs futuras). Los juegos Godot actuales como semilla. Cross-ref a indice-apps.

@@ -49,6 +49,20 @@
 
 ---
 
+## [2026-06-04] entrevista | Los juegos Godot y el Videojuego Total de Entrenamiento Auditivo
+
+**Archivos:** `03-apps-herramientas/indice-apps.md` (sección Godot reescrita, era stub `[LLENAR]`), `00-contexto/vision-proyecto.md` (nuevo horizonte lejano en La Visión Completa).
+
+**Pregunta:** qué es el juego auditivo en Godot y su estado.
+
+**Conocimiento capturado:**
+- **Dos juegos Godot reales:** (1) **Oído Absoluto** — terminado, "quedó hermoso", 5 niveles en 5 mundos (cocodrilito, personaje esférico, unicornio volador pedido por Kari —novia de Luis—, nave espacial, +otros). (2) **Intervalos** — en desarrollo, versión nueva: enemigos que acechan, el enemigo produce la nota base y pide un intervalo; el alumno canta la nota correcta ~1.5 s para cargar el arma *y* la escribe a mano; con ambas correctas dispara.
+- **La visión grande (nueva en el KB):** el **Videojuego Total de Entrenamiento Auditivo** — un juego donde *toda* la mecánica se resuelve con habilidades auditivas (desglose, AP, acordes, grados), mundos oníricos con personajes etéreos, narrativa auditiva progresiva. Condicionado a "si vivo para hacerla realidad" y a IAs futuras (estima Claude Opus 7, probablemente). Los juegos Godot actuales son la semilla.
+- Los juegos también han sido motor del aprendizaje de Luis como vibe coder, ligado a modernizar clases y dar mejores asesorías de IA.
+- Dato corregido: la cifra "13 niveles" del KB no estaba verificada; lo confirmado es 5 niveles en el juego de AP.
+
+---
+
 ## [2026-06-04] entrevista | Desglose — la operación fundacional del oído
 
 **Archivos:** `08-sintesis/entrenamiento-oido-absoluto.md` (nueva sección en §5 + reorden del mapa de apps §10), `03-apps-herramientas/indice-apps.md` (Desglose detallado + nota fundacional). Consultado `07-fuentes/libros/Los_Seres_Musicales.md` (definición de Ser Musical, confirmada consistente con el KB).
