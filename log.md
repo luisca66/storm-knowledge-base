@@ -49,6 +49,21 @@
 
 ---
 
+## [2026-06-04] entrevista | Oído absoluto — el matiz honesto (prodigio vs. parches, el viaje basta)
+
+**Archivos:** `08-sintesis/entrenamiento-oido-absoluto.md` (§2 nueva subsección + §1 rebajado + §12 actualizada), `03-apps-herramientas/indice-apps.md` (apps de AP clarificadas + nota de AP).
+
+**Conocimiento capturado (matiza y mejora la síntesis, que sobrevendía el AP):**
+- **El AP se entrena desde el principio**, en paralelo con el desglose, progresivo. Es el terreno más controversial del método.
+- **Posición honesta de Luis:** la cultura dice que el AP es genético; quienes dicen que se desarrolla en adultos, Luis sospecha que producen un **desarrollo falso** = "parches mentales" que imitan al AP sin ser la habilidad genuina del prodigio. Luis **no afirma replicar el AP del prodigio.**
+- **La tesis del viaje:** no importa si nunca se desarrolla del todo, porque siempre se siente el progreso → algo cambia físicamente en el cerebro → esa habilidad naciente impacta profundamente la comprensión musical. El método apuesta al **gradiente, no al umbral**.
+- **Timeline:** 5–10 años de trabajo serio (con entusiasmo y conocimiento de los principios fisiológicos/neurológicos), o no llegar nunca.
+- **Las dos apps de AP:** Multitímbrico = la del taller (principal); Guitarra Clásica = app personal de Luis (es concertista de guitarra clásica), publicada como extra porque ya existe.
+
+**Efecto en el KB:** §1 de la síntesis rebajado de "la tesis del don queda desmontada" a "gradiente, no umbral"; afirmación más sólida y honesta. **Cierra el catálogo completo de apps de oído.**
+
+---
+
 ## [2026-06-04] entrevista | La secuencia del oído relativo + diseño multitímbrico
 
 **Archivos:** `03-apps-herramientas/indice-apps.md` (nota de secuencia del oído relativo + diseño multitímbrico), `08-sintesis/entrenamiento-oido-absoluto.md` (mapa de apps §10 reorganizado).

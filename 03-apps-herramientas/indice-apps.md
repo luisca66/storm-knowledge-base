@@ -30,8 +30,8 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 | **Reconocimiento de Acordes** | Identifica cualidades de acordes desde tríadas hasta acordes de 13ª | Oído relativo / armonía |
 | **Grados Escala Mayor** | Desarrolla la percepción de función tonal en tonalidades mayores | Oído relativo / grados |
 | **Grados Escala Menor** | Desarrolla la percepción de función tonal en tonalidades menores | Oído relativo / grados |
-| **Oído Absoluto Multi-tímbrico** | Reconocimiento de notas específicas en 5 timbres diferentes | Oído absoluto |
-| **Oído Absoluto Guitarra Clásica** | Entrenamiento especializado de oído absoluto para guitarra clásica | Oído absoluto |
+| **Oído Absoluto Multi-tímbrico** | Reconocimiento de notas específicas en 5 timbres. **Es la app de AP del taller** (la principal) | Oído absoluto |
+| **Oído Absoluto Guitarra Clásica** | AP especializado en guitarra clásica. **App personal de Luis** (concertista de guitarra clásica); publicada como extra ya que existe | Oído absoluto |
 
 > **Desglose es la app fundacional del oído (orden confirmado por Luis, 2026-06-04).** Es donde *todos* los alumnos vienen más atrasados — el propio Luis lo recuerda como su cuello de botella al avanzar su desarrollo. La progresión: los principiantes empiezan con **solo 2 notas y solo en su rango vocal**; con los años el trabajo se extiende a **7 notas y todo el rango instrumental**.
 >
@@ -43,6 +43,8 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 > 3. **Acordes** — en paralelo: reconocer acordes desde los de quinta (tríadas) hasta los de 13ª.
 >
 > **Diseño multitímbrico (todas las apps).** Todas usan los mismos cinco timbres — **piano, coro, corno, fagot, cello** — o el modo **multitímbrico**. La razón es de fondo: la música es multitímbrica, no solo piano (el instrumento con el que casi todo el mundo entrena el oído, sesgando la percepción a un solo timbre). Entrenar la identidad de la nota a través de varios timbres desata la frecuencia de su envoltura tímbrica.
+>
+> **Oído absoluto — desde el principio, pero el más controversial.** El AP se entrena en paralelo con el desglose desde el inicio, de forma progresiva. Luis estima **5–10 años** de trabajo serio para desarrollarlo (si llega). Su posición es honesta: el AP entrenado en adultos podría ser "parches mentales" que imitan al del prodigio, no la habilidad genuina — pero **el viaje basta**: sentir el progreso significa que el cerebro está cambiando, y eso ya transforma la comprensión musical, se llegue o no al AP pleno. (Desarrollo en `08-sintesis/entrenamiento-oido-absoluto.md` §2.)
 
 ---
 
@@ -127,6 +129,7 @@ Ver decisión completa en `00-contexto/decisiones-clave.md`.
 ---
 
 ## Historial de Cambios
+- **2026-06-04** — Entrevista a Luis (6): apps de AP — clarificado Multitímbrico (taller) vs. Guitarra Clásica (personal de Luis, concertista). AP desde el principio, 5–10 años, posición honesta (prodigio vs. parches; el viaje basta). Cierra el catálogo de apps de oído.
 - **2026-06-04** — Entrevista a Luis (5): documentada la secuencia del oído relativo tras Desglose (intervalos cantados+reconocer simultáneos, grados, acordes 5ª→13ª, exhaustivo, meses). Diseño multitímbrico explicado (5 timbres porque la música no es solo piano). Pendiente nuevo: programar Grados Cantados.
 - **2026-06-04** — Entrevista a Luis (4): sección Juegos Godot reescrita (era stub `[LLENAR]`). Dos juegos reales: Oído Absoluto (5 niveles/5 mundos, terminado) e Intervalos (cantar para disparar, en desarrollo). Documentados como semilla del Videojuego Total de Entrenamiento Auditivo (visión en vision-proyecto.md). Cifra "13 niveles" marcada como no verificada.
 - **2026-06-04** — Entrevista a Luis (3): Desglose detallado y establecido como app fundacional del oído (2–7 notas cantadas, timbres, sensible a nota no octava, C2–C7, progresión rango vocal→instrumental). Axioma "si no puedes desglosar no lo estás escuchando" + separación fundamental+armónicos como prerrequisito del AP. Corregido dato 2–5→2–7 notas.

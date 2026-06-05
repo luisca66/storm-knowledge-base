@@ -24,7 +24,7 @@ estado: en_progreso
 
 Luis lleva años pensando en voz alta sobre el oído absoluto. Ese pensamiento vivía disperso como ~40 insights crudos en `insights.md`, en su mayoría etiquetados `[oído]`. No tenían archivo destino porque no pertenecen a una sola fuente: son la teoría propia de Luis, validada parcialmente por Levitin y Barrett, y encarnada en las 8 apps de entrenamiento auditivo.
 
-El oído absoluto es el caso límite del proyecto entero. Si la tesis central de Luis es cierta —que **no enseña música, modula redes neuronales** (ver [[luis-como-ingeniero-neural]])— entonces el AP es la prueba más dura: la habilidad que la cultura considera el "don" más innato de todos. Si el método puede construir AP deliberadamente en un adulto, la tesis del don queda desmontada.
+El oído absoluto es el caso límite del proyecto entero. Si la tesis central de Luis es cierta —que **no enseña música, modula redes neuronales** (ver [[luis-como-ingeniero-neural]])— entonces el AP es la prueba más dura: la habilidad que la cultura considera el "don" más innato de todos. Pero la posición de Luis no es la ingenua "el AP se entrena hasta igualar al prodigio" —es más matizada: el entrenamiento reorganiza el cerebro y transforma la musicalidad **se llegue o no** al AP pleno (ver el matiz honesto en §2). El método apuesta al gradiente, no al umbral.
 
 **Linaje de los ejercicios.** Parte del entrenamiento auditivo de Luis se hereda de **David Lucas Burge** (pionero del *Perfect Pitch / Relative Pitch Ear Training*), y el resto es evolución propia acumulada en años de enseñanza. Los ejercicios se pulieron primero a mano —los alumnos los programaban en Cubase— y solo después se automatizaron en las apps Android (ver cronología en [[indice-apps]] y la tesis método-precede-a-la-tecnología en [[tecnologia-al-servicio-del-metodo]]). Esto importa para la credibilidad de la apuesta: la teoría de la corteza selectiva no es especulación de escritorio, es la racionalización de un método con kilometraje práctico.
 
@@ -51,6 +51,19 @@ Esto reformula el problema: el AP no se "adquiere desde cero", se **desbloquea**
 > *"Primero hay que construir la infraestructura neuronal y la sensibilidad de la cóclea, incluida la capacidad para concentrarse en una sola nota."*
 
 → Esto es el mismo principio "Memoria es primero y es todo" y "desbloquear es el camino" aplicado a la percepción. Conecta con el Camino de la Señal (ver [[filosofia-ensenanza]]).
+
+### El matiz honesto: prodigio vs. entrenado, y por qué el viaje basta
+
+El AP es el terreno más controvertido del método, y la posición real de Luis es más honesta —y más interesante— que el eslogan "el AP se entrena". Su distinción:
+
+- La cultura dominante dice que el AP es **genético** y no se desarrolla.
+- Quienes afirman que **sí** se desarrolla en adultos, Luis sospecha que producen un **desarrollo falso**: una serie de *parches mentales* (atajos, anclas, trucos de comparación) que **imitan** el AP sin ser la habilidad genuina que tienen los prodigios.
+
+Luis **no afirma replicar el AP del prodigio**. Afirma algo más defendible: que el entrenamiento de AP —progresivo, hecho con entusiasmo y con conocimiento de los principios fisiológicos y neurológicos— reorganiza literalmente el cerebro, y que **ese cambio vale por sí mismo**, se "llegue" o no al AP pleno.
+
+> **La tesis del viaje:** si avanzas por el camino de las apps de AP, no importa si nunca lo desarrollas del todo, porque **siempre sientes el progreso** —y sentir progreso significa que algo está cambiando físicamente en el cerebro. Esa habilidad naciente empieza a impactar profundamente la comprensión musical.
+
+El destino (AP pleno) puede tomar **5–10 años** de trabajo serio, o no llegar nunca. El método apuesta al **gradiente, no al umbral**: cada paso del camino ya entrega valor musical real. Esto rebaja la promesa de "desmontar el don" a una afirmación más sólida y honesta: **el entrenamiento de AP transforma la musicalidad aunque el AP de prodigio siga siendo, quizá, otra cosa.** El AP se entrena desde el principio, en paralelo con el desglose.
 
 ---
 
@@ -260,7 +273,7 @@ La convergencia es el punto: cuatro fuentes independientes apuntan a que el AP e
 
 Insights que Luis dejó como preguntas a sí mismo y que esta síntesis **no resuelve inventando** —son la frontera del método:
 
-1. **¿Cómo lo hacen los prodigios?** (§4) — entender el mecanismo nativo para replicarlo deliberadamente.
+1. **¿Cómo lo hacen los prodigios?** (§4) — entender el mecanismo nativo para replicarlo deliberadamente. Posición actual de Luis (§2): el AP entrenado en adultos podría ser "parches mentales" que imitan, no la habilidad genuina del prodigio. La pregunta abierta es si la diferencia es de grado o de naturaleza.
 2. **¿Los grados se oyen "en el orden de los colores"?** ¿Chroma = caliente/frío, verde/rojo? (§4) — ¿hay una sinestesia funcional entrenable para la dimensión de grados?
 3. **¿La velocidad es resolución temporal (*sample rate*) y no mielina?** (§7) — si es así, ¿cómo se entrena subir esa resolución sin forzar la adaptación? ¿Ritmo = velocidad?
 4. **¿Se puede medir el "desbloqueo"?** — ¿qué señal observable marca el punto de inflexión donde la corteza de AP arranca (§6)?
@@ -271,6 +284,7 @@ Insights que Luis dejó como preguntas a sí mismo y que esta síntesis **no res
 ---
 
 ## Historial de Cambios
+- **2026-06-04** — Entrevista a Luis (4): añadido el matiz honesto sobre el AP (§2) — prodigio vs. entrenado ("parches mentales"), la tesis del viaje (el progreso reorganiza el cerebro y vale aunque no se llegue al AP pleno), timeline 5–10 años, AP desde el principio. §1 rebajado de "desmontar el don" a "gradiente, no umbral". Pregunta abierta #1 (prodigios) actualizada con la posición de Luis. Clarificadas las dos apps de AP (Multitímbrico = taller; Guitarra = personal de Luis).
 - **2026-06-04** — Entrevista a Luis (3): mapa de apps (§10) reorganizado — el oído relativo (intervalos+grados+acordes) como clúster simultáneo tras Desglose; AP como track propio. Añadida nota de secuencia y de diseño multitímbrico (5 timbres porque la música no es solo piano). Registrado pendiente: programar Grados Cantados.
 - **2026-06-04** — Entrevista a Luis (2): añadida la sección "El desglose: la operación fundacional del oído" (§5) — el axioma "si no puedes desglosar, no lo estás escuchando", la separación fundamental+armónicos como prerrequisito fisiológico/neurológico del AP, el diseño de la app (cantar 2–7 notas, sensible a nota no octava, C2–C7) y la progresión por rango vocal→instrumental. Mapa de apps (§10) reordenado con Desglose como capa 0 fundacional; corregido dato 2–5→2–7. Consultado el libro Los Seres Musicales para fundamentar el concepto "Ser Musical".
 - **2026-06-04** — Añadida nota de linaje en Premisa central: ejercicios heredados de David Lucas Burge + evolución propia, pulidos a mano en Cubase antes de automatizarse. Refuerza la credibilidad de la tesis de la corteza selectiva (método con kilometraje, no especulación). Cross-links a indice-apps y tecnologia-al-servicio-del-metodo.
