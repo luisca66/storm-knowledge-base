@@ -109,5 +109,34 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Hermes App:* Organización de sesiones por áreas de vida, control de cron-jobs y compresión de memoria ajustando el threshold a 0.5.
   - *Meta Wearables:* Pendant colgado al cuello para wearables de trabajo; Reality Labs reporta $4B en pérdidas y $42M en ingresos.
 
+## [04 de Junio de 2026](./resumen_20260604.md)
+**Temas Principales:**
+- **Lanzamiento de Modelos MAI y Estrategia de Microsoft (Microsoft Build, Satya Nadella, Swix, No Priors):**
+  - *Filosofía de IA:* Satya Nadella propone pasar de consumir IA a producirla y controlarla. El "eval privado" es el nuevo IP empresarial más valioso, permitiendo migrar de modelos manteniendo control y optimizando métricas específicas (hill-climbing).
+  - *Off-Frontier Doctrine:* Decisión de mantenerse 3-6 meses por detrás de la frontera absoluta del estado del arte (Mustafa Suleyman) para optimizar costos, invirtiendo en verticalización (ej. chip de inferencia Maia 200), evals propios y control total.
+  - *Lanzamiento de Modelos MAI:* Presentación de 7 modelos MAI (Image 2.5/Flash, Transcribe 1.5, Thinking One, Voice 2/Flash y Code One Flash). *MAI Thinking One* (1B de parámetros MoE optimizado para inferencia) se entrenó in-house desde cero con cero datos sintéticos o destilación de terceros; sus habilidades agénticas se aprendieron en post-training sin cold start.
+  - *Work IQ:* Integración para transformar Microsoft 365 en una base de datos queryable por agentes externos para recuperar contexto empresarial cruzado.
+  - *Windows como Runtime de Agentes:* Presentación de los *Microsoft Execution Containers (MXC)*, entornos sandbox aislados para la ejecución segura de procesos autónomos 24/7.
+- **Yann LeCun, JEPA y Omni Labs contra los Modelos VLA en Robótica (Welch Labs, Yann LeCun):**
+  - *Crítica a los Modelos VLA (Vision-Language-Action):* LeCun afirma que "los VLA están condenados" por la fragilidad del behavioral cloning ante entornos reales y la falta de un modelo predictivo que simule las consecuencias de sus acciones (inferencia autogresiva sin planificación).
+  - *Joint Embedding Predictive Architecture (JEPA):* Aprende representaciones fundamentales del mundo prediciendo embeddings latentes en lugar de reconstruir píxeles, ignorando detalles irrelevantes de alto nivel (como el movimiento de hojas en árboles).
+  - *VJEPA 2 y VLJA:* *VJEPA 2* (1B de parámetros, 1M horas de video) destaca en benchmarks de comprensión de video y captura de causalidad física temporal. *VLJA* (1.6B de parámetros) supera en benchmarks de razonamiento visual compositivo (GQA) a modelos tradicionales de 7B prediciendo embeddings conceptuales de texto sin penalizaciones de forma.
+  - *Planificación en Espacio de Embeddings:* El framework *Layworld Model* (entrenado en push-T) simula la física e implementa planificación óptima mediante cross-entropy en el espacio de embeddings sin renderizar imágenes. Resuelve la acumulación de drift haciendo planificación jerárquica de dos niveles para extender el horizonte de 5 a 15 pasos.
+- **Consenso sobre Seguridad Biológica y Convergencia IA-Biotech (Demis Hassabis, Sam Altman, Dario Amodei):**
+  - *Carta Abierta por Regulación Mandatoria:* Firma de líderes científicos pidiendo al gobierno de EE. UU. exigir el cribado (*screening*) sistemático de secuencias de ADN potencialmente peligrosas, verificación de identidad de clientes y trazabilidad de registros.
+  - *Contexto de Riesgo:* Conexión histórica con la síntesis de novo del virus de la polio (2002) y la gripe española (2005) a partir de código genético público sin necesidad de muestras físicas. La IA acelera la optimización de secuencias biológicas automatizadas y peligrosas sin infraestructura de laboratorio convencional.
+  - *Inversión:* Fuerte momentum de dealmaking y convergencia de IA molecular con laboratorios de longevidad y biología (Isomorphic Labs, New Limit, Retro Bio, Altos Labs y adquisición de Coefficient Bio por Anthropic).
+- **Gobernanza de Modelos Avanzados y Project Glasswing (AI Daily Brief, David Sax, Anthropic):**
+  - *Orden Ejecutiva Modificada:* Reducción de la ventana de revisión gubernamental pre-release de 90 a 30 días para modelos avanzados ("meaningful step change" en ciberseguridad, ej. Mythos), bajo supervisión de la NSA, DHS y CISA, prohibiendo expresamente licencias obligatorias (FDA para IA).
+  - *Project Glasswing:* Expansión a 150 socios críticos globales para evaluar el modelo Mythos de Anthropic. La empresa retrasa la liberación pública debido a la falta de salvaguardas robustas en ciberseguridad defensiva y al alto costo operativo de tokens.
+- **Finanzas de IA, "Token Scarcity" y dashboards de Palantir (Ramp, Benchmark, Alex Karp, Uber):**
+  - *Rondas e Hitos Financieros:* Ramp levanta $750M y alcanza una valoración de $44B (superando la capitalización de PayPal). Benchmark levanta su primer fondo de crecimiento de $2B y Goldman Sachs proyecta que SpaceX AI crecerá 100x hacia 2030 (capex de $360B).
+  - *Crítica al "Token Maxing":* Alex Karp (CEO de Palantir) fustiga el gasto ineficiente en dashboards y reorganización de información ("token maxing"). Distingue primitivas de infraestructura, código gestionado y código libre (LLMs). Enfatiza el "taste" o criterio humano para ontologías y advierte sobre riesgos de regulación e intervención gubernamental agresiva si se enfoca en despidos masivos.
+  - *Presupuesto de Tokens:* Uber impone un cap corporativo de $1,500 dólares mensuales por empleado en consumo de tokens.
+- **Codex, Productividad Paralela y Sites (OpenAI Codex, McKinsey):**
+  - *Adopción Acelerada:* Codex alcanza 5M de usuarios activos semanales, con adopción no técnica 3x más rápida que la de desarrolladores.
+  - *Strange Abundance:* El 50% de los usuarios corre múltiples flujos agénticos concurrentes en Codex (orquestación en paralelo), actuando como directores de equipo.
+  - *Nuevas Funcionalidades:* Introducción de *Annotations* (razonar sobre fragmentos específicos de documentos), *Role-specific plugins* (62 apps pre-configuradas) y *Sites* (generación instantánea de web apps funcionales desde artefactos de Codex).
+
 
 
