@@ -138,5 +138,37 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Strange Abundance:* El 50% de los usuarios corre múltiples flujos agénticos concurrentes en Codex (orquestación en paralelo), actuando como directores de equipo.
   - *Nuevas Funcionalidades:* Introducción de *Annotations* (razonar sobre fragmentos específicos de documentos), *Role-specific plugins* (62 apps pre-configuradas) y *Sites* (generación instantánea de web apps funcionales desde artefactos de Codex).
 
+## [08 de Junio de 2026](./resumen_20260608.md)
+**Temas Principales:**
+- **IPO de Anthropic e Hitos de Crecimiento del Mercado (Anthropic, SEC, OpenAI, Polymarket):**
+  - *S-1 Confidencial:* Anthropic presenta confidencialmente su S-1 ante la SEC, convirtiéndose en el primer laboratorio frontera en formalizar su solicitud de IPO. Polymarket proyecta una capitalización de $1.8B en su debut, similar a SpaceX.
+  - *Densidad Financiera:* Anthropic genera $9.4 millones en ingresos por empleado (con 5,000 colaboradores), multiplicando por cuatro la densidad de Apple o Google. La empresa destina ~$15B anuales a SpaceX para arrendar compute en el datacenter Colossus.
+  - *Hitos de MAUs:* ChatGPT alcanza 1,000 millones de usuarios activos mensuales (creciendo al 62% YoY). Claude de Anthropic llega a 56 millones de MAUs con un crecimiento exponencial del 640% YoY.
+- **Microsoft Build 2026 y Estrategia de Inferencia (Microsoft Build, Mustafa Suleyman, Matt Wolfe):**
+  - *Modelos Propietarios (MAI):* Lanzamiento de 7 modelos MAI entrenados desde cero con datos licenciados y sin código abierto para evitar bugs: *MAI Thinking* (razonamiento), *MAI Code One Flash* (programación), *MAI Image 2.5/Flash* (edición de imágenes), *MAI Transcribe 1.5* (alta precisión y 5x más rápido) y *MAI Voice 2* (15 idiomas).
+  - *Microsoft Scout:* Agente personal integrado en Windows basado en el framework open-source *OpenClaw* (creado por Anthropic), con acceso a Teams, Outlook, OneDrive y SharePoint.
+  - *GitHub Copilot App y Wearables:* Presentación de la nueva app compatible con modelos multi-proveedor (Mistral, Anthropic), y del *Project Solara* (wearables físicos chip-a-chip, destacando un badge inteligente con cámara/micrófono para lectura clínica).
+- **Convergencia hacia la Super App y Computer Use en Windows (Big Technology Podcast, Codex, Matt Wolfe):**
+  - *La Era de la Super App:* Integraciones agénticas (Claude + Claude Code, Codex + Atlas + ChatGPT) que asumen el control del sistema operativo y navegan por la web simulando humanos para evadir bloqueos de APIs.
+  - *Computer Use en Windows:* Codex de OpenAI expande computer use a Windows, permitiendo operar sistemas empresariales legacy sin APIs (ej. SAP, software hospitalario antiguo) a través de interacción visual directa.
+  - *Fricciones Organizacionales:* Debate sobre la reorganización de Google y Microsoft ("engine room" centralizado), donde la super app exige diluir o disolver interfaces y presupuestos de productos consolidados (como Gmail frente a Gemini).
+- **Semiconductores y Lanzamiento de Hardware local (Computex, Nvidia, AMD):**
+  - *Nvidia RTX Spark:* Presentación del chip que integra CPU y GPU con hasta 128 GB de memoria unificada, permitiendo inferencia local sin internet y gráficos de primera línea en laptops. Diseñado como defensa estratégica contra los chips Halo de AMD.
+  - *DGX Spark:* Servidor de escritorio equivalente con precio de entrada de $4,000.
+- **Otros Modelos Liberados (Nvidia, Google, Minimax):**
+  - *Neotron 3 Ultra:* Modelo open-weights de Nvidia con 550B de parámetros optimizado para productividad agéntica.
+  - *Gemma 4 12B:* Liberación de Google que rinde a nivel de la versión de 26B con menos de la mitad de parámetros.
+  - *Minimax M3:* Modelo de código con contexto de 1M de tokens que supera a GPT-5.5 en SWE-bench Pro.
+- **Bioseguridad y Gobernanza de IA (Trump EO, David Sacks, Elon Musk, Peter Diamandis):**
+  - *Decreto Ejecutivo sobre IA:* Trump firma una versión suavizada del decreto tras lobby de Sacks, Musk y los laboratorios. Exige compartición voluntaria (no licencias) de modelos avanzados 30 días antes del lanzamiento público.
+  - *Seguridad de Síntesis de ADN:* Carta abierta al Congreso de líderes de IA exigiendo cribado mandatorio de ADN. Propuesta de sensores ambientales continuos en centros de transporte para secuenciar aire y detectar patógenos a la velocidad de la luz.
+- **Longevidad y Edición Genética CRISPR (CRISPR, New Limit, Verve-102):**
+  - *Inversión en Longevidad:* Rusia compromete $26,000 millones para investigación anti-envejecimiento a 2030 (trasplantes, bioimpresión 3D). New Limit (Brian Armstrong) recauda $435M a una valoración de $3.1B para terapias epigenéticas hepáticas.
+  - *Verve-102:* Ensayo clínico Fase 1 exitoso de una sola inyección CRISPR de edición de bases que desactiva el gen PCSK9 en el hígado, logrando una reducción del 62% del colesterol LDL (colesterol malo) sostenida por 18 meses.
+- **AI Engineering, Observabilidad y Dashboards de Tokens (Pyannote AI, Arize AI, Nate Jones):**
+  - *Diarización de Hablantes:* Pyannote AI (10k estrellas) detalla la reconciliación temporal Whisper + Pyannote para solucionar overlaps y transcribir con precisión llamadas y notas médicas.
+  - *Observabilidad de Agentes:* Arize AI utiliza OpenTelemetry para spans, traces de trayectorias lógicas y flywheels automáticos de corrección en producción.
+  - *Token Burn Dashboard:* Nate Jones expone su panel Codex basado en principios de Edward Tufte (escala logarítmica) para visualizar el consumo de tokens en orquestación paralela (slash workflows), argumentando que los tokens autónomos gastados son el proxy de la productividad agéntica.
+
 
 

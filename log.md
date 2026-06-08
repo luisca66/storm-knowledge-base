@@ -8,6 +8,35 @@
 
 ---
 
+## [2026-06-08] ingest | Resumen diario ainews — tarea automatizada
+
+**Archivos generados:**
+- `07-fuentes/ainews/resumen_opus_20260608.md` — resumen principal, 8,572 palabras, prosa narrativa en español
+- `07-fuentes/ainews/resumen_basico_opus_20260608.md` — resumen básico, 1,359 palabras, lenguaje accesible
+
+**Fuentes procesadas (7 transcripts de `transcripts_hoy/`):**
+- `peter.txt` (21,772 palabras) — Moonshots / Peter Diamandis con Dave, Wissner-Gross, Immad Mak
+- `extra.txt` (14,394 palabras) — Big Technology Podcast / Kantrowitz + Seagler
+- `aiengineer.txt` (7,318 palabras) — AI Engineering: Pyannote AI + Arize AI
+- `aiforhumans.txt` (6,477 palabras) — AI For Humans: Gavin + Kevin
+- `mattwolfe.txt` (6,053 palabras) — Matt Wolfe / Microsoft Build en persona
+- `nate.txt` (4,329 palabras) — Nate Jones: token burn dashboard
+- `aiadvantage.txt` (3,276 palabras) — AI Advantage: ChatGPT memory + Codex plugins
+
+**Temas principales del día:**
+- IPO de Anthropic (S-1 confidencial ante la SEC)
+- ChatGPT alcanza 1 billón de MAUs; Claude crece 640% YoY a 56M
+- Microsoft Build 2026: 7 modelos MAI, Scout agent, Project Solara, GitHub Copilot app
+- Nvidia RTX Spark chip (GPU+CPU, 128GB unificada) en Computex
+- Super app convergence: Codex + Atlas + ChatGPT fusionándose; Google IO post-mortem
+- Trump AI Executive Order (voluntario, 30 días pre-release)
+- Verve-102: inyección única edición de gen PCSK9, -62% LDL sostenido
+- Nuevos modelos: Neotron 3 Ultra (550B OW), Gemma 4 12B, Minimax M3
+- Speaker diarization (Pyannote AI) + observabilidad de agentes (Arize)
+- Token burn dashboard como retroalimentación metacognitiva (Nate Jones)
+
+---
+
 ## [2026-06-04] lint | Checada de salud del KB
 
 **Disparador:** Luis pidió "darle una checada" al proyecto.
