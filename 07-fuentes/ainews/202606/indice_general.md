@@ -170,5 +170,29 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Observabilidad de Agentes:* Arize AI utiliza OpenTelemetry para spans, traces de trayectorias lógicas y flywheels automáticos de corrección en producción.
   - *Token Burn Dashboard:* Nate Jones expone su panel Codex basado en principios de Edward Tufte (escala logarítmica) para visualizar el consumo de tokens en orquestación paralela (slash workflows), argumentando que los tokens autónomos gastados son el proxy de la productividad agéntica.
 
-
-
+## [09 de Junio de 2026](./resumen_20260609.md)
+**Temas Principales:**
+- **Rezago Estratégico de Google e Integración del Super App (Google IO, Sundar Pichai, Casey Newton):**
+  - *Retraso del Flagship:* GoogleIO solo presentó Gemini 3.5 Flash, posponiendo Gemini 3.5 Pro y admitiendo Pichai el retraso en coding. Claude de Anthropic supera a Gemini en tareas de consulta sobre Gmail corporativo de los usuarios.
+  - *Dilema Organizacional:* La estructura centralizada de Google ("engine room") integrada por producto dificulta construir una super app centralizada, ya que requiere subordinar y disolver interfaces consolidadas y exitosas como Gmail en favor de Gemini.
+  - *Super App Occidental:* Herramientas agénticas que controlan el navegador y el sistema operativo para actuar en nombre del usuario humano sin requerir APIs oficiales, complicando su bloqueo para las plataformas.
+- **La Auto-Mejora Recursiva en el Codebase de Anthropic (Anthropic Institute, Jack Clark, Moonshots):**
+  - *Paper "When AI Builds Itself":* Anthropic revela que Claude escribe de forma autónoma más del 80% de su propio codebase, multiplicando por 8 la productividad de sus ingenieros por trimestre.
+  - *Horizonte de Autonomía:* Claude Opus 4.6 maneja tareas autónomas de hasta 12 horas continuas (frente a los 4 minutos del año anterior). Se proyecta autonomía para tareas de una semana completa a finales de 2027.
+  - *Research Taste:* Los ingenieros humanos se enfocan en guiar experimentos estratégicos, y la empresa propone una pausa voluntaria en modelos frontera para permitir el avance de la investigación en alineación y seguridad.
+- **Contenedores Legales para Agentes Autónomos en Argentina (Javier Milei, Financial Times):**
+  - *Corporación No Humana:* Propuesta de Argentina en el FT de cero regulación y la creación de una nueva figura legal de responsabilidad limitada para agentes de IA o robots que operan sin intervención humana.
+- **Microsoft Build, Redundancia Estratégica y Chips In-House (Microsoft Build, Mustafa Suleyman, Matt Wolfe):**
+  - *Datos Licenciados:* Los 7 modelos MAI se entrenaron con datos pagados y licenciados, evitando datasets públicos de código abierto para dar garantías de seguridad y cumplimiento legal a clientes enterprise.
+  - *Redundancia de Cómputo:* Microsoft revela que desarrolla capacidad de inferencia propia con chips in-house en sus datacenters para diversificar y blindar su operación ante la dependencia de Nvidia (capas de redundancia estratégica).
+  - *GitHub Copilot App y Scout:* Lanzamiento de la app GitHub Copilot compatible con modelos multi-proveedor y del autopilot *Microsoft Scout* (OpenClaw) integrado nativamente a nivel sistema operativo en Windows.
+- **Hardware Computex e Inferencia Local Privada (Computex, Nvidia, Ideogram):**
+  - *Nvidia RTX Spark:* Chip unificado CPU+GPU con hasta 128 GB de memoria unificada que corre LLMs grandes de forma local en laptops con total privacidad de datos.
+  - *Modelos de Imagen y Voz:* Lanzamiento open-weight de *Ideogram 4.0* (#9 en arena.ai, pero ejecutable localmente) con layouts de descripciones regionales exactas y transparencia nativa. *Reeve 2.0* asciende al segundo lugar en arena.ai.
+- **IP Licenciada y Fallas de Seguridad en Chatbots (Hasbro, ElevenLabs, Chipotle exploit):**
+  - *Modelo Hasbro:* Licenciamiento controlado de voces oficiales (ej. Optimus Prime) a través de la subsidiaria Sixth Wall e ElevenLabs para mitigar infracciones de derechos de autor.
+  - *Chatbot Support Exploits:* Descubrimiento de endpoints de soporte al cliente sin autenticación en grandes firmas (IKEA, Chipotle, Sephora), exponiendo créditos de inferencia de las empresas mediante inyecciones en CLI.
+- **Diarización de Hablantes y Observabilidad de Agentes en Producción (Pyannote, Arize AI, Nate Jones):**
+  - *Speaker Diarization:* Pyannote expone los retos de DER (Diarization Error Rate) que sube de 2% a 41% en entornos ruidosos, y propone reconciliación temporal con Whisper para gestionar overlaps de voces simultáneas.
+  - *Observabilidad Telemetrada:* Arize AI utiliza OpenTelemetry para instrumentar spans, traces de sesión y trayectorias lógicas en producción corporativa (ej. Uber, Booking).
+  - *Token Burn Dashboard:* Nate Jones monitorea el consumo en Codex usando escalas logarítmicas de Edward Tufte para evaluar el gasto de tokens autónomos en orquestación paralela (slash workflows).
