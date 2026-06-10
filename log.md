@@ -8,6 +8,23 @@
 
 ---
 
+## [2026-06-09] ingest | Resumen diario ainews — tarea automatizada
+
+**Archivos generados:**
+- `07-fuentes/ainews/resumen_opus_20260609.md` — resumen principal, 8,566 palabras, prosa narrativa en español
+- `07-fuentes/ainews/resumen_basico_opus_20260609.md` — resumen básico, 1,464 palabras, lenguaje accesible
+
+**Fuentes procesadas (5 transcripts de `transcripts_hoy/`):**
+- `aishowpod.txt` (16,160 palabras) → 5,139 palabras asignadas — IPO Anthropic, ensayo "When AI Builds Itself", EO Trump, Sanders/Trump soberanía, crisis presupuesto tokens (Uber/Microsoft/OpenAI), Apple WWDC, OpenAI Codex work agent, roll-up contable, educación superior, Alli Miller methodology
+- `matthew.txt` (4,940 palabras) → 1,571 palabras asignadas — Claude Fable 5 firsthand: benchmarks, Stripe migration, demos, UltraCode, verbosity, anti-distillation redirect, loops
+- `caleb.txt` (4,565 palabras) → 1,452 palabras asignadas — SEO en era de agentes, entity matching, Bing Webmaster Tools AI tab, LLM.txt, reseñas con atributos
+- `wes.txt` (3,214 palabras) → 1,022 palabras asignadas — system card Fable 5: capability layer, multi-agent turf wars, anti-acceleration limits, biorisk/proteínas
+- `alex.txt` (2,565 palabras) → 816 palabras asignadas — workflow práctico Fable 5: mental shift, plan mode, loops, demo app, deadline 22 junio
+
+**Noticias principales del día:** Lanzamiento Claude Fable 5 / Mythos 5 (10T parámetros, mismo modelo distinta capa de seguridad)
+
+---
+
 ## [2026-06-08] ingest | Resumen diario ainews — tarea automatizada
 
 **Archivos generados:**
