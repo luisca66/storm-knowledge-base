@@ -1,4 +1,5 @@
 # Carpetas locales que no se suben al repo
+.DS_Store
 07-fuentes/ainews/audio/
 07-fuentes/ainews/audio-resumenes/
 07-fuentes/ainews/transcripts_hoy/
