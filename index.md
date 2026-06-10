@@ -200,7 +200,7 @@ estado: en_progreso
 
 | Métrica | Valor |
 |---------|-------|
-| Total archivos .md (incluye clases-ia) | 256+ |
+| Total archivos .md (incluye clases-ia) | 332 (clases-ia: 169) |
 | Archivos wiki principales completos | 4 (sin sistema/clases-ia) |
 | Archivos wiki en_progreso | 19 |
 | Archivos wiki borrador | 15 |

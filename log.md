@@ -8,6 +8,29 @@
 
 ---
 
+## [2026-06-10] lint | Auditoría completa del proyecto (Fable 5)
+
+**Disparador:** Luis pidió auditoría completa + opinión + qué mejorar.
+
+**Corregido en esta pasada (mecánico):**
+1. ✅ **El árbol de carpetas del schema (§3) no incluía `08-sintesis/`** — la carpeta más valiosa del KB era invisible en su propio mapa. Además `07-fuentes/` aparecía duplicado, faltaban `ainews/`, `2026-05.md` del diario y la nota sobre `clases-ia/`. Corregido en **CLAUDE.md y AGENTS.md** (idénticos).
+2. ✅ `index.md` stats: "256+" archivos → real 332 (clases-ia: 169).
+
+**Hallazgos estructurales (recomendaciones, no ejecutadas — detalle en la conversación):**
+- **El KB está invertido respecto al embudo:** 08-sintesis florece (7 páginas ricas) mientras lo operativo que el lanzamiento necesita sigue en esqueleto: 02-plataforma-web (4/5 borrador), lecciones (2 de ~65, ambas [LLENAR]), reglas-validacion vacío, 04/05 clavados en 2026-04-07 (16 archivos). El objetivo declarado del KB ("que una IA pueda construir el proyecto de forma autónoma") hoy se cumple para el *pensamiento* pero no para la *operación*.
+- **ai-radar 8 días atrás:** cubre jun 1-2; hay ainews hasta jun 10. **Fable 5 / Mythos 5 (lanzado jun 9) no existe en el wiki** — y la tabla de modelos de Sección 3 (material "actualizar inmediatamente" para clases) sigue con Opus 4.8 como tope.
+- **clases-ia = 53% del KB** sin movimiento desde 06-01 — si está pausado, decirlo en el schema; si está activo, faltan registros de sesión.
+- **CLAUDE.md §7 crece sin límite** y duplica log/index (ya produjo 1 falso pendiente) → recomendación: §7 mínimo + puntero a log.md.
+- **AGENTS.md/CLAUDE.md duplicados** (4º lint) → recomendación: AGENTS.md como stub que apunte a CLAUDE.md.
+- **Single point of failure:** todo vive en GitHub + máquinas locales → recomendación: `git bundle` mensual a disco/Drive.
+- Menores: godot-juegos.md sigue borrador/04-07 pese a entrevista 06-04 (pendiente conocido); README descrito como "presentación pública" (es portada del repo privado); 2 archivos con `ultima_actualizacion: YYYY-MM-DD` (plantillas).
+
+**Lo que está funcionando (validado):** criterio de éxito del KB cumplido (respuestas nivel 2 mejores que cualquier fuente individual — caso AEO/paradoja de la legibilidad); log append-only impecable; pipeline ainews corriendo solo; separación fuentes/wiki respetada; honestidad intelectual (matiz del AP del 06-04).
+
+**Archivos modificados:** CLAUDE.md (árbol §3), AGENTS.md (árbol §3), index.md (stats), log.md.
+
+---
+
 ## [2026-06-09] ingest | Resumen diario ainews — tarea automatizada
 
 **Archivos generados:**

@@ -84,16 +84,27 @@ storm-knowledge-base/
 │   └── migraciones-pendientes.md
 │
 ├── 06-diario-proyecto/    ← Registro mensual de progreso
-│   └── 2026-04.md
+│   ├── 2026-04.md
+│   └── 2026-05.md
 │
 ├── 07-fuentes/            ← RAW SOURCES — solo lectura, nunca modificar
 │   ├── indice-fuentes.md      ← catálogo de todas las fuentes
-│   ├── libros/                ← 22+ libros en Markdown
-│   └── videos/                ← transcripts de videos procesados
+│   ├── libros/                ← 26+ libros en Markdown
+│   ├── videos/                ← transcripts de videos procesados
+│   ├── ainews/                ← resúmenes diarios de IA (YYYYMM/), fuente continua
+│   └── llm-wiki-karpathy.md   ← Referencia de arquitectura (Karpathy) — solo lectura
 │
-└── 07-fuentes/
-    └── llm-wiki-karpathy.md  ← Referencia de arquitectura (Karpathy) — solo lectura
+└── 08-sintesis/           ← PÁGINAS DE SÍNTESIS (nivel 2) — el producto más valioso del KB
+    ├── luis-como-ingeniero-neural.md   ← la visión central
+    ├── como-enseno-armonia.md
+    ├── modelos-mentales-aprendizaje-musical.md
+    ├── el-musico-como-atleta.md
+    ├── tecnologia-al-servicio-del-metodo.md
+    ├── entrenamiento-oido-absoluto.md
+    └── estrategia-freemium-musical.md
 ```
+
+> Nota: `01-metodo-pedagogico/clases-ia/` (sistema de clases personalizadas de IA: 10 alumnos, currículum, sesiones) vive dentro de 01 y es la subcarpeta más grande del KB (~169 archivos).
 
 ---
 
