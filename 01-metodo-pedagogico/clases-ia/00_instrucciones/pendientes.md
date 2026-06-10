@@ -8,6 +8,8 @@
 
 ## Clases IA (pendientes iniciales)
 
+- Completar entrevista y reconstruccion del expediente de Dayana: fecha exacta de inicio, modalidad tecnica, dispositivos, motivacion personal, resistencias y evidencia de una tarea realizada con autonomia.
+- Reconstruir las clases grupales de Voces Imaginarias mediante una sola narracion de Luis y distribuir evidencia individual a Carmen, Mario, Montse, Karla y Dayana.
 - Completar diagnosticos de cada alumno.
 - Completar datos faltantes del diagnostico inicial de Mariana: modalidad, frecuencia, duracion de primera clase, dispositivo principal y ritmo deseado.
 - Definir primer caso real de Mariana para comparar Gemini, ChatGPT y Claude: redes, datos, investigacion, inventario, ventas o comunicacion.

@@ -28,6 +28,11 @@
 - Chat como herramienta conversacional vs. agente: distinción conceptual — **comprendida**
 - Chat como superpoder para planear y trabajar CON agentes — **comprendida**
 - Codex: estructura de carpetas, carpeta agéntica con MDs de contexto — **visto en clase 3**
+- GitHub: cuenta creada en la clase grupal mas reciente; fecha pendiente.
+
+## Proyecto grupal actual
+- El repo de Voces Imaginarias se usa como contexto practico para aprender GitHub y agentes.
+- El proyecto empresarial vive en Migracion Empresas; aqui queda pendiente registrar la evidencia individual de Montse.
 
 ## Patrón de aprendizaje observado
 - Avance rápido: en 3 clases cubrió fundamentos conceptuales y primer proyecto agéntico.
@@ -35,4 +40,6 @@
 - Primera clase con atención personalizada de Luis: clase 3.
 
 ## Historial de Cambios
+- 2026-06-10: Aclarado que Voces Imaginarias pertenece a Migracion Empresas; aqui solo se registra el aprendizaje con GitHub y agentes.
+- 2026-06-10: Registrada la creación de su cuenta de GitHub durante la clase grupal.
 - 2026-05-27: Perfil creado. Alumna incorporada al KB.

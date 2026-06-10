@@ -8,6 +8,12 @@
 
 Proyecto inicial creado y primer paquete de fuentes reales asimilado. La estructura base existe y puede usarse desde la proxima clase.
 
+Actualizacion 2026-06-10: se reconstruyo el ciclo inicial de Dayana. Es coproductora externa y parte fundamental del equipo de Carmen y Mario; curso fundamentos de chatbots gratuitos, seleccion de modelos, niveles de pensamiento, deep research y thinking con Gemini, ChatGPT y Claude. Despues aprendio Codex y Antigravity como ruta de agentes porque no tiene acceso a Cowork ni Claude Code. Creo su cuenta de GitHub y comenzo a trabajar con el repo real de Voces Imaginarias. El proyecto empresarial vive en Migracion Empresas; clases-ia registra solo el aprendizaje.
+
+Actualizacion 2026-06-10: se establecio un flujo para clases grupales recurrentes. Luis narra la sesion una sola vez en `04_sesiones/grupos/<nombre_del_grupo>/`; despues se distribuyen a cada expediente solo sus evidencias, responsabilidades, dificultades y proximos pasos.
+
+Actualizacion 2026-06-10: se sincronizo `09_base_de_datos/alumnos.csv` con las 10 carpetas de alumnos. Esteban fue agregado usando los datos ya documentados en su perfil; modalidad, frecuencia y confirmacion de la primera clase permanecen pendientes.
+
 Actualizacion 2026-05-21: se creo expediente inicial para Mariana, 35 años, nueva alumna con primera clase el martes 19 de mayo de 2026. Su diagnostico y bitacora detallada quedan pendientes de reconstruccion con Luis.
 
 Actualizacion 2026-05-21: se enriquecio el expediente de Mariana. Tiene una tienda de ropa de segunda mano con su socia, publica mucho en redes sociales y esta empezando a trabajar con datos del negocio. Su primera clase se centro en utilidad de chatbots, eleccion de modelos, web search y deep research usando por lo menos Gemini, ChatGPT y Claude. Codex, Antigravity, Cowork y Claude Code quedan como herramientas posteriores.
@@ -25,7 +31,7 @@ Actualizacion 2026-05-21: se reconstruyo la clase de Carmen del 2026-05-19. Carm
 - Vision canonica del proyecto en `00_instrucciones/vision_del_proyecto.md`.
 - Metodo pedagogico en `01_metodo`.
 - Curriculum flexible en `02_curriculum`.
-- Sistema de alumnos con carpetas para Jonas, Carmen, Mario, Bruno, Luis y Julio.
+- Sistema de alumnos con 11 carpetas: Jonas, Bruno, Esteban, Karla, Montse, Mariana, Dayana, Carmen, Mario, Julio y Luis (Papa).
 - Expediente inicial de Mariana creado el 2026-05-21 dentro de `03_alumnos/mariana_35`.
 - Plantillas de sesiones y ejemplo ficticio.
 - Ejercicios por herramienta.

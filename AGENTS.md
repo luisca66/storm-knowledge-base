@@ -94,7 +94,7 @@ storm-knowledge-base/
 │   ├── ainews/                ← resúmenes diarios de IA (YYYYMM/), fuente continua
 │   └── llm-wiki-karpathy.md   ← Referencia de arquitectura (Karpathy) — solo lectura
 │
-└── 08-sintesis/           ← PÁGINAS DE SÍNTESIS (nivel 2) — el producto más valioso del KB
+├── 08-sintesis/           ← PÁGINAS DE SÍNTESIS (nivel 2) — el producto más valioso del KB
     ├── luis-como-ingeniero-neural.md   ← la visión central
     ├── como-enseno-armonia.md
     ├── modelos-mentales-aprendizaje-musical.md
@@ -102,9 +102,14 @@ storm-knowledge-base/
     ├── tecnologia-al-servicio-del-metodo.md
     ├── entrenamiento-oido-absoluto.md
     └── estrategia-freemium-musical.md
+│
+└── 09-migracion-empresas/ ← Nueva línea empresarial de IA, activa y con ingresos
+    ├── README.md
+    └── proyectos/
+        └── indice-proyectos.md
 ```
 
-> Nota: `01-metodo-pedagogico/clases-ia/` (sistema de clases personalizadas de IA: 10 alumnos, currículum, sesiones) vive dentro de 01 y es la subcarpeta más grande del KB (~169 archivos).
+> Nota: `01-metodo-pedagogico/clases-ia/` (sistema de clases personalizadas de IA: 11 alumnos, currículum, sesiones) vive dentro de 01 y es la subcarpeta más grande del KB (~173 archivos).
 
 ---
 
@@ -246,14 +251,14 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual del proyecto (actualizar en cada sesión)
 
-**Última actualización:** 2026-06-04 (lint de salud Codex: AGENTS/index sincronizados, Elefantito 20 niveles reflejado, schema ampliado)
+**Última actualización:** 2026-06-10 (Dayana integrada; Migración Empresas abierta como nueva línea activa)
 
 **Archivos completos:** quien-soy.md, vision-proyecto.md, filosofia-ensenanza.md, elefantito-matematico.md
 
 **Archivos en progreso:** stack-tecnologico.md, estructura-curso.md, progresion-estudiante.md, indice-apps.md, secuenciador.md, maestro-virtual.md, arquitectura.md, funcionalidades.md, decisiones-tecnicas.md, ai-radar.md, ritmos-y-decisiones.md
 
 **Páginas de síntesis activas (08-sintesis/):**
-- `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto. Núcleo llenado (Camino de la Señal + Kahneman + Barrett + No-Compartimentación) y sección "prueba empírica" con los 10 alumnos de clases-ia. Pendiente: validar conexiones por alumno con datos de sesiones reales
+- `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto. Núcleo llenado (Camino de la Señal + Kahneman + Barrett + No-Compartimentación) y sección "prueba empírica" con 10 alumnos. Pendiente: integrar a Dayana y validar conexiones por alumno con datos de sesiones reales
 - `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
 - `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock + Sadhguru (silencio interior, ya integrado)
 - `el-musico-como-atleta.md` ← **en progreso** — 6 libros de fitness + sección 8 longevidad sistémica (Dr. William Lee: sueño oncológico, sulforafano, caminata metabólica, fermentados, autofagia). Premisa central ampliada: prueba de replicabilidad (último alumno Film Scoring = campeón Musclemania Miami)
@@ -261,7 +266,9 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - `entrenamiento-oido-absoluto.md` ← **en progreso** (creada 2026-06-03) — teoría operativa del oído absoluto destilada del backlog de ~40 insights de [oído]. 12 secciones + agenda de preguntas abiertas. La apuesta más radical del método: el AP como corteza selectiva entrenable, no como don
 - `estrategia-freemium-musical.md` ← **en progreso** (reescrita 2026-06-03) — por qué el modelo freemium es defendible: el negocio ES el método; gratuidad como filtro; foso 10k horas/Gladwell; fuerzas macro de IA que lo protegen; la beca/Bogle como paciencia compuesta
 
-**Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 10 alumnos perfilados (Bruno 16, Carmen 50, Esteban 33, Jonas 12, Julio 60, Karla 30, Luis 84, Mariana 35, Mario 55, Montse 30), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
+**Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 11 alumnos perfilados (Bruno 16, Carmen 50, Dayana 38, Esteban 33, Jonas 12, Julio 60, Karla 30, Luis 84, Mariana 35, Mario 55, Montse 30), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
+
+**Migración Empresas:** nueva línea empresarial de IA, documentada desde 2026-06-10 y ya generando ingresos. Cada empresa tiene proyecto y repo propios; el KB conserva visión, cartera, método y aprendizajes transversales. Primer proyecto confirmado: Voces Imaginarias.
 
 **Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 4 videos (ingeridos al wiki) + ainews (mar-jun 2026):
 - Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
@@ -287,7 +294,8 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - **Documentar el Taller de Ingeniería de Audio y Producción Musical** (surgió en entrevista 2026-06-03) — curso real ya impartido, ligado al estudio 5.1, hoy solo mencionado en vision-proyecto/freemium. Necesita ficha propia
 - `04-contenido-musical/`, `05-operaciones/` → archivos en borrador pendientes
 - Verificación pendiente: ¿el progreso del alumno (localStorage) es un problema a resolver pronto?
+- `09-migracion-empresas/` → completar entrevista fundacional: significado de "migrar", problema que compra el cliente, entregables, proceso, precio y cartera activa
 
 ---
 
-*Este archivo es mantenido por Codex. Última revisión: 2026-06-04 (lint de salud: AGENTS/index sincronizados, Elefantito 20 niveles reflejado, schema ampliado).*
+*Este archivo es mantenido por Codex. Última revisión: 2026-06-10 (Dayana integrada; Migración Empresas abierta como nueva línea activa).*

@@ -1,18 +1,19 @@
 ---
 titulo: "Visión del Proyecto"
 tipo: contexto
-ultima_actualizacion: 2026-06-04
+ultima_actualizacion: 2026-06-10
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/estructura-curso.md
   - 02-plataforma-web/funcionalidades.md
+  - 09-migracion-empresas/README.md
 estado: completo
 ---
 
 # Visión del Proyecto — Storm Studios Learning
 
 ## Resumen
-Storm Studios Learning opera hoy en dos líneas paralelas: la plataforma educativa musical (freemium, curso de armonía gratuito, Maestro Virtual, apps) y asesorías de IA (pagadas, para cualquier cliente). Las dos líneas están conectadas por la misma filosofía: construir la arquitectura neural correcta, no sustituirla. El objetivo final es que los ingresos combinados reemplacen el trabajo actual de Luis y le permitan dedicarse de tiempo completo a seguir construyendo.
+Luis opera hoy tres líneas: Storm Studios Learning, las clases y asesorías personalizadas de IA, y Migración Empresas. Esta tercera línea es un proyecto empresarial nuevo, ya activo y con ingresos, que agrupa implementaciones con repositorios propios por empresa. Las tres líneas nacen de la misma capacidad: convertir conocimiento y contexto humano en sistemas que amplifican a las personas.
 
 ---
 
@@ -86,6 +87,7 @@ Los ingresos generados por la plataforma — Kindle, YouTube, clases presenciale
 | Contrapunto / Análisis (en línea) | $1,250 MXN/clase | Activo |
 | Film Scoring + Ingeniería de Audio y Producción Musical | Presencial-only (estudio 5.1 Genelec) — dentro del intensivo | Activo (existen e impartidos) |
 | **Asesorías de IA** | **Precio directo con Luis** | **Activo** |
+| **Migración Empresas** | **Modelo y precios pendientes de documentar** | **Activo; ya genera ingresos** |
 
 ---
 
@@ -121,6 +123,18 @@ En 2026, todos los alumnos de Luis llevan IA integrada a su trabajo. Esto deriv�
 
 ---
 
+## Migración Empresas
+
+Migración Empresas es una nueva línea empresarial de Luis documentada por primera vez el 10 de junio de 2026. Ya genera ingresos y agrupa proyectos para empresas, cada uno con repo propio.
+
+Voces Imaginarias es el primer proyecto confirmado dentro de esta estructura. Su documentación técnica y operativa vive en su propio repo; este KB conserva únicamente la visión de conjunto, la cartera, el método reutilizable y los aprendizajes transversales.
+
+Todavía falta definir con precisión qué significa "migrar" una empresa, cuál es el producto que compra el cliente, cuáles son los entregables y cómo se relaciona comercialmente con las asesorías de IA.
+
+Ver [Migración Empresas](../09-migracion-empresas/README.md).
+
+---
+
 ## El Rol de este Knowledge Base
 
 Este KB no es solo documentación técnica — es la memoria que le permite a cualquier IA futura (y a Claude ahora mismo) colaborar en el proyecto sin que Luis tenga que explicar todo desde cero. "Lo que necesito es tener toda mi historia lista para que una IA del futuro me ayude a seguir puliendo todos mis materiales." Cada archivo que se llena aquí es una inversión directa en la velocidad y calidad de ese trabajo futuro.
@@ -134,3 +148,4 @@ Este KB no es solo documentación técnica — es la memoria que le permite a cu
 - 2026-05-02: Entrevista verificación — añadida intención de legado, función de la plataforma como embudo para presencial, y detalle del estudio 5.1 para Film Scoring.
 - 2026-06-03: Entrevista — precios concretos (intensivo presencial $20,000 MXN/mes con formación física incluida; Contrapunto/Análisis en línea $1,250 MXN/clase). Añadido el Taller de Ingeniería de Audio y Producción Musical (no documentado antes). Corregido: los avanzados ya existen e impartidos (~1 alumno cada 3 años llega a Film Scoring), no son "futuro". Tabla de Fuentes de Ingreso actualizada. Cross-refs a el-musico-como-atleta y estrategia-freemium-musical.
 - 2026-06-04: Entrevista — documentado el horizonte lejano "Videojuego Total de Entrenamiento Auditivo" (toda la mecánica resuelta con habilidades de oído; mundos oníricos; condicionado a IAs futuras). Los juegos Godot actuales como semilla. Cross-ref a indice-apps.
+- 2026-06-10: Incorporada Migración Empresas como tercera línea activa de Luis. Confirmado que ya genera ingresos y que Voces Imaginarias vive dentro de ella con repo propio.

@@ -8,6 +8,65 @@
 
 ---
 
+## [2026-06-10] entrevista | Migración Empresas — apertura de nueva línea de negocio
+
+**Hallazgo:** Migración Empresas no estaba documentado en el KB. Luis confirmó que es un proyecto nuevo y que ya está generando ingresos.
+
+**Frontera confirmada:**
+- Migración Empresas agrupa proyectos empresariales con repositorios propios.
+- Voces Imaginarias vive dentro de Migración Empresas y tiene proyecto y repo independientes.
+- `clases-ia` registra únicamente lo aprendido por Carmen, Mario, Montse, Karla y Dayana al usar ese contexto real.
+- La estrategia, operación y arquitectura de cada empresa no se duplican en los expedientes de alumnos.
+
+**Cambios realizados:**
+- Creada `09-migracion-empresas/README.md` como fuente canónica.
+- Creado `09-migracion-empresas/proyectos/indice-proyectos.md`.
+- Reclasificada la carpeta grupal de Voces Imaginarias como bitácora pedagógica.
+- Eliminados del CSV de clases los cinco registros duplicados del proyecto empresarial.
+- Actualizados schema, índice, README, visión, biografía, asesorías, changelog y referencias de alumnos.
+
+**Siguiente pregunta de entrevista:** definir qué significa exactamente "migrar" una empresa y qué transformación compra el cliente.
+
+---
+
+## [2026-06-10] entrevista | Apertura del expediente de Dayana
+
+**Conocimiento aportado por Luis:**
+- Dayana tiene 38 años, trabaja con Carmen y Mario y ya esta avanzando en sus clases de IA.
+- Es coproductora externa, pero forma parte fundamental del equipo.
+- Su asistencia a las clases grupales es irregular.
+- Curso fundamentos de chatbots gratuitos con Gemini, ChatGPT y Claude: seleccion de modelos, niveles de pensamiento, deep research y thinking.
+- Despues curso agentes con Codex y Antigravity; no tiene acceso a Cowork ni Claude Code.
+- Ya sabe usar Codex y Antigravity.
+- En la clase grupal mas reciente creo su cuenta de GitHub.
+- Participa con Montse, Carmen, Mario y Karla en el arranque del cerebro digital de Voces Imaginarias.
+
+**Cambios realizados:**
+- Se creo `03_alumnos/dayana_38/` con perfil, diagnostico y carpetas operativas.
+- Se agrego a Dayana en `09_base_de_datos/alumnos.csv`.
+- Los datos todavia desconocidos quedaron como `pendiente`.
+- Se actualizaron el contexto, estado, pendientes, changelog, indice y schema maestro para reflejar 11 alumnos.
+- Se reconstruyo su ciclo inicial y se actualizaron sesiones, avances y proyectos.
+- Se creo una fuente unica para el proyecto grupal en `04_sesiones/grupos/voces_imaginarias/`.
+- Se establecio que Luis narra cada clase grupal una sola vez y el agente distribuye evidencia individual a los cinco expedientes.
+
+**Siguiente pregunta de entrevista:** definir que significa y que debe lograr el cerebro digital de Voces Imaginarias.
+
+---
+
+## [2026-06-10] actualización | Sincronización del registro de alumnos de clases-ia
+
+**Disparador:** Luis preguntó qué alumnos estaban registrados y se detectó que Esteban tenía expediente propio, pero no aparecía en `09_base_de_datos/alumnos.csv`.
+
+**Cambios realizados:**
+- Se agregó `esteban_33` a `alumnos.csv` usando únicamente información existente en su perfil.
+- Los datos no confirmados quedaron marcados como pendientes o por confirmar.
+- `PROJECT_CONTEXT.md` y `00_instrucciones/ultimo_estado.md` se actualizaron para reflejar los 10 alumnos actuales.
+
+**Resultado:** las 10 carpetas de `03_alumnos/` tienen ahora una fila correspondiente en el registro general.
+
+---
+
 ## [2026-06-10] lint | Auditoría completa del proyecto (Fable 5)
 
 **Disparador:** Luis pidió auditoría completa + opinión + qué mejorar.

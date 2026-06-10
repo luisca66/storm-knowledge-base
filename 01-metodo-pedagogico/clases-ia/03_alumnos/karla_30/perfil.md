@@ -29,6 +29,11 @@
 - Chat como superpoder para planear y trabajar CON agentes — **comprendida**
 - Codex: estructura de carpetas, carpeta agéntica con MDs de contexto — **visto en clase 3**
 - Flujo completo Chat→MD→Agente — **ejecutado en clase 3**
+- GitHub: cuenta creada en la clase grupal mas reciente; fecha pendiente.
+
+## Proyecto grupal actual
+- El repo de Voces Imaginarias se usa como contexto practico para aprender GitHub y agentes.
+- El proyecto empresarial vive en Migracion Empresas; aqui queda pendiente registrar la evidencia individual de Karla.
 
 ## Distinción clave de Karla
 **Leyó el plan.** Cuando el chat generó el `.md` para el agente, Karla lo leyó antes de pasárselo al agente — algo que ni Luis hace regularmente. Señal de disciplina cognitiva superior y perfil naturalmente orientado al control y la verificación (consistente con su rol financiero).
@@ -42,4 +47,6 @@
 - Avance igual a Montse en contenido, pero con mayor rigor en la ejecución.
 
 ## Historial de Cambios
+- 2026-06-10: Aclarado que Voces Imaginarias pertenece a Migracion Empresas; aqui solo se registra el aprendizaje con GitHub y agentes.
+- 2026-06-10: Registrada la creación de su cuenta de GitHub durante la clase grupal.
 - 2026-05-27: Perfil creado. Alumna incorporada al KB.

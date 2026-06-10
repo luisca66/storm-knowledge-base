@@ -14,7 +14,7 @@ El metodo es adaptativo. La clase parte de intereses, problemas y ritmo del alum
 
 ## Tipo de alumnos
 
-El proyecto inicia con Jonas, Carmen, Mario, Bruno, Luis y Julio. Solo se conocen nombres y edades; todo lo demas debe completarse mediante diagnostico.
+El sistema contiene expedientes para 11 alumnos: Jonas, Bruno, Esteban, Karla, Montse, Mariana, Dayana, Carmen, Mario, Julio y Luis (Papa). Los perfiles tienen distintos grados de avance; todo dato faltante debe marcarse como `pendiente` y completarse mediante diagnostico o reconstruccion con Luis.
 
 ## Limites
 
@@ -22,4 +22,4 @@ Luis puede ofrecer acompanamiento practico, organizacion, introduccion a agentes
 
 ## Estado actual
 
-Repositorio inicial separado de Storm Studios Learning. Base en Markdown y CSV, preparada para crecer sin caos.
+Sistema integrado al Knowledge Base de Storm Studios Learning. Base en Markdown y CSV con 11 expedientes de alumnos; perfiles, diagnosticos y sesiones tienen distintos grados de avance.

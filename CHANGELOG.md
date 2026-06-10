@@ -7,6 +7,12 @@ estado: en_progreso
 
 # Registro de Cambios (CHANGELOG)
 
+## 2026-06-10
+- Creada `09-migracion-empresas/` como fuente canónica para la nueva línea empresarial de Luis, ya activa y con ingresos.
+- Creado el índice de proyectos con Voces Imaginarias como primer caso confirmado y repo propio.
+- Corregida la frontera con `clases-ia`: ahí solo se documenta el aprendizaje del equipo; la operación empresarial vive en Migración Empresas y en cada repo.
+- Actualizados schema, índice, README, visión del proyecto, biografía y asesorías de IA.
+
 ## 2026-06-04
 - **Lint de salud Codex:** `AGENTS.md` sincronizado con el estado real del 2026-06-03 y `CLAUDE.md`; convención de frontmatter ampliada para permitir `spec` y `sintesis`, tipos ya usados por el KB.
 - `index.md` corregido: archivos de `02-plataforma-web/` pasan de `borrador` a `en_progreso`, Elefantito pasa a `completo`, estadísticas recalculadas sin sistema/clases-ia.

@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.2 - 2026-06-10
+
+- Creado expediente inicial para Dayana, 38 años.
+- Registrada como alumna vinculada al equipo de Carmen y Mario.
+- Actualizado `alumnos.csv`; el sistema contiene ahora 11 alumnos.
+- Abierta entrevista para reconstruir sus avances reales sin inventar datos.
+- Reconstruido el ciclo inicial de Dayana: chatbots gratuitos, Codex, Antigravity y GitHub.
+- Registrado el uso del repo de Voces Imaginarias como contexto real para aprender agentes y GitHub.
+- Añadido flujo de bitacora canonica para clases grupales con distribucion de evidencia individual.
+- Aclarado que el proyecto y repo de Voces Imaginarias pertenecen a Migracion Empresas y no a clases-ia.
+
 ## 0.1.0 - 2026-05-07
 
 - Creacion inicial del proyecto Clases IA.

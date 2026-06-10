@@ -34,6 +34,7 @@
   - Diseño web con Claude Design.
   - Exploraciones con Codex y Cowork.
   - Mapa de herramientas de imagen y video.
+  - Uso del repo de Voces Imaginarias como contexto practico para GitHub y agentes; el proyecto vive en Migracion Empresas.
 
 ## Herramientas vistas
 - ChatGPT: pendiente confirmar uso directo.
@@ -87,6 +88,7 @@
   - Explicar estructura de los HTMLs que Luis les envio.
   - Relacionar IA empresarial con proyecciones economicas de su industria.
   - Continuar website: repo, contenido inicial, cambios con Claude Code y subida a GitHub.
+  - Aplicar el flujo de GitHub a un proyecto real de su entorno profesional.
 
 ## Observaciones de Luis
 - Notas pedagogicas: Mario aprende explorando y apropiandose de la herramienta, no siguiendo pasivamente una guia completa. Conviene darle marcos breves, intervenir en puntos clave y ayudarlo a ordenar lo que ya esta haciendo.
@@ -108,3 +110,7 @@
   - Pedirle que explique que esta intentando hacer antes de sugerir herramienta.
   - Usar la frase "soy vibe coder" como permiso pedagogico para pedirle mas a la IA cuando intenta devolverle trabajo humano innecesario.
   - Conectar la clase con estrategia de supervivencia y oportunidad en la industria creativa.
+
+---
+## Historial de Cambios
+- **2026-06-10** — Aclarado que Voces Imaginarias pertenece a Migracion Empresas; aqui solo se registra su uso como contexto pedagogico. Su cuenta de GitHub ya existia desde el 2026-05-19.

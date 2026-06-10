@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-06-04
+ultima_actualizacion: 2026-06-10
 estado: en_progreso
 ---
 
@@ -188,6 +188,17 @@ estado: en_progreso
 
 ---
 
+## 09 · Migración Empresas
+
+*Nueva línea empresarial de IA de Luis. Ya está activa y genera ingresos; cada empresa conserva su implementación en un repo propio.*
+
+| Archivo | Descripción | Estado |
+|---------|-------------|--------|
+| [README.md](09-migracion-empresas/README.md) | Visión, límites, relación con las otras líneas y entrevista fundacional pendiente | en_progreso |
+| [indice-proyectos.md](09-migracion-empresas/proyectos/indice-proyectos.md) | Catálogo de empresas y proyectos; Voces Imaginarias es el primero confirmado | en_progreso |
+
+---
+
 ## 📚 Referencias externas
 
 | Recurso | Descripción |
@@ -200,18 +211,18 @@ estado: en_progreso
 
 | Métrica | Valor |
 |---------|-------|
-| Total archivos .md (incluye clases-ia) | 332 (clases-ia: 169) |
+| Total archivos .md (incluye clases-ia) | 343 (clases-ia: 173) |
 | Archivos wiki principales completos | 4 (sin sistema/clases-ia) |
-| Archivos wiki en_progreso | 19 |
-| Archivos wiki borrador | 15 |
+| Archivos wiki en_progreso | 27 |
+| Archivos wiki borrador | 14 |
 | Páginas de síntesis | 7 (todas en_progreso) |
 | Libros ingresados | 26 |
 | Libros registrados pendientes | 2 (Originals, Shadows) |
 | Videos (transcripts, ingeridos al wiki) | 4 |
 | Sistema ainews | mar–jun 2026 (activo) |
-| Alumnos en clases-ia | 10 perfilados |
-| Última sesión de trabajo | 2026-06-04 |
+| Alumnos en clases-ia | 11 perfilados |
+| Última sesión de trabajo | 2026-06-10 |
 
 ---
 
-*Mantenido por Claude. Actualizado: 2026-06-04.*
+*Mantenido por Codex. Actualizado: 2026-06-10.*

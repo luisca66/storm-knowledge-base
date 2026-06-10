@@ -38,6 +38,8 @@ Cada alumno vive en `03_alumnos/nombre_edad/` con perfil, diagnostico, sesiones,
 
 Nombrar sesiones como `YYYY-MM-DD_sesion_01.md`. Cada sesion debe tener bitacora. La bitacora es el documento minimo obligatorio despues de cada clase.
 
+Para clases grupales recurrentes, guardar una bitacora canonica en `04_sesiones/grupos/<nombre_del_grupo>/` y actualizar cada expediente solo con la evidencia individual. Luis puede narrar la clase una sola vez; el agente distribuye logros, dificultades y proximos pasos sin duplicar toda la sesion.
+
 ## Como pedir ayuda a un agente
 
 Pedir al agente que lea primero `README.md`, `PROJECT_CONTEXT.md`, `INSTRUCCIONES_CLASES_IA.md`, `00_instrucciones/ultimo_estado.md` y `00_instrucciones/pendientes.md`. Luego indicar el alumno, el objetivo y si se necesita plan, bitacora, reporte, ejercicio o actualizacion de base de datos.

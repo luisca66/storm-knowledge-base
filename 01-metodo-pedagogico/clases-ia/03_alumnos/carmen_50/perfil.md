@@ -33,6 +33,7 @@
   - Deep Research para consultas de mercado/investigacion.
   - Documentacion y busqueda sobre como hacer foto fija con IA.
   - Sistema de cuestionario en Claude para preparar prompts dirigidos a Cowork.
+  - Uso del repo de Voces Imaginarias como contexto practico para GitHub y agentes; el proyecto vive en Migracion Empresas.
 
 ## Herramientas vistas
 - ChatGPT: pendiente confirmar uso directo; visto Deep Research en entorno de chat.
@@ -40,7 +41,7 @@
 - Gemini: pendiente explorar con Antigravity.
 - NotebookLM: pendiente.
 - Codex: usado en paralelo a Deep Research para consulta comparable.
-- GitHub: pendiente; Git en Mac actualizado/instalado como soporte para Claude Code el 2026-05-19.
+- GitHub: cuenta creada en la clase grupal mas reciente; fecha pendiente. Git en Mac fue actualizado/instalado como soporte para Claude Code el 2026-05-19.
 - Antigravity: pendiente explorar con Gemini.
 - Cowork: en uso para proyecto de automatizacion de cotizaciones.
 - Claude Code: introducido el 2026-05-19; primera interaccion funcional con proyecto local y carpetas organizadas.
@@ -67,6 +68,7 @@
   - Uso de Deep Research con modelo poderoso y adaptive thinking.
   - Comparacion entre Deep Research y Codex sobre rentas de propiedad en Merida.
   - Primera experiencia positiva con Claude Code trabajando en carpetas bien nombradas y organizadas.
+  - Cuenta de GitHub creada durante la clase grupal con el equipo de Voces Imaginarias.
 - Dificultades:
   - Confianza en IA.
   - Privacidad y permisos excesivos.
@@ -84,6 +86,7 @@
   - Definir flujo seguro de privacidad antes de dar permisos o conectar herramientas.
   - Convertir el aprendizaje de foto fija en un sistema consultable para Carmen, Mario, Montse y Karla.
   - Usar Claude Code sin convertir la clase en codigo: proyecto local, carpetas claras, archivos visibles y control humano.
+  - Practicar un flujo de GitHub relacionado con su trabajo real.
 
 ## Observaciones de Luis
 - Notas pedagogicas: Carmen aprende desde necesidad profesional real. La clase debe mostrar valor practico sin atropellar su criterio experto.
@@ -106,3 +109,8 @@
   - Usar ejemplos economicos y de eficiencia, pero sin vender humo.
   - Separar claramente investigacion, produccion, automatizacion y decision humana.
   - Presentar Claude Code como una herramienta que trabaja en carpetas de proyecto, no como "programar".
+
+---
+## Historial de Cambios
+- **2026-06-10** — Aclarado que Voces Imaginarias pertenece a Migracion Empresas; aqui solo se registra el aprendizaje con GitHub y agentes.
+- **2026-06-10** — Registrada la creación de su cuenta de GitHub durante la clase grupal.

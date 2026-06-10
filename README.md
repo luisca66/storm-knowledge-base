@@ -1,7 +1,7 @@
 ---
 titulo: "Storm Studios Learning — Base de Conocimiento"
 tipo: indice
-ultima_actualizacion: 2026-04-09
+ultima_actualizacion: 2026-06-10
 estado: en_progreso
 ---
 
@@ -13,7 +13,7 @@ Soy Luis Cárdenas, músico profesional con 35 años de carrera y maestro de mú
 
 ## Qué es este Knowledge Base
 
-Este repositorio contiene toda la información necesaria para que una IA colabore activamente en el desarrollo de Storm Studios Learning: el curso de música en línea, las herramientas digitales, y la documentación del método pedagógico.
+Este repositorio contiene la información necesaria para que una IA colabore activamente con Luis en Storm Studios Learning, sus clases y asesorías de IA, y Migración Empresas.
 
 **Objetivo principal:** Que cualquier IA pueda leer estos archivos y continuar el desarrollo del proyecto sin necesidad de que Luis explique todo desde cero cada vez.
 
@@ -30,6 +30,8 @@ Este repositorio contiene toda la información necesaria para que una IA colabor
 | `05-operaciones/` | Infraestructura, migraciones, flujo de trabajo | Baja — consultar según necesidad |
 | `06-diario-proyecto/` | Registro cronológico mensual | Referencia — contexto temporal |
 | `07-fuentes/` | Libros y lecturas que fundamentan el método, con índice de impacto por área. | Media — referencia para decisiones pedagógicas |
+| `08-sintesis/` | Síntesis de nivel 2 que integran fuentes, entrevistas y pensamiento de Luis | Alta — conocimiento acumulado |
+| `09-migracion-empresas/` | Nueva línea empresarial de IA; visión, cartera y método transversal | Alta — negocio activo |
 
 ## Convenciones
 
@@ -59,3 +61,7 @@ Cada archivo abre con un bloque YAML entre `---`. Los campos son:
 5. El idioma de trabajo es español. El código y nombres técnicos pueden estar en inglés.
 6. Luis usa tú (nunca voseo argentino).
 7. Cuando no estés seguro de algo, pregunta. No inventes información sobre el método pedagógico ni sobre las decisiones técnicas — están documentadas aquí por una razón.
+
+---
+## Historial de Cambios
+- **2026-06-10** — Mapa ampliado para incluir Migración Empresas como nueva línea activa del ecosistema de Luis.

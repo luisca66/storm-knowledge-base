@@ -1,18 +1,19 @@
 ---
 titulo: "Quién Soy"
 tipo: contexto
-ultima_actualizacion: 2026-05-01
+ultima_actualizacion: 2026-06-10
 relacionado_con:
   - 00-contexto/vision-proyecto.md
   - 00-contexto/stack-tecnologico.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
+  - 09-migracion-empresas/README.md
 estado: completo
 ---
 
 # Quién Soy — Luis Cárdenas (Storm Studios Learning)
 
 ## Resumen
-Luis nació en 1966 en la Ciudad de México. Es músico, compositor, productor, maestro y campeón mundial de físicoculturismo. Con 35 años de carrera musical y 30 enseñando, es el creador de "Los Seres Musicales" — un método pedagógico original que integra neurociencia, fisiología, psicología cognitiva y filosofía yóguica para transformar a cualquier estudiante en un músico consciente y completo. También es autor del libro homónimo (2024), constructor de herramientas digitales educativas con IA, y asesor de IA — enseña a personas y empresas a usar la inteligencia artificial como amplificador del cerebro propio, no como sustituto.
+Luis nació en 1966 en la Ciudad de México. Es músico, compositor, productor, maestro y campeón mundial de físicoculturismo. Con 35 años de carrera musical y 30 enseñando, es el creador de "Los Seres Musicales" — un método pedagógico original que integra neurociencia, fisiología, psicología cognitiva y filosofía yóguica para transformar a cualquier estudiante en un músico consciente y completo. También es autor del libro homónimo (2024), constructor de herramientas digitales educativas con IA, asesor de IA y creador de Migración Empresas, su nueva línea empresarial activa.
 
 ---
 
@@ -85,7 +86,7 @@ Este logro no es un paréntesis en su historia: es una prueba viva de su método
 
 **Stack principal:** Next.js / TypeScript en Vercel, apps Android, juegos en Godot 4, apps HTML/vanilla JS.
 
-**IA como nueva línea de enseñanza:** En 2026, todos sus alumnos llevan IA integrada. Esto derivó en asesorías de IA pagadas, abiertas a cualquier cliente — no solo alumnos de música. El formato es práctico: el cliente llega con un objetivo concreto (un ensayo, una automatización empresarial, un proceso personal) y Luis lo resuelve con él, enseñando en el camino qué herramienta usar, cómo pagarla y cómo optimizar una suscripción. El objetivo no es que usen más IA — es que moldeen su cerebro para interactuar *menos* con las IAs. La distinción central: IA como amplificador (tú eres el creador, tus redes crecen) vs. IA como sustituto (delegas el trabajo cognitivo, pierdes conexiones).
+**IA como nueva línea de enseñanza y trabajo empresarial:** En 2026, todos sus alumnos llevan IA integrada. Esto derivó primero en asesorías de IA pagadas, abiertas a cualquier cliente, y después en **Migración Empresas**, un proyecto nuevo que ya genera ingresos y agrupa proyectos empresariales con repositorios propios. El objetivo sigue siendo usar la IA como amplificador del criterio humano, no como sustituto. La frontera exacta entre asesoría, formación e intervención empresarial queda pendiente de documentar.
 
 **Convicción estratégica:** Habiendo vivido todo el desarrollo de la IA en el último año, Luis ha llegado a una conclusión clara: **el futuro está en sus datos, no en sus habilidades para usar la IA.** Las capacidades de los modelos crecerán exponencialmente en meses, no años. Lo que no cambiará — lo que ningún modelo puede generar solo — es el conocimiento acumulado en 35 años de práctica y 30 de enseñanza. Por eso este Knowledge Base no es un proyecto de documentación: es su activo estratégico más importante.
 
@@ -137,3 +138,4 @@ En ese sentido, su curso en línea tiene un propósito que no se vuelve obsoleto
 - 2026-04-07: Llenado sustancial con información del libro *Los Seres Musicales* — capítulo "Interludio: ¿quién soy?". Estado actualizado a `en_progreso`.
 - 2026-04-07: Sección de tecnología e IA completada con dictado directo de Luis. Filosofía sobre IA y legado documentada. Estado: `completo`.
 - 2026-05-01: Entrevista Luis — tres adiciones: (1) resumen actualizado con línea de asesorías de IA; (2) nueva subsección "IA como nueva línea de enseñanza" en Relación con la Tecnología; (3) nueva subsección "Sobre lo que realmente enseña" (cosmos/cuerpo/mente) en Filosofía Personal.
+- 2026-06-10: Registrado Migración Empresas como nuevo proyecto empresarial activo y generador de ingresos.
