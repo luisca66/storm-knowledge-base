@@ -228,3 +228,26 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Cal State:* Crisis del sindicato tras comprar licencias de ChatGPT por $17M; el 52% de los profesores reporta impacto negativo.
 - **Thrive Holdings y Consolidación por IA (Joshua Kushner):**
   - *Thrive Holdings:* Comprometerá $1,000 millones para adquirir despachos de contadores locales ante el déficit de CPAs, modernizándolos con Current (OpenAI) para reducir tiempos de preparación de impuestos en 1/3.
+
+## [11 de Junio de 2026](./resumen_20260611.md)
+**Temas Principales:**
+- **Triple IPO de OpenAI, Anthropic y SpaceX (OpenAI, Anthropic, SpaceX, SEC):**
+  - *S-1 Confidenciales:* OpenAI y Anthropic archivan confidencialmente sus S-1. OpenAI prefiere un timing flexible, pero el primero fijará la valoración del sector.
+  - *Float de SpaceX:* SPCX cotizará el viernes, sobresubscrita de 2x a 4x (órdenes de $150B). El free float inicial es del 4% ($1.8T de valoración). Senator Warren solicitó detener el IPO por riesgos de gobernanza y seguridad nacional.
+- **Centros de Datos en Órbita y Gigasat (SpaceX, Elon Musk, Google):**
+  - *Cómputo Orbital:* Satélites Starlink modificados con 150 kW de capacidad (un rack Blackwell), disipación pasiva al sol y meta de 1 GW orbital para fines de 2027 (7,000 lanzamientos anuales). SpaceX expande la Gigasat a 11M sq ft en Austin para fabricar paneles solares.
+- **Fabricación de Respaldo e Intel (Intel, Google, Nvidia, JP Morgan):**
+  - *Diversificación de TSMC:* Google encarga a Intel la manufactura de 3M de TPUs para 2028. Nvidia realiza pruebas con Intel para Fineman. JP Morgan y Goldman Sachs exploran futuros financieros de cómputo para cobertura.
+- **Preempción Regulatoria y Defensa (Marsha Blackburn, Adam Schiff, Bernie Sanders):**
+  - *Negociaciones:* La Casa Blanca negocia preempción de leyes estatales a cambio de incluir KOSA y No Fakes Act a nivel federal. Schiff propone mantener a humanos en el ciclo de decisión militar; Sanders formaliza el impuesto del 50% en acciones.
+- **Turnaround de Siri y la Separación del Mercado de IA (Apple, Gurman, AI Daily Brief):**
+  - *Siri y Gemini:* Apple pagará ~$1B anuales a Google por Gemini Cloud en Siri, combinado con modelos locales y la interfaz de enrutamiento *"ask in"*.
+  - *Monetización por API:* Las APIs de agentes (como Codex) generan mayores ingresos que el chat de consumo de tarifa plana. Noam Brown propone evaluar modelos por calidad dividida por costo de token.
+- **Fase 3 de OpenAI y Automatización de I+D (OpenAI, Jacob Pachacki):**
+  - *Investigador Automatizado:* Post "Built to Benefit Everyone" de Sam Altman y Jacob Pachacki. Fijan para marzo de 2028 que una fracción de su investigación interna de IA (hipótesis, diseño de arquitecturas) sea conducida autónomamente.
+- **Claude Fable 5 Benchmarks y deep tests (SWE-Bench, DeepSWE, Every):**
+  - *Rendimiento:* Fable 5 alcanza 80.3% en SWE-Bench Pro y 29.3% en Frontier Code de Cognition (merges reales). Every Senior Engineer da a Fable 91/100. DeepSWE surge como el benchmark libre de contaminación histórica.
+- **Guardarraíles y Retención de Datos de Anthropic (Anthropic, Mike Taylor):**
+  - *Fricciones:* Guardarraíles de biología redirigen a Opus 4.8. Se degrada silenciosamente la respuesta si se investigan modelos frontier. Retención de 30 días para revisiones de seguridad, lo que puede vulnerar NDAs si la memoria activa está habilitada.
+- **Guerra de Interfaces y "Agent Literacy" (Nate B. Jones, Claude Code, Codex, Mike Krieger):**
+  - *Cabina vs. Delegación:* Claude Code se comporta como cabina interactiva (vibe coding), y Codex como máquina de delegación paralela. Mike Krieger describe flujos nocturnos automatizados y testing robusto con backends en memoria y feedback de video de interfaces de Fable.
