@@ -1,8 +1,9 @@
 # CLAUDE.md — Schema Maestro del Knowledge Base
 ## Storm Studios Learning · Luis Cárdenas
 
-> Este archivo es el punto de entrada obligatorio para cualquier sesión de trabajo en este KB.
-> Lo lee Claude al inicio. Define quién es Luis, cómo está organizado el KB, y cómo se mantiene.
+> **Este archivo es la única fuente de verdad del schema.** Lo lee cualquier IA al inicio de cada sesión
+> (Claude lo carga automáticamente; Codex y otros agentes llegan aquí redirigidos desde `AGENTS.md`).
+> Define quién es Luis, qué cubre el KB, cómo está organizado y cómo se mantiene.
 
 ---
 
@@ -10,9 +11,13 @@
 
 **Luis Cárdenas** — músico profesional (35 años de carrera), maestro de música (30 años), compositor y desarrollador de software por IA ("vibe coder"). Mexicano. Creador del método pedagógico **"Los Seres Musicales"**, que integra neurociencia, fisiología y filosofía yóguica aplicada al aprendizaje musical.
 
-Está construyendo **Storm Studios Learning**: plataforma freemium de educación musical en línea.
+Opera **tres líneas activas**:
 
-**Perfil técnico:** Next.js/TypeScript en Vercel, apps Android (Android Studio → delegadas a Claude Code), juegos en Godot 4, apps HTML/vanilla JS. No tiene formación formal en programación — construye con IA.
+1. **Storm Studios Learning** — plataforma freemium de educación musical en línea (el proyecto de vida).
+2. **Clases y asesorías de IA** — clases personalizadas a 11 alumnos (`01-metodo-pedagogico/clases-ia/`) y asesorías (`05-operaciones/asesoria-ia.md`).
+3. **Migración Empresas** — línea empresarial de IA, activa y con ingresos (`09-migracion-empresas/`).
+
+**Perfil técnico:** Next.js/TypeScript en Vercel, apps Android (Android Studio → delegadas a los agentes de IA), juegos en Godot 4, apps HTML/vanilla JS. No tiene formación formal en programación — construye con IA.
 
 **Filosofía sobre IA:** "El futuro está en mis datos, no en mis habilidades para usar la IA." Este KB existe para que la IA tenga todo el contexto necesario para ser un colaborador real, no un asistente genérico.
 
@@ -20,15 +25,32 @@ Está construyendo **Storm Studios Learning**: plataforma freemium de educación
 
 ## 2. Propósito del KB
 
-Este Knowledge Base es el **cerebro externalizado de Luis**. Funciona según el patrón LLM Wiki de Andrej Karpathy:
+Este Knowledge Base es el **cerebro externalizado de Luis** — de su ecosistema completo (las tres líneas), no de un solo producto. Funciona según el patrón LLM Wiki de Andrej Karpathy:
 
 - **Raw sources** (`07-fuentes/`) → documentos originales, inmutables. Libros, transcripts de video, artículos.
-- **The wiki** (todo lo demás) → archivos generados y mantenidos por Claude en colaboración con Luis.
-- **Este schema** (`CLAUDE.md`) → instrucciones permanentes para Claude sobre cómo operar el KB.
+- **The wiki** (todo lo demás) → archivos generados y mantenidos por la IA en colaboración con Luis.
+- **Este schema** (`CLAUDE.md`) → instrucciones permanentes para cualquier IA sobre cómo operar el KB.
 
-El KB NO es un archivo de notas. Es la base de entrenamiento para que una IA futura pueda construir el proyecto de forma autónoma.
+**El propósito tiene dos niveles:**
+
+1. **Hoy — continuidad:** que cualquier IA pueda leer estos archivos y colaborar con Luis sin que él explique todo desde cero cada vez. *Este nivel ya se cumple.*
+2. **Mañana — autonomía:** que una IA futura pueda construir y operar el proyecto de forma autónoma. *Este nivel exige documentación operativa (lecciones, reglas de validación, infraestructura) que aún está incompleta — ver pendientes en §7.*
+
+El KB NO es un archivo de notas. Es la base de entrenamiento del nivel 2.
 
 **El KB es privado — nunca público.** Es el cerebro externalizado de Luis, exclusivamente para él y para la IA que colabora con él. Ningún archivo del KB se publica jamás. Cuando el proyecto tenga artefactos públicos (el **website**, YouTube, Kindle), esos se *redactan usando* el KB como fuente, pero el KB en sí no se expone. Cualquier discusión de AEO / legibilidad para agentes aplica **solo al website**, no al KB. Esta separación es deliberada y es parte del foso: la síntesis profunda del método (el "mecanismo") se queda privada; lo público expone identidad y resultados, no el cómo (ver la paradoja de la legibilidad en `00-contexto/ai-radar.md` y su aplicación en `08-sintesis/estrategia-freemium-musical.md` §5).
+
+### Jerarquía de archivos de entrada
+
+| Archivo | Rol |
+|---------|-----|
+| `CLAUDE.md` | **Schema maestro — única fuente de verdad.** Cualquier agente lo lee primero |
+| `AGENTS.md` | Stub de redirección hacia este archivo (para Codex y agentes que buscan ese nombre) |
+| `README.md` | Portada del repo (privado): presentación y mapa de navegación |
+| `index.md` | Catálogo navegable con el estado de cada archivo |
+| `log.md` | Historial cronológico de sesiones e ingestas |
+
+Ningún otro archivo debe declararse "leer primero". Si este schema contradice a otro archivo de sistema, manda este schema — y hay que corregir el otro.
 
 ---
 
@@ -37,8 +59,9 @@ El KB NO es un archivo de notas. Es la base de entrenamiento para que una IA fut
 ```
 storm-knowledge-base/
 │
-├── CLAUDE.md              ← ESTE ARCHIVO — leer siempre primero
-├── README.md              ← presentación pública del proyecto
+├── CLAUDE.md              ← ESTE ARCHIVO — schema maestro, única fuente de verdad
+├── AGENTS.md              ← stub → redirige a CLAUDE.md
+├── README.md              ← portada del repo (privado)
 ├── index.md               ← catálogo navegable de todos los archivos
 ├── log.md                 ← registro cronológico de sesiones e ingestas
 ├── CHANGELOG.md           ← historial de cambios significativos
@@ -54,6 +77,8 @@ storm-knowledge-base/
 │   ├── filosofia-ensenanza.md ← 7 principios, El Camino de la Señal
 │   ├── estructura-curso.md    ← ~60 lecciones, propedéutico + progresión
 │   ├── progresion-estudiante.md ← cómo avanza el alumno
+│   ├── clases-ia/             ← sistema operativo de las clases personalizadas de IA
+│   │   └── INSTRUCCIONES_CLASES_IA.md ← reglas específicas para dar clases de IA
 │   ├── ejercicios/
 │   │   ├── tipos-de-ejercicio.md
 │   │   └── reglas-validacion.md
@@ -95,15 +120,15 @@ storm-knowledge-base/
 │   └── llm-wiki-karpathy.md   ← Referencia de arquitectura (Karpathy) — solo lectura
 │
 ├── 08-sintesis/           ← PÁGINAS DE SÍNTESIS (nivel 2) — el producto más valioso del KB
-    ├── luis-como-ingeniero-neural.md   ← la visión central
-    ├── como-enseno-armonia.md
-    ├── modelos-mentales-aprendizaje-musical.md
-    ├── el-musico-como-atleta.md
-    ├── tecnologia-al-servicio-del-metodo.md
-    ├── entrenamiento-oido-absoluto.md
-    └── estrategia-freemium-musical.md
+│   ├── luis-como-ingeniero-neural.md   ← la visión central
+│   ├── como-enseno-armonia.md
+│   ├── modelos-mentales-aprendizaje-musical.md
+│   ├── el-musico-como-atleta.md
+│   ├── tecnologia-al-servicio-del-metodo.md
+│   ├── entrenamiento-oido-absoluto.md
+│   └── estrategia-freemium-musical.md
 │
-└── 09-migracion-empresas/ ← Nueva línea empresarial de IA, activa y con ingresos
+└── 09-migracion-empresas/ ← Línea empresarial de IA, activa y con ingresos
     ├── README.md
     └── proyectos/
         └── indice-proyectos.md
@@ -117,7 +142,7 @@ storm-knowledge-base/
 
 ### Frontmatter obligatorio
 
-Todo archivo del KB (excepto raw sources y este CLAUDE.md) debe tener:
+Todo archivo del KB (excepto raw sources, este CLAUDE.md y el stub AGENTS.md) debe tener:
 
 ```yaml
 ---
@@ -189,12 +214,13 @@ Periódicamente verificar:
 
 ## 6. Reglas de colaboración
 
-**Lo que Claude hace:**
+**Lo que la IA hace:**
 - Escribe y mantiene todos los archivos del wiki
 - Hace preguntas para extraer conocimiento tácito de Luis
 - Propone conexiones entre conceptos y archivos
 - Mantiene consistencia entre archivos (ej. mismo número de apps en todos lados)
 - Actualiza `index.md` y `log.md` en cada sesión
+- **Acatar doble reglamento en clases-ia:** si trabaja planificando clases de IA o editando perfiles de alumnos, debe leer y obedecer obligatoriamente `01-metodo-pedagogico/clases-ia/INSTRUCCIONES_CLASES_IA.md`
 
 **Lo que Luis hace:**
 - Decide qué fuentes ingresar
@@ -214,7 +240,7 @@ Estas tres reglas evitan que el KB se degrade en un simple buscador de documento
 
 ### Regla 1 — Escritura activa obligatoria
 
-El KB solo crece si Claude escribe, no solo lee.
+El KB solo crece si la IA escribe, no solo lee.
 
 - **Cada interacción relevante** (entrevista, análisis, respuesta compleja) → modificar o crear al menos 1 archivo del wiki
 - **Cada fuente ingresada** → tocar entre 5 y 15 archivos existentes (no solo crear uno nuevo)
@@ -244,56 +270,34 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 - Modelos mentales del aprendizaje musical (síntesis filosófica + pedagógica)
 - Tecnología al servicio del método (síntesis de decisiones técnicas + pedagogía)
 
-**Criterio de éxito del KB:** Si en 2-3 semanas una pregunta compleja sobre el proyecto produce una respuesta mejor que cualquier fuente individual ingresada → el sistema está funcionando.
+**Criterio de éxito del KB:** Si en 2-3 semanas una pregunta compleja sobre el proyecto produce una respuesta mejor que cualquier fuente individual ingresada → el sistema está funcionando. *(Cruzado por primera vez en junio 2026: la respuesta sobre AEO salió de la paradoja de la legibilidad que el radar había capturado un mes antes.)*
 
 ---
 
-## 7. Estado actual del proyecto (actualizar en cada sesión)
+## 7. Estado actual (actualizar en cada sesión)
 
-**Última actualización:** 2026-06-10 (Dayana integrada; Migración Empresas abierta como nueva línea activa)
+**Última actualización:** 2026-06-11 — consolidación del schema: CLAUDE.md fuente única, AGENTS.md stub, propósito en dos niveles.
 
-**Archivos completos:** quien-soy.md, vision-proyecto.md, filosofia-ensenanza.md, elefantito-matematico.md
-
-**Archivos en progreso:** stack-tecnologico.md, estructura-curso.md, progresion-estudiante.md, indice-apps.md, secuenciador.md, maestro-virtual.md, arquitectura.md, funcionalidades.md, decisiones-tecnicas.md, ai-radar.md, ritmos-y-decisiones.md
-
-**Páginas de síntesis activas (08-sintesis/):**
-- `luis-como-ingeniero-neural.md` ← la más importante — visión central del proyecto. Núcleo llenado (Camino de la Señal + Kahneman + Barrett + No-Compartimentación) y sección "prueba empírica" con 10 alumnos. Pendiente: integrar a Dayana y validar conexiones por alumno con datos de sesiones reales
-- `como-enseno-armonia.md` ← **en progreso** — completo en lo sustancial: Medrano + Sadhguru + Levitin + visión civilizatoria (cosmos/cuerpo/mente) + IA como extensión del método
-- `modelos-mentales-aprendizaje-musical.md` ← **en progreso** — sólido: Kahneman + Barrett + Agüera y Arcas + Levitin + Gladwell + Rock + Sadhguru (silencio interior, ya integrado)
-- `el-musico-como-atleta.md` ← **en progreso** — 6 libros de fitness + sección 8 longevidad sistémica (Dr. William Lee: sueño oncológico, sulforafano, caminata metabólica, fermentados, autofagia). Premisa central ampliada: prueba de replicabilidad (último alumno Film Scoring = campeón Musclemania Miami)
-- `tecnologia-al-servicio-del-metodo.md` ← **en progreso** — Storm Sequencer completado (modos, cifrado activo, destino SATB) + ExO 3.0/Singularidad Organizacional integrado (Coase reformulado, stack 6 capas, 5 fosos, pasaporte del agente) + criterio de automatización (Efecto Santiago)
-- `entrenamiento-oido-absoluto.md` ← **en progreso** (creada 2026-06-03) — teoría operativa del oído absoluto destilada del backlog de ~40 insights de [oído]. 12 secciones + agenda de preguntas abiertas. La apuesta más radical del método: el AP como corteza selectiva entrenable, no como don
-- `estrategia-freemium-musical.md` ← **en progreso** (reescrita 2026-06-03) — pasó de borrador a síntesis de tesis: por qué el modelo freemium es defendible (el negocio ES el método; gratuidad como filtro; foso 10k horas/Gladwell; fuerzas macro de IA que lo protegen; la beca/Bogle como paciencia compuesta). Pendiente: poblar §8 (5 preguntas abiertas: YouTube, cursos avanzados, AEO, el 1/1000, precio presencial)
-
-**Carpeta clases-ia:** integrada al monorepo (2026-05-21). Vive en `01-metodo-pedagogico/clases-ia/`. Contiene 11 alumnos perfilados (Bruno 16, Carmen 50, Dayana 38, Esteban 33, Jonas 12, Julio 60, Karla 30, Luis 84, Mariana 35, Mario 55, Montse 30), currículum completo, base de datos CSV, plantillas y ejercicios por herramienta.
-
-**Migración Empresas:** nueva línea empresarial de IA, documentada desde 2026-06-10 y ya generando ingresos. Cada empresa tiene proyecto y repo propios; el KB conserva visión, cartera, método y aprendizajes transversales. Primer proyecto confirmado: Voces Imaginarias.
-
-**Fuentes ingresadas:** 26 libros ingresados + 2 pendientes + Curso Medrano + LLM Wiki + 4 videos (ingeridos al wiki) + ainews (mar-jun 2026):
-- Sesión 2026-04-22: Inner Engineering, Kahneman, Barrett x2, A Little Bit of Philosophy (copiada)
-- Sesión 2026-05-01: What Is Intelligence (Agüera y Arcas), This Is Your Brain on Music (Levitin), 6 libros de fitness, A Little Bit of Philosophy U03L04 + U04L04
-- Sesión 2026-05-02: Outliers (Gladwell), Your Brain at Work (Rock)
-- Sesión 2026-05-06: ainews registrado como fuente continua, Originals + Shadows registrados
-- Sesión 2026-05-21: Desanidación de clases-ia + Elefantito Matemático integrado en filosofia-ensenanza.md + Paradigma de No-Compartimentación integrado en síntesis
-- Sesión 2026-06-01: 3 videos ingeridos al wiki (Real Problem With AI Agents → modulo_agentes/conceptos_no_olvidar; ExO 3.0 + Diamandis/Ismail → tecnologia-al-servicio-del-metodo; This Could Save Your Life → el-musico-como-atleta) + entrevista Storm Sequencer (modos, cifrado activo, destino SATB)
-
-**Fuentes no ingresadas aún:** Originals (Grant), Shadows of Forgotten Ancestors (Sagan), libros filosóficos generales, libros económicos
-
-**Repo GitHub:** https://github.com/luisca66/storm-knowledge-base
+El detalle del estado vive donde corresponde — no duplicarlo aquí:
+- **Estado por archivo** → `index.md` (catálogo con estados y estadísticas)
+- **Historial de sesiones e ingestas** → `log.md`
+- **Cambios significativos** → `CHANGELOG.md`
+- **Decisiones y su porqué** → `00-contexto/decisiones-clave.md`
 
 **Pendiente prioritario:**
-- `08-sintesis/tecnologia-al-servicio-del-metodo.md` → completar sección de apps de entrenamiento auditivo (sección Storm Sequencer ya completada el 2026-06-01)
-- `ai-radar.md` → síntesis de junio 2026 **abierta (días 1-2)** el 2026-06-03; completar al cierre del mes conforme entren los resúmenes de ainews
-- `luis-como-ingeniero-neural.md` → validar las conexiones por alumno con datos de sesiones reales (secciones Sándwich Humano y prueba empírica ya integradas)
-- `entrenamiento-oido-absoluto.md` (creada 2026-06-03) → poblar §12 (preguntas abiertas) con datos de alumnos reales que desbloqueen AP; desarrollar la "gramática posicional" (§3)
-- **Decisión de fondo:** consolidar `CLAUDE.md` y `AGENTS.md` en una fuente única (hoy se sincronizan a mano, riesgo de divergencia señalado en 3 lints)
-- Verificar **canal/origen** de "A Little Bit of Philosophy — PHI 101" (`[verificar canal]` en `indice-fuentes.md` L84) — único marcador abierto; los 3 autores antes pendientes (Wolfe, Cave, Lassalle) ya quedaron asignados el 2026-05-21
-- Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
-- `estrategia-freemium-musical.md` → reescrita + entrevistada el 2026-06-03 (YouTube §7, cursos avanzados §8, AEO como recomendación operativa en §5). Quedan 2 preguntas menores en §10 (orden de lanzamiento de avanzados, profundizar dato de conversión)
-- **Documentar el Taller de Ingeniería de Audio y Producción Musical** (surgió en entrevista 2026-06-03) — curso real ya impartido, ligado al estudio 5.1, hoy solo mencionado en vision-proyecto/freemium. Necesita ficha propia
-- Archivos en `borrador` en `04-contenido-musical/`, `05-operaciones/`
+- **Documentación operativa (nivel 2 del propósito)** — hallazgo central de la auditoría 2026-06-10: el KB piensa pero no opera. Próximas entrevistas deben ser operativas: lista de las ~65 lecciones (aunque sea títulos), las 6 reglas de validación del Maestro Virtual, infraestructura. `04-contenido-musical/` y `05-operaciones/` en borrador desde abril
+- `ai-radar.md` → va días atrás de ainews; falta Fable 5 / Mythos 5 (lanzados 2026-06-09) y actualizar la tabla de modelos de la Sección 3
 - `09-migracion-empresas/` → completar entrevista fundacional: significado de "migrar", problema que compra el cliente, entregables, proceso, precio y cartera activa
+- `luis-como-ingeniero-neural.md` → integrar a Dayana y validar conexiones por alumno con datos de sesiones reales
+- `entrenamiento-oido-absoluto.md` → poblar §12 con datos de alumnos que desbloqueen AP; desarrollar la "gramática posicional" (§3)
+- `tecnologia-al-servicio-del-metodo.md` → completar sección de apps de entrenamiento auditivo
+- `estrategia-freemium-musical.md` → 2 preguntas menores en §10 (orden de lanzamiento de avanzados, dato de conversión)
+- **Documentar el Taller de Ingeniería de Audio y Producción Musical** — curso real ya impartido, ligado al estudio 5.1; necesita ficha propia
+- Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
+- Verificar **canal/origen** de "A Little Bit of Philosophy — PHI 101" (`[verificar canal]` en `indice-fuentes.md`)
+- Verificar si el progreso del alumno en localStorage es un problema a resolver pronto
+- **Respaldo del KB** fuera de GitHub (`git bundle` mensual a disco o Drive) — el activo central tiene hoy un solo punto de falla
 
 ---
 
-*Este archivo es mantenido por Claude. Última revisión: 2026-06-10 (Dayana integrada; Migración Empresas abierta como nueva línea activa).*
+*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-06-11 (consolidación: fuente única, propósito en dos niveles, alcance de tres líneas).*

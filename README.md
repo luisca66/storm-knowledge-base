@@ -1,8 +1,8 @@
 ---
 titulo: "Storm Studios Learning — Base de Conocimiento"
 tipo: indice
-ultima_actualizacion: 2026-06-10
-estado: en_progreso
+ultima_actualizacion: 2026-06-11
+estado: completo
 ---
 
 # Storm Studios Learning — Base de Conocimiento
@@ -13,9 +13,11 @@ Soy Luis Cárdenas, músico profesional con 35 años de carrera y maestro de mú
 
 ## Qué es este Knowledge Base
 
-Este repositorio contiene la información necesaria para que una IA colabore activamente con Luis en Storm Studios Learning, sus clases y asesorías de IA, y Migración Empresas.
+Este repositorio **privado** contiene la información necesaria para que una IA colabore activamente con Luis en Storm Studios Learning, sus clases y asesorías de IA, y Migración Empresas. El KB nunca se publica: los artefactos públicos del proyecto (website, YouTube) se redactan *usando* el KB como fuente, pero el KB en sí no se expone.
 
-**Objetivo principal:** Que cualquier IA pueda leer estos archivos y continuar el desarrollo del proyecto sin necesidad de que Luis explique todo desde cero cada vez.
+**Objetivo principal:** Que cualquier IA pueda leer estos archivos y continuar el desarrollo del proyecto sin necesidad de que Luis explique todo desde cero cada vez — y, a futuro, construirlo y operarlo de forma autónoma.
+
+**Este README es solo la portada.** El schema operativo — propósito, convenciones, workflows, reglas de colaboración y estado — vive en **[CLAUDE.md](CLAUDE.md)**, la única fuente de verdad, que cualquier IA debe leer antes de trabajar. `AGENTS.md` es un stub de redirección para agentes que buscan ese nombre por convención.
 
 ## Mapa de Navegación
 
@@ -33,35 +35,11 @@ Este repositorio contiene la información necesaria para que una IA colabore act
 | `08-sintesis/` | Síntesis de nivel 2 que integran fuentes, entrevistas y pensamiento de Luis | Alta — conocimiento acumulado |
 | `09-migracion-empresas/` | Nueva línea empresarial de IA; visión, cartera y método transversal | Alta — negocio activo |
 
-## Convenciones
+## Convenciones e instrucciones
 
-### Metadatos (frontmatter YAML)
-
-Cada archivo abre con un bloque YAML entre `---`. Los campos son:
-
-- **titulo**: Nombre descriptivo del documento.
-- **tipo**: `contexto` | `leccion` | `spec` | `decision` | `diario` | `catalogo`
-- **ultima_actualizacion**: Fecha en formato YYYY-MM-DD.
-- **relacionado_con**: Lista de rutas a otros documentos relevantes.
-- **estado**: `borrador` | `en_progreso` | `completo` | `requiere_revision`
-
-### Estados
-
-- **borrador**: Archivo creado con estructura pero sin contenido real.
-- **en_progreso**: Tiene contenido parcial, falta completar.
-- **completo**: Documentación completa y revisada.
-- **requiere_revision**: Contenido desactualizado o con errores conocidos.
-
-## Instrucciones para la IA
-
-1. **Siempre lee este README primero.**
-2. Antes de trabajar en algo, revisa el archivo correspondiente y su campo `estado`.
-3. Después de hacer cambios en cualquier archivo, actualiza `ultima_actualizacion` y el `Historial de Cambios` al final.
-4. Luis trabaja como "vibe coder" — no sabe código formalmente pero construye con IA. Adapta tus explicaciones a ese contexto.
-5. El idioma de trabajo es español. El código y nombres técnicos pueden estar en inglés.
-6. Luis usa tú (nunca voseo argentino).
-7. Cuando no estés seguro de algo, pregunta. No inventes información sobre el método pedagógico ni sobre las decisiones técnicas — están documentadas aquí por una razón.
+Las convenciones de archivos (frontmatter, estados, historial de cambios) y las reglas de colaboración están definidas en **[CLAUDE.md](CLAUDE.md)** §4–§6b. No se duplican aquí: una sola fuente de verdad evita las divergencias que este README ya había acumulado (su lista de tipos de frontmatter era distinta a la del schema).
 
 ---
 ## Historial de Cambios
+- **2026-06-11** — Redefinido como portada del repo privado: jerarquía de lectura apuntando a CLAUDE.md como fuente única; secciones de convenciones e instrucciones (duplicadas y ya divergidas del schema) reemplazadas por puntero. Estado: completo.
 - **2026-06-10** — Mapa ampliado para incluir Migración Empresas como nueva línea activa del ecosistema de Luis.

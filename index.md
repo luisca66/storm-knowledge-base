@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-06-10
+ultima_actualizacion: 2026-06-11
 estado: en_progreso
 ---
 
@@ -17,9 +17,9 @@ estado: en_progreso
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [AGENTS.md](AGENTS.md) | Schema maestro obligatorio para Codex: quién es Luis, estructura del KB, workflows, reglas | ✅ activo |
-| [CLAUDE.md](CLAUDE.md) | Schema histórico para Claude; mantener sincronizado cuando aplique | referencia |
-| [README.md](README.md) | Presentación pública del proyecto | ✅ activo |
+| [CLAUDE.md](CLAUDE.md) | **Schema maestro — única fuente de verdad** para cualquier IA: quién es Luis, propósito, estructura, workflows, reglas, estado | ✅ activo |
+| [AGENTS.md](AGENTS.md) | Stub de redirección a CLAUDE.md (para Codex y agentes que buscan ese nombre) | ✅ activo |
+| [README.md](README.md) | Portada del repo (privado): presentación y mapa de navegación | ✅ activo |
 | [index.md](index.md) | Este archivo — catálogo navegable | ✅ activo |
 | [log.md](log.md) | Registro cronológico de sesiones e ingestas | ✅ activo |
 | [CHANGELOG.md](CHANGELOG.md) | Historial de cambios significativos al KB | en_progreso |
@@ -221,8 +221,8 @@ estado: en_progreso
 | Videos (transcripts, ingeridos al wiki) | 4 |
 | Sistema ainews | mar–jun 2026 (activo) |
 | Alumnos en clases-ia | 11 perfilados |
-| Última sesión de trabajo | 2026-06-10 |
+| Última sesión de trabajo | 2026-06-11 |
 
 ---
 
-*Mantenido por Codex. Actualizado: 2026-06-10.*
+*Mantenido por la IA que colabora con Luis. Actualizado: 2026-06-11 (jerarquía de archivos de sistema corregida: CLAUDE.md fuente única, AGENTS.md stub).*

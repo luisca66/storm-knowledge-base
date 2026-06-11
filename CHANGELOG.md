@@ -1,11 +1,18 @@
 ---
 titulo: "Registro de Cambios"
 tipo: diario
-ultima_actualizacion: 2026-06-04
+ultima_actualizacion: 2026-06-11
 estado: en_progreso
 ---
 
 # Registro de Cambios (CHANGELOG)
+
+## 2026-06-11
+- **Consolidación del schema (decisión de fondo resuelta):** `CLAUDE.md` es la única fuente de verdad, redactado agnóstico de agente; `AGENTS.md` reducido a stub de redirección. Se acaba la sincronización manual señalada por 5 lints — con divergencia real ya confirmada entre las copias.
+- `CLAUDE.md` §2 reescrito: propósito en dos niveles (continuidad hoy / autonomía mañana), alcance explícito de las tres líneas de negocio, jerarquía de archivos de entrada.
+- `CLAUDE.md` §7 adelgazado: el detalle del estado vive en index/log/CHANGELOG; solo quedan fecha y pendientes prioritarios.
+- `README.md` redefinido como portada del repo privado (estado: completo); `index.md` corrige la jerarquía invertida de archivos de sistema.
+- Decisión documentada en `00-contexto/decisiones-clave.md` (borrador → en_progreso).
 
 ## 2026-06-10
 - Creada `09-migracion-empresas/` como fuente canónica para la nueva línea empresarial de Luis, ya activa y con ingresos.

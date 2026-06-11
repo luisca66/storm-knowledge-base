@@ -8,6 +8,25 @@
 
 ---
 
+## [2026-06-11] actualización | Consolidación del schema — CLAUDE.md fuente única
+
+**Origen:** Luis preguntó si el propósito del KB queda claro al leerlo. La revisión (primera sesión con Fable 5) encontró tres problemas de fondo:
+1. **Dos formulaciones de propósito con ambición distinta** — README pedía continuidad ("colaborar sin re-explicar"); CLAUDE.md pedía autonomía ("construir el proyecto de forma autónoma"). La distancia entre ambas es exactamente el hallazgo #1 de la auditoría del 06-10 (el KB piensa pero no opera).
+2. **Alcance desactualizado** — CLAUDE.md §2 hablaba de "el proyecto" en singular cuando el KB ya cubre tres líneas (plataforma, clases/asesorías IA, Migración Empresas).
+3. **Jerarquía de entrada en conflicto** — tres archivos se declaraban "leer primero", e index.md describía a AGENTS.md como maestro y a CLAUDE.md como "histórico".
+
+**Divergencia confirmada entre los schemas gemelos:** AGENTS.md tenía la regla del doble reglamento de clases-ia y el pendiente de localStorage; CLAUDE.md no. Quinto señalamiento del problema — ahora resuelto de raíz.
+
+**Cambios:**
+- `CLAUDE.md` reescrito como schema maestro único y agnóstico de agente: propósito en dos niveles (continuidad ✅ / autonomía pendiente), alcance de tres líneas, tabla de jerarquía de archivos de entrada, contenido único de AGENTS.md fusionado, §7 adelgazado (estados → index.md, historial → log.md, fuentes → indice-fuentes.md; solo quedan la fecha y los pendientes prioritarios).
+- `AGENTS.md` reducido a stub de redirección.
+- `README.md` redefinido como portada del repo privado; secciones de convenciones e instrucciones (duplicadas y ya divergidas — su lista de tipos de frontmatter era distinta a la del schema) reemplazadas por puntero. Estado: completo.
+- `index.md` jerarquía corregida.
+- Decisión registrada con razonamiento y alternativas en `00-contexto/decisiones-clave.md` (borrador → en_progreso).
+- Nuevos pendientes capturados en §7 desde la auditoría: entrevistas operativas (lecciones, reglas de validación, infraestructura), radar atrasado (falta Fable 5 / Mythos 5), respaldo del KB fuera de GitHub.
+
+---
+
 ## [2026-06-10] entrevista | Migración Empresas — apertura de nueva línea de negocio
 
 **Hallazgo:** Migración Empresas no estaba documentado en el KB. Luis confirmó que es un proyecto nuevo y que ya está generando ingresos.
