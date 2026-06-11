@@ -1,7 +1,7 @@
 ---
 titulo: "Quién Soy"
 tipo: contexto
-ultima_actualizacion: 2026-06-10
+ultima_actualizacion: 2026-06-11
 relacionado_con:
   - 00-contexto/vision-proyecto.md
   - 00-contexto/stack-tecnologico.md
@@ -84,6 +84,8 @@ Este logro no es un paréntesis en su historia: es una prueba viva de su método
 
 **Estado actual:** Hoy entrega el folder a Claude Code, Codex o Antigravity y ellas hacen todo. El proceso de construcción ha pasado de ser un reto técnico a ser un reto de diseño e intención — exactamente como su método pedagógico.
 
+**El vibe coding como estudio diario:** Todo el código que Luis escribe con IA para levantar el proyecto es, en sus palabras, parte de su educación — exactamente como el tiempo que toca la guitarra. Son sus estudios diarios. Y ese estudio ya genera ingresos: la habilidad que entrena construyendo la plataforma es la misma que vende en las clases y asesorías de IA. Es el Paradigma de No-Compartimentación aplicado a sí mismo — Luis no separa estudiar, trabajar y ganar; es su propio alumno y su propia prueba del método (ver [estrategia-freemium-musical.md §7](../08-sintesis/estrategia-freemium-musical.md) — "el cuello de botella se paga solo" — y [luis-como-ingeniero-neural.md](../08-sintesis/luis-como-ingeniero-neural.md)).
+
 **Stack principal:** Next.js / TypeScript en Vercel, apps Android, juegos en Godot 4, apps HTML/vanilla JS.
 
 **IA como nueva línea de enseñanza y trabajo empresarial:** En 2026, todos sus alumnos llevan IA integrada. Esto derivó primero en asesorías de IA pagadas, abiertas a cualquier cliente, y después en **Migración Empresas**, un proyecto nuevo que ya genera ingresos y agrupa proyectos empresariales con repositorios propios. El objetivo sigue siendo usar la IA como amplificador del criterio humano, no como sustituto. La frontera exacta entre asesoría, formación e intervención empresarial queda pendiente de documentar.
@@ -139,3 +141,4 @@ En ese sentido, su curso en línea tiene un propósito que no se vuelve obsoleto
 - 2026-04-07: Sección de tecnología e IA completada con dictado directo de Luis. Filosofía sobre IA y legado documentada. Estado: `completo`.
 - 2026-05-01: Entrevista Luis — tres adiciones: (1) resumen actualizado con línea de asesorías de IA; (2) nueva subsección "IA como nueva línea de enseñanza" en Relación con la Tecnología; (3) nueva subsección "Sobre lo que realmente enseña" (cosmos/cuerpo/mente) en Filosofía Personal.
 - 2026-06-10: Registrado Migración Empresas como nuevo proyecto empresarial activo y generador de ingresos.
+- 2026-06-11: Entrevista de propósito — nueva subsección "El vibe coding como estudio diario" (la construcción del proyecto como educación, ya monetizada; No-Compartimentación aplicada a sí mismo).

@@ -11,10 +11,10 @@
 
 **Luis Cárdenas** — músico profesional (35 años de carrera), maestro de música (30 años), compositor y desarrollador de software por IA ("vibe coder"). Mexicano. Creador del método pedagógico **"Los Seres Musicales"**, que integra neurociencia, fisiología y filosofía yóguica aplicada al aprendizaje musical.
 
-Opera **tres líneas activas**:
+Trabaja desde **Storm Studios** — su estudio físico en casa: estudio 5.1 Genelec completo + gimnasio. Desde ahí opera **tres líneas activas**:
 
-1. **Storm Studios Learning** — plataforma freemium de educación musical en línea (el proyecto de vida).
-2. **Clases y asesorías de IA** — clases personalizadas a 11 alumnos (`01-metodo-pedagogico/clases-ia/`) y asesorías (`05-operaciones/asesoria-ia.md`).
+1. **Clases particulares** (presenciales o en línea) — **la vaca lechera hoy**: taller de composición e instrumentos, entrenamientos físicos, y las clases/asesorías de IA (11 alumnos en `01-metodo-pedagogico/clases-ia/`; `05-operaciones/asesoria-ia.md`).
+2. **Storm Studios Learning** — el website (plataforma freemium de educación musical, `02-plataforma-web/`). Hoy produce $0 por diseño; su propósito es triple: **legado** (el curso completo), **promotor** de las clases y asesorías, y a futuro **ingreso pasivo** (apps móviles de paga, libros en Amazon, YouTube).
 3. **Migración Empresas** — línea empresarial de IA, activa y con ingresos (`09-migracion-empresas/`).
 
 **Perfil técnico:** Next.js/TypeScript en Vercel, apps Android (Android Studio → delegadas a los agentes de IA), juegos en Godot 4, apps HTML/vanilla JS. No tiene formación formal en programación — construye con IA.
@@ -276,7 +276,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual (actualizar en cada sesión)
 
-**Última actualización:** 2026-06-11 — consolidación del schema: CLAUDE.md fuente única, AGENTS.md stub, propósito en dos niveles.
+**Última actualización:** 2026-06-11 — consolidación del schema (CLAUDE.md fuente única, AGENTS.md stub) + entrevista de propósito (mapa del ecosistema corregido, estrategia de apps de paga, prueba de la vacación).
 
 El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Estado por archivo** → `index.md` (catálogo con estados y estadísticas)
@@ -297,6 +297,9 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - Verificar **canal/origen** de "A Little Bit of Philosophy — PHI 101" (`[verificar canal]` en `indice-fuentes.md`)
 - Verificar si el progreso del alumno en localStorage es un problema a resolver pronto
 - **Respaldo del KB** fuera de GitHub (`git bundle` mensual a disco o Drive) — el activo central tiene hoy un solo punto de falla
+- **Documentar las clases particulares como línea completa** (entrevista 2026-06-11): alcance y precios de instrumento/composición y entrenamientos físicos — la vaca lechera real apenas quedó esbozada en la tabla de ingresos
+- **Ejecutar la estrategia de apps de paga** (decidida 2026-06-11, ver `decisiones-clave.md`): documentar el toolchain iOS en `stack-tecnologico.md`, reflejar web-gratis/móvil-de-paga en `indice-apps.md`, y correr el piloto con las 2 apps de P03
+- **Contradicción por verificar:** `stack-tecnologico.md` dice "10 apps en Google Play" pero la decisión Play Store del 2026-05-22 describe distribución por descarga directa desde el website — ¿cuáles están dónde?
 
 ---
 

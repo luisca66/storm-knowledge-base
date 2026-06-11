@@ -1,7 +1,7 @@
 ---
 titulo: "Visión del Proyecto"
 tipo: contexto
-ultima_actualizacion: 2026-06-10
+ultima_actualizacion: 2026-06-11
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -13,7 +13,7 @@ estado: completo
 # Visión del Proyecto — Storm Studios Learning
 
 ## Resumen
-Luis opera hoy tres líneas: Storm Studios Learning, las clases y asesorías personalizadas de IA, y Migración Empresas. Esta tercera línea es un proyecto empresarial nuevo, ya activo y con ingresos, que agrupa implementaciones con repositorios propios por empresa. Las tres líneas nacen de la misma capacidad: convertir conocimiento y contexto humano en sistemas que amplifican a las personas.
+Luis trabaja desde **Storm Studios** — su estudio físico en casa, con el estudio 5.1 Genelec completo y el gimnasio — y opera hoy tres líneas: las **clases particulares** (taller de composición e instrumentos, entrenamientos físicos y las clases/asesorías de IA — **la vaca lechera actual**), **Storm Studios Learning** (el website: hoy produce $0 por diseño; su propósito es legado + promotor de las clases + futuro ingreso pasivo), y **Migración Empresas** (proyecto empresarial nuevo, ya activo y con ingresos, que agrupa implementaciones con repositorios propios por empresa). Las tres líneas nacen de la misma capacidad: convertir conocimiento y contexto humano en sistemas que amplifican a las personas.
 
 ---
 
@@ -25,19 +25,20 @@ Un alumno que llega sin saber absolutamente nada puede recorrer el siguiente cam
 
 **Curso de Armonía (~65 lecciones):** El núcleo gratuito de la plataforma. Cada lección incluye un video y una tarea que el alumno debe replicar. En la misma página del video está el **Maestro Virtual** — el validador MIDI en tiempo real que le dice al alumno si está trabajando correctamente sin necesidad de un maestro presente. El alumno puede completar el curso completo sin referirse a ninguna fuente externa.
 
-**Apps de entrenamiento auditivo:** Disponibles de forma gratuita, tanto en la web como en Android. El alumno con la sensibilidad correcta las va incorporando a su práctica conforme avanza.
+**Apps de entrenamiento auditivo:** Las versiones **web son y serán siempre gratuitas** — parte del filtro freemium. Las versiones **móviles (Android e iOS, ambas en desarrollo activo) serán de paga a precio bajo**: no se cobra el contenido sino la conveniencia de tenerlas en el celular. Estrategia decidida en junio 2026 — razonamiento, riesgos y piloto recomendado en [decisiones-clave.md](decisiones-clave.md). El alumno con la sensibilidad correcta las va incorporando a su práctica conforme avanza.
 
 **La escalera de valor completa:**
-1. **Gratis:** Propedéutico + curso de armonía completo + Maestro Virtual + apps (web y Android)
-2. **~$7.50 USD:** Libro *Los Seres Musicales* en Kindle
-3. **~$2.50 USD c/u:** Manuales de las apps en Kindle
-4. **Precio presencial:** Curso de Contrapunto, Análisis y Film Scoring — con Luis directamente
+1. **Gratis:** Propedéutico + curso de armonía completo + Maestro Virtual + apps web
+2. **Precio bajo (por definir):** Apps móviles en Android e iOS — se paga la conveniencia, no el contenido
+3. **~$7.50 USD:** Libro *Los Seres Musicales* en Kindle
+4. **~$2.50 USD c/u:** Manuales de las apps en Kindle
+5. **Precio presencial:** Curso de Contrapunto Palestriniano, Análisis y Film Scoring — con Luis directamente
 
 El regalo (el contenido gratuito) es para llamar la atención y generar masa crítica. El cálculo es que de cada 1,000 alumnos que usen la plataforma, al menos uno estará dispuesto a pagar las clases presenciales. Las clases presenciales son el producto de mayor valor y el que realmente convierte a un alumno en un Ser Musical completo.
 
 **La plataforma como embudo:** La función principal del sitio es vender el curso presencial. Todo el contenido gratuito — armonía, apps, Maestro Virtual — existe para que el alumno serio encuentre a Luis y quiera seguir con él en persona.
 
-**Los cursos avanzados no serán gratuitos — por diseño y por filosofía:** El Taller de Contrapunto, el Curso de Análisis, el Curso de Film Scoring y el **Taller de Ingeniería de Audio y Producción Musical** son joyas que Luis no va a regalar. **Todos ya existen y los ha impartido** — lo que escasea es el alumno que llega (≈1 cada 3 años hasta Film Scoring). Contrapunto y Análisis pueden darse en línea; Film Scoring e Ingeniería de Audio son presencial-only porque se mezclan en 5.1 en el estudio Genelec propio. El intensivo presencial además **integra formación física** (Luis tiene gym propio): no es un extra, es parte del currículum — ver [el-musico-como-atleta.md](../08-sintesis/el-musico-como-atleta.md) y la lógica completa del modelo en [estrategia-freemium-musical.md](../08-sintesis/estrategia-freemium-musical.md). Tampoco forman parte de la escalera de valor digital: son cursos que se toman directamente con Luis.
+**Los cursos avanzados no serán gratuitos — por diseño y por filosofía:** El Taller de Contrapunto Palestriniano, el Curso de Análisis, el Curso de Film Scoring y el **Taller de Ingeniería de Audio y Producción Musical** son joyas que Luis no va a regalar. **Todos ya existen y los ha impartido** — lo que escasea es el alumno que llega (≈1 cada 3 años hasta Film Scoring). Contrapunto y Análisis pueden darse en línea; Film Scoring e Ingeniería de Audio son presencial-only porque se mezclan en 5.1 en el estudio Genelec propio. El intensivo presencial además **integra formación física** (Luis tiene gym propio): no es un extra, es parte del currículum — ver [el-musico-como-atleta.md](../08-sintesis/el-musico-como-atleta.md) y la lógica completa del modelo en [estrategia-freemium-musical.md](../08-sintesis/estrategia-freemium-musical.md). Tampoco forman parte de la escalera de valor digital: son cursos que se toman directamente con Luis.
 
 **La dimensión de legado:** Luis construye la plataforma también como obra permanente. El objetivo no es solo monetizar en vida — es dejar el método documentado y funcionando para que se quede en el mundo después de él. Esta intención le da al proyecto una escala de tiempo distinta a la de un simple negocio digital.
 
@@ -72,7 +73,12 @@ Mientras tanto, cuando Luis tiene alumnos presenciales activos, tampoco necesita
 - Monetizar el canal de YouTube con los videos de las lecciones.
 
 ### El gran logro
-Los ingresos generados por la plataforma — Kindle, YouTube, clases presenciales — son suficientes para que Luis no necesite otro trabajo. En ese punto, Storm Studios Learning es autosustentable y Luis puede dedicarse de tiempo completo a lo que importa: seguir construyendo el método, grabando contenido y enseñando.
+Los ingresos generados por la plataforma — apps, Kindle, YouTube, clases presenciales — son suficientes para que Luis no necesite otro trabajo. En ese punto, Storm Studios Learning es autosustentable y Luis puede dedicarse de tiempo completo a lo que importa: seguir construyendo el método, grabando contenido y enseñando.
+
+### La prueba de la vacación
+*(Entrevista 2026-06-11)*
+
+El test concreto de autonomía con el que Luis imagina el éxito: **poder irse de vacaciones unos meses y que las entradas sigan llegando.** En ese escenario los ingresos corren solos por tres vías: la venta de las apps móviles (Android/iOS), la venta de manuales y libros en Amazon, y — teóricamente, algún día — la monetización del canal de YouTube (viable por el diseño del video cautivo/irreducible, ver [estrategia-freemium-musical.md §7](../08-sintesis/estrategia-freemium-musical.md)). La plataforma solo necesita operar una función docente sin Luis: el **Maestro Virtual corrigiendo las tareas de armonía**. Todo lo demás — los talleres avanzados, el alumno 1/1000 — espera su regreso, por diseño: el tope de la escalera es Luis en persona.
 
 ---
 
@@ -80,6 +86,8 @@ Los ingresos generados por la plataforma — Kindle, YouTube, clases presenciale
 
 | Fuente | Modelo | Estado |
 |--------|--------|--------|
+| **Clases particulares: instrumento, composición y entrenamiento físico** | Presencial / en línea — alcance y precios por documentar | **Activo — la vaca lechera actual (junto con las clases de IA)** |
+| Apps móviles (Android / iOS) | Venta a precio bajo en tiendas — precio por definir | En desarrollo (las web apps gratuitas ya activas) |
 | Libro *Los Seres Musicales* | Kindle (~$7.50 USD) | Publicado (2024) |
 | Manuales de apps | Kindle (~$2.50 USD c/u) | En desarrollo |
 | Videos del curso | Monetización YouTube | En grabación |
@@ -139,6 +147,8 @@ Ver [Migración Empresas](../09-migracion-empresas/README.md).
 
 Este KB no es solo documentación técnica — es la memoria que le permite a cualquier IA futura (y a Claude ahora mismo) colaborar en el proyecto sin que Luis tenga que explicar todo desde cero. "Lo que necesito es tener toda mi historia lista para que una IA del futuro me ayude a seguir puliendo todos mis materiales." Cada archivo que se llena aquí es una inversión directa en la velocidad y calidad de ese trabajo futuro.
 
+**La escena objetivo (entrevista 2026-06-11):** un martes cualquiera, Luis llega a Storm Studios, abre su IA y le pide que lo prepare para las clases del día. La IA tiene acceso a toda su base de datos, sus reflexiones y experiencias; sabe a dónde va cada alumno, qué hay que recordarle especialmente, y qué hay de nuevo en las noticias de IA — porque todos los alumnos llevan IA, "quieran o no". Durante el día interactúan casualmente; en la noche la IA guarda todo el contexto, los avances y las sugerencias. **Esta escena ya existe en ~70%**: los expedientes de `clases-ia/`, el pipeline de ainews y este KB son sus piezas. El 30% faltante es la *integración* — que ocurra solo, cada mañana, sin pedirlo pieza por pieza — y el guardado nocturno automático del contexto. Sobre los límites de esa autonomía, Luis decidió explícitamente no definirlos a priori (ver [decisiones-clave.md](decisiones-clave.md)).
+
 ---
 
 ## Historial de Cambios
@@ -149,3 +159,4 @@ Este KB no es solo documentación técnica — es la memoria que le permite a cu
 - 2026-06-03: Entrevista — precios concretos (intensivo presencial $20,000 MXN/mes con formación física incluida; Contrapunto/Análisis en línea $1,250 MXN/clase). Añadido el Taller de Ingeniería de Audio y Producción Musical (no documentado antes). Corregido: los avanzados ya existen e impartidos (~1 alumno cada 3 años llega a Film Scoring), no son "futuro". Tabla de Fuentes de Ingreso actualizada. Cross-refs a el-musico-como-atleta y estrategia-freemium-musical.
 - 2026-06-04: Entrevista — documentado el horizonte lejano "Videojuego Total de Entrenamiento Auditivo" (toda la mecánica resuelta con habilidades de oído; mundos oníricos; condicionado a IAs futuras). Los juegos Godot actuales como semilla. Cross-ref a indice-apps.
 - 2026-06-10: Incorporada Migración Empresas como tercera línea activa de Luis. Confirmado que ya genera ingresos y que Voces Imaginarias vive dentro de ella con repo propio.
+- 2026-06-11: Entrevista de propósito — mapa del ecosistema corregido (Storm Studios = estudio físico; clases particulares = vaca lechera; SSL = website con $0 por diseño: legado + promotor + futuro pasivo). Apps móviles de paga añadidas a la escalera (peldaño 2) y a la tabla de ingresos. Nueva subsección "La prueba de la vacación" y "La escena objetivo" del martes cualquiera (~70% ya existe). Contrapunto precisado como Palestriniano.

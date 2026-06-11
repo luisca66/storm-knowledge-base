@@ -8,6 +8,9 @@ estado: en_progreso
 # Registro de Cambios (CHANGELOG)
 
 ## 2026-06-11
+- **Entrevista de propósito:** mapa del ecosistema corregido — Storm Studios es el estudio físico; las clases particulares (composición, instrumentos, entrenamientos físicos, IA) son la vaca lechera; SSL es el website ($0 hoy por diseño: legado + promotor + futuro pasivo). Documentadas "La prueba de la vacación" y la escena objetivo del "martes cualquiera" (~70% ya existe) en vision-proyecto.
+- **Decisión nueva:** apps web gratis + móviles de paga (Android/iOS) — la escalera de valor gana un peldaño; supersede la decisión Play Store del 05-22; piloto P03 acordado. Documentada también la postura "sin límites a priori a la autonomía de la IA".
+- quien-soy: nueva subsección "El vibe coding como estudio diario" (No-Compartimentación aplicada a Luis mismo). stack-tecnologico: iOS en desarrollo, contradicción de apps publicadas señalada.
 - **Consolidación del schema (decisión de fondo resuelta):** `CLAUDE.md` es la única fuente de verdad, redactado agnóstico de agente; `AGENTS.md` reducido a stub de redirección. Se acaba la sincronización manual señalada por 5 lints — con divergencia real ya confirmada entre las copias.
 - `CLAUDE.md` §2 reescrito: propósito en dos niveles (continuidad hoy / autonomía mañana), alcance explícito de las tres líneas de negocio, jerarquía de archivos de entrada.
 - `CLAUDE.md` §7 adelgazado: el detalle del estado vive en index/log/CHANGELOG; solo quedan fecha y pendientes prioritarios.

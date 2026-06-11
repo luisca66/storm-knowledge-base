@@ -38,7 +38,7 @@ estado: en_progreso
 | [stack-tecnologico.md](00-contexto/stack-tecnologico.md) | Next.js 16/React 19/TS/Vercel, Android, Godot 4, Firebase, herramientas IA | en_progreso |
 | [ai-radar.md](00-contexto/ai-radar.md) | Radar de IA activo: herramientas que Luis usa + tendencias estratégicas (actualizar mensual) | en_progreso |
 | [ritmos-y-decisiones.md](00-contexto/ritmos-y-decisiones.md) | Ritmos operativos de Luis: bloques fijos, sistema ainews, rutinas | en_progreso |
-| [decisiones-clave.md](00-contexto/decisiones-clave.md) | Decisiones estratégicas y su justificación | borrador |
+| [decisiones-clave.md](00-contexto/decisiones-clave.md) | Decisiones estratégicas y su justificación (fuente única del schema, apps de paga, autonomía IA, Play Store) | en_progreso |
 | [insights.md](00-contexto/insights.md) | Bandeja de entrada de ideas diarias | en_progreso |
 
 ---

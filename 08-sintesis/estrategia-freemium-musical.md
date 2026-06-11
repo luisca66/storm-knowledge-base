@@ -1,7 +1,7 @@
 ---
 titulo: "Estrategia Freemium Musical"
 tipo: sintesis
-ultima_actualizacion: 2026-06-03
+ultima_actualizacion: 2026-06-11
 relacionado_con:
   - 00-contexto/vision-proyecto.md
   - 08-sintesis/como-enseno-armonia.md
@@ -52,13 +52,16 @@ El cálculo declarado: de cada 1,000 alumnos gratuitos, basta con que **uno** ll
 
 ## 3. La escalera de valor como gradiente de profundidad
 
-La escalera (gratis → Kindle $7.50 → manuales $2.50 → presencial premium) no está ordenada por **features** sino por **profundidad de transformación neural**. Cada peldaño exige más involucramiento del alumno y entrega más reorganización del cerebro:
+La escalera (gratis → apps móviles a precio bajo → Kindle $7.50 → manuales $2.50 → presencial premium) no está ordenada por **features** sino por **profundidad de transformación neural**. Cada peldaño exige más involucramiento del alumno y entrega más reorganización del cerebro:
 
 | Peldaño | Qué se paga realmente | Foso |
 |---|---|---|
 | Gratis (web) | Acceso al método | Ninguno — es el regalo |
+| Apps móviles (Android/iOS, precio bajo) | **La conveniencia** — el contenido sigue gratis en web | Bajo — pero las tiendas son canal de descubrimiento: cada app es un anzuelo hacia el embudo |
 | Libro / manuales (Kindle) | Contexto y profundización autodirigida | Bajo — replicable |
 | Presencial (Contrapunto, Análisis, Film Scoring) | **El tiempo, el oído y el juicio de Luis** | **Alto — no comoditizable** |
+
+*(Peldaño de apps móviles añadido 2026-06-11: las web apps siguen siendo gratuitas — el filtro intacto —; las versiones de celular se venden a precio bajo. La métrica de ese peldaño no es el ingreso directo sino el tráfico calificado que las tiendas aportan al faro. Detalle y riesgos en [decisiones-clave.md](../00-contexto/decisiones-clave.md).)*
 
 El valor sube no porque el contenido sea "más secreto" en cada nivel, sino porque la parte que **no se puede automatizar ni copiar** —la presencia, el criterio entrenado en 35 años, el estudio 5.1 propio para Film Scoring— vive solo en el último peldaño. Los cursos avanzados "no se regalan por diseño y por filosofía" (vision-proyecto): son joyas precisamente porque encarnan lo irreductible.
 
@@ -221,4 +224,5 @@ Esta página crece con cada entrevista. Lo que aún no está resuelto y vale la 
 - **2026-06-03** (recomendación) — AEO resuelto como **recomendación operativa** dentro de §5 ("AEO en modo faro", aprobada por Luis como recomendación): sí pero casi gratis y sin robar tiempo a grabar, porque el activo (KB en Markdown) ya existe, la lógica de faro lo amplifica y es coherente con el legado; empezar por una sola página canónica. Cross-link recíproco con `ai-radar.md` §13 (tendencia ↔ aplicación). Quedan 2 preguntas menores en §10.
 - **2026-06-03** (refinamiento) — Recomendación AEO evaluada contra el radar a fondo (lectura de fuentes crudas). Integrado el **guardrail de la paradoja de la legibilidad** (Nate Jones): legibilidad parcial — exponer identidad + resultados, NO el mecanismo del método. Es la misma lógica del video irreducible (§7) aplicada a la capa pública. Ajustado el matiz de schema markup (prioridad baja, no cero — útil para descubrimiento local, después de la página canónica).
 - **2026-06-03** (corrección — Luis) — Aclarada una ambigüedad: la redacción previa ("el KB no debe volverse todo público") implicaba erróneamente que parte del KB podría publicarse. **El KB es privado y nunca se publica** — es la fuente desde la que se *redacta* el website (único lugar donde aplica el AEO). Corregidas las §5 (puntos 1, "NO exponer", el 20%) + aclaración explícita. Reflejado también en CLAUDE.md §2.
+- **2026-06-11** (entrevista de propósito) — Nuevo peldaño en la escalera (§3): apps móviles de paga (Android/iOS) a precio bajo; las web apps permanecen gratuitas. Se cobra la conveniencia, no el contenido; las tiendas como canal de descubrimiento. Coherente con §2 (el filtro intacto) y §7 (lógica de faro).
 - **2026-06-03** (entrevista) — Resuelta la pregunta de YouTube → nueva §7 "El faro bilingüe y el video irreducible". Hallazgos: el video ES la lección completa (pantalla grabada con las herramientas gratuitas + Storm Sequencer); es **irreducible** ("o ves el video o no entiendes nada") — el "no atajos" del método hecho formato y foso involuntario en la era de los resúmenes por IA; el website es un **faro** ("aquí estoy"), no un embudo de volumen, para los pocos que aprenderán armonía estilo Shostakovich; regalías de YouTube = ingreso potencial secundario; **bilingüe** (EN/ES) por diseño; cadencia ~1/semana (2/semana si libera mañanas); el cuello de botella de grabar se neutraliza porque producir el curso *es* cómo Luis entrena la skill de IA que ya monetiza en asesorías. Secciones renumeradas (dos líneas 7→8, preguntas 8→9; quedan 4 preguntas abiertas).

@@ -51,6 +51,23 @@ Cada decisión sigue este formato:
 - **Descarga directa desde website** — sin costo, control total, pero el usuario debe habilitar "fuentes desconocidas" en Android — fricción considerable para alumnos no técnicos.
 **Consecuencias si se va a Play Store:** Necesidad de keystore firmado (archivo crítico — su pérdida impide actualizar la app para siempre). Proceso de revisión de Google (puede tomar días). Requiere política de privacidad aunque la app no recolecte datos.
 **Próximo paso:** Confirmar qué apps son exactamente las dos de P03 (se asume Intervalos – Reconocimiento e Intervalos – Cantados) y decidir si se publican ambas o solo una como piloto.
+**Actualización 2026-06-11:** Superada por la decisión "Apps: versiones web gratuitas + versiones móviles de paga". La pregunta ya no es *si* publicar en tiendas, sino *cuáles primero y a qué precio* — las 2 apps de P03 quedan como piloto recomendado.
+
+### Apps: versiones web gratuitas + versiones móviles de paga (Android e iOS)
+**Fecha:** 2026-06-11 (pensada unas semanas antes; documentada y evaluada hoy)
+**Contexto:** El modelo original era apps gratuitas. Las apps quedaron "hermosas" y Luis identificó disposición real a pagar por tenerlas en el celular. Hoy se programan en paralelo, según el tiempo lo permite, las web apps gratuitas y sus versiones Android e iOS.
+**Decisión:** Todas las apps viven en versión web gratuita (el filtro freemium queda intacto). Las versiones móviles se venden a precio bajo en las tiendas (Google Play / App Store), buscando volumen y visibilidad.
+**Razonamiento:** No se cobra el contenido — se cobra la conveniencia (celular, offline, pantalla de inicio). La web gratis ES el demo. Las herramientas de práctica diaria se usan en momentos muertos (transporte, esperas, gym), donde el navegador es torpe y la app nativa gana. Además las tiendas son un canal de descubrimiento que el website no tiene: cada app es un anzuelo hacia el embudo. Resuelve de paso la fricción del APK señalada en la decisión del 2026-05-22.
+**Alternativas consideradas:** (a) Todo gratis con descarga directa — fricción de "fuentes desconocidas" y cero presencia en tiendas; (b) cobrar también la web — rompería el filtro freemium; (c) suscripción — descartada: a estos precios genera resentimiento y choca con la marca de generosidad del método.
+**Consecuencias:** Mantenimiento multiplicado (10+ apps × 3 plataformas) para un solo desarrollador; cuotas de tienda (Google $25 único, Apple ~$99 USD/año) y comisiones del 15-30%; el keystore de Android se vuelve activo crítico. **La métrica correcta es tráfico calificado al ecosistema, no el ingreso directo** — a ~$2.99 menos comisión se necesitan cientos de ventas para igualar la colegiatura mensual de un solo alumno particular. **Acordado:** piloto con las 2 apps de P03 de punta a punta (publicar, poner precio, medir ventas y tráfico un par de meses) antes de portar el catálogo completo; pago único, nunca suscripción.
+
+### Sin límites a priori para la autonomía de la IA
+**Fecha:** 2026-06-11
+**Contexto:** En la entrevista de propósito del KB se le preguntó a Luis qué decidió que la IA nunca haga sin él, por más capaz que sea.
+**Decisión:** No definir fronteras por adelantado. "No tengo ninguna idea y ningún prejuicio — iré viendo conforme el proyecto vaya creciendo, y las IAs también."
+**Razonamiento:** Los límites correctos solo pueden descubrirse en la práctica, no postularse en abstracto. Definirlos hoy sería congelar prejuicios sobre capacidades que cambian cada mes. Mientras tanto: "me fascina trabajar con ustedes".
+**Alternativas consideradas:** Listas de acciones prohibidas o de aprobación obligatoria — descartadas por prematuras.
+**Consecuencias:** La frontera de autonomía es un descubrimiento continuo, no una política fija. Cuando aparezca el primer límite real en la práctica, documentarlo aquí.
 
 ### CLAUDE.md como fuente única del schema; AGENTS.md reducido a stub
 **Fecha:** 2026-06-11
@@ -61,6 +78,7 @@ Cada decisión sigue este formato:
 **Consecuencias:** Al editar el schema solo se toca CLAUDE.md. Si algún agente reconstruye AGENTS.md con contenido propio, hay que revertirlo y restaurar el stub. La unificación del propósito (dos niveles: continuidad hoy, autonomía mañana) y del alcance (tres líneas de negocio) quedó plasmada en CLAUDE.md §2.
 
 ## Historial de Cambios
+- **2026-06-11** — Entrevista de propósito: 2 decisiones nuevas (apps web-gratis/móvil-de-paga con piloto P03; sin límites a priori a la autonomía de la IA). Decisión Play Store del 05-22 marcada como superada.
 - **2026-06-11** — Decisión de fuente única del schema documentada (CLAUDE.md maestro, AGENTS.md stub). Estado: borrador → en_progreso.
 - **2026-05-22** — Decisión Play Store documentada (en evaluación).
 - 2026-04-07: Creación inicial con 2 decisiones documentadas

@@ -1,7 +1,7 @@
 ---
 titulo: "Stack Tecnológico"
 tipo: contexto
-ultima_actualizacion: 2026-04-16
+ultima_actualizacion: 2026-06-11
 relacionado_con:
   - 02-plataforma-web/arquitectura.md
   - 05-operaciones/infraestructura.md
@@ -31,14 +31,15 @@ Todas las herramientas, plataformas y tecnologías que usa Storm Studios Learnin
 
 ---
 
-## Apps Android
+## Apps móviles (Android / iOS)
 
 | Tecnología | Detalle |
 |-----------|---------|
-| **Desarrollo** | Android Studio |
+| **Desarrollo Android** | Android Studio |
+| **Desarrollo iOS** | En curso (entrevista 2026-06-11) — toolchain por documentar (¿Mac/Xcode? ¿wrapper?) |
 | **Lenguaje original** | Python → APK (proceso inicial de Luis) |
-| **Estado actual** | Carpetas de proyecto entregadas a Claude Code / Codex / Antigravity para desarrollo |
-| **Apps publicadas** | 10 apps en Google Play |
+| **Estado actual** | Carpetas de proyecto entregadas a Claude Code / Codex / Antigravity para desarrollo. En paralelo se construyen las web apps gratuitas y sus versiones móviles de paga (Android e iOS) — estrategia en decisiones-clave.md 2026-06-11 |
+| **Apps publicadas** | 10 apps en Google Play *(por verificar contra la decisión Play Store del 2026-05-22, que describe descarga directa desde el website)* |
 
 ---
 
@@ -116,3 +117,4 @@ Para el KB y la documentación, trabaja en sesiones de dictado con Claude (Cowor
 ## Historial de Cambios
 - 2026-04-07: Creación inicial (borrador)
 - 2026-04-16: Llenado sustancial con stack completo extraído del sitio, memoria de sesiones anteriores y dictado de Luis. Estado: `en_progreso`.
+- 2026-06-11: Sección "Apps Android" → "Apps móviles (Android / iOS)" — iOS en desarrollo activo confirmado por entrevista; toolchain iOS por documentar; señalada la contradicción "10 apps en Google Play" vs decisión Play Store del 05-22.

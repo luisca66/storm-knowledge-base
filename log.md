@@ -8,6 +8,24 @@
 
 ---
 
+## [2026-06-11] entrevista | Propósito del KB — el mapa real del ecosistema
+
+**Origen:** Tras la consolidación del schema, Luis ofreció entrevista para dejar el propósito totalmente claro. Tres preguntas, hallazgos mayores:
+
+**1. El mapa corregido:** Storm Studios = el estudio físico en casa (5.1 Genelec + gym), centro de operaciones. Las **clases particulares** (taller de composición e instrumentos, entrenamientos físicos, clases/asesorías de IA) son **la vaca lechera actual**. Storm Studios Learning = el website: produce $0 hoy por diseño; es legado + promotor de las clases + futuro ingreso pasivo. El schema decía "SSL = el proyecto de vida" — corregido en CLAUDE.md §1 y vision-proyecto.
+
+**2. La prueba de la vacación (nivel 2 del propósito):** éxito = irse unos meses y que las entradas sigan llegando: venta de apps móviles + libros/manuales en Amazon + (teórico) YouTube. Única función docente sin Luis: el Maestro Virtual corrigiendo armonía. La escena del "martes cualquiera" (la IA prepara las clases del día, recuerda lo importante, reporta noticias de IA, guarda contexto nocturno) **ya existe en ~70%** — el 30% faltante es integración automática.
+
+**3. Decisión nueva — apps:** web gratis siempre + móviles de paga a precio bajo (Android e iOS, ambas en desarrollo). Evaluada con honestidad a petición de Luis ("no me des por mi lado"): estrategia sólida; métrica correcta = tráfico al embudo, no el ingreso directo; piloto con P03 antes de portar el catálogo; pago único, nunca suscripción. Supersede la decisión Play Store del 05-22. También documentada la postura: **sin límites a priori a la autonomía de la IA**.
+
+**4. Identidad:** el vibe coding = los estudios diarios de Luis (como la guitarra), ya monetizados vía clases de IA — el Paradigma de No-Compartimentación aplicado a sí mismo. → quien-soy.md.
+
+**Lint colateral:** contradicción detectada entre stack-tecnologico.md ("10 apps en Google Play") y la decisión Play Store del 05-22 (descarga directa desde website) — marcada por verificar en CLAUDE.md §7.
+
+**Archivos tocados (9):** CLAUDE.md (§1, §7), vision-proyecto.md (resumen, apps, escalera +1 peldaño, "La prueba de la vacación", "La escena objetivo", tabla de ingresos, Palestriniano), decisiones-clave.md (2 decisiones nuevas + Play Store actualizada), quien-soy.md, stack-tecnologico.md (iOS), estrategia-freemium-musical.md (§3), log.md, CHANGELOG.md, index.md.
+
+---
+
 ## [2026-06-11] actualización | Consolidación del schema — CLAUDE.md fuente única
 
 **Origen:** Luis preguntó si el propósito del KB queda claro al leerlo. La revisión (primera sesión con Fable 5) encontró tres problemas de fondo:
