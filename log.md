@@ -8,6 +8,23 @@
 
 ---
 
+## [2026-06-12] sesion | Diagnóstico y ruta hacia la autonomía operativa
+
+**Pregunta:** qué falta para que el KB pase de continuidad a autonomía y qué no está funcionando todavía.
+
+**Conclusión:** la IA ya puede orientarse y comprender el ecosistema, pero todavía no puede completar de forma confiable el ciclo ejecución → verificación → recuperación. El bloqueo no es una falta de permiso; son datos operativos dispersos, criterios de aceptación incompletos, ausencia de runbooks y falta de automatización entre el KB y los repos.
+
+**Ruta registrada:**
+1. Inventariar repos, rutas, comandos, ambientes, servicios y activos críticos.
+2. Cerrar un primer circuito autónomo con Lección 1 + Maestro Virtual.
+3. Documentar respaldo, restauración y rollback.
+4. Replicar el patrón en el piloto móvil P03.
+5. Automatizar la preparación matutina y el cierre nocturno de clases.
+
+**Archivos modificados:** `05-operaciones/flujo-trabajo.md`, `CLAUDE.md`, `index.md`, `CHANGELOG.md`, `log.md`.
+
+---
+
 ## [2026-06-12] lint | Revisión de salud tras consolidación y trabajo operativo
 
 **Disparador:** Luis pidió una valoración general del KB después de varias sesiones intensivas.

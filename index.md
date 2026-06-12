@@ -8,7 +8,7 @@ estado: en_progreso
 # Índice — Storm Studios Learning KB
 
 > Catálogo navegable de todos los archivos del KB.
-> Claude lee este archivo primero al responder preguntas del proyecto.
+> Cualquier IA lo consulta después de leer el schema maestro `CLAUDE.md`.
 > Actualizar con cada sesión.
 
 ---
@@ -107,7 +107,7 @@ estado: en_progreso
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [flujo-trabajo.md](05-operaciones/flujo-trabajo.md) | Flujo de trabajo operativo diario/semanal | borrador |
+| [flujo-trabajo.md](05-operaciones/flujo-trabajo.md) | Modelo de autonomía operativa, diagnóstico por capas y flujo diario pendiente de entrevista | en_progreso |
 | [asesoria-ia.md](05-operaciones/asesoria-ia.md) | Relación entre asesorías de IA y Migración Empresas; modelo de acompañamiento | en_progreso |
 | [infraestructura.md](05-operaciones/infraestructura.md) | Infraestructura técnica: Vercel, Firebase, Zoho, GDrive | borrador |
 | [migraciones-pendientes.md](05-operaciones/migraciones-pendientes.md) | Migraciones técnicas pendientes | borrador |
@@ -214,8 +214,8 @@ estado: en_progreso
 |---------|-------|
 | Total archivos .md (incluye clases-ia) | 346 (clases-ia: 173) |
 | Archivos wiki principales completos | 5 (sin sistema, referencias históricas y clases-ia) |
-| Archivos wiki en_progreso | 27 |
-| Archivos wiki borrador | 13 |
+| Archivos wiki en_progreso | 28 |
+| Archivos wiki borrador | 12 |
 | Páginas de síntesis | 7 (todas en_progreso) |
 | Libros ingresados | 26 |
 | Libros registrados pendientes | 2 (Originals, Shadows) |

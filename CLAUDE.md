@@ -279,7 +279,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual (actualizar en cada sesión)
 
-**Última actualización:** 2026-06-12 — Entrevista fundacional de `09-migracion-empresas/` completada y estructura operativa del curso (Next.js) + flujo de programación del Maestro Virtual documentados.
+**Última actualización:** 2026-06-12 — Entrevista fundacional de `09-migracion-empresas/` completada; estructura del curso y Maestro Virtual documentados; modelo de autonomía operativa definido en `05-operaciones/flujo-trabajo.md`.
 
 El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Estado por archivo** → `index.md` (catálogo con estados y estadísticas)
@@ -288,7 +288,7 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Decisiones y su porqué** → `00-contexto/decisiones-clave.md`
 
 **Pendiente prioritario:**
-- ✅ **Documentación operativa (lecciones y Maestro Virtual)** — Auditado 2026-06-12: documentado el estado real post-migración Next.js y el flujo iterativo del Maestro Virtual. Quedan pendientes infraestructura (`05-operaciones/`) y `04-contenido-musical/`.
+- **Autonomía operativa** — Modelo y diagnóstico documentados en `05-operaciones/flujo-trabajo.md`. Prioridad inmediata: inventario de repos/rutas/comandos/ambientes y cerrar el primer circuito autónomo con Lección 1 + Maestro Virtual. Siguen pendientes infraestructura, recuperación y `04-contenido-musical/`.
 - `ai-radar.md` → ✅ al día al 2026-06-12. Tabla propagada exitosamente a `clases-ia/` con enfoque en economía de tokens. **Pendiente:** cerrar junio en el radar al terminar el mes (días 13-30)
 - `09-migracion-empresas/` → ✅ Entrevista fundacional completada (`entrevista_fundacional.md`). Pendiente: Luis debe definir la estructura de precios comercial.
 - `luis-como-ingeniero-neural.md` → integrar a Dayana y validar conexiones por alumno con datos de sesiones reales
