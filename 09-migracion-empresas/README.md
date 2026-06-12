@@ -1,7 +1,7 @@
 ---
 titulo: "Migracion Empresas"
 tipo: contexto
-ultima_actualizacion: 2026-06-10
+ultima_actualizacion: 2026-06-12
 relacionado_con:
   - 09-migracion-empresas/entrevista_fundacional.md
   - 09-migracion-empresas/proyectos/indice-proyectos.md
@@ -51,14 +51,15 @@ Este archivo es la fuente canonica para documentar su identidad, propuesta, mode
 - **Clases y asesorias de IA:** formacion personalizada para desarrollar criterio y autonomia.
 - **Migracion Empresas:** proyecto empresarial activo que aplica IA en organizaciones y ya genera ingresos.
 
-La relacion exacta entre las asesorias y Migracion Empresas queda pendiente de precisar: puede ser una evolucion, una linea complementaria o un servicio distinto.
+Migracion Empresas aplica el mismo modelo económico y pedagógico de las asesorias de IA a una transformación organizacional más amplia: se trabaja sesión a sesión, enseñando e implementando junto con el equipo hasta que necesite menos acompañamiento.
 
 ## Fundamentos del Proyecto
 
-Todas las definiciones estratégicas (qué significa migrar, problema que compra el cliente, proceso, entregables y modelo de operación) han sido extraídas del repositorio operativo y documentadas.
-👉 **[Ver Entrevista Fundacional](file:///Users/luisca66/Documents/storm-knowledge-base/09-migracion-empresas/entrevista_fundacional.md)**
+Todas las definiciones estratégicas (qué significa migrar, problema que compra el cliente, proceso, entregables y modelo de operación) están documentadas en [Entrevista Fundacional](entrevista_fundacional.md).
+
+La tarifa actual por sesión y el aumento planeado ya están capturados. Falta convertirlos en una estructura comercial formal: paquetes, alcance, condiciones y criterios de cierre.
 
 ---
 ## Historial de Cambios
-- **2026-06-12** — Entrevista fundacional completada (Gemelo Digital ExO 3.0, rol de Builder, cartera de pilotos). Solo pendiente por definir estructura de precios.
+- **2026-06-12** — Entrevista fundacional completada (Gemelo Digital ExO 3.0, rol de Builder, cartera de pilotos). Relación con asesorías y estado de precios reconciliados.
 - **2026-06-10** — Espacio canonico creado tras confirmar que Migracion Empresas es un proyecto nuevo y una linea activa de ingresos.

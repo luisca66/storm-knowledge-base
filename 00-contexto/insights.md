@@ -1,7 +1,7 @@
 ---
 titulo: "Insights y Ideas"
 tipo: contexto
-ultima_actualizacion: 2026-06-03
+ultima_actualizacion: 2026-06-12
 relacionado_con:
   - 06-diario-proyecto/2026-04.md
   - 08-sintesis/entrenamiento-oido-absoluto.md
@@ -94,11 +94,11 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 
 - [método] [filosofía] La meta real del método: enseñar cómo funciona el cosmos, el cuerpo y la mente. La música es el vehículo más completo — posiblemente el único camino completo. La IA es otro vehículo hacia el mismo destino. → capturado en `08-sintesis/como-enseno-armonia.md` y `00-contexto/quien-soy.md` ✅
 
-- [app] [método] **Elefantito Matemático = gym del cerebro**. Dos módulos: matemáticas mentales + memoria. Ambos con app en la plataforma. Matemáticas mentales: inspirada en investigación Dr. Kawashima sobre activación del córtex prefrontal; originalmente documentado como 8 niveles (incluyendo modo 💀 Imposible), dato que corresponde a la versión HTML legacy; la versión Next.js vigente observada el 2026-05-26 tiene 6 niveles desbloqueables con tutor bilingüe. Tiempo ajustable por pregunta; sirve de niños aprendiendo sumas hasta adultos al límite. Conexión con el método: mismo principio que el músico como atleta — entrenamiento deliberado del sustrato neural, no del contenido. Córtex prefrontal = sede del S2 (Kahneman), de la intención consciente, de la capacidad de sostener 4 voces simultáneas. **Contexto de uso:** en clases presenciales es OBLIGATORIO para alumnos de música — Luis lo presenta como "vas a necesitar un cerebro muy poderoso"; en el website es OPCIONAL. Kawashima: las matemáticas mentales producen enorme irrigación cerebral. → integrado en [filosofia-ensenanza.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/01-metodo-pedagogico/filosofia-ensenanza.md) ✅
+- [app] [método] **Elefantito Matemático = gym del cerebro**. Dos módulos: matemáticas mentales + memoria. Ambos con app en la plataforma. Matemáticas mentales: inspirada en investigación Dr. Kawashima sobre activación del córtex prefrontal; originalmente documentado como 8 niveles (incluyendo modo 💀 Imposible), dato que corresponde a la versión HTML legacy; la versión Next.js vigente observada el 2026-05-26 tiene 6 niveles desbloqueables con tutor bilingüe. Tiempo ajustable por pregunta; sirve de niños aprendiendo sumas hasta adultos al límite. Conexión con el método: mismo principio que el músico como atleta — entrenamiento deliberado del sustrato neural, no del contenido. Córtex prefrontal = sede del S2 (Kahneman), de la intención consciente, de la capacidad de sostener 4 voces simultáneas. **Contexto de uso:** en clases presenciales es OBLIGATORIO para alumnos de música — Luis lo presenta como "vas a necesitar un cerebro muy poderoso"; en el website es OPCIONAL. Kawashima: las matemáticas mentales producen enorme irrigación cerebral. → integrado en [filosofia-ensenanza.md](../01-metodo-pedagogico/filosofia-ensenanza.md) ✅
 
-- [app] [método] **Módulo de memoria = mnemotecnia de números y letras.** Curso separado, disponible en website y en clases presenciales. No es memoria musical genérica — es un sistema específico de asociación de números y letras (mnemotecnia clásica). Conecta con el Camino de la Señal (Memoria = paso 3) y con el insight de 2026-04-09: "Memoria es primero y es todo." La memoria entrenada deliberadamente es el puente entre intención y ejecución. → integrado en [filosofia-ensenanza.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/01-metodo-pedagogico/filosofia-ensenanza.md) ✅
+- [app] [método] **Módulo de memoria = mnemotecnia de números y letras.** Curso separado, disponible en website y en clases presenciales. No es memoria musical genérica — es un sistema específico de asociación de números y letras (mnemotecnia clásica). Conecta con el Camino de la Señal (Memoria = paso 3) y con el insight de 2026-04-09: "Memoria es primero y es todo." La memoria entrenada deliberadamente es el puente entre intención y ejecución. → integrado en [filosofia-ensenanza.md](../01-metodo-pedagogico/filosofia-ensenanza.md) ✅
 
-- [negocio] Asesorías de IA: nueva línea activa, abierta a cualquier cliente. Formato: objetivo concreto (ensayo, automatización, proceso) + enseñanza en el camino (qué usar, cómo pagar, cómo optimizar tokens). Meta: moldear el cerebro para interactuar menos con las IAs. → capturado en [vision-proyecto.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/00-contexto/vision-proyecto.md) y [quien-soy.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/00-contexto/quien-soy.md) ✅
+- [negocio] Asesorías de IA: nueva línea activa, abierta a cualquier cliente. Formato: objetivo concreto (ensayo, automatización, proceso) + enseñanza en el camino (qué usar, cómo pagar, cómo optimizar tokens). Meta: moldear el cerebro para interactuar menos con las IAs. → capturado en [vision-proyecto.md](vision-proyecto.md) y [quien-soy.md](quien-soy.md) ✅
 
 ### 2026-05-27
 
@@ -108,7 +108,7 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 
 ### 2026-06-12
 
-- [filosofía] [método] **El KB como motor de mejora continua ante nuevos modelos:** Con la llegada de cada modelo nuevo (ej. Fable 5), el Knowledge Base no se vuelve obsoleto ni tiene que empezar de cero. Al contrario, el modelo encuentra inconsistencias, limpia, consolida y mejora la estructura. Es la materialización de "prepararse para la IA del futuro" que se le enseña a alumnos y clientes. La tecnología de IA evoluciona, pero el "cerebro externalizado" se acumula y perfecciona iterativamente a prueba del tiempo.
+- ✅ [filosofía] [método] **El KB como motor de mejora continua ante nuevos modelos:** Con la llegada de cada modelo nuevo (ej. Fable 5), el Knowledge Base no se vuelve obsoleto ni tiene que empezar de cero. Al contrario, el modelo encuentra inconsistencias, limpia, consolida y mejora la estructura. Es la materialización de "prepararse para la IA del futuro" que se le enseña a alumnos y clientes. La tecnología de IA evoluciona, pero el "cerebro externalizado" se acumula y perfecciona iterativamente a prueba del tiempo. → integrado en `08-sintesis/tecnologia-al-servicio-del-metodo.md` (2026-06-12)
 
 ---
 
@@ -125,3 +125,4 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - 2026-05-26: Corregido insight procesado de Elefantito para distinguir versión HTML legacy de 8 niveles y versión Next.js vigente de 6 niveles.
 - 2026-06-03: Backlog de ~40 insights `[oído]`/`[método]` del 2026-04-09 sintetizado en `08-sintesis/entrenamiento-oido-absoluto.md` (página de síntesis nueva). Marcados como procesados con banner en la sección 2026-04-09.
 - 2026-06-03: Cierre del backlog del 2026-04-16. Los 4 insights restantes (redes neuronales/vehículo, coral perfecto/mastery, secuenciador vs Cubase, apps auditivas = corazón) ya estaban integrados al wiki desde el 2026-04-17 según `log.md:561` pero nunca habían recibido su ✅ — hueco de contabilidad, no de contenido. Marcados con destino verificado. **Buzón sin pendientes activos** (el bloque 2026-04-09 se conserva como material crudo bajo banner).
+- 2026-06-12: Insight del KB como activo acumulativo procesado hacia `tecnologia-al-servicio-del-metodo.md`.

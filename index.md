@@ -77,11 +77,11 @@ estado: en_progreso
 
 ## 03 · Apps y Herramientas
 
-*10 apps Android + Storm Sequencer web + herramientas auxiliares.*
+*10 familias de apps web/móviles + Storm Sequencer + herramientas auxiliares.*
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [indice-apps.md](03-apps-herramientas/indice-apps.md) | Catálogo completo: 10 apps Android + Sequencer web | en_progreso |
+| [indice-apps.md](03-apps-herramientas/indice-apps.md) | Catálogo completo: web gratuita, móviles de paga, piloto P03 y Sequencer | en_progreso |
 | [elefantito-matematico.md](03-apps-herramientas/elefantito-matematico.md) | App web/Android de matemática mental: 20 niveles, tutores bilingües, técnicas Arthur Benjamin | **completo** |
 | [otras-apps.md](03-apps-herramientas/otras-apps.md) | Apps adicionales no categorizadas | borrador |
 | [entrenamiento-auditivo/app-android-overview.md](03-apps-herramientas/entrenamiento-auditivo/app-android-overview.md) | Overview de apps de entrenamiento auditivo | borrador |
@@ -108,7 +108,7 @@ estado: en_progreso
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
 | [flujo-trabajo.md](05-operaciones/flujo-trabajo.md) | Flujo de trabajo operativo diario/semanal | borrador |
-| [asesoria-ia.md](05-operaciones/asesoria-ia.md) | Registro de asesorías de IA relevantes | borrador |
+| [asesoria-ia.md](05-operaciones/asesoria-ia.md) | Relación entre asesorías de IA y Migración Empresas; modelo de acompañamiento | en_progreso |
 | [infraestructura.md](05-operaciones/infraestructura.md) | Infraestructura técnica: Vercel, Firebase, Zoho, GDrive | borrador |
 | [migraciones-pendientes.md](05-operaciones/migraciones-pendientes.md) | Migraciones técnicas pendientes | borrador |
 
@@ -134,7 +134,7 @@ estado: en_progreso
 |---------|-------------|
 | [indice-fuentes.md](07-fuentes/indice-fuentes.md) | Catálogo de todas las fuentes con autor, área de impacto y ruta |
 
-### Libros (22 títulos)
+### Libros destacados (22 de 26 ingresados)
 
 | Libro | Área de impacto principal |
 |-------|--------------------------|
@@ -212,18 +212,22 @@ estado: en_progreso
 
 | Métrica | Valor |
 |---------|-------|
-| Total archivos .md (incluye clases-ia) | 343 (clases-ia: 173) |
-| Archivos wiki principales completos | 4 (sin sistema/clases-ia) |
+| Total archivos .md (incluye clases-ia) | 346 (clases-ia: 173) |
+| Archivos wiki principales completos | 5 (sin sistema, referencias históricas y clases-ia) |
 | Archivos wiki en_progreso | 27 |
-| Archivos wiki borrador | 14 |
+| Archivos wiki borrador | 13 |
 | Páginas de síntesis | 7 (todas en_progreso) |
 | Libros ingresados | 26 |
 | Libros registrados pendientes | 2 (Originals, Shadows) |
 | Videos (transcripts, ingeridos al wiki) | 4 |
 | Sistema ainews | mar–jun 2026 (activo) |
 | Alumnos en clases-ia | 11 perfilados |
-| Última sesión de trabajo | 2026-06-11 |
+| Última sesión de trabajo | 2026-06-12 |
 
 ---
 
-*Mantenido por la IA que colabora con Luis. Actualizado: 2026-06-11 (jerarquía de archivos de sistema corregida: CLAUDE.md fuente única, AGENTS.md stub).*
+*Mantenido por la IA que colabora con Luis. Actualizado: 2026-06-12 (lint de salud y reconciliación de metadatos tras el trabajo operativo reciente).*
+
+---
+## Historial de Cambios
+- **2026-06-12** — Estadísticas recalculadas; Migración Empresas, apps y última sesión reconciliadas con el estado real del KB.

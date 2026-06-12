@@ -1,3 +1,14 @@
+---
+titulo: "Entrevista Fundacional de Migración Empresas"
+tipo: sintesis
+ultima_actualizacion: 2026-06-12
+relacionado_con:
+  - 09-migracion-empresas/README.md
+  - 09-migracion-empresas/proyectos/indice-proyectos.md
+  - 05-operaciones/asesoria-ia.md
+estado: completo
+---
+
 # Entrevista Fundacional: Migración de Empresas a Native-AI
 
 **Objetivo:** Sintetizar la propuesta de valor y el modelo operativo del servicio de migración empresarial (ExO 3.0), sirviendo como ancla estratégica para la Base de Conocimiento, sin duplicar la documentación técnica y manuales (que viven en el repositorio operativo del proyecto).
@@ -36,3 +47,7 @@ Actualmente, la metodología se está probando y refinando con "conejillos de in
 - **Voces Imaginarias:** (Productora de video).
 - **Julio:** (Microfinanciera).
 - *Cliente Ejemplo Alfa* (Uso para plantillas internas).
+
+---
+## Historial de Cambios
+- **2026-06-12** — Entrevista fundacional sintetizada: transformación Native-AI, dolor del cliente, proceso, rol de Luis, precios y pilotos.

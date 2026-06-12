@@ -1,8 +1,9 @@
 ---
 titulo: "Tecnología al Servicio del Método"
 tipo: sintesis
-ultima_actualizacion: 2026-06-04
+ultima_actualizacion: 2026-06-12
 relacionado_con:
+  - 00-contexto/insights.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 02-plataforma-web/maestro-virtual.md
   - 02-plataforma-web/secuenciador.md
@@ -115,6 +116,20 @@ Diferencia entre cómo Luis usa IA y cómo la usa la mayoría:
 - La mayoría: instala el agente y espera que funcione
 - Luis: construye una base de conocimiento estructurada primero, para que el agente tenga contexto real
 
+### El KB como infraestructura acumulativa
+
+Un modelo nuevo no vuelve obsoleto al Knowledge Base. Ocurre lo contrario: recibe un contexto más rico que su antecesor y puede detectar contradicciones, limpiar capas viejas y producir conexiones que antes no eran visibles. La capacidad del modelo cambia; el activo de Luis se acumula.
+
+Este es el efecto compuesto de la arquitectura:
+
+1. Luis captura experiencia que ningún modelo puede inventar.
+2. Cada generación de IA reorganiza y aprovecha mejor esa experiencia.
+3. Las correcciones regresan al KB y quedan disponibles para la siguiente generación.
+
+Por eso “prepararse para la IA del futuro” no significa adivinar prompts futuros. Significa conservar datos, decisiones y razones en una estructura que un modelo más capaz pueda volver a leer. El KB no compite con la evolución de la IA: **la convierte en una fuerza de mejora continua sobre el mismo patrimonio intelectual**.
+
+El cambio de junio de 2026 lo demostró empíricamente: un modelo nuevo no exigió comenzar de cero; ayudó a consolidar el schema, descubrir contradicciones operativas y elevar el contenido existente. La tecnología envejece. El contexto bien mantenido compone.
+
 ### El criterio de automatización: cuándo la herramienta vale la pena
 
 *(Insight capturado 2026-05-27, clase de Montse)*
@@ -214,3 +229,4 @@ Esto convierte a las apps cognitivas en la base material de la tesis que recorre
 - **2026-06-04** — Entrevista a Luis (2): sección Elefantito ampliada con el orden cognitivo (Memoria→Matemáticas + porqué) y el argumento anti-zombie / gimnasio del cerebro en la era de la IA (tesis civilizatoria conectada a Karpathy y al Sándwich Humano).
 - **2026-06-04** — Entrevista a Luis: sección "Las apps de entrenamiento auditivo" completada (era [Pendiente]). Documentada la cronología que invierte la intuición — el método precede a las apps (Burge + Cubase a mano → Python 2024 → Android 2025 → Claude Code 2026). Las apps automatizan lo que se hacía a mano; estado de uso honesto (solo Luis hasta hoy). Libro en Kindle (oct 2024) registrado como origen documental.
 - **2026-06-01** — Sección ExO 3.0 y Singularidad Organizacional integrada: teorema de Coase reformulado, stack de 6 capas de inteligencia (Propósito→Sentir→Interpretar→Decidir→Orquestar→Aprender), 5 fosos defensivos, pasaporte del agente. Conexión explícita entre el stack y la arquitectura del KB. Fuente: singularidad-organizacional-exo-3.0.md.
+- **2026-06-12** — Integrado el insight del KB como infraestructura acumulativa: cada modelo nuevo mejora el mismo patrimonio de contexto en lugar de volverlo obsoleto.

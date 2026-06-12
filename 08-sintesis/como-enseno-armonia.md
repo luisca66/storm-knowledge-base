@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo Enseño Armonía"
 tipo: sintesis
-ultima_actualizacion: 2026-05-01 (sesión 2)
+ultima_actualizacion: 2026-06-12
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -341,6 +341,7 @@ La neurociencia respalda esto directamente. Barrett: el cerebro construye predic
 ---
 
 ## Historial de Cambios
+- **2026-06-12** — Fecha de frontmatter normalizada al formato YAML requerido; sin cambios sustantivos a la síntesis.
 - **2026-04-16** — Archivo llenado sustancialmente a partir del Curso Integral de Composición Musical (Medrano). Sección de voz de Luis pendiente de entrevista.
 - **2026-04-17** — Entrevista a Luis: visión de escucha directa sin mediación, el problema neurológico del tiempo, filosofía de no motivar (influencia Sadhguru / Inner Engineering).
 - **2026-04-22** — Ingesta de Inner Engineering (Sadhguru): tres nuevas secciones integradas — el método como sadhana/tecnología, el filtro natural (hacer esperar), y transmisión viva vs. información muerta.

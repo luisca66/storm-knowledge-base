@@ -1,7 +1,7 @@
 ---
 titulo: "Catálogo de Apps y Herramientas"
 tipo: catalogo
-ultima_actualizacion: 2026-06-04
+ultima_actualizacion: 2026-06-12
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -14,11 +14,11 @@ estado: en_progreso
 # Catálogo de Apps y Herramientas
 
 ## Resumen
-Inventario completo de todas las aplicaciones y herramientas desarrolladas por Luis para Storm Studios Learning. Son 10 apps en total (Android), todas gratuitas, más el Storm Sequencer web. Están diseñadas para trabajar en conjunto con el curso de armonía.
+Inventario completo de las aplicaciones y herramientas desarrolladas por Luis para Storm Studios Learning. Son 10 familias de apps de entrenamiento, más el Storm Sequencer web. La estrategia vigente es mantener versiones web gratuitas y vender versiones móviles de bajo costo en Android e iOS.
 
 ---
 
-## Apps de Entrenamiento Auditivo (Android — gratuitas)
+## Apps de Entrenamiento Auditivo
 
 Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la corteza auditiva — el principio del método es desintegrar, entrenar por separado, reintegrar.
 
@@ -48,7 +48,7 @@ Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la cort
 
 ---
 
-## Apps de Entrenamiento Cognitivo (Android — gratuitas)
+## Apps de Entrenamiento Cognitivo
 
 | App | Propósito | Área del método |
 |-----|-----------|-----------------|
@@ -112,23 +112,29 @@ Las apps de Storm Studios **no precedieron al método — lo automatizaron.** Cr
 
 ---
 
-## Distribución y Play Store
+## Distribución web y tiendas móviles
 
-**Estado actual:** Todas las apps Android se distribuyen como descarga gratuita desde el website (stormstudios.com.mx).
+**Decisión vigente (2026-06-11):**
 
-**En evaluación (2026-05-22):** Publicar **Intervalos – Reconocimiento** e **Intervalos – Cantados** en Google Play Store. Son las apps indispensables del Propedéutico P03 — las primeras que cualquier alumno nuevo necesita.
+- Las versiones web permanecen gratuitas.
+- Las versiones móviles se venden a precio bajo en Google Play y App Store.
+- El piloto de punta a punta será **Intervalos – Reconocimiento** + **Intervalos – Cantados**, las dos apps indispensables de P03.
+- El modelo es pago único, nunca suscripción.
 
-**Contexto técnico:** Son APKs nativos construidos en Android Studio con IA. El proceso requiere:
+**Estado que aún debe verificarse:** `stack-tecnologico.md` dice que hay 10 apps en Google Play, mientras la documentación de mayo describe APKs descargados directamente desde el website. Hasta revisar las tiendas o los repos, no asumir cuál es la distribución efectiva de cada app.
+
+**Contexto técnico del piloto Android:**
 1. Cuenta Google Play Developer ($25 USD, pago único)
 2. Convertir APK → AAB (Android App Bundle)
 3. Keystore de firma (crítico — no se puede perder)
 4. Assets de tienda + política de privacidad
 
-Ver decisión completa en `00-contexto/decisiones-clave.md`.
+El toolchain iOS sigue pendiente de documentar. Ver decisión completa en `00-contexto/decisiones-clave.md`.
 
 ---
 
 ## Historial de Cambios
+- **2026-06-12** — Catálogo alineado con la decisión web-gratis/móvil-de-paga; piloto P03 y contradicción de distribución actual documentados.
 - **2026-06-04** — Entrevista a Luis (6): apps de AP — clarificado Multitímbrico (taller) vs. Guitarra Clásica (personal de Luis, concertista). AP desde el principio, 5–10 años, posición honesta (prodigio vs. parches; el viaje basta). Cierra el catálogo de apps de oído.
 - **2026-06-04** — Entrevista a Luis (5): documentada la secuencia del oído relativo tras Desglose (intervalos cantados+reconocer simultáneos, grados, acordes 5ª→13ª, exhaustivo, meses). Diseño multitímbrico explicado (5 timbres porque la música no es solo piano). Pendiente nuevo: programar Grados Cantados.
 - **2026-06-04** — Entrevista a Luis (4): sección Juegos Godot reescrita (era stub `[LLENAR]`). Dos juegos reales: Oído Absoluto (5 niveles/5 mundos, terminado) e Intervalos (cantar para disparar, en desarrollo). Documentados como semilla del Videojuego Total de Entrenamiento Auditivo (visión en vision-proyecto.md). Cifra "13 niveles" marcada como no verificada.

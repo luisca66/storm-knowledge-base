@@ -1,7 +1,7 @@
 ---
 titulo: "Maestro Virtual"
 tipo: spec
-ultima_actualizacion: 2026-05-02
+ultima_actualizacion: 2026-06-12
 relacionado_con:
   - 01-metodo-pedagogico/ejercicios/reglas-validacion.md
   - 02-plataforma-web/arquitectura.md
@@ -69,19 +69,21 @@ El `key_signature` meta-message indica la armadura de clave: cuántos sostenidos
 
 ## Estado de las lecciones
 
-Las lecciones actualmente en la plataforma son **dummies** — placeholders que marcan la estructura del curso pero aún no tienen validación real implementada. La Lección 1 será Escalas Mayores, la Lección 2 Escalas Menores; los números exactos pueden ajustarse conforme el curso se adapte a la plataforma.
+La reconstrucción Next.js tiene actualmente una sola lección activa: **Lección 1 — Escalas Mayores**. Las demás posiciones siguen siendo estructura en planeación y su numeración puede cambiar; por ejemplo, Luis evalúa intercalar Modos antes de Escalas Menores.
+
+El KB documenta la arquitectura y el flujo de traducción del curso a código, pero todavía debe verificarse contra el repositorio de la plataforma qué reglas de validación de Lección 1 están desplegadas en producción y cuáles siguen en el validador HTML aislado. No asumir que “página publicada” equivale automáticamente a “validador completo”.
 
 **El número de lecciones es aproximado.** El último alumno que terminó el curso presencial con Luis escribió aproximadamente **60 corales**, pero ese número puede variar al adaptar el material a la plataforma en línea.
 
 La progresión de lecciones sigue la estructura del Curso Medrano (5 niveles: propedéutico → armonía diatónica → séptimas/novenas → modulación → figuración melódica + cromatismo). Ver `01-metodo-pedagogico/estructura-curso.md` para el mapa completo.
 
-| Nivel | Contenido | Estado del validador |
-|-------|-----------|----------------------|
-| Propedéutico (P01–P04) | Notas, ritmo, intervalos, secuenciador | 🔲 Sin validación (conceptual) |
-| Nivel 1 — Armonía diatónica | ~escalas, acordes de 5ª, SATB, cadencias | 🔲 En desarrollo (codificación Medrano) |
-| Nivel 2 — Séptimas y novenas | V7, VII7, II7, V9 | 🔲 Pendiente |
-| Nivel 3 — Modulación | 1er, 2do, 3er grado de parentesco | 🔲 Pendiente |
-| Nivel 4–5 — Figuración + Cromatismo | Notas extrañas, 6ª napolitana, homónimo | 🔲 Pendiente |
+| Etapa | Contenido | Estado documentado |
+|-------|-----------|--------------------|
+| Propedéutico (P01–P04) | Notas, ritmo, intervalos, secuenciador | No depende del validador armónico completo |
+| Lección 1 | Escalas Mayores | Página activa; estado exacto del validador en producción pendiente de verificar |
+| Secuencia inicial | Modos, Escalas Menores, acordes de 5ª | En planeación / codificación iterativa |
+| SATB | Tesituras, duplicaciones, enlaces, cadencias | Arquitectura pendiente; será la etapa técnicamente más compleja |
+| Séptimas, modulación y cromatismo | V7–V9, parentescos, figuración, 6ª napolitana | Pendiente |
 
 **Nota:** La validación de corales SATB requiere verificar simultáneamente: tesituras de las 4 voces, duplicaciones permitidas/prohibidas, movimientos paralelos (quintas y octavas), enlaces entre acordes, y estados/inversiones. Es el desarrollo técnico más complejo del proyecto.
 
@@ -89,7 +91,8 @@ La progresión de lecciones sigue la estructura del Curso Medrano (5 niveles: pr
 
 ## Pendientes críticos
 
-- [ ] Implementar validador Lección 2 (Escalas Menores) según documento de handoff existente
+- [ ] Verificar en el repositorio de la plataforma el estado exacto del validador de Lección 1
+- [ ] Confirmar la secuencia inicial antes de nombrar “Lección 2” a Escalas Menores
 - [ ] Definir arquitectura del validador SATB para las lecciones de armonía (Lecciones 6+)
 - [ ] Especificar reglas de validación por lección en `ejercicios/reglas-validacion.md`
 - [ ] Documentar el documento de handoff de Lección 2 en este archivo
@@ -99,3 +102,4 @@ La progresión de lecciones sigue la estructura del Curso Medrano (5 niveles: pr
 ## Historial de Cambios
 - **2026-04-07** — Creación inicial (borrador)
 - **2026-05-02** — Archivo sustancialmente expandido: propósito pedagógico, arquitectura, el problema enarmónico y su solución, estado por lección. Estado: en_progreso.
+- **2026-06-12** — Documentado el flujo humano-IA para traducir Medrano a código y reconciliado el estado post-migración: Lección 1 activa, resto en planeación y validación de producción pendiente de verificar en el repo.

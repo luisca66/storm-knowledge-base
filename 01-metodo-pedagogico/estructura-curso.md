@@ -1,7 +1,7 @@
 ---
 titulo: "Estructura del Curso"
 tipo: catalogo
-ultima_actualizacion: 2026-05-22
+ultima_actualizacion: 2026-06-12
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/progresion-estudiante.md
@@ -21,7 +21,7 @@ El curso de armonía de Storm Studios Learning está basado en el método que Lu
 | Componente | Detalle |
 |-----------|---------|
 | Propedéutico | 4 lecciones (lectura, ritmo, intervalos, secuenciador) |
-| Curso de Armonía | ~60 lecciones (5 publicadas al 2026-04-16) |
+| Curso de Armonía | ~60 lecciones estimadas; 1 activa en la reconstrucción Next.js |
 | Inicio del contenido | Escalas mayores y menores |
 | Final del contenido | Armonía cromática y modulación en cuarteto vocal |
 | Formato | Video por lección + tarea + Maestro Virtual en tiempo real |
@@ -43,7 +43,7 @@ El propedéutico es obligatorio para alumnos sin conocimientos previos. Cubre la
 | P03 | Intervalos | Reconocimiento e identificación de intervalos | Dos apps Android indispensables (ver nota) |
 | P04 | Uso del Secuenciador | Cómo usar el Storm Sequencer v3.0 integrado en la plataforma | Storm Sequencer v3.0 (integrado en el website) |
 
-> **Nota P03:** Las dos apps Android de P03 son APKs nativos construidos en Android Studio. Actualmente se ofrecen como descarga gratuita desde el website. En evaluación: distribución via Google Play Store. Ver `03-apps-herramientas/indice-apps.md` y `00-contexto/decisiones-clave.md`.
+> **Nota P03:** Las dos apps de intervalos son el piloto acordado para la estrategia vigente: versión web gratuita y versiones móviles de pago bajo en Google Play / App Store. La distribución directa por APK fue la etapa anterior. Ver `03-apps-herramientas/indice-apps.md` y `00-contexto/decisiones-clave.md`.
 
 ---
 
@@ -137,6 +137,7 @@ Estos cursos no están en la plataforma gratuita. Son el siguiente paso para alu
 ---
 
 ## Historial de Cambios
+- **2026-06-12** — Estado post-migración Next.js reconciliado: una lección activa, secuencia inicial en evaluación y Maestro Virtual entendido como el curso traducido a código. Nota P03 actualizada a la estrategia web-gratis/móvil-de-paga.
 - **2026-05-22** — Hito: videos del propedéutico terminados. Documentada la arquitectura de herramientas: P01/P02 con apps web propias, P03 con dos apps Android, P04 con Storm Sequencer. Decisión Play Store en evaluación.
 - 2026-04-07: Creación inicial (borrador)
 - 2026-04-16: Llenado con propedéutico completo (4 lecciones), estructura general y progresión del curso extraídos del sitio web. Estado: `en_progreso`.

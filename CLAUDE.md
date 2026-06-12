@@ -130,6 +130,7 @@ storm-knowledge-base/
 │
 └── 09-migracion-empresas/ ← Línea empresarial de IA, activa y con ingresos
     ├── README.md
+    ├── entrevista_fundacional.md
     └── proyectos/
         └── indice-proyectos.md
 ```
@@ -142,7 +143,7 @@ storm-knowledge-base/
 
 ### Frontmatter obligatorio
 
-Todo archivo del KB (excepto raw sources, este CLAUDE.md y el stub AGENTS.md) debe tener:
+Todo archivo del wiki principal (excepto raw sources, este CLAUDE.md, el stub AGENTS.md y el ledger append-only `log.md`) debe tener:
 
 ```yaml
 ---
@@ -154,6 +155,8 @@ relacionado_con:
 estado: borrador | en_progreso | completo | requiere_revision
 ---
 ```
+
+**Excepción heredada de `clases-ia`:** 169 archivos del subsistema fueron importados antes de adoptar esta convención y no tienen frontmatter. No hacer una reescritura mecánica masiva solo para uniformarlos. Cuando uno de esos archivos se modifique sustancialmente, agregar frontmatter e historial en esa misma intervención.
 
 ### Estados
 - `borrador` → estructura creada, contenido mínimo o vacío
@@ -303,4 +306,4 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 
 ---
 
-*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-06-11 (consolidación: fuente única, propósito en dos niveles, alcance de tres líneas).*
+*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-06-12 (lint de salud: metadatos, estados e índice reconciliados con el trabajo reciente).*

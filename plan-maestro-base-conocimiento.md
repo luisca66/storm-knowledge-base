@@ -1,4 +1,17 @@
+---
+titulo: "Plan Maestro Original del Knowledge Base"
+tipo: contexto
+ultima_actualizacion: 2026-06-12
+relacionado_con:
+  - CLAUDE.md
+  - README.md
+  - index.md
+estado: completo
+---
+
 # Plan Maestro: Base de Conocimiento para IA — Storm Studios Learning
+
+> Documento histórico de abril de 2026. Conserva la intención y arquitectura iniciales; el estado operativo vigente vive exclusivamente en `CLAUDE.md`.
 
 **Autor:** Luis (Storm Studios Learning)  
 **Fecha:** Abril 2026  
@@ -247,3 +260,7 @@ Para saber si el KB está funcionando, hazte estas preguntas cada mes:
 ## Siguiente paso inmediato
 
 Crea la carpeta `storm-knowledge-base/` en tu Google Drive o en un repo Git, y escribe el `README.md`. Ese solo archivo, bien hecho, ya te pone en una posición significativamente mejor para cualquier colaboración futura con IA.
+
+---
+## Historial de Cambios
+- **2026-06-12** — Clasificado como documento histórico y conectado al schema vigente; contenido original conservado.

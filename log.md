@@ -8,6 +8,34 @@
 
 ---
 
+## [2026-06-12] lint | Revisión de salud tras consolidación y trabajo operativo
+
+**Disparador:** Luis pidió una valoración general del KB después de varias sesiones intensivas.
+
+**Resultado general:** el nivel de continuidad está cumplido y el KB ya produce síntesis superiores a sus fuentes individuales. La arquitectura conceptual es fuerte; el cuello de botella restante es operativo.
+
+**Verificaciones:**
+- Git sincronizado con `origin/main` al iniciar.
+- 346 archivos Markdown: 173 en `clases-ia`, 123 raw sources y 50 archivos del wiki/sistema fuera de ambos.
+- 147 referencias de frontmatter revisadas: 0 rotas.
+- 116 enlaces Markdown relativos revisados: 0 rotos.
+- 7 páginas de síntesis con 1,871 líneas acumuladas.
+- 13 borradores, todos concentrados en lecciones/reglas, apps auxiliares, contenido musical y operaciones.
+
+**Problemas corregidos:**
+- `index.md` tenía conteos y fecha anteriores al trabajo del 12 de junio.
+- `estructura-curso.md` decía simultáneamente “5 publicadas” y “solo Lección 1 activa”.
+- `maestro-virtual.md` mezclaba el estado viejo de dummies con la reconstrucción Next.js.
+- `indice-apps.md` conservaba “Play Store en evaluación” pese a la decisión web-gratis/móvil-de-paga.
+- Migración Empresas no había propagado a Julio ni tenía frontmatter en su entrevista fundacional.
+- El insight del KB como activo acumulativo fue procesado hacia `tecnologia-al-servicio-del-metodo.md`.
+- Enlaces locales heredados de Windows fueron normalizados en `insights.md`.
+- La convención de frontmatter ahora reconoce explícitamente los 169 archivos heredados de `clases-ia` y evita una migración mecánica sin valor.
+
+**Lectura estratégica:** el trabajo de los últimos días corrigió la inversión detectada el 10 de junio: el KB ya empezó a bajar de la síntesis hacia la operación. Aun así, `04-contenido-musical/`, `05-operaciones/`, las reglas de validación y las fichas de lecciones siguen siendo la principal deuda para alcanzar autonomía.
+
+---
+
 ## [2026-06-12] entrevista | Estructura del Curso y Maestro Virtual
 
 **Origen:** Prioridad #1 de CLAUDE.md (nivel operativo del KB). Faltaba mapear el estado real de las lecciones de la plataforma.
