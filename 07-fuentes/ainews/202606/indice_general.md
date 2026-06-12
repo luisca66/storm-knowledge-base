@@ -251,3 +251,29 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Fricciones:* Guardarraíles de biología redirigen a Opus 4.8. Se degrada silenciosamente la respuesta si se investigan modelos frontier. Retención de 30 días para revisiones de seguridad, lo que puede vulnerar NDAs si la memoria activa está habilitada.
 - **Guerra de Interfaces y "Agent Literacy" (Nate B. Jones, Claude Code, Codex, Mike Krieger):**
   - *Cabina vs. Delegación:* Claude Code se comporta como cabina interactiva (vibe coding), y Codex como máquina de delegación paralela. Mike Krieger describe flujos nocturnos automatizados y testing robusto con backends en memoria y feedback de video de interfaces de Fable.
+
+## [12 de Junio de 2026](./resumen_20260612.md)
+**Temas Principales:**
+- **Wearables de Meta y Presencia Conectada (Alex Himel, Meta Ray-Ban, Big Technology Podcast):**
+  - *Modelos y Uso de Ray-Ban Meta:* Transición de casos de uso del audio y captura de fotos/video hacia IA con funciones de *auto-capture* de momentos familiares/deportivos y asistencia contextual ("susurros" de contexto, name tags en badge digital).
+  - *Ray-Ban Meta Optics:* Nuevo modelo para interiores lanzado a mediados de abril. Más delgado, lentes transparentes, ajuste ergonómico avanzado y distribución a través de optometristas tradicionales de Essilor Luxottica (apuntando al canal óptico en lugar de tiendas tecnológicas).
+  - *Principio del Escalator:* Si la tecnología falla o se apaga, el dispositivo sigue siendo útil como gafas normales.
+- **Chan Zuckerberg Biohub e Iniciativa de Biología Virtual (Mark Zuckerberg, Priscilla Chan, Alex Reeves, ESMFold):**
+  - *Biología Virtual de Código Abierto:* Biohub enfocado en construir infraestructura y herramientas libres de conflictos comerciales para democratizar la investigación científica (ej. Cell by Gene y Human Cell Atlas).
+  - *Generación de Datos de Infección/Modelos:* Plegado masivo de más de 1,100 millones de estructuras proteicas con ESMFold. Diseño de anticuerpos de cadena sencilla con afinidad nanomolar validados mediante criomicroscopía electrónica (cryo-EM).
+  - *Integración Jerárquica:* Modelar y conectar recursivamente proteínas, células, tejidos y sistemas de abajo hacia arriba.
+- **Escándalo de Seguridad y Retracción de Anthropic (Anthropic, Claude 5 / Fable 5, AI Daily Brief):**
+  - *Degradación Silenciosa y Disculpa:* Anthropic retiró en 24 horas su política de degradación silenciosa para investigaciones sobre LLMs frontera tras la indignación de la comunidad académica (Graham Neubig, Hugging Face). Las restricciones a la investigación ahora se mostrarán como avisos explícitos visibles.
+  - *Exceso de Celotipia en Seguridad:* Falsos positivos severos en bioseguridad/ciberseguridad que bloqueaban consultas de investigadores legítimos al detectar términos comunes.
+  - *Retención de Datos:* Críticas a la retención de 30 días de conversaciones eliminadas si eran clasificadas como potencialmente dañinas, afectando a clientes con contratos de cero retención de datos.
+- **Infraestructura de Inferencia y Límites de Centros de Datos (OpenAI, Broadcom, Apollo/Blackstone):**
+  - *Ohio Mega-Campus:* OpenAI negocia un campus de data centers de 10 GW en un ex-sitio nuclear de uranio en Ohio (con 800 MW listos para 2028).
+  - *Moratorias y Regulaciones de Energía:* Moratoria de un año para nuevos centros de datos de más de 20 MW en Nueva York y Seattle; exigencias en Texas de circuitos de refrigeración cerrados y coinversión en generación local de energía.
+  - *Financiamiento de Broadcom:* Fondo de $35,000 millones estructurado por Blackstone y Apollo para financiar chips y conectores de Broadcom orientados a Anthropic.
+- **Apple WWDC, App Intents y Private Cloud Compute (Apple Intelligence, Core AI, Swift, Nate B. Jones):**
+  - *Core AI y Foundation Models:* Integración local en iOS con soporte de modelos provistos en colaboración con Google (Gemini) e inferencia pesada en Private Cloud Compute (Google Cloud con GPUs Nvidia).
+  - *App Intents:* Mecanismo que expone datos y acciones de aplicaciones terceras al sistema operativo, transformando iOS en un OS agéntico y redefiniendo la UI a través de delegación.
+- **Trading Agéntico e Integración MCP con Robinhood (Robinhood MCP, Claude Code, Ryan Doser):**
+  - *Integración y Autenticación:* Handshake y autenticación OAuth en Claude Code a través de endpoints locales del protocolo MCP para activar herramientas de Robinhood (`get_account`, `get_equity_positions`).
+  - *Estrategia y Cuentas Aisladas:* Robinhood aísla el balance del agente en una cuenta Agentic separada del portafolio principal. Ryan Doser implementa una estrategia de monitoreo de insider trading de políticos y ejecutivos, registrando un log automático en markdown de las decisiones del agente.
+
