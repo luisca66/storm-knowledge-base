@@ -39,6 +39,16 @@ El sistema vive como una API route dentro de la plataforma Next.js:
 
 ---
 
+## Flujo de Trabajo de Codificación
+
+La traducción del curso (PDF) a código estricto es un proceso iterativo humano-IA:
+1. **Asimilación:** Luis utiliza un LLM de frontera (ej. Claude Opus/Fable) capaz de retener el PDF original del curso en contexto.
+2. **Traducción paso a paso:** Se avanza lección por lección, extrayendo las reglas musicales y convirtiéndolas en lógica condicional estricta.
+3. **Validación aislada:** Antes de tocar el repositorio en Next.js, se prueban las reglas de código en un validador HTML en un entorno de pruebas aislado. Esto garantiza que la lógica musical fue capturada sin alucinaciones.
+4. **Integración:** Una vez probada, la regla pasa a formar parte de los módulos de validación (`scale-validator.ts`, etc.) del Maestro Virtual.
+
+---
+
 ## El problema enarmónico y la solución
 
 ### El problema

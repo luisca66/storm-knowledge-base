@@ -8,6 +8,21 @@
 
 ---
 
+## [2026-06-12] entrevista | Estructura del Curso y Maestro Virtual
+
+**Origen:** Prioridad #1 de CLAUDE.md (nivel operativo del KB). Faltaba mapear el estado real de las lecciones de la plataforma.
+
+**Conocimiento capturado:**
+- **La reconstrucción en Next.js:** El número de ~60 lecciones es un cálculo histórico (corales del último alumno). Actualmente, en la plataforma solo está publicada la Lección 1 debido a que los videos son nuevos y la estructura se está rearmando.
+- **Borrador de secuencia:** L1 Mayores, L2 Modos (en evaluación), L3 Menores, L4 Acordes 5ª Mayor, L6 Acordes 5ª Menor, L7 Cuarteto vocal (SATB).
+- **El Maestro Virtual:** Su meta última no es solo calificar tareas gratis, sino "obligar" a una IA a componer acatando las reglas de Luis. 
+- **Flujo de codificación de reglas:** PDF del curso → LLM de frontera (Fable) lee y traduce paso a paso → Pruebas de fuego en un validador HTML aislado → Integración a Next.js.
+
+**Archivos tocados:**
+- `01-metodo-pedagogico/estructura-curso.md`: Re-escrita la sección de lecciones asumiendo el estado post-migración.
+- `02-plataforma-web/maestro-virtual.md`: Añadido el flujo de trabajo humano-IA.
+- `log.md`: Cierre de la sesión operativa.
+
 ## [2026-06-12] entrevista | Entrevista Fundacional de Migración Empresas
 
 **Origen:** Pendiente prioritario de CLAUDE.md para extraer la visión de la nueva línea de asesoría `09-migracion-empresas` sin duplicar manuales técnicos.

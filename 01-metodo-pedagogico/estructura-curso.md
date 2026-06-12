@@ -51,15 +51,24 @@ El propedéutico es obligatorio para alumnos sin conocimientos previos. Cubre la
 
 Las lecciones son **consecutivas y progresivas** — no hay módulos ni agrupaciones. Cada lección tiene un punto central de aprendizaje; cuando el alumno lo domina, avanza a la siguiente. La validación es en tiempo real a través del Maestro Virtual (MIDI).
 
-### Lecciones publicadas (al 2026-04-16)
+### Lecciones en plataforma (Migración Next.js)
 
-| # | Lección | Notas / Detalle | Estado en KB |
-|---|---------|-----------------|-------------|
-| 1 | Escalas Mayores | 15 escalas, 6 reglas de validación | borrador |
-| 2 | Escalas Menores | 465 notas totales | borrador |
-| 3 | [LLENAR] | | borrador |
-| 4 | [LLENAR] | | borrador |
-| 5 | [LLENAR] | | borrador |
+Actualmente (junio 2026), el curso de armonía está en **fase de reconstrucción** debido a la migración de la plataforma a Next.js. Los videos son nuevos y toman tiempo en producirse. El número total real de lecciones se definirá sobre la marcha (el estimado de ~60 viene del número de corales que entregó el último alumno presencial que terminó el curso).
+
+| # | Lección (Borrador de secuencia) | Estado / Notas |
+|---|---------------------------------|----------------|
+| 1 | Escalas Mayores | **Publicada.** (Única activa actualmente) |
+| 2 | Modos | *En evaluación:* Intercalar modos antes de menores |
+| 3 | Escalas Menores | En planeación |
+| 4 | Acordes de 5ª de la Escala Mayor | En planeación |
+| 5 | *[Transición / Por definir]* | En planeación |
+| 6 | Acordes de 5ª de las Escalas Menores| En planeación |
+| 7 | Construcción en Cuarteto Vocal | Primera lección SATB: tesituras, duplicaciones, supresiones, triplicaciones. De aquí en adelante, todo es SATB. |
+
+### El Maestro Virtual (El Curso en Código)
+El Maestro Virtual no es solo un feature técnico. Es un **documento vivo que contiene todo el curso de Luis traducido a código**. Este documento crece y evoluciona a la par de la producción de los videos.
+Su objetivo inmediato es permitir que el alumno revise sus tareas en línea gratis. 
+Su objetivo a largo plazo (el "experimento de vida" de Luis) es **hacer que una IA componga música estando obligada a obedecer estrictamente este set de reglas**, para ver los resultados de la ingeniería neural pura aplicada al arte.
 
 ### Mapa completo del curso (basado en el Curso Medrano)
 
