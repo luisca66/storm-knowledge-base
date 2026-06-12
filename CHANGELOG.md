@@ -1,11 +1,16 @@
 ---
 titulo: "Registro de Cambios"
 tipo: diario
-ultima_actualizacion: 2026-06-11
+ultima_actualizacion: 2026-06-12
 estado: en_progreso
 ---
 
 # Registro de Cambios (CHANGELOG)
+
+## 2026-06-12
+- **`ai-radar.md` puesto al día (iba 9 días atrás).** Síntesis de junio extendida de "días 1-2" a "días 1-12" con el lanzamiento de **Claude Fable 5 / Mythos 5 (9 jun)** como evento central — antes ausente del wiki. Integradas las tres controversias (clasificadores agresivos, degradación silenciosa revertida en <24h, retención de 30 días), la crisis de costos concreta (Uber, alfabetización de modelos), la temporada de IPOs, Microsoft Build (eval privado), Apple WWDC y el playbook AEO local de Caleb Ulku.
+- **Sección 3 (clases) actualizada:** tabla de modelos con Fable 5 como tope de capacidad pero Opus 4.8 como daily driver real (matiz honesto: 2x tokens, sale de suscripción el 22-23 jun, falsos positivos). Tres conceptos pedagógicos nuevos: imaginación de tareas, alfabetización de modelos (auditoría de tokens como servicio para PYMES), y playbook AEO local para Mario y el website.
+- Pendiente derivado: propagar la tabla de modelos a `conceptos_no_olvidar.md` y `leccion_01` dentro de clases-ia (requiere leer `INSTRUCCIONES_CLASES_IA.md`).
 
 ## 2026-06-11
 - **Entrevista de propósito:** mapa del ecosistema corregido — Storm Studios es el estudio físico; las clases particulares (composición, instrumentos, entrenamientos físicos, IA) son la vaca lechera; SSL es el website ($0 hoy por diseño: legado + promotor + futuro pasivo). Documentadas "La prueba de la vacación" y la escena objetivo del "martes cualquiera" (~70% ya existe) en vision-proyecto.

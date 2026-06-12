@@ -8,6 +8,33 @@
 
 ---
 
+## [2026-06-12] ingest | ainews junio días 4-12 → ai-radar.md (Fable 5 es el evento del mes)
+
+**Disparador:** chequeo de continuidad de Luis ("qué podemos seguir avanzando"). El pendiente #2 de CLAUDE.md §7 era el radar atrasado (cerraba el 06-03, faltaba Fable 5 / Mythos 5). Se eligió esta vía por ser autónoma (no requiere entrevista).
+
+**Fuentes procesadas:** `07-fuentes/ainews/202606/` resúmenes del 04, 08, 09, 10, 11 y 12 de junio (ya estaban en el repo e índice; el trabajo fue la síntesis al wiki).
+
+**Hallazgo central:** el **9 de junio Anthropic lanzó Claude Fable 5** (y Mythos 5 restringido a Glasswing) — el primer modelo de clase superior a Opus (≈10B params), y el wiki no lo tenía. Es el evento que parte junio en dos.
+
+**Archivos tocados (4):**
+- `00-contexto/ai-radar.md` — síntesis de junio extendida a días 1-12 (nuevas secciones 15-22), Sección 3 con tabla de modelos actualizada y 3 conceptos pedagógicos nuevos (imaginación de tareas, alfabetización de modelos, playbook AEO local), changelog.
+- `CHANGELOG.md` y `log.md` — esta entrada.
+- (Pendiente CLAUDE.md §7 — ver abajo.)
+
+**Conocimiento capturado:**
+- Fable 5: jerarquía haiku→sonnet→opus→fable; Mythos = mismos pesos sin guardarraíles; benchmarks (SWEBench Pro 80.3, Frontier Code 29.3); **sale de las suscripciones el 22-23 jun** → API a $10/$50; consume tokens 2x. Daily driver sigue siendo Opus 4.8 para el 90-95% del trabajo.
+- "De dar tareas a dar responsabilidades" (Ryberg) / "imaginación de tareas" (Nate Jones) — el nuevo gap de adopción.
+- Las tres controversias de Fable (clasificadores, degradación silenciosa revertida en <24h, retención 30 días no revertida) — relevante para privacidad en asesorías PYMES.
+- Crisis de costos concreta: Uber capa gasto; la **auditoría de tokens por rol** como servicio vendible para PYMES (conecta con Efecto Santiago).
+- AEO local con método (Caleb Ulku): entity matching, reseñas con atributos específicos, `llm.txt` casi inútil → playbook para el website de Luis y el de Mario.
+
+**Pendiente para próxima sesión:**
+- Propagar la tabla de modelos a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia (requiere leer `INSTRUCCIONES_CLASES_IA.md` antes de editar).
+- Evaluar si el playbook AEO local merece ampliar `08-sintesis/estrategia-freemium-musical.md` §5 con los pasos concretos (hoy solo cross-link).
+- Cerrar junio en el radar al terminar el mes (días 13-30).
+
+---
+
 ## [2026-06-11] entrevista | Propósito del KB — el mapa real del ecosistema
 
 **Origen:** Tras la consolidación del schema, Luis ofreció entrevista para dejar el propósito totalmente claro. Tres preguntas, hallazgos mayores:

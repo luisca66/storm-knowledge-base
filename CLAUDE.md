@@ -276,7 +276,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual (actualizar en cada sesión)
 
-**Última actualización:** 2026-06-11 — consolidación del schema (CLAUDE.md fuente única, AGENTS.md stub) + entrevista de propósito (mapa del ecosistema corregido, estrategia de apps de paga, prueba de la vacación).
+**Última actualización:** 2026-06-12 — `ai-radar.md` puesto al día (días 1-12 de junio): integrado el lanzamiento de Fable 5 / Mythos 5 y la crisis de costos; tabla de modelos y conceptos pedagógicos de la Sección 3 actualizados.
 
 El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Estado por archivo** → `index.md` (catálogo con estados y estadísticas)
@@ -286,7 +286,7 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 
 **Pendiente prioritario:**
 - **Documentación operativa (nivel 2 del propósito)** — hallazgo central de la auditoría 2026-06-10: el KB piensa pero no opera. Próximas entrevistas deben ser operativas: lista de las ~65 lecciones (aunque sea títulos), las 6 reglas de validación del Maestro Virtual, infraestructura. `04-contenido-musical/` y `05-operaciones/` en borrador desde abril
-- `ai-radar.md` → va días atrás de ainews; falta Fable 5 / Mythos 5 (lanzados 2026-06-09) y actualizar la tabla de modelos de la Sección 3
+- `ai-radar.md` → ✅ al día al 2026-06-12 (Fable 5 / Mythos 5 integrados, tabla de modelos actualizada). **Pendiente derivado:** propagar la nueva tabla de modelos a `conceptos_no_olvidar.md` y `leccion_01` dentro de clases-ia (requiere leer `INSTRUCCIONES_CLASES_IA.md`); cerrar junio en el radar al terminar el mes (días 13-30)
 - `09-migracion-empresas/` → completar entrevista fundacional: significado de "migrar", problema que compra el cliente, entregables, proceso, precio y cartera activa
 - `luis-como-ingeniero-neural.md` → integrar a Dayana y validar conexiones por alumno con datos de sesiones reales
 - `entrenamiento-oido-absoluto.md` → poblar §12 con datos de alumnos que desbloqueen AP; desarrollar la "gramática posicional" (§3)
