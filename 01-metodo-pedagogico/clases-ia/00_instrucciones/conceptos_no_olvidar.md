@@ -98,11 +98,13 @@ No es un guion. Es un mapa de lo que no puede quedar en el aire.
 
   | Plan | Modelo |
   |---|---|
-  | Pago (Claude) | **Claude 4.8 (Opus)** ← actualizado |
+  | Tope de capacidad (Claude) | **Claude Fable 5** ← nuevo (superior a Opus) |
+  | Daily driver de paga (Claude) | **Claude 4.8 (Opus)** — el caballo de batalla real |
   | Gratuito (Claude) | Claude 4.6 |
   | Alternativa OpenAI | ChatGPT 5.5 Thinking |
   | Alternativa Google | Gemini 3.5 Flash |
 
+- **Matiz pedagógico (Fable 5 y ahorro de tokens):** Fable es el más capaz, pero gasta 2x tokens y sale de suscripciones el 22-23 de junio. Los alumnos suelen ser escépticos, no sienten FOMO; por ende, el enfoque en clase debe ser enseñarles **ahorro de tokens y selección correcta de modelo**. Fable es solo para desarrollo o auditorías complejas. (Predicción de Luis: terminaremos con modelos locales en hardware propio, pagando solo por la frontera extrema).
 - Las 3 modalidades:
   - **Thinking** → problemas complejos, tarda más, no para preguntas rápidas
   - **Deep Research** → busca fuentes reales, el alumno debe verificarlas

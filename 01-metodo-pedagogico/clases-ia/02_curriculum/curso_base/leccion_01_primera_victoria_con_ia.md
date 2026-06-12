@@ -18,11 +18,13 @@ Sirve para alumnos nuevos cuando Luis no sabe nada de ellos. Tambien sirve para 
 
 | Plan | Modelo |
 |---|---|
-| Pago (Claude) | Claude 4.7 Extended Thinking |
+| Tope de capacidad (Claude) | **Claude Fable 5** |
+| Daily driver de paga (Claude) | **Claude 4.8 (Opus)** |
 | Gratuito (Claude) | Claude 4.6 |
 | Alternativa OpenAI | ChatGPT 5.5 Thinking |
 | Alternativa Google | Gemini 3.5 Flash |
 
+- **Nota pedagógica:** Hacer énfasis en la selección del modelo para **ahorrar tokens**. Fable 5 sale de suscripciones planas a fines de junio y consume 2x tokens; recomendar Opus 4.8 para el día a día. El alumno debe ver que no siempre se necesita el modelo más caro.
 - Opcional: Deep Research si la pregunta requiere investigacion.
 - Opcional: Codex o agente solo si el alumno ya muestra interes en construir.
 
