@@ -8,6 +8,24 @@
 
 ---
 
+## [2026-06-12] entrevista | Entrevista Fundacional de Migración Empresas
+
+**Origen:** Pendiente prioritario de CLAUDE.md para extraer la visión de la nueva línea de asesoría `09-migracion-empresas` sin duplicar manuales técnicos.
+
+**Conocimiento capturado:**
+- **El dolor real del cliente:** FOMO y miedo a la irrelevancia. Compran la "sabiduría empírica de un no-programador" (el ecosistema de Luis) y el enfoque casual de decirle a la IA "hazlo tú".
+- **Concepto de Migrar:** Pasar de un chatbot a un Gemelo Digital en el borde, con agentes y "líneas rojas" inviolables (ExO 3.0).
+- **Proceso de 90 días:** Diagnóstico → Backcasting → Plan → Gemelo Digital.
+- **Modelo de negocio:** Mismo que las clases de IA. Actualmente 1,000 MXN por sesión de 1.5 a 2 horas, subirá a 1,500 MXN por persona.
+- **El rol de Luis (Socio Builder):** Reducir fricciones en los "detallitos estúpidos" que detienen la adopción de IA. Meta final: que el cliente necesite menos sesiones.
+- **Cartera activa:** Pilotos con "Voces Imaginarias" y "Julio" (microfinanciera).
+
+**Archivos tocados:**
+- Creado `09-migracion-empresas/entrevista_fundacional.md`.
+- Modificado `09-migracion-empresas/README.md` (eliminados pendientes, añadido enlace al nuevo documento).
+- Actualizado `CLAUDE.md` (§7: pendiente marcado como completado).
+- Actualizados `index.md` y `log.md`.
+
 ## [2026-06-12] ingest | ainews junio días 4-12 → ai-radar.md (Fable 5 es el evento del mes)
 
 **Disparador:** chequeo de continuidad de Luis ("qué podemos seguir avanzando"). El pendiente #2 de CLAUDE.md §7 era el radar atrasado (cerraba el 06-03, faltaba Fable 5 / Mythos 5). Se eligió esta vía por ser autónoma (no requiere entrevista).

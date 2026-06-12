@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-06-11
+ultima_actualizacion: 2026-06-12
 estado: en_progreso
 ---
 
@@ -194,8 +194,9 @@ estado: en_progreso
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [README.md](09-migracion-empresas/README.md) | Visión, límites, relación con las otras líneas y entrevista fundacional pendiente | en_progreso |
-| [indice-proyectos.md](09-migracion-empresas/proyectos/indice-proyectos.md) | Catálogo de empresas y proyectos; Voces Imaginarias es el primero confirmado | en_progreso |
+| [entrevista_fundacional.md](09-migracion-empresas/entrevista_fundacional.md) | Síntesis estratégica: Gemelo Digital ExO 3.0, dolor del cliente, proceso, rol de Builder | **completo** |
+| [README.md](09-migracion-empresas/README.md) | Visión, límites y relación con las otras líneas de negocio | en_progreso |
+| [indice-proyectos.md](09-migracion-empresas/proyectos/indice-proyectos.md) | Catálogo de empresas y proyectos activos (Voces Imaginarias, Julio) | en_progreso |
 
 ---
 

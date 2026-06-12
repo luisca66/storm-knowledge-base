@@ -3,6 +3,7 @@ titulo: "Migracion Empresas"
 tipo: contexto
 ultima_actualizacion: 2026-06-10
 relacionado_con:
+  - 09-migracion-empresas/entrevista_fundacional.md
   - 09-migracion-empresas/proyectos/indice-proyectos.md
   - 05-operaciones/asesoria-ia.md
   - 00-contexto/vision-proyecto.md
@@ -52,17 +53,12 @@ Este archivo es la fuente canonica para documentar su identidad, propuesta, mode
 
 La relacion exacta entre las asesorias y Migracion Empresas queda pendiente de precisar: puede ser una evolucion, una linea complementaria o un servicio distinto.
 
-## Pendientes de entrevista
+## Fundamentos del Proyecto
 
-- Que significa exactamente "migrar" una empresa.
-- Que problema compra el cliente.
-- Que entregables recibe.
-- Como inicia y termina una migracion.
-- Como se cobra.
-- Que empresas o proyectos estan activos.
-- Cuando comenzo y cual fue el primer ingreso.
-- Que parte depende de Luis y que parte puede convertirse en metodo replicable.
+Todas las definiciones estratégicas (qué significa migrar, problema que compra el cliente, proceso, entregables y modelo de operación) han sido extraídas del repositorio operativo y documentadas.
+👉 **[Ver Entrevista Fundacional](file:///Users/luisca66/Documents/storm-knowledge-base/09-migracion-empresas/entrevista_fundacional.md)**
 
 ---
 ## Historial de Cambios
+- **2026-06-12** — Entrevista fundacional completada (Gemelo Digital ExO 3.0, rol de Builder, cartera de pilotos). Solo pendiente por definir estructura de precios.
 - **2026-06-10** — Espacio canonico creado tras confirmar que Migracion Empresas es un proyecto nuevo y una linea activa de ingresos.
