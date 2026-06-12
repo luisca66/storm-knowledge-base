@@ -106,6 +106,10 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 
 - [método] **El Efecto Santiago:** el costo de no hacer la inversión inicial (herramienta, setup, skill) supera siempre el costo de hacerla. 30 días sin metrónomo = 30 días mal estudiados. 1 día para comprarlo = 29 días bien estudiados. Es el mismo principio que la inversión en skill de agentes IA. → integrado en `01-metodo-pedagogico/filosofia-ensenanza.md` ✅
 
+### 2026-06-12
+
+- [filosofía] [método] **El KB como motor de mejora continua ante nuevos modelos:** Con la llegada de cada modelo nuevo (ej. Fable 5), el Knowledge Base no se vuelve obsoleto ni tiene que empezar de cero. Al contrario, el modelo encuentra inconsistencias, limpia, consolida y mejora la estructura. Es la materialización de "prepararse para la IA del futuro" que se le enseña a alumnos y clientes. La tecnología de IA evoluciona, pero el "cerebro externalizado" se acumula y perfecciona iterativamente a prueba del tiempo.
+
 ---
 
 ## Insights Procesados
