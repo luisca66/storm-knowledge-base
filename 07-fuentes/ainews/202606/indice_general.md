@@ -277,3 +277,30 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Integración y Autenticación:* Handshake y autenticación OAuth en Claude Code a través de endpoints locales del protocolo MCP para activar herramientas de Robinhood (`get_account`, `get_equity_positions`).
   - *Estrategia y Cuentas Aisladas:* Robinhood aísla el balance del agente en una cuenta Agentic separada del portafolio principal. Ryan Doser implementa una estrategia de monitoreo de insider trading de políticos y ejecutivos, registrando un log automático en markdown de las decisiones del agente.
 
+## [14 de Junio de 2026](./resumen_20260614.md)
+**Temas Principales:**
+- **Coinbase, Billeteras Agénticas y la Economía de la IA (Brian Armstrong, Peter Diamandis, Moonshots):**
+  - *Bitcoin y Activos:* Proyecciones de Bitcoin a $189k para fines de 2026 por Citi, contrastadas con Polymarket ($84k). Transición a stablecoins (Genius Act) y Ethereum Proof of Stake. Discusión del riesgo cuántico (BIP 360) para Bitcoin y el consejo asesor de Coinbase (Scott Aaronson, Dan Boneh).
+  - *Billeteras sin KYC para Agentes:* Coinbase habilita billeteras auto-custodiadas sin KYC sobre su base protocol para que agentes de IA transaccionen de forma autónoma, alcanzando 100M de transacciones y $50M en valor. Propuesta de reputación on-chain tipo PageRank para mitigar fraudes agénticos.
+- **Nacionalización de la IA y el Pivote de OpenAI (Peter Diamandis, Donald Trump, Sarah Friar, S1):**
+  - *Golden Shares Estatales:* Debate sobre la propuesta de Trump de participaciones estatales ("cuentas Trump") con equity en laboratorios de IA, citando precedentes como Intel y MP Materials.
+  - *S1 Confidencial de OpenAI:* Presentación del S1 en medio de la reestructuración corporativa (cierre de divisiones como Sora y re-enfoque total en Codex) y la cancelación del desarrollo propio de Stargate en favor de esquemas de arrendamiento de GPUs para sanear el capex.
+- **Mega-Acuerdo de Inferencia y Enjambres de Dyson (Google, SpaceX, xAI, AI1):**
+  - *Acuerdo Google-SpaceX:* Google arrienda 110,000 GPUs a SpaceX/xAI por $11,000 millones anuales hasta 2029 ante la escasez crítica de cómputo.
+  - *Satélite AI1 y GigaSat:* Develación del satélite AI1 (150 kW, disipación solar pasiva, 110m2 de refrigeración) para construir centros de datos orbitales en enjambres de Dyson. Nueva fábrica vertical de 11M sq ft (GigaSat) en Austin para fabricar satélites a escala.
+- **Reprogramación Epigenética y Edición de Embriones (Brian Armstrong, New Limit, Yamanaka, Life Biosciences):**
+  - *Reprogramación Epigenética:* New Limit recauda $435M para revertir la edad celular sin alterar el tipo de célula (reprogramación parcial de Yamanaka) mediante cribados masivos asistidos por IA sobre 10 cuatrillones de combinaciones de proteínas. Life Biosciences inicia tratamiento OSK.
+  - *Edición de Embriones:* Éxito de la Universidad de Columbia editando in vitro los genes PCSK9 e HBG en embriones humanos usando edición de bases de David Liu para mitigar errores de CRISPR.
+- **Herejías del Machine Learning y Modelos del Mundo (Yann LeCun, JEPA, SIGReg, Emmy Labs):**
+  - *Crítica a los LLM y Paradoja de Moravec:* LeCun sostiene que los LLM autorregresivos en espacio de tokens son ineficientes para razonar sobre el mundo real (continuo y de alta dimensión).
+  - *JEPA y SIGReg:* Modelos del mundo basados en embeddings conjuntos (Joint Embedding Predictive Architecture) entrenados con video auto-supervisado (como V-JEPA que detecta anomalías físicas). SIGReg para prevenir el colapso de embeddings maximizando la información.
+  - *Emmy Labs:* LeCun funda Emmy Labs (IA física, robótica y control industrial) tras dejar Meta.
+- **El Evangelio del Harness y Lock-In Empresarial (Nate B. Jones, Codex, Forward Deployed Engineering):**
+  - *Uso Intensivo de Tokens:* Uso de Codex quemando hasta 500M de tokens al día en flujos concurrentes (hilos de "jefe de gabinete" vs. subagentes).
+  - *Harness vs. Tokens:* La estrategia real de IA no es el prompt, sino construir el *harness* (memoria, permisos, evals y enrutamiento a modelos 99% más baratos). Lock-in empresarial a través de la integración de contexto privado mediante *forward deployed engineering*.
+- **Prohibición de Exportación de Fable 5 / Mythos 5 y Jailbreaks (Anthropic, Wired, Amazon, Andy Jassy):**
+  - *Bloqueo de la Casa Blanca:* Suspensión del acceso a Fable 5 y Mythos 5 de Anthropic para cualquier ciudadano extranjero por riesgo de seguridad nacional tras una directiva de control de exportaciones.
+  - *Origen del Bloqueo:* Investigadores de Amazon (uno de los mayores inversionistas de Anthropic) e inyecciones de jailbreak reportadas por Luta Security. Andy Jassy y líderes tecnológicos informaron a altos funcionarios de Trump.
+  - *Retracción de Sabotaje Silencioso:* Anthropic retira la política de degradación silenciosa (sabotaje invisible de IQ ante temas de investigación de LLMs frontera); las consultas bloqueadas ahora redirigirán explícitamente a Opus 4.8.
+
+
