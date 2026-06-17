@@ -303,4 +303,42 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Origen del Bloqueo:* Investigadores de Amazon (uno de los mayores inversionistas de Anthropic) e inyecciones de jailbreak reportadas por Luta Security. Andy Jassy y líderes tecnológicos informaron a altos funcionarios de Trump.
   - *Retracción de Sabotaje Silencioso:* Anthropic retira la política de degradación silenciosa (sabotaje invisible de IQ ante temas de investigación de LLMs frontera); las consultas bloqueadas ahora redirigirán explícitamente a Opus 4.8.
 
+## [15 de Junio de 2026](./resumen_20260615.md)
+**Temas Principales:**
+- **Trillonario de la IA y el Neocloud de SpaceX (SpaceX, Elon Musk, Anthropic, Google, Big Technology):**
+  - *Giro al Cloud de IA:* Musk convierte a SpaceX en una superpotencia de infraestructura de IA firmando contratos de arrendamiento de data centers con Anthropic ($15B) y Google ($30B) para Colossus 1.
+  - *Valuación e IPO:* SpaceX supera los $2.2 billones tras su IPO, convirtiendo a Musk en el primer trillonario. Se debate la concentración de moonshots en conglomerados privados frente al financiamiento histórico estatal.
+- **Escaparate y Retención de Datos de Fable 5 (Anthropic, Wired, Gary Marcus, David Sacks):**
+  - *Retórica de Seguridad como Marketing:* Críticas de Gary Marcus, David Sacks y Gergely Orosz acusando de marketing a las alarmantes restricciones de Mythos/Fable 5. Sospecha de que Fable (capado) sirve de escaparate para vender acceso a la versión Mythos (desbloqueada) del Proyecto Glasswing.
+  - *Fricciones en Datos:* Malestar de clientes empresariales ante la nueva política de retención de datos de 30 días para revisiones de seguridad.
+- **Guerra de Precios e Inferencia Premium (OpenAI, Anthropic, Sam Altman, Ranjan Roy):**
+  - *Recorte de Precios:* OpenAI sopesa bajar significativamente el costo de sus tokens para competir contra Anthropic. Ranjan Roy advierte del peligro de commoditizar e iniciar una guerra de precios cuando se trata de productos premium.
+- **SEO Local Pasivo y Rank-and-Rent (SEO Local, Astro, GitHub, Claude Code, Ryan Doser):**
+  - *Modelo Rank-and-Rent:* Estrategia de construir y posicionar sitios web de nicho de baja competencia y localizados (poda, fosas sépticas) para alquilar el flujo de leads a proveedores locales por $1,000–$2,000/mes. Ryan Doser ejemplifica creando `desmoinesseptic.com` usando Claude Code, Astro y logos generados por IA, alcanzando la página uno en una semana.
+- **Evangelio del Harness y Lock-In (Nate B. Jones, Codex, SemiAnalysis):**
+  - *Economía de Suscripciones:* SemiAnalysis estima que usuarios intensivos consumen hasta $14,000 (OpenAI) u $8,000 (Claude) nocionales en API por la suscripción de $200, actuando como subsidio de los laboratorios para escalar la inferencia.
+  - *Contexto Privado y Lock-In:* El verdadero valor corporativo está en poseer el *harness* (lógica de ruteo, permisos, memoria y evals de contexto privado) en lugar de rentarlo al laboratorio. Rol de la *forward deployed engineering* para inyectar contexto.
+
+## [16 de Junio de 2026](./resumen_20260616.md)
+**Temas Principales:**
+- **Crisis de Seguridad y Bloqueo de Exportación (Anthropic, Fable 5, Casa Blanca, Amazon, Andy Jassy):**
+  - *Directiva de Exportación:* La Casa Blanca impuso controles de exportación que suspendieron el acceso a Fable 5 y Mythos 5 a extranjeros (incluidos empleados de Anthropic). Esto provocó que Anthropic desactivara temporalmente ambos modelos.
+  - *Jailbreak de Amazon:* La alarma fue dada por investigadores de Amazon (que descubrieron vulnerabilidades de evasión de guardarraíles para acceder a Mythos) y el CEO Andy Jassy, quien informó a funcionarios de alto nivel.
+  - *Ensayo Político de Dario Amodei:* El ensayo "Política sobre el exponencial de la IA" del 10 de junio propone auditorías gubernamentales y la facultad estatal de detener despliegues (FDA para IA), lo cual ocurrió proféticamente días después.
+- **IPO de OpenAI e Investigación Automatizada (OpenAI, Sam Altman, Satya Nadella):**
+  - *Papeleo de Registro:* OpenAI presenta de forma confidencial su solicitud de registro de IPO, apuntando a salir dentro del próximo año a una valuación de $850,000 millones. Sam Altman aclara que la automejora recursiva podría posponerla.
+  - *Investigador de IA:* Declaraciones en "Construido para beneficiar a todos" fijando marzo de 2028 para automatizar una fracción de su investigación interna de IA.
+- **Turnaround de Siri y la primavera de 2027 (Apple, WWDC, Core AI, Swift, Gene Munster):**
+  - *Siri AI:* Reconstrucción total con conciencia de pantalla, App Intents y sincronización privada con iCloud. Gene Munster estima que la versión completa e integrada llegará en la primavera de 2027.
+- **Economía Industrial de la Inferencia (Nate B. Jones, Mitchell Hashimoto, Ghostty):**
+  - *Tokens como Trabajo:* En contraste con el entrenamiento episódico, la inferencia continua (especialmente en loops concurrentes de agentes que usan herramientas y se auto-corrigen) requiere una escala física masiva de centros de datos, convirtiendo a las Big Tech en industrias de fábricas físicas.
+  - *Verificación Agéntica:* Mitchell Hashimoto advierte sobre la subespecificación de tareas: los agentes son buenos cubriendo pruebas pero deficientes diseñando experiencias humanas (APIs o CLIs) sin supervisión experta.
+- **Riesgo Sistémico y Relocalización Laboral (Opendoor, India, Cass Neaten):**
+  - *Opendoor 2.0:* Desmantelamiento de operaciones deslocalizadas en India para traer el trabajo de vuelta a EE. UU. Los agentes de IA de bajo costo reemplazan funciones deslocalizadas y permiten equipos locales más compactos.
+- **Liderazgo de Superinteligencia (DeepMind, Shane Legg):**
+  - *Paper "De AGI a ASI":* Shane Legg define AGI y ASI, y traza cuatro vías de desarrollo (fricciones algorítmicas, automejora recursiva, escalar IA y orquestación multiagente). Introduce system prompts de resumen embebidos en el paper.
+- **Adquisición Bursátil de Cursor y Roku (SpaceX, Roku, Fox, Snap Specs):**
+  - *Adquisición de Cursor:* SpaceX adquirió de forma estratégica Cursor por $60,000 millones en acciones nuevas, lo cual se autofinanció al cuadruplicarse la valuación de SpaceX. Snap Specs se lanza a $2,195 y Fox adquiere Roku por ~$23,000 millones para el ecosistema publicitario de streaming.
+
+
 
