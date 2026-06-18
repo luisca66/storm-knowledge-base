@@ -340,5 +340,24 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **Adquisición Bursátil de Cursor y Roku (SpaceX, Roku, Fox, Snap Specs):**
   - *Adquisición de Cursor:* SpaceX adquirió de forma estratégica Cursor por $60,000 millones en acciones nuevas, lo cual se autofinanció al cuadruplicarse la valuación de SpaceX. Snap Specs se lanza a $2,195 y Fox adquiere Roku por ~$23,000 millones para el ecosistema publicitario de streaming.
 
+## [17 de Junio de 2026](./resumen_20260617.md)
+**Temas Principales:**
+- **Adopción Corporativa de IA y Tendencias de Gasto (Eric, Ramp, Big Technology):**
+  - *Liderazgo de Anthropic:* A pesar de la designación gubernamental de riesgo de Defensa, Anthropic es el modelo más pagado por las empresas en Ramp (41% de firmas vs. 39.5% de OpenAI), impulsado por el éxito agéntico de Claude Code y su adopción por no técnicos.
+  - *Métricas de Gasto Real:* El gasto corporativo en IA subió 15 veces desde enero de 2025. El top 1% de empresas gasta $7,449/mes por empleado (top 10%: $611/mes, mediana: $11/mes). El top 1% usa 8 proveedores de IA en promedio.
+  - *Amenaza de Google:* Google y Gemini Workspace amenazan el modelo de tokens al ofrecer enrutamiento e IA integrada en la nube (crecimiento del 60% trimestral de Google Cloud).
+- **Crisis de Fable 5 y Seguridad en Linux/Ghost (Tom Brown, Nicholas Carlini, Howard Lutnick):**
+  - *Reuniones en Washington:* Tom Brown y Nicholas Carlini (hacker de Anthropic) se reunieron con Comercio por el bloqueo de Fable/Mythos 5. Carlini demostró en marzo cómo usó la IA para explotar vulnerabilidades críticas en Linux y Ghost.
+  - *Causas de la Prohibición:* Temores a que China o aliados (ej. firma coreana en Glasswing) accedieran a Mythos 5. Comercio exige un KYC estricto para modelos frontier (snapr.biz.gov) y parchar jailbreaks.
+- **SpaceX, Cursor y la Inferencia Abierta en China (SpaceX, Cursor, GLM 5.2, DeepSeek):**
+  - *Cursor y SpaceX:* SpaceX alcanza $2.6 billones tras su IPO. Cursor creció de 100M a 2B de ARR en 18 meses (SaaS más rápido de la historia), representando casi el 50% de ingresos de Anthropic al inicio. Cursor lanza *Origin* (competidor de GitHub) y teasea un modelo inteligente de propósito general alternativo.
+  - *Precios Chinos:* GLM 5.2 (open source) bate en código a Opus 4.8 y es 82% más barato. Para 3,000 USD de tokens: DeepSeek da 3.45B, GLM 5.2 da 682M y Fable 5 da 60M. Microsoft evalúa enrutar Copilot a DeepSeek.
+- **Evangelio del Harness y Mantenimiento (Nate B. Jones, Vercel, Stewart Brand):**
+  - *Mantenimiento y Harness:* Vercel optimizó su agente de ventas eliminando el 80% de sus herramientas. Nate Jones expone que los agentes se desvían cuando el entorno se degrada o el modelo mejora (cambio de capacidades).
+  - *Principios de Harness:* Los agentes heredan la obsolescencia del entorno (wikis, SOPs viejos). El harness (permisos, logs, memoria, evals, ruteo) requiere mantenimiento continuo (velero de Stewart Brand).
+- **Decadencia de la No Ficción Impresa (Tim Ferriss, Tim Ferriss Books):**
+  - *Sustitución por Chatbots:* Tim Ferriss reporta una caída de 57% en ventas de libros de no ficción (2026 vs. 2025). Los libros de consulta y tutoriales de YouTube de "cómo hacer algo" son reemplazados por respuestas de chatbots en tiempo real, moviéndose el valor hacia la narración y entretenimiento humano.
+
+
 
 
