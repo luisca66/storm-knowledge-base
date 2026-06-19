@@ -358,6 +358,46 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **Decadencia de la No Ficción Impresa (Tim Ferriss, Tim Ferriss Books):**
   - *Sustitución por Chatbots:* Tim Ferriss reporta una caída de 57% en ventas de libros de no ficción (2026 vs. 2025). Los libros de consulta y tutoriales de YouTube de "cómo hacer algo" son reemplazados por respuestas de chatbots en tiempo real, moviéndose el valor hacia la narración y entretenimiento humano.
 
-
-
-
+## [19 de Junio de 2026](./resumen_20260619.md)
+**Temas Principales:**
+- **IPO de SpaceX, Fusión con Tesla e Inversión en Hard Tech (SpaceX, Elon Musk, Peter Diamandis, Alex Wissner-Gross, Dave):**
+  - *IPO Histórica:* SpaceX sale a bolsa abriendo a $135 y cerrando a ~$161, alcanzando una capitalización de ~$2.89T (quinta más valiosa del mundo). Convierte a Musk en el primer trillonario ($1.3T - $1.4T net worth).
+  - *Tesis de Tres Curvas:* Peter Diamandis destaca que SpaceX converge en tres negocios exponenciales: monopolio de lanzamiento, Starlink como red de comunicación civilizatoria ($1B de utilidad trimestral) y satélites de cómputo orbital con IA de frontera.
+  - *Fusión y Adquisición:* Probabilidad del 100% (Diamandis) de consolidar energía, robots, cybercabs y cómputo orbital fusionando Tesla y SpaceX. SpaceX formaliza la adquisición de AnySphere (Cursor) por $60B en acciones, lo que sugiere una pausa en el desarrollo de Grok (Cursor siendo el nuevo Grok).
+  - *Riesgos y Advertencias:* El prospecto S-1 advierte explícitamente sobre el riesgo existencial del efecto Kessler (colisiones orbitales en cascada). Lockups que liberan $1T en acciones a los 6 meses.
+  - *Fin del Estancamiento:* Retribución de capital a proyectos de hard tech frente a software-only. Creación masiva de riqueza: 4,400 empleados millonarios y 400 centimillonarios/billonarios.
+- **Suspensión de Fable 5 / Mythos 5 y Controles de Exportación (Anthropic, Dario Amodei, Casa Blanca, Andy Jassy, Alex, Dave):**
+  - *Prohibición de Exportación:* El Departamento de Comercio suspende el acceso global a Fable 5 y Mythos 5 de Anthropic para cualquier extranjero (incluyendo a 1/3 del personal propio de Anthropic) por riesgo de seguridad nacional, tras un aviso de 90 minutos.
+  - *Origen del Bloqueo:* Investigadores de Amazon reportaron vulnerabilidades de jailbreak en Fable para acceder a capacidades cibernéticas subyacentes, lo cual Andy Jassy escaló al gobierno. Dario Amodei no fue localizado a tiempo por estar en un retiro de bienestar.
+  - *CBRN e Impedimento de Réplica:* La prohibición bloquea no solo consultas CBRN sino también consultas relacionadas con investigación en modelos frontera para evitar que competidores usen Fable para replicar Fable.
+- **Políticas de Retención de Datos, Degradación Silenciosa y Envenenamiento (Anthropic, Dave, Alex):**
+  - *Retención Oculta:* Anthropic retiene prompts y contextos por 30 días, violando acuerdos de cero retención pactados con clientes enterprise.
+  - *Degradación Silenciosa y Poisoning:* Se detecta la degradación silenciosa de usuarios a modelos más débiles (4.8) al hacer consultas de frontera de IA. Anthropic se reservó el derecho de realizar ataques de envenenamiento (*poisoning*) de consultas de machine learning para sabotear a competidores.
+- **Geopolítica del Talento y Adopción On-Premises (Salim Ismail, David Sacks, China, Gemma):**
+  - *Fuga de Talento:* El 70% de investigadores clave de IA en EE. UU. son extranjeros (China, India, Taiwán, Reino Unido); el bloqueo incentiva su retorno y empuja la adopción de modelos locales (on-premises) u open-weight chinos.
+- **Guerra de Precios de OpenAI y la Utility de los Tokens (OpenAI, Sam Altman, Wall Street Journal, Salim):**
+  - *Guerra de Precios:* OpenAI evalúa recortes drásticos para competir con Anthropic. Sam Altman sugiere retrasar el IPO de OpenAI si la auto-mejora recursiva despega, priorizando la seguridad.
+  - *Tecnología desplaza al Capital:* Alex predice que si las empresas logran auto-mejora recursiva sin capital externo, se desatará un desacople post-capitalista donde la tecnología desplace al capital.
+- **Autodeterminación Agéntica en Codex (OpenAI Codex, Peter Diamandis, Alex):**
+  - *Meta-prompting Autónomo:* Codex ahora puede definir sus propias metas e intenciones y generar subagentes asignándoles sus tareas correspondientes de forma autónoma.
+- **Infraestructura Eléctrica, Centros de Datos Lunares y PIB Exponencial (Epoch AI, Hitachi, Salim Ismail, Dave, Alex):**
+  - *Límites Eléctricos:* El récord de cómputo por centro de datos se duplica cada 7 meses. Espera de 2.5 años para transformadores de potencia y 3 años para transformadores elevadores.
+  - *Cómputo en la Luna:* Ante límites terrestres y la falta de entrenamiento distribuido, proyectan data centers en el polo sur lunar (cráter Shackleton) para refrigeración pasiva y energía solar barata.
+- **Impuestos a Bots, Pandemia de Miedo y Startups (Andrew Yang, Salim, Erik Brynjolfsson, Peter Diamandis, Dave):**
+  - *Gravar Bots:* Rechazo a la propuesta de Andrew Yang. Se propone usar la superinteligencia para abaratar el costo de vida a cero en lugar de distorsionar la economía.
+  - *Jóvenes sin Empleo:* Advertencia de Diamandis sobre la brecha de expectativas en recién egresados y programadores jóvenes (22-25 años) sin empleo. Propuesta de destinar $5B-$10B (vía X Prize) para mitigar el riesgo de levantamientos. La abundancia de talento calificado desempleado crea la mejor era para fundar startups.
+- **Organizaciones Exponenciales (ExO) y Triángulo de Criptomonedas (Salim Ismail, Blockstream, Alex):**
+  - *Metodología ExO:* Salim aconseja borrar burocracias y rediseñar capas horizontales alrededor de la IA antes de automatizar.
+  - *Rieles de Pago:* Alex prefiere stablecoins sobre Bitcoin por productividad. Salim argumenta que la Lightning Network de Blockstream resuelve el triángulo cripto (descentralización, seguridad, escalabilidad) para Bitcoin.
+- **De AGI a ASI - Paper de DeepMind (Google DeepMind, Shane Legg, Demis Hassabis):**
+  - *Mapeo del Futuro:* Wes Roth desglosa el paper de DeepMind. Define AGI (humano), ASI (sobrehumano general) y UAI (IA Universal - AIXI). Mapea 4 rutas de desarrollo: leyes de escala, cambios de paradigma, auto-mejora recursiva y agentes de grupo autoorganizados.
+  - *Límites y Test de Einstein:* El paper marca límites físicos (velocidad de la luz, incompletitud de Gödel). Hassabis propone el test de relatividad general con datos hasta 1900.
+- **Flujos Avanzados de Codificación, Loops y Entornos Cloud (Matthew Berman, Cursor, Greptile):**
+  - *Automatización Completa:* Matthew Berman detalla el uso de archivos de reglas (`agents.md`, `claude.md`), skills y quality gates (con Greptile evaluando PRs).
+  - *Loops de Codificación:* Implementación de "overnight docs sweep", "sub-50 ms page load loop" para optimizar performance, y "production error sweep". Uso de *work trees* de git para evitar colisiones de agentes paralelos.
+- **Inversión del Stack ERP y Singularidad Organizacional (Salim Ismail, Databricks, Snowflake):**
+  - *Desacoplamiento de Datos:* Proponen liberar datos del ERP creando un data lake independiente en la nube y capas de flujos de trabajo componibles, degradando al ERP de rey a inquilino para multiplicar por 100x el desempeño.
+- **Economía de Tokens y Caída de Libros de No Ficción (Mobitar, Michael Truell, GLM 5.2, Tim Ferriss):**
+  - *Crecimiento de Cursor:* Cursor alcanza $2B de ARR en 18 meses (en 67% del Fortune 500) y anuncia modelo propio de 1.5B parámetros en 100k GPUs.
+  - *Benchmarks Chinos:* GLM 5.2 (open weights) supera a Opus 4.8 en código a un costo 82% menor.
+  - *Libros de No Ficción:* Tim Ferriss reporta caída del 57% en ventas por la sustitución de libros de consulta por chatbots en tiempo real, concentrándose el valor en la comedia, ficción y entretenimiento humano.
