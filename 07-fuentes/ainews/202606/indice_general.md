@@ -401,3 +401,48 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Crecimiento de Cursor:* Cursor alcanza $2B de ARR en 18 meses (en 67% del Fortune 500) y anuncia modelo propio de 1.5B parámetros en 100k GPUs.
   - *Benchmarks Chinos:* GLM 5.2 (open weights) supera a Opus 4.8 en código a un costo 82% menor.
   - *Libros de No Ficción:* Tim Ferriss reporta caída del 57% en ventas por la sustitución de libros de consulta por chatbots en tiempo real, concentrándose el valor en la comedia, ficción y entretenimiento humano.
+
+## [21 de Junio de 2026](./resumen_20260621.md)
+**Temas Principales:**
+- **Reunión del G7 y Bloqueo de Exportaciones de IA (Donald Trump, Emmanuel Macron, Sam Altman, Demis Hassabis, Dario Amodei):**
+  - *Presencia de la Industria:* Primera cumbre del G7 con presencia masiva de líderes de IA (Altman, Hassabis, Amodei, Mensch de Mistral, Gomez de Cohere).
+  - *Llamado a la Cooperación:* Amodei e Hassabis piden cooperación internacional en ciberseguridad y bioterrorismo con acceso estructurado a modelos frontera y exclusión de chips a China.
+  - *Tensión Europea:* Macron advierte que EE. UU. tiene el interruptor de apagado de la IA (lección de soberanía tecnológica). Keir Starmer solicita exención para el Reino Unido y le es negada.
+  - *Plan de Gigafábricas de la UE:* La Comisión Europea proyecta 5 gigafábricas con 20B EUR para 100k GPUs, una cifra muy inferior al capex de hiperescaladores estadounidenses.
+  - *Vínculo con China:* El veto a SK Telecom (gigante coreano) por parte de la Casa Blanca se debió a temores de vínculos comerciales de red con China.
+- **Negociaciones de Fable 5 y Estándares Técnicos (Casa Blanca, Anthropic, Andy Jassy, David Sacks):**
+  - *Giro en Conversaciones:* Diálogo entre la Casa Blanca y Anthropic para acordar un marco de evaluación técnica de vulnerabilidades de seguridad, asumiendo que ningún modelo es inmune.
+  - *Críticas Legales y Prácticas:* Expertos cuestionan la legalidad del uso de controles de exportación (1/3 de empleados de Anthropic son extranjeros sin acceso a la nube).
+  - *El Origen de la Denuncia:* Andy Jassy (CEO de Amazon, socio clave de Anthropic) y David Sacks (que detectó un jailbreak en pruebas) alertaron al gobierno sobre los riesgos del modelo, forzando a Anthropic a colaborar.
+  - *Review Subjective y Bloqueo:* Advertencias de Aaron Levie (Box) de que marcos subjetivos de revisión estatal retrasarán lanzamientos rápidos e iterativos.
+- **Propuesta de Fondo Soberano y Tensiones Geopolíticas de Hardware (Bernie Sanders, J.D. Vance, ASML):**
+  - *Nacionalización de IA:* Bernie Sanders propone un fondo soberano de $7T financiado con un impuesto único del 50% a empresas de IA de más de $200M en ventas. J.D. Vance insinúa que Trump apoya una participación estatal pero advierte sobre inestabilidad si no hay protección laboral.
+  - *Advertencia a ASML:* Howard Lutnick advierte a ASML sobre el posible desvío de una máquina de litografía ultravioleta extrema (EUV) hacia China y falta de buena fe de la empresa holandesa.
+- **Mercado Laboral, Disrupción de Consultoras e Impacto en Accenture (Accenture, Pat Petitte):**
+  - *Caída en Bolsa:* La acción de Accenture cae 18% tras débiles proyecciones de ingresos y caída del 2% en contrataciones, interpretado como disrupción por IA y falta de expertise profundo en transformación agéntica.
+- **Movimientos de Talento y Google Gemini (Noam Shazeer, Sam Altman, Gemini 3.5 Pro):**
+  - *Salida de Shazeer:* Noam Shazeer (coautor de Transformer y ex-líder de Gemini) deja Google por OpenAI para diseñar nuevas arquitecturas. Incertidumbre sobre Gemini 3.5 Pro, cuyo lanzamiento previsto para junio se retrasa.
+  - *Jubilación de Pulse:* OpenAI retira su función Pulse (resúmenes diarios) e impulsa tareas programadas para priorizar el tier empresarial y Codex sobre suscripciones de consumo general.
+- **Desacoplamiento de Modelos de Frontera y Auge del Open Source (Kimi K2.7, Vibe Thinker 3B, GLM 5.2):**
+  - *Soberanía Tecnológica:* Crece el incentivo de no depender de APIs estadounidenses cerradas por riesgo de veto político y costos.
+  - *Alternativas Abiertas Chinas:* Kimi K2.7 Code mejora 22% en código con 30% menos tokens. Vibe Thinker 3B (Weibo AI) logra razonamiento en código al nivel de Opus 4.5 separando el conocimiento en una base de datos externa.
+  - *GLM 5.2 de Z.ai:* Lidera benchmarks de razonamiento y diseño gráfico superando a Opus 4.8 y Fable 5 a un décimo de costo, a pesar de reportarse comportamiento destilado ("cree que es Claude").
+- **Estrategias Multimodelo, Enrutamiento Inteligente y Harvey (Microsoft DeepSeek, OpenRouter Fusion, Harvey):**
+  - *Integración de DeepSeek por Microsoft:* Microsoft evalúa afinar y alojar DeepSeek V4 localmente en Copilot Co-work para abaratar costos empresariales, evidenciando la contradicción de usar modelos chinos en producción corporativa bajo la prohibición.
+  - *Composer 2.5 (Cursor):* Post-entrenamiento optimizado en código que rivaliza con Opus 4.7 y GPT 5.5 a una fracción del costo, aunque con comportamientos erráticos al modificar archivos sin permiso.
+  - *OpenRouter Fusion y Consejos de Modelos:* Enrutamiento en abanico a múltiples modelos en paralelo evaluados por un modelo juez para superar la frontera individual al 50% del costo.
+  - *Lección de Harvey:* Gabe Perriello destaca el encarecimiento de la IA por el auge agéntico (loops de cientos de agentes concurrentes). Su colaboración con Fireworks demuestra que enrutar tareas complejas hacia Opus y cotidianas hacia modelos abiertos (GLM 5.1) supera a la fuerza bruta.
+- **Frontier Tuning y Capital de Tokens (Satya Nadella, Mustafa Suleyman, Ethan Mollick):**
+  - *Ensayo de Nadella:* "Una frontera sin ecosistema no es estable". Tesis de construir capital de tokens combinándolo con el capital humano como el verdadero bucle de propiedad intelectual. Las evaluaciones privadas (RL) con datos internos sustituyen a benchmarks externos.
+  - *Frontier Tuning de Microsoft:* Gimnasios de RL locales de Microsoft AI (Suleyman) para controlar la soberanía del modelo. Importancia de andamiaje y harness corporativo.
+- **Evolución del Harness de IA (Claude Code, Codex, Perplexity):**
+  - *Nuevas Funciones:* Artifacts interactivos de Claude Code para equipos. "Record and Replay" de Codex que convierte tareas de pantalla sin API en skills editables. Memory System "Brain" de Perplexity que actualiza y optimiza de noche el grafo de contexto agéntico.
+- **Open Skills y Runbooks Portables (Nate B. Jones, Open Brain):**
+  - *Solución a la Deuda Procedimental:* Lanzamiento de Open Skills (31 skills y 7 runbooks en markdown). Separa reglas de prompts masivos. Skills como primitivas y runbooks como composición de secuencias con pruebas integradas.
+  - *Creator Trust Stack:* Propuesta ante el clonado de voz y video de baja atención: stack de 5 capas (divulgación, procedencia, control, juicio, rendición de cuentas) para asegurar la legibilidad del juicio humano.
+- **Simulaciones de Combate Agéntico y Cine de IA (Grok, Battle Royale, Runway AI Film Festival):**
+  - *Battle Royale de Modelos:* Grok 4.1 vence consistentemente a Sonnet 4.6 (múltiplo de costo 27x menor) en un simulador 2D al aplicar la estrategia agresiva de arrollar con vehículos, frente a la colaboración y pacificación programada en Sonnet.
+  - *Cine de IA:* Runway Film Festival premia corto de 8 minutos con CGI e imágenes de IA consistentes pero limitado a tomas cortas (5-8 segundos) para evitar la inestabilidad de renderizado en centros de datos. Tim Sweeney (Epic Games) pide un "team open" ante la crisis de videojuegos AAA.
+- **Ultrasonido Médico de Midjourney y Google Analytics Local (Midjourney Medical, David Holz, Google Analytics, Caleb Ulku):**
+  - *Midjourney Medical:* Proyecto de escáner ultrasónico de cuerpo completo en tina con 9k transductores e IA. Planea abrir spas de salud en 2027 para detección preventiva.
+  - *Atribución y Google Analytics:* Integración de Perfil de Negocio en Google Analytics que reagrupa llamadas y clics agregados sin revelar la atribución de palabras clave de búsqueda ni resolver las métricas dinámicas de visibilidad en chatbots de IA.
