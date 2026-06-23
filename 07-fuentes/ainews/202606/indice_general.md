@@ -446,3 +446,44 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **Ultrasonido Médico de Midjourney y Google Analytics Local (Midjourney Medical, David Holz, Google Analytics, Caleb Ulku):**
   - *Midjourney Medical:* Proyecto de escáner ultrasónico de cuerpo completo en tina con 9k transductores e IA. Planea abrir spas de salud en 2027 para detección preventiva.
   - *Atribución y Google Analytics:* Integración de Perfil de Negocio en Google Analytics que reagrupa llamadas y clics agregados sin revelar la atribución de palabras clave de búsqueda ni resolver las métricas dinámicas de visibilidad en chatbots de IA.
+
+## [22 de Junio de 2026](./resumen_20260622.md)
+**Temas Principales:**
+- **Charla de Claude Code en Anthropic (Boris, Claude Code, Opus 4.5/4.8, Fable, Meta):**
+  - *Métricas de Desarrollo:* Boris (líder de Claude Code) reporta haber realizado 1,700 PRs, sumado 400k líneas y borrado 250k. Consumió 8B+ tokens desde marzo y escribe el 100% de su código usando Claude Code (desde Opus 4.5), incluso desde su teléfono.
+  - *Costo vs. Retorno de Inversión:* Boris propone priorizar el retorno de inversión sobre el costo de tokens. Recomienda otorgar tokens libremente a toda la organización (para fomentar innovaciones inesperadas) y optimizar el gasto por detrás (presupuestos de tokens por departamentos) solo cuando un caso de uso madure.
+  - *Aumento de Productividad:* La productividad se mide ahora en aceleración de producción de código (8x aumento de código por ingeniero en Anthropic en 2026). El cuello de botella se desplaza de la codificación a la generación de ideas y la investigación de usuarios.
+  - *Loops y Funciones de Orden Superior:* Transición de agentes individuales a "loops" (agentes que orquestan a otros agentes). Ejemplos: loop de revisiones de código automáticas y loop de lectura de feedback en Threads para abrir PRs de corrección de forma autónoma. Los loops representan el 30% del código diario de Boris.
+- **Producto Cowork e Inferencia Exponencial (Cowork, Claude Agent SDK):**
+  - *Cowork para No Ingenieros:* Extensión de Claude Code para equipos no técnicos con ganchos de seguridad virtuales y OS. Automatiza gestión de proyectos (Claudes de ingenieros comunicándose con el Cowork central) y reservas de viajes multitramo (vuelos y hoteles) leyendo Gmail y Google Calendar de forma autónoma.
+  - *El Salto de Fable:* El salto de Opus 4.8 a Fable se compara con el hito de Opus 4.5. Boris define a Fable como poseedor de "dimensionalidad" y matices intelectuales equivalentes a un colega humano brillante. Costo de oportunidad de tokens en Anthropic.
+  - *Persecución de Cuellos de Botella:* Integración de *Claude Code Review* (automatización de PR reviews al 98-99% de bugs) y herramientas autónomas de seguridad que corrigen fallas de código. El uso de flujos de trabajo dinámicos (cómputo en tiempo de inferencia orquestando decenas de subagentes) optimizó los tiempos de integración continua (CI) a la mitad en pocas horas.
+  - *Modo Automático de Aprobaciones:* Anthropic introduce el modo automático en el que un modelo decide si aprueba comandos en lugar del humano para mitigar la fatiga de decisiones. La tasa de éxito de inyección de prompts en Claude Code baja al 1%. Estilos de salida de aprendizaje (exploratorio y paso a paso) para ingenieros nuevos.
+- **Batalla por la Gobernanza de la IA y el Precedente de Mythos (Agencia de Seguridad Nacional, NSA, Joshua Rad, Mark Warner, The Economist):**
+  - *Penetración de Mythos:* El senador Mark Warner testificó que el modelo Mythos de Anthropic penetró casi todos los sistemas clasificados del gobierno en horas durante un ejercicio de red team de la NSA, desatando alarmas nacionales.
+  - *Arbitrariedad de Exportación:* Crítica al aviso de 90 minutos para apagar Fable/Mythos, lo cual devela que Washington puede usar su interruptor de apagado en cualquier momento.
+  - *Reserva Federal de la IA:* Propuesta de crear una institución reguladora independiente (Reserva Federal de IA) para evaluar modelos antes del lanzamiento, realizar exámenes y pruebas de estrés, y fijar requisitos de capital técnico en lugar de recurrir a vetos abruptos de fin de semana.
+- **Automejora Recursiva y Detención Global (Jack Clark, Anthropic Institute):**
+  - *Alerta de Automejora:* Declaración de Anthropic advirtiendo que los humanos son cada vez menos necesarios en la ciencia de frontera. Jack Clark argumenta que es muy probable que estemos a las puertas de la automejora recursiva.
+  - *Frenos a la IA:* Propuesta de habilitar un "freno" voluntario y coordinado entre países (similar a la estabilización nuclear en la Guerra Fría) para permitir que la investigación de alineación y seguridad alcance al avance técnico.
+- **Agentes Probabilísticos vs. Automatizaciones Deterministas (Solomon Christ, Ryan Doser, N8N, Zapier, Make):**
+  - *N8N no ha muerto:* Solomon Christ defiende que N8N y Zapier son esenciales por ser deterministas frente al comportamiento probabilístico e inconsistente de la IA agéntica en producción crítica.
+  - *MCP de N8N en TypeScript:* La integración de N8N en Claude Code vía MCP permite una combinación potente: Claude actúa de cerebro e invoca N8N para flujos críticos y cron jobs (que requieren servidores persistentes VPS frente a la ejecución local volátil de la IA).
+  - *Metáfora del Harness (Caballo):* El LLM es el caballo y el *harness* es la brida (código que integra herramientas, memoria y permisos). Peter creó *OpenClaw* con archivos de alma y latidos; *Hermes* prioriza memoria; *Claude Code* se enfoca en programación.
+  - *Retorno a lo Básico:* Solomon predice una huida de los tokens premium. Muchos procesos se resuelven con modelos offline más pequeños (Qwen, Gemma, Llama) sin depender de superdeportivos como Fable. Herramienta de B-roll desarrollada en 2 prompts que corre de forma local sin costo de tokens.
+- **Interfaces de Voz, Gafas de Realidad Aumentada y Anuncios Dirigidos (Big Technology Podcast, Spectacles, Evan Spiegel, Mike Rockwell, Whisper Flow):**
+  - *Fracaso de Gafas:* Caída de la acción de Snapchat tras lanzar Spectacles de AR (calificadas de pesadas y abultadas). Debate sobre la necesidad de delegar el cómputo al iPhone (como sugiere Alex) para aligerar las gafas.
+  - *Interfaz por Dictado:* Auge del dictado por voz mediante herramientas como *Whisper Flow* como nueva interfaz primaria.
+  - *Grafo de Anuncios:* Advertencia sobre perfiles hiper-detallados de usuarios generados a partir de chats íntimos y sesiones de terapia con IA para ser usados en publicidad (OpenAI y Google orientándose a esto, Anthropic resistiéndose).
+  - *Biocapacidades:* Debate de si la limitación de biocapacidades de Fable hizo más daño que beneficio. Expertos prefieren destilar modelos específicos para biovigilancia en lugar de limitar modelos frontera de forma general.
+- **Salidas de Talento en Google DeepMind (John Jumper, Demis Hassabis, Nobel 2024, Gemini 3.5 Pro):**
+  - *Éxodo Histórico:* El ganador del Nobel de Química John Jumper (líder de AlphaFold) deja DeepMind por Anthropic, sumándose a la salida de Noam Shazeer a OpenAI.
+  - *Desmoralización en DeepMind:* Reportes internos revelan baja moral en Google por no tener modelos de frontera competitivos y ser superados por GLM 5.2. Expectativas tibias para Gemini 3.5 Pro (previsto para el 30 de junio).
+- **Benchmarks de GLM 5.2 en Entornos Reales (GLM 5.2, Guillermo Rauch, Vercel, Designer Arena):**
+  - *Momento ChatGPT Abierto:* GLM 5.2 (MIT, 753B parámetros) causa conmoción. Guillermo Rauch (Vercel) e Itamar Golan lo destacan en tareas reales.
+  - *Diseño Web y Costo:* GLM 5.2 vence a Fable en Designer Arena por su uso del 91% de Tailwind CSS y Chart.js, aunque consume más tokens de salida y es lento de generar. Correrlo localmente requiere 8 GPUs H200 (~$400k).
+- **ChatGPT Job Search y Ventaja de Pre-Entrenamiento de Anthropic (OpenClaw, Alfredo, Nate B. Jones, Midjourney Medical):**
+  - *ChatGPT Job Search:* Nueva función automática de currículums y búsqueda de empleo en EE. UU.
+  - *Ventaja de Anthropic:* Nate B. Jones argumenta que Anthropic tiene la ventaja competitiva al poseer el modelo pre-entrenado más grande y fresco del mundo (Fable/Mythos), mientras OpenAI se enfoca en girar la manivela de post-entrenamiento (razonamiento) para sus modelos .1.
+  - *Midjourney Medical:* Elogio a la inversión autofinanciada de Midjourney en imagen médica de ultrasonido preventivo a gran escala en San Francisco.
+
