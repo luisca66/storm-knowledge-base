@@ -487,3 +487,36 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Ventaja de Anthropic:* Nate B. Jones argumenta que Anthropic tiene la ventaja competitiva al poseer el modelo pre-entrenado más grande y fresco del mundo (Fable/Mythos), mientras OpenAI se enfoca en girar la manivela de post-entrenamiento (razonamiento) para sus modelos .1.
   - *Midjourney Medical:* Elogio a la inversión autofinanciada de Midjourney en imagen médica de ultrasonido preventivo a gran escala en San Francisco.
 
+## [23 de Junio de 2026](./resumen_20260623.md)
+**Temas Principales:**
+- **Pelea por el Veto de Fable 5 y Controles de Exportación (Anthropic, Casa Blanca, Andy Jassy, David Sacks):**
+  - *Peticiones Imposibles:* Roetzer y Kaput explican que el gobierno de EE. UU. exige que las barreras de Fable no puedan ser vulneradas (100% inmunes al jailbreak), una demanda inherentemente imposible para modelos de lenguaje.
+  - *Sustento Legal y Ciberseguridad:* Uso del Export Control Reform Act de 2018 para el veto. Analistas de Epoch AI revelan que el preview de Mythos supuso un salto de 7 meses en el desarrollo automatizado de exploits, lo cual reescribe el régimen de parches en ciberseguridad.
+  - *Contradicción de Vance:* Se contrasta el discurso pro-construcción y anti-regulación de J.D. Vance en París (febrero 2025) frente al bloqueo actual impuesto por su propia administración.
+- **Trato Preferencial en la Cumbre del G7 y Catch-22 (OpenAI, PAC de Trump, Sakana, Black Forest Labs):**
+  - *Vendetta y Trato Preferencial:* Sospechas de un trato preferente hacia OpenAI y xAI. Sam Altman y Demis Hassabis flanquearon a Trump en el almuerzo del G7, mientras Dario Amodei fue relegado al extremo opuesto. Se destaca que Greg Brockman es el mayor donante del PAC de Trump.
+  - *Dilema de Lanzamientos:* Catch-22 para laboratorios: si OpenAI lanza un modelo inferior a Mythos, pierde tracción comercial; si es de capacidad similar, el gobierno lo bloqueará por seguridad nacional.
+  - *Predicción de Veto a Modelos Chinos:* Paul Roetzer predice que el gobierno prohibirá en un plazo de 30 días el uso corporativo de modelos open source chinos (ej. DeepSeek) por parte de empresas estadounidenses para mitigar fugas.
+- **Ecosistemas Exponenciales y Bucle de Aprendizaje (Satya Nadella, Mustafa Suleyman, Microsoft):**
+  - *Tokens vs. Capital Humano:* Nadella defiende que el capital humano (juicio y relaciones) se vuelve más valioso con la IA al actuar de motor para el capital de tokens.
+  - *Soberanía Intelectual:* El verdadero valor reside en poseer la máquina de escalar la colina (*hill climbing*) a través de evaluaciones y RL con datos privados de la organización, de modo que el modelo sea reemplazable sin perder el conocimiento institucional.
+- **Crisis de Previsibilidad y Enrutamiento de Modelos (SmarterX, HubSpot, OpenAI, Anthropic):**
+  - *Caos de Licenciamiento:* Explicación del caos en esquemas de cobro corporativos por asiento o pozos compartidos (Gemini, Claude, HubSpot) y falta de previsibilidad en facturas de tokens por el uso intensivo de agentes.
+  - *Uso Agéntico:* Mike desglosa la explosión de costos en loops agénticos (reenvío continuo de todo el contexto acumulado en cada paso). Caching de prompts como paliativo temporal.
+- **Fuga de Cerebros y el Futuro de Demis Hassabis (Noam Shazeer, John Jumper, Sergey Brin, DeepMind):**
+  - *Éxodo Histórico:* La salida de John Jumper a Anthropic y Noam Shazeer a OpenAI (recontratado por Google previamente por $2.7B) debilita a Google. Sergey Brin organiza un equipo de ataque para codificación.
+  - *Especulación sobre Demis:* Paul Roetzer teoriza sobre la salida de Demis Hassabis basándose en su biografía. Plantea que si Google no logra superar la frontera en 3 meses, se abrirán las compuertas de despidos voluntarios y fuga de talentos, sugiriendo la posibilidad de que Google vierta su esfuerzo en Anthropic.
+- **Ultrasonido Preventivo de Midjourney Medical (Midjourney Medical, David Holz, FDA):**
+  - *Ultrasonido Preventivo:* Escáner de cuerpo entero ultrasónico en tina en 60 segundos con resolución submilimétrica. Midjourney Medical esquiva la FDA al ofrecer inicialmente mapas de composición corporal en "spas de salud" en San Francisco en 2027.
+- **Superación de Persuasión Conversacional (Kobe Hackenberg, Oxford, Save the Children):**
+  - *Debate de Persuasión:* Estudio revela que sistemas de IA superan a debatientes de élite y cabilderos profesionales en persuasión conversacional. La ventaja de la IA reside en inundar la charla con datos a gran velocidad (294 palabras por respuesta); la ventaja cae a cero si se limita a la velocidad de escritura humana.
+- **Casos Prácticos y Automatización Local (Whisper, Praat, Claude Code):**
+  - *Auditoría de Oratoria:* Integración agéntica de Whisper (transcripción) y Praat (análisis de tono y volumen) con Claude Code para evaluar y optimizar de forma autónoma la velocidad de charlas públicas.
+- **Adquisiciones y Origin (SpaceX, Cursor, DeepSeek, Origin):**
+  - *Adquisición de Cursor:* SpaceX concreta la adquisición de Cursor por $60,000 millones en acciones para xAI. DeepSeek levanta $7,000 millones a una valoración de $50,000 millones.
+  - *Origin de Cursor:* Cursor lanza Origin, una alternativa a GitHub diseñada específicamente para tolerar la enorme carga y persistencia de flujos agénticos automatizados.
+- **Hábito de Peticiones y la Imaginación de Tareas (Nate B. Jones, Fable 5, CRM):**
+  - *Imaginación Detallada:* Nate B. Jones analiza cómo el hábito de pedir tareas pequeñas (borradores de correos) debido a las limitaciones de modelos anteriores (2023-2024) nos limita ante la capacidad de Fable 5, el cual es capaz de gestionar proyectos sucios y ambiguos de forma autónoma (ej. migración de CRM o auditorías complejas) con loops de revisión humana.
+  - *Gerentes de Modelos:* Desmitificación del desempleo masivo: los modelos requieren supervisión experta, impulsando el rol del "gerente de modelos".
+- **Noruega y Prohibición de IA Escolar (Noruega, Primaria, Mobitar):**
+  - Noruega prohíbe la IA en educación primaria (grados 1 a 7) y restringe su uso en grados superiores para priorizar habilidades básicas de lectura y escritura. Mobitar debate la disolución del rol de "generalista de código" por el auge agéntico.
