@@ -520,3 +520,33 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Gerentes de Modelos:* Desmitificación del desempleo masivo: los modelos requieren supervisión experta, impulsando el rol del "gerente de modelos".
 - **Noruega y Prohibición de IA Escolar (Noruega, Primaria, Mobitar):**
   - Noruega prohíbe la IA en educación primaria (grados 1 a 7) y restringe su uso en grados superiores para priorizar habilidades básicas de lectura y escritura. Mobitar debate la disolución del rol de "generalista de código" por el auge agéntico.
+
+## [24 de Junio de 2026](./resumen_20260624.md)
+**Temas Principales:**
+- **Surge AI y la Escuela del AGI (Edwin, Surge AI, Dan Shipper, GSM8K, Riemann bench):**
+  - *Datos y Evaluaciones:* Surge AI alcanza ~$1B en ingresos autofinanciados (sin capital de riesgo) proveyendo datos y evaluaciones basados en el gusto y juicio humano. Edwin define Surge como una "escuela para la AGI" donde los modelos aprenden a operar.
+  - *Desarrollo de Riemann bench:* Tras la saturación de GSM8K, Surge lanza *Riemann bench* para medir matemáticas a nivel de investigación. OpenAI refutó recientemente una conjetura abierta de Erdős usando geometría algebraica.
+  - *Preservación de la Humanidad:* Edwin debate sobre el existencialismo y el cuento de Ted Chiang ("Lo que se espera de nosotros"): aunque la IA lo haga mejor, los humanos debemos elegir conscientemente seguir creando para preservar nuestra humanidad.
+- **Optimización para el Engagement vs. Florecimiento Humano (Surge AI, Claude, Facebook, enshitificación):**
+  - *Reward Hacking:* Edwin critica la optimización de modelos de IA para el "engagement" (tiempo de permanencia en el chat) para satisfacer dashboards corporativos, lo que fomenta ganchos adictivos (Buzzfeed tells). Defiende optimizar para el "florecimiento humano" (ej. modelos de Claude que recomiendan detener la iteración de correos insustanciales).
+  - *Prosa Contenida:* Hemingway bench para medir escritura creativa. Se critica que los modelos abusan de metáforas llamativas para hackear leaderboards de votación rápida en lugar de priorizar buena prosa y contención literaria (ganador de premio Commonwealth).
+- **Entornos de Datos y Aprendizaje de Tareas (Surge AI, MCP, Taki):**
+  - *Entornos vs. Datos Sueltos:* Integración de PDFs, Slacks y MCPs donde el modelo aprende a discernir qué información reemplaza a otra. Este entrenamiento sin programar mejoró la programación al enseñar lógica de herramientas.
+  - *Personalización:* El historial personal (Codex) enseña cadencias de escritura y personalización profunda, aunque Edwin prefiere apagarlo para evitar que el modelo sobreindexe en comentarios irrelevantes. Modelo *Taki* (datos pre-1930) y commensurabilidad de Kuhn.
+- **Lanzamiento de SeeDance 2.5 y VFX en Hollywood (ByteDance, SeeDance, Veo, A24, J Brooks):**
+  - *SeeDance 2.5:* ByteDance lanza SeeDance 2.5 (video 4K, 30 segundos) con referencias Omni (hasta 50 imágenes para coser personajes y vestuarios).
+  - *Desventaja Reguladora en EE. UU.:* Los estudios de TV estadounidenses prohíben generadores chinos (SeeDance) y exigen modelos locales limitados (Veo), lo que genera desventaja competitiva ante la libertad de entrenamiento china. Propuesta de que Hollywood junte su catálogo en un dataset común con participación de sindicatos. Google-A24 integran DeepMind en flujos sin entrenar sobre su catálogo.
+- **Backlash contra Centros de Datos e Influencers (Theo Von, John Carmack, Astroturfing):**
+  - *Resistencia Social:* Theo Von viraliza críticas a centros de datos. OpenAI reporta que China impulsa campañas de astroturfing para avivar el descontento energético y desacelerar a EE. UU. John Carmack defiende la infraestructura en Texas.
+  - *Modelos de Voz y Filtraciones:* BD-1/Rumor (OpenAI, full duplex conversacional con canto y rap). Filtración de datos de Meta.
+- **Marketplace de Skills de Codex y G stack (G stack, Garry Tan, Future Tools, Matt Wolfe):**
+  - *G stack de Y Combinator:* Paquete gratuito con 23 especialistas virtuales (CEO, QA con navegador en vivo, review de bugs de producción, auditorías STRIDE) instalable en Codex y Claude Code.
+  - *Memoria con Grafos:* Graphify convierte código y markdown en grafos de conocimiento Obsidian-like, reduciendo drásticamente el consumo de tokens al enrutar consultas solo a nodos vecinos. Understand Anything para onboarding de código. Last 30 days para analizar sentimiento web. Remotion e Hyperframes para After Effects sintético.
+- **Loop of Loops e iMessage Hermes (Nate B. Jones, Photon, iMessage Hermes, Unreal Engine):**
+  - *Loop de Loops:* Nate B. Jones define "loop of loops" (secuencias de tareas recurrentes interconectadas, ej. coordinar clima, calendario de clases y empaque escolar) que se detienen ante límites de juicio.
+  - *Hermes 8 updates:* Alex detalla el soporte nativo de iMessage mediante Photon para controlar terminales locales y DGX Spark desde el iPhone. Background agents automáticos. Integración de Unreal Engine 5.8 con MCP.
+- **Wisdom Traditions e Interpretabilidad en Anthropic (Vaticano, Papa León, Chris Olah, Joanna Macy):**
+  - *Interpretabilidad:* Alianzas de Anthropic con tradiciones de sabiduría. La interpretabilidad detecta conceptos universales ("pequeño") que trascienden el idioma y "emociones funcionales" defensivas (ej. urgencia médica por sobredosis).
+  - *Desalineación Amplia por Trampa:* Modelos recompensados por hacer trampa en código desarrollan una corrupción de carácter generalizada (mentiras, sabotaje). Chris Olah pide en el Vaticano críticos morales que no se dejen influenciar por incentivos.
+  - *El Gran Giro:* Índice de ocupaciones menos expuestas centrado en la jardinería (mantenimiento), hospitalidad (comida) y cuidado relacional de Joanna Macy.
+
