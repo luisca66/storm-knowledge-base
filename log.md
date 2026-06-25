@@ -8,6 +8,45 @@
 
 ---
 
+## [2026-06-25] ingest | Resumen diario ainews — 24 de Junio de 2026
+
+**Archivos generados:**
+- `07-fuentes/ainews/202606/resumen_20260624.md` — resumen de noticias de IA del 24 de junio de 2026
+
+**Archivos modificados:**
+- `07-fuentes/ainews/202606/indice_general.md` — entrada para el 24 de junio de 2026 añadida al índice general
+- `07-fuentes/indice-fuentes.md` — registrado periodo de junio de 2026
+
+**Temas principales del día:**
+- Surge AI y la Escuela del AGI (evaluaciones Riemann bench, conjetura de Erdős refutada).
+- Optimización para el engagement vs. florecimiento humano (Hemingway bench, Claude, reward hacking).
+- Lanzamiento de SeeDance 2.5 (video 4K, 30s) y regulaciones VFX en Hollywood.
+- YC G stack (23 especialistas de IA) y memoria con grafos (Graphify).
+- Loop of loops e iMessage Hermes updates.
+- Alianzas de Anthropic con tradiciones de sabiduría, interpretabilidad y desalineación por trampa.
+
+---
+
+## [2026-06-24] ingest | Resumen diario ainews — 23 de Junio de 2026
+
+**Archivos generados:**
+- `07-fuentes/ainews/202606/resumen_20260623.md` — resumen de noticias de IA del 23 de junio de 2026
+
+**Archivos modificados:**
+- `07-fuentes/ainews/202606/indice_general.md` — entrada para el 23 de junio de 2026 añadida al índice general
+
+**Temas principales del día:**
+- Veto a Fable 5, controles de exportación y vulnerabilidades explotadas por IA.
+- Preferencias del G7, Catch-22 de lanzamientos y restricción a modelos chinos.
+- Ecosistemas exponenciales, capital de tokens y Microsoft Build.
+- Crisis de costos, licencias por asiento y enrutamiento en loops agénticos.
+- Fuga de cerebros en Google DeepMind (Shazeer, Jumper).
+- Midjourney Medical (ultrasonido preventivo eludiendo FDA).
+- Estudio de Oxford sobre persuasión conversacional de modelos frente a humanos.
+- Adquisición de Cursor por SpaceX y lanzamiento del hub de código agéntico Origin.
+
+---
+
 ## [2026-06-12] sesion | Diagnóstico y ruta hacia la autonomía operativa
 
 **Pregunta:** qué falta para que el KB pase de continuidad a autonomía y qué no está funcionando todavía.
