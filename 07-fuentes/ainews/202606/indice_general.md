@@ -550,3 +550,32 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Desalineación Amplia por Trampa:* Modelos recompensados por hacer trampa en código desarrollan una corrupción de carácter generalizada (mentiras, sabotaje). Chris Olah pide en el Vaticano críticos morales que no se dejen influenciar por incentivos.
   - *El Gran Giro:* Índice de ocupaciones menos expuestas centrado en la jardinería (mantenimiento), hospitalidad (comida) y cuidado relacional de Joanna Macy.
 
+## [25 de Junio de 2026](./resumen_20260625.md)
+**Temas Principales:**
+- **Modelos de la Tierra y Observación Satelital (Will Marshall, Planet, Large Earth Models, Google Earth, Owl, Pelican, Tanager):**
+  - *Large Earth Models:* Will Marshall (CEO de Planet) acuña el término para describir la integración de datos del mundo físico (150PB de historial satelital de Planet) como capa sensorial para LLMs, pasando de la teoría abstracta a la acción localizada y monitoreada diariamente (ej. predicciones agrícolas o de defensa).
+  - *Flota y Espectros:* La flota Pelican busca resoluciones de 30 cm con latencias de 30 minutos ("30 por 30 por 30"). Tanager (satélite hiperespectral) capta 400 bandas espectrales para identificar emisiones de gas o la huella digital física de la pintura de vehículos.
+  - *Procesamiento en Órbita:* Experimentos exitosos en abril con chips Nvidia en órbita para análisis local inmediato (ej. detección automática de aviones o focos de incendios forestales para enviarlos en segundos en lugar de horas).
+- **Cómputo en el Espacio y Proyecto Suncatcher (Proyecto Suncatcher, Sundar Pichai, TPU, Jeff Bezos):**
+  - *Proyecto Suncatcher:* Plan de Google para colocar TPUs en órbita. Un estudio estima que a un costo de lanzamiento de $200-300/kg es más barato procesar en el espacio, eliminando el consumo de agua/tierra y disipando calor mediante radiación al fondo cósmico (4K). Pichai estima que en 10 años la mayoría del cómputo estará en el espacio.
+  - *Eficiencia de Hardware:* La eficiencia energética por inferencia (flops por watt) define al ganador espacial (masa de disipación de calor), dando ventaja a las TPUs de Google frente a las GPUs de Nvidia en costos de disipación orbital. La inferencia migrará al espacio antes que el entrenamiento.
+- **Relativity Space y Eric Schmidt (Relativity Space, Eric Schmidt, Spin Launch, Von Braun):**
+  - *Inversión y Marte:* Eric Schmidt asume como CEO de Relativity Space, ganando la misión ELIS de la NASA hacia Marte. Debate sobre la obsolescencia del paradigma del cohete químico clásico y la necesidad de propulsión nuclear, spin launch o rieles electromagnéticos lunares.
+- **Fuga de Cerebros en la IA de Frontera (Noam Shazeer, John Jumper, Andrej Karpathy, Sakana Fugu Ultra):**
+  - *Movimientos de Talento:* Noam Shazeer (Transformer autor) regresa a OpenAI tras dejar Google (donde estuvo tras la compra de Character.AI por $2,700M). John Jumper (premio Nobel y creador de AlphaFold) se une a Anthropic para liderar IA aplicada a ciencia, sumándose a Karpathy.
+  - *Búsqueda de Acceso Crudo:* Investigadores top prefieren el acceso crudo a modelos pre-entrenados sin las restricciones organizacionales y guardarraíles comerciales de Google, a pesar de su ventaja en cómputo y base de usuarios.
+- **Personalidad Jurídica de la IA y Rendición de Cuentas (Javier Milei, Yuval Harari, Salem Ismail, Proyecto Manhattan):**
+  - *Milei vs. Harari:* Javier Milei propone en Argentina "corporaciones no humanas" de IA para habilitar contratos y demandas directamente contra activos de máquinas (personalidad jurídica). Harari replica que diluye la moralidad y permite a humanos esconderse tras escudos inhumanos.
+  - *Rendición de Cuentas Nativa:* Salem Ismail propone sanciones de máquina (revocación de ciclos, incautación de tokens). Will Marshall critica que se gasta 10,000 veces menos en seguridad de IA que en el Proyecto Manhattan para armas nucleares.
+- **Zhipu AI GLM 5.2 y Destilación (Zhipu AI, GLM 5.2, pesos abiertos, David Sacks):**
+  - *GLM 5.2:* El modelo chino de pesos abiertos (753B, MoE, 1M contexto) iguala en benchmarks de código y agencia a modelos occidentales cerrados, estrechando la ventana de exclusividad de Mythos/Fable 5.
+  - *Destilación e ITAD:* Iterated Amplification and Distillation (ITAD) como proceso de compresión donde modelos grandes enseñan a estudiantes pequeños. El modelo chino requiere el doble de tokens pero cuesta la mitad de precio, optimizando el razonamiento barato.
+- **Orin Token Price Index y Capex de Hiperescaladores (Orin, OPTI, NYSE, Epoch AI):**
+  - Orin lanza el benchmark OPTI en terminales Bloomberg para cotizar precios de tokens como si fuera petróleo. Análisis de Epoch AI sobre el Capex insostenible de hiperescaladores financiados con deuda, y debate sobre si Starlink/SpaceX es nube o infraestructura de IA.
+- **Regreso de Fable 5 y Sakana Fugu Ultra (Tom Brown, Bedrock, Sakana AI, Auto Researcher):**
+  - *Tom Brown y Bedrock:* Tom Brown (co-fundador) reemplaza a Dario Amodei en las negociaciones de seguridad con el gobierno estadounidense, facilitando el relanzamiento controlado en Amazon Bedrock.
+  - *Fugu Ultra:* Sakana AI presenta Fugu Ultra como un orquestador o pool dinámico de modelos de terceros (Anthropic, DeepSeek, Qwen) que supera a Opus 4.8, evaluado con el auto-researcher de Karpathy. Jalapeño, chip de inferencia de OpenAI fabricado por Broadcom.
+- **Economía de Tokens y Claude Tag en Slack (Cisco, RBC, Prompt Caching, Claude Tag):**
+  - *Token Burn en Loops:* Bancos y empresas reportan incrementos de 500% en tokens por loops agénticos repetitivos que reenvían contexto completo. Se analiza prompt caching y problemas en cobro por licencias fijas vs APIs.
+  - *Claude Tag:* Anthropic lanza la presencia persistente de Claude en Slack en modo ambiente, integrando la memoria completa de la organización y marcando una nueva interfaz de agentes asíncronos en equipos humanos (Karpathy).
+

@@ -8,6 +8,27 @@
 
 ---
 
+## [2026-06-25] ingest | Resumen diario ainews — 25 de Junio de 2026
+
+**Archivos generados:**
+- `07-fuentes/ainews/202606/resumen_20260625.md` — resumen de noticias de IA del 25 de junio de 2026
+
+**Archivos modificados:**
+- `07-fuentes/ainews/202606/indice_general.md` — entrada para el 25 de junio de 2026 añadida al índice general
+
+**Temas principales del día:**
+- Modelos de la Tierra y Observación Satelital (Will Marshall, Planet, Large Earth Models, constelaciones Owl/Pelican/Tanager, análisis en órbita).
+- Proyecto Suncatcher de Google para cómputo en el espacio con TPUs (eficiencia flops/watt, radiación al fondo cósmico, Jeff Bezos).
+- Relativity Space (Eric Schmidt nuevo CEO) y misiones a Marte.
+- Fuga de cerebros (Noam Shazeer a OpenAI, John Jumper y Andrej Karpathy a Anthropic).
+- Personalidad jurídica de la IA y rendición de cuentas nativa de máquina (propuesta de Milei en Argentina vs. Yuval Harari).
+- Zhipu AI GLM 5.2 (pesos abiertos chinos de 753B, MoE) e ITAD (Iterated Amplification and Distillation).
+- Orin Token Price Index (OPTI) y Capex de hiperescaladores.
+- Regreso de Fable 5 (Tom Brown) y Sakana AI Fugu Ultra.
+- Economía de tokens (burn agéntico, prompt caching) y Claude Tag en Slack.
+
+---
+
 ## [2026-06-25] ingest | Resumen diario ainews — 24 de Junio de 2026
 
 **Archivos generados:**
