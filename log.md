@@ -8,6 +8,28 @@
 
 ---
 
+## [2026-06-29] ingest | Resumen diario ainews — 28 de Junio de 2026
+
+**Archivos generados:**
+- `07-fuentes/ainews/202606/resumen_20260628.md` — resumen de noticias de IA del 28 de junio de 2026
+
+**Archivos modificados:**
+- `07-fuentes/ainews/202606/indice_general.md` — entrada para el 28 de junio de 2026 añadida al índice general
+
+**Temas principales del día:**
+- Modelos de video de ByteDance (Seedance 2.5, Seed 2.1, Perception DM) y Alibaba (Happy Horse 1.1).
+- Avatares en tiempo real (OneStreamer), consistencia (Domain Shuttle) y Lyft 4D.
+- OpenAI Jalapeño (chip de inferencia) e IBM Sub-1 Nanómetro (transistores 3D nanostack).
+- Imagen y 3D (Krea 2, unzero, Stability Arbor add-on de Blender).
+- Coding agéntico (Ornith 1.0) y auto-andamiaje (self-harness).
+- Robótica Unitree R1 acrobático y dataset HIW500.
+- Ultrasonido cerebral de Olif y bucle de datos sintéticos Auto Data de Meta.
+- Geopolítica de la IA frontera (preview limitado de GPT-5.6 Soul/Terra, alivio del veto a Mythos 5, Alex Stamos).
+- Soberanía tecnológica y hardware local (Alex Vibe Coding, Tailscale, RTX 5090).
+- Economía de los harnesses y bucle de contexto en Slack (Nate B. Jones, Claude Tag).
+
+---
+
 ## [2026-06-25] ingest | Resumen diario ainews — 25 de Junio de 2026
 
 **Archivos generados:**

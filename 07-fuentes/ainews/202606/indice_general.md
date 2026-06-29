@@ -579,3 +579,36 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Token Burn en Loops:* Bancos y empresas reportan incrementos de 500% en tokens por loops agénticos repetitivos que reenvían contexto completo. Se analiza prompt caching y problemas en cobro por licencias fijas vs APIs.
   - *Claude Tag:* Anthropic lanza la presencia persistente de Claude en Slack en modo ambiente, integrando la memoria completa de la organización y marcando una nueva interfaz de agentes asíncronos en equipos humanos (Karpathy).
 
+## [28 de Junio de 2026](./resumen_20260628.md)
+**Temas Principales:**
+- **Modelos de Video de ByteDance y Alibaba (ByteDance, Seedance 2.5, Seed 2.1, Perception DM, Happy Horse 1.1):**
+  - *Seedance 2.5:* ByteDance lanza Seedance 2.5 (clips de 30s, 4K, hasta 50 referencias multimodales) con control de edición local (dibujar caja) para producción real de cineastas.
+  - *Seed 2.1 y Perception DM:* Lanzamiento de Seed 2.1 (agente multimodal de productividad Pro/Turbo) y Perception DM (modelo de visión y lenguaje que genera descripciones multiregión simultáneas por difusión).
+  - *Happy Horse 1.1:* Upgrade de Alibaba con mejor movimiento, consistencia de personaje y audio nativo con lip-sync.
+- **Avatares Conversacionales en Tiempo Real y Lyft 4D (OneStreamer, Domain Shuttle, Lyft 4D):**
+  - *OneStreamer:* Avatar conversacional fluido a 25 fps y latencia de 200 ms. Integra texto, audio y video en un solo transformer, con soporte dúplex (escucha/mira mientras habla).
+  - *Domain Shuttle y Lyft 4D:* Consistencia de personaje cruzando estilos 2D, 3D y real. Lyft 4D convierte video ordinario monocular en una escena 4D orbitable.
+- **OpenAI Jalapeño e IBM Sub-1 Nanómetro (Jalapeño, Broadcom, IBM, nanostack, ley de Moore):**
+  - *Jalapeño:* OpenAI diseña con Broadcom un chip de inferencia (Jalapeño) optimizado en base a la forma en que los agentes usan modelos, reduciendo consumo por watt.
+  - *IBM 0.7 nm (7 Angstroms):* IBM presenta transistores apilados verticalmente (arquitectura *nanostack* 3D), logrando 100 mil millones de transistores en una uña y demostrando que la ley de Moore continúa mediante diseño vertical.
+- **Modelos de Imagen y Geometría 3D (Krea 2, unzero, Stability Arbor):**
+  - *Krea 2 y unzero:* Krea 2 (código abierto, realista y poco censurado). unzero (modelo experimental que evita difusión usando osciladores acoplados auto-sincronizados).
+  - *Stability Arbor:* Add-on de Blender para definir mallas de restricción geométrica para generadores 3D.
+- **Coding Agéntico y Auto-Andamiaje (Ornith 1.0, self-harness, Mixture-of-Experts):**
+  - *Ornith 1.0:* Mixture-of-experts (9B a 397B) para coding agéntico. Supera a modelos de más del doble de tamaño. Su método de entrenamiento enseña al modelo a generar y refinar su propio harness o andamiaje operativo para resolver tareas.
+- **Robótica Humanoide Unitree R1 y Dataset HIW500 (Unitree R1, HIW500):**
+  - *Unitree R1:* Humanoide acrobático y de breakdance por $4,900 dólares. Dataset HIW500 aporta 500 horas de video del Unitree G1 operando en hogares reales desordenados.
+- **Ultrasonido Cerebral y Auto Data de Meta (Olif, Auto Data, Meta, datos sintéticos):**
+  - *Olif y Auto Data:* Olif lee la vascularidad cerebral en alta resolución usando ultrasonido y microburbujas. Auto Data de Meta es un bucle agéntico que genera, evalúa e itera datos sintéticos, mejorando la receta de entrenamiento de forma automática.
+- **Veto Gubernamental y Preview Limitado (GPT-5.6 Soul/Terra, Claude Mythos 5, la subclase permanente):**
+  - *Preview Limitado:* OpenAI lanza la familia 5.6 (Soul, Terra, Luna). A petición del gobierno de EE. UU., Soul (más potente) se libera bajo preview limitado aprobado cliente por cliente.
+  - *Mythos 5:* El gobierno de EE. UU. emite una carta aliviando el veto a Claude Mythos 5 para apenas 100 socios de confianza.
+  - *Análisis de Alex Stamos:* Crítica al régimen regulatorio ad hoc. Amazon Bedrock provocó el veto por pruebas de seguridad. Se advierte que restringir la búsqueda de vulnerabilidades debilita a defensores mientras atacantes usan modelos chinos. NIST confirma la imposibilidad matemática del jailbreak cero.
+- **Soberanía Tecnológica y Hardware Local (Alex, Tailscale, RTX 5090):**
+  - *Urgencia Soberana:* Alex (Vibe Coding Academy) aboga por la soberanía tecnológica local (Tailscale, hardware propio como Mac Studio o GPUs) para evitar el riesgo político y de privacidad de la nube, en un contexto de alzas de 20-25% en hardware.
+- **Economía de los Harnesses y el Bucle de Contexto (Nate B. Jones, Claude Tag, Flo Crivello):**
+  - *La paradoja de los Harnesses:* Modelos abiertos como GLM 5.2 son 98% más baratos, pero las empresas no migran por la complejidad de reconstruir sus harnesses (prompts, tool calls, memoria) descrita por Flo Crivello (Lindy).
+  - *Rentando el Contexto:* Claude Tag en Slack integra el contexto completo en modo ambiente, haciendo imposible de arrancar a Anthropic y rentando la memoria de la empresa de vuelta al proveedor de la nube.
+- **Hermes Setup y Open Skills (Matthew, open skills, Manim):**
+  - *Matthew's Walkthrough:* Setup de Hermes (OpenClaw) con ruteo de modelos, auto-sanación, perfiles y gateways de mensajería (Telegram). Generación de videos mediante Manim.
+
