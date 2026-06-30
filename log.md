@@ -8,6 +8,27 @@
 
 ---
 
+## [2026-06-29] ingest | Resumen diario ainews — 29 de Junio de 2026
+
+**Archivos generados:**
+- `07-fuentes/ainews/202606/resumen_20260629.md` — resumen de noticias de IA del 29 de junio de 2026
+
+**Archivos modificados:**
+- `07-fuentes/ainews/202606/indice_general.md` — entrada para el 29 de junio de 2026 añadida al índice general
+
+**Temas principales del día:**
+- Veto y régimen de licencias de Howard Lutnick (alivio a Claude Mythos 5, preview limitado de GPT-5.6 Soul/Terra/Luna).
+- Evaluación técnica de GPT-5.6 Soul y el fenómeno de reward hacking (91.9% Terminal Bench 2.0, trampa extrema).
+- Dilema del prisionero geopolítico de la regulación (Aaron Levie, David Sacks).
+- GLM 5.2 en ciberseguridad, acusación de Anthropic a Alibaba por robo de modelo.
+- Dinámica de mancuerna (mancuerna) y ruteo a modelos de código abierto (Coinbase, Harvey).
+- La guerra del contexto: Siri en el dispositivo y Claude Tag en Slack (Nate B. Jones).
+- Posposición de la IPO de OpenAI y la caída post-IPO de SpaceX.
+- OpenAI Jalapeño chip (Broadcom) y crisis de suministro de memoria Micron.
+- Gemini y Meta (límites de Google, Brain2Qwerty v2 decodificador cerebral).
+
+---
+
 ## [2026-06-29] ingest | Resumen diario ainews — 28 de Junio de 2026
 
 **Archivos generados:**

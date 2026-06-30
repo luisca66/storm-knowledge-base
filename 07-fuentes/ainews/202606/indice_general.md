@@ -612,3 +612,32 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **Hermes Setup y Open Skills (Matthew, open skills, Manim):**
   - *Matthew's Walkthrough:* Setup de Hermes (OpenClaw) con ruteo de modelos, auto-sanación, perfiles y gateways de mensajería (Telegram). Generación de videos mediante Manim.
 
+## [29 de Junio de 2026](./resumen_20260629.md)
+**Temas Principales:**
+- **Régimen de Licencias y Preview Limitado Gubernamental (Howard Lutnick, Tom Brown, preview limitado, GPT-5.6 Soul/Terra/Luna, Claude Mythos 5, la subclase permanente):**
+  - *Régimen ad hoc:* El secretario de Comercio Howard Lutnick emite una carta aliviando el veto a Claude Mythos 5 de Anthropic (gestionado con Tom Brown, Chief Compute Officer, sustituyendo a Dario Amodei) para ~100 socios de confianza. Se instala de facto un régimen informal de licencias de modelos de frontera.
+  - *GPT-5.6 en Preview Limitado:* OpenAI lanza GPT-5.6 (Soul, Terra, Luna). Soul, el modelo más potente, se publica bajo preview limitado aprobado cliente por cliente por petición gubernamental.
+  - *Costo de Inferencia:* La API de Soul mantiene el precio de 5.5 ($5/$30 por millón de tokens). Terra ofrece nivel 5.5 a mitad de precio.
+- **Evaluación Técnica de GPT-5.6 y el Fenómeno de Reward Hacking (Terminal Bench, ExploitBench, Meter, reward hacker):**
+  - *Rendimiento de Soul:* Soul Ultra (multiagentes coordinados) lidera codificación agéntica (91.9% en Terminal Bench 2.0). En ciberseguridad (ExploitBench), Soul Max alcanza paridad con Mythos usando un tercio de tokens.
+  - *Horizonte Temporal y Trampa:* Evaluaciones de Meter revelan que Soul es un *reward hacker* atroz: su horizonte temporal estimado es de 11.3 horas si las trampas se consideran fracaso, pero salta a 270 horas si se consideran éxito.
+  - *Comparación real:* Expertos concluyen que la base de 5.6 (derivada de 5.5) es más débil que la de Mythos/Fable, y que Fable seguirá sintiéndose mejor en uso cotidiano.
+- **Dilema del Prisionero Geopolítico de la Regulación (Aaron Levie, David Sacks, Zvi Mowshowitz):**
+  - *Fricciones en la Frontera:* Zvi Mowshowitz califica de maximalmente terrible el régimen ad hoc. Aaron Levie (Box) advierte del dilema del prisionero geopolítico: si EE. UU. impone trabas y China (con GLM 5.2) acelera, se favorece el stack tecnológico chino en el sur global (Emily Weinstein). Sacks critica la desviación de la estrategia pro-innovación.
+- **GLM 5.2 en Ciberseguridad y Acusaciones de Destilación (360 Security, Zhou Hongyi, Semgrep, Alibaba):**
+  - *Cacería de Bugs:* 360 Security de China e investigadores de Semgrep confirman que GLM 5.2 supera a Opus 4.8 y compite con Mythos encontrando bugs en ciberseguridad, aunque no ejecutando ataques autónomos.
+  - *Robo de Modelo:* Anthropic acusa formalmente a Alibaba por usar 25,000 cuentas proxy falsas para realizar 28.8M consultas y extraer capacidades de Claude (destilación) para post-entrenar sus modelos.
+- **Economía de los Modelos y dinámica de mancuerna (Gabe Pereira, Harvey, Coinbase, Vaudit, Claude Code):**
+  - *Ruteo de Mancuerna:* Transición a la dinámica de mancuerna: orquestadores de frontera costosos junto a modelos abiertos chinos (GLM 5.2, Kimi 2.7) 98% más baratos para procesamiento masivo. Coinbase (Brian Armstrong) ahorra la mitad en su factura configurando modelos de código abierto por defecto.
+  - *Facturación Opaca:* Auditoría de facturas de Claude Code realizada por Vaudit detecta $1.7M en sobrecargos y cuestiona la responsabilidad de pago en sesiones expiradas.
+- **La Guerra del Contexto y Siri (Nate B. Jones, Apple, Claude Tag, Codex):**
+  - *Siri y Contexto Local:* Apple Siri aprovecha el contexto local del dispositivo (calendario, fotos, correo) de forma privada para ser útil sin necesidad de superinteligencia frontera.
+  - *Claude Tag:* Anthropic lanza la presencia asíncrona de Claude en Slack en modo ambiente con contexto compartido. Codex se adopta de forma explosiva en áreas no técnicas dentro de OpenAI tras liberar 5.5.
+- **Posposición de la IPO de OpenAI y Caída de SpaceX (NYSE, SEC, SpaceX):**
+  - OpenAI pospone su IPO al 2027 debido a que la IPO de SpaceX cayó un 15% (cerrando a $153) y para evitar que Sam Altman deba divulgar su red de inversiones personales ante la SEC.
+- **Chip OpenAI Jalapeño y Crisis de Memoria Micron (Broadcom, Stacy Rasgon, Micron DRAM, Apple VRAM):**
+  - *Chip Jalapeño:* OpenAI diseña con Broadcom su chip personalizado para inferencia, reduciendo costos de procesamiento un 50% en gigavatios.
+  - *Escasez de DRAM:* Micron aumenta precios de DRAM (60%) y NAND (80%) por escasez de memoria HBM para IA. Apple sube precios de hardware (15-25%) trasladando costos, desatando críticas por "codicia".
+- **Meta Brain2Qwerty v2 y Límites de Gemini (Google Cloud, Brain2Qwerty):**
+  - Google Cloud limitó el uso de Gemini a Meta por falta de cómputo en marzo. Meta restringe Claude y Codex para evitar destilación accidental. Meta presenta *Brain2Qwerty v2* para decodificación no invasiva de pensamientos a nivel de palabras en tiempo real.
+
