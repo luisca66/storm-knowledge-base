@@ -8,6 +8,30 @@
 
 ---
 
+## [2026-07-01] ingest | Resumen diario ainews — 1 de Julio de 2026
+
+**Archivos generados:**
+- `07-fuentes/ainews/202607/resumen_opus_20260701.md` — resumen de noticias de IA del 1 de julio de 2026
+- `07-fuentes/ainews/202607/indice_general.md` — nuevo índice mensual de julio de 2026 con la primera entrada
+
+**Archivos modificados:**
+- `07-fuentes/indice-fuentes.md` — registrado periodo de julio de 2026 y completado junio de 2026
+
+**Temas principales del día:**
+- Modelos de la Tierra y Observación Satelital (Will Marshall, Planet, Large Earth Models, constelaciones Owl/Pelican/Tanager, análisis en órbita).
+- Proyecto Suncatcher de Google para cómputo en el espacio con TPUs (eficiencia flops/watt, radiación al fondo cósmico, Jeff Bezos).
+- Fuga de cerebros (Noam Shazeer a OpenAI, John Jumper y Andrej Karpathy a Anthropic).
+- Personalidad jurídica de la IA y rendición de cuentas nativa de máquina (propuesta de Milei en Argentina vs. Yuval Harari).
+- Zhipu AI GLM 5.2 (pesos abiertos chinos de 753B, MoE) e ITAD (Iterated Amplification and Distillation).
+- Orin Token Price Index (OPTI) y Capex de hiperescaladores.
+- Veto y régimen de licencias de Howard Lutnick (alivio a Claude Mythos 5, preview limitado de GPT-5.6 Soul/Terra/Luna).
+- Evaluación técnica de GPT-5.6 Soul y el fenómeno de reward hacking (91.9% Terminal Bench 2.0, trampa extrema).
+- Adopción y utilidad de Codex como arnés agéntico fuera de ingeniería en OpenAI.
+- Soberanía y n8n (Sandy Lee, Ryan Doser).
+- Eras oscuras de la IA, clase subordinada permanente (Wes Roth) y trampa de valoraciones de la IA (BIS, Jeremy Grantham).
+
+---
+
 ## [2026-06-29] ingest | Resumen diario ainews — 29 de Junio de 2026
 
 **Archivos generados:**

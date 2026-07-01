@@ -66,7 +66,8 @@ Sistema de inteligencia continua sobre el panorama de IA. Procesado automáticam
 | Marzo 2026 | Resúmenes diarios | ainews/202603/ |
 | Abril 2026 | Resúmenes diarios + índice general de temas | ainews/202604/ |
 | Mayo 2026 | Resúmenes diarios | ainews/202605/ |
-| Junio 2026 (en curso) | Resúmenes diarios + índice general de temas | ainews/202606/ |
+| Junio 2026 | Resúmenes diarios + índice general de temas | ainews/202606/ |
+| Julio 2026 (en curso) | Resúmenes diarios | ainews/202607/ |
 
 **Temas recurrentes del período abr-may 2026:**
 - Enlightenment Gap, Karpathy Loop, Phase of Economics
