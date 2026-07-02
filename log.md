@@ -8,6 +8,26 @@
 
 ---
 
+## [2026-07-02] ingest | Resumen diario ainews — 2 de Julio de 2026
+
+**Archivos generados:**
+- `07-fuentes/ainews/202607/resumen_opus_20260702.md` — resumen de noticias de IA del 2 de julio de 2026
+
+**Archivos modificados:**
+- `07-fuentes/ainews/202607/indice_general.md` — entrada para el 2 de julio de 2026 añadida al índice general
+
+**Temas principales del día:**
+- ARC-AGI-3 y los límites de planificación/abstracción de los transformers (bitter lesson vs. harnesses, transducción/inducción).
+- Retorno de Claude Fable 5 tras aprobación del Departamento de Comercio y lanzamiento de Claude Sonnet 5 (GDPval, token-hungry).
+- Entrevista técnica a John Jumper sobre AlphaFold 2 y 3 (equivarianza SE(3), FAPE loss, inicialización de agujero negro, entender vs. predecir).
+- Venta de cómputo excedente de Meta ("Meta MP compute") y su estrategia de nube/productos.
+- Adquisición de Iridium por Rocket Lab para integración vertical frente a SpaceX.
+- Escisión de Comcast y NBCUniversal; planes de relanzamiento de New Glenn de Blue Origin.
+- Google AI Overviews y su impacto de reducción de clics orgánicos (CMU study).
+- Vibe coding y desarrollo guiado por especificaciones de requisitos formales.
+
+---
+
 ## [2026-07-01] ingest | Resumen diario ainews — 1 de Julio de 2026
 
 **Archivos generados:**
