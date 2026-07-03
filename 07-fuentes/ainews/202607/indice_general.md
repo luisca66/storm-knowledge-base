@@ -65,3 +65,32 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **Desarrollo de Software y Vibe Coding (vibe coding, waterfall vs. agile):**
   - Los equipos que compiten en ARC-AGI reportan que entienden cada vez menos su código. Usan ingeniería basada en requisitos formales con agentes de código.
   - Derek Thompson enmarca la edad de oro de startups de un solo solopreneur exitoso usando IA y Stripe.
+
+## [03 de Julio de 2026](./resumen_opus_20260703.md)
+**Temas Principales:**
+- **Robótica Humanoide y el régimen de abundancia física (robots per cápita, Unitree R1, Adam, Travis Kalanick):**
+  - *Adopción masiva:* Previsiones de robots humanoides para 2030 aumentan (½ millón de robots chinos según Morgan Stanley). Hay 140 empresas de humanoides activas en China.
+  - *Robots per cápita:* Regímenes definidos por Alex Wissner-Gross: industriales (<1 por persona), domésticos (~1 por persona), y exóticos (>10 por persona, donde la forma de humanoide pierde sentido frente a micro/nanorrobots).
+  - *Unitree R1:* Robot acrobático por $4,900 dólares. El hardware se commoditiza, mientras que el valor reside en los algoritmos de software y habilidades.
+- **Drones como primeros respondientes y Privacidad (Skydio, Axon, Sacramento, Lindbergh Foundation):**
+  - *Drones policiales:* Despliegue de drones Skydio de Axon en la policía de Orlando como primeros respondientes (llegan antes en 1/3 de los casos, útiles en 97%). Sacramento desarmó a un sospechoso con un dron con electroimán.
+  - *Privacidad:* Debate sobre la pérdida de privacidad ante la monitorización centimétrica constante (Planet, coches autónomos, drones) y su impacto en la innovación social (ej. el sistema de control gubernamental en China).
+- **Energía Nuclear y Fusión de Helion (Suiza nuclear, Helion, Sam Altman, Microsoft, triple producto):**
+  - *Fisión en Suiza:* Suiza vota levantar su prohibición sobre nuevas plantas nucleares para actualizar sus reactores y cubrir su base eléctrica.
+  - *Fusión en Helion:* Helion (Sam Altman como principal inversor) obtiene aprobación regulatoria para su planta Orion (50 MW para Microsoft desde 2028).
+  - *Mapeo Técnico:* La fusión progresa de forma predecible según el "triple producto" (densidad por tiempo por temperatura). Helion recupera energía directamente del campo magnético (ley de Faraday).
+- **Vesuvius Challenge y la Arqueología Computacional (Nat Friedman, Daniel Gross, Vesuvio Challenge, cosmismo):**
+  - *Logro Histórico:* Ganadores del Vesuvius Challenge ($1.8M) descifran 22 columnas de un papiro carbonizado del año 79 d.C. mediante tomografías e IA.
+  - *Cosmismo:* Nikolai Fiódorov y la idea de resucitar y recuperar el pasado físico y molecular.
+- **Grok 4.5 e Infraestructura de Silicio (Grok 4.5, V9 fundacional, Cursor, XAI, SpaceX):**
+  - *Fuerza bruta de XAI:* Grok 4.5 saldrá basado en un modelo fundacional V9 de 1.5 billones de parámetros. Elon Musk planea preentrenar un modelo desde cero mensualmente.
+  - *Cursor:* El post-entrenamiento e integración de Cursor sirve para optimizar las trazas de código, aunque el reto de la automejora recursiva permanece.
+- **StarCloud y Centros de Datos Orbitales (Philip Johnson, StarCloud, Lagrange, radiador comercial, Falcon 9, Blackwell):**
+  - *Cómputo Espacial:* StarCloud puso una GPU H100 en órbita en Falcon 9. Planea lanzar StarCloud 2 en enero (con Blackwell y AWS Outpost) y StarCloud 3 (50 naves por Starship, 10 MW por lanzamiento).
+  - *Disipación:* Su radiador comercial líquido de aluminio tiene 10 veces menos masa por vatio disipado y 100 veces menos costo que el de la ISS. Pronostica que en 50 años el 99.9% de todo el cómputo se hará en el espacio.
+- **Geopolítica de Fable 5 y Sonnet 5 (Anthropic, Fable 5, Susie Wiles, Howard Lutnick, Project Glass Wing, Claude Sonnet 5):**
+  - *Fable 5 de vuelta:* Fable 5 regresa globalmente tras aprobación gubernamental (Lutnick, Susie Wiles) con un clasificador ciber que bloquea el 99% de los hacks. Estará incluido hasta el 50% de los límites de Claude Max hasta el 7 de julio (y luego será pagado por API).
+  - *Sonnet 5:* Se presenta como el Sonnet más agéntico, pero con un precio de tokens de salida un 40% más alto y 3 veces más turnos agénticos.
+- **OpenAI, Trump y el 5% de Participación (OpenAI, Trump, OPM paper retirement, Mainframe COBOL):**
+  - *Participación gubernamental:* El FT reporta conversaciones de OpenAI para otorgar al gobierno (administración Trump) un 5% de participación accionaria para frenar la oposición a data centers y la regulación nacional.
+  - *Modernización de la OPM:* Ingenieros de Airbnb liderados por Joe Gebbia digitalizan el sistema manual de jubilación y veteranía en Pensilvania, eliminando mainframes COBOL subterráneos.

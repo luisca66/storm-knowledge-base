@@ -8,6 +8,27 @@
 
 ---
 
+## [2026-07-03] ingest | Resumen diario ainews — 3 de Julio de 2026
+
+**Archivos generados:**
+- `07-fuentes/ainews/202607/resumen_opus_20260703.md` — resumen de noticias de IA del 3 de julio de 2026
+
+**Archivos modificados:**
+- `07-fuentes/ainews/202607/indice_general.md` — entrada para el 3 de julio de 2026 añadida al índice general
+
+**Temas principales del día:**
+- Crecimiento exponencial vs. predicción lineal de expertos (solar, EV, Ramez Naam).
+- Robótica humanoide masiva (Unitree R1 a $4,900, regímenes de robots per cápita, Travis Kalanick Adam kitchen).
+- Drones Skydio policiales como primeros respondientes en Orlando y Sacramento (Axon); debates sobre privacidad e innovación.
+- Suiza levanta prohibición sobre plantas de fisión; Helion fusión (Microsoft, Sam Altman) y su recuperación magnética directa.
+- Descifrado de papiros del Vesubio con tomografía e IA (Vesuvius Challenge).
+- Grok 4.5 e infraestructura de silicio personalizada; SpaceX e internet directo a teléfonos.
+- StarCloud data centers espaciales (Gemma, Blackwell, radiadores desplegables de aluminio).
+- Retorno global de Claude Fable 5; lanzamiento de Claude Sonnet 5 (GDPval, token-heavy).
+- Propuesta de participación del 5% del gobierno federal (Trump) en OpenAI para frenar la resistencia a data centers; digitalización de pensiones de la OPM.
+
+---
+
 ## [2026-07-02] ingest | Resumen diario ainews — 2 de Julio de 2026
 
 **Archivos generados:**
