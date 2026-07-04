@@ -8,6 +8,29 @@
 
 ---
 
+## [2026-07-03] lint | Revisión general del KB — primera sesión con Fable 5
+
+**Contexto:** Luis pidió una revisión completa del proyecto para estrenar Fable 5 (modo Ultracode), bajo la tesis de que cada modelo nuevo le da una mejoría al KB (insight procesado del 2026-06-12).
+
+**Verificaciones (sin hallazgos graves):**
+- 165 referencias `relacionado_con` verificadas — cero rotas.
+- 119 enlaces markdown relativos verificados — 4 rotos en `log.md` (rutas `file:///` de la máquina anterior), corregidos a rutas relativas.
+- Frontmatter presente y válido en todos los archivos del wiki principal (la excepción heredada de clases-ia sigue vigente).
+- `insights.md`: buzón sin pendientes activos — confirmado.
+
+**Archivos creados:**
+- `06-diario-proyecto/2026-06.md` — diario de junio reconstruido desde log/CHANGELOG (estado: completo).
+
+**Archivos modificados:**
+- `00-contexto/ai-radar.md` — **junio cerrado** (días 13-29): veto de exportación a Fable/Mythos 5, régimen de licencias de facto, GLM 5.2/mancuerna, economía del harness ("no rentes tu contexto"), SpaceX/Cursor, fuga de cerebros, charla de Boris, señales para el método (libros −57%, Noruega, florecimiento). Sección 3: 2 conceptos nuevos + nota de cierre.
+- `05-operaciones/infraestructura.md` — rutina de respaldo mensual `git bundle` documentada; primer bundle generado.
+- `07-fuentes/indice-fuentes.md` — canal de PHI 101 verificado: Barry F. Vaughan (Mesa Community College).
+- `index.md`, `CLAUDE.md` §7, `CHANGELOG.md` — reconciliados (364 archivos, pendientes actualizados).
+
+**Pendientes que requieren a Luis (sin cambios):** contradicción de apps publicadas (Google Play vs descarga directa), precios de Migración Empresas, documentar clases particulares como línea completa, copiar el bundle de respaldo a Drive/disco externo.
+
+---
+
 ## [2026-07-03] ingest | Resumen diario ainews — 3 de Julio de 2026
 
 **Archivos generados:**
@@ -980,9 +1003,9 @@ Resultado: **buzón de insights sin pendientes activos.**
 - Clonado `https://github.com/luisca66/clases-ia` en `01-metodo-pedagogico/clases-ia/`.
 - Registrado el repo en `index.md`.
 - Agregado `01-metodo-pedagogico/clases-ia/` a `.gitignore` del KB padre para mantenerlo como repositorio Git independiente.
-- Procesados e integrados los insights de **Elefantito Matemático** (gym del cerebro/córtex prefrontal/Sistema 2) y del **Módulo de memoria** (mnemotecnia clásica) en [filosofia-ensenanza.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/01-metodo-pedagogico/filosofia-ensenanza.md).
-- Marcados como resueltos y procesados en [insights.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/00-contexto/insights.md).
-- Actualizado [index.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/index.md) para reflejar [filosofia-ensenanza.md](file:///C:/Users/Luis/Documents/storm-knowledge-base/01-metodo-pedagogico/filosofia-ensenanza.md) como **completo**.
+- Procesados e integrados los insights de **Elefantito Matemático** (gym del cerebro/córtex prefrontal/Sistema 2) y del **Módulo de memoria** (mnemotecnia clásica) en [filosofia-ensenanza.md](01-metodo-pedagogico/filosofia-ensenanza.md).
+- Marcados como resueltos y procesados en [insights.md](00-contexto/insights.md).
+- Actualizado [index.md](index.md) para reflejar [filosofia-ensenanza.md](01-metodo-pedagogico/filosofia-ensenanza.md) como **completo**.
 
 **Estado observado:**
 - Rama interna clases-ia: `main`, sincronizada con `origin/main`.

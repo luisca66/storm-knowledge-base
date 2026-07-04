@@ -1,11 +1,19 @@
 ---
 titulo: "Registro de Cambios"
 tipo: diario
-ultima_actualizacion: 2026-06-12
+ultima_actualizacion: 2026-07-03
 estado: en_progreso
 ---
 
 # Registro de Cambios (CHANGELOG)
+
+## 2026-07-03
+- **Primera sesión con Fable 5 — lint general del KB.** 165 referencias `relacionado_con` y 119 enlaces markdown verificados; únicas roturas: 4 enlaces `file:///` con ruta de la máquina anterior en `log.md`, corregidos a rutas relativas. Frontmatter e insights sin pendientes (buzón limpio).
+- **`ai-radar.md`: junio cerrado (días 13-29).** Arco central: el veto de exportación a Fable/Mythos 5 y el régimen de licencias de facto (carta de Lutnick). Nuevas secciones 23-30 + señales + modelos + frases; encabezado del mes: "El mes del interruptor de apagado" (trilogía economía→capacidad→gobernanza). Sección 3: 2 conceptos pedagógicos nuevos (soberanía del contexto, riesgo político de stack) y nota de cierre sobre suspensión/regreso de Fable + Sonnet 5. La propagación de la tabla de modelos a clases-ia se pospone deliberadamente a la apertura del radar de julio.
+- **Diario de junio creado** (`06-diario-proyecto/2026-06.md`, completo): reconstrucción del mes más denso del KB desde log/CHANGELOG, con balance de métricas.
+- **Respaldo del KB inaugurado:** rutina mensual de `git bundle` documentada en `05-operaciones/infraestructura.md` y primer bundle generado en `Documents`. Pendiente de Luis: copiarlo a Drive/disco externo.
+- **Pendiente resuelto:** canal de "A Little Bit of Philosophy — PHI 101" verificado — Barry F. Vaughan, Mesa Community College (`indice-fuentes.md` actualizado).
+- `index.md`: estadísticas recalculadas (364 archivos, ainews extendido a julio); `CLAUDE.md` §7 actualizado.
 
 ## 2026-06-12
 - **Autonomía operativa definida:** `05-operaciones/flujo-trabajo.md` distingue orientación, ejecución, verificación, recuperación y aprendizaje. Diagnóstico actual: continuidad intelectual fuerte, pero ejecución parcial y verificación/recuperación débiles. Orden acordado: inventario operativo → circuito Lección 1/Maestro Virtual → respaldo/rollback → piloto P03 → automatización diaria.

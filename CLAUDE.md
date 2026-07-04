@@ -279,7 +279,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual (actualizar en cada sesión)
 
-**Última actualización:** 2026-06-12 — Entrevista fundacional de `09-migracion-empresas/` completada; estructura del curso y Maestro Virtual documentados; modelo de autonomía operativa definido en `05-operaciones/flujo-trabajo.md`.
+**Última actualización:** 2026-07-03 — Primera sesión con Fable 5 (lint general): junio cerrado en `ai-radar.md` (el veto de exportación como arco central), diario `06-diario-proyecto/2026-06.md` creado, rutina de respaldo `git bundle` documentada e inaugurada, canal de PHI 101 verificado, 165 referencias cruzadas verificadas sin roturas.
 
 El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Estado por archivo** → `index.md` (catálogo con estados y estadísticas)
@@ -289,7 +289,7 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 
 **Pendiente prioritario:**
 - **Autonomía operativa** — Modelo y diagnóstico documentados en `05-operaciones/flujo-trabajo.md`. Prioridad inmediata: inventario de repos/rutas/comandos/ambientes y cerrar el primer circuito autónomo con Lección 1 + Maestro Virtual. Siguen pendientes infraestructura, recuperación y `04-contenido-musical/`.
-- `ai-radar.md` → ✅ al día al 2026-06-12. Tabla propagada exitosamente a `clases-ia/` con enfoque en economía de tokens. **Pendiente:** cerrar junio en el radar al terminar el mes (días 13-30)
+- `ai-radar.md` → ✅ junio cerrado (2026-07-03). **Pendiente:** abrir la síntesis de julio (regreso de Fable 5, lanzamiento de Sonnet 5) y ahí revalidar la tabla de modelos y propagarla a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia (leer antes `INSTRUCCIONES_CLASES_IA.md`)
 - `09-migracion-empresas/` → ✅ Entrevista fundacional completada (`entrevista_fundacional.md`). Pendiente: Luis debe definir la estructura de precios comercial.
 - `luis-como-ingeniero-neural.md` → integrar a Dayana y validar conexiones por alumno con datos de sesiones reales
 - `entrenamiento-oido-absoluto.md` → poblar §12 con datos de alumnos que desbloqueen AP; desarrollar la "gramática posicional" (§3)
@@ -297,13 +297,12 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - `estrategia-freemium-musical.md` → 2 preguntas menores en §10 (orden de lanzamiento de avanzados, dato de conversión)
 - **Documentar el Taller de Ingeniería de Audio y Producción Musical** — curso real ya impartido, ligado al estudio 5.1; necesita ficha propia
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
-- Verificar **canal/origen** de "A Little Bit of Philosophy — PHI 101" (`[verificar canal]` en `indice-fuentes.md`)
 - Verificar si el progreso del alumno en localStorage es un problema a resolver pronto
-- **Respaldo del KB** fuera de GitHub (`git bundle` mensual a disco o Drive) — el activo central tiene hoy un solo punto de falla
+- **Respaldo del KB** → ✅ rutina mensual de `git bundle` documentada en `05-operaciones/infraestructura.md`; primer bundle generado 2026-07-03. **Pendiente de Luis:** copiar el bundle a Google Drive o disco externo (en la misma PC solo protege contra corrupción del repo, no contra falla de disco) y repetir al cierre de cada mes
 - **Documentar las clases particulares como línea completa** (entrevista 2026-06-11): alcance y precios de instrumento/composición y entrenamientos físicos — la vaca lechera real apenas quedó esbozada en la tabla de ingresos
 - **Ejecutar la estrategia de apps de paga** (decidida 2026-06-11, ver `decisiones-clave.md`): documentar el toolchain iOS en `stack-tecnologico.md`, reflejar web-gratis/móvil-de-paga en `indice-apps.md`, y correr el piloto con las 2 apps de P03
 - **Contradicción por verificar:** `stack-tecnologico.md` dice "10 apps en Google Play" pero la decisión Play Store del 2026-05-22 describe distribución por descarga directa desde el website — ¿cuáles están dónde?
 
 ---
 
-*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-06-12 (lint de salud: metadatos, estados e índice reconciliados con el trabajo reciente).*
+*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-07-03 (lint de Fable 5: radar cerrado, diario de junio, respaldo inaugurado, referencias verificadas).*

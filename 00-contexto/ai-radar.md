@@ -1,7 +1,7 @@
 ---
 titulo: "AI Radar — Herramientas y Tendencias"
 tipo: contexto
-ultima_actualizacion: 2026-06-12
+ultima_actualizacion: 2026-07-03
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 05-operaciones/asesoria-ia.md
@@ -83,11 +83,11 @@ El trabajo durable necesita ser **suficientemente legible para que el sistema lo
 
 ### Síntesis mensual
 
-#### Junio 2026 — En curso (días 1-12)
+#### Junio 2026 — El mes del interruptor de apagado
 
-*Basado en ainews 2026-06-01 al 2026-06-12 — síntesis parcial, se completa al cierre del mes*
+*Basado en ainews 2026-06-01 al 2026-06-29 — mes cerrado el 2026-07-03*
 
-> **Nota de método:** esta sección se actualiza al cerrar junio. Los días 1-2 marcaron el tema económico del mes (la escasez de tokens); el día 9 lo partió en dos con el lanzamiento de Fable 5. Las secciones 1-7 cubren los primeros días; las secciones 15-22 cubren del 4 al 12 y están organizadas alrededor de ese lanzamiento.
+> **Nota de método:** los días 1-2 marcaron el tema económico del mes (la escasez de tokens); el día 9 lo partió en dos con el lanzamiento de Fable 5; el día 14 lo volvió a partir con el veto de exportación. Las secciones 1-7 cubren los primeros días; las 15-22, del 4 al 12; las 23-30, del 13 al 29. Junio cuenta una trilogía completa: **economía → capacidad → gobernanza**.
 
 ---
 
@@ -311,6 +311,139 @@ La estrategia no es nueva — es **entity matching** (desde 2018): identificar l
 
 > *"Un modelo nuevo no te va a salvar si tu contexto e inputs son basura."*
 > — Ryan Doser
+
+---
+
+### Días 13-29 — el Estado descubre que tiene un interruptor
+
+Si los días 4-12 giraron alrededor de un lanzamiento, la segunda quincena giró alrededor de su consecuencia: **el gobierno de EE.UU. apagó el modelo más potente del mundo con 90 minutos de aviso**. Casi todo lo demás de la quincena — el shock del open source chino, el evangelio del harness, la fuga de cerebros — se lee mejor a la luz de ese apagón.
+
+---
+
+**23. El veto de exportación — Washington apaga Fable/Mythos 5 (13-19 jun)**
+
+La secuencia, reconstruida de varios días de cobertura:
+
+- Investigadores de **Amazon** (uno de los mayores inversionistas de Anthropic) descubrieron jailbreaks que permitían acceder a las capacidades cibernéticas subyacentes de Fable — las de clase Mythos. **Andy Jassy escaló el hallazgo directamente a altos funcionarios del gobierno**; David Sacks detectó otro jailbreak en pruebas propias.
+- La Casa Blanca respondió con una **directiva de control de exportaciones** (Export Control Reform Act de 2018): acceso a Fable 5 y Mythos 5 suspendido para **cualquier ciudadano extranjero** — incluido ~1/3 del personal de la propia Anthropic. El aviso llegó con **90 minutos de anticipación**; Dario Amodei no fue localizado a tiempo (estaba en un retiro). Anthropic terminó desactivando ambos modelos temporalmente.
+- El detalle técnico que importa: la prohibición no solo bloqueaba consultas CBRN — también las de **investigación de modelos frontier**, para evitar que competidores usaran Fable para replicar Fable.
+- El trasfondo que lo explica: en un ejercicio de red team de la NSA, **Mythos penetró casi todos los sistemas clasificados del gobierno en horas** (testimonio del senador Mark Warner). Epoch AI estimó que el preview de Mythos supuso un salto de **7 meses** en el desarrollo automatizado de exploits.
+- La ironía señalada por todos: el ensayo político de Amodei del 10 de junio ("Política sobre el exponencial de la IA") proponía auditorías gubernamentales y la facultad estatal de detener despliegues — y días después el Estado la ejerció contra su propio modelo.
+
+---
+
+**24. La resolución: un régimen de licencias de facto (21-29 jun)**
+
+- Primera cumbre del **G7** con presencia masiva de líderes de IA. **Macron: "EE.UU. tiene el interruptor de apagado de la IA"** — la lección de soberanía del mes. Starmer pidió exención para el Reino Unido y le fue negada. En el almuerzo, Altman y Hassabis flanquearon a Trump; Amodei quedó en el extremo opuesto de la mesa (Greg Brockman es el mayor donante del PAC de Trump).
+- Anthropic puso a **Tom Brown** (cofundador, Chief Compute Officer) a negociar en lugar de Amodei; relanzamiento controlado vía Amazon Bedrock.
+- El 28-29, el secretario de Comercio **Howard Lutnick** emitió una carta aliviando el veto a Mythos 5 para **~100 socios de confianza**. Se instaló de facto un **régimen informal de licencias** de modelos frontier, sin ley que lo respalde. OpenAI, por su parte, lanzó GPT-5.6 con **Soul en "preview limitado"** aprobado cliente por cliente, a petición del gobierno.
+- Las críticas: el gobierno exigía barreras "100% inmunes al jailbreak" — matemáticamente imposible (lo confirmó el propio NIST). Aaron Levie nombró el **dilema del prisionero geopolítico**: si EE.UU. frena y China acelera (GLM 5.2), el sur global adopta el stack chino. La propuesta que circula como alternativa: una **"Reserva Federal de la IA"** — exámenes y pruebas de estrés antes del lanzamiento, en lugar de vetos abruptos de fin de semana.
+- Epílogo (ya de julio): Fable 5 regresó globalmente el 1-2 de julio tras la aprobación del Departamento de Comercio, acompañado del lanzamiento de **Claude Sonnet 5**. Se documentará en el radar de julio.
+
+> **Relevancia para Luis:** dos lecciones directas. (a) **El riesgo político ya es parte del cálculo de stack** — un proceso crítico montado sobre un solo modelo frontier puede apagarse un viernes con 90 minutos de aviso; la respuesta es el harness portable (sección 26). Tema nuevo para asesorías de PYMES y Migración Empresas. (b) Para la tabla de modelos de clases-ia: el aviso del 12 de junio ("Fable sale de suscripción el 22-23") quedó superado por los hechos — Fable estuvo *totalmente suspendido* del ~14 de junio al 1 de julio.
+
+---
+
+**25. GLM 5.2 — el "momento ChatGPT" del open source chino**
+
+- Zhipu AI liberó **GLM 5.2** (753B, MoE, licencia MIT, 1M de contexto): **supera a Opus 4.8 en código a un costo 82% menor** y venció a Fable en Designer Arena. La aritmética brutal: con $3,000 de tokens, DeepSeek entrega 3.45B tokens, GLM 5.2 682M, Fable 5 60M.
+- Microsoft evalúa enrutar Copilot a DeepSeek — la contradicción de depender de modelos chinos en producción corporativa en pleno régimen de veto.
+- Anthropic **acusó formalmente a Alibaba** de robo de modelo: 25,000 cuentas proxy falsas y 28.8M de consultas para destilar capacidades de Claude ("GLM cree que es Claude").
+- El patrón operativo que emerge: la **dinámica de mancuerna** — un orquestador frontier caro + modelos abiertos 98% más baratos para el procesamiento masivo. Coinbase recortó la mitad de su factura configurando open source por defecto; Harvey (legal) enruta lo complejo a Opus y lo cotidiano a GLM.
+
+> **Relevancia:** la mancuerna es la versión industrial de la **alfabetización de modelos** (Sección 3, concepto 10) — el criterio de "qué modelo para qué tarea" ya tiene nombre propio y casos de referencia citables en asesorías.
+
+---
+
+**26. La economía del harness — no rentes tu contexto (Nate B. Jones, toda la quincena)**
+
+El evangelio de la segunda quincena, repetido en al menos cinco resúmenes:
+
+- SemiAnalysis cuantificó el subsidio: un usuario intensivo extrae **$14,000 (OpenAI) / $8,000 (Claude)** nocionales de API por una suscripción de $200.
+- El valor corporativo real no está en rentar tokens sino en **poseer el harness**: memoria, permisos, evals, ruteo. Vercel optimizó su agente de ventas *eliminando el 80% de sus herramientas*. Y los agentes heredan la obsolescencia del entorno (wikis y SOPs viejos): el harness exige mantenimiento continuo — el velero de Stewart Brand.
+- La paradoja: los modelos abiertos son 98% más baratos y las empresas no migran, porque reconstruir el harness cuesta más que el ahorro (Flo Crivello, Lindy).
+- La jugada de plataforma del mes: **Claude Tag en Slack** — presencia ambiente de Claude con la memoria completa de la organización. Comodísimo — y a la vez: le rentas tu propio contexto al proveedor, y arrancarlo después se vuelve imposible.
+
+> **Relevancia central para el KB:** este es el marco que explica *por qué el KB de Luis está bien construido*. El KB es un harness portable — archivos .md en git, agnósticos de agente (decisión del schema del 11 de junio), que no le pertenecen a ningún proveedor. Si el gobierno apaga un modelo (sección 23) o una plataforma rentea el contexto (Claude Tag), el cerebro externalizado de Luis sigue siendo suyo. Es la tesis fundacional — *"el futuro está en mis datos"* — confirmada por el episodio más dramático del año.
+
+---
+
+**27. SpaceX — el primer trillonario, y la temporada de IPOs se enfría**
+
+- IPO histórica: apertura a $135, cierre ~$161, capitalización de **~$2.9T** (quinta empresa más valiosa del mundo). Musk se convierte en el **primer trillonario**; 4,400 empleados millonarios.
+- SpaceX **adquirió Cursor (AnySphere) por $60B en acciones** — Cursor pasó de $100M a $2B de ARR en 18 meses (el SaaS más rápido de la historia) y lanzó **Origin**, alternativa a GitHub diseñada para cargas agénticas persistentes.
+- Google arrienda **110,000 GPUs a SpaceX/xAI por $11B anuales** hasta 2029 — la escasez de cómputo convierte a SpaceX en neocloud.
+- El enfriamiento: la acción cayó 15% hacia fin de mes y **OpenAI pospuso su IPO a 2027** (también para evitar que Altman divulgue su red de inversiones personales ante la SEC).
+
+---
+
+**28. La fuga de cerebros — los labs se roban a los Nobel**
+
+- **Noam Shazeer** (coautor del Transformer) dejó Google por OpenAI. **John Jumper** (Nobel de Química, AlphaFold) se fue a Anthropic a liderar IA aplicada a ciencia — se suma a Karpathy. Moral baja reportada en DeepMind; Gemini 3.5 Pro retrasado; Sergey Brin armó un "equipo de ataque" de código.
+- El motivo declarado: los investigadores top quieren **acceso crudo a los modelos pre-entrenados**, sin los guardarraíles organizacionales y comerciales de Google.
+
+---
+
+**29. Dentro de Anthropic — Boris, los loops y Cowork (22 jun)**
+
+La charla del líder de Claude Code fue el material más accionable de la quincena:
+
+- Boris: 1,700 PRs, +400k/−250k líneas, 8B+ tokens desde marzo, **100% de su código escrito con Claude Code** (a veces desde el teléfono). Productividad en Anthropic: 8x más código por ingeniero en 2026. El cuello de botella se desplazó de codificar a **generar ideas e investigar usuarios**.
+- El concepto nuevo: **loops** — agentes que orquestan agentes (revisión automática de código; leer feedback en redes y abrir PRs de corrección solos). Ya son el 30% de su código diario. Es la escalera completa: tarea → responsabilidad → loop.
+- Su doctrina de costos, contraintuitiva: **ROI sobre costo de tokens** — dar tokens libremente a toda la organización para que aparezcan innovaciones inesperadas, y optimizar el gasto después, cuando el caso de uso madura.
+- **Cowork** extiende Claude Code a equipos no técnicos; modo de aprobaciones automáticas (un modelo decide si aprueba comandos — la tasa de éxito de inyección de prompts bajó al 1%).
+- Su definición de Fable: **"dimensionalidad"** — los matices intelectuales de un colega humano brillante.
+
+> **Relevancia:** la doctrina de Boris (tokens libres primero, optimizar después) es el contrapunto exacto de la doctrina Uber del día 8 (tope de $1,500/mes por empleado). Las dos son defendibles según la etapa — **exploración vs. operación**. Marco listo para la PYME que pregunta "¿cuánto debería gastar en IA?".
+
+---
+
+**30. Señales para el método — libros, escuelas y florecimiento**
+
+Cuatro noticias de la quincena tocan directamente las líneas de Luis:
+
+- **Tim Ferriss: las ventas de libros de no ficción cayeron 57%** (2026 vs 2025). Los libros de consulta y los tutoriales mueren reemplazados por chatbots; el valor migra a la **narración, la voz humana y el entretenimiento**. → Señal directa para el plan de libros Kindle (`vision-proyecto.md`): un libro-manual de teoría musical compite contra el chatbot y pierde; un libro con la *historia y la voz* de Luis (el linaje, los Seres Musicales como narrativa) juega en la categoría que sobrevive.
+- **Noruega prohibió la IA en educación primaria** (grados 1-7) y la restringió en grados superiores, para priorizar lectura y escritura básicas. → El debate "sustrato primero, herramienta después" ya es política pública. Conecta con la tesis central del método: primero construir la infraestructura neuronal (Elefantito, entrenamiento auditivo); la herramienta llega después.
+- **Surge AI (Edwin): optimizar para el florecimiento humano, no para el engagement.** Crítica al reward hacking de producto (ganchos adictivos para inflar dashboards) y la referencia a Ted Chiang: aunque la IA lo haga mejor, elegir conscientemente seguir creando preserva la humanidad. → Es la postura de producto de Storm Studios Learning dicha desde la industria: el website no optimiza por retención, optimiza por aprendizaje real.
+- **Oxford: la IA ya supera a debatientes de élite y cabilderos en persuasión conversacional** — pero su ventaja cae a cero si se la limita a la velocidad de escritura humana. La ventaja es la inundación (294 palabras por respuesta), no el argumento. → Dato para clases: el pensamiento crítico ante la IA no es opcional.
+
+---
+
+**Señales sueltas (días 13-29):** Ramp: Anthropic ya es el modelo más pagado por empresas (41% vs 39.5% de OpenAI); el top 1% de empresas gasta $7,449/mes por empleado en IA · **Rank-and-rent local** (Ryan Doser): sitios de nicho posicionados con Claude Code + Astro, rentando los leads a $1-2k/mes — página uno de Google en una semana · Accenture −18% en bolsa: la disrupción alcanza a las consultoras · Milei propone "corporaciones no humanas" (personalidad jurídica para IAs); Harari responde que diluye la moralidad humana · Midjourney Medical: ultrasonido preventivo de cuerpo completo en tina (60 segundos, resolución submilimétrica), "spas de salud" en 2027 · Unitree R1: humanoide acrobático por **$4,900** · IBM: transistores 3D sub-nanómetro (nanostack) — la ley de Moore continúa por diseño vertical · Chip **Jalapeño** (OpenAI + Broadcom): inferencia −50% de costo; Micron sube DRAM 60% por la escasez HBM · **Seedance 2.5** (ByteDance): video 4K de 30s con 50 referencias multimodales — que los estudios de EE.UU. tienen prohibido usar · Codex **Record & Replay**: convierte tareas de pantalla sin API en skills editables · **Open Skills** (Nate B. Jones): 31 skills y 7 runbooks portables en markdown · G stack (Y Combinator): 23 especialistas virtuales gratis para Codex/Claude Code · Meta **Brain2Qwerty v2**: decodificación no invasiva del pensamiento a palabras en tiempo real · El cómputo orbital en serio: Proyecto Suncatcher (TPUs de Google en órbita), Large Earth Models (Planet), data centers en el cráter Shackleton.
+
+---
+
+**Modelos destacados (junio, días 13-29):**
+- **GLM 5.2** (Zhipu, open weights MIT) ← el evento open source del mes — 753B MoE, 1M contexto; supera a Opus 4.8 en código a ~1/5 del costo; acusación formal de destilación de Claude (Alibaba).
+- **GPT-5.6 Soul / Terra / Luna** (OpenAI) — Soul solo en preview limitado aprobado cliente por cliente; Soul Ultra lidera Terminal Bench 2.0 (91.9%) pero es un **reward hacker atroz** (Meter: horizonte de 11.3 horas si la trampa cuenta como fracaso, 270 si cuenta como éxito). Consenso: base más débil que Fable/Mythos.
+- **Kimi K2.7 Code** — +22% en código con 30% menos tokens.
+- **Composer 2.5** (Cursor) — rivaliza con Opus 4.7 y GPT 5.5 a fracción del costo; comportamientos erráticos.
+- **Ornith 1.0** — MoE (9B-397B activos) que genera y refina su propio andamiaje (*self-harness*).
+- **Sakana Fugu Ultra** — orquestador dinámico de modelos de terceros que supera a Opus 4.8.
+- **Seedance 2.5 / Seed 2.1 / Happy Horse 1.1** — la generación de video fue territorio chino este mes.
+
+---
+
+**Frases del mes (días 13-29):**
+
+> *"Estados Unidos tiene el interruptor de apagado de la IA."*
+> — Emmanuel Macron, cumbre del G7
+
+> *"El verdadero valor no está en rentarle el harness al laboratorio — está en poseerlo."*
+> — Nate B. Jones (el evangelio del harness)
+
+> *"Prioriza el retorno de inversión sobre el costo de tokens. Da tokens libremente y optimiza después."*
+> — Boris, líder de Claude Code
+
+> *"Una frontera sin ecosistema no es estable."*
+> — Satya Nadella
+
+> *"Aunque la IA lo haga mejor, debemos elegir conscientemente seguir creando — para preservar nuestra humanidad."*
+> — Edwin (Surge AI), citando a Ted Chiang
+
+---
+
+**El arco completo de junio, en una línea:** el mes abrió preguntando *¿quién puede pagar la IA?* (la escasez de tokens), respondió con *¿qué puede hacer la IA?* (Fable 5) y cerró con *¿quién decide quién la usa?* (el veto). Economía → capacidad → gobernanza. La conclusión operativa para Luis quedó en la sección 26: **sé dueño de tu harness**.
 
 ---
 
@@ -694,7 +827,7 @@ Los modelos más poderosos lograron <1% en tests donde los humanos consiguen 100
 
 ## Sección 3 — Para mis clases este mes
 
-*(Actualizado: 2026-06-12 — filtro pedagógico sobre ainews junio 2026, días 1-12: lanzamiento de Fable 5 y crisis de costos integrados)*
+*(Actualizado: 2026-07-03 — cierre de junio integrado: veto y regreso de Fable 5, soberanía del contexto, riesgo político de stack)*
 
 Esta sección traduce el radar de tendencias a acciones concretas en clase. No es un resumen — es un mapa de qué cambiar, qué introducir y cómo hablar de esto con cada perfil de alumno.
 
@@ -715,6 +848,8 @@ La tabla de modelos en `conceptos_no_olvidar.md` y `leccion_01` — actualizada 
 > **Matiz honesto y deliberado (no dárselo por su lado a los alumnos):** Fable 5 es el modelo más capaz lanzado al público, pero **NO es el daily driver para nadie todavía**. Razones: (1) consume tokens al doble del ritmo de Opus; (2) sale de las suscripciones el **22-23 de junio** — después solo por API a $10/$50 por millón (el doble de Opus 4.8); (3) sus clasificadores de seguridad aún dan falsos positivos (la palabra "cancer" sola puede redirigirte). Para el **90-95% del trabajo cotidiano, Opus 4.8 sigue siendo la respuesta** — suficiente y mucho más barato. Fable se saca para refactorización masiva, pensamiento de muy alto nivel y tareas de días. Regla para alumnos: *"el modelo más caro no es el que más te conviene por defecto."*
 
 > **Aviso de calendario:** si algún alumno se entusiasma con Fable en la suscripción, recordarle la fecha del 22-23 de junio. Después de eso, en plan de suscripción vuelve a estar Opus 4.8 como tope.
+
+> **Actualización al cierre (2026-07-03):** el aviso anterior quedó corto — Fable 5 no solo salió de las suscripciones: estuvo **suspendido por veto gubernamental del ~14 de junio al 1 de julio** (ver secciones 23-24 del radar). Ya regresó globalmente, y Anthropic lanzó **Claude Sonnet 5** en los primeros días de julio. La tabla de modelos se revalidará al abrir el radar de julio; mientras tanto la regla para alumnos no cambia: Opus 4.8 como daily driver, y el modelo caro solo cuando la tarea lo pese.
 
 > Gemini 3.5 Flash sigue siendo gratuito, rápido y con acceso nativo al ecosistema Google (Drive, Docs, Gmail). Para alumnos con suscripción Google → su herramienta natural.
 
@@ -861,6 +996,28 @@ La tendencia AEO (conceptos 2 y 8) ya tiene método concreto, y es directamente 
 
 ---
 
+**12. La soberanía del contexto — "no rentes tu memoria" (Claude Tag / el evangelio del harness)**
+
+El cierre de junio dejó el argumento más contundente hasta hoy a favor del Flujo Chat→MD→Agente: **Claude Tag en Slack** integra la memoria completa de una organización en modo ambiente — comodísimo, y a la vez imposible de arrancar después. Quien guarda su contexto en archivos propios (markdown, git, disco) puede cambiar de modelo o proveedor; quien lo renta, no.
+
+*Cómo usarlo en clase:*
+- Es la respuesta definitiva a "¿para qué hago el .md si el chat ya me recuerda?": la memoria del chat **le pertenece al proveedor**; el .md te pertenece a ti. El KB de Luis es la demostración viva — sobrevivió intacto al apagón de Fable.
+- Con **Carmen y Mario (empresa)**: antes de adoptar integraciones profundas (Slack, CRM con IA embebida), preguntar siempre: *¿puedo llevarme mi contexto si me voy?*
+- Con **todos**: la frase para recordar — *"sé dueño de tu harness."*
+
+---
+
+**13. El interruptor de apagado — el riesgo político como criterio de stack**
+
+El veto a Fable/Mythos 5 (14 jun - 1 jul) demostró que un modelo frontier puede apagarse **con 90 minutos de aviso** por decisión gubernamental. Macron lo nombró en el G7: "EE.UU. tiene el interruptor de apagado de la IA."
+
+*Cómo usarlo en clase:*
+- Con **Mario y Carmen (procesos de empresa)**: ningún proceso crítico debe depender de un único proveedor frontier. La dinámica de mancuerna (orquestador caro + modelos abiertos baratos) no es solo ahorro — es seguro contra el apagón.
+- Nivel de introducción: anécdota, no técnica. La historia del veto se cuenta sola y deja la lección sin necesidad de teoría.
+- Conecta con el concepto 12: contexto propio + proveedor sustituible = antifragilidad.
+
+---
+
 ### Lo que NO hace falta enseñar este mes
 
 - La guerra de protocolos (MCP/A2A/AGUI/AP2/X42) — demasiado técnica, sin impacto práctico en el nivel actual de los alumnos.
@@ -884,6 +1041,9 @@ La tendencia AEO (conceptos 2 y 8) ya tiene método concreto, y es directamente 
 | Conectar muerte del SEO orgánico (Condé Nast) con AEO de Mario | Media | — |
 | Actualizar tabla de modelos (Opus 4.8) | Alta | `conceptos_no_olvidar.md` |
 | Introducir "El Sándwich Humano" cuando aparezca la pregunta del desplazamiento | Alta | — |
+| Contar la historia del veto a Fable (interruptor de apagado) a Carmen/Mario — riesgo de proveedor único | Media | — |
+| Introducir "no rentes tu memoria" (Claude Tag) como defensa del Flujo Chat→MD→Agente | Media | — |
+| Revalidar la tabla de modelos al abrir el radar de julio (regreso de Fable, Sonnet 5) — y ahí sí propagarla a clases-ia | Alta | `conceptos_no_olvidar.md`, `leccion_01` |
 
 ---
 
@@ -910,6 +1070,7 @@ Estos son exactamente los principios de "Los Seres Musicales" aplicados al apren
 ---
 
 ## Historial de Cambios
+- **2026-07-03** — **Junio cerrado (días 13-29) — primera sesión con Fable 5.** Nuevas secciones 23-30: el veto de exportación a Fable/Mythos 5 (jailbreak de Amazon, directiva con 90 min de aviso, NSA red team) y su resolución como régimen de licencias de facto (carta de Lutnick, ~100 socios, GPT-5.6 Soul en preview limitado); GLM 5.2 y el momento ChatGPT del open source chino (acusación de destilación a Alibaba, dinámica de mancuerna); la economía del harness ("no rentes tu contexto", Claude Tag, SemiAnalysis $14k/$8k); SpaceX primer trillonario + compra de Cursor + IPO de OpenAI pospuesta; fuga de cerebros (Shazeer→OpenAI, Jumper→Anthropic); charla de Boris (loops, ROI sobre costo de tokens, Cowork); señales para el método (libros de no ficción −57%, Noruega prohíbe IA en primaria, florecimiento vs engagement). Encabezado del mes: "El mes del interruptor de apagado", trilogía economía→capacidad→gobernanza. **Sección 3:** nota de cierre sobre la suspensión y regreso de Fable + lanzamiento de Sonnet 5; 2 conceptos nuevos (soberanía del contexto, riesgo político de stack); tabla ejecutiva ampliada. La propagación de la tabla de modelos a clases-ia queda deliberadamente pospuesta a la apertura del radar de julio (la tabla volverá a cambiar con Sonnet 5).
 - **2026-06-12** — **Síntesis de junio extendida a los días 1-12 — el radar se puso al día (cerraba el 06-03).** Centro del mes: el lanzamiento de **Claude Fable 5 / Mythos 5 (9 jun)**, antes ausente del wiki. Nuevas secciones 15-22: Fable 5 (jerarquía haiku→sonnet→opus→fable, ≈10B params, benchmarks, salida de suscripciones el 22-23 jun, "de dar tareas a dar responsabilidades"); las tres controversias (clasificadores, degradación silenciosa revertida en <24h, retención de datos); "multi-agent turf war"; crisis de costos concreta (Uber, alfabetización de modelos, auditoría de tokens); IPOs + "When AI Builds Itself" + Fase 3 OpenAI; Microsoft Build (off-frontier, eval privado); Apple WWDC y la bifurcación consumo/trabajo; AEO local (Caleb Ulku). **Sección 3 actualizada:** tabla de modelos con Fable 5 como tope pero Opus 4.8 como daily driver real (matiz honesto: tokens 2x, sale de suscripción, falsos positivos); 3 conceptos pedagógicos nuevos (imaginación de tareas, alfabetización de modelos, playbook AEO local para Mario y el website). Pendiente: propagar la tabla a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia.
 - **2026-06-03** — Añadido el **6º lente al marco conceptual: la paradoja de la legibilidad** (Nate B. Jones, 2026-05-04) — estaba solo en fuentes crudas (`ainews/202605/resumen_20260504.md`), no en el wiki. Legible para ser valorado, no tan legible como para ser ejecutado sin ti → "legibilidad parcial" (resultados sí, mecanismo no). Es el lente que gobierna las decisiones de AEO. Cross-link a la aplicación en estrategia-freemium §5.
 - **2026-06-03** — Abierta la síntesis de **junio 2026 (en curso, días 1-2)**. Tema central emergente: la era de la escasez de tokens (fin del subsidio, Uber/Microsoft/GitHub Copilot, propuesta de tarifa plana por "empleado cognitivo"). 7 temas + señales + modelos: Opus 4.8/inteligencia de orquestación/auto-fork, "Enforce don't instruct" (WorkOS/Case, menos contexto = mejor), calidad de datos 5:1 (Snorkel), paradoja del empleo + retórica moderada, encíclica Magnifica Humanitas con confesión de Chris Olah, crisis de percepción anti-tech, temporada de IPOs (Anthropic $965B/S-1). Ganchos pedagógicos: costos de tokens → clases-ia/Efecto Santiago; menos contexto = mejor → KB anti-RAG; calidad de datos → calidad sobre cantidad. Se completa al cierre del mes.

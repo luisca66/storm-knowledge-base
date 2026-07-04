@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-06-12
+ultima_actualizacion: 2026-07-03
 estado: en_progreso
 ---
 
@@ -122,6 +122,7 @@ estado: en_progreso
 |---------|-------------|--------|
 | [2026-04.md](06-diario-proyecto/2026-04.md) | Diario de abril 2026 | en_progreso |
 | [2026-05.md](06-diario-proyecto/2026-05.md) | Diario de mayo 2026 (hito: propedéutico completo) | en_progreso |
+| [2026-06.md](06-diario-proyecto/2026-06.md) | Diario de junio 2026 (síntesis del oído, Migración Empresas, schema único, veto a Fable) | **completo** |
 
 ---
 
@@ -212,22 +213,23 @@ estado: en_progreso
 
 | Métrica | Valor |
 |---------|-------|
-| Total archivos .md (incluye clases-ia) | 346 (clases-ia: 173) |
-| Archivos wiki principales completos | 5 (sin sistema, referencias históricas y clases-ia) |
-| Archivos wiki en_progreso | 28 |
+| Total archivos .md (incluye clases-ia) | 364 (clases-ia: 174, ainews: 83) |
+| Archivos wiki principales completos | 6 (sin sistema, referencias históricas y clases-ia) |
+| Archivos wiki en_progreso | 26 |
 | Archivos wiki borrador | 12 |
 | Páginas de síntesis | 7 (todas en_progreso) |
 | Libros ingresados | 26 |
 | Libros registrados pendientes | 2 (Originals, Shadows) |
 | Videos (transcripts, ingeridos al wiki) | 4 |
-| Sistema ainews | mar–jun 2026 (activo) |
+| Sistema ainews | mar–jul 2026 (activo) |
 | Alumnos en clases-ia | 11 perfilados |
-| Última sesión de trabajo | 2026-06-12 |
+| Última sesión de trabajo | 2026-07-03 |
 
 ---
 
-*Mantenido por la IA que colabora con Luis. Actualizado: 2026-06-12 (lint de salud y reconciliación de metadatos tras el trabajo operativo reciente).*
+*Mantenido por la IA que colabora con Luis. Actualizado: 2026-07-03 (lint de Fable 5: junio cerrado en el radar, diario de junio, respaldo inaugurado).*
 
 ---
 ## Historial de Cambios
+- **2026-07-03** — Lint de Fable 5: diario de junio agregado al catálogo (completo); estadísticas recalculadas (364 archivos; conteo de estados ahora excluye consistentemente archivos de sistema); sistema ainews extendido a julio; última sesión actualizada.
 - **2026-06-12** — Estadísticas recalculadas; Migración Empresas, apps y última sesión reconciliadas con el estado real del KB.

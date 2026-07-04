@@ -1,7 +1,7 @@
 ---
 titulo: "Índice de Fuentes y Lecturas"
 tipo: catalogo
-ultima_actualizacion: 2026-06-01
+ultima_actualizacion: 2026-07-03
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -83,7 +83,7 @@ Sistema de inteligencia continua sobre el panorama de IA. Procesado automáticam
 
 | Curso | Autor/Canal | Área de impacto | Archivo |
 |-------|-------------|-----------------|---------|
-| A Little Bit of Philosophy — PHI 101 (4 unidades, 17 lecciones) | [verificar canal] | filosofía / método / epistemología / ética | libros/a-little-bit-of-philosophy/ |
+| A Little Bit of Philosophy — PHI 101 (4 unidades, 17 lecciones) | Barry F. Vaughan (Mesa Community College) — canal de YouTube "A Little Bit of Philosophy" | filosofía / método / epistemología / ética | libros/a-little-bit-of-philosophy/ |
 
 **Estructura del curso:**
 - U01: Introducción, historia de la filosofía occidental, primeros filósofos, Sócrates/Atenas
@@ -110,3 +110,4 @@ Sistema de inteligencia continua sobre el panorama de IA. Procesado automáticam
 - 2026-05-21: Verificados y corregidos 10 autores que estaban como [verificar autor]: Wolfe, Blahnik, Benjamin & Shermer, Smil, García Morente, Cave, Sadhguru, Lassalle, Dalio, Keyu Jin.
 - 2026-05-29: Lint — agregados 3 videos nuevos (This Could Save Your Life, Diamandis/Ismail Moonshots, ExO 3.0). Pendiente ingestarlos al wiki.
 - 2026-06-01: Videos ingresados al wiki. INGESTED: "The Real Problem With AI Agents" → modulo_agentes.md + conceptos_no_olvidar.md + tecnologia-al-servicio-del-metodo.md. INGESTED: "This Could Save Your Life" → el-musico-como-atleta.md (sección 8). INGESTED: "ExO 3.0" → tecnologia-al-servicio-del-metodo.md (nueva sección). Moonshots raw transcript: no requiere ingesta separada (cubierto por ExO 3.0 destilado). Autor Dr. William Lee confirmado para "This Could Save Your Life".
+- 2026-07-03: Verificado el canal de "A Little Bit of Philosophy — PHI 101": Barry F. Vaughan, profesor de Mesa Community College (canal de YouTube homónimo). Se elimina el marcador [verificar canal] del curso. Queda un [verificar canal] en el video "The Real Problem With AI Agents".
