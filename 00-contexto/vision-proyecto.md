@@ -1,7 +1,7 @@
 ---
 titulo: "Visión del Proyecto"
 tipo: contexto
-ultima_actualizacion: 2026-06-11
+ultima_actualizacion: 2026-07-03
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -25,7 +25,7 @@ Un alumno que llega sin saber absolutamente nada puede recorrer el siguiente cam
 
 **Curso de Armonía (~65 lecciones):** El núcleo gratuito de la plataforma. Cada lección incluye un video y una tarea que el alumno debe replicar. En la misma página del video está el **Maestro Virtual** — el validador MIDI en tiempo real que le dice al alumno si está trabajando correctamente sin necesidad de un maestro presente. El alumno puede completar el curso completo sin referirse a ninguna fuente externa.
 
-**Apps de entrenamiento auditivo:** Las versiones **web son y serán siempre gratuitas** — parte del filtro freemium. Las versiones **móviles (Android e iOS, ambas en desarrollo activo) serán de paga a precio bajo**: no se cobra el contenido sino la conveniencia de tenerlas en el celular. Estrategia decidida en junio 2026 — razonamiento, riesgos y piloto recomendado en [decisiones-clave.md](decisiones-clave.md). El alumno con la sensibilidad correcta las va incorporando a su práctica conforme avanza.
+**Apps de entrenamiento auditivo:** Las versiones **web son y serán siempre gratuitas** — parte del filtro freemium. **Las 11 webapps ya están publicadas** (verificado 2026-07-03; solo Intervalos – Cantados espera la migración de su versión completa). Las versiones **móviles (Android e iOS) serán de paga a precio bajo en Play Store y App Store** — no se cobra el contenido sino la conveniencia de tenerlas en el celular; **sin descarga directa de APKs**. Estrategia decidida en junio 2026 y consolidada en julio — razonamiento, riesgos y piloto recomendado en [decisiones-clave.md](decisiones-clave.md). El alumno con la sensibilidad correcta las va incorporando a su práctica conforme avanza.
 
 **La escalera de valor completa:**
 1. **Gratis:** Propedéutico + curso de armonía completo + Maestro Virtual + apps web
@@ -41,6 +41,8 @@ El regalo (el contenido gratuito) es para llamar la atención y generar masa cr�
 **Los cursos avanzados no serán gratuitos — por diseño y por filosofía:** El Taller de Contrapunto Palestriniano, el Curso de Análisis, el Curso de Film Scoring y el **Taller de Ingeniería de Audio y Producción Musical** son joyas que Luis no va a regalar. **Todos ya existen y los ha impartido** — lo que escasea es el alumno que llega (≈1 cada 3 años hasta Film Scoring). Contrapunto y Análisis pueden darse en línea; Film Scoring e Ingeniería de Audio son presencial-only porque se mezclan en 5.1 en el estudio Genelec propio. El intensivo presencial además **integra formación física** (Luis tiene gym propio): no es un extra, es parte del currículum — ver [el-musico-como-atleta.md](../08-sintesis/el-musico-como-atleta.md) y la lógica completa del modelo en [estrategia-freemium-musical.md](../08-sintesis/estrategia-freemium-musical.md). Tampoco forman parte de la escalera de valor digital: son cursos que se toman directamente con Luis.
 
 **La dimensión de legado:** Luis construye la plataforma también como obra permanente. El objetivo no es solo monetizar en vida — es dejar el método documentado y funcionando para que se quede en el mundo después de él. Esta intención le da al proyecto una escala de tiempo distinta a la de un simple negocio digital.
+
+**Los libros juegan en la categoría legado, no en la de ingreso** *(decisión 2026-07-03)*: *Los Seres Musicales* y los que vengan serán **libros de consulta**, con plena conciencia de que ese segmento editorial cae ante los chatbots (−57% en 2026). Su métrica es el respeto de la comunidad musical y la permanencia — no las ventas. El dinero, mientras tanto, llega por la vaca lechera (las clases) y por lo que se extraiga de la plataforma y de YouTube. Razonamiento completo en [decisiones-clave.md](decisiones-clave.md).
 
 **El horizonte lejano — el Videojuego Total de Entrenamiento Auditivo:** La visión más ambiciosa de Luis, condicionada a "si vivo para hacerla realidad" y a que las IAs sigan evolucionando hasta poder programarla. Sería un videojuego donde **todo el juego se resuelve con habilidades auditivas** — desglose, oído absoluto, reconocimiento de acordes y de grados —, ambientado en mundos oníricos con personajes casi etéreos que avanzan resolviendo una narrativa auditiva progresiva. No es una gamificación decorativa: la habilidad de oído *es* la mecánica de juego. Las apps web/Android y los juegos actuales en **Godot 4** (ver [indice-apps.md](../03-apps-herramientas/indice-apps.md)) son la semilla y el campo de práctica de esa visión — el primer juego de oído absoluto (5 mundos) y el de intervalos (cantar para disparar) ya prueban la idea. Luis prevé que la programación del juego total será posible con una IA futura (estima que con **Claude Opus 7**, probablemente). Es a la vez producto-legado y motor de su aprendizaje como vibe coder.
 
@@ -86,9 +88,9 @@ El test concreto de autonomía con el que Luis imagina el éxito: **poder irse d
 
 | Fuente | Modelo | Estado |
 |--------|--------|--------|
-| **Clases particulares: instrumento, composición y entrenamiento físico** | Presencial / en línea — alcance y precios por documentar | **Activo — la vaca lechera actual (junto con las clases de IA)** |
-| Apps móviles (Android / iOS) | Venta a precio bajo en tiendas — precio por definir | En desarrollo (las web apps gratuitas ya activas) |
-| Libro *Los Seres Musicales* | Kindle (~$7.50 USD) | Publicado (2024) |
+| **Clases particulares: instrumento, composición y entrenamiento físico** | Presencial / en línea — **$1,500 MXN por sesión** (dato 2026-07-03; alcance y detalle completo pendientes de entrevista) | **Activo — la vaca lechera actual (junto con las clases de IA)** |
+| Apps móviles (Android / iOS) | Venta a precio bajo en Play Store / App Store — precio por definir; sin descarga directa | En desarrollo (las 11 web apps gratuitas ya publicadas) |
+| Libro *Los Seres Musicales* | Kindle (~$7.50 USD) — **rol: legado/consulta, no ingreso** (decisión 2026-07-03) | Publicado (2024) |
 | Manuales de apps | Kindle (~$2.50 USD c/u) | En desarrollo |
 | Videos del curso | Monetización YouTube | En grabación |
 | Intensivo presencial avanzado ("todo lo extra") | $20,000 MXN/mes — 3 hrs diarias, incluye formación física | Activo (pocos alumnos: ~1 cada 3 años llega al final) |
@@ -96,6 +98,8 @@ El test concreto de autonomía con el que Luis imagina el éxito: **poder irse d
 | Film Scoring + Ingeniería de Audio y Producción Musical | Presencial-only (estudio 5.1 Genelec) — dentro del intensivo | Activo (existen e impartidos) |
 | **Asesorías de IA** | **Precio directo con Luis** | **Activo** |
 | **Migración Empresas** | **Modelo y precios pendientes de documentar** | **Activo; ya genera ingresos** |
+
+> **Nota de precios (2026-07-03):** Luis anunció que las clases "van a ser $1,500 MXN por sesión". Queda por precisar en entrevista si esa tarifa **sustituye** a la de Contrapunto/Análisis en línea ($1,250/clase, dato del 2026-06-03) o si aplica a una categoría distinta (instrumento/composición/físico), y si afecta al intensivo mensual.
 
 ---
 
@@ -152,6 +156,7 @@ Este KB no es solo documentación técnica — es la memoria que le permite a cu
 ---
 
 ## Historial de Cambios
+- 2026-07-03: Actualización de Luis — 11 webapps publicadas (sin descarga directa de APKs; móviles de paga en tiendas); clases a $1,500 MXN/sesión (dato inicial, nota de precios agregada); decisión de libros como legado/consulta documentada (párrafo nuevo en la dimensión de legado y rol anotado en la tabla de ingresos).
 - 2026-04-07: Creación inicial (borrador)
 - 2026-04-09: Llenado completo con dictado directo de Luis. Estado: `completo`.
 - 2026-05-01: Entrevista Luis — nueva línea de negocio documentada: asesorías de IA (activas, abiertas a cualquier cliente). Resumen y tabla de fuentes actualizados.

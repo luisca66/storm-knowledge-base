@@ -7,6 +7,11 @@ estado: en_progreso
 
 # Registro de Cambios (CHANGELOG)
 
+## 2026-07-03 (2ª sesión — actualización de Luis)
+- **Contradicción de distribución de apps resuelta:** sin descarga directa de APKs; webapps gratuitas en el website + móviles de paga en Play Store/App Store. **11 webapps ya publicadas** — se documenta **Cantar Acordes** (faltaba en el catálogo). Intervalos – Cantados: 4/12 niveles en vivo, versión completa lista para migrar.
+- **Decisión nueva:** los libros (Los Seres Musicales y siguientes) serán **obras de consulta — legado y reputación, no ingreso** — decisión tomada con la señal del −57% sobre la mesa. Documentada en `decisiones-clave.md`, reflejada en `vision-proyecto.md` y anotada junto a la señal en `ai-radar.md` §30.
+- **Precio de clases capturado:** $1,500 MXN/sesión (dato inicial en la tabla de ingresos; entrevista completa de la vaca lechera sigue pendiente).
+
 ## 2026-07-03
 - **Primera sesión con Fable 5 — lint general del KB.** 165 referencias `relacionado_con` y 119 enlaces markdown verificados; únicas roturas: 4 enlaces `file:///` con ruta de la máquina anterior en `log.md`, corregidos a rutas relativas. Frontmatter e insights sin pendientes (buzón limpio).
 - **`ai-radar.md`: junio cerrado (días 13-29).** Arco central: el veto de exportación a Fable/Mythos 5 y el régimen de licencias de facto (carta de Lutnick). Nuevas secciones 23-30 + señales + modelos + frases; encabezado del mes: "El mes del interruptor de apagado" (trilogía economía→capacidad→gobernanza). Sección 3: 2 conceptos pedagógicos nuevos (soberanía del contexto, riesgo político de stack) y nota de cierre sobre suspensión/regreso de Fable + Sonnet 5. La propagación de la tabla de modelos a clases-ia se pospone deliberadamente a la apertura del radar de julio.

@@ -77,11 +77,11 @@ estado: en_progreso
 
 ## 03 · Apps y Herramientas
 
-*10 familias de apps web/móviles + Storm Sequencer + herramientas auxiliares.*
+*11 apps (9 oído + 2 cognitivas), todas publicadas como webapps gratuitas + Storm Sequencer + herramientas auxiliares.*
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [indice-apps.md](03-apps-herramientas/indice-apps.md) | Catálogo completo: web gratuita, móviles de paga, piloto P03 y Sequencer | en_progreso |
+| [indice-apps.md](03-apps-herramientas/indice-apps.md) | Catálogo completo: 11 webapps gratuitas, móviles de paga en tiendas, piloto P03 y Sequencer | en_progreso |
 | [elefantito-matematico.md](03-apps-herramientas/elefantito-matematico.md) | App web/Android de matemática mental: 20 niveles, tutores bilingües, técnicas Arthur Benjamin | **completo** |
 | [otras-apps.md](03-apps-herramientas/otras-apps.md) | Apps adicionales no categorizadas | borrador |
 | [entrenamiento-auditivo/app-android-overview.md](03-apps-herramientas/entrenamiento-auditivo/app-android-overview.md) | Overview de apps de entrenamiento auditivo | borrador |
@@ -231,5 +231,6 @@ estado: en_progreso
 
 ---
 ## Historial de Cambios
+- **2026-07-03 (2)** — Actualización de Luis: catálogo de apps corregido a 11 webapps publicadas (Cantar Acordes documentada); descripción de la sección 03 actualizada.
 - **2026-07-03** — Lint de Fable 5: diario de junio agregado al catálogo (completo); estadísticas recalculadas (364 archivos; conteo de estados ahora excluye consistentemente archivos de sistema); sistema ainews extendido a julio; última sesión actualizada.
 - **2026-06-12** — Estadísticas recalculadas; Migración Empresas, apps y última sesión reconciliadas con el estado real del KB.

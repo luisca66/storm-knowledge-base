@@ -1,7 +1,7 @@
 ---
 titulo: "Decisiones Clave"
 tipo: decision
-ultima_actualizacion: 2026-06-11
+ultima_actualizacion: 2026-07-03
 estado: en_progreso
 ---
 
@@ -60,6 +60,7 @@ Cada decisión sigue este formato:
 **Razonamiento:** No se cobra el contenido — se cobra la conveniencia (celular, offline, pantalla de inicio). La web gratis ES el demo. Las herramientas de práctica diaria se usan en momentos muertos (transporte, esperas, gym), donde el navegador es torpe y la app nativa gana. Además las tiendas son un canal de descubrimiento que el website no tiene: cada app es un anzuelo hacia el embudo. Resuelve de paso la fricción del APK señalada en la decisión del 2026-05-22.
 **Alternativas consideradas:** (a) Todo gratis con descarga directa — fricción de "fuentes desconocidas" y cero presencia en tiendas; (b) cobrar también la web — rompería el filtro freemium; (c) suscripción — descartada: a estos precios genera resentimiento y choca con la marca de generosidad del método.
 **Consecuencias:** Mantenimiento multiplicado (10+ apps × 3 plataformas) para un solo desarrollador; cuotas de tienda (Google $25 único, Apple ~$99 USD/año) y comisiones del 15-30%; el keystore de Android se vuelve activo crítico. **La métrica correcta es tráfico calificado al ecosistema, no el ingreso directo** — a ~$2.99 menos comisión se necesitan cientos de ventas para igualar la colegiatura mensual de un solo alumno particular. **Acordado:** piloto con las 2 apps de P03 de punta a punta (publicar, poner precio, medir ventas y tráfico un par de meses) antes de portar el catálogo completo; pago único, nunca suscripción.
+**Actualización 2026-07-03 (Luis):** la decisión se consolida y **la descarga directa de APKs queda eliminada del modelo** — la contradicción señalada en `stack-tecnologico.md` queda resuelta: la distribución es únicamente webapps gratuitas en el website + versiones móviles de paga en Play Store / App Store. Estado real: **las 11 webapps ya están publicadas** en stormstudios.com.mx (9 de oído + 2 cognitivas; se sumó *Cantar Acordes* al catálogo). La única inconclusa es **Intervalos – Cantados** (4 de 12 niveles en vivo; la versión completa ya está terminada en otro folder y solo falta migrarla — se da por resuelta).
 
 ### Sin límites a priori para la autonomía de la IA
 **Fecha:** 2026-06-11
@@ -77,7 +78,16 @@ Cada decisión sigue este formato:
 **Alternativas consideradas:** (a) AGENTS.md como maestro — es el estándar multi-agente emergente, pero Claude (el colaborador principal) no lo carga automáticamente, mientras que Codex sí puede seguir un stub; (b) symlink — frágil en Windows y en checkouts de git; (c) seguir sincronizando a mano — descartado por evidencia: ya divergieron.
 **Consecuencias:** Al editar el schema solo se toca CLAUDE.md. Si algún agente reconstruye AGENTS.md con contenido propio, hay que revertirlo y restaurar el stub. La unificación del propósito (dos niveles: continuidad hoy, autonomía mañana) y del alcance (tres líneas de negocio) quedó plasmada en CLAUDE.md §2.
 
+### Los libros serán obras de consulta — legado y reputación, no línea de ingreso principal
+**Fecha:** 2026-07-03
+**Contexto:** El radar de IA registró la caída del 57% en ventas de libros de no ficción (Tim Ferriss, junio 2026): los libros de consulta y tutoriales están siendo sustituidos por chatbots, y el valor de mercado migra hacia la narración y el entretenimiento. La IA planteó a Luis si su plan de libros Kindle debía pivotar hacia lo narrativo.
+**Decisión:** No pivotar. *Los Seres Musicales* y los libros que vengan **serán libros de consulta**, con plena conciencia de la señal del mercado.
+**Razonamiento:** Los libros no juegan en la categoría "ingreso" — juegan en la categoría **respeto y legado**. Ganándose el respeto de la comunidad musical, Luis espera que se conviertan en parte de su legado. El dinero, mientras tanto, llega por la vaca lechera (las clases particulares, $1,500 MXN por sesión) y por lo que se pueda extraer de la plataforma y de los videos de YouTube. Un libro de consulta serio construye autoridad ante la comunidad de un modo que un libro "narrativo para vender" no lograría — y la autoridad alimenta el embudo completo.
+**Alternativas consideradas:** Reorientar los libros hacia narrativa/historia personal (la categoría que sobrevive comercialmente según el radar) — descartado: optimizaría el ingreso del peldaño equivocado de la escalera.
+**Consecuencias:** Cero presión de monetización sobre los libros; los manuales Kindle de las apps siguen en la escalera como artículos de precio bajo; la métrica de éxito de los libros es reputación y permanencia, no ventas. Coherente con el rol del website ($0 por diseño): las piezas de legado no se miden en dinero.
+
 ## Historial de Cambios
+- **2026-07-03** — Decisión nueva: libros como obras de consulta (legado/reputación, no ingreso). Decisión de apps actualizada: descarga directa eliminada del modelo, 11 webapps publicadas, contradicción de distribución resuelta.
 - **2026-06-11** — Entrevista de propósito: 2 decisiones nuevas (apps web-gratis/móvil-de-paga con piloto P03; sin límites a priori a la autonomía de la IA). Decisión Play Store del 05-22 marcada como superada.
 - **2026-06-11** — Decisión de fuente única del schema documentada (CLAUDE.md maestro, AGENTS.md stub). Estado: borrador → en_progreso.
 - **2026-05-22** — Decisión Play Store documentada (en evaluación).

@@ -299,9 +299,8 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
 - Verificar si el progreso del alumno en localStorage es un problema a resolver pronto
 - **Respaldo del KB** → ✅ rutina mensual de `git bundle` documentada en `05-operaciones/infraestructura.md`; primer bundle generado 2026-07-03. **Pendiente de Luis:** copiar el bundle a Google Drive o disco externo (en la misma PC solo protege contra corrupción del repo, no contra falla de disco) y repetir al cierre de cada mes
-- **Documentar las clases particulares como línea completa** (entrevista 2026-06-11): alcance y precios de instrumento/composición y entrenamientos físicos — la vaca lechera real apenas quedó esbozada en la tabla de ingresos
-- **Ejecutar la estrategia de apps de paga** (decidida 2026-06-11, ver `decisiones-clave.md`): documentar el toolchain iOS en `stack-tecnologico.md`, reflejar web-gratis/móvil-de-paga en `indice-apps.md`, y correr el piloto con las 2 apps de P03
-- **Contradicción por verificar:** `stack-tecnologico.md` dice "10 apps en Google Play" pero la decisión Play Store del 2026-05-22 describe distribución por descarga directa desde el website — ¿cuáles están dónde?
+- **Documentar las clases particulares como línea completa** (entrevista pendiente): dato capturado 2026-07-03 — **$1,500 MXN por sesión**. Falta precisar alcance por tipo de clase y si la tarifa sustituye a la de Contrapunto/Análisis ($1,250, dato 06-03) — ver nota de precios en `vision-proyecto.md`
+- **Ejecutar la estrategia de apps de paga** (consolidada 2026-07-03: solo tiendas, sin descarga directa; 11 webapps ya publicadas): documentar el toolchain iOS en `stack-tecnologico.md`, correr el piloto de P03 en Play Store/App Store, y **migrar la versión completa de Intervalos – Cantados** (12 niveles, terminada en otro folder; el web tiene 4 en vivo)
 
 ---
 

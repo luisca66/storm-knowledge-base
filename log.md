@@ -8,6 +8,19 @@
 
 ---
 
+## [2026-07-03] entrevista | Actualización de Luis — apps, precios y rol de los libros
+
+**Contexto:** Tras el reporte del lint, Luis compartió una captura del catálogo del website y tres actualizaciones estratégicas.
+
+**Lo capturado:**
+1. **Distribución de apps resuelta (contradicción de mayo cerrada):** ya no habrá descarga directa de APKs. Modelo definitivo: webapps gratuitas en el website + versiones Android/iOS de paga a precio bajo en Play Store y App Store. **Las 11 webapps ya están publicadas** (9 oído + 2 cognitivas). Se documenta **Cantar Acordes**, que faltaba en el catálogo. Única inconclusa: Intervalos – Cantados (4/12 niveles en vivo; versión completa terminada en otro folder, falta migrar).
+2. **Precio de clases:** $1,500 MXN por sesión (dato inicial; entrevista completa de la vaca lechera sigue pendiente — aclarar relación con el dato previo de Contrapunto/Análisis a $1,250).
+3. **Decisión de libros:** serán obras de consulta — legado y reputación ante la comunidad, no línea de ingreso — con plena conciencia de la señal del mercado (−57% no ficción). El dinero viene de las clases, la plataforma y YouTube.
+
+**Archivos modificados:** `decisiones-clave.md` (decisión nueva de libros + actualización de la decisión de apps), `indice-apps.md` (11 apps, Cantar Acordes, distribución resuelta), `stack-tecnologico.md` (contradicción resuelta), `vision-proyecto.md` (apps, tabla de ingresos con nota de precios, párrafo de libros como legado), `ai-radar.md` §30 (decisión anotada junto a la señal), `CLAUDE.md` §7, `index.md`.
+
+---
+
 ## [2026-07-03] lint | Revisión general del KB — primera sesión con Fable 5
 
 **Contexto:** Luis pidió una revisión completa del proyecto para estrenar Fable 5 (modo Ultracode), bajo la tesis de que cada modelo nuevo le da una mejoría al KB (insight procesado del 2026-06-12).

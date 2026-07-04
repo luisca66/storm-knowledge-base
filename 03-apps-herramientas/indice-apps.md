@@ -1,7 +1,7 @@
 ---
 titulo: "Catálogo de Apps y Herramientas"
 tipo: catalogo
-ultima_actualizacion: 2026-06-12
+ultima_actualizacion: 2026-07-03
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -14,20 +14,21 @@ estado: en_progreso
 # Catálogo de Apps y Herramientas
 
 ## Resumen
-Inventario completo de las aplicaciones y herramientas desarrolladas por Luis para Storm Studios Learning. Son 10 familias de apps de entrenamiento, más el Storm Sequencer web. La estrategia vigente es mantener versiones web gratuitas y vender versiones móviles de bajo costo en Android e iOS.
+Inventario completo de las aplicaciones y herramientas desarrolladas por Luis para Storm Studios Learning. Son **11 apps de entrenamiento (9 de oído + 2 cognitivas), todas ya publicadas como webapps gratuitas** en stormstudios.com.mx, más el Storm Sequencer web. La estrategia vigente: versiones web gratuitas + versiones móviles de bajo costo en Play Store y App Store (sin descarga directa de APKs — eliminada del modelo el 2026-07-03).
 
 ---
 
 ## Apps de Entrenamiento Auditivo
 
-Todas disponibles en Android. Diseñadas para entrenamiento selectivo de la corteza auditiva — el principio del método es desintegrar, entrenar por separado, reintegrar.
+Las 9 publicadas como webapps gratuitas en el website (2026-07-03). Diseñadas para entrenamiento selectivo de la corteza auditiva — el principio del método es desintegrar, entrenar por separado, reintegrar.
 
 | App | Propósito | Área del método |
 |-----|-----------|-----------------|
 | **Desglose** ⭐ | **App fundacional.** Toca de 2 a 7 notas simultáneas (piano, corno, coro, cello, fagot o multitímbrico); el alumno debe **cantar cada nota** y la app la da por buena al afinarla. Sensible a la nota, no a la octava → se trabaja todo el rango C2–C7 | Oído absoluto / corteza auditiva selectiva |
 | **Intervalos – Reconocimiento** | Entrena el reconocimiento de distancias de tono entre notas | Oído relativo — **App de P03** |
-| **Intervalos – Cantados** | Desarrolla la producción vocal precisa de intervalos | Oído relativo + cuerpo — **App de P03** |
+| **Intervalos – Cantados** | Desarrolla la producción vocal precisa de intervalos. **Única app inconclusa:** 4 de 12 niveles en vivo; la versión completa ya está terminada en otro folder — solo falta migrarla al website | Oído relativo + cuerpo — **App de P03** |
 | **Reconocimiento de Acordes** | Identifica cualidades de acordes desde tríadas hasta acordes de 13ª | Oído relativo / armonía |
+| **Cantar Acordes** | Entrena la afinación cantando las notas de acordes de dificultad progresiva | Oído relativo / armonía + cuerpo |
 | **Grados Escala Mayor** | Desarrolla la percepción de función tonal en tonalidades mayores | Oído relativo / grados |
 | **Grados Escala Menor** | Desarrolla la percepción de función tonal en tonalidades menores | Oído relativo / grados |
 | **Oído Absoluto Multi-tímbrico** | Reconocimiento de notas específicas en 5 timbres. **Es la app de AP del taller** (la principal) | Oído absoluto |
@@ -93,9 +94,9 @@ Proyecto personal de Luis para llevar el entrenamiento auditivo a un entorno de 
 
 ## Notas Importantes
 
-- El sitio menciona "10 Apps Musicales" — el catálogo aquí coincide: 8 de entrenamiento auditivo + Elefantito Matemático + App Memoria = 10.
-- Todas las apps son completamente gratuitas y están diseñadas para complementar el curso de armonía.
-- La versión anterior del KB mencionaba "7 apps de entrenamiento auditivo" — el número correcto según el sitio es 8 apps de oído + 2 cognitivas = 10 total.
+- El sitio muestra **"Web Apps · 11"** (verificado 2026-07-03): 9 de entrenamiento auditivo + Elefantito Matemático + App Memoria = 11. La novena app de oído es **Cantar Acordes**, que se sumó al catálogo web.
+- Las versiones **web** son completamente gratuitas y complementan el curso de armonía; las versiones **móviles** serán de paga en tiendas.
+- Historia del conteo: el KB registró antes "7 apps de oído", luego "8 de oído + 2 cognitivas = 10"; con Cantar Acordes el total es **11**. En el catálogo web, Elefantito y App Memoria muestran además insignia "Android".
 
 ## Origen y evolución de las apps
 
@@ -114,14 +115,13 @@ Las apps de Storm Studios **no precedieron al método — lo automatizaron.** Cr
 
 ## Distribución web y tiendas móviles
 
-**Decisión vigente (2026-06-11):**
+**Decisión vigente (2026-06-11, consolidada 2026-07-03):**
 
-- Las versiones web permanecen gratuitas.
-- Las versiones móviles se venden a precio bajo en Google Play y App Store.
+- Las versiones web permanecen gratuitas — **las 11 ya están publicadas** en el website.
+- Las versiones móviles (Android e iOS) se venden a precio bajo en Google Play y App Store.
+- **No hay ni habrá descarga directa de APKs** — eliminada del modelo (resuelve la contradicción que arrastraba `stack-tecnologico.md` desde mayo).
 - El piloto de punta a punta será **Intervalos – Reconocimiento** + **Intervalos – Cantados**, las dos apps indispensables de P03.
 - El modelo es pago único, nunca suscripción.
-
-**Estado que aún debe verificarse:** `stack-tecnologico.md` dice que hay 10 apps en Google Play, mientras la documentación de mayo describe APKs descargados directamente desde el website. Hasta revisar las tiendas o los repos, no asumir cuál es la distribución efectiva de cada app.
 
 **Contexto técnico del piloto Android:**
 1. Cuenta Google Play Developer ($25 USD, pago único)
@@ -134,6 +134,7 @@ El toolchain iOS sigue pendiente de documentar. Ver decisión completa en `00-co
 ---
 
 ## Historial de Cambios
+- **2026-07-03** — Actualización de Luis (con captura del sitio): **11 webapps publicadas** (se documenta **Cantar Acordes**, que faltaba en el catálogo); Intervalos – Cantados con 4/12 niveles en vivo y versión completa lista para migrar; descarga directa de APKs eliminada del modelo — contradicción de distribución resuelta.
 - **2026-06-12** — Catálogo alineado con la decisión web-gratis/móvil-de-paga; piloto P03 y contradicción de distribución actual documentados.
 - **2026-06-04** — Entrevista a Luis (6): apps de AP — clarificado Multitímbrico (taller) vs. Guitarra Clásica (personal de Luis, concertista). AP desde el principio, 5–10 años, posición honesta (prodigio vs. parches; el viaje basta). Cierra el catálogo de apps de oído.
 - **2026-06-04** — Entrevista a Luis (5): documentada la secuencia del oído relativo tras Desglose (intervalos cantados+reconocer simultáneos, grados, acordes 5ª→13ª, exhaustivo, meses). Diseño multitímbrico explicado (5 timbres porque la música no es solo piano). Pendiente nuevo: programar Grados Cantados.
