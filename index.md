@@ -24,6 +24,7 @@ estado: en_progreso
 | [log.md](log.md) | Registro cronológico de sesiones e ingestas | ✅ activo |
 | [CHANGELOG.md](CHANGELOG.md) | Historial de cambios significativos al KB | en_progreso |
 | [plan-maestro-base-conocimiento.md](plan-maestro-base-conocimiento.md) | Plan original de construcción del KB | referencia |
+| [herramientas/lint_kb.py](herramientas/lint_kb.py) | Script de verificación reproducible: referencias, enlaces y frontmatter. Primer paso del Lint y del Cierre de Mes | ✅ activo |
 
 ---
 

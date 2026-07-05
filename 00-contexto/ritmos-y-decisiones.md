@@ -1,7 +1,7 @@
 ---
 titulo: "Ritmos Operativos de Luis"
 tipo: contexto
-ultima_actualizacion: 2026-04-17
+ultima_actualizacion: 2026-07-03
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 05-operaciones/flujo-trabajo.md
@@ -44,6 +44,8 @@ Mientras Luis está con Esteban, un proceso automatizado trabaja en su laptop:
 
 **El resultado:** Luis escucha el resumen de noticias de IA durante el recorrido de bici de 50-55 minutos. Llega a casa de Esteban ya al día. El tiempo de traslado es tiempo de aprendizaje.
 
+> **Convención de registro (desde 2026-07-04):** cada ingesta diaria de ainews se anota en `log.md` en **una sola línea** que apunta al índice mensual — el detalle de temas del día vive únicamente en `07-fuentes/ainews/YYYYMM/indice_general.md`. Es la regla de fuente única aplicada al pipeline: evita que el log duplique el índice y lo mantiene legible para las sesiones reales de trabajo. **Nota para Luis:** si el prompt de la tarea programada de Cowork escribe entradas extensas en el log, hay que ajustarlo para que escriba solo esa línea (ese cambio vive en la configuración de la tarea, fuera del alcance de una sesión normal del KB).
+
 ---
 
 ## Prioridades variables (según energía disponible)
@@ -75,4 +77,5 @@ El sistema de IA automatizado es un ejemplo de cómo Luis resuelve el problema d
 ---
 
 ## Historial de Cambios
+- **2026-07-03** — Documentada la convención de registro de ainews a 1 línea (regla de fuente única; Tarea 3 del plan de mejoras).
 - **2026-04-17** — Creación del archivo a partir de entrevista a Luis

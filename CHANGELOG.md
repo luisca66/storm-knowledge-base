@@ -7,6 +7,13 @@ estado: en_progreso
 
 # Registro de Cambios (CHANGELOG)
 
+## 2026-07-03 (3ª sesión — ejecución del plan de mejoras, Opus)
+- **Workflow "Cierre de Mes" institucionalizado** en `CLAUDE.md` §5: el ritual mensual (radar + diario + lint + reconciliación + respaldo) deja de vivir solo en el log y pasa a ser un workflow con nombre.
+- **Lint reproducible:** `herramientas/lint_kb.py` versionado en el repo — verifica referencias, enlaces y frontmatter automáticamente ("enforce, don't instruct"). El workflow de Lint lo lista como primer paso. Registrado en `index.md`.
+- **Log de ainews adelgazado (hacia adelante):** convención de 1 línea por ingesta diaria documentada en `log.md` y `ritmos-y-decisiones.md` (regla de fuente única). Histórico intacto.
+- **Recordatorio automático:** tarea programada local `cierre-de-mes-kb` (día 1 de cada mes, 9:00) que dispara el workflow.
+- Tarea 5 del plan (borradores estancados) en curso vía entrevista corta con Luis.
+
 ## 2026-07-03 (2ª sesión — actualización de Luis)
 - **Contradicción de distribución de apps resuelta:** sin descarga directa de APKs; webapps gratuitas en el website + móviles de paga en Play Store/App Store. **11 webapps ya publicadas** — se documenta **Cantar Acordes** (faltaba en el catálogo). Intervalos – Cantados: 4/12 niveles en vivo, versión completa lista para migrar.
 - **Decisión nueva:** los libros (Los Seres Musicales y siguientes) serán **obras de consulta — legado y reputación, no ingreso** — decisión tomada con la señal del −57% sobre la mesa. Documentada en `decisiones-clave.md`, reflejada en `vision-proyecto.md` y anotada junto a la señal en `ai-radar.md` §30.

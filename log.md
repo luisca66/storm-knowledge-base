@@ -5,6 +5,25 @@
 > Cada entrada documenta qué se hizo, qué se ingresó, qué se aprendió.
 > Formato de entrada: `## [FECHA] tipo | descripción`
 > Tipos: `ingest` | `entrevista` | `actualización` | `lint` | `sesion`
+>
+> **Ingestas diarias de ainews (desde 2026-07-04):** se registran en **una sola línea** —
+> `## [FECHA] ingest | ainews YYYY-MM-DD → ver 07-fuentes/ainews/YYYYMM/indice_general.md`.
+> El detalle de temas del día vive únicamente en el índice mensual (regla de fuente única;
+> mantiene el log legible). Las entradas históricas extensas se conservan tal cual (ledger append-only).
+
+---
+
+## [2026-07-03] actualización | Ejecución del plan de mejoras (Opus) — Tareas 1-4
+
+**Contexto:** Opus 4.8 ejecuta el plan `05-operaciones/plan-mejoras-kb-2026-07.md` dejado por Fable 5.
+
+**Completado:**
+- **Tarea 1 — Workflow "Cierre de Mes":** documentado en `CLAUDE.md` §5 (radar + diario + lint + reconciliación + respaldo, 6 pasos). El workflow de Lint ahora lista `lint_kb.py` como primer paso y separa la parte mecánica de la de juicio.
+- **Tarea 2 — Script versionado:** creado `herramientas/lint_kb.py` (verifica referencias, enlaces y frontmatter). Corre desde la raíz y da "OK - KB sano" (173 refs, 122 enlaces, 0 roturas). Registrado en `index.md` como archivo de sistema. Ajuste: guión largo → simple en la salida para evitar problemas de encoding en la consola de Windows.
+- **Tarea 3 — Log de ainews a 1 línea (hacia adelante):** nueva convención en el encabezado de `log.md` y documentada con su porqué en `00-contexto/ritmos-y-decisiones.md`. Entradas históricas intactas (ledger append-only). Nota para Luis: el prompt de la tarea de Cowork que ingesta ainews debe ajustarse para escribir solo esa línea.
+- **Tarea 4 — Recordatorio automático:** creada la tarea programada local `cierre-de-mes-kb` (cron `0 9 1 * *` — día 1 de cada mes 9:00; primera corrida 1-ago). Corre con la app abierta; si está cerrada, en el siguiente arranque.
+
+**Pendiente en esta sesión:** Tarea 5 (borradores estancados) — Luis eligió entrevista corta; se ejecuta a continuación.
 
 ---
 

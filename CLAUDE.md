@@ -197,14 +197,26 @@ Cada archivo modificado debe tener al final:
 
 ### Lint del KB (revisión de salud)
 
-Periódicamente verificar:
+**Primer paso siempre:** correr `python herramientas/lint_kb.py` desde la raíz del repo. Verifica automáticamente las tres capas mecánicas (referencias `relacionado_con`, enlaces markdown relativos, frontmatter presente) y reporta "OK — KB sano" o los hallazgos concretos. Es la parte "enforce, don't instruct" del lint: no depende de que el modelo recuerde qué revisar.
+
+Luego, la revisión de juicio (que el script no puede hacer):
 - Archivos en `borrador` que llevan mucho tiempo sin avanzar
-- Referencias cruzadas rotas (`relacionado_con` apuntando a archivos inexistentes)
 - Contradicciones entre archivos (ej. número de apps, número de lecciones)
 - Insights en `insights.md` sin procesar (sin ✅) que ya tienen archivo destino
 - Archivos `requiere_revision` que no han sido actualizados
 - **Duplicación semántica**: archivos con temas solapados → fusionar o crear jerarquía
 - **Páginas de síntesis huérfanas**: síntesis que no se actualizan al ingresar nuevas fuentes
+
+### Cierre de Mes (ejecutar el día 1 de cada mes, o al primer día hábil de sesión)
+
+Ritual mensual que consolida el mes cerrado. Combina radar + diario + lint + respaldo en una secuencia con nombre, para que cualquier IA lo ejecute idéntico sin depender de la memoria.
+
+1. **Cerrar el mes en `00-contexto/ai-radar.md`:** sintetizar los días faltantes desde `07-fuentes/ainews/YYYYMM/indice_general.md` (+ resúmenes diarios si hace falta detalle). Actualizar encabezado del mes, señales, modelos, frases y la Sección 3 (filtro pedagógico para las clases).
+2. **Crear el diario mensual** `06-diario-proyecto/YYYY-MM.md` desde `log.md` y `CHANGELOG.md` (formato: hitos narrativos + balance del mes).
+3. **Correr el lint completo** (`python herramientas/lint_kb.py` + revisión de juicio) y corregir hallazgos.
+4. **Reconciliar archivos de control:** `index.md` (estadísticas), `CLAUDE.md` §7, `CHANGELOG.md`.
+5. **Generar respaldo:** `git bundle create "C:\Users\Luis\Documents\storm-kb-backup-YYYYMMDD.bundle" --all` + `git bundle verify`. Recordar a Luis copiarlo a Drive/disco externo.
+6. **Registrar en `log.md`** (`## [FECHA] lint | Cierre de mes YYYY-MM`), commit y push.
 
 ### Respuesta a preguntas del proyecto
 
