@@ -288,6 +288,7 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Decisiones y su porqué** → `00-contexto/decisiones-clave.md`
 
 **Pendiente prioritario:**
+- **▶ EJECUTAR el plan de mejoras estructurales** — `05-operaciones/plan-mejoras-kb-2026-07.md` (autocontenido, aprobado por Luis, asignado a Opus): workflow Cierre de Mes, script de lint versionado, log de ainews a 1 línea, recordatorio automático, y decisión de borradores estancados (preguntar a Luis)
 - **Autonomía operativa** — Modelo y diagnóstico documentados en `05-operaciones/flujo-trabajo.md`. Prioridad inmediata: inventario de repos/rutas/comandos/ambientes y cerrar el primer circuito autónomo con Lección 1 + Maestro Virtual. Siguen pendientes infraestructura, recuperación y `04-contenido-musical/`.
 - `ai-radar.md` → ✅ junio cerrado (2026-07-03). **Pendiente:** abrir la síntesis de julio (regreso de Fable 5, lanzamiento de Sonnet 5) y ahí revalidar la tabla de modelos y propagarla a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia (leer antes `INSTRUCCIONES_CLASES_IA.md`)
 - `09-migracion-empresas/` → ✅ Entrevista fundacional completada (`entrevista_fundacional.md`). Pendiente: Luis debe definir la estructura de precios comercial.

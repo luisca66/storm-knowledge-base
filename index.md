@@ -108,6 +108,7 @@ estado: en_progreso
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
 | [flujo-trabajo.md](05-operaciones/flujo-trabajo.md) | Modelo de autonomía operativa, diagnóstico por capas y flujo diario pendiente de entrevista | en_progreso |
+| [plan-mejoras-kb-2026-07.md](05-operaciones/plan-mejoras-kb-2026-07.md) | Plan autocontenido de mejoras estructurales (Fable 5 → Opus): cierre de mes, lint versionado, log ainews, recordatorio | **completo** (por ejecutar) |
 | [asesoria-ia.md](05-operaciones/asesoria-ia.md) | Relación entre asesorías de IA y Migración Empresas; modelo de acompañamiento | en_progreso |
 | [infraestructura.md](05-operaciones/infraestructura.md) | Infraestructura técnica: Vercel, Firebase, Zoho, GDrive | borrador |
 | [migraciones-pendientes.md](05-operaciones/migraciones-pendientes.md) | Migraciones técnicas pendientes | borrador |

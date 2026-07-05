@@ -8,6 +8,16 @@
 
 ---
 
+## [2026-07-03] actualización | Plan de mejoras estructurales del KB (Fable 5 → Opus)
+
+**Contexto:** Luis pidió recomendaciones de estructura y funcionamiento; aprobó que queden como plan ejecutable para Opus.
+
+**Archivo creado:** `05-operaciones/plan-mejoras-kb-2026-07.md` — autocontenido, 5 tareas: (1) workflow "Cierre de Mes" en CLAUDE.md §5; (2) `herramientas/lint_kb.py` versionado (código incluido, probado hoy); (3) ingestas de ainews a 1 línea en log.md hacia adelante (fuente única = índice mensual); (4) recordatorio automático mensual; (5) borradores estancados de 04-contenido-musical — requiere decisión de Luis, preguntar antes de actuar.
+
+**Además:** pendiente ▶ agregado al tope de CLAUDE.md §7; fila nueva en index.md.
+
+---
+
 ## [2026-07-03] entrevista | Actualización de Luis — apps, precios y rol de los libros
 
 **Contexto:** Tras el reporte del lint, Luis compartió una captura del catálogo del website y tres actualizaciones estratégicas.
