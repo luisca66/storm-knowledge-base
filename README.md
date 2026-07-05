@@ -28,7 +28,7 @@ Este repositorio **privado** contiene la información necesaria para que una IA 
 | `01-metodo-pedagogico/` | Filosofía, estructura del curso, lecciones, ejercicios | Alta — el corazón del proyecto |
 | `02-plataforma-web/` | Arquitectura Next.js, Maestro Virtual, secuenciador | Alta — la implementación |
 | `03-apps-herramientas/` | Catálogo de apps Android, Godot, HTML | Media |
-| `04-contenido-musical/` | Repertorio, MIDIs, audio assets | Media |
+| `04-contenido-musical/` | Cómo se sirve el contenido (Cloudflare/YouTube) + discografía con IA (a futuro) | Baja |
 | `05-operaciones/` | Infraestructura, migraciones, flujo de trabajo | Baja — consultar según necesidad |
 | `06-diario-proyecto/` | Registro cronológico mensual | Referencia — contexto temporal |
 | `07-fuentes/` | Libros y lecturas que fundamentan el método, con índice de impacto por área. | Media — referencia para decisiones pedagógicas |

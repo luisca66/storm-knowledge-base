@@ -27,6 +27,21 @@
 
 ---
 
+## [2026-07-03] entrevista | Tarea 5 del plan — desatorar 04-contenido-musical
+
+**Contexto:** entrevista corta con Luis para resolver los 4 borradores estancados desde abril.
+
+**Lo capturado y resuelto:**
+- **Audio y video:** todos los samples y músicas de la plataforma están en **Cloudflare**; los videos en **YouTube** con su liga. La migración vieja (Dreamhost/Mediafire → Drive) quedó **resuelta** por otra vía (Cloudflare). → `audio-assets.md` y `migraciones-pendientes.md` reescritos a `completo`; `infraestructura.md` registra Cloudflare y YouTube.
+- **MIDI:** **no hay biblioteca MIDI** del lado de Storm Studios. El alumno genera el MIDI en su compu, lo sube al Maestro Virtual para validación, y no se guarda nada (formato de paso). → `archivos-midi.md` reescrito a nota aclaratoria (`completo`).
+- **Repertorio:** el concepto de "repertorio de curso" **no aplica** (curso de armonía/oído, no de repertorio). Pero Luis tiene un **plan a futuro**: una página de la plataforma para compartir sus **canciones hechas con IA, organizadas como discos** — diversión, comunidad, "buena vibra", **independiente del método**. → `repertorio.md` renombrado (git mv) a **`discografia-ia.md`** con la ficha del plan.
+
+**Efecto:** `04-contenido-musical/` deja de ser zona muerta; nace la línea creativa de la discografía con IA. Plan de mejoras 100% ejecutado (5/5 tareas).
+
+**Pendiente menor de Luis:** ajustar el prompt de la tarea de Cowork (ainews) para que escriba 1 línea en el log.
+
+---
+
 ## [2026-07-03] actualización | Plan de mejoras estructurales del KB (Fable 5 → Opus)
 
 **Contexto:** Luis pidió recomendaciones de estructura y funcionamiento; aprobó que queden como plan ejecutable para Opus.

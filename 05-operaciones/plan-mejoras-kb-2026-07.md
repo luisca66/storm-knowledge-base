@@ -180,5 +180,22 @@ Ejecutar lo que Luis elija; si no está disponible, saltar esta tarea sin tocar 
 4. Commit + push. Regenerar el bundle solo si es día de cierre de mes.
 
 ---
+
+## Ejecución
+
+**Ejecutado por Opus 4.8 el 2026-07-03** (misma fecha de creación). Resultado por tarea:
+
+| Tarea | Resultado |
+|-------|-----------|
+| 1 — Workflow Cierre de Mes | ✅ Documentado en `CLAUDE.md` §5 (6 pasos). El workflow de Lint ahora usa `lint_kb.py` como primer paso. |
+| 2 — Script `lint_kb.py` | ✅ Creado y versionado en `herramientas/`. Corre desde la raíz → "OK - KB sano". Registrado en `index.md`. Ajuste: guión largo→simple para evitar problemas de encoding en consola Windows. |
+| 3 — Log de ainews a 1 línea | ✅ Convención documentada en el encabezado de `log.md` y en `ritmos-y-decisiones.md` (con el porqué). Histórico intacto. Falta que Luis ajuste el prompt de la tarea de Cowork. |
+| 4 — Recordatorio automático | ✅ Tarea programada local `cierre-de-mes-kb` (cron `0 9 1 * *`; primera corrida 1-ago). Corre con la app abierta. |
+| 5 — Borradores estancados | ✅ Entrevista corta con Luis. Resueltos los 4 archivos: **audio en Cloudflare + video en YouTube** (migración cerrada, no era a Drive); **no hay biblioteca MIDI** (formato de paso); **repertorio de curso no aplica** → `repertorio.md` reencarnado como **`discografia-ia.md`** (plan a futuro: canciones de Luis con IA, como discos, "buena vibra", independiente del método). `migraciones-pendientes.md` y `audio-assets.md` → completo. |
+
+**Efecto neto:** `04-contenido-musical/` deja de ser zona muerta del KB; la migración de audio queda cerrada; nace la ficha de la discografía con IA como línea creativa nueva de Luis.
+
+---
 ## Historial de Cambios
+- **2026-07-03** — Ejecución completa del plan (Opus 4.8): las 5 tareas cerradas. Sección "## Ejecución" agregada.
 - **2026-07-03** — Creación del plan (Fable 5), aprobado por Luis para ejecución por Opus.

@@ -97,10 +97,10 @@ storm-knowledge-base/
 │   ├── otras-apps.md
 │   └── entrenamiento-auditivo/
 │
-├── 04-contenido-musical/  ← Assets: MIDI, audio, repertorio
-│   ├── archivos-midi.md
-│   ├── audio-assets.md
-│   └── repertorio.md
+├── 04-contenido-musical/  ← Cómo se sirve el contenido (Cloudflare/YouTube) + obra musical de Luis
+│   ├── archivos-midi.md       ← nota: no hay biblioteca MIDI (formato de paso)
+│   ├── audio-assets.md        ← audio en Cloudflare, video en YouTube
+│   └── discografia-ia.md      ← plan a futuro: canciones de Luis hechas con IA, como discos
 │
 ├── 05-operaciones/        ← Cómo funciona el proyecto día a día
 │   ├── flujo-trabajo.md
@@ -291,7 +291,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual (actualizar en cada sesión)
 
-**Última actualización:** 2026-07-03 — Primera sesión con Fable 5 (lint general): junio cerrado en `ai-radar.md` (el veto de exportación como arco central), diario `06-diario-proyecto/2026-06.md` creado, rutina de respaldo `git bundle` documentada e inaugurada, canal de PHI 101 verificado, 165 referencias cruzadas verificadas sin roturas.
+**Última actualización:** 2026-07-03 — Sesión doble. (1) Lint general con Fable 5: junio cerrado en `ai-radar.md` (veto de exportación como arco central), diario de junio, respaldo `git bundle` inaugurado. (2) Ejecución con Opus del plan de mejoras estructurales: workflow Cierre de Mes (§5), `herramientas/lint_kb.py` versionado, recordatorio mensual programado, y `04-contenido-musical/` desatorado por entrevista (audio en Cloudflare, sin biblioteca MIDI, nace `discografia-ia.md`).
 
 El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Estado por archivo** → `index.md` (catálogo con estados y estadísticas)
@@ -300,8 +300,8 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Decisiones y su porqué** → `00-contexto/decisiones-clave.md`
 
 **Pendiente prioritario:**
-- **▶ EJECUTAR el plan de mejoras estructurales** — `05-operaciones/plan-mejoras-kb-2026-07.md` (autocontenido, aprobado por Luis, asignado a Opus): workflow Cierre de Mes, script de lint versionado, log de ainews a 1 línea, recordatorio automático, y decisión de borradores estancados (preguntar a Luis)
-- **Autonomía operativa** — Modelo y diagnóstico documentados en `05-operaciones/flujo-trabajo.md`. Prioridad inmediata: inventario de repos/rutas/comandos/ambientes y cerrar el primer circuito autónomo con Lección 1 + Maestro Virtual. Siguen pendientes infraestructura, recuperación y `04-contenido-musical/`.
+- ✅ **Plan de mejoras estructurales EJECUTADO** (2026-07-03, Opus) — `05-operaciones/plan-mejoras-kb-2026-07.md`: workflow Cierre de Mes en §5, `herramientas/lint_kb.py` versionado, log de ainews a 1 línea, tarea programada `cierre-de-mes-kb`, y borradores de `04-contenido-musical/` resueltos (audio en Cloudflare, sin biblioteca MIDI, discografía-ia como plan a futuro). **Pendiente menor de Luis:** ajustar el prompt de la tarea de Cowork que ingesta ainews para que escriba solo 1 línea en el log.
+- **Autonomía operativa** — Modelo y diagnóstico documentados en `05-operaciones/flujo-trabajo.md`. Prioridad inmediata: inventario de repos/rutas/comandos/ambientes y cerrar el primer circuito autónomo con Lección 1 + Maestro Virtual. Siguen pendientes infraestructura y recuperación (`04-contenido-musical/` ya resuelto: sin biblioteca MIDI, audio en Cloudflare, discografía como plan a futuro).
 - `ai-radar.md` → ✅ junio cerrado (2026-07-03). **Pendiente:** abrir la síntesis de julio (regreso de Fable 5, lanzamiento de Sonnet 5) y ahí revalidar la tabla de modelos y propagarla a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia (leer antes `INSTRUCCIONES_CLASES_IA.md`)
 - `09-migracion-empresas/` → ✅ Entrevista fundacional completada (`entrevista_fundacional.md`). Pendiente: Luis debe definir la estructura de precios comercial.
 - `luis-como-ingeniero-neural.md` → integrar a Dayana y validar conexiones por alumno con datos de sesiones reales
@@ -317,4 +317,4 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 
 ---
 
-*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-07-03 (lint de Fable 5: radar cerrado, diario de junio, respaldo inaugurado, referencias verificadas).*
+*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-07-03 (Fable 5 + Opus: radar cerrado, diario de junio, respaldo inaugurado, plan de mejoras ejecutado, `04-contenido-musical/` desatorado).*

@@ -19,12 +19,14 @@ Estado actual de toda la infraestructura de Storm Studios Learning.
 | Servicio | Proveedor | Plan | Costo | Propósito |
 |----------|-----------|------|-------|-----------|
 | Hosting web | Vercel | Hobby (gratis) | $0 | stormstudios.com.mx |
+| Audio/samples y assets | Cloudflare | [LLENAR] | [LLENAR] | Samples y músicas de la plataforma se sirven desde aquí (2026-07-03) |
+| Video | YouTube | — | $0 | Videos de lecciones, incrustados con su liga |
 | Email | Zoho Mail | Standard | [LLENAR] | Email profesional |
 | Almacenamiento | Google Drive | Vía Gemini Pro | [LLENAR] | Archivos generales |
 | Base de datos | Firebase | [LLENAR] | [LLENAR] | Datos de la app |
 
 ## Servicios Cancelados
-- **Dreamhost:** Hosting anterior. Cancelado. Audio assets pendientes de migrar.
+- **Dreamhost:** Hosting anterior. Cancelado. **Audio assets ya migrados a Cloudflare** (2026-07-03) — migración cerrada.
 - **Mediafire:** Almacenamiento anterior. Cancelado.
 
 ## Dominio
@@ -48,3 +50,4 @@ El KB es el activo central del proyecto y hasta julio 2026 tenía un solo punto 
 ## Historial de Cambios
 - 2026-04-07: Creación inicial (borrador)
 - 2026-07-03: Sección de respaldo del KB — rutina mensual de `git bundle` documentada y primer respaldo generado (pendiente de §7 del schema).
+- 2026-07-03: Registrados Cloudflare (audio/samples) y YouTube (video) como servicios activos; nota de Dreamhost actualizada (audio ya migrado a Cloudflare, migración cerrada).

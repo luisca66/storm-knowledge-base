@@ -92,13 +92,13 @@ estado: en_progreso
 
 ## 04 · Contenido Musical
 
-*Assets: MIDI, audio, repertorio.*
+*Cómo se sirve el contenido de la plataforma (audio en Cloudflare, video en YouTube) y la obra musical de Luis (discografía con IA, a futuro).*
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [archivos-midi.md](04-contenido-musical/archivos-midi.md) | Inventario de archivos MIDI del proyecto | borrador |
-| [audio-assets.md](04-contenido-musical/audio-assets.md) | Assets de audio: samples, grabaciones | borrador |
-| [repertorio.md](04-contenido-musical/repertorio.md) | Repertorio musical utilizado en el curso | borrador |
+| [archivos-midi.md](04-contenido-musical/archivos-midi.md) | Nota: no hay biblioteca MIDI — el alumno lo genera y sube al Maestro Virtual, no se guarda | **completo** |
+| [audio-assets.md](04-contenido-musical/audio-assets.md) | Audio en Cloudflare, video en YouTube; migración vieja resuelta | **completo** |
+| [discografia-ia.md](04-contenido-musical/discografia-ia.md) | Plan a futuro: canciones de Luis hechas con IA, como discos (reemplaza a repertorio.md) | borrador (plan) |
 
 ---
 
@@ -109,10 +109,10 @@ estado: en_progreso
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
 | [flujo-trabajo.md](05-operaciones/flujo-trabajo.md) | Modelo de autonomía operativa, diagnóstico por capas y flujo diario pendiente de entrevista | en_progreso |
-| [plan-mejoras-kb-2026-07.md](05-operaciones/plan-mejoras-kb-2026-07.md) | Plan autocontenido de mejoras estructurales (Fable 5 → Opus): cierre de mes, lint versionado, log ainews, recordatorio | **completo** (por ejecutar) |
+| [plan-mejoras-kb-2026-07.md](05-operaciones/plan-mejoras-kb-2026-07.md) | Plan autocontenido de mejoras estructurales (Fable 5 → Opus): cierre de mes, lint versionado, log ainews, recordatorio | **completo** (ejecutado) |
 | [asesoria-ia.md](05-operaciones/asesoria-ia.md) | Relación entre asesorías de IA y Migración Empresas; modelo de acompañamiento | en_progreso |
-| [infraestructura.md](05-operaciones/infraestructura.md) | Infraestructura técnica: Vercel, Firebase, Zoho, GDrive | borrador |
-| [migraciones-pendientes.md](05-operaciones/migraciones-pendientes.md) | Migraciones técnicas pendientes | borrador |
+| [infraestructura.md](05-operaciones/infraestructura.md) | Infraestructura técnica: Vercel, Cloudflare, respaldo del KB | borrador |
+| [migraciones-pendientes.md](05-operaciones/migraciones-pendientes.md) | Sin migraciones pendientes; la de audio se resolvió vía Cloudflare | **completo** |
 
 ---
 
@@ -215,10 +215,10 @@ estado: en_progreso
 
 | Métrica | Valor |
 |---------|-------|
-| Total archivos .md (incluye clases-ia) | 364 (clases-ia: 174, ainews: 83) |
-| Archivos wiki principales completos | 6 (sin sistema, referencias históricas y clases-ia) |
+| Total archivos .md (incluye clases-ia) | 365 (clases-ia: 174, ainews: 84) + `herramientas/lint_kb.py` |
+| Archivos wiki principales completos | 10 (sin sistema, referencias históricas y clases-ia) |
 | Archivos wiki en_progreso | 26 |
-| Archivos wiki borrador | 12 |
+| Archivos wiki borrador | 9 |
 | Páginas de síntesis | 7 (todas en_progreso) |
 | Libros ingresados | 26 |
 | Libros registrados pendientes | 2 (Originals, Shadows) |
