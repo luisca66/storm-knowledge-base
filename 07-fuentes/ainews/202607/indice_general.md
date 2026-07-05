@@ -94,3 +94,28 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
 - **OpenAI, Trump y el 5% de Participación (OpenAI, Trump, OPM paper retirement, Mainframe COBOL):**
   - *Participación gubernamental:* El FT reporta conversaciones de OpenAI para otorgar al gobierno (administración Trump) un 5% de participación accionaria para frenar la oposición a data centers y la regulación nacional.
   - *Modernización de la OPM:* Ingenieros de Airbnb liderados por Joe Gebbia digitalizan el sistema manual de jubilación y veteranía en Pensilvania, eliminando mainframes COBOL subterráneos.
+
+## [05 de Julio de 2026](./resumen_opus_20260705.md)
+**Temas Principales:**
+- **Retorno de Claude Fable 5 y el Clasificador de Ciberseguridad (Anthropic, Fable 5, Opus 4.8, ciberseguridad):**
+  - *El Impuesto de Ciberseguridad:* Fable 5 retorna tras controles gubernamentales (1 de julio). Anthropic implementa un clasificador o portero de seguridad antes del modelo que desvía a Opus 4.8 las peticiones dudosas o que rozan la ciberseguridad, lo que provoca que se marquen más consultas benignas por error (Bridgemind reporta caída en benchmarks de código).
+  - *Ventana de Uso:* El acceso gratuito a Fable 5 en planes de pago está disponible hasta el 7 de julio (incluido hasta el 50% de la cuota semanal), tras lo cual se cobrará extra vía API.
+  - *Aplicaciones de Matt Wolfe:* Matt Wolfe crea *Cube Basher* (juego SVG) y un panel automatizado de videos cortos con Remotion. Crea *BeautyBench* para evaluar la capacidad de los modelos de escribir código SVG que dibuje rostros humanos (Gary Busey).
+- **Lanzamiento de GPT-5.6 Soul/Terra/Luna y el 5% de Participación (GPT-5.6 Soul Ultra, Terra, Luna, Trump 5% share):**
+  - *Estructura de Modelos:* Soul normal equivale a Opus; Soul Ultra es el competidor de Fable (91.9% en Terminal Bench); Terra equivale a Sonnet y Luna a Haiku. Precios significativamente inferiores a los de Anthropic.
+  - *Conflicto de Interés:* OpenAI explora otorgar una participación del 5% (~$42.6B) a la administración Trump para mitigar el sentimiento anti-IA e incorporar el interés financiero público en la regulación nacional.
+- **Claude Sonnet 5 e Innovaciones de Google (Claude Sonnet 5, GDPval, Nano Banana 2 Light, Gemini Omni Flash):**
+  - *Sonnet 5:* Modelo clase Sonnet más capaz (alto rendimiento empresarial en *GDPval*) pero por debajo de Opus. El valor real está en su precio promocional API de $2/$10 hasta el 1 de septiembre.
+  - *Google Omni y NotebookLM:* Google lanza *Nano Banana 2 Light* y *Gemini Omni Flash* para alterar videos existentes por API. NotebookLM genera resúmenes en videos cortos de 60s explicativos.
+- **Novedades de Producto y Workspace (Claude Science, Cursor iOS, X MCP, Stream Deck de OpenAI):**
+  - Claude Science disponible para Mac/Linux. Cursor iOS permite lanzar y controlar agentes en la nube. X (Twitter) lanza servidor MCP. OpenAI anuncia un teclado de macros para Codex para el 15 de julio.
+- **Igor de AI Advantage y la Práctica de Ingesta (Igor AI Advantage, AI News You Can Use, Zoom summaries):**
+  - Recomendación de anclar las tareas de Fable 5 pegando la documentación oficial y sub-enlaces de soporte, compensando la falta de autoconciencia del modelo sobre sus propias APIs. Uso de Fable para planificar arquitecturas de apps.
+- **Nate B. Jones y la Teoría de la Imaginación Técnica (Mitchell Hashimoto, HashiCorp, Blackberry vs Apple, electrificación de fábricas, Stripe):**
+  - *La Commoditización del Cómputo:* La ejecución de tareas ordinarias se abarata, desplazando el valor hacia la *imaginación técnica* (saber qué vale la pena pedir y cuándo algo se ha vuelto posible). Mitchell Hashimoto optimiza código complejo con Fable 5 por $40 en 2 horas logrando un rendimiento inalcanzable de forma individual.
+  - *Rediseño del Edificio:* Las empresas cometen el error de atornillar IA sobre la distribución de la era del vapor (organigramas y tareas viejas). Stripe migra 50 millones de líneas en un día gracias a años construyendo cobertura de pruebas, ciclos de revisión e infraestructura previa.
+- **Caleb Ulku y la Regulación contra Google (CMA, Digital Markets Act, Bruselas, Amit Mehta, SEO local):**
+  - La CMA británica y la UE (DMA) obligan a Google a justificar objetivamente sus rankings y habilitar portabilidad. Mehta dictamina que Google es un monopolio de búsqueda e IA.
+  - Sin embargo, las ranuras del map pack siguen siendo fijas (3 ranuras, y los asistentes de IA estrechan el embudo a 1 o 2 recomendaciones). Optimizar para IA es 96% idéntico al SEO local.
+- **Salim Ismail y el Organigrama de Agentes (Organizational Singularity):**
+  - Advierte contra automatizar la burocracia replicando el organigrama tradicional con agentes de IA (un agente por rol). El organigrama es solo un parche para las limitaciones físicas de comunicación humana. Se debe diseñar en torno al flujo del trabajo (el valor que se mueve) sentando al humano *sobre el bucle* (over the loop).

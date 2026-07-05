@@ -13,6 +13,10 @@
 
 ---
 
+## [2026-07-05] ingest | ainews 2026-07-05 → ver 07-fuentes/ainews/202607/indice_general.md
+
+---
+
 ## [2026-07-03] actualización | Ejecución del plan de mejoras (Opus) — Tareas 1-4
 
 **Contexto:** Opus 4.8 ejecuta el plan `05-operaciones/plan-mejoras-kb-2026-07.md` dejado por Fable 5.
