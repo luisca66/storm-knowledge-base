@@ -1,11 +1,16 @@
 ---
 titulo: "Registro de Cambios"
 tipo: diario
-ultima_actualizacion: 2026-07-03
+ultima_actualizacion: 2026-07-08
 estado: en_progreso
 ---
 
 # Registro de Cambios (CHANGELOG)
+
+## 2026-07-08 — Julio abierto en el radar + ingesta de Originals (Grant)
+- **`ai-radar.md`: julio abierto (días 1-7).** Cierre de la trilogía de junio — Fable 5 regresa (1 jul) junto a **Claude Sonnet 5**; el 7 de julio Fable sale de Claude Max y se confirma la cronología del veto (3 semanas offline, Tom Brown en vez de Amodei). Temas nuevos: impuesto de ciberseguridad, caso Figma/Palantir, "planifica caro, ejecuta barato" (68% de ahorro), permiso político como foso. Tabla de modelos de la Sección 3 revalidada al 7 de julio; **propagación a clases-ia pendiente deliberadamente**.
+- **Ingesta de *Originals* (Adam Grant):** nuevo **Principio 8** en `filosofia-ensenanza.md` (disciplina por razonamiento, elogio de carácter) — cierra el paralelo que el radar señaló en mayo con el alineamiento de Claude ("las reglas no escalan, los principios sí"), ahora con evidencia independiente de psicología del desarrollo. Matiz de mentores en `como-enseno-armonia.md`; cross-ref en `luis-como-ingeniero-neural.md`. Catálogo de libros: 23/27 ingresados.
+- 2 insights (cultura fuerte vs. culto, niche picking) quedan sin integrar en `insights.md` — candidatos para Migración Empresas / método, pendientes de validación con Luis.
 
 ## 2026-07-03 (3ª sesión — ejecución del plan de mejoras, Opus)
 - **Workflow "Cierre de Mes" institucionalizado** en `CLAUDE.md` §5: el ritual mensual (radar + diario + lint + reconciliación + respaldo) deja de vivir solo en el log y pasa a ser un workflow con nombre.

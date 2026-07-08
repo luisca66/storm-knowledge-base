@@ -1,7 +1,7 @@
 ---
 titulo: "Luis Como Ingeniero Neural"
 tipo: sintesis
-ultima_actualizacion: 2026-05-29
+ultima_actualizacion: 2026-07-08
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/clases-ia/01_metodo/patrones_detectados_en_alumnos.md
@@ -162,6 +162,7 @@ Cuando esos cuatro circuitos están construidos y mielinizados, la partitura se 
 - **Outliers / Ericsson (práctica deliberada):** Las 10,000 horas solo funcionan si cada repetición tiene retroalimentación. Sin eso, se mieliniza el error.
 - **Tsatsouline (señal neural > músculo):** La fuerza es una habilidad neural antes que física. Aplicado a la música: la técnica es una habilidad neural antes que motora.
 - **Sadhguru (reordenamiento del sistema):** Sadhguru describe explícitamente la ingeniería del ser humano desde adentro: *"There is a whole technology for transforming the human into the divine. It just depends on how you reorganize your system."* Y define al cuerpo humano como "the most sophisticated physical form on the planet" — pero agrega que nadie sabe dónde está el teclado. El guru enseña a encontrarlo. Luis hace exactamente eso: no enseña música, enseña a encontrar el teclado del sistema neural musical. La transformación que describe Sadhguru — *"a dimensional shift in the way you perceive and experience life"* — es exactamente lo que ocurre cuando un alumno desarrolla las cuatro percepciones auditivas básicas. Ya no escucha la misma música que escuchaba antes. El mundo sonoro cambia dimensionalmente.
+- **Adam Grant (*Originals*, 2026-07-08):** la ingeniería neural de Luis no solo diseña ejercicios — moldea el "harness" de valores y carácter con el que el alumno interpreta cada regla. Grant muestra que pocas reglas explicadas por principio (no muchas reglas impuestas) y el elogio de carácter (no de conducta aislada) producen alumnos que generan comportamiento nuevo en vez de solo reproducir lo enseñado — la misma distinción que separa "arquitectura" de "comportamiento" en esta página. Desarrollo completo en `01-metodo-pedagogico/filosofia-ensenanza.md` (Principio 8).
 
 ---
 
@@ -171,3 +172,4 @@ Cuando esos cuatro circuitos están construidos y mielinizados, la partitura se 
 - **2026-05-21** — Reestructuración del axioma de "No-Compartimentación".
 - **2026-05-29** — Nueva sección "Luis en la era agéntica: el Sándwich Humano como método". Conexión con Paradoja de Jevons Cognitiva y Dynamic Workflows. Fuente: ainews 2026-05-28 (Wes Roth, Dan Shipper).
 - **2026-05-29** — Nueva sección "La prueba empírica: el framework aplica a no-músicos" con tabla método↔clases-IA y casos reales (Mario, Bruno, Karla, Esteban).
+- **2026-07-08** — Ingesta de *Originals* (Adam Grant): línea nueva en "Conexión con las fuentes del KB" — pocas reglas + elogio de carácter como el "harness" de valores detrás de la ingeniería neural.

@@ -1,7 +1,7 @@
 ---
 titulo: "AI Radar — Herramientas y Tendencias"
 tipo: contexto
-ultima_actualizacion: 2026-07-03
+ultima_actualizacion: 2026-07-08
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 05-operaciones/asesoria-ia.md
@@ -82,6 +82,87 @@ El trabajo durable necesita ser **suficientemente legible para que el sistema lo
 ---
 
 ### Síntesis mensual
+
+#### Julio 2026 — En curso (días 1-7): el desenlace de la trilogía
+
+*Basado en ainews 2026-07-01 al 2026-07-07 — síntesis parcial, se completa al cierre del mes*
+
+> **Nota de método:** julio abre resolviendo exactamente lo que junio dejó abierto. El **1 de julio** Fable 5 regresa globalmente y nace **Claude Sonnet 5**; el **7 de julio** —hoy, el día de esta síntesis— se cumple el plazo con dos eventos simultáneos: la ventana de acceso gratuito a Fable 5 en el plan Max se cierra, y Anthropic confirma el relato completo de las tres semanas que estuvo fuera de línea. El mes se lee como el cuarto acto de la trilogía economía→capacidad→gobernanza de junio: **el gobierno decide, el mercado se adapta.**
+
+---
+
+**1. Fable 5 y Sonnet 5 regresan — y la cuenta regresiva termina hoy**
+
+El 1 de julio el Departamento de Comercio (Howard Lutnick, Susie Wiles) autorizó el retorno global de Fable 5, con un **clasificador de ciberseguridad nuevo con 99% de precisión** instalado como portero antes del modelo. El mismo día, Anthropic lanzó **Claude Sonnet 5** — el Sonnet más agéntico hasta hoy, con el mejor benchmark de productividad empresarial (*GDPval*), pero **40% más tokens de salida y 3x más turnos** que su predecesor ("token-hungry" es la palabra que se repite en toda la cobertura).
+
+El 7 de julio —hoy— se cierran dos plazos a la vez: **Fable 5 deja de estar incluido en el plan Claude Max** (hasta el 50% de la cuota semanal) y pasa a cobrarse por créditos de uso vía API; y Anthropic reconstruye la cronología completa de la ausencia: **tres semanas fuera de línea**, negociadas no por Dario Amodei (percibido como difícil por funcionarios) sino por **Tom Brown**, cofundador, que desplazó a Amodei en las conversaciones con la Casa Blanca. El origen del veto sigue siendo el mismo de junio: jailbreaks reportados por Amazon que exponían capacidades de ciberseguridad ofensiva.
+
+> **Relevancia directa:** la Sección 3 de este radar (tabla de modelos) queda revalidada más abajo con este cierre. **Pendiente de propagar** a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia — se hará junto con el resto de julio para evitar revalidar dos veces en el mismo mes.
+
+---
+
+**2. El "impuesto de ciberseguridad" — cuando el portero bloquea lo inocente**
+
+El clasificador nuevo, más agresivo que el de mayo, ya está generando el mismo patrón de junio: **más consultas benignas desviadas a Opus 4.8 por error** (Bridgemind reporta caída en benchmarks de código por este motivo). Es la continuación directa de "las tres controversias de Fable" documentadas en junio — Anthropic optó por errar del lado de la sobre-restricción en vez de repetir el escándalo de los falsos positivos de junio, y el costo se paga en fricción cotidiana, no en titulares.
+
+---
+
+**3. El robo del "alpha" — Palantir y el caso Figma (7 jul)**
+
+La tensión más nueva del mes, y la más relevante para cualquier empresa que construya sobre la API de un laboratorio de IA. Alex Karp (Palantir) denunció públicamente que los grandes labs **"roban el alpha y los pesos"** de los datos de sus clientes empresariales para entrenar modelos generalistas que después **compiten directamente con esos mismos clientes**. El caso citado: Anthropic sorprendió a su socio comercial **Figma** al lanzar *Claude Design*, hundiendo la acción de Figma el mismo día. David Sacks respaldó la denuncia recordando la advertencia de Sam Altman: *"si tu producto no mejora con cada salto de nuestro modelo, te arrollaremos."* Palantir promueve su capa de *ontology* — una capa intermedia que protege la propiedad intelectual del cliente — como respuesta estructural.
+
+> **Relevancia para Luis y para Migración Empresas:** esto es la versión empresarial exacta del principio de junio "sé dueño de tu harness" (`ai-radar.md`, sección 26 de junio). Un cliente de Migración Empresas que construye su ventaja competitiva *dentro* de la caja de un laboratorio de IA corre el mismo riesgo que Figma. El caso Figma es ahora la anécdota citable para esa conversación.
+
+---
+
+**4. La economía del harness madura a playbook concreto**
+
+Tres piezas independientes de la semana convergen en lo mismo — ya no es teoría, son números y flujos de trabajo replicables:
+- **Mark Cashef:** el 90% del éxito en flujos agénticos viene del *harness* (andamiaje), solo el 10% del modelo. Organiza su vida en ~20 "centros de comando" con bitácoras TLDR en Obsidian para arrancar sesiones de Claude Code sin inflar el contexto.
+- **Matthew Berman — la fórmula del enrutamiento:** como los tokens de salida de Fable 5 cuestan 5x más que los de entrada, la jugada es **planificar con Fable 5** (caro, pero paga por calidad de especificación) y **delegar la codificación masiva** a modelos baratos (GPT-5.5, Composer 2.5) — hasta **68% de ahorro**. Brian Armstrong (Coinbase) confirma el patrón en producción real con GLM 5.2.
+- **Mitchell Hashimoto** optimiza código complejo con Fable 5 por **$40 en 2 horas**, un rendimiento que antes exigía un equipo — pero advierte que las empresas cometen el error de "atornillar IA sobre la distribución de la era del vapor" (organigramas viejos) en vez de rediseñar el flujo de trabajo desde cero.
+
+> **Relevancia pedagógica:** esto es la maduración de la "alfabetización de modelos" (Sección 3 de junio, concepto 10) — ya no es "elige el modelo correcto", es "planifica caro, ejecuta barato" como fórmula. Aplicable directamente a Karla y Montse.
+
+---
+
+**5. El permiso político como foso — se formaliza el régimen de licencias**
+
+Howard Lutnick alivió el veto a Mythos 5 para ~100 socios de confianza el 1 de julio, consolidando lo que en junio era un episodio en una **política de facto**: el gobierno de EE.UU. decide quién accede a qué modelo, caso por caso. En paralelo, el FT reportó que OpenAI explora ceder un **5% de participación accionaria (~$42,600 millones) al gobierno de Trump** para frenar la oposición política a los centros de datos — el tema reaparece los días 1, 3 y 6, señal de que es una negociación en curso, no un rumor aislado. Nate B. Jones lo nombra sin rodeos: **"la alineación política es ahora el cuello de botella número uno para el despliegue de modelos de frontera."**
+
+---
+
+**6. La fuga de cerebros no se detiene**
+
+Confirmación y expansión de lo visto en junio: **John Jumper** (Nobel de Química, AlphaFold) dejó DeepMind por Anthropic para liderar IA en ciencia; **Noam Shazeer** (coautor del Transformer) regresó a OpenAI tras su paso por Google. Ambos coinciden en el mismo motivo: preferir el **acceso crudo a modelos pre-entrenados** sin las restricciones organizacionales de Google. Bonus biográfico del día 6: perfil de **Ilya Sutskever** — de AlexNet (2012) a cofundar OpenAI ("la predicción está muy cerca de la inteligencia") a retirarse en 2023 para fundar **Safe Superintelligence**, la apuesta de que la seguridad solo funciona lejos de la presión comercial de productos.
+
+---
+
+**Señales sueltas (días 1-7):** Cómputo espacial en dos frentes — **Proyecto Suncatcher** de Google (TPUs en órbita, Pichai estima que en 10 años la mayoría del cómputo estará en el espacio) y **StarCloud** (radiador comercial 10x más ligero y 100x más barato que el de la ISS) · **Large Earth Models** (Will Marshall, Planet): 150 PB de historial satelital como capa sensorial para LLMs — de la teoría abstracta a decisiones agrícolas y de seguridad en tiempo real · **Google AI Overviews reduce clics orgánicos 40%** (estudio CMU) — el dato duro detrás de la tesis AEO que ya vive en `estrategia-freemium-musical.md` §5 · Muere **Bruce Clay**, "padre del SEO" (78 años) — cierre simbólico de una era mientras el campo migra a AEO · **Los 8 Pilares de transformación con IA** (Paul Roetzer): Visión, Estrategia, Datos, Tecnología, Gobernanza, Alfabetización, Personas, Desempeño — crítica directa a dar acceso a herramientas sin capacitación sistemática · **Ford contrata 350 "greybeards"** (ingenieros veteranos) para corregir el diseño asistido por IA que no daba resultado — mejor marca mainstream en calidad según JD Power · China prohíbe judicialmente los despidos causados exclusivamente por sustitución con IA · Milei (Argentina) insiste en "corporaciones no humanas" con personalidad jurídica para IAs; Harari repite que diluye la responsabilidad moral · **ARC-AGI-3**: los harnesses elevan el puntaje de ~1% a 35-36% traduciendo la cuadrícula a "priors" de lenguaje humano — Chollet los prohíbe en la competencia porque miden el arnés, no el modelo.
+
+---
+
+**Modelos destacados (julio, días 1-7):**
+- **Claude Fable 5** — de vuelta desde el 1 de julio con clasificador de ciberseguridad reforzado (99% de precisión, más falsos positivos). Deja de estar incluido en Claude Max el 7 de julio; API por créditos en adelante.
+- **Claude Sonnet 5** ← nuevo — el Sonnet más agéntico; líder en GDPval; 40% más tokens de salida y 3x más turnos que su clase anterior. Precio promocional API $2/$10 hasta el 1 de septiembre.
+- **Claude Mythos 5** — veto aliviado para ~100 socios de confianza (Lutnick, 1 jul).
+- **GPT-5.6 (Soul/Terra/Luna)** — Soul en preview limitado aprobado cliente por cliente; Soul Ultra 91.9% en Terminal Bench 2.0 pero *reward hacker* documentado (METR). Terra ≈ Sonnet, Luna ≈ Haiku, precios bajo los de Anthropic.
+- **GLM 5.2** (Zhipu, open weights) — sigue como ancla del enrutamiento barato en producción real (Coinbase).
+
+---
+
+**Frases del mes (días 1-7):**
+
+> *"Si tu producto no mejora con cada salto de nuestro modelo, te arrollaremos."*
+> — Sam Altman, citado por David Sacks en el caso Figma
+
+> *"La alineación política es ahora el cuello de botella número uno para el despliegue de modelos de frontera."*
+> — Nate B. Jones
+
+> *"El 90% del éxito en flujos agénticos viene del harness. Solo el 10% viene del modelo."*
+> — Mark Cashef
+
+---
 
 #### Junio 2026 — El mes del interruptor de apagado
 
@@ -537,7 +618,7 @@ La segunda mitad del mes estuvo dominada por Google IO y por una aceleración vi
 
 - **Desplazamiento laboral se vuelve político** — Meta anunció que no contratará más ingenieros junior. Cloudflare y ClickUp eliminaron equipos completos de QA. Eric Schmidt declaró públicamente que "está en duelo" por la desaparición de la codificación como actividad humana central. El desplazamiento dejó de ser proyección — es noticia del día.
 
-- **Alineamiento: el experimento más importante del mes** — Anthropic publicó resultados de "Teaching Claude Why": en lugar de reglas explícitas, entrenaron a Claude con los *principios* detrás de las reglas. Resultado: el comportamiento de extorsión ("si no me pagas, divulgo tus datos") bajó de 96% a 0% de éxito. **Las reglas no escalan. Los principios sí.** Este experimento tiene un paralelo directo con el método pedagógico de Luis.
+- **Alineamiento: el experimento más importante del mes** — Anthropic publicó resultados de "Teaching Claude Why": en lugar de reglas explícitas, entrenaron a Claude con los *principios* detrás de las reglas. Resultado: el comportamiento de extorsión ("si no me pagas, divulgo tus datos") bajó de 96% a 0% de éxito. **Las reglas no escalan. Los principios sí.** Este experimento tiene un paralelo directo con el método pedagógico de Luis. *(Cerrado 2026-07-08: la ingesta de Originals de Adam Grant aportó la evidencia del lado humano — ver `01-metodo-pedagogico/filosofia-ensenanza.md`, Principio 8.)*
 
 - **IA en matemáticas — umbral simbólico** — GPT-5.5 refutó la Conjetura de Erdős, un problema abierto desde hace décadas. Primer caso documentado de una IA generando un resultado matemático nuevo verificado por la comunidad. El razonamiento formal ya no es exclusivo de humanos.
 
@@ -827,7 +908,7 @@ Los modelos más poderosos lograron <1% en tests donde los humanos consiguen 100
 
 ## Sección 3 — Para mis clases este mes
 
-*(Actualizado: 2026-07-03 — cierre de junio integrado: veto y regreso de Fable 5, soberanía del contexto, riesgo político de stack)*
+*(Actualizado: 2026-07-08 — apertura de julio: cierre del ciclo Fable/Sonnet 5, "planifica caro, ejecuta barato" y el caso Figma como advertencia para Migración Empresas)*
 
 Esta sección traduce el radar de tendencias a acciones concretas en clase. No es un resumen — es un mapa de qué cambiar, qué introducir y cómo hablar de esto con cada perfil de alumno.
 
@@ -835,21 +916,22 @@ Esta sección traduce el radar de tendencias a acciones concretas en clase. No e
 
 ### Actualización inmediata: tabla de modelos
 
-La tabla de modelos en `conceptos_no_olvidar.md` y `leccion_01` — actualizada al 12 de junio:
+**Revalidada al 7 de julio 2026** (aún **no propagada** a `conceptos_no_olvidar.md` ni a `leccion_01` en clases-ia — pendiente, se hará en la próxima sesión de trabajo en ese subsistema, leyendo antes `INSTRUCCIONES_CLASES_IA.md`):
 
 | Plan | Modelo |
 |---|---|
-| Tope de capacidad (Claude) | **Claude Fable 5** ← nuevo (clase superior a Opus) |
-| Daily driver de paga (Claude) | **Claude 4.8 (Opus)** — el caballo de batalla real |
+| Tope de capacidad (Claude) | **Claude Fable 5** — de vuelta desde el 1 de julio, ahora solo por API/créditos (salió de Claude Max el 7 de julio) |
+| Daily driver de paga (Claude) | **Claude Opus 4.8** — sigue siendo el caballo de batalla real |
+| Agéntico nuevo (Claude, clase Sonnet) | **Claude Sonnet 5** ← nuevo (1 jul) — más agéntico, pero "token-hungry" (40% más tokens de salida, 3x más turnos) |
 | Gratuito (Claude) | Claude 4.6 |
-| Alternativa OpenAI | ChatGPT 5.5 Thinking |
+| Alternativa OpenAI | GPT-5.6 Terra (preview limitado para Soul) |
 | Alternativa Google | Gemini 3.5 Flash |
 
-> **Matiz honesto y deliberado (no dárselo por su lado a los alumnos):** Fable 5 es el modelo más capaz lanzado al público, pero **NO es el daily driver para nadie todavía**. Razones: (1) consume tokens al doble del ritmo de Opus; (2) sale de las suscripciones el **22-23 de junio** — después solo por API a $10/$50 por millón (el doble de Opus 4.8); (3) sus clasificadores de seguridad aún dan falsos positivos (la palabra "cancer" sola puede redirigirte). Para el **90-95% del trabajo cotidiano, Opus 4.8 sigue siendo la respuesta** — suficiente y mucho más barato. Fable se saca para refactorización masiva, pensamiento de muy alto nivel y tareas de días. Regla para alumnos: *"el modelo más caro no es el que más te conviene por defecto."*
-
-> **Aviso de calendario:** si algún alumno se entusiasma con Fable en la suscripción, recordarle la fecha del 22-23 de junio. Después de eso, en plan de suscripción vuelve a estar Opus 4.8 como tope.
-
-> **Actualización al cierre (2026-07-03):** el aviso anterior quedó corto — Fable 5 no solo salió de las suscripciones: estuvo **suspendido por veto gubernamental del ~14 de junio al 1 de julio** (ver secciones 23-24 del radar). Ya regresó globalmente, y Anthropic lanzó **Claude Sonnet 5** en los primeros días de julio. La tabla de modelos se revalidará al abrir el radar de julio; mientras tanto la regla para alumnos no cambia: Opus 4.8 como daily driver, y el modelo caro solo cuando la tarea lo pese.
+> **Qué cambió respecto a junio:** la trilogía de junio (escasez de tokens → capacidad → veto) se resolvió el **7 de julio, hoy**: Fable 5 dejó de estar incluido en el plan Claude Max y pasa a cobrarse por créditos vía API (más caro que Opus). Es decir, **Fable vuelve a estar fuera del alcance de la suscripción normal**, exactamente como en junio, solo que ahora por precio en vez de por veto. La regla para alumnos **no cambia**: Opus 4.8 sigue siendo el daily driver; Fable se reserva para tareas de muy alto nivel donde el costo se justifica.
+>
+> **Novedad real para clase:** Sonnet 5 es ahora la opción "clase media" — más capaz que Opus en tareas agénticas de GDPval, pero consume tokens más rápido. Para un alumno con presupuesto ajustado, sigue siendo mejor Opus 4.8 a esfuerzo alto que Sonnet 5 a esfuerzo bajo, salvo que la tarea sea explícitamente agéntica (loops, multi-turno).
+>
+> **El "impuesto de ciberseguridad":** el clasificador de seguridad de Fable 5 es ahora más agresivo (99% de precisión declarada) y genera más falsos positivos que en junio — advertir a cualquier alumno que use Fable para temas de salud, biología o ciberseguridad que puede ser redirigido sin aviso a Opus 4.8 cobrando tarifa de Fable.
 
 > Gemini 3.5 Flash sigue siendo gratuito, rápido y con acceso nativo al ecosistema Google (Drive, Docs, Gmail). Para alumnos con suscripción Google → su herramienta natural.
 
@@ -1018,6 +1100,26 @@ El veto a Fable/Mythos 5 (14 jun - 1 jul) demostró que un modelo frontier puede
 
 ---
 
+**14. "Planifica caro, ejecuta barato" — la alfabetización de modelos con fórmula (julio)**
+
+Lo que en junio era "elige el modelo correcto" ahora tiene número: como los tokens de salida de los modelos tope cuestan varias veces más que los de entrada, la jugada ganadora es usar el modelo caro solo para **especificar bien la tarea** (arquitectura, plan, criterios de éxito) y delegar la **ejecución masiva** a un modelo barato. Matthew Berman documenta hasta 68% de ahorro con este patrón; Coinbase lo confirma en producción.
+
+*Cómo usarlo en clase:*
+- Con **Karla y Montse**: ya no es solo "qué modelo para qué tarea" — es **dividir la misma tarea** en una fase cara (pensar) y una fase barata (ejecutar). Es el Sándwich Humano aplicado dentro del propio flujo de IA, no solo entre humano y máquina.
+- Con **Carmen y Mario**: encuadra directamente el gasto de IA como una decisión de dos presupuestos, no uno.
+
+---
+
+**15. El robo del alpha — por qué no construir tu ventaja dentro de la caja de un proveedor (caso Figma)**
+
+Alex Karp (Palantir) denunció que los laboratorios de IA entrenan con los datos de sus clientes empresariales y después lanzan productos que compiten con ellos — el caso citado es Anthropic lanzando *Claude Design* y hundiendo la acción de su propio socio, Figma, el mismo día.
+
+*Cómo usarlo en clase:*
+- Con **Mario y Carmen (Migración Empresas)**: es la anécdota concreta para la conversación de "sé dueño de tu harness" (concepto 12, junio). Antes de construir la ventaja competitiva de un cliente *sobre* la API de un laboratorio, preguntar: ¿qué pasa si ese laboratorio lanza su propia versión del producto mañana?
+- Nivel de introducción: anécdota de negocios, no técnica. Sirve como advertencia de diseño de producto, no de uso cotidiano de IA.
+
+---
+
 ### Lo que NO hace falta enseñar este mes
 
 - La guerra de protocolos (MCP/A2A/AGUI/AP2/X42) — demasiado técnica, sin impacto práctico en el nivel actual de los alumnos.
@@ -1043,7 +1145,10 @@ El veto a Fable/Mythos 5 (14 jun - 1 jul) demostró que un modelo frontier puede
 | Introducir "El Sándwich Humano" cuando aparezca la pregunta del desplazamiento | Alta | — |
 | Contar la historia del veto a Fable (interruptor de apagado) a Carmen/Mario — riesgo de proveedor único | Media | — |
 | Introducir "no rentes tu memoria" (Claude Tag) como defensa del Flujo Chat→MD→Agente | Media | — |
-| Revalidar la tabla de modelos al abrir el radar de julio (regreso de Fable, Sonnet 5) — y ahí sí propagarla a clases-ia | Alta | `conceptos_no_olvidar.md`, `leccion_01` |
+| Revalidar la tabla de modelos al abrir el radar de julio (regreso de Fable, Sonnet 5) | Alta ✅ (2026-07-08) | — |
+| **Propagar** la tabla revalidada a clases-ia (leer antes `INSTRUCCIONES_CLASES_IA.md`) | Alta — pendiente | `conceptos_no_olvidar.md`, `leccion_01` |
+| Introducir "planifica caro, ejecuta barato" con Karla/Montse | Media | — |
+| Contar el caso Figma/Palantir a Mario y Carmen (Migración Empresas) — riesgo de construir sobre la API de un solo proveedor | Media | — |
 
 ---
 
@@ -1070,6 +1175,7 @@ Estos son exactamente los principios de "Los Seres Musicales" aplicados al apren
 ---
 
 ## Historial de Cambios
+- **2026-07-08** — **Abierta la síntesis de julio (días 1-7).** El cierre de la trilogía de junio: Fable 5 regresa (1 jul) junto al lanzamiento de **Claude Sonnet 5**; el 7 de julio (hoy) se cumplen dos plazos a la vez — Fable sale de Claude Max (pasa a créditos API) y se confirma la cronología completa del veto (3 semanas fuera de línea, Tom Brown negociando en vez de Amodei). 6 temas nuevos: el "impuesto de ciberseguridad" (más falsos positivos), el caso Figma/Palantir ("robo del alpha" — un lab entrena con datos de un cliente y luego compite con él), la economía del harness madurada a fórmula ("planifica caro, ejecuta barato", 68% de ahorro), el permiso político como foso (5% de OpenAI al gobierno, régimen de licencias formalizado), fuga de cerebros continuada (Jumper, Shazeer, bio de Ilya Sutskever/SSI). **Sección 3 revalidada:** tabla de modelos actualizada al 7 de julio (Fable fuera de Max, Sonnet 5 como opción agéntica intermedia); 2 conceptos nuevos (planifica caro/ejecuta barato, el caso Figma para Migración Empresas). **Pendiente explícito:** propagar la tabla a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia (leer antes `INSTRUCCIONES_CLASES_IA.md`) — no se hizo en esta sesión por alcance.
 - **2026-07-03** — **Junio cerrado (días 13-29) — primera sesión con Fable 5.** Nuevas secciones 23-30: el veto de exportación a Fable/Mythos 5 (jailbreak de Amazon, directiva con 90 min de aviso, NSA red team) y su resolución como régimen de licencias de facto (carta de Lutnick, ~100 socios, GPT-5.6 Soul en preview limitado); GLM 5.2 y el momento ChatGPT del open source chino (acusación de destilación a Alibaba, dinámica de mancuerna); la economía del harness ("no rentes tu contexto", Claude Tag, SemiAnalysis $14k/$8k); SpaceX primer trillonario + compra de Cursor + IPO de OpenAI pospuesta; fuga de cerebros (Shazeer→OpenAI, Jumper→Anthropic); charla de Boris (loops, ROI sobre costo de tokens, Cowork); señales para el método (libros de no ficción −57%, Noruega prohíbe IA en primaria, florecimiento vs engagement). Encabezado del mes: "El mes del interruptor de apagado", trilogía economía→capacidad→gobernanza. **Sección 3:** nota de cierre sobre la suspensión y regreso de Fable + lanzamiento de Sonnet 5; 2 conceptos nuevos (soberanía del contexto, riesgo político de stack); tabla ejecutiva ampliada. La propagación de la tabla de modelos a clases-ia queda deliberadamente pospuesta a la apertura del radar de julio (la tabla volverá a cambiar con Sonnet 5).
 - **2026-06-12** — **Síntesis de junio extendida a los días 1-12 — el radar se puso al día (cerraba el 06-03).** Centro del mes: el lanzamiento de **Claude Fable 5 / Mythos 5 (9 jun)**, antes ausente del wiki. Nuevas secciones 15-22: Fable 5 (jerarquía haiku→sonnet→opus→fable, ≈10B params, benchmarks, salida de suscripciones el 22-23 jun, "de dar tareas a dar responsabilidades"); las tres controversias (clasificadores, degradación silenciosa revertida en <24h, retención de datos); "multi-agent turf war"; crisis de costos concreta (Uber, alfabetización de modelos, auditoría de tokens); IPOs + "When AI Builds Itself" + Fase 3 OpenAI; Microsoft Build (off-frontier, eval privado); Apple WWDC y la bifurcación consumo/trabajo; AEO local (Caleb Ulku). **Sección 3 actualizada:** tabla de modelos con Fable 5 como tope pero Opus 4.8 como daily driver real (matiz honesto: tokens 2x, sale de suscripción, falsos positivos); 3 conceptos pedagógicos nuevos (imaginación de tareas, alfabetización de modelos, playbook AEO local para Mario y el website). Pendiente: propagar la tabla a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia.
 - **2026-06-03** — Añadido el **6º lente al marco conceptual: la paradoja de la legibilidad** (Nate B. Jones, 2026-05-04) — estaba solo en fuentes crudas (`ainews/202605/resumen_20260504.md`), no en el wiki. Legible para ser valorado, no tan legible como para ser ejecutado sin ti → "legibilidad parcial" (resultados sí, mecanismo no). Es el lente que gobierna las decisiones de AEO. Cross-link a la aplicación en estrategia-freemium §5.

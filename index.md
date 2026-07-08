@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-07-03
+ultima_actualizacion: 2026-07-08
 estado: en_progreso
 ---
 
@@ -137,7 +137,7 @@ estado: en_progreso
 |---------|-------------|
 | [indice-fuentes.md](07-fuentes/indice-fuentes.md) | Catálogo de todas las fuentes con autor, área de impacto y ruta |
 
-### Libros destacados (22 de 26 ingresados)
+### Libros destacados (23 de 27 ingresados)
 
 | Libro | Área de impacto principal |
 |-------|--------------------------|
@@ -163,6 +163,7 @@ estado: en_progreso
 | [How Countries Go Broke](07-fuentes/libros/How%20Countries%20go%20Broke.md) | Macroeconomía |
 | [The New China Playbook](07-fuentes/libros/The%20New%20China%20Playbook.md) | Geopolítica / negocios |
 | [Civilización Artificial](07-fuentes/libros/Civilizaci%C3%B3n%20Artificial.md) | IA y sociedad |
+| [Originals](07-fuentes/libros/Originals%20-%20Complete.md) | Liderazgo creativo / método — disciplina por razonamiento, elogio de carácter, rol del mentor |
 
 ### Videos (transcripts procesados)
 
@@ -220,19 +221,20 @@ estado: en_progreso
 | Archivos wiki en_progreso | 26 |
 | Archivos wiki borrador | 9 |
 | Páginas de síntesis | 7 (todas en_progreso) |
-| Libros ingresados | 26 |
-| Libros registrados pendientes | 2 (Originals, Shadows) |
+| Libros ingresados | 27 |
+| Libros registrados pendientes | 1 (Shadows of Forgotten Ancestors) |
 | Videos (transcripts, ingeridos al wiki) | 4 |
 | Sistema ainews | mar–jul 2026 (activo) |
 | Alumnos en clases-ia | 11 perfilados |
-| Última sesión de trabajo | 2026-07-03 |
+| Última sesión de trabajo | 2026-07-08 |
 
 ---
 
-*Mantenido por la IA que colabora con Luis. Actualizado: 2026-07-03 (lint de Fable 5: junio cerrado en el radar, diario de junio, respaldo inaugurado).*
+*Mantenido por la IA que colabora con Luis. Actualizado: 2026-07-08 (Sonnet 5: julio abierto en el radar, Originals ingerido).*
 
 ---
 ## Historial de Cambios
+- **2026-07-08** — Julio abierto en `ai-radar.md`; ingesta de *Originals* (Grant): catálogo de libros actualizado (23/27), estadísticas recalculadas (365 archivos, última sesión).
 - **2026-07-03 (2)** — Actualización de Luis: catálogo de apps corregido a 11 webapps publicadas (Cantar Acordes documentada); descripción de la sección 03 actualizada.
 - **2026-07-03** — Lint de Fable 5: diario de junio agregado al catálogo (completo); estadísticas recalculadas (364 archivos; conteo de estados ahora excluye consistentemente archivos de sistema); sistema ainews extendido a julio; última sesión actualizada.
 - **2026-06-12** — Estadísticas recalculadas; Migración Empresas, apps y última sesión reconciliadas con el estado real del KB.

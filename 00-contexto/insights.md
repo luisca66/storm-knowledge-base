@@ -1,7 +1,7 @@
 ---
 titulo: "Insights y Ideas"
 tipo: contexto
-ultima_actualizacion: 2026-06-12
+ultima_actualizacion: 2026-07-08
 relacionado_con:
   - 06-diario-proyecto/2026-04.md
   - 08-sintesis/entrenamiento-oido-absoluto.md
@@ -18,6 +18,11 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - Cuando un insight se procesa y se integra a otro archivo, se marca con ✅ y se anota a dónde fue
 
 ## Insights Pendientes
+
+### 2026-07-08 (ingesta de *Originals*, Adam Grant)
+
+- [negocio] **Cultura fuerte vs. culto — el lente de Bridgewater vs. Polaroid, candidato para Migración Empresas.** Grant muestra que la cohesión de equipo no causa groupthink por sí sola (el mito de Bay of Pigs) — lo que sí lo causa es la ausencia de un mecanismo que obligue a expresar el desacuerdo. Polaroid quebró por sobreconfianza y marginar a los que veían venir lo digital; Bridgewater (Ray Dalio) construyó una "idea meritocracy" donde no disentir en voz alta es motivo de despido y la transparencia radical es la norma. **No integrado a `09-migracion-empresas/` todavía** — es un marco potencialmente útil para el diagnóstico organizacional que Luis hace con clientes, pero no está confirmado que Luis ya lo use o quiera adoptarlo como parte del método. Preguntar en la próxima entrevista de Migración Empresas antes de escribirlo como parte del método comercial.
+- [negocio] [método] **Niche picking:** los hijos menores no compiten directamente con el hermano mayor — buscan un territorio distinto donde destacar sin comparación directa (ejemplo: comediantes, 44% de los 100 mejores standuperos de la historia son el menor de la familia). Posible paralelo con cómo Luis diferencia el "traje a medida" de cada alumno (`filosofia-ensenanza.md`, tabla comparativa) — cada alumno encuentra su propio nicho dentro del método en vez de competir con el progreso de otros. No integrado; anotado como posible desarrollo futuro de la sección "traje a medida".
 
 ### 2026-04-16
 
@@ -126,3 +131,4 @@ Buzón de entrada para ideas, insights y observaciones que surgen día a día. E
 - 2026-06-03: Backlog de ~40 insights `[oído]`/`[método]` del 2026-04-09 sintetizado en `08-sintesis/entrenamiento-oido-absoluto.md` (página de síntesis nueva). Marcados como procesados con banner en la sección 2026-04-09.
 - 2026-06-03: Cierre del backlog del 2026-04-16. Los 4 insights restantes (redes neuronales/vehículo, coral perfecto/mastery, secuenciador vs Cubase, apps auditivas = corazón) ya estaban integrados al wiki desde el 2026-04-17 según `log.md:561` pero nunca habían recibido su ✅ — hueco de contabilidad, no de contenido. Marcados con destino verificado. **Buzón sin pendientes activos** (el bloque 2026-04-09 se conserva como material crudo bajo banner).
 - 2026-06-12: Insight del KB como activo acumulativo procesado hacia `tecnologia-al-servicio-del-metodo.md`.
+- 2026-07-08: Ingesta de *Originals* (Grant) — 2 insights nuevos. El de disciplina/carácter/mentores ya se integró directamente en `filosofia-ensenanza.md`, `como-enseno-armonia.md` y `luis-como-ingeniero-neural.md` (no requiere buzón). Los 2 de esta fecha (cultura fuerte vs. culto, niche picking) quedan explícitamente sin procesar porque requieren validación de Luis antes de escribirse como parte del método o de Migración Empresas.

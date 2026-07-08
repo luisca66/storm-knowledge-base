@@ -1,7 +1,7 @@
 ---
 titulo: "Índice de Fuentes y Lecturas"
 tipo: catalogo
-ultima_actualizacion: 2026-07-03
+ultima_actualizacion: 2026-07-08
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -43,7 +43,7 @@ Catálogo de todos los libros que han influido en el desarrollo del método de S
 | Thinking Fast and Slow | Daniel Kahneman | neurociencia / método — Sistema 1 vs. Sistema 2 — **INGESTED 2026-04-22** | libros/Thinking Fast and Slow - Complete.md |
 | What Is Intelligence? | Blaise Agüera y Arcas (Google Research, 2025) | neurociencia / IA / método — inteligencia como predicción, transfer learning, períodos críticos — **INGESTED 2026-05-01** | libros/What is Intelligence - Complete.md |
 | LLM Wiki | Andrej Karpathy | arquitectura del KB | llm-wiki-karpathy.md |
-| **Originals** | Adam Grant | liderazgo / creatividad / método — pendiente ingestar | libros/Originals - Complete.md |
+| **Originals** | Adam Grant | liderazgo / creatividad / método — pedagogía (disciplina por razonamiento, elogio de carácter, rol del mentor) — **INGESTED 2026-07-08** | libros/Originals - Complete.md |
 | **Shadows of Forgotten Ancestors** | Carl Sagan & Ann Druyan | filosofía / ciencia / visión civilizatoria — pendiente ingestar | libros/Shadows of Forgotten Ancestors - Complete.md |
 
 ## Videos
@@ -111,3 +111,4 @@ Sistema de inteligencia continua sobre el panorama de IA. Procesado automáticam
 - 2026-05-29: Lint — agregados 3 videos nuevos (This Could Save Your Life, Diamandis/Ismail Moonshots, ExO 3.0). Pendiente ingestarlos al wiki.
 - 2026-06-01: Videos ingresados al wiki. INGESTED: "The Real Problem With AI Agents" → modulo_agentes.md + conceptos_no_olvidar.md + tecnologia-al-servicio-del-metodo.md. INGESTED: "This Could Save Your Life" → el-musico-como-atleta.md (sección 8). INGESTED: "ExO 3.0" → tecnologia-al-servicio-del-metodo.md (nueva sección). Moonshots raw transcript: no requiere ingesta separada (cubierto por ExO 3.0 destilado). Autor Dr. William Lee confirmado para "This Could Save Your Life".
 - 2026-07-03: Verificado el canal de "A Little Bit of Philosophy — PHI 101": Barry F. Vaughan, profesor de Mesa Community College (canal de YouTube homónimo). Se elimina el marcador [verificar canal] del curso. Queda un [verificar canal] en el video "The Real Problem With AI Agents".
+- 2026-07-08: **Originals (Adam Grant) INGESTED.** Disciplina por razonamiento (pocas reglas, muchos valores), elogio de carácter vs. conducta, y rol del mentor (expande aspiración, no motiva) integrados en `01-metodo-pedagogico/filosofia-ensenanza.md` (nuevo Principio 8), `08-sintesis/como-enseno-armonia.md` y `08-sintesis/luis-como-ingeniero-neural.md`. Cierra el paralelo que `ai-radar.md` había señalado en mayo entre el alineamiento de Claude ("Teaching Claude Why") y el método pedagógico. Material de groupthink/idea meritocracy (cap. 7, Bridgewater vs. Polaroid) registrado en `insights.md` como candidato para Migración Empresas, pendiente de validación con Luis.

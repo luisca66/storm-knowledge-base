@@ -1,12 +1,13 @@
 ---
 titulo: "Filosofía de Enseñanza"
 tipo: contexto
-ultima_actualizacion: 2026-05-21
+ultima_actualizacion: 2026-07-08
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 00-contexto/vision-proyecto.md
   - 01-metodo-pedagogico/estructura-curso.md
   - 01-metodo-pedagogico/progresion-estudiante.md
+  - 00-contexto/ai-radar.md
 estado: completo
 ---
 
@@ -117,6 +118,20 @@ Este principio es contracultural en la pedagogía musical tradicional, donde la 
 
 **Tocar es el accionar correcto de la pluma siguiendo la plantilla de la memoria.** Si la plantilla está bien construida, la ejecución fluye sola. Si la ejecución es el foco, se construye la plantilla equivocada.
 
+### 8. Pocas reglas, razonamiento, elogio de carácter — no adoctrinar, cultivar
+
+*(Ingesta 2026-07-08 — Adam Grant, Originals)*
+
+El método nunca declaró explícitamente **cómo** se comunican sus estándares al alumno — solo que existen (el coral perfecto, las tesituras, los movimientos prohibidos). La investigación de Adam Grant sobre el desarrollo de la originalidad da evidencia independiente, desde la psicología del desarrollo, de que la *forma* de esa comunicación importa tanto como el contenido:
+
+- **Pocas reglas, muchos valores.** En un estudio comparativo, los padres de niños ordinarios tenían en promedio **seis reglas** específicas (horarios de tarea, de dormir). Los padres de niños altamente creativos tenían **menos de una regla en promedio** — y ponían el énfasis en **valores morales**, no en reglas específicas (Teresa Amabile). Los arquitectos más creativos de Estados Unidos, comparados con pares igual de hábiles pero convencionales, fueron criados con disciplina **explicada por principios** (integridad, curiosidad, perseverancia), no con procedimientos memorizados.
+- **Disciplina por razonamiento, no por control.** Los adolescentes desobedecen las reglas que se imponen gritando o amenazando con castigo. Cuando la madre impone muchas reglas pero **explica el porqué**, los hijos las rompen mucho menos — porque las internalizan. Este es el mismo mecanismo neurológico que ya describe el método: una regla que vive solo como instrucción consciente (Sistema 2) se rompe bajo presión; una regla internalizada por comprensión migra a comportamiento automático (Sistema 1).
+- **Elogiar el carácter, no la acción aislada.** Un experimento con niños que compartieron canicas comparó dos tipos de elogio: *"Eso que hiciste fue bueno"* (conducta) vs. *"Debes ser el tipo de persona a quien le gusta ayudar"* (carácter). Dos semanas después, **45% de los niños elogiados por su carácter** repitieron el comportamiento generoso, contra solo **10% de los elogiados por la conducta**. El elogio de carácter se internaliza como identidad; el elogio de conducta se olvida con el episodio.
+
+**La traducción directa al método:** "el coral perfecto como puerta" y "el método filtra por sí solo" (ver más abajo, §"La Filosofía del Maestro") ya practican la primera mitad de este principio — pocas reglas explícitas, altísima exigencia en el resultado. Lo que Grant añade es la segunda mitad, útil para cómo Luis **habla** con el alumno en el camino: explicar el porqué de una regla de duplicación o de una tesitura en vez de solo señalarla construye un alumno que puede generar reglas nuevas cuando el contexto cambie — no solo aplicar las que memorizó. Y nombrar el logro como identidad ("ya eres un Ser Musical que resuelve esto solo") en vez de como episodio ("ese coral estuvo bien") es coherente con el nombre mismo del método: el alumno no *hizo* algo musical — *es* un Ser Musical.
+
+**El paralelo con la IA, ya anotado en el radar (mayo 2026):** Anthropic entrenó a Claude con los *principios* detrás de las reglas en vez de reglas explícitas ("Teaching Claude Why") y el comportamiento dañino bajó de 96% a 0%. El radar señaló entonces que *"este experimento tiene un paralelo directo con el método pedagógico de Luis"* (`00-contexto/ai-radar.md`, síntesis de mayo) — sin la evidencia que lo sostuviera del lado humano. Ahora existe: dos campos de investigación completamente distintos (alineamiento de IA y psicología del desarrollo infantil) convergen en la misma conclusión. **Las reglas no escalan. Los principios sí.** Es quizás la validación más limpia que ha recibido el método hasta ahora — porque no vino de la música.
+
 ---
 
 ## Qué Hace Diferente a Este Método
@@ -132,6 +147,8 @@ Este principio es contracultural en la pedagogía musical tradicional, donde la 
 | El cuerpo como vehículo | El cuerpo como instrumento que se afina |
 | Enseñar igual a todos | Traje a medida para cada estudiante |
 | Arte puro como objetivo | Supervivencia musical como contexto |
+| Muchas reglas explicadas por procedimiento | Pocas reglas explicadas por principio y valor |
+| Elogiar la conducta ("eso estuvo bien") | Elogiar el carácter ("eres un Ser Musical") |
 
 La diferencia más profunda es epistemológica: la enseñanza tradicional parte del instrumento hacia el músico. Este método parte del cerebro hacia el instrumento.
 
@@ -260,6 +277,7 @@ El método no nace del vacío. Sus raíces intelectuales son explícitas y está
 - **Yogananda**: la intención como fuerza que precede a la acción física. Marco espiritual complementario a la neurociencia.
 - **Daniel J. Levitin** (*This Is Your Brain on Music*): neurociencia musical aplicada.
 - **Aristóteles** (*Ética Nicomáquea*): las virtudes del carácter se adquieren únicamente mediante práctica — no mediante el conocimiento intelectual. Validación filosófica más antigua del principio de mielinización como construcción de disposiciones habituales.
+- **Adam Grant** (*Originals*): evidencia de psicología del desarrollo — la disciplina por razonamiento (pocas reglas, muchos valores) y el elogio de carácter producen más originalidad e internalización que las reglas explícitas y el elogio de conducta. Corrobora, desde un campo ajeno a la música, el mismo principio que Anthropic documentó en el alineamiento de IA ("las reglas no escalan, los principios sí").
 
 ---
 
@@ -273,3 +291,4 @@ El método no nace del vacío. Sus raíces intelectuales son explícitas y está
 - 2026-05-21: Integración de insights sobre Elefantito Matemático y Módulo de Memoria en la sección "El Rol de la Matemática Mental". El archivo pasa a estar completo.
 - 2026-05-26: Corrección del estado actual de Elefantito Matemático: versión Next.js vigente con 6 niveles; versión HTML legacy conserva 8 niveles.
 - 2026-05-27: Nueva sección "El Efecto Santiago" — principio nombrado del método, capturado de relato directo de Luis. Conecta con Efecto Santiago en IA (clase Montse).
+- 2026-07-08: Ingesta de *Originals* (Adam Grant) — nuevo Principio 8 "Pocas reglas, razonamiento, elogio de carácter": evidencia de psicología del desarrollo (disciplina por razonamiento, elogio de carácter vs. conducta) que cierra el paralelo señalado por el radar de IA en mayo entre el alineamiento de Claude ("Teaching Claude Why") y el método pedagógico. Tabla comparativa y Influencias Intelectuales ampliadas.

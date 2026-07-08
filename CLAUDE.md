@@ -291,7 +291,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual (actualizar en cada sesión)
 
-**Última actualización:** 2026-07-03 — Sesión doble. (1) Lint general con Fable 5: junio cerrado en `ai-radar.md` (veto de exportación como arco central), diario de junio, respaldo `git bundle` inaugurado. (2) Ejecución con Opus del plan de mejoras estructurales: workflow Cierre de Mes (§5), `herramientas/lint_kb.py` versionado, recordatorio mensual programado, y `04-contenido-musical/` desatorado por entrevista (audio en Cloudflare, sin biblioteca MIDI, nace `discografia-ia.md`).
+**Última actualización:** 2026-07-08 — Julio abierto en `ai-radar.md` (cierre del ciclo Fable/Sonnet 5, tabla de modelos revalidada, caso Figma/Palantir para Migración Empresas) e ingesta de *Originals* (Adam Grant): nuevo Principio 8 en `filosofia-ensenanza.md` (disciplina por razonamiento, elogio de carácter) que cierra el paralelo con el alineamiento de Claude señalado por el radar en mayo.
 
 El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Estado por archivo** → `index.md` (catálogo con estados y estadísticas)
@@ -302,14 +302,15 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 **Pendiente prioritario:**
 - ✅ **Plan de mejoras estructurales EJECUTADO** (2026-07-03, Opus) — `05-operaciones/plan-mejoras-kb-2026-07.md`: workflow Cierre de Mes en §5, `herramientas/lint_kb.py` versionado, log de ainews a 1 línea, tarea programada `cierre-de-mes-kb`, y borradores de `04-contenido-musical/` resueltos (audio en Cloudflare, sin biblioteca MIDI, discografía-ia como plan a futuro). **Pendiente menor de Luis:** ajustar el prompt de la tarea de Cowork que ingesta ainews para que escriba solo 1 línea en el log.
 - **Autonomía operativa** — Modelo y diagnóstico documentados en `05-operaciones/flujo-trabajo.md`. Prioridad inmediata: inventario de repos/rutas/comandos/ambientes y cerrar el primer circuito autónomo con Lección 1 + Maestro Virtual. Siguen pendientes infraestructura y recuperación (`04-contenido-musical/` ya resuelto: sin biblioteca MIDI, audio en Cloudflare, discografía como plan a futuro).
-- `ai-radar.md` → ✅ junio cerrado (2026-07-03). **Pendiente:** abrir la síntesis de julio (regreso de Fable 5, lanzamiento de Sonnet 5) y ahí revalidar la tabla de modelos y propagarla a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia (leer antes `INSTRUCCIONES_CLASES_IA.md`)
+- `ai-radar.md` → ✅ junio cerrado (2026-07-03) y julio abierto con días 1-7 (2026-07-08): cierre del ciclo Fable/Sonnet 5, tabla de modelos revalidada. **Pendiente:** propagar la tabla de modelos a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia (leer antes `INSTRUCCIONES_CLASES_IA.md`) — deliberadamente no hecho aún, se hará en sesión dedicada a ese subsistema
+- Ingestar `Originals` (Grant) → ✅ **INGESTED 2026-07-08.** Principio 8 en `filosofia-ensenanza.md`, matiz de mentores en `como-enseno-armonia.md`, cross-ref en `luis-como-ingeniero-neural.md`. 2 insights sin procesar en `insights.md` (cultura fuerte vs. culto, niche picking) esperan validación de Luis antes de integrarse al método o a Migración Empresas.
 - `09-migracion-empresas/` → ✅ Entrevista fundacional completada (`entrevista_fundacional.md`). Pendiente: Luis debe definir la estructura de precios comercial.
 - `luis-como-ingeniero-neural.md` → integrar a Dayana y validar conexiones por alumno con datos de sesiones reales
 - `entrenamiento-oido-absoluto.md` → poblar §12 con datos de alumnos que desbloqueen AP; desarrollar la "gramática posicional" (§3)
 - `tecnologia-al-servicio-del-metodo.md` → completar sección de apps de entrenamiento auditivo
 - `estrategia-freemium-musical.md` → 2 preguntas menores en §10 (orden de lanzamiento de avanzados, dato de conversión)
 - **Documentar el Taller de Ingeniería de Audio y Producción Musical** — curso real ya impartido, ligado al estudio 5.1; necesita ficha propia
-- Ingestar `Originals` (Grant) → conectar con liderazgo creativo / método
+- Ingestar `Shadows of Forgotten Ancestors` (Sagan) → único libro registrado que sigue pendiente
 - Verificar si el progreso del alumno en localStorage es un problema a resolver pronto
 - **Respaldo del KB** → ✅ rutina mensual de `git bundle` documentada en `05-operaciones/infraestructura.md`; primer bundle generado 2026-07-03. **Pendiente de Luis:** copiar el bundle a Google Drive o disco externo (en la misma PC solo protege contra corrupción del repo, no contra falla de disco) y repetir al cierre de cada mes
 - **Documentar las clases particulares como línea completa** (entrevista pendiente): dato capturado 2026-07-03 — **$1,500 MXN por sesión**. Falta precisar alcance por tipo de clase y si la tarifa sustituye a la de Contrapunto/Análisis ($1,250, dato 06-03) — ver nota de precios en `vision-proyecto.md`
@@ -317,4 +318,4 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 
 ---
 
-*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-07-03 (Fable 5 + Opus: radar cerrado, diario de junio, respaldo inaugurado, plan de mejoras ejecutado, `04-contenido-musical/` desatorado).*
+*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-07-08 (Sonnet 5: julio abierto en el radar, ingesta de Originals con nuevo Principio 8 pedagógico).*

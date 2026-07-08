@@ -1,7 +1,7 @@
 ---
 titulo: "Cómo Enseño Armonía"
 tipo: sintesis
-ultima_actualizacion: 2026-06-12
+ultima_actualizacion: 2026-07-08
 relacionado_con:
   - 01-metodo-pedagogico/filosofia-ensenanza.md
   - 01-metodo-pedagogico/estructura-curso.md
@@ -15,6 +15,7 @@ fuentes_utilizadas:
   - Curso Integral de Composición Musical (Hernández Medrano)
   - Los Seres Musicales
   - Inner Engineering (Sadhguru)
+  - Originals (Adam Grant)
   - Entrevista a Luis (en progreso)
 ---
 
@@ -240,6 +241,8 @@ Esta postura no es frialdad ni elitismo — es respeto profundo por el proceso. 
 
 **El método filtra por sí solo.** Su exigencia — el coral perfecto como puerta, el tiempo largo, la transformación neurológica real — es en sí misma el filtro. No hace falta añadir presión externa.
 
+**El matiz que añade Adam Grant (*Originals*, ingesta 2026-07-08):** no motivar no es lo mismo que no influir. Grant encuentra que los padres apenas explican el 1% de la motivación adulta a perseguir el cambio — pero los **mentores** explican el 14%. La diferencia no es intensidad, es función: el mentor no empuja al alumno a empezar (eso ya lo trae el alumno con "willingness" real) — **expande lo que el alumno puede imaginar como posible**. Exponer al alumno a modelos concretos de maestría (grabaciones de referencia, la biografía de un compositor, la anécdota de cómo Bach resolvió un enlace) no es motivación externa — es abrir el catálogo de destinos que el alumno todavía no sabía que existían. Es coherente con "no motivar a nadie": Luis no empuja, pero sí puede iluminar hasta dónde llega el camino.
+
 ---
 
 ## El método como sadhana: tecnología, no doctrina
@@ -341,6 +344,7 @@ La neurociencia respalda esto directamente. Barrett: el cerebro construye predic
 ---
 
 ## Historial de Cambios
+- **2026-07-08** — Ingesta de *Originals* (Adam Grant): nuevo matiz en "La Filosofía del Maestro" — mentores y modelos a seguir expanden lo que el alumno puede imaginar, sin contradecir "no motivar a nadie" (los padres explican ~1% de la motivación adulta al cambio; los mentores, ~14%).
 - **2026-06-12** — Fecha de frontmatter normalizada al formato YAML requerido; sin cambios sustantivos a la síntesis.
 - **2026-04-16** — Archivo llenado sustancialmente a partir del Curso Integral de Composición Musical (Medrano). Sección de voz de Luis pendiente de entrevista.
 - **2026-04-17** — Entrevista a Luis: visión de escucha directa sin mediación, el problema neurológico del tiempo, filosofía de no motivar (influencia Sadhguru / Inner Engineering).

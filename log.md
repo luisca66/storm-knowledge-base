@@ -13,6 +13,20 @@
 
 ---
 
+## [2026-07-08] actualización | Julio abierto en ai-radar.md + Originals (Grant) ingerido
+
+**Contexto:** Luis pidió avanzar dos pendientes de §7: abrir la síntesis de julio y hacer la ingesta de *Originals*.
+
+**Radar de julio (días 1-7):** el cierre de la trilogía de junio — Fable 5 regresa el 1 de julio junto al lanzamiento de **Claude Sonnet 5**; el 7 de julio (hoy) Fable sale del plan Claude Max (pasa a créditos API) y se confirma la cronología completa del veto (3 semanas offline, Tom Brown negociando en vez de Amodei). Nuevos temas: "impuesto de ciberseguridad" (más falsos positivos), caso Figma/Palantir ("robo del alpha"), economía del harness madurada a fórmula ("planifica caro, ejecuta barato", 68% de ahorro), permiso político como foso (5% de OpenAI al gobierno), fuga de cerebros continuada. Sección 3 revalidada con tabla de modelos al 7 de julio — **propagación a clases-ia queda pendiente deliberadamente**, fuera del alcance de esta sesión.
+
+**Ingesta de *Originals* (Adam Grant):** nuevo **Principio 8** en `01-metodo-pedagogico/filosofia-ensenanza.md` — disciplina por razonamiento (pocas reglas, muchos valores) y elogio de carácter vs. conducta, con evidencia de psicología del desarrollo. Cierra el paralelo que el radar había señalado en mayo entre el alineamiento de Claude ("Teaching Claude Why") y el método pedagógico — dos campos distintos convergiendo en la misma conclusión. Matiz sobre mentores/modelos a seguir agregado a `08-sintesis/como-enseno-armonia.md` (no contradice "no motivar a nadie": los mentores expanden aspiración, no empujan). Cross-referencia en `08-sintesis/luis-como-ingeniero-neural.md`.
+
+**Insights sin procesar (deliberadamente):** 2 hallazgos del capítulo de groupthink (cultura fuerte vs. culto — Bridgewater vs. Polaroid; niche picking) quedaron en `insights.md` como candidatos para Migración Empresas y para la sección "traje a medida" del método, **sin integrar a archivos canónicos** porque no hay confirmación de Luis de que aplique — evita inventar información.
+
+**Archivos modificados:** `ai-radar.md`, `filosofia-ensenanza.md`, `como-enseno-armonia.md`, `luis-como-ingeniero-neural.md`, `indice-fuentes.md`, `insights.md`, `index.md`, `CLAUDE.md` §7.
+
+---
+
 ## [2026-07-07] ingest | ainews 2026-07-07 → ver 07-fuentes/ainews/202607/indice_general.md
 
 ---
