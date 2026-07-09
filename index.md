@@ -234,6 +234,7 @@ estado: en_progreso
 
 ---
 ## Historial de Cambios
+- **2026-07-08 (2)** — Lint de salud Codex: KB mecánicamente sano; reconciliada la lectura operativa en `05-operaciones/flujo-trabajo.md` sin cambios de estadísticas.
 - **2026-07-08** — Julio abierto en `ai-radar.md`; ingesta de *Originals* (Grant): catálogo de libros actualizado (23/27), estadísticas recalculadas (365 archivos, última sesión).
 - **2026-07-03 (2)** — Actualización de Luis: catálogo de apps corregido a 11 webapps publicadas (Cantar Acordes documentada); descripción de la sección 03 actualizada.
 - **2026-07-03** — Lint de Fable 5: diario de junio agregado al catálogo (completo); estadísticas recalculadas (364 archivos; conteo de estados ahora excluye consistentemente archivos de sistema); sistema ainews extendido a julio; última sesión actualizada.

@@ -1,7 +1,7 @@
 ---
 titulo: "Flujo de Trabajo"
 tipo: contexto
-ultima_actualizacion: 2026-06-12
+ultima_actualizacion: 2026-07-08
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 00-contexto/decisiones-clave.md
@@ -93,6 +93,20 @@ La escena objetivo del "martes cualquiera" requiere:
 
 No conviene documentar las ~60 lecciones ni portar las 10 apps antes de cerrar un circuito completo. La autonomía se demuestra con una tarea repetible de punta a punta; después se replica el patrón.
 
+## Lectura de avance — 2026-07-08
+
+La revisión de salud del KB confirma que el sistema está mecánicamente sano: `herramientas/lint_kb.py` reporta referencias, enlaces y frontmatter sin roturas. El cuello de botella ya no es ordenar el KB, sino convertir su continuidad intelectual en ejecución verificable.
+
+Orden práctico para las próximas sesiones:
+
+1. **Mapa operativo de proyectos** — documentar rutas locales, repos, comandos, ambientes, despliegues y activos críticos. Es el avance con más retorno porque desbloquea trabajo autónomo en website, apps y Migración Empresas.
+2. **Circuito Lección 1 + Maestro Virtual** — convertir `leccion-01-escalas-mayores.md`, `tipos-de-ejercicio.md` y `reglas-validacion.md` de borradores a contrato ejecutable mínimo: qué produce el alumno, cómo se valida y cómo se prueba.
+3. **Propagación a clases-ia** — pasar la tabla de modelos de `ai-radar.md` a `conceptos_no_olvidar.md` y `leccion_01`, leyendo antes `INSTRUCCIONES_CLASES_IA.md`. Es una tarea acotada, pero toca el subsistema con doble reglamento.
+4. **Documentar la vaca lechera** — cerrar la entrevista de clases particulares: tipos de clase, tarifa vigente, relación con la tarifa previa de $1,250 y el Taller de Ingeniería de Audio y Producción Musical.
+5. **Apps de paga** — documentar toolchain iOS y preparar el piloto P03. Debe venir después del inventario operativo para no depender de memoria oral.
+
+Las ingestas de contenido largo, como `Shadows of Forgotten Ancestors`, siguen siendo valiosas, pero hoy no son el cuello de botella principal.
+
 ## Herramientas Diarias
 [LLENAR: ¿Con qué herramientas trabajas cada día? Claude.ai, Cowork, Claude Code, VS Code, etc.]
 
@@ -106,5 +120,6 @@ No conviene documentar las ~60 lecciones ni portar las 10 apps antes de cerrar u
 [LLENAR: Esto es importante — una IA que entiende que tu tiempo es limitado puede priorizar mejor sus sugerencias.]
 
 ## Historial de Cambios
+- **2026-07-08** — Añadida lectura de avance tras lint sano: prioridades prácticas para convertir continuidad intelectual en autonomía operativa.
 - **2026-06-12** — Definido el modelo de autonomía operativa, diagnóstico por capas y orden de implementación. Estado: `borrador` → `en_progreso`.
 - **2026-04-07** — Creación inicial (borrador).

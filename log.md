@@ -13,6 +13,18 @@
 
 ---
 
+## [2026-07-08] lint | Checada general Codex — KB sano y prioridades de avance
+
+**Verificación mecánica:** `python herramientas/lint_kb.py` reporta 175 referencias `relacionado_con`, 130 enlaces relativos y frontmatter sin roturas. Resultado: OK — KB sano.
+
+**Hallazgo de consistencia:** `insights.md` ya registraba que los 2 insights de *Originals* (cultura fuerte vs. culto, niche picking) fueron revisados con Luis y quedaron como referencia futura, pero `CLAUDE.md` y `CHANGELOG.md` todavía los describían como pendientes de validación. Se reconciliaron esos archivos de control.
+
+**Lectura operativa:** el cuello de botella principal no es el orden del KB, sino la autonomía de ejecución: inventario de repos/rutas/comandos, primer circuito Lección 1 + Maestro Virtual, propagación acotada a clases-ia, documentación de clases particulares/taller de audio y piloto de apps de paga. La lectura quedó registrada en `05-operaciones/flujo-trabajo.md`.
+
+**Archivos modificados:** `CLAUDE.md`, `CHANGELOG.md`, `05-operaciones/flujo-trabajo.md`, `index.md`, `log.md`.
+
+---
+
 ## [2026-07-08] actualización | Julio abierto en ai-radar.md + Originals (Grant) ingerido
 
 **Contexto:** Luis pidió avanzar dos pendientes de §7: abrir la síntesis de julio y hacer la ingesta de *Originals*.
