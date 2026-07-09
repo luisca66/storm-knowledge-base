@@ -13,6 +13,16 @@
 
 ---
 
+## [2026-07-09] entrevista | Website como faro del alumno uno-entre-mil
+
+**Contexto:** Luis precisó la función comercial de las clases dentro de la estrategia del website: igual que el KB no es centro operativo, el website no es marketing de volumen.
+
+**Decisión capturada:** el website existe para promover a Luis y cachar a ese **uno entre mil** que sí quiera venir a estudiar el curso completo. Es un curso caro y requiere alumnos que de verdad quieran ser músicos profesionales. Luis no abarata ni persigue ese mercado: **los estará esperando**.
+
+**Archivos modificados:** `00-contexto/vision-proyecto.md`, `08-sintesis/estrategia-freemium-musical.md`, `05-operaciones/mapa-contextual-proyectos.md`, `CHANGELOG.md`, `log.md`.
+
+---
+
 ## [2026-07-09] entrevista | Mapa contextual de proyectos — 29 estados capturados
 
 **Contexto:** Luis propuso probar el KB invirtiendo la entrevista: Codex debía listar los proyectos detectados y Luis dar el estado real de cada uno. La prueba confirmó que el KB ya permite recuperar el ecosistema completo, pero también mostró datos desactualizados en apps, website, Maestro Virtual, juegos y Migración Empresas.

@@ -36,7 +36,7 @@ Vista de conjunto de los proyectos de Luis. Este mapa no es un tablero para oper
 | 13 | **Libros Kindle** | Luis tiene otros libros en mente, pero aún no tiene tiempo de sentarse a escribirlos. Necesita que el website dé ingresos para hacerlo. |
 | 14 | **Manuales de apps** | Ya no serán vendidos en Kindle; deben vivir en el website. |
 | 15 | **YouTube / videos del curso** | Hay que echar a andar en serio el website para activar esta línea. |
-| 16 | **Clases particulares** | Vaca lechera: instrumento, composición y entrenamiento físico. |
+| 16 | **Clases particulares** | Vaca lechera: instrumento, composición y entrenamiento físico. El website funciona como promotor/faro para cachar al alumno uno-entre-mil que quiera estudiar el curso completo y volverse músico profesional. |
 | 17 | **Contrapunto Palestriniano** | Vivo sin alumnos; falta ficha. |
 | 18 | **Análisis** | Vivo sin alumnos; falta ficha. |
 | 19 | **Film Scoring** | Vivo sin alumnos; falta ficha. |
@@ -60,3 +60,4 @@ El siguiente valor del KB es mantener este mapa actualizado y usarlo como punto 
 ---
 ## Historial de Cambios
 - **2026-07-09** — Creado a partir de entrevista con Luis: 29 proyectos/contextos del ecosistema y estado real de cada uno.
+- **2026-07-09 (2)** — Añadida precisión sobre el website como promotor/faro de las clases y filtro para el alumno profesional uno-entre-mil.

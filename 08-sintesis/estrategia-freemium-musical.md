@@ -1,7 +1,7 @@
 ---
 titulo: "Estrategia Freemium Musical"
 tipo: sintesis
-ultima_actualizacion: 2026-06-11
+ultima_actualizacion: 2026-07-09
 relacionado_con:
   - 00-contexto/vision-proyecto.md
   - 08-sintesis/como-enseno-armonia.md
@@ -47,6 +47,8 @@ El cálculo declarado: de cada 1,000 alumnos gratuitos, basta con que **uno** ll
 - Ese 1 llega a lo presencial **pre-calificado y pre-entrenado**: ya tiene un año de trabajo con el método. La clase presencial es por eso "incomparablemente más eficiente" — y puede cobrarse como premium porque no parte de cero.
 
 > La conversión baja no es un bug del modelo freemium. Es el mecanismo de selección del método operando sobre la economía.
+
+**La postura comercial correcta:** el website no está para rogar ni para bajar el precio psicológico del curso completo. Está para promover a Luis y esperar al alumno correcto: ese uno entre mil que de verdad quiera ser músico profesional y esté dispuesto a pagar una formación cara porque entiende que no compra contenido, compra transformación guiada. El sitio hace visible la puerta; Luis no persigue al alumno. **Lo espera.**
 
 ---
 
@@ -176,7 +178,7 @@ El tope de la escalera (§3) no es teórico: **todos los cursos avanzados ya exi
 - **Taller de Ingeniería de Audio y Producción Musical** — ligado al mismo estudio 5.1. *(Aún no integrado como curso en el KB — ver §9.)*
 - **Formación física** — incluida en el intensivo presencial (Luis tiene gym propio). No es un extra: es parte del currículum. Ver [el-musico-como-atleta.md](el-musico-como-atleta.md).
 
-**El cliente:** alguien que "para empezar, tiene lana, porque es caro" **y** tiene "vocación de hierro" — la disposición a estudiar todo el método *y además* pagar el avanzado. Idealmente un egresado del curso gratuito del website, pero Luis es realista: *"va a ser uno de mil, literalmente."* La realidad actual lo confirma — **aproximadamente un alumno cada tres años** completa hasta Film Scoring.
+**El cliente:** alguien que "para empezar, tiene lana, porque es caro" **y** tiene "vocación de hierro" — la disposición a estudiar todo el método *y además* pagar el avanzado. Idealmente un egresado del curso gratuito del website, pero Luis es realista: *"va a ser uno de mil, literalmente."* No basta con curiosidad musical: tiene que querer ser músico profesional de verdad. La realidad actual lo confirma — **aproximadamente un alumno cada tres años** completa hasta Film Scoring.
 
 Esto **confirma empíricamente** la tesis de las §2 y §4: el tope de la escalera es para el más raro, el más comprometido y el más capaz de pagar — y eso es el diseño funcionando, no un fallo de conversión. El foso (10k horas + estudio + criterio + ahora también el cuerpo) es tan profundo que solo lo cruza quien tiene la vocación completa.
 
@@ -225,4 +227,5 @@ Esta página crece con cada entrevista. Lo que aún no está resuelto y vale la 
 - **2026-06-03** (refinamiento) — Recomendación AEO evaluada contra el radar a fondo (lectura de fuentes crudas). Integrado el **guardrail de la paradoja de la legibilidad** (Nate Jones): legibilidad parcial — exponer identidad + resultados, NO el mecanismo del método. Es la misma lógica del video irreducible (§7) aplicada a la capa pública. Ajustado el matiz de schema markup (prioridad baja, no cero — útil para descubrimiento local, después de la página canónica).
 - **2026-06-03** (corrección — Luis) — Aclarada una ambigüedad: la redacción previa ("el KB no debe volverse todo público") implicaba erróneamente que parte del KB podría publicarse. **El KB es privado y nunca se publica** — es la fuente desde la que se *redacta* el website (único lugar donde aplica el AEO). Corregidas las §5 (puntos 1, "NO exponer", el 20%) + aclaración explícita. Reflejado también en CLAUDE.md §2.
 - **2026-06-11** (entrevista de propósito) — Nuevo peldaño en la escalera (§3): apps móviles de paga (Android/iOS) a precio bajo; las web apps permanecen gratuitas. Se cobra la conveniencia, no el contenido; las tiendas como canal de descubrimiento. Coherente con §2 (el filtro intacto) y §7 (lógica de faro).
+- **2026-07-09** (precisión de Luis) — Refinada la función del website: no es marketing de volumen sino faro/promotor para cachar al alumno uno-entre-mil que de verdad quiera estudiar el curso completo y volverse músico profesional. Los cursos avanzados son caros por diseño; Luis no persigue a ese alumno, lo espera.
 - **2026-06-03** (entrevista) — Resuelta la pregunta de YouTube → nueva §7 "El faro bilingüe y el video irreducible". Hallazgos: el video ES la lección completa (pantalla grabada con las herramientas gratuitas + Storm Sequencer); es **irreducible** ("o ves el video o no entiendes nada") — el "no atajos" del método hecho formato y foso involuntario en la era de los resúmenes por IA; el website es un **faro** ("aquí estoy"), no un embudo de volumen, para los pocos que aprenderán armonía estilo Shostakovich; regalías de YouTube = ingreso potencial secundario; **bilingüe** (EN/ES) por diseño; cadencia ~1/semana (2/semana si libera mañanas); el cuello de botella de grabar se neutraliza porque producir el curso *es* cómo Luis entrena la skill de IA que ya monetiza en asesorías. Secciones renumeradas (dos líneas 7→8, preguntas 8→9; quedan 4 preguntas abiertas).

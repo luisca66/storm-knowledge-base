@@ -10,6 +10,7 @@ estado: en_progreso
 ## 2026-07-09 — Mapa contextual de proyectos creado
 - **Mapa contextual de 29 proyectos/contextos:** creado `05-operaciones/mapa-contextual-proyectos.md` a partir de entrevista con Luis. Confirma qué está vivo, pausado, terminado o pendiente dentro del ecosistema: website, curso, Maestro Virtual, Sequencer, apps, juegos, libros, clases, clases IA, Migración Empresas, discografía, ainews y el KB mismo.
 - **Reconciliaciones importantes:** Intervalos - Cantados completo ya integrado como webapp; propedéutico terminado, lecciones 1-3 terminadas y Lección 4 en producción; apps móviles esperan suscripciones developer y port iPhone; manuales de apps pasan de Kindle al website; Maestro Virtual listo aprox. hasta Lección 6 y con futuro como codificación del método para IAs futuras; juegos Godot en espera de GPU/presupuesto; Migración Empresas vivo con Voces Imaginarias como cliente activo.
+- **Precisión estratégica sobre las clases:** el website se confirma como faro/promotor de Luis para cachar al alumno uno-entre-mil que quiera estudiar el curso completo y volverse músico profesional. Los cursos avanzados son caros por diseño; Luis no persigue ese alumno, lo espera.
 - **Archivos actualizados:** `vision-proyecto.md`, `funcionalidades.md`, `maestro-virtual.md`, `indice-apps.md`, `godot-juegos.md`, `stack-tecnologico.md`, `09-migracion-empresas/`, `discografia-ia.md`, `index.md`, `CLAUDE.md`.
 
 ## 2026-07-08 — Julio abierto en el radar + ingesta de Originals (Grant)
