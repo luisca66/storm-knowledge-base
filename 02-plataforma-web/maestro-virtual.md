@@ -1,7 +1,7 @@
 ---
 titulo: "Maestro Virtual"
 tipo: spec
-ultima_actualizacion: 2026-06-12
+ultima_actualizacion: 2026-07-09
 relacionado_con:
   - 01-metodo-pedagogico/ejercicios/reglas-validacion.md
   - 02-plataforma-web/arquitectura.md
@@ -26,6 +26,10 @@ En las clases presenciales, Luis valida personalmente el trabajo de cada alumno.
 A escala, eso es imposible sin automatización. El Maestro Virtual replica esa función a cualquier hora, sin importar cuántos alumnos haya. Desde la perspectiva de Ericsson/Gladwell: sin retroalimentación inmediata, el alumno puede estar mielinizando el error con perfecta eficiencia.
 
 La plataforma lo describe como "retroalimentación de IA que acompaña al método, no lo sustituye" — la distinción es importante. El Maestro Virtual valida reglas; la comprensión musical la desarrolla el alumno.
+
+## Futuro del Maestro Virtual
+
+Luis ve este proyecto como algo más grande que una herramienta de corrección para alumnos. A largo plazo, el Maestro Virtual puede funcionar como una codificación de sus enseñanzas para que IAs futuras compongan con ese marco y se pueda observar qué hacen con el método. En ese sentido, no solo valida ejercicios: preserva reglas, criterio y estilo pedagógico en una forma computable.
 
 ---
 
@@ -69,9 +73,7 @@ El `key_signature` meta-message indica la armadura de clave: cuántos sostenidos
 
 ## Estado de las lecciones
 
-La reconstrucción Next.js tiene actualmente una sola lección activa: **Lección 1 — Escalas Mayores**. Las demás posiciones siguen siendo estructura en planeación y su numeración puede cambiar; por ejemplo, Luis evalúa intercalar Modos antes de Escalas Menores.
-
-El KB documenta la arquitectura y el flujo de traducción del curso a código, pero todavía debe verificarse contra el repositorio de la plataforma qué reglas de validación de Lección 1 están desplegadas en producción y cuáles siguen en el validador HTML aislado. No asumir que “página publicada” equivale automáticamente a “validador completo”.
+El Maestro Virtual vive dentro del website y, según estimación de Luis (2026-07-09), está listo aproximadamente hasta la **Lección 6**. Avanzará conforme se vaya necesitando en las lecciones, no como un proyecto aislado separado del curso.
 
 **El número de lecciones es aproximado.** El último alumno que terminó el curso presencial con Luis escribió aproximadamente **60 corales**, pero ese número puede variar al adaptar el material a la plataforma en línea.
 
@@ -79,10 +81,11 @@ La progresión de lecciones sigue la estructura del Curso Medrano (5 niveles: pr
 
 | Etapa | Contenido | Estado documentado |
 |-------|-----------|--------------------|
-| Propedéutico (P01–P04) | Notas, ritmo, intervalos, secuenciador | No depende del validador armónico completo |
-| Lección 1 | Escalas Mayores | Página activa; estado exacto del validador en producción pendiente de verificar |
-| Secuencia inicial | Modos, Escalas Menores, acordes de 5ª | En planeación / codificación iterativa |
-| SATB | Tesituras, duplicaciones, enlaces, cadencias | Arquitectura pendiente; será la etapa técnicamente más compleja |
+| Propedéutico (P01–P04) | Notas, ritmo, intervalos, secuenciador | Terminado en el website; no depende del validador armónico completo |
+| Lecciones 1-3 | Primeras lecciones del curso | Terminadas en el website |
+| Lección 4 | Lección actual | En producción |
+| Lecciones hasta aprox. 6 | Reglas iniciales del Maestro Virtual | Listas según estimación de Luis; avanzarán conforme se necesiten |
+| SATB | Tesituras, duplicaciones, enlaces, cadencias | Será la etapa técnicamente más compleja |
 | Séptimas, modulación y cromatismo | V7–V9, parentescos, figuración, 6ª napolitana | Pendiente |
 
 **Nota:** La validación de corales SATB requiere verificar simultáneamente: tesituras de las 4 voces, duplicaciones permitidas/prohibidas, movimientos paralelos (quintas y octavas), enlaces entre acordes, y estados/inversiones. Es el desarrollo técnico más complejo del proyecto.
@@ -91,11 +94,9 @@ La progresión de lecciones sigue la estructura del Curso Medrano (5 niveles: pr
 
 ## Pendientes críticos
 
-- [ ] Verificar en el repositorio de la plataforma el estado exacto del validador de Lección 1
-- [ ] Confirmar la secuencia inicial antes de nombrar “Lección 2” a Escalas Menores
+- [ ] Mantener alineado el avance del Maestro Virtual con las lecciones reales del website
 - [ ] Definir arquitectura del validador SATB para las lecciones de armonía (Lecciones 6+)
 - [ ] Especificar reglas de validación por lección en `ejercicios/reglas-validacion.md`
-- [ ] Documentar el documento de handoff de Lección 2 en este archivo
 
 ---
 
@@ -103,3 +104,4 @@ La progresión de lecciones sigue la estructura del Curso Medrano (5 niveles: pr
 - **2026-04-07** — Creación inicial (borrador)
 - **2026-05-02** — Archivo sustancialmente expandido: propósito pedagógico, arquitectura, el problema enarmónico y su solución, estado por lección. Estado: en_progreso.
 - **2026-06-12** — Documentado el flujo humano-IA para traducir Medrano a código y reconciliado el estado post-migración: Lección 1 activa, resto en planeación y validación de producción pendiente de verificar en el repo.
+- **2026-07-09** — Reconciliado con mapa contextual: Maestro Virtual vive dentro del website, listo aproximadamente hasta Lección 6 y con futuro como codificación del método para IAs futuras.

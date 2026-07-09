@@ -13,6 +13,18 @@
 
 ---
 
+## [2026-07-09] entrevista | Mapa contextual de proyectos — 29 estados capturados
+
+**Contexto:** Luis propuso probar el KB invirtiendo la entrevista: Codex debía listar los proyectos detectados y Luis dar el estado real de cada uno. La prueba confirmó que el KB ya permite recuperar el ecosistema completo, pero también mostró datos desactualizados en apps, website, Maestro Virtual, juegos y Migración Empresas.
+
+**Captura principal:** creado `05-operaciones/mapa-contextual-proyectos.md` con 29 proyectos/contextos: Storm Studios Learning, curso de armonía, Maestro Virtual, Sequencer, 11 webapps, apps móviles, Intervalos Cantados, Grados Cantados, juegos Godot, Videojuego Total, Elefantito, Memoria, libros, manuales, YouTube, clases particulares, cursos avanzados, clases IA, Migración Empresas, Voces Imaginarias, Julio/microfinanciera, discografía IA, apps personales, ainews y el KB.
+
+**Correcciones clave:** propedéutico terminado; lecciones 1-3 terminadas; Lección 4 en producción; todo el curso publicado en dos idiomas; Intervalos Cantados completo ya integrado como webapp; apps móviles esperan suscripciones developer Play Store/App Store y port iPhone; manuales de apps vivirán en el website, no Kindle; Maestro Virtual listo aproximadamente hasta Lección 6 y con futuro para IAs futuras; juegos Godot en pausa por GPU/presupuesto; Migración Empresas vivo con Voces Imaginarias como cliente activo; Julio/microfinanciera vivo pero muy lento.
+
+**Archivos modificados:** `05-operaciones/mapa-contextual-proyectos.md`, `00-contexto/vision-proyecto.md`, `02-plataforma-web/funcionalidades.md`, `02-plataforma-web/maestro-virtual.md`, `03-apps-herramientas/indice-apps.md`, `03-apps-herramientas/entrenamiento-auditivo/godot-juegos.md`, `00-contexto/stack-tecnologico.md`, `09-migracion-empresas/README.md`, `09-migracion-empresas/proyectos/indice-proyectos.md`, `04-contenido-musical/discografia-ia.md`, `index.md`, `CLAUDE.md`, `CHANGELOG.md`, `log.md`.
+
+---
+
 ## [2026-07-08] entrevista | Reencuadre del propósito del KB — memoria estratégica, no centro operativo
 
 **Contexto:** Luis corrigió una interpretación de Codex: no quiere que la IA futura opere los proyectos desde el KB. Cada proyecto (website, apps, clientes, herramientas) se maneja por separado, en su repo/contexto y según la necesidad del momento.

@@ -1,7 +1,7 @@
 ---
 titulo: "Stack Tecnológico"
 tipo: contexto
-ultima_actualizacion: 2026-07-03
+ultima_actualizacion: 2026-07-09
 relacionado_con:
   - 02-plataforma-web/arquitectura.md
   - 05-operaciones/infraestructura.md
@@ -38,8 +38,8 @@ Todas las herramientas, plataformas y tecnologías que usa Storm Studios Learnin
 | **Desarrollo Android** | Android Studio |
 | **Desarrollo iOS** | En curso (entrevista 2026-06-11) — toolchain por documentar (¿Mac/Xcode? ¿wrapper?) |
 | **Lenguaje original** | Python → APK (proceso inicial de Luis) |
-| **Estado actual** | Carpetas de proyecto entregadas a Claude Code / Codex / Antigravity para desarrollo. En paralelo se construyen las web apps gratuitas y sus versiones móviles de paga (Android e iOS) — estrategia en decisiones-clave.md 2026-06-11 |
-| **Apps publicadas** | **11 webapps gratuitas** en stormstudios.com.mx (verificado 2026-07-03; catálogo en `indice-apps.md`). Versiones Android/iOS en preparación para venta a precio bajo en Play Store / App Store. **Sin descarga directa de APKs** — eliminada del modelo (contradicción resuelta por Luis, 2026-07-03) |
+| **Estado actual** | Webapps listas/publicadas. Apps móviles en espera de pagar suscripciones developer de Play Store y App Store; faltan algunos detalles Android y falta pasar todas a iPhone |
+| **Apps publicadas** | **11 webapps gratuitas** en stormstudios.com.mx (verificado 2026-07-03; actualizado 2026-07-09 con Intervalos Cantados completo integrado). Versiones Android/iOS en preparación para venta a precio bajo en Play Store / App Store. **Sin descarga directa de APKs** — eliminada del modelo |
 
 ---
 
@@ -76,7 +76,7 @@ Todas las herramientas, plataformas y tecnologías que usa Storm Studios Learnin
 |---------|-----|
 | **Google Drive** | Archivos generales (vía suscripción Gemini Pro) |
 | **Firebase** | Base de datos en JSON para la plataforma |
-| **Audio assets** | [LLENAR: estado actual de migración desde Dreamhost] |
+| **Audio assets** | Cloudflare; migración Dreamhost/Mediafire resuelta por otra vía |
 
 ---
 
@@ -109,7 +109,6 @@ Para el KB y la documentación, trabaja en sesiones de dictado con Claude (Cowor
 
 ## Pendientes
 
-- Estado actual de la migración de audio assets desde Dreamhost
 - Detalles del flujo de trabajo específico con cada herramienta de IA
 
 ---
@@ -119,3 +118,4 @@ Para el KB y la documentación, trabaja en sesiones de dictado con Claude (Cowor
 - 2026-04-16: Llenado sustancial con stack completo extraído del sitio, memoria de sesiones anteriores y dictado de Luis. Estado: `en_progreso`.
 - 2026-06-11: Sección "Apps Android" → "Apps móviles (Android / iOS)" — iOS en desarrollo activo confirmado por entrevista; toolchain iOS por documentar; señalada la contradicción "10 apps en Google Play" vs decisión Play Store del 05-22.
 - 2026-07-03: **Contradicción resuelta por Luis:** la descarga directa de APKs (el mecanismo que describía la documentación de mayo) queda eliminada del modelo hacia adelante; el dato "10 apps en Google Play" era incorrecto. Estado real: 11 webapps gratuitas publicadas en el website; versiones móviles de paga en preparación para las tiendas. Toolchain iOS sigue pendiente de documentar.
+- 2026-07-09: Estado móvil precisado: falta pagar suscripciones developer Play Store/App Store, cerrar detalles Android y portar todas las apps a iPhone. Audio assets actualizado a Cloudflare.

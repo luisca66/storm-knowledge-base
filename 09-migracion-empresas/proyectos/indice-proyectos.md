@@ -1,7 +1,7 @@
 ---
 titulo: "Indice de proyectos de Migracion Empresas"
 tipo: catalogo
-ultima_actualizacion: 2026-06-12
+ultima_actualizacion: 2026-07-09
 relacionado_con:
   - 09-migracion-empresas/README.md
   - 09-migracion-empresas/entrevista_fundacional.md
@@ -14,8 +14,8 @@ estado: en_progreso
 
 | Proyecto o empresa | Estado | Repo propio | Relacion con clases-ia | Documentacion pendiente |
 |---|---|---|---|---|
-| Voces Imaginarias | Piloto activo | Si; ubicacion pendiente de registrar | Su equipo usa el proyecto como contexto real para aprender agentes y GitHub | Alcance y estado general |
-| Julio (microfinanciera) | Piloto activo | Pendiente confirmar | Julio recibe acompañamiento individual y ya tiene expediente en clases-ia | Alcance, repo y primer flujo empresarial |
+| Voces Imaginarias | Vivo; cliente activo de Migración Empresas | Si; ubicacion pendiente de registrar | Su equipo usa el proyecto como contexto real para aprender agentes y GitHub | Alcance y estado general |
+| Julio (microfinanciera) | Vivo, pero muy lento: Julio ya entró a dirigir la microfinanciera | Pendiente confirmar | Julio recibe acompañamiento individual y ya tiene expediente en clases-ia | Alcance, repo y primer flujo empresarial |
 
 ## Regla
 
@@ -31,3 +31,4 @@ Este indice registra la cartera y los aprendizajes transversales. No replica la 
 ## Historial de Cambios
 - **2026-06-12** — Agregado Julio (microfinanciera) y alineado el estado de la cartera con la entrevista fundacional.
 - **2026-06-10** — Indice creado con Voces Imaginarias como primer proyecto confirmado.
+- **2026-07-09** — Estado actualizado desde mapa contextual: Migración Empresas vivo con un cliente activo (Voces Imaginarias); Julio/microfinanciera vivo pero muy lento por nuevo rol directivo de Julio.

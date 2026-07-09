@@ -109,6 +109,7 @@ estado: en_progreso
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
 | [flujo-trabajo.md](05-operaciones/flujo-trabajo.md) | Mapa contextual de proyectos y forma de registrar desarrollos externos al KB; no es centro operativo | en_progreso |
+| [mapa-contextual-proyectos.md](05-operaciones/mapa-contextual-proyectos.md) | Lista viva de proyectos del ecosistema de Luis con estado contextual y próximos temas a recordar | en_progreso |
 | [plan-mejoras-kb-2026-07.md](05-operaciones/plan-mejoras-kb-2026-07.md) | Plan autocontenido de mejoras estructurales (Fable 5 → Opus): cierre de mes, lint versionado, log ainews, recordatorio | **completo** (ejecutado) |
 | [asesoria-ia.md](05-operaciones/asesoria-ia.md) | Relación entre asesorías de IA y Migración Empresas; modelo de acompañamiento | en_progreso |
 | [infraestructura.md](05-operaciones/infraestructura.md) | Infraestructura técnica: Vercel, Cloudflare, respaldo del KB | borrador |
@@ -216,24 +217,25 @@ estado: en_progreso
 
 | Métrica | Valor |
 |---------|-------|
-| Total archivos .md (incluye clases-ia) | 365 (clases-ia: 174, ainews: 84) + `herramientas/lint_kb.py` |
+| Total archivos .md (incluye clases-ia) | 369 (clases-ia: 174, ainews: 87) + `herramientas/lint_kb.py` |
 | Archivos wiki principales completos | 10 (sin sistema, referencias históricas y clases-ia) |
-| Archivos wiki en_progreso | 26 |
-| Archivos wiki borrador | 9 |
+| Archivos wiki en_progreso | 28 |
+| Archivos wiki borrador | 8 |
 | Páginas de síntesis | 7 (todas en_progreso) |
 | Libros ingresados | 27 |
 | Libros registrados pendientes | 1 (Shadows of Forgotten Ancestors) |
 | Videos (transcripts, ingeridos al wiki) | 4 |
 | Sistema ainews | mar–jul 2026 (activo) |
 | Alumnos en clases-ia | 11 perfilados |
-| Última sesión de trabajo | 2026-07-08 |
+| Última sesión de trabajo | 2026-07-09 |
 
 ---
 
-*Mantenido por la IA que colabora con Luis. Actualizado: 2026-07-08 (Sonnet 5: julio abierto en el radar, Originals ingerido).*
+*Mantenido por la IA que colabora con Luis. Actualizado: 2026-07-09 (mapa contextual de proyectos creado).*
 
 ---
 ## Historial de Cambios
+- **2026-07-09** — Mapa contextual de 29 proyectos creado; estados de website, apps, Maestro Virtual, juegos, Migración Empresas, discografía y stack móvil reconciliados.
 - **2026-07-08 (2)** — Lint de salud Codex: KB mecánicamente sano; `05-operaciones/flujo-trabajo.md` reencuadrado como mapa contextual de proyectos, no como centro operativo.
 - **2026-07-08** — Julio abierto en `ai-radar.md`; ingesta de *Originals* (Grant): catálogo de libros actualizado (23/27), estadísticas recalculadas (365 archivos, última sesión).
 - **2026-07-03 (2)** — Actualización de Luis: catálogo de apps corregido a 11 webapps publicadas (Cantar Acordes documentada); descripción de la sección 03 actualizada.

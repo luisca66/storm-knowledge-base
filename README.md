@@ -1,7 +1,7 @@
 ---
 titulo: "Storm Studios Learning — Base de Conocimiento"
 tipo: indice
-ultima_actualizacion: 2026-06-11
+ultima_actualizacion: 2026-07-09
 estado: completo
 ---
 
@@ -9,13 +9,13 @@ estado: completo
 
 ## Quién es Luis
 
-Soy Luis Cárdenas, músico profesional con 35 años de carrera y maestro de música con 30 años de experiencia. Me formé en guitarra y teoría musical bajo el linaje **Shostakovich → Hernández Medrano → Cárdenas**, y pasé 15 años como compositor y productor en la industria publicitaria de la Ciudad de México. En 2018 gané el Campeonato Mundial de Men's Physique de Musclemania en Las Vegas. Desde 2025 construyo software educativo como "vibe coder" — usando IA para desarrollar todas las herramientas de la plataforma sin formación formal en programación. Storm Studios Learning es mi proyecto de vida: un curso de armonía gratuito, 10 apps de entrenamiento auditivo, y un método pedagógico propio llamado "Los Seres Musicales" que integra neurociencia, fisiología y filosofía yóguica para transformar a cualquier estudiante en un músico consciente y completo.
+Soy Luis Cárdenas, músico profesional con 35 años de carrera y maestro de música con 30 años de experiencia. Me formé en guitarra y teoría musical bajo el linaje **Shostakovich → Hernández Medrano → Cárdenas**, y pasé 15 años como compositor y productor en la industria publicitaria de la Ciudad de México. En 2018 gané el Campeonato Mundial de Men's Physique de Musclemania en Las Vegas. Desde 2025 construyo software educativo como "vibe coder" — usando IA para desarrollar todas las herramientas de la plataforma sin formación formal en programación. Storm Studios Learning es mi proyecto de vida: un curso de armonía gratuito, 11 webapps de entrenamiento, y un método pedagógico propio llamado "Los Seres Musicales" que integra neurociencia, fisiología y filosofía yóguica para transformar a cualquier estudiante en un músico consciente y completo.
 
 ## Qué es este Knowledge Base
 
 Este repositorio **privado** contiene la información necesaria para que una IA colabore activamente con Luis en Storm Studios Learning, sus clases y asesorías de IA, y Migración Empresas. El KB nunca se publica: los artefactos públicos del proyecto (website, YouTube) se redactan *usando* el KB como fuente, pero el KB en sí no se expone.
 
-**Objetivo principal:** Que cualquier IA pueda leer estos archivos y continuar el desarrollo del proyecto sin necesidad de que Luis explique todo desde cero cada vez — y, a futuro, construirlo y operarlo de forma autónoma.
+**Objetivo principal:** Que cualquier IA pueda leer estos archivos y entender la historia, decisiones, proyectos y conexiones del ecosistema de Luis sin que él explique todo desde cero cada vez. El KB es memoria estratégica y contextual; cada proyecto se trabaja en su propio repo/contexto.
 
 **Este README es solo la portada.** El schema operativo — propósito, convenciones, workflows, reglas de colaboración y estado — vive en **[CLAUDE.md](CLAUDE.md)**, la única fuente de verdad, que cualquier IA debe leer antes de trabajar. `AGENTS.md` es un stub de redirección para agentes que buscan ese nombre por convención.
 
@@ -43,3 +43,4 @@ Las convenciones de archivos (frontmatter, estados, historial de cambios) y las 
 ## Historial de Cambios
 - **2026-06-11** — Redefinido como portada del repo privado: jerarquía de lectura apuntando a CLAUDE.md como fuente única; secciones de convenciones e instrucciones (duplicadas y ya divergidas del schema) reemplazadas por puntero. Estado: completo.
 - **2026-06-10** — Mapa ampliado para incluir Migración Empresas como nueva línea activa del ecosistema de Luis.
+- **2026-07-09** — Portada actualizada con el reencuadre del KB como memoria estratégica y con el conteo vigente de 11 webapps.

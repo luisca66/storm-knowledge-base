@@ -1,7 +1,7 @@
 ---
 titulo: "Funcionalidades y Estado Actual"
 tipo: catalogo
-ultima_actualizacion: 2026-05-02
+ultima_actualizacion: 2026-07-09
 relacionado_con:
   - 02-plataforma-web/arquitectura.md
   - 02-plataforma-web/maestro-virtual.md
@@ -13,7 +13,7 @@ estado: en_progreso
 # Funcionalidades y Estado Actual
 
 ## Resumen
-Qué existe hoy en [stormstudios.com.mx](https://www.stormstudios.com.mx) — funcionalidades implementadas, contenido disponible y lo que está pendiente. Snapshot tomado 2026-05-02.
+Qué existe hoy en [stormstudios.com.mx](https://www.stormstudios.com.mx) — funcionalidades implementadas, contenido disponible y lo que está pendiente. Snapshot actualizado 2026-07-09 con el mapa contextual de proyectos.
 
 ---
 
@@ -26,7 +26,7 @@ Qué existe hoy en [stormstudios.com.mx](https://www.stormstudios.com.mx) — fu
 | `/es/mi-metodo` | El Camino de la Señal, filosofía pedagógica | ✅ Activa |
 | `/es/clases-taller` | Modalidades de estudio (presencial / distancia / digital) | ✅ Activa |
 | `/es/curso-armonia` | Curso de Armonía Tradicional con lecciones | ✅ Activa |
-| `/es/apps` | Catálogo de las 10 apps Android + Sequencer | ✅ Activa |
+| `/es/apps` | Catálogo de las 11 webapps + Sequencer | ✅ Activa |
 | `/es/el-libro` | Página del libro *Los Seres Musicales* | ✅ Activa |
 | `/es/blog` | Blog de contenidos | ✅ Activa |
 | `/es/contacto` | Formulario / datos de contacto | ✅ Activa |
@@ -44,11 +44,12 @@ El curso tiene capacidad para ~60 lecciones. Al 2026-05-02 están publicadas:
 | Sección | Lecciones | Estado |
 |---------|-----------|--------|
 | Introducción | 1 lección introductoria | ✅ Publicada |
-| Propedéutico | P01 Escritura de notas, P02 Escritura rítmica, P03 Intervalos, P04 Uso del secuenciador | ✅ 4 lecciones |
-| Lecciones principales | Lecciones 1 a 5 | ✅ 5 lecciones |
-| Lecciones pendientes | Lecciones 6–60 | 🔲 En desarrollo |
+| Propedéutico | P01 Escritura de notas, P02 Escritura rítmica, P03 Intervalos, P04 Uso del secuenciador | ✅ Terminado |
+| Lecciones principales | Lecciones 1 a 3 | ✅ Terminadas |
+| Lección actual | Lección 4 | En producción |
+| Lecciones pendientes | Lecciones posteriores | En desarrollo progresivo |
 
-**Total publicado:** ~10 lecciones de ~60 planeadas.
+Todo el contenido publicado del curso vive en **dos idiomas**.
 
 ---
 
@@ -62,7 +63,7 @@ Validador automático de ejercicios. El alumno sube el archivo MIDI exportado de
 
 ---
 
-## Apps Android — catálogo completo (todas gratuitas)
+## Webapps — catálogo completo (gratuitas)
 
 | App | Categoría | Función |
 |-----|-----------|---------|
@@ -72,6 +73,7 @@ Validador automático de ejercicios. El alumno sube el archivo MIDI exportado de
 | Intervalos – Reconocimiento | Auditiva | Identificar distancias relativas entre notas |
 | Intervalos – Cantados | Auditiva | Producción vocal precisa de intervalos |
 | Reconocimiento de Acordes | Auditiva | Identificar acordes (tríadas hasta acordes con 13ª) |
+| Cantar Acordes | Auditiva | Cantar las notas de acordes de dificultad progresiva |
 | Grados Escala Mayor | Auditiva | Reconocer grados diatónicos y cromáticos en tonalidades mayores |
 | Grados Escala Menor | Auditiva | Reconocer grados diatónicos y cromáticos en tonalidades menores |
 | Oído Absoluto Multi-tímbrico | Auditiva | Reconocimiento de notas sin referencia, 5 timbres |
@@ -101,9 +103,9 @@ Validador automático de ejercicios. El alumno sube el archivo MIDI exportado de
 
 ## Pendientes identificados
 
-- [ ] Lecciones 6–60 del curso de armonía (publicar progresivamente)
+- [ ] Lección 4 del curso de armonía (en producción)
+- [ ] Lecciones posteriores del curso de armonía (publicar progresivamente)
 - [ ] Precios publicados en el sitio (actualmente solo por contacto)
-- [ ] Estado de la migración de audio assets desde Dreamhost
 - [ ] Sección de asesorías de IA (línea de negocio nueva — ver `vision-proyecto.md`)
 
 ---
@@ -111,3 +113,4 @@ Validador automático de ejercicios. El alumno sube el archivo MIDI exportado de
 ## Historial de Cambios
 - **2026-04-07** — Creación inicial (borrador)
 - **2026-05-02** — Archivo llenado a partir de scraping del sitio stormstudios.com.mx. Estado actualizado de borrador a en_progreso.
+- **2026-07-09** — Estado actualizado por entrevista: propedéutico terminado, lecciones 1-3 terminadas, Lección 4 en producción, todo en dos idiomas; apps reencuadradas como webapps gratuitas.

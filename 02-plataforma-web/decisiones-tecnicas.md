@@ -1,7 +1,7 @@
 ---
 titulo: "Decisiones Técnicas de la Plataforma"
 tipo: decision
-ultima_actualizacion: 2026-05-02
+ultima_actualizacion: 2026-07-09
 relacionado_con:
   - 00-contexto/decisiones-clave.md
   - 00-contexto/stack-tecnologico.md
@@ -83,10 +83,11 @@ El Sequencer fue construido por Luis en colaboración con Gemini, ChatGPT y Clau
 - [ ] Por qué Zoho Mail sobre alternativas (Gmail Business, etc.)
 - [ ] Estado y uso actual de Firebase (¿autenticación implementada? ¿qué datos almacena?)
 - [ ] Historia del Storm Sequencer (¿cuándo se construyó? ¿quién lo construyó? ¿versiones anteriores?)
-- [ ] Decisión sobre audio assets: ¿Dreamhost → dónde migrar?
+- [x] Decisión sobre audio assets: Dreamhost/Mediafire quedó cerrado; audio en Cloudflare y video en YouTube.
 
 ---
 
 ## Historial de Cambios
 - **2026-04-07** — Creación inicial (borrador)
 - **2026-05-02** — Archivo llenado con razonamiento detrás de cada tecnología del stack. Pendientes marcados para verificar con Luis. Estado: en_progreso.
+- **2026-07-09** — Pendiente viejo de audio assets cerrado: la migración Dreamhost/Mediafire quedó resuelta vía Cloudflare/YouTube.

@@ -291,7 +291,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual (actualizar en cada sesión)
 
-**Última actualización:** 2026-07-08 — Aclarado el propósito del KB: no es centro de operación de proyectos, sino memoria estratégica y contextual para que la IA ayude a Luis a pensar, corregir, planear y conectar mejor. Cada proyecto se opera en su propio repo/contexto.
+**Última actualización:** 2026-07-09 — Creado `05-operaciones/mapa-contextual-proyectos.md` con 29 proyectos/contextos del ecosistema y estado real de cada uno; reconciliados website, apps, Maestro Virtual, juegos Godot, Migración Empresas y discografía con esa entrevista.
 
 El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Estado por archivo** → `index.md` (catálogo con estados y estadísticas)
@@ -301,7 +301,7 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 
 **Pendiente prioritario:**
 - ✅ **Plan de mejoras estructurales EJECUTADO** (2026-07-03, Opus) — `05-operaciones/plan-mejoras-kb-2026-07.md`: workflow Cierre de Mes en §5, `herramientas/lint_kb.py` versionado, log de ainews a 1 línea, tarea programada `cierre-de-mes-kb`, y borradores de `04-contenido-musical/` resueltos (audio en Cloudflare, sin biblioteca MIDI, discografía-ia como plan a futuro). **Pendiente menor de Luis:** ajustar el prompt de la tarea de Cowork que ingesta ainews para que escriba solo 1 línea en el log.
-- **Mapa contextual de proyectos** — Reencuadrado en `05-operaciones/flujo-trabajo.md`: no se busca operar desde el KB. Prioridad inmediata: registrar proyectos, repos, estado, decisiones, dependencias y aprendizajes para que la IA tenga contexto estratégico cuando Luis pida ideas, correcciones o planeación. La ejecución vive en cada proyecto separado.
+- ✅ **Mapa contextual de proyectos iniciado** — `05-operaciones/mapa-contextual-proyectos.md` creado (2026-07-09) con 29 proyectos/contextos. Pendiente: completar fichas específicas donde el mapa marca huecos (clases particulares, cursos avanzados, apps personales, toolchain móvil/iOS).
 - `ai-radar.md` → ✅ junio cerrado (2026-07-03) y julio abierto con días 1-7 (2026-07-08): cierre del ciclo Fable/Sonnet 5, tabla de modelos revalidada. **Pendiente:** propagar la tabla de modelos a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia (leer antes `INSTRUCCIONES_CLASES_IA.md`) — deliberadamente no hecho aún, se hará en sesión dedicada a ese subsistema
 - Ingestar `Originals` (Grant) → ✅ **INGESTED 2026-07-08.** Principio 8 en `filosofia-ensenanza.md`, matiz de mentores en `como-enseno-armonia.md`, cross-ref en `luis-como-ingeniero-neural.md`. 2 insights de `insights.md` (cultura fuerte vs. culto, niche picking) quedaron revisados con Luis: interesantes, pero sin necesidad activa hoy; se conservan como referencia futura, no como pendiente canónico.
 - `09-migracion-empresas/` → ✅ Entrevista fundacional completada (`entrevista_fundacional.md`). Pendiente: Luis debe definir la estructura de precios comercial.
@@ -318,4 +318,4 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 
 ---
 
-*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-07-08 (Codex: propósito del KB reencuadrado como memoria estratégica, no centro operativo).*
+*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-07-09 (Codex: mapa contextual de proyectos creado y estados reconciliados).*

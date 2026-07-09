@@ -1,7 +1,7 @@
 ---
 titulo: "Discografía con IA (plan a futuro)"
 tipo: catalogo
-ultima_actualizacion: 2026-07-03
+ultima_actualizacion: 2026-07-09
 relacionado_con:
   - 00-contexto/quien-soy.md
   - 02-plataforma-web/funcionalidades.md
@@ -32,7 +32,9 @@ Este archivo antes se llamaba `repertorio.md` y buscaba listar "piezas, arreglos
 - [ ] Definir qué canciones/discos entran (curaduría de "las joyas").
 - [ ] Decidir el reproductor/formato en la plataforma (¿embeds? ¿audio en Cloudflare como el resto del sitio?).
 - [ ] Escribir la voz de la página (tono "buena vibra", comunidad).
+- [ ] Luis necesita tiempo para sentarse a organizar todo.
 
 ## Historial de Cambios
 - **2026-07-03** — Reencarnación de `repertorio.md` (concepto de repertorio de curso descartado por Luis) en la ficha del plan de discografía con IA. Entrevista: propósito (diversión/comunidad/joyas), ubicación (página de la plataforma), independiente del método, a futuro.
+- **2026-07-09** — Estado actualizado desde mapa contextual: sigue como plan futuro; el bloqueo principal es tiempo para organizar el material.
 - 2026-04-07: Creación inicial como `repertorio.md` (borrador).

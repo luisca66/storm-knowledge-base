@@ -1,7 +1,7 @@
 ---
 titulo: "Catálogo de Apps y Herramientas"
 tipo: catalogo
-ultima_actualizacion: 2026-07-03
+ultima_actualizacion: 2026-07-09
 relacionado_con:
   - 00-contexto/stack-tecnologico.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -26,7 +26,7 @@ Las 9 publicadas como webapps gratuitas en el website (2026-07-03). Diseñadas p
 |-----|-----------|-----------------|
 | **Desglose** ⭐ | **App fundacional.** Toca de 2 a 7 notas simultáneas (piano, corno, coro, cello, fagot o multitímbrico); el alumno debe **cantar cada nota** y la app la da por buena al afinarla. Sensible a la nota, no a la octava → se trabaja todo el rango C2–C7 | Oído absoluto / corteza auditiva selectiva |
 | **Intervalos – Reconocimiento** | Entrena el reconocimiento de distancias de tono entre notas | Oído relativo — **App de P03** |
-| **Intervalos – Cantados** | Desarrolla la producción vocal precisa de intervalos. **Única app inconclusa:** 4 de 12 niveles en vivo; la versión completa ya está terminada en otro folder — solo falta migrarla al website | Oído relativo + cuerpo — **App de P03** |
+| **Intervalos – Cantados** | Desarrolla la producción vocal precisa de intervalos. La versión completa ya quedó integrada como webapp en Apps | Oído relativo + cuerpo — **App de P03** |
 | **Reconocimiento de Acordes** | Identifica cualidades de acordes desde tríadas hasta acordes de 13ª | Oído relativo / armonía |
 | **Cantar Acordes** | Entrena la afinación cantando las notas de acordes de dificultad progresiva | Oído relativo / armonía + cuerpo |
 | **Grados Escala Mayor** | Desarrolla la percepción de función tonal en tonalidades mayores | Oído relativo / grados |
@@ -83,10 +83,13 @@ Las 9 publicadas como webapps gratuitas en el website (2026-07-03). Diseñadas p
 
 Proyecto personal de Luis para llevar el entrenamiento auditivo a un entorno de videojuego. Los juegos en sí "no son tan importantes" — su valor real es ser **la semilla del Videojuego Total de Entrenamiento Auditivo** (ver `00-contexto/vision-proyecto.md`). También han sido motor del entusiasmo de Luis por subir de nivel como vibe coder, en su camino de modernizar sus clases y dar mejores asesorías de IA.
 
+Estado 2026-07-09: Luis está intentando mejorar los gráficos, pero aparentemente necesita una tarjeta de video; el frente queda en espera de presupuesto. Sigue pendiente hacer juegos de todas las apps.
+
 | Juego | Habilidad | Mecánica | Estado |
 |-------|-----------|----------|--------|
 | **Juego de Oído Absoluto** | Oído absoluto | 5 niveles en 5 mundos (personajes: cocodrilito, personaje esférico, unicornio volador —pedido por Kari, novia de Luis—, nave espacial, +otros) | Terminado — "quedó hermoso" |
-| **Juego de Intervalos** | Intervalos (cantados) | El enemigo se acerca y produce la nota base pidiendo un intervalo; el alumno **canta la nota correcta ~1.5 s** para cargar el arma *y* la **escribe a mano**; con ambas correctas se oye la carga y dispara | En desarrollo — versión nueva de intervalos |
+| **Juego de Intervalos** | Intervalos (cantados) | El enemigo se acerca y produce la nota base pidiendo un intervalo; el alumno **canta la nota correcta ~1.5 s** para cargar el arma *y* la **escribe a mano**; con ambas correctas se oye la carga y dispara | En desarrollo |
+| **Juegos de las demás apps** | Todas las habilidades | Un juego por habilidad como semilla del Videojuego Total | Pendientes |
 
 > Nota: el KB registraba antes "13 niveles" como cifra agregada sin verificar. Lo confirmado por Luis (2026-06-04): el juego de AP tiene 5 niveles/5 mundos; el de intervalos está en desarrollo. Programación pausada por falta de tiempo.
 
@@ -122,6 +125,7 @@ Las apps de Storm Studios **no precedieron al método — lo automatizaron.** Cr
 - **No hay ni habrá descarga directa de APKs** — eliminada del modelo (resuelve la contradicción que arrastraba `stack-tecnologico.md` desde mayo).
 - El piloto de punta a punta será **Intervalos – Reconocimiento** + **Intervalos – Cantados**, las dos apps indispensables de P03.
 - El modelo es pago único, nunca suscripción.
+- Estado 2026-07-09: falta pagar las suscripciones de developer de Play Store y App Store; hay detalles Android pendientes y falta pasar todas las apps a iPhone.
 
 **Contexto técnico del piloto Android:**
 1. Cuenta Google Play Developer ($25 USD, pago único)
@@ -135,6 +139,7 @@ El toolchain iOS sigue pendiente de documentar. Ver decisión completa en `00-co
 
 ## Historial de Cambios
 - **2026-07-03** — Actualización de Luis (con captura del sitio): **11 webapps publicadas** (se documenta **Cantar Acordes**, que faltaba en el catálogo); Intervalos – Cantados con 4/12 niveles en vivo y versión completa lista para migrar; descarga directa de APKs eliminada del modelo — contradicción de distribución resuelta.
+- **2026-07-09** — Mapa contextual: Intervalos Cantados completo ya integrado como webapp; apps móviles esperando suscripciones developer y port iPhone; juegos Godot en pausa por necesidad de mejor GPU/presupuesto; pendiente hacer juegos de todas las apps.
 - **2026-06-12** — Catálogo alineado con la decisión web-gratis/móvil-de-paga; piloto P03 y contradicción de distribución actual documentados.
 - **2026-06-04** — Entrevista a Luis (6): apps de AP — clarificado Multitímbrico (taller) vs. Guitarra Clásica (personal de Luis, concertista). AP desde el principio, 5–10 años, posición honesta (prodigio vs. parches; el viaje basta). Cierra el catálogo de apps de oído.
 - **2026-06-04** — Entrevista a Luis (5): documentada la secuencia del oído relativo tras Desglose (intervalos cantados+reconocer simultáneos, grados, acordes 5ª→13ª, exhaustivo, meses). Diseño multitímbrico explicado (5 timbres porque la música no es solo piano). Pendiente nuevo: programar Grados Cantados.
