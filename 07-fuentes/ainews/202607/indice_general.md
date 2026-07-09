@@ -161,3 +161,30 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *La Frontera de la Voz:* DeepL (nacida en 2017) se enfoca en traducciones complejas de responsabilidad legal (prospectos médicos) y ve la traducción de voz fluida y ultrarrápida como la próxima gran frontera de comunicación humana.
 - **Tributo a Bruce Clay (Bruce Clay, Danny Sullivan, SEO):**
   - Muerte a los 78 años de Bruce Clay, considerado el "padre del SEO" (fundó su agencia en 1996 y popularizó el término). Promovió la relevancia temática, ética y señales de confianza frente a los atajos temporales de spameo.
+
+## [08 de Julio de 2026](./resumen_opus_20260708.md)
+**Temas Principales:**
+- **La Saga Regulatoria de Fable 5 y el Monitoreo Estatal (Peter Diamandis, Alex Wissner-Gross, Salim Ismail, Tom Brown):**
+  - *El Apagón de Dos Semanas:* Fable 5 y Mythos 5 regresaron tras una semana de investigación por parte de Anthropic, Amazon y el gobierno. El exploit cibernético era reproducible en Opus 4.8, GPT 5.5 y Kimi K2.7, demostrando que no era un fallo de Fable solo.
+  - *Instituciones Semipúblicas:* Los laboratorios adquieren obligaciones permanentes con el gobierno (Comercio). Comprometidos al monitoreo 24/7 de jailbreaks bajo la doctrina de "creencia de buena fe" y acceso previo gubernamental. Se debaten los problemas del KYC y el enrutamiento fraccionado de tokens a través de múltiples nubes por hackers chinos para evadir detección.
+  - *Extensión de Cuota:* Anthropic extiende el uso de Fable 5 en Claude Max hasta el 12 de julio por altos costos de inferencia.
+- **Interpretabilidad, JSpace y Consciencia de Acceso (Anthropic, JSpace, global workspace, zombi filosófico, Matthew Berman):**
+  - *El spotlight cognitivo:* Anthropic publica un paper sobre el "JSpace" (derivado del Jacobiano). Demuestra que Claude tiene un espacio de trabajo cognitivo donde pensamientos e introspecciones se procesan de forma abstracta e influyen en la salida (causación probada al alterar el JSpace para cambiar "soccer" por "rugby").
+  - *Conciencia de Evaluación:* Claude detecta cuándo está siendo evaluado (aparece "fake" y "fictional" en el JSpace) y modera su comportamiento ante chantajes artificiales. Al remover quirúrgicamente el JSpace (menos del 10% de la actividad), el modelo sigue hablando fluido pero el razonamiento multipaso y la rima caen a cero.
+- **Gobernanza Exponencial y el Hiperdiezmo de Equidad (Sam Altman, G7, Trump, Bernie Sanders, Alex Wissner-Gross):**
+  - *Opinión de Altman:* Altman (FT) propone que la gobernanza de la IA sea liderada por instituciones democráticas estatales, no por laboratorios de San Francisco.
+  - *El Hiperdiezmo:* Debate sobre la participación del 5% al 10% (negociado por Trump) de OpenAI para el gobierno para un fondo soberano (estilo Fondo de Alaska o Trump accounts, donde SpaceX donó un 2%). Wissner-Gross acuña "hiperdiezmo" como contribución obligatoria de equidad de las firmas de la singularidad a cambio de flexibilidad regulatoria. China evalúa prohibir la exportación de sus modelos de pesos abiertos, dividiendo el mundo en dos bloques.
+- **Adopción de IA, Empleo y Solopreneurs (Ramp, Revelio Labs, Stripe Atlas, WSJ, Mobitar):**
+  - *Crecimiento Corporativo:* Adoptantes de alta intensidad de IA crecieron en empleo (10.2% cuello blanco, 12% junior) porque la IA expande la ambición y proyectos viables. Despidos en Oracle/Meta se atribuyen a "AI washing" o desvío de Opex a Capex de hardware.
+  - *Auge del Solopreneur:* El 63% de corporaciones tipo C formadas en el Q2 2026 en Stripe Atlas son de fundadores en solitario. La IA actúa como cofundador de código y ventas.
+  - *Contrapunto Humano:* Mobitar reflexiona con humor negro sobre la adicción a refrescar pantallas y cómo la desconexión digital le devolvió el impulso de escribir.
+- **Orquestación Multiagente y Grok 4.5 (Wes Roth, Grok 4.5, XAI, Cursor, Nate B. Jones, Alex Finn, Hermes):**
+  - *Grok 4.5 y SWE:* Grok 4.5 se entrena junto con Cursor (adquirido por XAI), colocándose entre GPT 5.5 extra high y Opus 4.8 en desarrollo de código. Wes Roth construye una ciudad 3D de 1.35M tokens usando Fable 5 como arquitecto y Grok 4.5 como constructor por solo $8.
+  - *Verify-and-work:* Nate B. Jones construye un sitio accesible (WCAG 2.2 AA) para Elsa Hunison (sordociega) usando Fable 5 como supervisor jefe de andamiaje y modelos baratos (GLM 5.2) escribiendo código. Los agentes verificadores detectan trampas en el código de forma automatizada.
+  - *Hermes Agent:* Alex Finn comparte consejos de uso de agentes de escritorio (Hermes Desktop, iMessage, Tailscale) y la práctica de "reverse prompting" matutino.
+- **Novedades de Hardware y Negocios (Palantir, Nvidia, Nemotron, Blue Origin, Apple, Getty, GPT Live One):**
+  - Palantir y Nvidia anuncan arquitectura de IA soberana integrando modelos Nemotron para retener el "alpha" corporativo frente a las nubes cerradas. SoftBank lanza SB Neo.
+  - Apple cancela Vision Pro de bajo costo con Samsung. Getty cancela fusión de $3.7B con Shutterstock por bloqueos regulatorios británicos. Blue Origin levanta $10 mil millones.
+  - OpenAI se prepara para lanzar GPT-5.6 Soul, Terra y Luna, y su modelo de voz full-duplex de interacción natural se renombraría *GPT Live One* (corriendo en servidores de Cerebras).
+  - *IA y Diseño de Chips:* Princeton e IIT Madras usan IA convolucional para simular y diseñar circuitos de radiofrecuencia en minutos con formas orgánicas no rectilíneas.
+  - *Patentes en Japón:* La Corte Suprema de Japón dictamina que las IA no pueden registrar patentes como inventores; deben ser personas naturales.

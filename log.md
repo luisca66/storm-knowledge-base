@@ -33,6 +33,8 @@
 
 **Archivos modificados:** `05-operaciones/mapa-contextual-proyectos.md`, `00-contexto/vision-proyecto.md`, `02-plataforma-web/funcionalidades.md`, `02-plataforma-web/maestro-virtual.md`, `03-apps-herramientas/indice-apps.md`, `03-apps-herramientas/entrenamiento-auditivo/godot-juegos.md`, `00-contexto/stack-tecnologico.md`, `09-migracion-empresas/README.md`, `09-migracion-empresas/proyectos/indice-proyectos.md`, `04-contenido-musical/discografia-ia.md`, `index.md`, `CLAUDE.md`, `CHANGELOG.md`, `log.md`.
 
+## [2026-07-08] ingest | ainews 2026-07-08 → ver 07-fuentes/ainews/202607/indice_general.md
+
 ---
 
 ## [2026-07-08] entrevista | Reencuadre del propósito del KB — memoria estratégica, no centro operativo
