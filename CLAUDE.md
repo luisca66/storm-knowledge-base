@@ -34,9 +34,9 @@ Este Knowledge Base es el **cerebro externalizado de Luis** — de su ecosistema
 **El propósito tiene dos niveles:**
 
 1. **Hoy — continuidad:** que cualquier IA pueda leer estos archivos y colaborar con Luis sin que él explique todo desde cero cada vez. *Este nivel ya se cumple.*
-2. **Mañana — autonomía:** que una IA futura pueda construir y operar el proyecto de forma autónoma. *Este nivel exige documentación operativa (lecciones, reglas de validación, infraestructura) que aún está incompleta — ver pendientes en §7.*
+2. **Mañana — criterio aumentado:** que una IA futura pueda entender la historia, decisiones, estado y conexiones del ecosistema para dar mejores ideas, detectar contradicciones, corregir rumbo y ayudar a planear estrategias. El KB **no es el lugar desde donde se operan los proyectos**: cada website, app, repo o cliente se trabaja en su propio contexto según la necesidad del momento. El KB registra lo aprendido y le da memoria a la colaboración.
 
-El KB NO es un archivo de notas. Es la base de entrenamiento del nivel 2.
+El KB NO es un archivo de notas sueltas ni un tablero operativo. Es la memoria estratégica de Luis: el registro vivo de lo que ha hecho, por qué lo hizo y cómo se conectan sus líneas de trabajo.
 
 **El KB es privado — nunca público.** Es el cerebro externalizado de Luis, exclusivamente para él y para la IA que colabora con él. Ningún archivo del KB se publica jamás. Cuando el proyecto tenga artefactos públicos (el **website**, YouTube, Kindle), esos se *redactan usando* el KB como fuente, pero el KB en sí no se expone. Cualquier discusión de AEO / legibilidad para agentes aplica **solo al website**, no al KB. Esta separación es deliberada y es parte del foso: la síntesis profunda del método (el "mecanismo") se queda privada; lo público expone identidad y resultados, no el cómo (ver la paradoja de la legibilidad en `00-contexto/ai-radar.md` y su aplicación en `08-sintesis/estrategia-freemium-musical.md` §5).
 
@@ -291,7 +291,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual (actualizar en cada sesión)
 
-**Última actualización:** 2026-07-08 — Julio abierto en `ai-radar.md` (cierre del ciclo Fable/Sonnet 5, tabla de modelos revalidada, caso Figma/Palantir para Migración Empresas) e ingesta de *Originals* (Adam Grant): nuevo Principio 8 en `filosofia-ensenanza.md` (disciplina por razonamiento, elogio de carácter) que cierra el paralelo con el alineamiento de Claude señalado por el radar en mayo.
+**Última actualización:** 2026-07-08 — Aclarado el propósito del KB: no es centro de operación de proyectos, sino memoria estratégica y contextual para que la IA ayude a Luis a pensar, corregir, planear y conectar mejor. Cada proyecto se opera en su propio repo/contexto.
 
 El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Estado por archivo** → `index.md` (catálogo con estados y estadísticas)
@@ -301,7 +301,7 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 
 **Pendiente prioritario:**
 - ✅ **Plan de mejoras estructurales EJECUTADO** (2026-07-03, Opus) — `05-operaciones/plan-mejoras-kb-2026-07.md`: workflow Cierre de Mes en §5, `herramientas/lint_kb.py` versionado, log de ainews a 1 línea, tarea programada `cierre-de-mes-kb`, y borradores de `04-contenido-musical/` resueltos (audio en Cloudflare, sin biblioteca MIDI, discografía-ia como plan a futuro). **Pendiente menor de Luis:** ajustar el prompt de la tarea de Cowork que ingesta ainews para que escriba solo 1 línea en el log.
-- **Autonomía operativa** — Modelo y diagnóstico documentados en `05-operaciones/flujo-trabajo.md`. Prioridad inmediata: inventario de repos/rutas/comandos/ambientes y cerrar el primer circuito autónomo con Lección 1 + Maestro Virtual. Siguen pendientes infraestructura y recuperación (`04-contenido-musical/` ya resuelto: sin biblioteca MIDI, audio en Cloudflare, discografía como plan a futuro).
+- **Mapa contextual de proyectos** — Reencuadrado en `05-operaciones/flujo-trabajo.md`: no se busca operar desde el KB. Prioridad inmediata: registrar proyectos, repos, estado, decisiones, dependencias y aprendizajes para que la IA tenga contexto estratégico cuando Luis pida ideas, correcciones o planeación. La ejecución vive en cada proyecto separado.
 - `ai-radar.md` → ✅ junio cerrado (2026-07-03) y julio abierto con días 1-7 (2026-07-08): cierre del ciclo Fable/Sonnet 5, tabla de modelos revalidada. **Pendiente:** propagar la tabla de modelos a `conceptos_no_olvidar.md` y `leccion_01` en clases-ia (leer antes `INSTRUCCIONES_CLASES_IA.md`) — deliberadamente no hecho aún, se hará en sesión dedicada a ese subsistema
 - Ingestar `Originals` (Grant) → ✅ **INGESTED 2026-07-08.** Principio 8 en `filosofia-ensenanza.md`, matiz de mentores en `como-enseno-armonia.md`, cross-ref en `luis-como-ingeniero-neural.md`. 2 insights de `insights.md` (cultura fuerte vs. culto, niche picking) quedaron revisados con Luis: interesantes, pero sin necesidad activa hoy; se conservan como referencia futura, no como pendiente canónico.
 - `09-migracion-empresas/` → ✅ Entrevista fundacional completada (`entrevista_fundacional.md`). Pendiente: Luis debe definir la estructura de precios comercial.
@@ -318,4 +318,4 @@ El detalle del estado vive donde corresponde — no duplicarlo aquí:
 
 ---
 
-*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-07-08 (Sonnet 5: julio abierto en el radar, ingesta de Originals con nuevo Principio 8 pedagógico).*
+*Este archivo es mantenido por la IA que colabora con Luis (Claude, Codex o cualquier agente futuro). Última revisión: 2026-07-08 (Codex: propósito del KB reencuadrado como memoria estratégica, no centro operativo).*

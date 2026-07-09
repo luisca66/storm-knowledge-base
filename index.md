@@ -108,7 +108,7 @@ estado: en_progreso
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [flujo-trabajo.md](05-operaciones/flujo-trabajo.md) | Modelo de autonomía operativa, diagnóstico por capas y flujo diario pendiente de entrevista | en_progreso |
+| [flujo-trabajo.md](05-operaciones/flujo-trabajo.md) | Mapa contextual de proyectos y forma de registrar desarrollos externos al KB; no es centro operativo | en_progreso |
 | [plan-mejoras-kb-2026-07.md](05-operaciones/plan-mejoras-kb-2026-07.md) | Plan autocontenido de mejoras estructurales (Fable 5 → Opus): cierre de mes, lint versionado, log ainews, recordatorio | **completo** (ejecutado) |
 | [asesoria-ia.md](05-operaciones/asesoria-ia.md) | Relación entre asesorías de IA y Migración Empresas; modelo de acompañamiento | en_progreso |
 | [infraestructura.md](05-operaciones/infraestructura.md) | Infraestructura técnica: Vercel, Cloudflare, respaldo del KB | borrador |
@@ -234,7 +234,7 @@ estado: en_progreso
 
 ---
 ## Historial de Cambios
-- **2026-07-08 (2)** — Lint de salud Codex: KB mecánicamente sano; reconciliada la lectura operativa en `05-operaciones/flujo-trabajo.md` sin cambios de estadísticas.
+- **2026-07-08 (2)** — Lint de salud Codex: KB mecánicamente sano; `05-operaciones/flujo-trabajo.md` reencuadrado como mapa contextual de proyectos, no como centro operativo.
 - **2026-07-08** — Julio abierto en `ai-radar.md`; ingesta de *Originals* (Grant): catálogo de libros actualizado (23/27), estadísticas recalculadas (365 archivos, última sesión).
 - **2026-07-03 (2)** — Actualización de Luis: catálogo de apps corregido a 11 webapps publicadas (Cantar Acordes documentada); descripción de la sección 03 actualizada.
 - **2026-07-03** — Lint de Fable 5: diario de junio agregado al catálogo (completo); estadísticas recalculadas (364 archivos; conteo de estados ahora excluye consistentemente archivos de sistema); sistema ainews extendido a julio; última sesión actualizada.

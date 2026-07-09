@@ -13,6 +13,16 @@
 
 ---
 
+## [2026-07-08] entrevista | Reencuadre del propósito del KB — memoria estratégica, no centro operativo
+
+**Contexto:** Luis corrigió una interpretación de Codex: no quiere que la IA futura opere los proyectos desde el KB. Cada proyecto (website, apps, clientes, herramientas) se maneja por separado, en su repo/contexto y según la necesidad del momento.
+
+**Decisión capturada:** el KB existe para registrar los proyectos, desarrollos, decisiones e historia de Luis, de modo que cuando una IA lo lea pueda dar ideas, detectar contradicciones, corregir, conectar y ayudar a planear estrategias con mucho contexto. El KB es memoria estratégica y contextual, no tablero de ejecución.
+
+**Archivos modificados:** `CLAUDE.md`, `05-operaciones/flujo-trabajo.md`, `index.md`, `CHANGELOG.md`, `log.md`.
+
+---
+
 ## [2026-07-08] lint | Checada general Codex — KB sano y prioridades de avance
 
 **Verificación mecánica:** `python herramientas/lint_kb.py` reporta 175 referencias `relacionado_con`, 130 enlaces relativos y frontmatter sin roturas. Resultado: OK — KB sano.
