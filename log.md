@@ -13,6 +13,10 @@
 
 ---
 
+## [2026-07-09] ingest | ainews 2026-07-09 → ver 07-fuentes/ainews/202607/indice_general.md
+
+---
+
 ## [2026-07-09] entrevista | Website como faro del alumno uno-entre-mil
 
 **Contexto:** Luis precisó la función comercial de las clases dentro de la estrategia del website: igual que el KB no es centro operativo, el website no es marketing de volumen.

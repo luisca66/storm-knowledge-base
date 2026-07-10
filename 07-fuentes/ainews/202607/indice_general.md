@@ -187,4 +187,25 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - Apple cancela Vision Pro de bajo costo con Samsung. Getty cancela fusión de $3.7B con Shutterstock por bloqueos regulatorios británicos. Blue Origin levanta $10 mil millones.
   - OpenAI se prepara para lanzar GPT-5.6 Soul, Terra y Luna, y su modelo de voz full-duplex de interacción natural se renombraría *GPT Live One* (corriendo en servidores de Cerebras).
   - *IA y Diseño de Chips:* Princeton e IIT Madras usan IA convolucional para simular y diseñar circuitos de radiofrecuencia en minutos con formas orgánicas no rectilíneas.
-  - *Patentes en Japón:* La Corte Suprema de Japón dictamina que las IA no pueden registrar patentes como inventores; deben ser personas naturales.
+  - *Patentes en la IA:* La Corte Suprema de Japón dictamina que las IA no pueden registrar patentes como inventores; deben ser personas naturales.
+
+## [09 de Julio de 2026](./resumen_opus_20260709.md)
+**Temas Principales:**
+- **Booking Holdings y la Inexistencia de Fosos Tecnológicos (Glenn Fogel, Priceline, Booking Holdings, Penny):**
+  - *La burbuja puntocom:* Glenn Fogel (CEO de Booking) compara la actual ola de IA con la era puntocom (1999-2000), donde el 99% de las empresas desaparecieron. Sostiene que no hay fosos permanentes contra la innovación.
+  - *Disciplina de Capital:* Booking invierte $700 millones anuales en tecnología (con su agente Penny duplicando adopción mensual). Ha recomprado el 40% de sus acciones en circulación en ~12 años en vez de acumular efectivo inútil.
+  - *Sustitución Laboral:* La sustitución de empleos por traducción automática (ej. descripciones de hoteles) ya ocurrió internamente. Advierte que la velocidad de sustitución de la IA superará la de creación de empleos en la sociedad.
+- **Lanzamiento Global de GPT 5.6 Soul/Terra/Luna y ChatGPT Work (OpenAI, Soul Ultra, Terra, Luna, Cerebras, ChatGPT Work):**
+  - *Estructura de Modelos:* OpenAI lanza GPT-5.6: Soul (inteligente, 7 niveles de razonamiento, Ultra siendo el más alto, 7.78% en ARC AGI v3), Terra (intermedio) y Luna (modelo eficiente, equivalente a Haiku). Soul corre hasta 10 veces más rápido en servidores de Cerebras.
+  - *ChatGPT Work:* Nueva app de escritorio empresarial (Codex integrado) con control avanzado de computadora y navegador Chromium para auto-evaluar visualmente el diseño de código.
+- **La Economía de la IA y el Enrutamiento (Fable 5 vs Soul, token economy, Matthew Berman):**
+  - *Guerra de precios:* Fable 5 es considerado demasiado costoso para API ($10/$50), gastando hasta $500 por una tarde. En *Agents' Last Exam*, Fable 5 obtuvo 40.5% costando $2,300, mientras que Soul logró 53.6% costando $763. Fable es superior para planificar bases de código grandes, pero Soul gana en costo/ejecución agéntica.
+  - *Extensión de Claude Max:* Anthropic extiende el acceso gratuito a Fable 5 en Claude Max hasta el 12 de julio.
+- **Meta y la API Comercial de Muse Spark 1.1 y Muse Image (Lurkerberg, Mark Zuckerberg, Muse Spark 1.1, Muse Image, Alexander Wang):**
+  - *Zuckerberg en X:* Mark Zuckerberg regresa a X tras una década. Anuncia que Meta cobrará a empresas por API con *Muse Spark 1.1* (razonamiento agéntico y uso de herramientas en data centers propios) y *Muse Image* (imágenes fotorrealistas con auto-refinación de RLHF y edición multiturno). Compite con neoclouds rentando cómputo excedente (Meta MP Compute).
+- **Automejora Recursiva y Auto Research (OpenAI Soul, Luna post-training, Andrej Karpathy, Auto Research):**
+  - *Modelos entrenando modelos:* OpenAI mostró cómo Soul post-entrenó de forma autónoma a Luna con un prompt corto de Codex (configurar entrenamiento, buscar GPUs y correr script). Se vincula con la contratación de Andrej Karpathy en Anthropic y su repo *Auto Research*.
+- **Soberanía y el Veto de Modelos Chinos (Reuters, pesos abiertos, Alibaba bans Claude, Microsoft Frontier Tuning, Bridgewater Tinker):**
+  - *Restricción de Pekín:* Reuters reporta que China evalúa restringir la exportación de modelos chinos líderes de pesos abiertos (como los de Alibaba, ByteDance y Z.ai con GLM 5.2) por seguridad nacional.
+  - *Alineación de IA Soberana:* Acelera la necesidad de soberanía de IA en Occidente. Alibaba prohíbe Claude por sospechas de spyware de geolocalización en Claude Code.
+  - *Modelos Afinados Locales:* Microsoft promueve *Frontier Tuning* con modelos MAI específicos muy optimizados (McKinsey y Excel) 10 veces más eficientes que generalistas. Bridgewater y Thinking Machines presentan *Tinker* para fine-tuning con juicios expertos a un costo de un solo dígito de dólar.
