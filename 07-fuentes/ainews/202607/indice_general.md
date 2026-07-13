@@ -209,3 +209,28 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Restricción de Pekín:* Reuters reporta que China evalúa restringir la exportación de modelos chinos líderes de pesos abiertos (como los de Alibaba, ByteDance y Z.ai con GLM 5.2) por seguridad nacional.
   - *Alineación de IA Soberana:* Acelera la necesidad de soberanía de IA en Occidente. Alibaba prohíbe Claude por sospechas de spyware de geolocalización en Claude Code.
   - *Modelos Afinados Locales:* Microsoft promueve *Frontier Tuning* con modelos MAI específicos muy optimizados (McKinsey y Excel) 10 veces más eficientes que generalistas. Bridgewater y Thinking Machines presentan *Tinker* para fine-tuning con juicios expertos a un costo de un solo dígito de dólar.
+
+## [12 de Julio de 2026](./resumen_opus_20260712.md)
+**Temas Principales:**
+- **La Era Posfrontera y la Comoditización del Modelo (Deirdre Bosa, Alex Karp, Dan Niles, Peter Fenton, Perplexity):**
+  - *Soberanía de Datos:* Alex Karp (Palantir) señala la frustración de clientes empresariales pagando por tokens de terceros y regalando el "alfa" de su propiedad intelectual. Demandan IA local y control de hardware.
+  - *Comoditización:* Dan Niles predice que los modelos de frontera se comoditizarán igual que Cisco e Intel en la era puntocom. Deirdre Bosa resalta que el cómputo empieza a sobrar (SpaceX y Meta venden excedentes) al pasar del *token maxing* al *token minimization* (optimizaciones del 50% al 90%).
+  - *Enrutamiento de Perplexity:* Perplexity post-entrena modelos abiertos (como GLM 5.2 de ZAI) para escalar a la frontera solo cuando es estrictamente necesario, recortando costos a un tercio.
+- **El Verano del Código Abierto y Orquestación Local (Peter Fenton, Ollama, Together AI, Hugging Face, DGX Spark):**
+  - *Tokens Abiertos:* Peter Fenton predice que más del 90% de los tokens serán abiertos en 18-24 meses. Ollama (levantó $65M en Serie B) es usado por el 85% de Fortune 500 para control local. Hugging Face reporta que el 50% de Fortune 500 ya usan modelos de pesos abiertos de su plataforma.
+  - *DGX Spark:* Dispositivo especializado de Nvidia de bajo consumo (cientos de vatios) con memoria unificada CPU/GPU para correr eficientemente modelos locales pesados (como Qwen 35B).
+- **Lanzamientos de GPT 5.6 Soul/Terra/Luna, ChatGPT Work y Co-work de Anthropic (OpenAI, ChatGPT Work, Matt Wolfe, Igor):**
+  - *Modelos:* OpenAI lanza GPT-5.6 (Soul, Terra, Luna) con niveles Pro/Ultra. Soul Ultra supera a Claude Fable en tareas complejas a un tercio de su costo, corriendo en Cerebras.
+  - *ChatGPT Work:* App de escritorio (Codex integrado) con navegador Chromium, conectores empresariales y función "Sites" (para hospedar sitios web sin CDNs ni bases de datos). Permite a Soul en modo Ultra orquestar de forma autónoma al menos 4 agentes en paralelo.
+  - *Anthropic responde:* Lanza Claude Co-work persistente en la nube.
+- **Cultura de Producto en la Era de Agentes y Leyes de Escala (Nate, Stanford 2024, Ringer):**
+  - *Mandamientos de Nate:* Los mandamientos para aceleración agéntica: documentación tratada como código, producto en la terminal a diario, y diseño de producto incrustado directamente en el SDK del agente (manejo de fallos en vez de maquetas de pantallas).
+  - *Stanford 2024:* Ley de escala agéntica donde un modelo barato arreglaba 15.9% de bugs en 1 intento y subía a 56% en 250 intentos. Si hay validador/verificador mecánico, la escala funciona; si se usa votación, se estanca en 100 intentos.
+- **Geopolítica de la IA, Suministro y Cómputo Físico (Wired, TSMC, SK Hynix, China):**
+  - *Data Centers Anunciados:* Wired expone que solo el 50% de los centros de datos de IA anunciados se están construyendo realmente. La inferencia local y los chips propios de hiperescaladores (Google, Amazon) desafían a Nvidia.
+  - *Riesgo Taiwán:* TSMC y la manufactura en Taiwán y Corea del Norte representan un riesgo extremo sin plan de contingencia corporativo viable ("fritos" ante invasión). Se detectan marcas de agua de Mythos (Anthropic) en el modelo chino GLM 5.2 (ZAI).
+  - *SK Hynix:* El gigante de memoria HBM debuta en Nasdaq con una valuación de $1.03T.
+- **Cuentas Trump y la Invest America Act (Brad Gerstner, Joe Gebbia, Vlad Tenev, Roth IRA):**
+  - *Invest America Act:* Cuentas Trump acumulan más de 1.5 millones de descargas en 24 horas. $1,000 al nacer invertidos en el S&P 500 con apoyo corporativo (Dell, Shotwell, Gerstner). Permite aportes patronales exentos y conversión a Roth IRA.
+- **Casos de Éxito de Solopreneurs (Formula Bot, PDF.ai, Wes Roth, Damon Chen):**
+  - *Ingresos Recurrentes:* Formula Bot (David Bresler) factura $226K mensuales ($2.7M anuales) sin saber programar. Damon Chen llevó pdf.ai a $1.5M anuales. Wes Roth aconseja no tercerizar el juicio en la máquina y usar la frontera para estructurar/investigar.
