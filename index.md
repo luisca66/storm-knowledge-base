@@ -1,7 +1,7 @@
 ---
 titulo: "Índice del Knowledge Base"
 tipo: catalogo
-ultima_actualizacion: 2026-07-08
+ultima_actualizacion: 2026-07-13
 estado: en_progreso
 ---
 
@@ -170,10 +170,11 @@ estado: en_progreso
 
 | Video | Tema | Relevancia |
 |-------|------|-----------|
-| [The Real Problem With AI Agents Nobody's Talking About](07-fuentes/videos/The%20Real%20Problem%20With%20AI%20Agents%20Nobody's%20Talking%20About.md) | Agentes de IA, knowledge bases, conocimiento tácito | Alta — valida arquitectura del KB |
-| [This Could Save Your Life](07-fuentes/videos/This%20Could%20Save%20Your%20Life.md) | Longevidad sistémica (Dr. William Lee) — 5 prácticas aplicadas al músico | Ingerido → el-musico-como-atleta.md (sección 8) |
+| [The Real Problem With AI Agents Nobody's Talking About](09-migracion-empresas/videos/The%20Real%20Problem%20With%20AI%20Agents%20Nobody's%20Talking%20About.md) | Agentes de IA, knowledge bases, conocimiento tácito | Alta — valida arquitectura del KB |
+| [This Could Save Your Life](09-migracion-empresas/videos/This%20Could%20Save%20Your%20Life.md) | Longevidad sistémica (Dr. William Lee) — 5 prácticas aplicadas al músico | Ingerido → el-musico-como-atleta.md (sección 8) |
 | [Moonshots — Organizational Singularity (Diamandis/Ismail)](07-fuentes/videos/moonshots-organizational-singularity-peter-diamandis-salim-ismail.md) | Singularidad organizacional, ExO 3.0, transformación empresarial con IA | Alta — clases de IA / asesorías |
-| [Singularidad Organizacional — ExO 3.0](07-fuentes/videos/singularidad-organizacional-exo-3.0.md) | ExO 3.0, modelo organizacional exponencial | Alta — clases de IA / asesorías |
+| [Singularidad Organizacional — ExO 3.0](09-migracion-empresas/videos/singularidad-organizacional-exo-3.0.md) | ExO 3.0, modelo organizacional exponencial | Alta — clases de IA / asesorías |
+| [Corpus de Migración Empresas](09-migracion-empresas/videos/README.md) | 14 fuentes: fricción, workflows, cambio, datos, MTP, gobernanza y backcasting | Catálogo especializado con síntesis y cautelas de evidencia |
 
 ---
 
@@ -195,13 +196,14 @@ estado: en_progreso
 
 ## 09 · Migración Empresas
 
-*Nueva línea empresarial de IA de Luis. Ya está activa y genera ingresos; cada empresa conserva su implementación en un repo propio.*
+*Línea empresarial de IA activa y con ingresos. Este KB solo registra contexto; el trabajo real vive en `D:\codex\migracion-empresas`.*
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
 | [entrevista_fundacional.md](09-migracion-empresas/entrevista_fundacional.md) | Síntesis estratégica: Gemelo Digital ExO 3.0, dolor del cliente, proceso, rol de Builder | **completo** |
 | [README.md](09-migracion-empresas/README.md) | Visión, límites y relación con las otras líneas de negocio | en_progreso |
 | [indice-proyectos.md](09-migracion-empresas/proyectos/indice-proyectos.md) | Catálogo de empresas y proyectos activos (Voces Imaginarias, Julio) | en_progreso |
+| [videos/README.md](09-migracion-empresas/videos/README.md) | Catálogo y síntesis crítica de 14 videos seleccionados para la línea | en_progreso |
 
 ---
 
@@ -217,24 +219,25 @@ estado: en_progreso
 
 | Métrica | Valor |
 |---------|-------|
-| Total archivos .md (incluye clases-ia) | 369 (clases-ia: 174, ainews: 87) + `herramientas/lint_kb.py` |
+| Total archivos .md (incluye clases-ia) | 381 (clases-ia: 174, ainews: 87) + `herramientas/lint_kb.py` |
 | Archivos wiki principales completos | 10 (sin sistema, referencias históricas y clases-ia) |
-| Archivos wiki en_progreso | 28 |
+| Archivos wiki en_progreso | 29 |
 | Archivos wiki borrador | 8 |
 | Páginas de síntesis | 7 (todas en_progreso) |
 | Libros ingresados | 27 |
 | Libros registrados pendientes | 1 (Shadows of Forgotten Ancestors) |
-| Videos (transcripts, ingeridos al wiki) | 4 |
+| Videos y destilados | 15 fuentes (14 en el corpus de Migración Empresas + 1 transcript general) |
 | Sistema ainews | mar–jul 2026 (activo) |
 | Alumnos en clases-ia | 11 perfilados |
-| Última sesión de trabajo | 2026-07-09 |
+| Última sesión de trabajo | 2026-07-13 |
 
 ---
 
-*Mantenido por la IA que colabora con Luis. Actualizado: 2026-07-09 (mapa contextual de proyectos creado).*
+*Mantenido por la IA que colabora con Luis. Actualizado: 2026-07-13 (corpus especializado de Migración Empresas consolidado).*
 
 ---
 ## Historial de Cambios
+- **2026-07-13** — Biblioteca especializada de Migración Empresas registrada: 14 fuentes catalogadas, rutas movidas corregidas, estadísticas recalculadas y frontera KB/operación aclarada.
 - **2026-07-09** — Mapa contextual de 29 proyectos creado; estados de website, apps, Maestro Virtual, juegos, Migración Empresas, discografía y stack móvil reconciliados.
 - **2026-07-08 (2)** — Lint de salud Codex: KB mecánicamente sano; `05-operaciones/flujo-trabajo.md` reencuadrado como mapa contextual de proyectos, no como centro operativo.
 - **2026-07-08** — Julio abierto en `ai-radar.md`; ingesta de *Originals* (Grant): catálogo de libros actualizado (23/27), estadísticas recalculadas (365 archivos, última sesión).

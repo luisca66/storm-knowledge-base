@@ -1,11 +1,17 @@
 ---
 titulo: "Registro de Cambios"
 tipo: diario
-ultima_actualizacion: 2026-07-08
+ultima_actualizacion: 2026-07-13
 estado: en_progreso
 ---
 
 # Registro de Cambios (CHANGELOG)
+
+## 2026-07-13 — Corpus de Migración Empresas y frontera operativa
+- **14 videos consolidados** en `09-migracion-empresas/videos/`, con catálogo crítico: principios operativos, uso posible y cautelas para no convertir cifras promocionales en hechos.
+- **Frontera canónica aclarada por Luis:** el KB solo registra contexto. El repo principal `D:\codex\migracion-empresas` mantiene metodología y expedientes; el proyecto operativo real de Voces es `D:\codex\migracion-empresas\voces-imaginarias`, mientras `03-clientes/voces-imaginarias/` es el expediente del asesor.
+- **Referencias reparadas:** índice global, índice de fuentes y síntesis que apuntaban al folder anterior. El schema y `herramientas/lint_kb.py` reconocen bibliotecas especializadas sin duplicar transcripts; lint final sano.
+- **Método operativo actualizado en su repo propio:** fricción antes que herramientas, agentes por flujo y no por organigrama, backcasting desde capacidades, MTP separado de permisos, datos gobernados/portables, adopción por utilidad y retiro explícito del flujo anterior.
 
 ## 2026-07-09 — Mapa contextual de proyectos creado
 - **Mapa contextual de 29 proyectos/contextos:** creado `05-operaciones/mapa-contextual-proyectos.md` a partir de entrevista con Luis. Confirma qué está vivo, pausado, terminado o pendiente dentro del ecosistema: website, curso, Maestro Virtual, Sequencer, apps, juegos, libros, clases, clases IA, Migración Empresas, discografía, ainews y el KB mismo.

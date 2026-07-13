@@ -1,7 +1,7 @@
 ---
 titulo: "Tecnología al Servicio del Método"
 tipo: sintesis
-ultima_actualizacion: 2026-06-12
+ultima_actualizacion: 2026-07-13
 relacionado_con:
   - 00-contexto/insights.md
   - 01-metodo-pedagogico/filosofia-ensenanza.md
@@ -10,8 +10,8 @@ relacionado_con:
   - 03-apps-herramientas/indice-apps.md
   - 03-apps-herramientas/elefantito-matematico.md
   - 00-contexto/stack-tecnologico.md
-  - 07-fuentes/videos/The Real Problem With AI Agents Nobody's Talking About.md
-  - 07-fuentes/videos/singularidad-organizacional-exo-3.0.md
+  - 09-migracion-empresas/videos/The Real Problem With AI Agents Nobody's Talking About.md
+  - 09-migracion-empresas/videos/singularidad-organizacional-exo-3.0.md
   - 08-sintesis/modelos-mentales-aprendizaje-musical.md
 estado: en_progreso
 fuentes_utilizadas:
@@ -223,6 +223,7 @@ Esto convierte a las apps cognitivas en la base material de la tesis que recorre
 ---
 
 ## Historial de Cambios
+- **2026-07-13** — Referencias de los videos actualizadas a su biblioteca canónica en `09-migracion-empresas/videos/`; sin alterar la síntesis existente.
 - **2026-04-16** — Archivo creado. Secciones iniciales con ideas semilla. Requiere expansión.
 - **2026-05-26** — Expandida la sección de Elefantito Matemático como solución tecnológica al cuello de botella prefrontal y de memoria.
 - **2026-05-29** — Integrado el insight del criterio de automatización (2026-05-27) en la sección de IA, vinculado al Efecto Santiago y a la mielinización S2→S1.

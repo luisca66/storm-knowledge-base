@@ -13,6 +13,22 @@
 
 ---
 
+## [2026-07-13] ingest | Corpus de videos de Migración Empresas
+
+**Origen:** Luis movió al folder canónico `09-migracion-empresas/videos/` todo el material audiovisual que considera relevante para la línea y aclaró que el KB es solo registro; el trabajo operativo vive en `D:\codex\migracion-empresas`.
+
+**Procesamiento:** se verificaron 3 movimientos byte a byte, se incorporaron 11 fuentes nuevas, se creó un catálogo de 14 videos con síntesis y cautelas de evidencia, y se repararon referencias al folder anterior. El video `The AI Trap Most Companies Fall Into.md`, detectado todavía en la carpeta general, se consolidó con el resto del corpus.
+
+**Aprendizajes propagados al repo operativo:** fricción antes de herramientas; workflows antes de organigrama; backcasting desde propósito/capacidades; MTP como brújula separado de políticas; datos gobernados y portables; adopción por experiencia visible; responsabilidad humana y retiro del flujo anterior.
+
+**Frontera confirmada:** `D:\codex\migracion-empresas\voces-imaginarias` = proyecto operativo real; `D:\codex\migracion-empresas\03-clientes\voces-imaginarias` = expediente del asesor; `09-migracion-empresas/` en el KB = memoria estratégica.
+
+**Validación:** `python herramientas/lint_kb.py` → 184 referencias y 135 enlaces verificados, 0 roturas, 0 archivos wiki sin frontmatter. El lint se actualizó para reconocer transcripts crudos dentro de bibliotecas especializadas sin exentar su README de catálogo.
+
+**Archivos modificados:** `CLAUDE.md`, `index.md`, `07-fuentes/indice-fuentes.md`, `08-sintesis/tecnologia-al-servicio-del-metodo.md`, `08-sintesis/el-musico-como-atleta.md`, `09-migracion-empresas/README.md`, `09-migracion-empresas/proyectos/indice-proyectos.md`, `09-migracion-empresas/videos/README.md`, `herramientas/lint_kb.py`, `CHANGELOG.md`, `log.md`.
+
+---
+
 ## [2026-07-12] ingest | ainews 2026-07-12 → ver 07-fuentes/ainews/202607/indice_general.md
 
 ---
