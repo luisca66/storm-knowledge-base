@@ -8,9 +8,9 @@ estado: en_progreso
 # Registro de Cambios (CHANGELOG)
 
 ## 2026-07-13 — Corpus de Migración Empresas y frontera operativa
-- **14 videos consolidados** en `09-migracion-empresas/videos/`, con catálogo crítico: principios operativos, uso posible y cautelas para no convertir cifras promocionales en hechos.
+- **15 fuentes operativas consolidadas** en `D:\codex\migracion-empresas\00-fuente\videos\`: los 14 videos seleccionados por Luis y Moonshots, con catálogo crítico. El KB conserva solo el registro y los aprendizajes, no copias crudas.
 - **Frontera canónica aclarada por Luis:** el KB solo registra contexto. El repo principal `D:\codex\migracion-empresas` mantiene metodología y expedientes; el proyecto operativo real de Voces es `D:\codex\migracion-empresas\voces-imaginarias`, mientras `03-clientes/voces-imaginarias/` es el expediente del asesor.
-- **Referencias reparadas:** índice global, índice de fuentes y síntesis que apuntaban al folder anterior. El schema y `herramientas/lint_kb.py` reconocen bibliotecas especializadas sin duplicar transcripts; lint final sano.
+- **Referencias reparadas:** índice global, índice de fuentes y síntesis apuntan a la ficha del corpus. El schema fija que las fuentes específicas de un proyecto viven en su repo operativo; lint final sano.
 - **Método operativo actualizado en su repo propio:** fricción antes que herramientas, agentes por flujo y no por organigrama, backcasting desde capacidades, MTP separado de permisos, datos gobernados/portables, adopción por utilidad y retiro explícito del flujo anterior.
 
 ## 2026-07-09 — Mapa contextual de proyectos creado

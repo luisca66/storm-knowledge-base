@@ -12,7 +12,7 @@ relacionado_con:
   - 07-fuentes/libros/Speed - Complete.md
   - 07-fuentes/libros/Super Joints - Complete.md
   - 07-fuentes/libros/A Guide to Amino Acid and Protein Nutrition - Complete.md
-  - 09-migracion-empresas/videos/This Could Save Your Life.md
+  - 09-migracion-empresas/corpus-videos.md
   - 08-sintesis/modelos-mentales-aprendizaje-musical.md
 estado: en_progreso
 fuentes_utilizadas:
@@ -245,7 +245,7 @@ Para el músico: la hidratación adecuada es directamente relevante para la velo
 ---
 
 ## Historial de Cambios
-- **2026-07-13** — Referencia de `This Could Save Your Life` actualizada a la biblioteca especializada de Migración Empresas; se conserva su uso transversal en esta síntesis.
+- **2026-07-13** — Referencia cruda sustituida por el registro del corpus operativo; se conserva el uso transversal de `This Could Save Your Life` en esta síntesis.
 - **2026-04-16** — Archivo creado. Estructura base. Pendiente de contenido via entrevista a Luis y lectura de fuentes.
 - **2026-05-01** — Archivo llenado sustancialmente a partir de los 6 libros de fitness: Speed (J. Barnes), Speed Training (Christensen), Super Joints (Tsatsouline), Full Body Flexibility, Essentials of Strength Training (NSCA), A Guide to Amino Acid and Protein Nutrition. Estado cambiado a en_progreso.
 - **2026-06-01** — Sección 8 (Longevidad del sistema) integrada desde video "This Could Save Your Life" (Dr. William Lee, biólogo vascular). 5 prácticas: arquitectura de sueño oncológico, sulforafano/NRF2, caminata metabólica, alimentos fermentados, hidratación con agua fría — todas con traducción directa al músico. Dimensión "Longevidad sistémica" añadida a la tabla del sistema en sección 6. Fuente agregada al frontmatter.

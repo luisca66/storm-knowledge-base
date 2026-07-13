@@ -5,7 +5,7 @@ ultima_actualizacion: 2026-07-13
 relacionado_con:
   - 09-migracion-empresas/entrevista_fundacional.md
   - 09-migracion-empresas/proyectos/indice-proyectos.md
-  - 09-migracion-empresas/videos/README.md
+  - 09-migracion-empresas/corpus-videos.md
   - 05-operaciones/asesoria-ia.md
   - 00-contexto/vision-proyecto.md
 estado: en_progreso
@@ -36,7 +36,7 @@ Este archivo es la fuente canonica para documentar su identidad, propuesta, mode
 - Metodo reutilizable.
 - Decisiones estrategicas.
 - Aprendizajes que puedan aplicarse entre clientes.
-- Una biblioteca especializada de fuentes y transcripts en `videos/`, con catálogo y cautelas de evidencia.
+- El registro y la síntesis del corpus de fuentes que vive en el repositorio operativo.
 - Estado comercial general sin exponer informacion sensible innecesaria.
 
 ### El workspace operativo conserva
@@ -63,13 +63,13 @@ La tarifa actual por sesión y el aumento planeado ya están capturados. Falta c
 
 ## Biblioteca de contexto
 
-El [corpus de videos](videos/README.md) concentra las fuentes que Luis seleccionó para esta línea. Sus principios más consistentes son: empezar por la fricción, rediseñar el flujo antes de automatizarlo, gobernar agentes con políticas explícitas, mantener responsabilidad humana y comprobar cualquier promesa contra una línea base.
+El [registro del corpus de videos](corpus-videos.md) documenta las fuentes que Luis seleccionó para esta línea. Los transcripts canónicos viven en `D:\codex\migracion-empresas\00-fuente\videos\`. Sus principios más consistentes son: empezar por la fricción, rediseñar el flujo antes de automatizarlo, gobernar agentes con políticas explícitas, mantener responsabilidad humana y comprobar cualquier promesa contra una línea base.
 
-Los transcripts se conservan como fuentes; el catálogo distingue ideas operativas de cifras, casos y predicciones que todavía requieren verificación. El workspace `D:\codex\migracion-empresas` conserva la metodología aplicable, los expedientes del asesor y los cerebros operativos de los proyectos reales.
+El repo operativo conserva los transcripts y su catálogo completo. El KB conserva la síntesis y distingue ideas operativas de cifras, casos y predicciones que todavía requieren verificación.
 
 ---
 ## Historial de Cambios
-- **2026-07-13** — Biblioteca especializada de 14 videos registrada; añadida la frontera entre fuente, síntesis y metodología operativa. Luis confirmó que el KB es solo registro y que el trabajo real vive en `D:\codex\migracion-empresas`.
+- **2026-07-13** — Corpus de 14 videos registrado; la ubicación canónica se fijó en `D:\codex\migracion-empresas\00-fuente\videos\` junto al transcript Moonshots existente. El KB conserva solo registro y síntesis.
 - **2026-06-12** — Entrevista fundacional completada (Gemelo Digital ExO 3.0, rol de Builder, cartera de pilotos). Relación con asesorías y estado de precios reconciliados.
 - **2026-06-10** — Espacio canonico creado tras confirmar que Migracion Empresas es un proyecto nuevo y una linea activa de ingresos.
 - **2026-07-09** — Estado comercial contextual actualizado: línea viva con un cliente activo, Voces Imaginarias; Julio/microfinanciera queda vivo pero lento en el índice de proyectos.

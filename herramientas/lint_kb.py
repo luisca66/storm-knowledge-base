@@ -11,8 +11,8 @@ Es la parte "enforce, don't instruct" del lint: no depende de que el modelo
 recuerde qué revisar. La revisión de juicio (borradores estancados, duplicación
 semántica, contradicciones) sigue siendo humana/IA — ver CLAUDE.md §5.
 
-Las bibliotecas especializadas pueden contener transcripts crudos fuera de
-`07-fuentes/`; su README de catálogo sigue siendo wiki y sí requiere frontmatter.
+Las fuentes específicas de proyectos operativos no se duplican aquí; el KB
+conserva fichas wiki con frontmatter que apuntan a su ubicación canónica.
 """
 import re
 import urllib.parse
@@ -20,22 +20,10 @@ from pathlib import Path
 
 root = Path(".")
 allfiles = {p.as_posix() for p in root.rglob("*") if ".git" not in p.parts}
-
-
-def es_fuente_cruda(p: Path) -> bool:
-    """Reconoce fuentes inmutables generales o de una biblioteca especializada."""
-    if "07-fuentes" in p.parts:
-        return True
-    return (
-        "09-migracion-empresas" in p.parts
-        and "videos" in p.parts
-        and p.name != "README.md"
-    )
-
 # 1. Referencias relacionado_con en frontmatter
 broken, checked = [], 0
 for p in root.rglob("*.md"):
-    if ".git" in p.parts or es_fuente_cruda(p):
+    if ".git" in p.parts or "07-fuentes" in p.parts:
         continue
     text = p.read_text(encoding="utf-8")
     m = re.search(r"^---\n(.*?)\n---", text, re.S)
@@ -57,7 +45,7 @@ for b in broken:
 # 2. Enlaces markdown relativos
 badlinks, nlinks = [], 0
 for p in root.rglob("*.md"):
-    if ".git" in p.parts or es_fuente_cruda(p) or "clases-ia" in p.parts:
+    if ".git" in p.parts or "07-fuentes" in p.parts or "clases-ia" in p.parts:
         continue
     for m in re.finditer(r"\]\(([^)#\s]+\.md)(#[^)]*)?\)", p.read_text(encoding="utf-8")):
         href = m.group(1)
@@ -78,7 +66,7 @@ for b in badlinks:
 sin_fm = []
 EXENTOS = {"CLAUDE.md", "AGENTS.md", "log.md", "README.md"}
 for p in root.rglob("*.md"):
-    if ".git" in p.parts or es_fuente_cruda(p) or "clases-ia" in p.parts:
+    if ".git" in p.parts or "07-fuentes" in p.parts or "clases-ia" in p.parts:
         continue
     if p.name in EXENTOS:
         continue
