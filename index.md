@@ -137,6 +137,7 @@ estado: en_progreso
 | Archivo | Descripción |
 |---------|-------------|
 | [indice-fuentes.md](07-fuentes/indice-fuentes.md) | Catálogo de todas las fuentes con autor, área de impacto y ruta |
+| [glosario-ia.html](07-fuentes/ainews/glosario-ia.html) | Glosario IA interactivo creado por Luis: 53 términos, búsqueda y filtros; herramienta derivada del sistema `ainews` |
 
 ### Libros destacados (23 de 27 ingresados)
 
@@ -219,7 +220,7 @@ estado: en_progreso
 
 | Métrica | Valor |
 |---------|-------|
-| Total archivos .md (incluye clases-ia) | 370 (clases-ia: 174, ainews: 90) + `herramientas/lint_kb.py` |
+| Total archivos .md (incluye clases-ia) | 370 (clases-ia: 174, ainews: 90) + `herramientas/lint_kb.py` + glosario HTML interactivo |
 | Archivos wiki principales completos | 10 (sin sistema, referencias históricas y clases-ia) |
 | Archivos wiki en_progreso | 29 |
 | Archivos wiki borrador | 8 |
@@ -233,10 +234,11 @@ estado: en_progreso
 
 ---
 
-*Mantenido por la IA que colabora con Luis. Actualizado: 2026-07-13 (corpus de Migración Empresas registrado; fuentes crudas trasladadas al proyecto operativo).*
+*Mantenido por la IA que colabora con Luis. Actualizado: 2026-07-13 (corpus de Migración Empresas registrado y glosario IA interactivo incorporado).*
 
 ---
 ## Historial de Cambios
+- **2026-07-13 (2)** — Glosario IA interactivo creado por Luis incorporado al catálogo como herramienta derivada de `ainews` (53 términos).
 - **2026-07-13** — Corpus de Migración Empresas registrado: 15 fuentes canónicas en el repo operativo, copias crudas retiradas del KB, estadísticas recalculadas y frontera KB/operación aclarada.
 - **2026-07-09** — Mapa contextual de 29 proyectos creado; estados de website, apps, Maestro Virtual, juegos, Migración Empresas, discografía y stack móvil reconciliados.
 - **2026-07-08 (2)** — Lint de salud Codex: KB mecánicamente sano; `05-operaciones/flujo-trabajo.md` reencuadrado como mapa contextual de proyectos, no como centro operativo.

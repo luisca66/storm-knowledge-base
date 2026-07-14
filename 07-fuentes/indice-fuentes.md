@@ -71,6 +71,8 @@ Sistema de inteligencia continua sobre el panorama de IA. Procesado automáticam
 | Junio 2026 | Resúmenes diarios + índice general de temas | ainews/202606/ |
 | Julio 2026 (en curso) | Resúmenes diarios | ainews/202607/ |
 
+**Herramienta de consulta:** [Glosario IA interactivo](ainews/glosario-ia.html) — 53 términos del sistema `ainews`, con búsqueda y filtros por categoría. Es un artefacto derivado para consulta rápida; el radar y las fuentes diarias siguen siendo la referencia para afirmaciones temporales.
+
 **Temas recurrentes del período abr-may 2026:**
 - Enlightenment Gap, Karpathy Loop, Phase of Economics
 - Infraestructura agéntica, Dark Code, arquitectura de memoria
@@ -115,3 +117,4 @@ Sistema de inteligencia continua sobre el panorama de IA. Procesado automáticam
 - 2026-07-03: Verificado el canal de "A Little Bit of Philosophy — PHI 101": Barry F. Vaughan, profesor de Mesa Community College (canal de YouTube homónimo). Se elimina el marcador [verificar canal] del curso. Queda un [verificar canal] en el video "The Real Problem With AI Agents".
 - 2026-07-08: **Originals (Adam Grant) INGESTED.** Disciplina por razonamiento (pocas reglas, muchos valores), elogio de carácter vs. conducta, y rol del mentor (expande aspiración, no motiva) integrados en `01-metodo-pedagogico/filosofia-ensenanza.md` (nuevo Principio 8), `08-sintesis/como-enseno-armonia.md` y `08-sintesis/luis-como-ingeniero-neural.md`. Cierra el paralelo que `ai-radar.md` había señalado en mayo entre el alineamiento de Claude ("Teaching Claude Why") y el método pedagógico. Material de groupthink/idea meritocracy (cap. 7, Bridgewater vs. Polaroid) registrado en `insights.md` como candidato para Migración Empresas, pendiente de validación con Luis.
 - 2026-07-13: Los 14 videos seleccionados por Luis se consolidaron con Moonshots en `D:\codex\migracion-empresas\00-fuente\videos\` (15 fuentes operativas). El KB conserva el registro y la síntesis, no copias crudas; las afirmaciones no verificadas se etiquetan como hipótesis de fuente.
+- 2026-07-13: Glosario IA interactivo creado por Luis y registrado como herramienta derivada de consulta del sistema `ainews` (53 términos).

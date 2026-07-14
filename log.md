@@ -13,6 +13,18 @@
 
 ---
 
+## [2026-07-13] actualización | Glosario IA interactivo registrado
+
+**Origen:** archivo HTML creado por Luis para consultar con rapidez los conceptos recurrentes del sistema `ainews`.
+
+**Cambio:** se incorporó `07-fuentes/ainews/glosario-ia.html` al KB y se registró en los dos índices. Contiene 53 términos con búsqueda, filtros por categoría y diseño adaptable claro/oscuro.
+
+**Criterio:** se conserva como herramienta derivada de consulta, no como fuente canónica para datos temporales. La revisión previa no detectó credenciales ni dependencias externas.
+
+**Archivos modificados:** `07-fuentes/ainews/glosario-ia.html`, `07-fuentes/indice-fuentes.md`, `index.md`, `log.md`.
+
+---
+
 ## [2026-07-13] ingest | Corpus de videos de Migración Empresas
 
 **Origen:** Luis reunió el material audiovisual que considera relevante para la línea y aclaró que el KB es solo registro; por ello la ubicación canónica quedó en `D:\codex\migracion-empresas\00-fuente\videos\`.

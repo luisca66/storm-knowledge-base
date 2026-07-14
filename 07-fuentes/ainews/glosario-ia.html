@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glosario IA — Storm Knowledge Base</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f7f6f3;
+    --surface: #ffffff;
+    --surface2: #f0efe9;
+    --border: rgba(0,0,0,0.08);
+    --border-hover: rgba(0,0,0,0.18);
+    --text: #1a1a18;
+    --text-muted: #6b6b65;
+    --text-hint: #9c9c96;
+    --accent: #4f46e5;
+    --accent-bg: #eef2ff;
+    --accent-text: #3730a3;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --radius-pill: 20px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141413;
+      --surface: #1e1e1c;
+      --surface2: #252523;
+      --border: rgba(255,255,255,0.08);
+      --border-hover: rgba(255,255,255,0.2);
+      --text: #f0efe9;
+      --text-muted: #9c9c96;
+      --text-hint: #6b6b65;
+      --accent: #818cf8;
+      --accent-bg: #1e1b4b;
+      --accent-text: #a5b4fc;
+    }
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+
+  /* Header */
+  .header {
+    background: var(--surface);
+    border-bottom: 0.5px solid var(--border);
+    padding: 2rem 2rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+  }
+  .header-top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    gap: 1rem;
+  }
+  .header h1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text);
+    letter-spacing: -0.3px;
+  }
+  .header h1 span {
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+  .badge-count {
+    font-size: 12px;
+    color: var(--accent-text);
+    background: var(--accent-bg);
+    padding: 3px 10px;
+    border-radius: var(--radius-pill);
+    white-space: nowrap;
+  }
+
+  /* Search */
+  .search-wrap {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  .search-wrap svg {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-hint);
+    pointer-events: none;
+  }
+  #search {
+    width: 100%;
+    height: 40px;
+    padding: 0 16px 0 38px;
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--surface2);
+    color: var(--text);
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  #search:focus { border-color: var(--accent); }
+  #search::placeholder { color: var(--text-hint); }
+
+  /* Filters */
+  .filters {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .filter-btn {
+    font-size: 12px;
+    padding: 5px 14px;
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-pill);
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .filter-btn:hover { border-color: var(--border-hover); color: var(--text); }
+  .filter-btn.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  /* Main */
+  .main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem 4rem;
+  }
+
+  .results-info {
+    font-size: 13px;
+    color: var(--text-hint);
+    margin-bottom: 1rem;
+  }
+
+  /* Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 10px;
+  }
+
+  /* Card */
+  .card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    cursor: pointer;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    user-select: none;
+  }
+  .card:hover {
+    border-color: var(--border-hover);
+  }
+  .card.open {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 12%, transparent);
+  }
+
+  .card-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .card-acronym {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text);
+    letter-spacing: -0.3px;
+    line-height: 1.2;
+  }
+  .card.open .card-acronym { color: var(--accent); }
+
+  .cat-tag {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: var(--radius-pill);
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .card-full {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 2px;
+  }
+
+  .card-desc {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-top: 6px;
+  }
+
+  /* Expanded */
+  .card-detail {
+    display: none;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 0.5px solid var(--border);
+  }
+  .card.open .card-detail { display: block; }
+
+  .detail-section {
+    margin-bottom: 10px;
+  }
+  .detail-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--accent-text);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+  }
+  .detail-text {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .card-chevron {
+    display: inline-block;
+    font-size: 14px;
+    color: var(--text-hint);
+    float: right;
+    margin-top: 2px;
+    transition: transform 0.2s;
+  }
+  .card.open .card-chevron { transform: rotate(180deg); }
+
+  /* Empty state */
+  .empty {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--text-hint);
+    font-size: 15px;
+    grid-column: 1 / -1;
+  }
+  .empty span { font-size: 2rem; display: block; margin-bottom: 0.5rem; }
+
+  /* Category colors */
+  .cat-modelos   { background: #eef2ff; color: #3730a3; }
+  .cat-tecnico   { background: #f0fdf4; color: #166534; }
+  .cat-agentes   { background: #fffbeb; color: #92400e; }
+  .cat-hardware  { background: #fef2f2; color: #991b1b; }
+  .cat-negocio   { background: #faf5ff; color: #6b21a8; }
+  .cat-legal     { background: #fff7ed; color: #9a3412; }
+  .cat-seguridad { background: #fef9c3; color: #713f12; }
+  .cat-ciencia   { background: #ecfdf5; color: #065f46; }
+
+  @media (prefers-color-scheme: dark) {
+    .cat-modelos   { background: #1e1b4b; color: #a5b4fc; }
+    .cat-tecnico   { background: #052e16; color: #86efac; }
+    .cat-agentes   { background: #1c1400; color: #fcd34d; }
+    .cat-hardware  { background: #1c0a0a; color: #fca5a5; }
+    .cat-negocio   { background: #2e1065; color: #d8b4fe; }
+    .cat-legal     { background: #1c0a00; color: #fdba74; }
+    .cat-seguridad { background: #1c1800; color: #fde68a; }
+    .cat-ciencia   { background: #012a1a; color: #6ee7b7; }
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 12px;
+    color: var(--text-hint);
+    border-top: 0.5px solid var(--border);
+    margin-top: 2rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <h1>Glosario IA <span>/ Storm Knowledge Base</span></h1>
+    <span class="badge-count" id="badge">52 términos</span>
+  </div>
+  <div class="search-wrap">
+    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+    </svg>
+    <input type="text" id="search" placeholder="Buscar acrónimo, nombre completo o concepto..." autocomplete="off">
+  </div>
+  <div class="filters" id="filters"></div>
+</div>
+
+<div class="main">
+  <div class="results-info" id="info"></div>
+  <div class="grid" id="grid"></div>
+</div>
+
+<div class="footer">Actualizado julio 2026 · Extraído de Storm Knowledge Base · Hecho con Claude</div>
+
+<script>
+const terms = [
+  {
+    acronym: "AGI",
+    full: "Artificial General Intelligence",
+    cat: "modelos",
+    desc: "IA de propósito general con capacidades cognitivas equivalentes o superiores al ser humano en cualquier dominio intelectual.",
+    detail: "El gran objetivo no resuelto del campo. OpenAI y Anthropic lo declaran como su misión última. Ningún sistema actual lo alcanza — los LLMs actuales son estrechos (narrow AI). El debate es si es un salto cualitativo o un continuo de mejoras.",
+    docs: "Mencionado frecuentemente en contextos de carrera armamentista entre labs, regulación y timelines. Tus docs hablan de >60% de probabilidad de I+D autónoma para finales de 2028 como paso previo."
+  },
+  {
+    acronym: "LLM",
+    full: "Large Language Model",
+    cat: "modelos",
+    desc: "Modelo de lenguaje de gran escala entrenado con enormes cantidades de texto para predecir y generar lenguaje.",
+    detail: "GPT-4, Claude, Gemini, Llama son LLMs. Se entrenan en billones de tokens de texto y aprenden patrones estadísticos del lenguaje. No 'entienden' como humanos, pero producen salidas sorprendentemente útiles.",
+    docs: "Base tecnológica de prácticamente todo lo que cubren tus documentos. La discusión ha evolucionado de LLMs como chatbots a LLMs como núcleos de agentes autónomos."
+  },
+  {
+    acronym: "GPT",
+    full: "Generative Pre-trained Transformer",
+    cat: "modelos",
+    desc: "Arquitectura de red neuronal desarrollada por OpenAI. También nombre de sus modelos (GPT-3, GPT-4, GPT-4o).",
+    detail: "La 'T' es lo crucial: Transformer, la arquitectura con mecanismo de atención publicada por Google en 2017 ('Attention is All You Need'). Pre-trained significa que se entrena primero en datos masivos, luego se afina para tareas específicas.",
+    docs: "El nombre más reconocido del campo públicamente. Tus docs lo mencionan sobre todo en contexto del juicio Musk-OpenAI y la evolución corporativa de OpenAI."
+  },
+  {
+    acronym: "RAG",
+    full: "Retrieval-Augmented Generation",
+    cat: "tecnico",
+    desc: "Técnica que combina búsqueda de información externa con generación de texto, para que el modelo acceda a datos actualizados.",
+    detail: "En vez de que el modelo 'recuerde' todo en sus parámetros, RAG busca documentos relevantes en una base de datos y los inyecta como contexto antes de generar la respuesta. Resuelve el problema de conocimiento desactualizado y alucinaciones factuales.",
+    docs: "Tus docs señalan que RAG solo no basta para agentes: necesitas también memoria episódica, semántica y procedimental. Pinecone reconoció públicamente esta limitación lanzando productos más allá de la búsqueda vectorial."
+  },
+  {
+    acronym: "RL",
+    full: "Reinforcement Learning",
+    cat: "tecnico",
+    desc: "Aprendizaje por refuerzo: el modelo aprende mediante prueba y error, recibiendo señales de recompensa por comportamientos deseados.",
+    detail: "Similar a como un animal aprende: haz algo, recibe recompensa o castigo, ajusta comportamiento. En LLMs se usa después del preentrenamiento para afinar el comportamiento. Fundamento de por qué los modelos 'siguen instrucciones'.",
+    docs: "Tus docs mencionan usar RL para entrenar modelos pequeños y específicos en producción, reduciendo dependencia de modelos propietarios pesados. También mencionado en el contexto de Anthropic Dev Day con la función 'Outcomes'."
+  },
+  {
+    acronym: "RLHF",
+    full: "Reinforcement Learning from Human Feedback",
+    cat: "tecnico",
+    desc: "Variante de RL donde humanos califican respuestas del modelo para guiar su aprendizaje hacia comportamientos más útiles y seguros.",
+    detail: "Proceso: (1) generar respuestas, (2) humanos las ranquean, (3) se entrena un 'modelo de recompensa' con esos datos, (4) se usa RL para que el LLM maximice esa recompensa. OpenAI lo popularizó con InstructGPT (2022). Anthropic usa variantes como RLAIF.",
+    docs: "Técnica fundamental que transformó los LLMs de predictores de texto a asistentes útiles. Aparece en tus docs en contexto técnico de fine-tuning y en debates sobre alineación."
+  },
+  {
+    acronym: "MCP",
+    full: "Model Context Protocol",
+    cat: "agentes",
+    desc: "Protocolo abierto de Anthropic para conectar modelos de IA con herramientas externas, APIs y fuentes de datos de forma estandarizada.",
+    detail: "Piensa en MCP como un 'USB para IA': un estándar que permite a cualquier modelo conectarse a cualquier herramienta (archivos, bases de datos, Slack, GitHub…) sin integraciones ad-hoc. Publicado como open source en noviembre 2024.",
+    docs: "Muy mencionado en tus docs. La sesión de Cowork en la que estás ahora mismo usa MCP. La 'hipótesis del sustrato' discute cómo los gestores de incidencias se convierten en la columna vertebral de los agentes a través de protocolos como MCP."
+  },
+  {
+    acronym: "API",
+    full: "Application Programming Interface",
+    cat: "tecnico",
+    desc: "Interfaz que define cómo dos sistemas de software se comunican entre sí mediante reglas y formatos predefinidos.",
+    detail: "Una API es como un menú de restaurante: defines qué puedes pedir, cómo pedirlo y qué recibirás. Cuando una app usa Claude o GPT 'por detrás', lo hace a través de su API enviando texto y recibiendo respuestas en JSON.",
+    docs: "Crítica en tus docs en el contexto de seguridad: los agentes navegan APIs sin los mismos controles que una interfaz diseñada para humanos, creando vulnerabilidades nuevas (caso McKinsey/Lily)."
+  },
+  {
+    acronym: "SDK",
+    full: "Software Development Kit",
+    cat: "tecnico",
+    desc: "Kit de herramientas, librerías y documentación que facilita a los desarrolladores construir aplicaciones sobre una plataforma.",
+    detail: "Si la API es el menú, el SDK es el kit completo con herramientas de cocina para preparar el pedido. El Claude Agent SDK facilita construir agentes sin manejar todos los detalles del protocolo a mano.",
+    docs: "Mencionado en contexto del Agent SDK de Anthropic y la maduración del ecosistema de desarrollo para agentes."
+  },
+  {
+    acronym: "GPU",
+    full: "Graphics Processing Unit",
+    cat: "hardware",
+    desc: "Procesador diseñado para cálculos paralelos masivos. Originalmente para gráficos, ahora esencial para entrenar y ejecutar modelos de IA.",
+    detail: "Los LLMs son básicamente multiplicaciones de matrices enormes. Las GPUs pueden hacer millones de esas operaciones simultáneamente. Una GPU moderna tiene miles de núcleos vs. los 8-16 de una CPU. Las NVIDIA H100 son hoy el recurso más codiciado del mundo tech.",
+    docs: "Escasez crítica mencionada en tus docs. Anthropic rentó el centro de datos Colossus 1 de SpaceX (220k GPUs H100) para paliar su crisis de cómputo."
+  },
+  {
+    acronym: "TPU",
+    full: "Tensor Processing Unit",
+    cat: "hardware",
+    desc: "Chip diseñado por Google específicamente para operaciones de machine learning, optimizado para multiplicaciones de matrices (tensores).",
+    detail: "Google creó los TPUs para no depender de NVIDIA. Son más eficientes energéticamente para inferencia y entrenamiento de modelos, pero menos flexibles. Gemini y muchos modelos de Google se entrenan en TPUs.",
+    docs: "Mencionado en contexto de la carrera de hardware para IA y la búsqueda de alternativas a la dependencia de NVIDIA."
+  },
+  {
+    acronym: "VRAM",
+    full: "Video Random Access Memory",
+    cat: "hardware",
+    desc: "Memoria integrada en el GPU. Determina qué tan grande puede ser el modelo que corre en ese chip.",
+    detail: "Un modelo de 70B parámetros en float16 ocupa ~140GB de VRAM. Una RTX 4090 consumer tiene 24GB. Por eso los grandes modelos requieren múltiples GPUs o técnicas de cuantización. Es el principal cuello de botella para modelos locales.",
+    docs: "Contexto de la discusión sobre modelos locales en el DGX Spark y la democratización de la IA de alto rendimiento."
+  },
+  {
+    acronym: "DGX",
+    full: "Data Center GPU (sistema NVIDIA)",
+    cat: "hardware",
+    desc: "Servidores de NVIDIA con múltiples GPUs integradas y red de alta velocidad, diseñados específicamente para cargas de trabajo de IA.",
+    detail: "El DGX Spark es la versión compacta 'de escritorio' con 128GB de memoria unificada. El DGX H100 tiene 8 GPUs H100. Son los sistemas que usan los labs para investigación y los que Alex Finn usa para demostrar agentes locales.",
+    docs: "Mencionado en tus docs cuando Alex Finn demuestra un agente Hermes local corriendo 24/7 con privacidad total y costo marginal casi cero."
+  },
+  {
+    acronym: "ACP",
+    full: "Agent Commerce Protocol",
+    cat: "agentes",
+    desc: "Protocolo de OpenAI y Stripe para gestionar pagos y transacciones realizadas por agentes de IA de forma programática.",
+    detail: "El problema no es técnico (cómo mover dinero) sino de governance: si un agente compra algo incorrecto, ¿quién es responsable? ¿Cómo se gestiona el reembolso? ACP intenta estandardizar autorización, límites de gasto y accountability.",
+    docs: "Tu doc del 12 de mayo lo llama 'la guerra del comercio de agentes' — ACP compite con UCP (Shopify/Google) y AP2 (Google) por convertirse en el estándar."
+  },
+  {
+    acronym: "UCP",
+    full: "Universal Commerce Protocol",
+    cat: "agentes",
+    desc: "Protocolo alternativo de Shopify y Google para gestionar el comercio realizado por agentes de IA.",
+    detail: "Mismo problema que ACP pero propuesto por un consorcio diferente. La proliferación de protocolos rivales es típica de etapas tempranas: VHS vs. Betamax, USB-A vs. USB-C antes de que uno gane.",
+    docs: "Parte de la 'guerra del comercio de agentes' en tus docs de mayo 2026. El dilema central: cómo garantizar autorización y responsabilidad cuando un agente actúa en nombre de un humano."
+  },
+  {
+    acronym: "SDLC",
+    full: "Software Development Life Cycle",
+    cat: "negocio",
+    desc: "Ciclo de vida del desarrollo de software: planificación, diseño, desarrollo, pruebas, despliegue y mantenimiento.",
+    detail: "Metodología estructurada que organiza cómo se construye software profesionalmente. Incluye fases como análisis de requisitos, arquitectura, codificación, QA y release. Es el marco de trabajo de cualquier equipo de ingeniería.",
+    docs: "Tus docs hablan de la transición del SDLC al CDLC: cuando el artefacto central ya no es el código sino el contexto (prompts, instrucciones, memoria del agente)."
+  },
+  {
+    acronym: "CDLC",
+    full: "Context Development Life Cycle",
+    cat: "agentes",
+    desc: "Concepto emergente: el ciclo de vida donde prompts, instrucciones y contexto reemplazan al código como artefacto central de desarrollo.",
+    detail: "La idea: en la era de agentes, el trabajo del 'desarrollador' es diseñar y mantener el contexto que guía al agente, no escribir líneas de código. CLAUDE.md es un ejemplo concreto: un archivo de contexto que el agente lee al iniciar.",
+    docs: "Concepto discutido en tus docs del 5 de mayo. Conecta con la 'hipótesis del sustrato' y el paradigma agent-first donde el contexto es el código."
+  },
+  {
+    acronym: "ROI",
+    full: "Return on Investment",
+    cat: "negocio",
+    desc: "Retorno sobre la inversión. Métrica financiera: (ganancia − costo) / costo × 100%.",
+    detail: "En adopción de IA empresarial, el ROI es el principal argumento de venta y el principal punto de fricción. ¿Cuánto ahorra automatizar X tarea con IA vs. el costo de implementación, mantenimiento y errores?",
+    docs: "Clave en las conversaciones de consultoría de IA mencionadas en tus docs, especialmente el modelo de auditorías de IA para PYMEs cobrando $1000 por análisis."
+  },
+  {
+    acronym: "PE",
+    full: "Private Equity",
+    cat: "negocio",
+    desc: "Capital privado: fondos de inversión institucionales que adquieren participaciones en empresas privadas para hacerlas crecer y venderlas.",
+    detail: "Los fondos PE (KKR, Blackstone, TPG, etc.) compran empresas, las optimizan durante 3-7 años y las venden. Hoy están forzando adopción de IA en sus empresas portfolio para aumentar valuación antes de la venta.",
+    docs: "Tus docs del 11 de mayo mencionan PE forzando IA en empresas legacy de forma top-down. TPG lideró la inversión en Deploy Co (OpenAI). Goldman Sachs invirtió en paralelo en OpenAI y Anthropic."
+  },
+  {
+    acronym: "IPO",
+    full: "Initial Public Offering",
+    cat: "negocio",
+    desc: "Oferta Pública Inicial: cuando una empresa privada vende acciones al público en una bolsa de valores por primera vez.",
+    detail: "El IPO es el momento de 'exit' para inversores tempranos. Requiere auditorías, reportes regulatorios y escrutinio público. La valuación en IPO marca el 'precio oficial' de la empresa.",
+    docs: "El IPO de Cerebras aparece en tus docs como señal del interés financiero en chips de IA especializados. Cerebras tiene chips de oblea única (wafer-scale) con ventajas para inferencia de baja latencia."
+  },
+  {
+    acronym: "CRM",
+    full: "Customer Relationship Management",
+    cat: "negocio",
+    desc: "Sistema para gestionar todas las interacciones con clientes: contactos, historial, oportunidades de venta, soporte.",
+    detail: "HubSpot, Salesforce, Pipedrive son CRMs. Centralizan la información del cliente. Los agentes de IA pueden leer y actualizar CRMs automáticamente: registrar llamadas, actualizar etapas de venta, crear contactos desde emails.",
+    docs: "Mencionado en el workflow de 'segundo cerebro' con Obsidian para automatizar un CRM personal. También en contexto de integración de agentes con HubSpot."
+  },
+  {
+    acronym: "SEO",
+    full: "Search Engine Optimization",
+    cat: "negocio",
+    desc: "Conjunto de técnicas para que contenido web aparezca mejor posicionado en resultados orgánicos de buscadores como Google.",
+    detail: "Incluye palabras clave, estructura de contenido, velocidad de página, backlinks. La IA está cambiando SEO radicalmente: ahora también importa aparecer bien en respuestas de AI Overviews y chatbots.",
+    docs: "Aparece en workflows de marketing con Claude: convertir automáticamente videos de YouTube en artículos SEO, generar landing pages optimizadas."
+  },
+  {
+    acronym: "KPI",
+    full: "Key Performance Indicator",
+    cat: "negocio",
+    desc: "Indicador clave de rendimiento: métrica específica y medible que indica si se están alcanzando objetivos de negocio.",
+    detail: "Un buen KPI es SMART: Específico, Medible, Alcanzable, Relevante, Temporal. En IA: tasa de alucinaciones, latencia de respuesta, costo por query, tasa de adopción de usuarios.",
+    docs: "Relevante en discusiones de implementación empresarial y en el marco de 'auditoría de trabajo humano' de tus docs."
+  },
+  {
+    acronym: "CLI",
+    full: "Command Line Interface",
+    cat: "tecnico",
+    desc: "Interfaz de línea de comandos: interacción con el sistema escribiendo comandos de texto en una terminal.",
+    detail: "La alternativa a la GUI (interfaz gráfica). Claude Code es un CLI: se usa desde la terminal escribiendo comandos. Los desarrolladores prefieren CLIs por automatizabilidad y velocidad.",
+    docs: "Claude Code se menciona como CLI en el contexto de workflows agénticos de desarrollo y automatización."
+  },
+  {
+    acronym: "GUI",
+    full: "Graphical User Interface",
+    cat: "tecnico",
+    desc: "Interfaz gráfica de usuario: interacción mediante elementos visuales — botones, menús, ventanas, iconos.",
+    detail: "Todo lo que ves en tu computador es una GUI. El problema para los agentes: las GUIs se diseñaron para humanos con ojos. Los agentes que navegan GUIs (Computer Use) son lentos e inestables comparados con los que usan APIs.",
+    docs: "Tus docs citan a Nate B. Jones: los agentes necesitan 'significado' y 'autoridad', no solo acceso a la interfaz. Tener acceso a una GUI no equivale a entender qué hacer con ella."
+  },
+  {
+    acronym: "SQL",
+    full: "Structured Query Language",
+    cat: "tecnico",
+    desc: "Lenguaje estándar para consultar y manipular bases de datos relacionales (tablas con filas y columnas).",
+    detail: "SELECT, INSERT, UPDATE, DELETE son los comandos básicos. La 'inyección SQL' es un ataque donde input malicioso se ejecuta como código SQL, permitiendo acceso no autorizado a la base de datos.",
+    docs: "Aparece en el caso de seguridad McKinsey/Lily en tus docs: hackeo por inyección SQL a una plataforma agéntica. Lección: sistemas diseñados para humanos colapsan en seguridad cuando agentes navegan sus APIs."
+  },
+  {
+    acronym: "IDE",
+    full: "Integrated Development Environment",
+    cat: "tecnico",
+    desc: "Entorno de desarrollo integrado: software que combina editor de código, debugger, terminal y herramientas en una sola aplicación.",
+    detail: "VS Code, PyCharm, Cursor son IDEs populares. Cursor es especialmente relevante porque integra IA nativamente para autocompletado y edición de código.",
+    docs: "Mencionado en contexto de herramientas de desarrollo con IA integrada. Claude Code se integra con IDEs existentes."
+  },
+  {
+    acronym: "JSON",
+    full: "JavaScript Object Notation",
+    cat: "tecnico",
+    desc: "Formato ligero de intercambio de datos. Legible por humanos y máquinas. Estándar de facto para APIs web.",
+    detail: "Ejemplo: {\"modelo\": \"claude-3\", \"tokens\": 1024}. Los agentes devuelven datos en JSON para que otros sistemas los procesen. Alternativas: XML (más verbose), YAML (más legible pero frágil).",
+    docs: "Mencionado como formato preferido para outputs estructurados de agentes. El contexto de 'preferencias de formato del usuario' en sistemas de memoria."
+  },
+  {
+    acronym: "HTML",
+    full: "HyperText Markup Language",
+    cat: "tecnico",
+    desc: "Lenguaje de marcado para estructurar contenido web. Define la estructura semántica de páginas web.",
+    detail: "No es un lenguaje de programación sino de marcado: define qué es cada cosa (<h1>, <p>, <table>). El navegador lo renderiza visualmente. Todo sitio web es HTML en su base.",
+    docs: "Tus docs del 12 de mayo argumentan que HTML es superior a Markdown para 'estados intermedios de trabajo liminal': permite interfaces más ricas y claras cuando un agente comunica trabajo en progreso."
+  },
+  {
+    acronym: "OCR",
+    full: "Optical Character Recognition",
+    cat: "tecnico",
+    desc: "Reconocimiento óptico de caracteres: tecnología que extrae texto de imágenes o documentos escaneados.",
+    detail: "Permite digitalizar documentos físicos, facturas, contratos escaneados. Los modelos de visión modernos (GPT-4V, Claude 3 Vision) hacen OCR implícitamente como parte de su capacidad multimodal.",
+    docs: "Relevante en flujos de trabajo de agentes que procesan documentos físicos digitalizados, contratos y facturas."
+  },
+  {
+    acronym: "QA",
+    full: "Quality Assurance",
+    cat: "negocio",
+    desc: "Aseguramiento de calidad: procesos y metodologías para verificar que un producto o servicio cumple estándares de calidad.",
+    detail: "En software: testing manual y automatizado, revisión de código, validación de requisitos. En IA: evaluar que el modelo responde correctamente, que no alucina, que es consistente. Las 'evals' de Anthropic son QA para modelos.",
+    docs: "Mencionado en contexto de 'Outcomes' de Anthropic Dev Day: evaluación con rúbricas para verificar que los agentes alcanzan los objetivos correctamente."
+  },
+  {
+    acronym: "CEO",
+    full: "Chief Executive Officer",
+    cat: "negocio",
+    desc: "Director Ejecutivo: máximo responsable de la gestión diaria y la dirección estratégica de una empresa.",
+    detail: "Reporta al board of directors. Es la cara pública de la empresa. En IA: Sam Altman (OpenAI), Dario Amodei (Anthropic), Sundar Pichai (Google/Alphabet), Satya Nadella (Microsoft).",
+    docs: "Frecuente en la cobertura del juicio Musk-OpenAI y en las discusiones de estrategia corporativa de los grandes labs de IA."
+  },
+  {
+    acronym: "CTO",
+    full: "Chief Technology Officer",
+    cat: "negocio",
+    desc: "Director de Tecnología: responsable de la visión y estrategia tecnológica de una empresa.",
+    detail: "Define la arquitectura técnica, lidera equipos de ingeniería, toma decisiones sobre stack tecnológico. A veces también lidera I+D.",
+    docs: "Mira Murati fue CTO de OpenAI. Su testimonio en el juicio (que Altman le mintió sobre autorizaciones de seguridad) es uno de los momentos más relevantes cubiertos en tus docs."
+  },
+  {
+    acronym: "TSMC",
+    full: "Taiwan Semiconductor Manufacturing Company",
+    cat: "hardware",
+    desc: "Mayor empresa de fabricación de semiconductores del mundo. Fabrica los chips de NVIDIA, Apple, AMD, Qualcomm y otros.",
+    detail: "TSMC tiene un monopolio de facto en los nodos más avanzados (3nm, 2nm). Es el eslabón geopolítico más crítico de la cadena de suministro de IA: sin TSMC no hay GPUs avanzadas.",
+    docs: "Mencionado en contexto de geopolítica de la IA y la dependencia crítica de Taiwán para el suministro de chips que alimentan el entrenamiento de modelos."
+  },
+  {
+    acronym: "ASML",
+    full: "Advanced Semiconductor Materials Lithography",
+    cat: "hardware",
+    desc: "Empresa holandesa que fabrica las máquinas de litografía EUV necesarias para producir chips de última generación.",
+    detail: "ASML tiene monopolio absoluto en litografía EUV (Extreme Ultraviolet). Sin sus máquinas (que cuestan ~$150M cada una), ninguna fábrica puede producir chips avanzados. Es un punto de estrangulamiento único en toda la industria tech.",
+    docs: "Mencionado en análisis geopolíticos de la cadena de suministro de semiconductores y controles de exportación a China."
+  },
+  {
+    acronym: "CRISPR",
+    full: "Clustered Regularly Interspaced Short Palindromic Repeats",
+    cat: "ciencia",
+    desc: "Tecnología de edición genética de precisión que permite cortar y modificar secuencias específicas de ADN.",
+    detail: "Funciona como unas 'tijeras moleculares programables'. Premio Nobel de Química 2020 para Jennifer Doudna y Emmanuelle Charpentier. La IA está acelerando el diseño de guías CRISPR y la predicción de off-target effects.",
+    docs: "Aparece en tus docs en contexto de biotecnología impulsada por IA, específicamente los esfuerzos de Colossal Biosciences para de-extinción de especies como el antílope 'blue buck'."
+  },
+  {
+    acronym: "DARPA",
+    full: "Defense Advanced Research Projects Agency",
+    cat: "negocio",
+    desc: "Agencia del Departamento de Defensa de EE.UU. que financia investigación de vanguardia con aplicaciones militares y civiles.",
+    detail: "DARPA financió el precursor de internet (ARPANET), GPS, y mucha investigación fundamental en IA. Su modelo: hacer apuestas de alto riesgo/alta recompensa en tecnología que el sector privado no tocaría.",
+    docs: "Mencionado en contexto histórico de la relación entre investigación militar y desarrollo de IA, y en debates sobre gobernanza de IA de doble uso."
+  },
+  {
+    acronym: "CVE",
+    full: "Common Vulnerabilities and Exposures",
+    cat: "seguridad",
+    desc: "Sistema estándar para identificar, nombrar y catalogar vulnerabilidades de seguridad conocidas públicamente.",
+    detail: "Cada vulnerabilidad conocida recibe un ID único (CVE-2024-XXXX). Un 'zero-day' es una vulnerabilidad aún no catalogada en CVE — nadie la conoce excepto quien la encontró. Las más valiosas se venden en mercados negros.",
+    docs: "Tus docs del 14 de mayo cubren cómo el Google Threat Intelligence Group documentó la primera instancia de un exploit zero-day descubierto autónomamente por IA usado en un ataque real."
+  },
+  {
+    acronym: "MMO",
+    full: "Massively Multiplayer Online",
+    cat: "tecnico",
+    desc: "Género de videojuego con miles de jugadores simultáneos interactuando en un mundo persistente online.",
+    detail: "Los MMOs crean ecosistemas complejos con economías virtuales, diplomacia, guerra y cooperación. Son entornos ideales para entrenar agentes en comportamiento social, negociación y estrategia a largo plazo.",
+    docs: "DeepMind usa Eve Online (MMO de ciencia ficción con economía compleja) como entorno de entrenamiento social y económico para agentes de IA, según tus docs de mayo 2026."
+  },
+  {
+    acronym: "UBI",
+    full: "Universal Basic Income",
+    cat: "negocio",
+    desc: "Ingreso básico universal: política de dar una cantidad fija de dinero a todos los ciudadanos sin condiciones ni requisitos.",
+    detail: "Debate: ¿cómo sostener el consumo si la IA automatiza empleos masivamente? El UBI sería el 'dividend tecnológico'. Contra: costo fiscal, desincentivo laboral. Sam Altman ha mencionado UBI en contexto del impacto económico de la AGI.",
+    docs: "Aparece en debates sobre el impacto económico del desplazamiento laboral por IA y en discusiones sobre cómo distribuir los beneficios de la automatización."
+  },
+  {
+    acronym: "GDP",
+    full: "Gross Domestic Product",
+    cat: "negocio",
+    desc: "Producto Interno Bruto (PIB): suma del valor de mercado de todos los bienes y servicios producidos en un país en un período.",
+    detail: "La métrica más usada para medir el tamaño de una economía. Se proyecta que la IA podría añadir entre 7 y 15 billones de dólares al GDP global en la próxima década, según diferentes estimaciones.",
+    docs: "Mencionado en tus docs en proyecciones macroeconómicas sobre el impacto de la IA y en debates sobre si la productividad se traduce en bienestar distribuido."
+  },
+  {
+    acronym: "PRD",
+    full: "Product Requirements Document",
+    cat: "negocio",
+    desc: "Documento que define qué debe construir un producto: funcionalidades, restricciones, usuarios objetivo y criterios de éxito.",
+    detail: "El PRD es el contrato entre producto y engineering. Define el 'qué' (no el 'cómo'). Los agentes de IA pueden generar borradores de PRD desde conversaciones con stakeholders, ahorrando horas de trabajo.",
+    docs: "Mencionado en flujos de trabajo de desarrollo de software con agentes donde el PRD es el artefacto de partida para que el agente empiece a codificar."
+  },
+  {
+    acronym: "MVP",
+    full: "Minimum Viable Product",
+    cat: "negocio",
+    desc: "Producto mínimo viable: versión con las funcionalidades mínimas para ser lanzada y aprender de usuarios reales.",
+    detail: "Concepto de lean startup de Eric Ries. La idea: lanzar rápido, aprender rápido, iterar. No construir el producto perfecto en el vacío. En IA: construir el agente más simple que resuelva el problema real antes de añadir complejidad.",
+    docs: "Filosofía adoptada en muchos de los proyectos y workflows de IA discutidos en tus documentos."
+  },
+  {
+    acronym: "OSK",
+    full: "On-Screen Keyboard",
+    cat: "tecnico",
+    desc: "Teclado virtual en pantalla para entrada de texto mediante clics o toques.",
+    detail: "Relevante en el contexto de Computer Use: cuando un agente necesita ingresar texto en una aplicación que no permite input programático, puede usar el OSK como fallback.",
+    docs: "Mencionado en contexto de herramientas de automatización de interfaces gráficas."
+  },
+  {
+    acronym: "DMCA",
+    full: "Digital Millennium Copyright Act",
+    cat: "legal",
+    desc: "Ley de copyright digital de EE.UU. (1998) que actualiza la protección de propiedad intelectual para la era de internet.",
+    detail: "Define el sistema de 'safe harbor': plataformas no son responsables del contenido de usuarios si responden a takedown notices. También regula DRM y herramientas de evasión. Muy relevante para IA entrenada en contenido con copyright.",
+    docs: "Aparece en discusiones de propiedad intelectual del contenido usado para entrenar modelos, demandas de autores/artistas contra labs de IA, y debates regulatorios."
+  },
+  {
+    acronym: "NIST",
+    full: "National Institute of Standards and Technology",
+    cat: "legal",
+    desc: "Instituto federal de EE.UU. que desarrolla estándares técnicos y marcos de trabajo para industria y gobierno.",
+    detail: "Publicó el AI Risk Management Framework (AI RMF) — el marco de referencia más usado para evaluar y gestionar riesgos de IA en organizaciones. Sus estándares no son obligatorios per se pero son muy influyentes en regulación.",
+    docs: "Marco de referencia mencionado en contexto de gobernanza y evaluación de riesgos de sistemas de IA empresariales."
+  },
+  {
+    acronym: "RPA",
+    full: "Robotic Process Automation",
+    cat: "agentes",
+    desc: "Automatización de procesos mediante 'robots de software' que imitan acciones humanas en interfaces digitales.",
+    detail: "Pre-IA: UiPath, Blue Prism, Automation Anywhere. RPA grababa y repetía clics y keystrokes. Era frágil: cualquier cambio de UI rompía el script. Los agentes de IA modernos con Computer Use son el sucesor inteligente del RPA.",
+    docs: "Mencionado en el contexto de la evolución de la automatización empresarial hacia agentes de IA más robustos y adaptables."
+  },
+  {
+    acronym: "GPQA",
+    full: "Graduate-Level Google-Proof Q&A",
+    cat: "modelos",
+    desc: "Benchmark de evaluación de LLMs con preguntas de nivel graduado que no pueden responderse buscando en Google.",
+    detail: "Diseñado por investigadores de NYU. Las preguntas requieren razonamiento profundo en biología, física y química de nivel doctoral. Un modelo que responde bien a GPQA está genuinamente razonando, no recuperando memorias textuales.",
+    docs: "Mencionado en contexto de evaluación y comparación de capacidades de diferentes modelos de IA."
+  },
+  {
+    acronym: "SWE",
+    full: "Software Engineering",
+    cat: "tecnico",
+    desc: "Ingeniería de software: disciplina de diseñar, construir y mantener software de manera sistemática y escalable.",
+    detail: "SWE-bench es un benchmark que mide qué tan bien un modelo resuelve issues reales de GitHub. Los modelos top ahora resuelven >50% de los issues de SWE-bench, marcando un hito en IA para programación.",
+    docs: "Aparece en el contexto de benchmarks de codificación y en discusiones sobre el futuro del trabajo de los desarrolladores de software."
+  },
+  {
+    acronym: "KYC",
+    full: "Know Your Customer",
+    cat: "legal",
+    desc: "Proceso regulatorio por el cual instituciones financieras verifican la identidad de sus clientes para prevenir fraude y lavado de dinero.",
+    detail: "Requerimiento legal en banca, fintech, crypto. Incluye verificación de identidad, prueba de domicilio, revisión de riesgo. Los agentes de IA están empezando a automatizar partes del proceso KYC.",
+    docs: "Mencionado en el contexto de protocolos de pago de agentes (ACP/UCP): antes de que un agente haga transacciones, ¿cómo se verifica su 'identidad' y autorización?"
+  },
+  {
+    acronym: "CUDA",
+    full: "Compute Unified Device Architecture",
+    cat: "tecnico",
+    desc: "Plataforma de computación paralela de NVIDIA que permite a los GPUs ejecutar código de propósito general (no solo gráficos).",
+    detail: "CUDA es la razón por la que los frameworks de ML (PyTorch, TensorFlow) funcionan con GPUs de NVIDIA. Es también la fuente del 'lock-in' de NVIDIA: el ecosistema de software está tan optimizado para CUDA que migrar a otra GPU es costoso.",
+    docs: "Mencionado en contexto técnico de optimización de inferencia y en la discusión sobre por qué NVIDIA domina el mercado de IA a pesar de los precios elevados."
+  },
+  {
+    acronym: "OCR",
+    full: "Optical Character Recognition",
+    cat: "tecnico",
+    desc: "Reconocimiento óptico de caracteres: extrae texto de imágenes y documentos escaneados.",
+    detail: "Permite procesar facturas, contratos, formularios físicos. Los modelos vision actuales (GPT-4V, Claude Vision) hacen OCR implícitamente.",
+    docs: "Relevante en flujos de trabajo de agentes que procesan documentos físicos."
+  },
+  {
+    acronym: "RLHF",
+    full: "Reinforcement Learning from Human Feedback",
+    cat: "tecnico",
+    desc: "Aprendizaje por refuerzo con retroalimentación humana: técnica para alinear LLMs con preferencias humanas.",
+    detail: "Proceso: generar respuestas → humanos las rankean → entrenar modelo de recompensa → RL para maximizar recompensa. Fundamento del comportamiento 'útil y seguro' de los asistentes modernos.",
+    docs: "Técnica que transformó los LLMs de predictores de texto a asistentes útiles. Discutido en contexto de alineación y fine-tuning."
+  }
+];
+
+// Remove duplicates by acronym (keep first occurrence)
+const seen = new Set();
+const terms_unique = terms.filter(t => {
+  if (seen.has(t.acronym)) return false;
+  seen.add(t.acronym);
+  return true;
+});
+
+const cats = {
+  modelos:   { label: "Modelos", cls: "cat-modelos" },
+  tecnico:   { label: "Técnico", cls: "cat-tecnico" },
+  agentes:   { label: "Agentes", cls: "cat-agentes" },
+  hardware:  { label: "Hardware", cls: "cat-hardware" },
+  negocio:   { label: "Negocio", cls: "cat-negocio" },
+  legal:     { label: "Legal",   cls: "cat-legal" },
+  seguridad: { label: "Seguridad", cls: "cat-seguridad" },
+  ciencia:   { label: "Ciencia", cls: "cat-ciencia" },
+};
+
+let activeFilter = "all";
+let openCard = null;
+
+function buildFilters() {
+  const f = document.getElementById("filters");
+  const allBtn = document.createElement("button");
+  allBtn.className = "filter-btn active";
+  allBtn.textContent = "Todos";
+  allBtn.dataset.cat = "all";
+  allBtn.onclick = () => setFilter("all", allBtn);
+  f.appendChild(allBtn);
+
+  Object.entries(cats).forEach(([key, val]) => {
+    const btn = document.createElement("button");
+    btn.className = "filter-btn";
+    btn.textContent = val.label;
+    btn.dataset.cat = key;
+    btn.onclick = () => setFilter(key, btn);
+    f.appendChild(btn);
+  });
+}
+
+function setFilter(cat, btn) {
+  activeFilter = cat;
+  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+  if (btn) btn.classList.add("active");
+  render();
+}
+
+function render() {
+  const q = document.getElementById("search").value.toLowerCase().trim();
+  const filtered = terms_unique.filter(t => {
+    const matchCat = activeFilter === "all" || t.cat === activeFilter;
+    const matchQ = !q || t.acronym.toLowerCase().includes(q)
+      || t.full.toLowerCase().includes(q)
+      || t.desc.toLowerCase().includes(q)
+      || (t.detail && t.detail.toLowerCase().includes(q));
+    return matchCat && matchQ;
+  });
+
+  document.getElementById("badge").textContent = terms_unique.length + " términos";
+  document.getElementById("info").textContent =
+    filtered.length === terms_unique.length
+      ? `${terms_unique.length} acrónimos`
+      : `${filtered.length} de ${terms_unique.length} acrónimos`;
+
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="empty"><span>🔍</span>Sin resultados para esa búsqueda.</div>';
+    return;
+  }
+
+  filtered.forEach(t => {
+    const catInfo = cats[t.cat] || { label: t.cat, cls: "" };
+    const isOpen = openCard === t.acronym;
+    const card = document.createElement("div");
+    card.className = "card" + (isOpen ? " open" : "");
+    card.innerHTML = `
+      <div class="card-head">
+        <div class="card-acronym">${t.acronym}</div>
+        <span class="cat-tag ${catInfo.cls}">${catInfo.label}</span>
+      </div>
+      <div class="card-full">${t.full}</div>
+      <div class="card-desc">${t.desc}</div>
+      <div class="card-detail">
+        ${t.detail ? `<div class="detail-section"><div class="detail-label">¿Qué es?</div><div class="detail-text">${t.detail}</div></div>` : ""}
+        ${t.docs ? `<div class="detail-section"><div class="detail-label">En tus documentos</div><div class="detail-text">${t.docs}</div></div>` : ""}
+      </div>
+    `;
+    card.onclick = () => {
+      openCard = openCard === t.acronym ? null : t.acronym;
+      render();
+    };
+    grid.appendChild(card);
+  });
+}
+
+document.getElementById("search").addEventListener("input", render);
+buildFilters();
+render();
+</script>
+</body>
+</html>
