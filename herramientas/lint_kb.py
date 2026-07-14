@@ -11,7 +11,8 @@ Es la parte "enforce, don't instruct" del lint: no depende de que el modelo
 recuerde qué revisar. La revisión de juicio (borradores estancados, duplicación
 semántica, contradicciones) sigue siendo humana/IA — ver CLAUDE.md §5.
 
-Salida esperada (2026-07-03): 165 refs OK, 119 enlaces OK, 0 roturas → "OK — KB sano".
+Las fuentes específicas de proyectos operativos no se duplican aquí; el KB
+conserva fichas wiki con frontmatter que apuntan a su ubicación canónica.
 """
 import re
 import urllib.parse
@@ -19,7 +20,6 @@ from pathlib import Path
 
 root = Path(".")
 allfiles = {p.as_posix() for p in root.rglob("*") if ".git" not in p.parts}
-
 # 1. Referencias relacionado_con en frontmatter
 broken, checked = [], 0
 for p in root.rglob("*.md"):

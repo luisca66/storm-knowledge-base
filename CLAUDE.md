@@ -27,7 +27,7 @@ Trabaja desde **Storm Studios** — su estudio físico en casa: estudio 5.1 Gene
 
 Este Knowledge Base es el **cerebro externalizado de Luis** — de su ecosistema completo (las tres líneas), no de un solo producto. Funciona según el patrón LLM Wiki de Andrej Karpathy:
 
-- **Raw sources** (`07-fuentes/`) → documentos originales, inmutables. Libros, transcripts de video, artículos.
+- **Raw sources** (`07-fuentes/`) → documentos originales e inmutables del ecosistema general. Las fuentes operativas propias de un proyecto viven en el repo de ese proyecto; el KB solo registra su ubicación y aprendizajes.
 - **The wiki** (todo lo demás) → archivos generados y mantenidos por la IA en colaboración con Luis.
 - **Este schema** (`CLAUDE.md`) → instrucciones permanentes para cualquier IA sobre cómo operar el KB.
 
@@ -131,6 +131,7 @@ storm-knowledge-base/
 └── 09-migracion-empresas/ ← Línea empresarial de IA, activa y con ingresos
     ├── README.md
     ├── entrevista_fundacional.md
+    ├── corpus-videos.md        ← registro del corpus canónico que vive en el repo operativo
     └── proyectos/
         └── indice-proyectos.md
 ```
@@ -143,7 +144,7 @@ storm-knowledge-base/
 
 ### Frontmatter obligatorio
 
-Todo archivo del wiki principal (excepto raw sources, este CLAUDE.md, el stub AGENTS.md y el ledger append-only `log.md`) debe tener:
+Todo archivo del wiki principal (excepto raw sources en `07-fuentes/`, este CLAUDE.md, el stub AGENTS.md y el ledger append-only `log.md`) debe tener:
 
 ```yaml
 ---
@@ -179,8 +180,8 @@ Cada archivo modificado debe tener al final:
 
 ### Ingesta de nueva fuente (libro, video, artículo)
 
-1. El archivo original va en `07-fuentes/libros/` o `07-fuentes/videos/` — **no se modifica**
-2. Actualizar `07-fuentes/indice-fuentes.md` con entrada del nuevo documento
+1. Si es una fuente general del ecosistema, el original va en `07-fuentes/libros/` o `07-fuentes/videos/` — **no se modifica**. Si pertenece a un proyecto operativo, vive en el repo canónico de ese proyecto y el KB conserva solo una ficha de registro.
+2. Actualizar `07-fuentes/indice-fuentes.md` o la ficha de la línea correspondiente, sin duplicar el archivo crudo.
 3. Leer la fuente y extraer insights relevantes para el proyecto
 4. Actualizar los archivos del wiki afectados (máx 10-15 archivos por fuente)
 5. Procesar insights relevantes hacia `00-contexto/insights.md`
@@ -291,7 +292,7 @@ Viven en `08-sintesis/`. Ejemplos para este proyecto:
 
 ## 7. Estado actual (actualizar en cada sesión)
 
-**Última actualización:** 2026-07-09 — Creado `05-operaciones/mapa-contextual-proyectos.md` con 29 proyectos/contextos del ecosistema y estado real de cada uno; reconciliados website, apps, Maestro Virtual, juegos Godot, Migración Empresas y discografía con esa entrevista.
+**Última actualización:** 2026-07-13 — Registrado el corpus de Migración Empresas con ubicación canónica en `D:\codex\migracion-empresas\00-fuente\videos\`; el KB conserva síntesis e historia, no copias crudas. Aclarada también la frontera entre el proyecto real de Voces y su expediente.
 
 El detalle del estado vive donde corresponde — no duplicarlo aquí:
 - **Estado por archivo** → `index.md` (catálogo con estados y estadísticas)

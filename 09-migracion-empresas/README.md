@@ -1,10 +1,11 @@
 ---
 titulo: "Migracion Empresas"
 tipo: contexto
-ultima_actualizacion: 2026-07-09
+ultima_actualizacion: 2026-07-13
 relacionado_con:
   - 09-migracion-empresas/entrevista_fundacional.md
   - 09-migracion-empresas/proyectos/indice-proyectos.md
+  - 09-migracion-empresas/corpus-videos.md
   - 05-operaciones/asesoria-ia.md
   - 00-contexto/vision-proyecto.md
 estado: en_progreso
@@ -22,8 +23,8 @@ Este archivo es la fuente canonica para documentar su identidad, propuesta, mode
 
 - Es un proyecto nuevo de Luis.
 - Está vivo con Voces Imaginarias como cliente activo.
-- Agrupa proyectos empresariales con repositorios independientes.
-- Voces Imaginarias vive dentro de Migracion Empresas y tiene su propio proyecto y repo.
+- El trabajo real vive en el workspace operativo `D:\codex\migracion-empresas`; este KB solo conserva contexto, historia y conexiones.
+- El proyecto operativo real de Voces Imaginarias es `D:\codex\migracion-empresas\voces-imaginarias`. Su expediente del asesor vive aparte en `D:\codex\migracion-empresas\03-clientes\voces-imaginarias` y no debe confundirse con el proyecto.
 - Las clases de IA pueden usar esos proyectos como contexto pedagogico, pero no son su fuente de verdad.
 
 ## Limites de documentacion
@@ -35,9 +36,10 @@ Este archivo es la fuente canonica para documentar su identidad, propuesta, mode
 - Metodo reutilizable.
 - Decisiones estrategicas.
 - Aprendizajes que puedan aplicarse entre clientes.
+- El registro y la síntesis del corpus de fuentes que vive en el repositorio operativo.
 - Estado comercial general sin exponer informacion sensible innecesaria.
 
-### Cada repo conserva
+### El workspace operativo conserva
 
 - Codigo.
 - Arquitectura tecnica detallada.
@@ -59,8 +61,15 @@ Todas las definiciones estratégicas (qué significa migrar, problema que compra
 
 La tarifa actual por sesión y el aumento planeado ya están capturados. Falta convertirlos en una estructura comercial formal: paquetes, alcance, condiciones y criterios de cierre.
 
+## Biblioteca de contexto
+
+El [registro del corpus de videos](corpus-videos.md) documenta las fuentes que Luis seleccionó para esta línea. Los transcripts canónicos viven en `D:\codex\migracion-empresas\00-fuente\videos\`. Sus principios más consistentes son: empezar por la fricción, rediseñar el flujo antes de automatizarlo, gobernar agentes con políticas explícitas, mantener responsabilidad humana y comprobar cualquier promesa contra una línea base.
+
+El repo operativo conserva los transcripts y su catálogo completo. El KB conserva la síntesis y distingue ideas operativas de cifras, casos y predicciones que todavía requieren verificación.
+
 ---
 ## Historial de Cambios
+- **2026-07-13** — Corpus de 14 videos registrado; la ubicación canónica se fijó en `D:\codex\migracion-empresas\00-fuente\videos\` junto al transcript Moonshots existente. El KB conserva solo registro y síntesis.
 - **2026-06-12** — Entrevista fundacional completada (Gemelo Digital ExO 3.0, rol de Builder, cartera de pilotos). Relación con asesorías y estado de precios reconciliados.
 - **2026-06-10** — Espacio canonico creado tras confirmar que Migracion Empresas es un proyecto nuevo y una linea activa de ingresos.
 - **2026-07-09** — Estado comercial contextual actualizado: línea viva con un cliente activo, Voces Imaginarias; Julio/microfinanciera queda vivo pero lento en el índice de proyectos.

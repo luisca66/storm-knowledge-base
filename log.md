@@ -13,6 +13,22 @@
 
 ---
 
+## [2026-07-13] ingest | Corpus de videos de Migración Empresas
+
+**Origen:** Luis reunió el material audiovisual que considera relevante para la línea y aclaró que el KB es solo registro; por ello la ubicación canónica quedó en `D:\codex\migracion-empresas\00-fuente\videos\`.
+
+**Procesamiento:** se verificaron 3 movimientos byte a byte, se incorporaron 11 fuentes nuevas y se consolidaron con Moonshots en un catálogo operativo de 15 documentos. El KB retiró las copias crudas y conserva `09-migracion-empresas/corpus-videos.md` como registro y síntesis.
+
+**Aprendizajes propagados al repo operativo:** fricción antes de herramientas; workflows antes de organigrama; backcasting desde propósito/capacidades; MTP como brújula separado de políticas; datos gobernados y portables; adopción por experiencia visible; responsabilidad humana y retiro del flujo anterior.
+
+**Frontera confirmada:** `D:\codex\migracion-empresas\voces-imaginarias` = proyecto operativo real; `D:\codex\migracion-empresas\03-clientes\voces-imaginarias` = expediente del asesor; `09-migracion-empresas/` en el KB = memoria estratégica.
+
+**Validación:** `python herramientas/lint_kb.py` → sin referencias ni enlaces rotos y sin archivos wiki carentes de frontmatter. El repo operativo pasó además su checker y la comprobación de artefactos.
+
+**Archivos modificados:** `CLAUDE.md`, `index.md`, `07-fuentes/indice-fuentes.md`, `08-sintesis/tecnologia-al-servicio-del-metodo.md`, `08-sintesis/el-musico-como-atleta.md`, `09-migracion-empresas/README.md`, `09-migracion-empresas/proyectos/indice-proyectos.md`, `09-migracion-empresas/corpus-videos.md`, `CHANGELOG.md`, `log.md`; fuentes canónicas en el repo operativo.
+
+---
+
 ## [2026-07-12] ingest | ainews 2026-07-12 → ver 07-fuentes/ainews/202607/indice_general.md
 
 ---
