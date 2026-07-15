@@ -232,5 +232,48 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *SK Hynix:* El gigante de memoria HBM debuta en Nasdaq con una valuación de $1.03T.
 - **Cuentas Trump y la Invest America Act (Brad Gerstner, Joe Gebbia, Vlad Tenev, Roth IRA):**
   - *Invest America Act:* Cuentas Trump acumulan más de 1.5 millones de descargas en 24 horas. $1,000 al nacer invertidos en el S&P 500 con apoyo corporativo (Dell, Shotwell, Gerstner). Permite aportes patronales exentos y conversión a Roth IRA.
-- **Casos de Éxito de Solopreneurs (Formula Bot, PDF.ai, Wes Roth, Damon Chen):**
   - *Ingresos Recurrentes:* Formula Bot (David Bresler) factura $226K mensuales ($2.7M anuales) sin saber programar. Damon Chen llevó pdf.ai a $1.5M anuales. Wes Roth aconseja no tercerizar el juicio en la máquina y usar la frontera para estructurar/investigar.
+
+## [13 de Julio de 2026](./resumen_opus_20260713.md)
+**Temas Principales:**
+- **La Guerra Legal "Termonuclear" entre Apple y OpenAI (Peter Diamandis, Alex Wissner-Gross, Ben Thompson):**
+  - *Demanda por Secretos:* Apple demanda a OpenAI en el Distrito Norte de California por robo de secretos comerciales de hardware de IA e incumplimiento de contrato. Acusa a Tang Tan (ex-diseñador del iPhone) y Chang Lu de sustraer archivos de red confidenciales y de reclutar a 400 empleados de Apple.
+  - *Fuga de Cerebros:* La demanda resalta la pérdida de talento clave en wearables y hardware de Apple hacia OpenAI (incluyendo la startup de Jony Ive). Refleja el resentimiento de Apple tras años difíciles por la IA.
+- **La Ráfaga de Modelos y el Fin del Duopolio en la Frontera (Peter Diamandis, Alex Wissner-Gross):**
+  - *Frontera Óptima:* La frontera de IA se expande a cuatro laboratorios americanos (Anthropic, OpenAI, Meta y SpaceX AI), dejando a Google rezagado.
+  - *Automejora Recursiva:* OpenAI promueve la auto-mejora recursiva usando Soul (gama alta) para post-entrenar de forma autónoma a Luna (gama baja).
+  - *Límites y Demanda:* El cómputo en la frontera está saturado, provocando retrasos en Fable 5. Se prevé que el mercado se disperse a modelos abiertos locales por costos e inferencia.
+- **Distribución de IA y Polarización de Modelos (Peter Diamandis, Alex Wissner-Gross):**
+  - *Distribución:* El verdadero foso se desplaza de la inteligencia a la distribución (Meta embebido en WhatsApp/Instagram, Google en Apple, OpenAI en consumo).
+  - *Bifurcación de Inteligencia:* Se prevé un mundo polarizado: superinteligencia local gratuita y de baja gama en dispositivos (tokens oscuros/Gemma) y superclústeres de alta gama (con energía nuclear) financiados por corporaciones para descubrimientos científicos.
+- **La Voz Cruzando el "Valle de lo Cool" (Peter Diamandis, Alex Wissner-Gross, Jony Ive):**
+  - *GPT Live:* El audio bidireccional (full-duplex) con baja latencia y corrección gramatical interactiva de OpenAI cruza el umbral de usabilidad masiva (Jarvis). Los competidores chinos (Qwen Streamer de Alibaba) avanzan hacia video y audio bidireccional alucinado en tiempo real.
+- **Volición y Esfuerzo Mental en la Era de la Abundancia (David Brooks, Nathaniel Whittemore, Section):**
+  - Brooks define tres arquetipos de trabajadores frente a la IA: los *pasajeros productivos* (quienes evitan esfuerzo mental, reduciendo su conectividad cerebral en un 55%), los *optimizadores renuentes* (que maximizan producción pero caen en la industrialización del desapego) y los *maratonistas mentales* (quienes usan la IA para expandir su propia agencia).
+  - Whittemore y Nate B. Jones aconsejan usar la IA para abordar tareas que aún no sabemos hacer, manteniendo la resiliencia mental frente al "AI brain fry".
+- **Estrategia Corporativa: "Agentic Pods" de Uber (Praveen Napali, Nathaniel Whittemore):**
+  - Uber adopta IA agéntica con el 99% de ingenieros y 70% de pull requests. Implementa *agentic pods* (ingenieros emparejados con expertos de negocio por dos semanas) para repensar flujos de trabajo completos en finanzas, marketing y soporte.
+- **Linajes de Modelos y el Negocio de Software (Nate B. Jones, Big Technology, Alex Kantrowitz, Ranjan Roy):**
+  - Nate B. Jones categoriza los linajes: la familia 5.x de OpenAI destaca por flujos explíts e código agéntico de larga duración, mientras que Mythos/Fable (Anthropic) sobresale en ambigüedad y diseño front-end.
+  - La app de ChatGPT Work y Claude Co-work evidencian la tensión entre herramientas diseñadas por ingenieros y las necesidades del trabajador del conocimiento promedio.
+- **Moratorias a Data Centers e Inversiones Físicas (Kathy Hochul, Janet Mills, Ken Griffin):**
+  - Nueva York impone una moratoria de un año a nuevos centros de datos de IA por impacto ecológico y demanda de agua/energía.
+
+## [14 de Julio de 2026](./resumen_opus_20260714.md)
+**Temas Principales:**
+- **La Paradoja de la Información Inversa y el Alfa Empresarial (Satya Nadella, Alex Karp):**
+  - *La Paradoja de Nadella:* El comprador de IA corre el riesgo de regalar su conocimiento propietario para poder usar y hacer útil la inteligencia que compra. Exige distribuir la infraestructura de aprendizaje a cada firma para romper los términos restrictivos de destilación de los laboratorios cerrados.
+  - *Alfa Corporativo:* Se insta a las empresas a poseer su bucle de evaluación (*evals*) y desacoplar la orquestación de cualquier modelo único.
+- **La Guerra de Precios de Meta y Desplazamiento de Margen (Zuckerberg, Alex Kantrowitz, Ranjan Roy, Gavin Baker):**
+  - *Guerra de Precios:* Meta lanza Muse Spark 1.1 a través de su model API cobrando un 25% del costo de OpenAI/Anthropic. Aprovecha la inferencia barata de sus centros de datos para competir con laboratorios cerrados.
+  - *Desplazamiento a Infraestructura:* La caída de costos transfiere los márgenes económicos de los laboratorios hacia los proveedores de cómputo físico (Nvidia, Cerebras) y nubes locales.
+- **Segundo Cerebro local con Obsidian y Karpathy (Wes Roth, Andrej Karpathy, Vannevar Bush):**
+  - *Arquitectura Memex:* Se detalla la construcción de un "segundo cerebro" (*LLM Wiki*) usando Obsidian (local-first, markdown) y Claude Code/Codex. La base de datos es plana (sin subcarpetas) para optimizar el análisis semántico de los LLMs.
+  - *Ingesta Offline:* Wes Roth ingiere y analiza 22,000 posts de X por menos de $100 usando Fable 5, rastreando algoritmos y resumiendo transcripciones pasadas.
+- **La SB 315 y el Cumplimiento Regulatorio de IA (Wissner-Gross, Illinois, Demis Hassabis):**
+  - *SB 315 de Illinois:* Se firma la ley de responsabilidad de IA más estricta que exige auditorías independientes anuales y reportes en 72 horas para labs grandes, con el apoyo estratégico de Anthropic.
+  - *Propuesta de Hassabis:* Hassabis (DeepMind) propone un cuerpo federal de estándares financiado por laboratorios de IA que exija pruebas de 30 días antes del lanzamiento para evaluar riesgos de autonomía y ciberseguridad.
+- **El Algoritmo de Reseñas de Google y Ask Maps (Caleb Ulku, Ask Maps):**
+  - Google remueve masivamente reseñas legítimas de negocios locales al intentar filtrar el spam automatizado. Afecta la visibilidad de IA en Maps, la cual depende de reseñas específicas y descriptivas en lugar del simple volumen de estrellas.
+- **Exámenes en Casa y Deshonestidad Académica (Universidad Brown, Roberto Serrano):**
+  - Un examen de bienestar en Brown para llevar a casa con acceso a ChatGPT arrojó un promedio del 96%. Al cambiar el examen final a presencial, el promedio cayó a 48.6% e iniciaron deserciones masivas, evidenciando la trampa y la pérdida de esfuerzo cognitivo de los estudiantes.
