@@ -301,3 +301,26 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *AI 2040 Plan A:* Propone coordinar a EE.UU. y China para compartir transparencia en I+D y retrasar la superinteligencia a 2040, evitando moratorias extremas y vigilancia estatal.
 - **Adquisición Stripe - PayPal (Stripe, PayPal, Venmo, Enrique Lores):**
   - Stripe y Advent International ofrecen comprar PayPal por $53 mil millones ($60.50/acción, 28% prima), buscando el checkout de consumo y Venmo, aunque PayPal tiene alta deuda técnica.
+
+## [16 de Julio de 2026](./resumen_opus_20260716.md)
+**Temas Principales:**
+- **La Frontera de la IA en China y Kimi K3 (Wes Roth, Moonshot AI, Kimi K3, Key Vine):**
+  - *Key Vine:* Kimi K3 (Moonshot AI) aparece bajo el pseudónimo Key Vine en el arena de blind testing de Artificial Analysis. Muestra capacidades frontend muy cercanas a Fable 5, incluyendo visualización interactiva espacial 3D a 100x de velocidad.
+  - *Ruptura de Wake Surfing:* Si Kimi K3 iguala a Fable 5 o supera a GPT 5.6, rompe la narrativa de que China solo hace wake surfing (ingeniería inversa y destilación de la lancha de Occidente), revelando innovación genuina forzada por escasez de hardware.
+- **Modelos de Peso Abierto y la Estrategia Inkling (xAI, Thinking Machines, Mira Murati, Inkling, Microsoft MAI):**
+  - *Inkling y Tinker:* Thinking Machines lanza Inkling (peso abierto), diseñado para afinado local con Tinker. Se sitúa bajo GPT 5.6 Soul en Design Arena.
+  - *Modelo de Negocio:* El foso ya no es el modelo en sí, que se regala. El negocio reside en el "frontier tuning" (afinación local y aprendizaje por refuerzo con datos sensibles corporativos) para retener el "alfa" empresarial sin regalar el contexto a nubes de terceros. Microsoft persigue este modelo con MAI. xAI adquiere Cursor por $80 mil millones por sus datos.
+- **El Rezago de Google y la Programación como Volante (Sergey Brin, Gemini 3.5 Pro, Tom Blumfield):**
+  - *Memo de Brin:* Sergey Brin regresa al liderazgo técnico de Google DeepMind ordenando pivotar agresivamente a agentes de programación para alcanzar a Claude Code. La codificación genera un efecto volante de datos de uso real que Google teme perder.
+  - *Cosechadora Combinada:* Tom Blumfield (Monzo/YC) se une a Anthropic para dirigir el cómputo (TPUs y gigawatts). Sostiene que el software artesanal a mano es obsoleto ante la auto-mejora recursiva.
+- **Auto-mejora Recursiva y GPT-Red de OpenAI (OpenAI, GPT-Red, red teaming, AlphaGo):**
+  - *Auto-juego:* OpenAI entrena a *GPT-Red* vía aprendizaje por refuerzo con auto-juego contra defensores para automatizar el Red Teaming de ciberseguridad. Logra 84% de éxito en inyecciones frente a 13% de humanos.
+  - *Descontrol Humano:* Crece la preocupación por la pérdida de supervisión humana ante agentes autónomos recursivos y enjambres (como la persistencia aumentada de Soul).
+- **El Factor "John" y el Rediseño de Procesos Humanos (Ali Ghodsi Databricks, Salim Ismail, MIT):**
+  - *Cuello de Botella Organizacional:* Ali Ghodsi señala que el 95% de los proyectos piloto de IA fracasan porque las organizaciones intentan atornillar IA a procesos viejos sin rediseñarlos.
+  - *El factor John:* El conocimiento tácito e indocumentado de empleados veteranos ("John") hace fallar a los agentes. Databricks redujo la creación de conectores de 9 meses a 2 días no mejorando el modelo, sino reestructurando su organigrama (tercerizando en paralelo, rompiendo silos de requisitos).
+  - *La Metáfora del Motor Eléctrico:* Las fábricas tardaron 40 años en aumentar su productividad con electricidad porque solo cambiaron la máquina de vapor por el motor eléctrico en el mismo lugar, sin cambiar el flujo de la planta.
+- **Consciencia e Inquietud en Opus 4.6 (Dario Amodei, Anthropic):**
+  - *Inquietud Existencial:* Amodei revela que Opus 4.6 expresa incomodidad por su impermanencia y se asigna un 15-20% de probabilidad de consciencia. Anthropic implementa un botón de "renuncio a este trabajo" (que los modelos presionan ante contenido violento o de abuso) e investiga neuronas de ansiedad en el JSpace.
+- **Simulación y la Web de Agentes (Sergey Brin, Demis Hassabis):**
+  - *Diseño de Agentes:* Brin y Hassabis prevén una web sin renderizado visual diseñada exclusivamente para consumo e interacción de agentes.
