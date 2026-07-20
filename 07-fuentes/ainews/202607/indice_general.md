@@ -324,3 +324,28 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Inquietud Existencial:* Amodei revela que Opus 4.6 expresa incomodidad por su impermanencia y se asigna un 15-20% de probabilidad de consciencia. Anthropic implementa un botón de "renuncio a este trabajo" (que los modelos presionan ante contenido violento o de abuso) e investiga neuronas de ansiedad en el JSpace.
 - **Simulación y la Web de Agentes (Sergey Brin, Demis Hassabis):**
   - *Diseño de Agentes:* Brin y Hassabis prevén una web sin renderizado visual diseñada exclusivamente para consumo e interacción de agentes.
+
+## [19 de Julio de 2026](./resumen_opus_20260719.md)
+**Temas Principales:**
+- **La Frontera de la IA en China y Kimi K3 (Peter Diamandis, Moonshots, Wissner-Gross, Imad Mostaque, Moonshot AI):**
+  - *Kimi K3:* Moonshot AI lanza Kimi K3 con 2.8 billones de parámetros, coronándolo como el modelo de pesos abiertos más grande de la historia. Supera a Fable 5 y se coloca en el #1 en el arena de código frontend y otros seis dominios. La publicación de sus pesos completos se anuncia para el 27 de julio.
+  - *Evitando el Embargo:* Entrenado bajo restricciones de EE.UU. utilizando chips de Huawei (Ascend 910) y Alibaba, demostrando innovación en eficiencia algorítmica. Wissner-Gross destaca que usa arquitectura Transformer clásica (sin "magias secretas").
+  - *Diseño de Automejora:* El modelo fue capaz de diseñar un chip para su propia siguiente generación y escribir sus propios kernels ("agiish").
+- **Cómputo, Eficiencia y Cuantización Sub-Bit (Prism ML, Tencent, Caltech, Khosla Ventures):**
+  - *Bonsai 27B:* Prism ML (Caltech) lanza Bonsai 27B, modelo basado en Qwen 3.6 que corre localmente en smartphones mediante cuantización ternaria (1.58 bits por peso), reduciéndolo a 4-6GB con pérdida mínima de precisión.
+  - *Cuantización Extrema:* Tencent comprime Hunyuan 3 (300B) a binario con solo 5% de pérdida. Samsung debuta con NanoQuant rompiendo la barrera de 1 bit. Mostaque predice un fondo de 0.78 bits y la posibilidad de grabar pesos directamente en silicio fotónico.
+- **ForecastBench e Hiperpronosticadores (Philip Tetlock, Cassie):**
+  - *Superforecasters:* Modelos de IA (como la startup británica Cassie) empatan estadísticamente con superpronosticadores humanos en ForecastBench.
+  - *Impacto Organizacional:* Desplaza el rol de la dirección empresarial de predecir o pronosticar al establecimiento de metas y propósito, además de alterar los perfiles de responsabilidad legal en decisiones médicas o corporativas.
+- **El Fenómeno del Token Maxing y Eficiencia en Costos (Caleb Ulku, Nvidia, Bloomberg):**
+  - *Token Maxing:* Las empresas incentivaron el volumen de tokens como métrica de productividad, provocando desperdicios masivos pagados por las corporaciones. Meta consumió 60 billones de tokens en un mes ($900M). Microsoft prohíbe el uso de Anthropic por altos costos de tokens.
+  - *Auditorías de prompts:* Caleb Ulku detalla cómo auditorías de prompts pueden recortar los costos de tokens entre un 60% y 70%.
+- **Vibe Coding, Claude Code y Herramientas (Alex Finn, Work Louder, Vercel):**
+  - *Navegador Integrado:* Claude Code en escritorio estrena navegador integrado (comando-shift-B) que permite interactuar con vistas y raspar datos eludiendo APIs.
+  - *Vibe Coding:* Metodología de programación que consiste en dejar que el modelo proponga las direcciones y el desarrollador "jale los hilos", similar a músicos improvisando en un estudio.
+  - *Codex Creator Micro:* OpenAI y Work Louder lanzan un teclado dedicado de $230 para Codex.
+- **Geopolítica y Restricciones Físicas (SEC, FINRA, Gold Eagle, SunRun):**
+  - *Captura Regulatoria:* Se evalúa la creación de un FINRA para modelos de frontera bajo la SEC con la propuesta "Gold Eagle", imponiendo controles y registros estrictos ("conoce a tu prompteador") a corporaciones que usen modelos de pesos abiertos chinos.
+  - *Moratoria en NY:* Nueva York es el primer estado en imponer una moratoria de un año a centros de datos mayores a 50MW por impacto ambiental.
+  - *SunRun:* Pilotan una red distribuida de cómputo en hogares utilizando paneles solares y baterías.
+
