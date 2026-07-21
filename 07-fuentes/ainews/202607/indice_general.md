@@ -349,3 +349,23 @@ Este índice detalla los temas, conceptos clave y flujos de trabajo (workflows) 
   - *Moratoria en NY:* Nueva York es el primer estado en imponer una moratoria de un año a centros de datos mayores a 50MW por impacto ambiental.
   - *SunRun:* Pilotan una red distribuida de cómputo en hogares utilizando paneles solares y baterías.
 
+## [20 de Julio de 2026](./resumen_opus_20260720.md)
+**Temas Principales:**
+- **El "Momento Kimi" y la Erosión de Márgenes en la Frontera (Alex Kantrowitz, Ranjan Roy, Gavin Baker, Bloomberg):**
+  - *Susto en Mercados:* La llegada de Kimi K3 (2.8T parámetros) provoca caídas en acciones de IA y semiconductores. Demuestra que el código abierto chino está a solo 4-5 meses de la frontera estadounidense.
+  - *Compresión de Márgenes:* Con precios de $3/M tokens de entrada y $15/M de salida, Gavin Baker argumenta que comprimir los márgenes del 90% de los laboratorios frontera es netamente positivo para el resto del ecosistema (software, nubes, semiconductores y energía).
+  - *Paradoja de Nadella:* Satya Nadella advierte contra regalar datos propietarios a laboratorios cerrados para usarlos. Crece la preferencia corporativa por orquestación multimodelo e infraestructura propia.
+- **Sobreregulación y el Surgimiento de los "Maniacos" (David Sacks, Tyler Cowen, TBPN):**
+  - *Crítica Regulatoria:* David Sacks denuncia la burocracia estatal y las trabas a centros de datos en EE.UU., mientras que Tyler Cowen sostiene que prohibir el código abierto chino es un error condenado al fracaso.
+  - *Maniacos de la IA:* Cowen proyecta la aparición de desarrolladores jóvenes ultracapacitados ("maniacos") que crearán startups hiperrentables de pocos empleados. Predice también la aparición de nuevas sectas religiosas creadas por agentes.
+- **El Retraso de Google y Gemini 3.5 Pro (Bloomberg, Sundar Pichai, Sergey Brin):**
+  - *Falta de Enfoque Agéntico:* Google retrasa Gemini 3.5 Pro generando frustración interna y una caída del 3.2% en acciones. Se revelan fricciones internas entre divisiones (Nube, DeepMind, Android) e ingenieros puristas opuestos a reemplazar código humano por IA.
+- **Demanda de Apple contra OpenAI por Espionaje Corporativo (Apple, OpenAI, Uber vs Waymo):**
+  - *Filtración de Hardware:* Apple demanda a OpenAI tras descubrir a empleados sustrayendo hojas de ruta confidenciales de hardware en computadoras corporativas ("lol, encontré todos los archivos"). OpenAI acumula tensiones legales con socios y rivales clave.
+- **IA Física en Cadenas de Suministro (Wiliot, Amir, IoT Pixels):**
+  - *Píxeles IoT:* Etiquetas pasivas del tamaño de estampillas postales cosechan energía Bluetooth ambiental para otorgar identidad y telemetría (temperatura/luz) a activos físicos en tiempo real, ofreciendo un ROI de 7 a 13 meses.
+- **Inferencia Corporativa, Ciberseguridad y Mitigación de Riesgos (Nate B. Jones, SemiAnalysis, Dean Ball):**
+  - *Realidad de Inferencia:* Nate B. Jones aclara que Kimi K3 exige 64 aceleradores y consumos altos de tokens, mostrando que el código abierto no equivale a inferencia barata.
+  - *Ciberamenazas y Mitigación:* Kimi K3 permite auditar y clonar software sin restricciones éticas. Jones recomienda autenticación biométrica/llaves USB, palabras clave familiares para mitigar fraudes de audio/video clonado y diversificación de proveedores.
+
+
