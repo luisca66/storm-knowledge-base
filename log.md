@@ -13,6 +13,10 @@
 
 ---
 
+## [2026-07-21] ingest | ainews 2026-07-21 → ver 07-fuentes/ainews/202607/indice_general.md
+
+---
+
 ## [2026-07-20] ingest | ainews 2026-07-20 → ver 07-fuentes/ainews/202607/indice_general.md
 
 ---
